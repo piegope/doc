@@ -4,15 +4,15 @@ module.exports = (config) => {
 
     collectionApi.getAll().filter((item) => 'trees' in item.data).forEach(item => {
       item.data.trees.forEach(t => {
+        if (!item.url) {
+          return;
+        }
+        
         let currentLevel = tree;
         const pathTree = `/${item.data.lang}/${t}/`;
         const regexTrees = new RegExp(`\/(?:${item.data.trees.join('|')})\/`, 'g');
         const url = item.url.replace(`/${item.data.tree}/`, `/${t}/`);
         item.filePathStem = item.filePathStem.replace(regexTrees, `/${t}/`);
-
-        if (!item.url) {
-          return;
-        }
 
         if (!item.filePathStem.startsWith(pathTree)) {
           item.filePathStem = item.filePathStem.replace(`/${item.data.lang}/`, pathTree);
