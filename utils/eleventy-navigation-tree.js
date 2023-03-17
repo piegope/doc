@@ -31,7 +31,7 @@ module.exports = (config) => {
               existingPath.hasData = !!item.template.frontMatter.content;
             }
 
-            currentLevel = sortTree(existingPath.children);
+            currentLevel = existingPath.children;
           } else {
             let newPart = {
               name: part,
@@ -47,19 +47,11 @@ module.exports = (config) => {
             }
 
             currentLevel.push(newPart);
-            currentLevel = sortTree(newPart.children);
+            currentLevel = newPart.children;
           }
         });
       });
     });
-
-    function sortTree(array) {
-      return array.sort((a, b) => {
-        const aHas = typeof a.order !== 'undefined';
-        const bHas = typeof b.order !== 'undefined';
-        return bHas - aHas || (aHas === true && a.order - b.order) || a.name.localeCompare(b.name)
-      })
-    }
 
     function findWhere(array, key, value) {
       t = 0;

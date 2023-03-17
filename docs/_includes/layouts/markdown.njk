@@ -1,5 +1,7 @@
 ---
 layout: 'layouts/base.njk'
+eleventyImport:
+  collections: ["eleventyNavigationTree"]
 ---
 <div class="dwd-doc-container">
   {%- macro nav(item, index) -%}
@@ -23,7 +25,7 @@ layout: 'layouts/base.njk'
             </button>
           {%- endif -%}
           <div class="nav-item-items {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
-            {%- for subItem in item.children -%}
+            {%- for subItem in item.children | sortTree -%}
               {{- nav(subItem, index + 1) -}}
             {%- endfor -%}
           </div>
@@ -31,7 +33,7 @@ layout: 'layouts/base.njk'
       </div>
     {%- else -%}
       {%- if item.children.length > 0 -%}
-        {%- for subItem in item.children -%}
+        {%- for subItem in item.children | sortTree -%}
           {{- nav(subItem, 1) -}}
         {%- endfor -%}
       {%- endif -%}
