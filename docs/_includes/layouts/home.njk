@@ -1,3 +1,6 @@
+---
+layout: 'layouts/base.njk'
+---
 <div class="dwd-header-media">
   <div class="dwd-header-media-content">
     <div class="web-site-width">
@@ -9,15 +12,17 @@
 
 <div class="dwd-section">
   <div class="web-site-width">
-    <h1>Devolutions Product Documentation</h1>
-    <p>Need help? Here is the complete coverage for all Devolutions Products, Add-ons and Companion Tools.</p>
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
 
     <nav class="grid-list">
-      {% for product, item in project %}
-        <a href="{{ item.url }}">
-          <img src="{{ item.icon }}">
-          <span>{{ item.formattedName | safe }}</span>
-        </a>
+      {% for key, project in projects %}
+        {% if project.isTopic %}
+          <a href="{{ lang | localized }}{{ project.url }}">
+            <img src="{{ project.icon }}">
+            <span>{{ project.formattedName | safe }}</span>
+          </a>
+        {% endif %}
       {% endfor %}
     </nav>
   </div>

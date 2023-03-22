@@ -2,7 +2,7 @@
 title: Devolutions Cloud Services
 ---
 
-![Devolutions Cloud Services logo](https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-color-shadow.svg)
+![Devolutions Cloud Services logo]({{ projects.cloud.logo }})
 
 {{ en.DC }} Services is the central location for all Devolutions online services. It is comprised of multiple services as summarized below.  
 

@@ -1,11 +1,20 @@
 {
   "kb": {
+    "isTopic": true,
     "icon": "https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg",
     "logo": "https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg",
     "url": "/kb/devolutions-customer-success/",
     "formattedName": "<b>Devolutions</b> Knowledge Base"
   },
+  "server": {
+    "isTopic": true,
+    "icon": "https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-icon-shadow.svg",
+    "logo": "https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-color-shadow.svg",
+    "url": "/server/overview/what-is-server/",
+    "formattedName": "<b>Devolutions</b> Server"
+  },
   "cloud": {
+    "isTopic": true,
     "icon": "https://webdevolutions.blob.core.windows.net/images/projects/cloud/logos/cloud-icon-shadow.svg",
     "logo": "https://webdevolutions.blob.core.windows.net/images/projects/cloud/logos/cloud-color-shadow.svg",
     "url": "/cloud/getting-started/devolutions-cloud-services/",
