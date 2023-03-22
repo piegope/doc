@@ -10,13 +10,12 @@ module.exports = (config) => {
         
         let currentLevel = tree;
         const pathTree = `/${item.data.lang}/${t}/`;
-        const regexTrees = new RegExp(`\/(?:${item.data.trees.join('|')})\/`, 'g');
+        const regexTrees = new RegExp(`\/(?:${item.data.trees.join('|').replace(/\//g, '\\/')})\/`, 'g');
         const url = item.url.replace(`/${item.data.tree}/`, `/${t}/`);
         item.filePathStem = item.filePathStem.replace(regexTrees, `/${t}/`);
 
         if (!item.filePathStem.startsWith(pathTree)) {
           item.filePathStem = item.filePathStem.replace(`/${item.data.lang}/`, pathTree);
-        //   url = item.data.lang === 'en' ? `/${t}${item.url}` : item.url.replace(`/${item.data.lang}/`, pathTree);
         }
 
         item.filePathStem.replace('/', '').replace('/index', '').split('/').forEach((part, i, arr) => {

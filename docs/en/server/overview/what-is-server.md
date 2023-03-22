@@ -6,7 +6,7 @@ keywords:
 - Roles
 ---
 
-![Devolutions Server logo](https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-color-shadow.svg)
+![Devolutions Server logo]({{ projects.server.logo }})
 
 {{ en.RDMS }} is an on‑premise vault for storing and sharing information across your whole organization. Manage remote connections, credentials, and sensitive information with ease.  
 

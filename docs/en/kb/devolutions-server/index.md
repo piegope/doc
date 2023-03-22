@@ -4,7 +4,7 @@ order: 20
 description: You can consult topics for the following categories about Devolutions Server':' How-To Articles, Troubleshooting Articles and Knowledge Base
 ---
 
-![Devolutions Server logo](https://webdevolutions.blob.core.windows.net/images/projects/server/logos/server-color-shadow.svg)
+![Devolutions Server logo]({{ projects.server.logo }})
 
 You can consult topics for the following categories about {{ en.DPS }}:
 
