@@ -1152,6 +1152,7 @@ New-HubEntry
 
 * VaultId  
 * PSDecryptedEntry  
+* DocumentPath  
 		</td>
 		<td>
 Adds a new entry to a specific {{ en.PHUB }} vault with the provided PSDecryptedEntry entry.
