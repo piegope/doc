@@ -27,7 +27,7 @@ module.exports = (config) => {
               existingPath.url = url;
               existingPath.order = item.data.order;
               existingPath.title = item.data.title;
-              existingPath.hasData = !!item.template.frontMatter.content;
+              existingPath.hasData = (!!item.template.frontMatter.content && item.template.frontMatter.content.replace(/(?:\\[rn]|[\r\n]+)+/g, '') !== '');
             }
 
             currentLevel = existingPath.children;
@@ -42,7 +42,7 @@ module.exports = (config) => {
               newPart.url = url;
               newPart.order = item.data.order;
               newPart.title = item.data.title;
-              newPart.hasData = !!item.template.frontMatter.content;
+              newPart.hasData = (!!item.template.frontMatter.content && item.template.frontMatter.content.replace(/(?:\\[rn]|[\r\n]+)+/g, '') !== '');
             }
 
             currentLevel.push(newPart);
