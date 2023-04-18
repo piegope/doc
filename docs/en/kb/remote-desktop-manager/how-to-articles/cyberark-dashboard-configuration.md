@@ -151,3 +151,10 @@ In both cases, you will then see a dialog box that allows you to specify the hos
     * If the CyberArk Remote machine access field is not used, you can type in any name in the control to connect to it. Please note that name resolution is performed at the PSM level. Therefore, please adhere to the standards of your CyberArk installation to achieve success.
 1. Filter field: Type in characters that fit an asset name to have a filter applied in the grid below.
 1. The grid will display entries that represent a host system. Therefore, connect to the one that represents the endpoint you need to connect to.
+
+### Using RDM Navigation Pane to establish connections
+    
+After selecting the account in the CyberArk Dashboard, you can also use the Navigation Pane to select a host, by right-clicking an entry and navigate to Connect Using menu.
+
+
+
