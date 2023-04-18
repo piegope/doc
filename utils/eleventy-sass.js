@@ -29,6 +29,8 @@ module.exports = (config) => {
 
       const css = result.css.toString() + '\n'.repeat(2) + smComment;
 
+      this.addDependencies(inputPath, result.loadedUrls);
+
       return () => {
         return css;
       };

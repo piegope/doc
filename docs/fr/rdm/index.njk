@@ -16,12 +16,12 @@ title: Remote Desktop Manager
     <h1>{{ title }}</h1>
 
     <nav class="grid-list center">
-      <a href="windows/">
+      {# <a href="windows/"> #}
         {# <img src="{{ item.icon }}"> #}
-        <span>Windows</span>
-      </a>
+        {# <span>Windows</span> #}
+      {# </a> #}
       <a href="mac/">
-        {# <img src="{{ item.icon }}"> #}
+        {{ icons.apple | safe }}
         <span>macOS</span>
       </a>
     </nav>

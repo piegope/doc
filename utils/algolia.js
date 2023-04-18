@@ -19,13 +19,15 @@ module.exports = function (results) {
 
         let locale = result.url.split('/')[1];
         let doc = result.url.split('/')[2];
+        let os = result.url.split('/')[3];
 
         if (!localeRe.test(locale)) {
           locale = defaultLocale;
           doc = result.url.split('/')[1];
+          os = result.url.split('/')[2];
         }
 
-        if (doc === "rdm") {
+        if (os === "windows") {
           return;
         }
 
