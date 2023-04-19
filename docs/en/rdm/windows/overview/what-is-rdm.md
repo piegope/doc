@@ -92,11 +92,10 @@ Linux
 iOS 
 		</td>
 		<td>
-
+![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 ![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
-(Free App) 
 		</td>
 	</tr>
 	<tr>
@@ -104,11 +103,10 @@ iOS
 Android 
 		</td>
 		<td>
-
+![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
 		</td>
 		<td>
 ![BadgeNoticeSmall.png](/img/common/BadgeNoticeSmall.png) 
-(Free App) 
 		</td>
 	</tr>
 </table>
