@@ -12,12 +12,18 @@ To connect to an [Advanced Data Source](https://helprdm.devolutions.net/datasour
 {% endsnippet %}  
 
 ## How to Install
+
+{% snippet icon.badgeCaution %} 
+Starting with {{ en.RDM }} 2023.1, PowerShell 7.2 or later is required to install the module. For {{ en.RDM }} versions prior to 2023.1, PowerShell 5.1 or later is required.
+{% endsnippet %}
+
+### PowerShell Installation
 * {{ en.RDM }} versions **2023.1 and later**:  
 `Install-Module -Name {{ en.PS }}`
 * {{ en.RDM }} versions **before 2023.1**:  
 `Install-Module -Name RemoteDesktopManager`
 
-## Manual Installation
+### Manual Installation
 On some machines, it may be required to install the PowerShell module manually. Here are the steps to complete this process:  
 * {{ en.RDM }} versions **2023.1 and later**: 
   1. Download the [{{ en.PS }} module NUPKG file](https://www.powershellgallery.com/packages/Devolutions.PowerShell/) from the PowerShell Gallery.

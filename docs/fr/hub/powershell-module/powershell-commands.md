@@ -27,7 +27,7 @@ Dans cet objet, vous avez ce qui suit :
 {% snippet icon.badgeInfo %} 
 * Pour vérifier toutes les commandes disponibles :  
 `Get-Command-Module <ModuleName>`  
-* Pour vérifier tous les arguments et paramètres potentiels définis pour une commande :  
+* Pour vérifier tous les arguments et paramètres potentiels pour une commande :  
 `Show-Command <CommandName>`  
 {% endsnippet %}
  

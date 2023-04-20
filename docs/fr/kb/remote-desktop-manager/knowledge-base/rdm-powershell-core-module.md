@@ -12,12 +12,18 @@ Pour se connecter à une [Source de données avancée](https://helprdm.devolutio
 {% endsnippet %}
  
 ## Installation 
+
+{% snippet icon.badgeCaution %} 
+À partir de {{ fr.RDM }} 2023.1, PowerShell 7.2 ou une version ultérieure est nécessaire pour l'installation du module. Pour les versions de {{ fr.RDM }} antérieures à 2023.1, PowerShell 5.1 ou une version ultérieure est nécessaire.
+{% endsnippet %}
+
+### Installation à partir de PowerShell
 * {{ fr.RDM }} versions **2023.1 et ultérieures** :  
 `Install-Module -Name {{ fr.PS }}`
 * {{ fr.RDM }} versions **antérieures à 2023.1** :  
 `Install-Module -Name RemoteDesktopManager`
 
-## Installation manuelle 
+### Installation manuelle 
 Sur certains ordinateurs, il peut être nécessaire d'installer manuellement le module PowerShell. Voici les étapes à suivre : 
 * {{ fr.RDM }} versions **2023.1 et ultérieures** : 
   1. Télécharger le [fichier NUPKG du module {{ fr.PS }}](https://www.powershellgallery.com/packages/Devolutions.PowerShell/) depuis la PowerShell Gallery.

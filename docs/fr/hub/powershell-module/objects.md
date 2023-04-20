@@ -1,9 +1,10 @@
 ---
-title: Objets du module {{ fr.PS }}
-description: 
-keywords:
-- PowerShell
-- Objects
+elenvtyComputed:
+  title: Objets du module {{ fr.PS }}
+  description: Cette section concerne les objets disponibles avec le module {{ fr.PS }} et ce dont le module aura besoin pour ses commandes. 
+  keywords:
+  - PowerShell
+  - Objects
 ---
 Cette section concerne les objets disponibles avec le module {{ fr.PS }} et ce dont le module aura besoin pour ses commandes. 
 
