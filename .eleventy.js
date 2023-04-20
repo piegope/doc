@@ -16,7 +16,10 @@ module.exports = function (config) {
   config.addPlugin(eleventyNavigationTree);
   config.setQuietMode(true);
 
-  config.addPassthroughCopy('img');
+  config.addPassthroughCopy({
+    'img': 'img',
+    'node_modules/@fontsource/space-grotesk/files': 'css/fonts'
+  });
 
   config.amendLibrary('md', mdLib => {
     mdLib.set({
