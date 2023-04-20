@@ -4,7 +4,7 @@ layout: 'layouts/base.njk'
 <div class="dwd-header-media">
   <div class="dwd-header-media-content">
     <div class="web-site-width">
-      <div id="algolia-autocomplete" data-index="docs-{{ lang }}" data-placeholder="What are you looking for?"></div>
+      <div id="algolia-autocomplete" data-index="docs-{{ lang }}" data-placeholder="{{ locale[lang].placeholderSearch }}"></div>
     </div>
   </div>
   <div class="dwd-photo-parallax bg-support"></div>
