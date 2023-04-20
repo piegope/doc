@@ -13,7 +13,7 @@
   position: fixed;
   top: var(--header-height);
   width: 100%;
-  z-index: 1001;
+  z-index: 999;
 
   .dwd-sub-header-wrapper {
     align-items: center;
@@ -26,6 +26,11 @@
     margin-right: auto;
     max-width: 1600px;
     width: 100%;
+
+    @media (max-width: 1199px) {
+      grid-template-areas: "left center";
+      grid-auto-columns: minmax(280px, 280px) minmax(0px, auto);
+    }
   }
 
   .logo {
@@ -37,6 +42,10 @@
     margin-right: auto;
     max-width: 720px;
     width: 100%;
+
+    @media (max-width: 1199px) {
+      max-width: none;
+    }
 
     #algolia-autocomplete {
       margin-left: auto;
