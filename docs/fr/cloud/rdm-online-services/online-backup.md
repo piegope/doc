@@ -10,3 +10,4 @@ Vous pourrez supprimer vos fichiers de sauvegarde de vos ***Services en ligne de
 Consultez [Configuration de la sauvegarde - Édition Windows](https://helprdm.devolutions.net/fr/file_backup_settings.html) ou [Configuration de la sauvegarde - Édition Mac](https://helprdmmac.devolutions.net/fr/file_backup_settings.html)pour plus d'informations.  
 ![!!clip0019.png](/img/fr/cloud/clip0019.png) 
 
+
