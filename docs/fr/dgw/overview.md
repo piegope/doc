@@ -2,7 +2,7 @@
 title: Survol
 order: 10
 ---
-![Devolutions Gateway logo](https://webdevolutions.blob.core.windows.net/images/projects/gateway/logos/gateway-color-shadow.svg)
+![!!Devolutions Gateway logo](https://webdevolutions.blob.core.windows.net/images/projects/gateway/logos/gateway-color-shadow.svg)
 
 {{ fr.DGW }} fournit un accès juste à temps aux ressources dans les réseaux segmentés.  
 
