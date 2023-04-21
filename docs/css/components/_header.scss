@@ -1,10 +1,7 @@
-@use '../mixins/transition' as *;
-
 .dwd-header-container {
   background-color: #000000;
   display: flex;
   height: var(--header-height);
-  @include transition(height 0.4s ease);
 }
 
 .dwd-header {
@@ -18,9 +15,6 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-  @include transition-property(padding, height);
-  @include transition-duration(0.4s);
-  @include transition-timing-function(ease);
 
   .dwd-header-wrapper {
     align-items: center;
