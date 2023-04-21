@@ -1,1 +1,8 @@
+@use "../../node_modules/@fontsource/space-grotesk/scss/mixins" as SpaceGrotesk;
+
 @import url('https://use.typekit.net/upp6rus.css');
+
+@include SpaceGrotesk.fontFace(
+  $weight: 400,
+  $fontDir: "/css/fonts"
+);

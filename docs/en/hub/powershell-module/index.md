@@ -1,18 +1,19 @@
 ---
-title: PowerShell Module
-description: The Devolutions.PowerShell module is a way to access, create, update, and remove elements in your {{ en.PHUB }} Business. This will help you to automate some operations/scripts.
-keywords:
-- PowerShell
-order: 30
+eleventyComputed:
+  title: PowerShell Module
+  description: The {{ en.PS }} module is a way to access, create, update, and remove elements in your {{ en.PHUB }} Business. This will help you to automate some operations/scripts.
+  keywords:
+  - PowerShell
+  order: 30
 ---
-The Devolutions.PowerShell module is a way to access, create, update, and remove elements in your {{ en.PHUB }} Business. This will help you to automate some operations/scripts. After you install the Devolutions.PowerShell module, you will be ready to use the module and connect to your {{ en.PHUB }} Business.  
+The {{ en.PS }} module is a way to access, create, update, and remove elements in your {{ en.PHUB }} Business. This will help you to automate some operations/scripts. After you install the {{ en.PS }} module, you will be ready to use the module and connect to your {{ en.PHUB }} Business.  
 
 ### Prerequisites 
 
 * PowerShell 7.2 or later installed:  
-    * [Windows](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows) 
-    * [macOS](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos) 
-    * [Linux](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux) 
+    * [Windows](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows) 
+    * [macOS](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos) 
+    * [Linux](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux) 
 * An [Application User](/hub/web-interface/hub-overview/administration/management/application-users/manage-application-users/) 
 
 ## Tutorials 
@@ -23,9 +24,9 @@ The Devolutions.PowerShell module is a way to access, create, update, and remove
 For the full list of available commands, see [PowerShell Commands](/hub/powershell-module/powershell-commands/). 
 {% endsnippet %}
  
-1. Once PowerShell 7.2 or later is installed, open a PowerShell terminal and install the Devolutions.PowerShell module with the following command:  
+1. Once PowerShell 7.2 or later is installed, open a PowerShell terminal and install the {{ en.PS }} module with the following command:  
 
-`Install-Module -Name Devolutions.PowerShell`  
+`Install-Module -Name {{ en.PS }}`  
 
 ![Install-Module Command](/img/en/hub/Hub2136.png)
 *Install-Module Command*{.caption} 

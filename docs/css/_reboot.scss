@@ -52,9 +52,14 @@ h5,
 h6,
 .h6 {
   color: #000000;
-  font-weight: bold;
-  letter-spacing: -0.03em;
+  font-family: $font-family-title;
+  font-weight: 400;
+  letter-spacing: -0.06em;
   max-width: 100%; // IE Fix
+}
+
+h1, .h1 {
+  font-size: 36px;
 }
 
 .web-site-width {
@@ -63,7 +68,6 @@ h6,
   max-width: calc(1200px + 48px);
   padding-left: 24px;
   padding-right: 24px;
-  transition: padding 0.4s ease;
   width: 100%;
 
   @media (max-width: 719px) {
