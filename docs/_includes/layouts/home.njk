@@ -16,13 +16,22 @@ layout: 'layouts/base.njk'
     <p>{{ description }}</p>
 
     <nav class="grid-list">
-      {% for key, project in projects %}
-        {% if project.isTopic %}
-          <a href="{{ lang | localized }}{{ project.url }}">
-            <img src="{{ project.icon }}">
-            <span>{{ project.formattedName | safe }}</span>
-          </a>
-        {% endif %}
+      {% for doc in docs %}
+        <{{ "div" if doc.links else "a href=" + locale[lang].projects[doc.name].url }}>
+          <img src="{{ locale[lang].projects[doc.name].icon }}">
+          <span>{{ locale[lang].projects[doc.name].formattedName | safe }}</span>
+
+          {% if doc.links %}
+            <nav>
+              {% for link in doc.links %}
+                <a href="{{ link.url }}">
+                  {{ link.name }}
+                  {{ icons.arrowRight | safe }}
+                </a>
+              {% endfor %}
+            </nav>
+          {% endif %}
+        </{{ "div" if doc.links else "a" }}>
       {% endfor %}
     </nav>
   </div>
