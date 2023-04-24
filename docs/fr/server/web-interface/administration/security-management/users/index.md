@@ -29,7 +29,7 @@ Ajouter un utilisateur.
 	</tr>
 	<tr>
 		<td>
-![NavImportSmall.png](/img/common/NavImportSmall.png) 
+![!!NavImportSmall.png](/img/common/NavImportSmall.png) 
 		</td>
 		<td>
 Importer des utilisateurs depuis LDAP ou Azure. 
@@ -37,7 +37,7 @@ Importer des utilisateurs depuis LDAP ou Azure.
 	</tr>
 	<tr>
 		<td>
-![RibbonRefreshGraySmall.png](/img/common/RibbonRefreshGraySmall.png) 
+![!!RibbonRefreshGraySmall.png](/img/common/RibbonRefreshGraySmall.png) 
 		</td>
 		<td>
 Actualiser la liste des utilisateurs. 
@@ -61,7 +61,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-![EditAssignGroup.png](/img/common/EditAssignGroup.png) 
+![!!EditAssignGroup.png](/img/common/EditAssignGroup.png) 
 		</td>
 		<td>
 Assigner des groupes d'utilisateurs à l'utilisateur. 
@@ -69,7 +69,7 @@ Assigner des groupes d'utilisateurs à l'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![EditAssignVault.png](/img/common/EditAssignVault.png) 
+![!!EditAssignVault.png](/img/common/EditAssignVault.png) 
 		</td>
 		<td>
 Assigner un coffre à l'utilisateur. 
@@ -77,7 +77,7 @@ Assigner un coffre à l'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![RibbonActivityReport.png](/img/common/RibbonActivityReport.png) 
+![!!RibbonActivityReport.png](/img/common/RibbonActivityReport.png) 
 		</td>
 		<td>
 Voir le rapport d'activité des utilisateurs. 
@@ -85,7 +85,7 @@ Voir le rapport d'activité des utilisateurs.
 	</tr>
 	<tr>
 		<td>
-![EditPassword.png](/img/common/EditPassword.png) 
+![!!EditPassword.png](/img/common/EditPassword.png) 
 		</td>
 		<td>
 Changer le mot de passe. 
@@ -93,7 +93,7 @@ Changer le mot de passe.
 	</tr>
 	<tr>
 		<td>
-![RibbonEditSmall.png](/img/common/RibbonEditSmall.png) 
+![!!RibbonEditSmall.png](/img/common/RibbonEditSmall.png) 
 		</td>
 		<td>
 Modifier les paramètres utilisateur. 
@@ -101,7 +101,7 @@ Modifier les paramètres utilisateur.
 	</tr>
 	<tr>
 		<td>
-![RibbonTrashSmall.png](/img/common/RibbonTrashSmall.png) 
+![!!RibbonTrashSmall.png](/img/common/RibbonTrashSmall.png) 
 		</td>
 		<td>
 Supprimer l'utilisateur. 

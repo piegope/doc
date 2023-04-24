@@ -35,7 +35,7 @@ Importer des groupes d'utilisateurs depuis LDAP ou Azure.
 	</tr>
 	<tr>
 		<td>
-![RibbonRefreshGraySmall.png](/img/common/RibbonRefreshGraySmall.png) 
+![!!RibbonRefreshGraySmall.png](/img/common/RibbonRefreshGraySmall.png) 
 		</td>
 		<td>
 Actualiser la liste des groupes d'utilisateurs. 
@@ -71,7 +71,7 @@ Assigner un coffre au groupe d'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![RibbonEditSmall.png](/img/common/RibbonEditSmall.png) 
+![!!RibbonEditSmall.png](/img/common/RibbonEditSmall.png) 
 		</td>
 		<td>
 Modifier les paramètres du groupe d'utilisateurs. 
@@ -79,7 +79,7 @@ Modifier les paramètres du groupe d'utilisateurs.
 	</tr>
 	<tr>
 		<td>
-![RibbonTrashSmall.png](/img/common/RibbonTrashSmall.png) 
+![!!RibbonTrashSmall.png](/img/common/RibbonTrashSmall.png) 
 		</td>
 		<td>
 Supprimer le groupe d'utilisateur. 

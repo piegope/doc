@@ -1,4 +1,4 @@
 ---
 title: Devolutions Workspace
-Order: 70
+order: 70
 ---
