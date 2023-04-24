@@ -1,4 +1,4 @@
 ---
 title: Devolutions Server PowerShell
-Order: 20
+order: 20
 ---

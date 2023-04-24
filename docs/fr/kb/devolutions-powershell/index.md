@@ -1,4 +1,4 @@
 ---
 title: Devolutions PowerShell
-Order: 50
+order: 35
 ---
