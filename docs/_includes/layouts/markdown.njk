@@ -19,10 +19,17 @@ eleventyImport:
         {%- endif -%}
         {%- if item.children.length > 0 -%}
           {%- if not item.hasData -%}
-            <button class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" href="{{ item.url }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
-              {{- item.title -}}
-              {{- icon['expandMore'] | safe -}}
-            </button>
+            {% if item.redirect %}
+              <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" href="{{ item.redirect }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+                {{- item.title -}}
+                {{- icon['expandMore'] | safe -}}
+              </a>
+            {% else %}
+              <button class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+                {{- item.title -}}
+                {{- icon['expandMore'] | safe -}}
+              </button>
+            {% endif %}
           {%- endif -%}
           <div class="nav-item-items {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
             {%- for subItem in item.children | sortTree -%}

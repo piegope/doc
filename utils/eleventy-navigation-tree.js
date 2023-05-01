@@ -28,6 +28,7 @@ module.exports = (config) => {
               existingPath.order = item.data.order;
               existingPath.title = item.data.title;
               existingPath.hasData = (!!item.template.frontMatter.content && item.template.frontMatter.content.replace(/(?:\\[rn]|[\r\n]+)+/g, '') !== '');
+              existingPath.redirect = item.data.redirect;
             }
 
             currentLevel = existingPath.children;
@@ -43,6 +44,7 @@ module.exports = (config) => {
               newPart.order = item.data.order;
               newPart.title = item.data.title;
               newPart.hasData = (!!item.template.frontMatter.content && item.template.frontMatter.content.replace(/(?:\\[rn]|[\r\n]+)+/g, '') !== '');
+              newPart.redirect = item.data.redirect;
             }
 
             currentLevel.push(newPart);
