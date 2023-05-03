@@ -54,11 +54,11 @@ Both properties are optional, and their default values are applied when left emp
 
 * OptionFilePath: the full path to the RemoteDesktopManager.cfg file  
 
-Default: %LOCALAPPDATA\Devolutions\RemoteDesktopManager%  
+Default: %LOCALAPPDATA%\Devolutions\RemoteDesktopManager  
 
 * RemoteDesktopManagerExecutablePath: for the use of `Start-RDMSession` or `Start-RDMProcess`  
 
-Default: %ProgramFiles(x86)%\Devolutions\Remote Desktop Manager\RemoteDesktopManager64.exe  
+Default: %ProgramFiles%\Devolutions\Remote Desktop Manager\RemoteDesktopManager.exe  
 ```
 $override = Get-RDMPowerShellOverride  
 $override.OptionFilePath = "PathToCfg" # C:\RemoteDesktopManager\2023.1\config\RemoteDesktopManager.cfg  
