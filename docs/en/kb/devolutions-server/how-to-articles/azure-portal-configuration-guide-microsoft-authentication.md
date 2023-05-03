@@ -28,7 +28,7 @@ The ***Use specific client ID for users and user groups cache*** option should o
 
 5.3. Set which ***Supported account types*** that will be allowed to connect. Usually selecting ***Accounts in this organizational directory only*** is more than enough for your Azure AD authentication.  
 
-5.4. Set the ***Redirect URI*** to ***Web*** and set a valid URL. This property must be set with the URL to reach your {{ en.DPS }} instance with ***/api/external-provider-response*** at the end.  
+5.4. Set the ***Redirect URI*** to ***Web*** and set a valid URL. This property must be set with the URL to reach your {{ en.DPS }} instance with **/api/external-provider-response** at the end.  
 ![!!KB5010.png](/img/en/kb/KB5010.png)
 5.5. Then, click on the ***Register*** button.  
 
