@@ -63,7 +63,7 @@ For security reasons, administrators always have access.
 
 In the ***{{ en.NPANE }}*** , you can use the vault selector to move between vaults.  
 ![Navigation Pane Vault Selector](/img/en/rdm/windows/clip3602.png) 
-You can change the location of the vault selector in ***File – Options – User Interface –*** ***{{ en.VLT }}s*** ***–*** ***{{ en.VLT }}*** ***location*** . By default, the selector is at the bottom of the ***{{ en.NPANE }}*** .  
+You can change the location of the vault selector in ***File – Options – User Interface –*** ***{{ en.VLT }}s*** – ***{{ en.VLT }}*** ***location*** . By default, the selector is at the bottom of the ***{{ en.NPANE }}*** .  
 ![File – Options – User Interface – Vaults – Vault location](/img/en/rdm/windows/RDMWin2141.png) 
 
 ### Move entries to a different {{ en.VLT }} 
@@ -128,8 +128,8 @@ Follow the steps below to create a ***Vault (Shortcut)*** entry.
 1. Use the ellipsis button next to the ***{{ en.VLT }}*** ***ID*** field to find the vault. In the ***Select Vault*** window, you can use the ***Search*** field to help you find it.  
 ![Select Vault](/img/en/rdm/windows/clip7039.png) 
 1. Enter a ***Folder*** path in the corresponding field to create a shortcut to a specific folder or sub-folder. To do so, follow these guidelines: 
-    * The ***Folder*** field is case sensitive. This means that, for example, writing the folder name &quot; c lients&quot; (lowercase &quot;c&quot;) will not redirect to the &quot; C lients&quot; (uppercase &quot;C&quot;) folder and vice versa. 
-    * To specify a sub-folder, write the entire path that leads to it, separating every folder with a backslash (&quot;\&quot;). Start by writing the name of the first parent folder, then name every subsequent folder in the path, and end with the last folder. For example, in the screenshot below, the parent folder is &quot;Clients&quot; and the destination folder is &quot;Windjammer&quot;. The &quot;Montreal&quot; folder is the only folder between them. 
+    * The ***Folder*** field is case sensitive. This means that, for example, writing the folder name " c lients" (lowercase "c") will not redirect to the " C lients" (uppercase "C") folder and vice versa. 
+    * To specify a sub-folder, write the entire path that leads to it, separating every folder with a backslash ("\"). Start by writing the name of the first parent folder, then name every subsequent folder in the path, and end with the last folder. For example, in the screenshot below, the parent folder is "Clients" and the destination folder is "Windjammer". The "Montreal" folder is the only folder between them. 
     ![Folder Path](/img/en/rdm/windows/RDMWin2144.png) 
 7. Click ***OK*** . 
 

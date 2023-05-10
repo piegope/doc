@@ -38,7 +38,7 @@ Purchasing an Team license grants the right to use ALL the various client applic
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-You must use a desktop application to create a team data source. This explains why the mobile applications are free. They do allow for simple usage by an individual much like the Free Edition, but they can only use , &#32; not manage , a Team data source. 
+You must use a desktop application to create a team data source. This explains why the mobile applications are free. They do allow for simple usage by an individual much like the Free Edition, but they can only use ,   not manage , a Team data source. 
 {% endsnippet %}
  
 <table>
