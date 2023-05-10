@@ -150,7 +150,7 @@ $connection.MetaInformation.CustomField3Title = "MyField"
 $RDM.Save();
 ```
 
-Veuillez noter que vous devrez modifier "MyField" pour la valeur que vous souhaitez remplacer. &#160;Le champ personnalisé #3 par exemple. 
+Veuillez noter que vous devrez modifier "MyField" pour la valeur que vous souhaitez remplacer.  Le champ personnalisé #3 par exemple. 
 
 ### Mettre à jour en lot les informations de nom de domaine complet sur les sessions 
 

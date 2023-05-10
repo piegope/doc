@@ -12,7 +12,7 @@ Avec une source de données Microsoft Azure SQL, {{ fr.RDM }} utilise la platefo
 
 Les fonctionnalités suivantes sont également prises en charge :  
 
-* ***Groupe de disponibilité &quot;Always on&quot;*** ; 
+* ***Groupe de disponibilité "Always on"*** ; 
 * ***Regroupement*** ; 
 * **Expédition des journaux*** ; 
 * ***Mise en miroir de bases de données*** . 
@@ -22,12 +22,12 @@ Les fonctionnalités suivantes sont également prises en charge :
 
 ## Configuration minimale requise de la source de donnée Azure SQL pour {{ fr.RDM }} 
 
-Microsoft Azure SQL propose différents niveaux de service dans son modèle d&apos;achat pour DTUS. Nous recommandons au minimum un forfait de niveau standard S0 pour 5 utilisateurs et plus. Visitez leur site Web pour plus d&apos;informations. 
+Microsoft Azure SQL propose différents niveaux de service dans son modèle d'achat pour DTUS. Nous recommandons au minimum un forfait de niveau standard S0 pour 5 utilisateurs et plus. Visitez leur site Web pour plus d'informations. 
 
 ## Points forts 
 
 * Prise en charge de la [gestion des utilisateurs](/fr/rdm/windows/commands/administration/management/user-management/) avec un modèle de sécurité supérieur. 
-* Prise en charge du [mode hors ligne](/fr/rdm/windows/data-sources/offline-mode/) lorsque le réseau ou le serveur n&apos;est pas disponible. 
+* Prise en charge du [mode hors ligne](/fr/rdm/windows/data-sources/offline-mode/) lorsque le réseau ou le serveur n'est pas disponible. 
 * Prise en charge des journaux de connexions et des pièces jointes. 
 
 {% snippet icon.badgeHelp %} 
@@ -90,10 +90,10 @@ Sélectionner votre mode de connexion. Choisir entre:
 	</tr>
 	<tr>
 		<td>
-Nom d&apos;utilisateur 
+Nom d'utilisateur 
 		</td>
 		<td>
-Nom d&apos;utilisateur pour se connecter à la source de données. 
+Nom d'utilisateur pour se connecter à la source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -114,10 +114,10 @@ Toujours demander le mot de passe lors de la connexion à la source de données.
 	</tr>
 	<tr>
 		<td>
-Autoriser le changement de nom d&apos;utilisateur 
+Autoriser le changement de nom d'utilisateur 
 		</td>
 		<td>
-Permets à l&apos;utilisateur de changer le nom d&apos;utilisateur (Uniquement avec Toujours demander le mot de passe d&apos;activé). 
+Permets à l'utilisateur de changer le nom d'utilisateur (Uniquement avec Toujours demander le mot de passe d'activé). 
 		</td>
 	</tr>
 	<tr>
@@ -133,7 +133,7 @@ Nom de la base de données Azure SQL.
 2 facteurs 
 		</td>
 		<td>
-Activer l&apos; [Authentification 2 facteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
+Activer l' [Authentification 2 facteurs](/fr/rdm/windows/data-sources/multi-factor-authentication/) pour accéder à votre source de données. 
 		</td>
 	</tr>
 	<tr>
@@ -165,7 +165,7 @@ DESCRIPTION
 Filtre de racine 
 		</td>
 		<td>
-Entrer le nom d&apos;un dossier de niveau racine pour afficher uniquement les entrées contenues dans ce dossier. 
+Entrer le nom d'un dossier de niveau racine pour afficher uniquement les entrées contenues dans ce dossier. 
 		</td>
 	</tr>
 	<tr>
@@ -260,7 +260,7 @@ Tester la connexion avec la base de données pour valider si les informations ap
 Envoyer le schéma au soutien via courriel 
 		</td>
 		<td>
-Envoyer votre schéma à l&apos;équipe de support Devolutions. 
+Envoyer votre schéma à l'équipe de support Devolutions. 
 		</td>
 	</tr>
 	<tr>
@@ -297,7 +297,7 @@ DESCRIPTION
 Mode de la cache 
 		</td>
 		<td>
-Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/windows/data-sources/caching/) pour plus d&apos;informations. 
+Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/windows/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>
@@ -305,7 +305,7 @@ Détermine comment les entrées seront rechargées dans la source de données. V
 Délai de connexion 
 		</td>
 		<td>
-Temps d&apos;attente avant un délai de connexion. 
+Temps d'attente avant un délai de connexion. 
 		</td>
 	</tr>
 	<tr>
@@ -313,7 +313,7 @@ Temps d&apos;attente avant un délai de connexion.
 Délai de commande 
 		</td>
 		<td>
-Temps d&apos;attente avant un délai de commande. 
+Temps d'attente avant un délai de commande. 
 		</td>
 	</tr>
 	<tr>
@@ -321,7 +321,7 @@ Temps d&apos;attente avant un délai de commande.
 Actualisation automatique 
 		</td>
 		<td>
-Définir l&apos;intervalle d&apos;actualisation automatique. 
+Définir l'intervalle d'actualisation automatique. 
 		</td>
 	</tr>
 	<tr>
@@ -337,7 +337,7 @@ Chaque fois que vous vous connecterez à votre source de données, vous serez in
 Autoriser mise à niveau de la base de donnés beta 
 		</td>
 		<td>
-Autoriser la mise à niveau beta de la base de données (lors de l&apos;utilisation d&apos;une version beta de {{ fr.RDM }} ). 
+Autoriser la mise à niveau beta de la base de données (lors de l'utilisation d'une version beta de {{ fr.RDM }} ). 
 		</td>
 	</tr>
 	<tr>
@@ -345,7 +345,7 @@ Autoriser la mise à niveau beta de la base de données (lors de l&apos;utilisat
 Gérer la cache 
 		</td>
 		<td>
-Gérer votre cache sur votre ordinateur pour l&apos;analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d&apos;informations, veuillez suivre ce [lien](/fr/rdm/windows/data-sources/manage-cache/) . 
+Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer ou le supprimer. Cela peut être très utile lorsque vous rencontrez des problèmes hors ligne. Pour plus d'informations, veuillez suivre ce [lien](/fr/rdm/windows/data-sources/manage-cache/) . 
 		</td>
 	</tr>
 	<tr>

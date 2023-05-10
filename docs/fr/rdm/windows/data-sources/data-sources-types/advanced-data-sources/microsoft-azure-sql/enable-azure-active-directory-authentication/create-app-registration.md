@@ -18,7 +18,7 @@ Pour pouvoir utiliser la méthode d'authentification Active Directory Interactiv
 ![!!RdmWin4109.png](/img/fr/rdm/windows/RdmWin4109.png) 
 1. Configurer le l'URI de redirection comme indiquée ci-dessous. 
 {% snippet icon.badgeInfo %} 
-Le ***Redirect URI*** DOIT être configuré avec ***Public client/native (mobile &amp; desktop)*** . 
+Le ***Redirect URI*** DOIT être configuré avec ***Public client/native (mobile & desktop)*** . 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -29,7 +29,7 @@ Dans notre exemple, l'URI de redirection est défini sur https<area>://mycompany
 
 6. Sélectionner les ***APIs my organization uses*** , puis taper ***Azure*** et sélectionner ***Azure SQL Database*** .  
 ![APIs my organization uses](/img/fr/rdm/windows/clip5017.png) 
-1. Sélectionner Delegated permissions ***–*** user_impersonation et cliquer sur Add permissions .  
+1. Sélectionner Delegated permissions **–*** user_impersonation et cliquer sur Add permissions .  
 ![user_impersonation](/img/fr/rdm/windows/clip5018.png) 
 1. Les autorisations API doivent ressembler à ceci. Vous visualisez la nouvelle autorisation que nous venons d'ajouter et le Microsoft Graph préexistant.  
 ![API / Permissions Name](/img/fr/rdm/windows/clip5019.png) 
