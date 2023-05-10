@@ -9,8 +9,6 @@ Active Directory Interactive (with MFA Support) allows you to authenticate on yo
 
 {% snippet icon.badgeCaution %} 
 For Azure AD authentication, download and install the Microsoft Active Directory Authentication Library for Microsoft SQL Server on every client computer.  
-
-This install the required Microsoft libraries that will enable Azure AD authentication. Please download it here : [https://www.microsoft.com/en-us/download/details.aspx?id=48742](https://www.microsoft.com/en-us/download/details.aspx?id=48742) . 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
