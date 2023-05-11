@@ -3,7 +3,7 @@ title: RDM Agent
 ---
 
 The ***{{ en.RDMA }}*** is a very powerful tool that allows commands to be run on multiple machines.  
-![More Tools - RDM Agent](/img/en/rdm/windows/clip11234.png) 
+![More Tools - RDM Agent](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11234.png) 
 
 
 ## Settings 
@@ -14,11 +14,11 @@ To launch a script through the   ***{{ en.RDMA }}*** , you first need to open an
 Execute script via Agent only needs the {{ en.RDMA }} when the script is executed from the Quick Script tab. {{ en.RDM }} needs to be fully installed on the remote computer when the script is executed from the Scripts/Tools tab. 
 {% endsnippet %}
  
-![Execute Script Via Agent](/img/en/rdm/windows/clip11244.png) 
+![Execute Script Via Agent](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11244.png) 
 
 ### Quick Script - Message 
 
-![Quick Script - Message](/img/en/rdm/windows/ExecuteScriptMessage.png) 
+![Quick Script - Message](https://webdevolutions.azureedge.net/docs/en/rdm/windows/ExecuteScriptMessage.png) 
 
 <table>
 	<tr>
@@ -41,7 +41,7 @@ Send a message to all targets.
 
 ### Quick Script - Command Line (cmd.exe) 
 
-![Quick Script - Command Line](/img/en/rdm/windows/clip10407.png) 
+![Quick Script - Command Line](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10407.png) 
 
 <table>
 	<tr>
@@ -88,7 +88,7 @@ Keep the window open after the execution of the command line.
 
 ### Quick Script - PowerShell 
 
-![Quick Script - PowerShell](/img/en/rdm/windows/clip10408.png) 
+![Quick Script - PowerShell](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10408.png) 
 
 <table>
 	<tr>
@@ -151,7 +151,7 @@ Does not exit after running startup commands.
 
 ### Quick Script - Run 
 
-![Quick Script - Run](/img/en/rdm/windows/clip10409.png) 
+![Quick Script - Run](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10409.png) 
 
 <table>
 	<tr>
@@ -198,7 +198,7 @@ Elevates the process to run as an administrator.
 
 ### Quick Script - Scripts/Tools 
 
-![Quick Script - Scripts/Tools](/img/en/rdm/windows/clip10410.png) 
+![Quick Script - Scripts/Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10410.png) 
 
 <table>
 	<tr>
@@ -221,13 +221,13 @@ Select a script or a tool session that you have already created in {{ en.RDM }} 
 
 ### Script/Tools 
 
-![Scripts/Tools](/img/en/rdm/windows/clip10411.png) 
+![Scripts/Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10411.png) 
 
 Search for a script or a tool you wish to execute through the {{ en.RDMA }} . 
 
 ### Settings 
 
-![Advanced](/img/en/rdm/windows/clip10412.png) 
+![Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10412.png) 
 
 <table>
 	<tr>
@@ -260,5 +260,5 @@ Enter the time delay between opening each selected session.
 ### Agent Status 
 
 Open a RDP session, right-click on this single session and select Agent Status. The Agent Status will show you that {{ en.RDM }} is installed on the remote computer or not, that the {{ en.RDMA }} is active or not and how many {{ en.RDM }} Jump sessions are opened.  
-![Agent Status](/img/en/rdm/windows/clip10413.png) 
+![Agent Status](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10413.png) 
 

@@ -8,18 +8,18 @@ The ***Batch Grant Access*** feature allows you to assign permissions and permis
 
 ***Batch Grant Access*** can be found in the properties of entries, folders, and vaults under ***Security – Permissions***. Set the permissions to ***Custom***, then click ***Grant Access***.
 
-![Properties – Security – Permissions](/img/en/server/ServerOp2075.png)
+![Properties – Security – Permissions](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2075.png)
 
 It can also be accessed via ***Administration***:
 1. In the {{ en.DVLS }} web interface, go to ***Administration – System Settings – Vault Management***.
 1. Under ***Default Permissions***, select ***Custom*** in the ***Permission*** drop-down menu.
-![Custom Default Permissions](/img/en/server/ServerOp2071.png)
+![Custom Default Permissions](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2071.png)
 1. Click on ***Grant Access***.
-![Grant Access](/img/en/server/ServerOp2072.png)
+![Grant Access](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2072.png)
 
 The ***Batch Grant Access*** window is now open.
 
-![Batch Grant Access](/img/en/server/ServerOp2070.png)
+![Batch Grant Access](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2070.png)
 
 The window is divided in two sections: the <a href="#permissions">permission settings</a> and the <a href="#users">user selection</a>.
 
@@ -35,7 +35,7 @@ Next, you can select the permissions that are affected by your previous choices.
 Permission sets are created and configured in ***Administration – System Settings – Vault Management – Permission Sets***.
 {% endsnippet %}
 
-![Permission Settings](/img/en/server/ServerOp2073.png)
+![Permission Settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2073.png)
 
 ### Users
 
@@ -44,4 +44,4 @@ Users can be selected one by one by checking the box next to each one, but this 
 * ***Type***: Display only users, user groups, or application users.
 * ***Selected***: Display only selected or unselected users, user groups, and application users.
 
-![User Selection](/img/en/server/ServerOp2074.png)
+![User Selection](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2074.png)

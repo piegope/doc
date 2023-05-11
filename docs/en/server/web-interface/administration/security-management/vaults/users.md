@@ -3,7 +3,7 @@ title: Users
 ---
 Grant access to users on the vault. 
 
-![Vaults - Users](/img/en/server/ServerOp8068.png)  
+![Vaults - Users](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8068.png)  
 
 <table>
 	<tr>

@@ -8,7 +8,7 @@ To refresh the data source, use ***File – Refresh*** . Do a refresh to make su
 ### Simple refresh 
 
 A simple refresh updates the data source to retrieve only the modified content. Use the above-mentioned ***File – Refresh*** or the refresh button in the ***Quick Access Toolbar*** .  
-![Refresh the Data Source](/img/en/rdm/windows/clip11279.png) 
+![Refresh the Data Source](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11279.png) 
 
 ### Local cache refresh 
 

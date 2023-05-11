@@ -5,7 +5,7 @@ Utiliser ***Fichier - Paramètres de mon compte*** pour configurer différents c
 
 ## Paramètres 
 
-![Fichier - Paramètres de mon compte](/img/fr/rdm/mac/clip4034.png) 
+![Fichier - Paramètres de mon compte](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4034.png) 
 
 <table>
 	<tr>

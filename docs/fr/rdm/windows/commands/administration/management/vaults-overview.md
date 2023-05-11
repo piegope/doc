@@ -23,7 +23,7 @@ Pour des raisons de sécurité et de performance, nous recommandons de créer un
 {% endsnippet %}
  
 1. Dans le ***Ruban*** , accéder à ***Administration – Gestion –*** ***{{ fr.VLT }}*** ***s*** .  
-![Administration – Gestion – Coffres](/img/fr/rdm/windows/RdmWin4087.png) 
+![Administration – Gestion – Coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4087.png) 
 
 {% snippet icon.badgeInfo %} 
 Si vous utilisez une source de données {{ fr.RDMS }} ou {{ fr.PHUB }} Business, la gestion des coffres est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez nos rubriques de [{{ fr.RDMS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.PHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) traitant des coffres. 
@@ -31,7 +31,7 @@ Si vous utilisez une source de données {{ fr.RDMS }} ou {{ fr.PHUB }} Business,
  
 
 2. Dans la fenêtre ***Gestion des usagers et de la sécurité*** , sélectionner l'onglet ***Coffres*** , puis cliquer sur ***Ajouter un coffre*** .  
-![Ajouter un coffre](/img/fr/rdm/windows/RdmWin4088.png) 
+![Ajouter un coffre](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4088.png) 
 1. Dans l'onglet ***Général*** , un ***ID*** sera automatiquement généré. Saisir un ***Nom*** (obligatoire) et une ***Description*** (facultatif) pour votre nouveau coffre. La création du coffre peut être effectuée aussitôt que le ***Nom*** est spécifié, mais il existe tout de même d'autres options. Elles sont présentées à la prochaine étape. 
 {% snippet icon.badgeInfo %} 
 Pour utiliser un modèle de {{ fr.VLT }} existant, vous pouvez le sélectionner dans la liste déroulante ***Modèle*** . Contrairement aux autres paramètres, celui-ci ne peut pas être configuré ultérieurement car il modifie la façon dont le coffre est créé. Renseignez-vous sur les ***Modèles*** avant de prendre une décision. 
@@ -41,7 +41,7 @@ Pour utiliser un modèle de {{ fr.VLT }} existant, vous pouvez le sélectionner 
 L'option ***Autoriser le mode hors-ligne*** est activée par défaut. Si vous la désactivez, le nouveau coffre ne pourra pas être utilisé en [mode hors-ligne](/fr/rdm/windows/data-sources/offline-mode/) . Ce paramètre peut être modifié après la création du coffre en allant dans ***Administration – Gestion –*** ***{{ fr.VLT }}s*** , puis en sélectionnant le coffre à modifier et en cliquant sur ***Modifier les paramètres du coffre*** . 
 {% endsnippet %}
  
-![Gestion du coffre – Général](/img/fr/rdm/windows/RdmWin4089.png) 
+![Gestion du coffre – Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4089.png) 
 
 4. Facultatif : Des options d' ***Utilisateurs et groupes d'utilisateurs*** ainsi que de ***Sécurité*** sont disponibles dans les autres onglets du menu de gauche. Ils sont à configurer selon vos besoins maintenant ou plus tard en allant dans ***Administration – Gestion –*** ***{{ fr.VLT }}s*** , puis en sélectionnant le coffre à modifier et en cliquant sur ***Modifier les paramètres du coffre*** .  
     1. ***Utilisateurs et groupes d'utilisateurs*** : Sélectionner quels utilisateurs et groupes d'utilisateurs auront accès à ce coffre en les cochant/décochant. 
@@ -49,32 +49,32 @@ L'option ***Autoriser le mode hors-ligne*** est activée par défaut. Si vous la
 Pour des raisons de sécurité, les administrateurs ont toujours accès aux coffres. 
 {% endsnippet %}
  
-    ![Gestion du coffre – Utilisateurs et groupes d'utilisateurs](/img/fr/rdm/windows/RDMWin2074.png)  
+    ![Gestion du coffre – Utilisateurs et groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2074.png)  
 
     2. ***Sécurité*** : Spécifier un ***Mot de passe maître*** pour l'accès au coffre et indiquer si l'ancien mot de passe doit être demandé lors du chargement.  
-    ![Gestion du coffre – Sécurité](/img/fr/rdm/windows/RDMWin2075.png) 
+    ![Gestion du coffre – Sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2075.png) 
 
 5. Cliquer sur ***OK*** . 
 1. Le nouveau {{ fr.VLT }} apparaîtra dans la fenêtre ***Gestion des usagers et de la sécurité*** . Elle peut être fermée pour accéder au {{ fr.VLT }} à partir du ***{{ fr.NPANE }}*** .  
-![Création réussie du nouveau coffre](/img/fr/rdm/windows/RDMWin2076.png) 
+![Création réussie du nouveau coffre](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2076.png) 
 
 ### Naviguer entre les {{ fr.VLT }}s 
 
 Dans le ***{{ fr.NPANE }}*** , vous pouvez utiliser le sélecteur de coffres pour vous déplacer entre les coffres.  
-![Sélecteur de coffre dans le Volet de navigation](/img/fr/rdm/windows/RdmWin4090.png) 
+![Sélecteur de coffre dans le Volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4090.png) 
 
 Vous pouvez modifier l'emplacement du sélecteur de coffres dans ***Fichier – Options – Interface utilisateur –*** ***{{ fr.VLT }}s*** ***– Emplacement du coffre*** . Par défaut, le sélecteur se trouve au bas du ***{{ fr.NPANE }}*** .  
-![Fichier – Options – Interface utilisateur – Coffres – Emplacement du coffre](/img/fr/rdm/windows/RDMWin2077.png) 
+![Fichier – Options – Interface utilisateur – Coffres – Emplacement du coffre](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2077.png) 
 
 ### Déplacer des entrées vers différents {{ fr.VLT }}s 
 
 1. Dans le ***{{ fr.NPANE }}*** , aller dans le coffre duquel vous souhaitez transférer des entrées. 
 1. Dans le ***Ruban*** , aller dans ***Modifier – Lot – Déplacer vers le coffre*** .  
-![Modifier – Lot – Déplacer vers le coffre](/img/fr/rdm/windows/RdmWin4091.png) 
+![Modifier – Lot – Déplacer vers le coffre](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4091.png) 
 1. Sélectionner le coffre vers lequel vous souhaitez déplacer les entrées, puis cliquer sur ***Suivant*** .  
-![Sélection du coffre de destination](/img/fr/rdm/windows/RdmWin4092.png) 
+![Sélection du coffre de destination](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4092.png) 
 1. Choisir les entrées que vous souhaitez transférer vers le nouveau coffre en les cochant, puis cliquer sur ***Transférer*** .  
-![Sélection des entrées à transférer](/img/fr/rdm/windows/RdmWin4093.png) 
+![Sélection des entrées à transférer](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4093.png) 
 1. Un message vous avisera du transfert réussi. Cliquer sur ***Terminer*** pour fermer la fenêtre. 
 
 Vos entrées sélectionnées se retrouvent maintenant dans le coffre de destination.  
@@ -86,20 +86,20 @@ Les {{ fr.VLT }}s simplifient la gestion des utilisateurs puisque les groupes Az
 Suivez les étapes ci-dessous pour affecter des ***Utilisateurs*** et des ***Rôles*** à des coffres.  
 
 1. Dans le ***Ruban*** , aller dans ***Administration – Gestion –*** ***{{ fr.VLT }}s*** .  
-![Administration – Gestion – Coffres](/img/fr/rdm/windows/RdmWin4087.png) 
+![Administration – Gestion – Coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4087.png) 
 {% snippet icon.badgeInfo %} 
 Si vous utilisez une source de données {{ fr.RDMS }} ou {{ fr.PHUB }} Business, la gestion des coffres est effectuée dans leurs interfaces Web respectives. Pour davantage d'informations, consultez nos rubriques de [{{ fr.RDMS }}](/fr/server/web-interface/administration/security-management/vaults/) ou [{{ fr.PHUB }}](/fr/hub/web-interface/hub-overview/administration/management/vaults/) traitant des coffres. 
 {% endsnippet %}
  
 
 2. Dans la fenêtre ***Gestion des usagers et de la sécurité*** , sélectionner l'onglet ***{{ fr.VLT }}s*** , puis cliquer sur ***Affecter des utilisateurs et rôles*** .  
-![Gestion des usagers et de la sécurité – Coffres – Affecter des utilisateurs et rôles](/img/fr/rdm/windows/RdmWin4094.png) 
+![Gestion des usagers et de la sécurité – Coffres – Affecter des utilisateurs et rôles](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4094.png) 
 1. Dans la fenêtre ***Assignation d'un coffre*** , choisir quels ***Utilisateurs*** et ***Groupes d'utilisateurs*** auront accès au coffre en cochant la case à côté. 
 {% snippet icon.shieldInfo %} 
 Pour des raisons de sécurité, les administrateurs ont toujours accès aux coffres. 
 {% endsnippet %}
  
-![Assignation d'un coffre](/img/fr/rdm/windows/RdmWin4095.png) 
+![Assignation d'un coffre](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4095.png) 
 
 4. Cliquer sur ***Enregistrer*** lorsque terminé. 
 
@@ -121,17 +121,17 @@ Suivez les étapes ci-dessous pour créer une entrée ***Coffre (Raccourci)*** .
 
 1. Dans le ***{{ fr.NPANE }}*** , aller sur la source de données et le coffre dans lesquels le raccourci sera créé. 
 1. Dans le ***Ruban*** , aller dans ***Modifier – Ajouter – Nouvelle entrée*** .  
-![Edit – Add – New Entry](/img/fr/rdm/windows/RDMWin2073.png) 
+![Edit – Add – New Entry](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2073.png) 
 1. Dans l'onglet ***Divers*** , sélectionner l'entrée de session ***Coffre (Raccourci)*** , puis cliquer sur ***OK*** .  
-![Divers – Coffre (Raccourci)](/img/fr/rdm/windows/RdmWin4098.png) 
+![Divers – Coffre (Raccourci)](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4098.png) 
 1. Dans le champ ***Nom*** , saisir un nom pour le coffre vers lequel le raccourci pointera, puis sélectionner dans la liste déroulante le ***Dossier*** dans lequel le raccourci sera créé.  
-![Nom et Dossier](/img/fr/rdm/windows/RDMWin2079.png) 
+![Nom et Dossier](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2079.png) 
 1. Utiliser le bouton des points de suspension situé à côté du champ ***ID du coffre*** pour trouver le coffre. Dans la fenêtre ***Sélectionner un coffre*** , la barre de ***Recherche*** peut être utile pour le trouver.  
-![Sélectionner un coffre](/img/fr/rdm/windows/RDMWin2078.png) 
+![Sélectionner un coffre](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2078.png) 
 1. Saisir un chemin de ***Dossier*** dans le champ correspondant pour créer un raccourci vers un dossier ou sous-dossier spécifique. Pour ce faire, suivre les directives suivantes :  
     * Le champ ***Dossier*** est sensible à la casse. Cela signifie que, par exemple, écrire le nom de dossier « c lients » (« c » minuscule) ne redirigera pas vers le dossier « C lients » (« C » majuscule) et vice-versa. 
     * Pour spécifier un sous-dossier, saisir tout le chemin qui y mène, en séparant chaque dossier par une barre oblique inverse (« \ »). Commencer par écrire le nom du premier dossier parent, puis nommer chaque dossier suivant dans la chaîne, et terminer par le dernier dossier. Par exemple, dans l'image ci-dessous, le dossier parent est « Clients » et le dossier de destination est « Windjammer ». Le dossier « Montréal » est le seul dossier situé entre les deux.  
-![Chemin du dossier](/img/fr/rdm/windows/RDMWin2080.png) 
+![Chemin du dossier](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2080.png) 
 7. Cliquer sur ***OK*** . 
 
 Votre raccourci est maintenant créé et prêt à l'utilisation. 

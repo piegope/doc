@@ -6,7 +6,7 @@ It is possible to apply a filter in the {{ en.NPANE }} tree view by typing some 
 ### Ellipsis Button 
 
 Select the ellipsis button to display the options.  
-![Ellipsis button](/img/en/rdm/windows/clip11003.png) 
+![Ellipsis button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11003.png) 
 
 The filter expression is matched against fields as selected in the filter options such as:  
 
@@ -22,10 +22,10 @@ It's possible to exclude results by choosing to display entries that match certa
 * If the session is marked as a ***Favorites*** 
 
 In Navigation options, you can limit the search parameters to specific entry types. Such as Sessions, Data Entries, etc.  
-![Search Types](/img/en/rdm/windows/clip11006.png) 
+![Search Types](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11006.png) 
 
 The Search Options offers the chance to customize your search, such as including shortcuts or favorites, making it case sensitive, and more!  
-![Search Options](/img/en/rdm/windows/clip11012.png) 
+![Search Options](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11012.png) 
 
 ### Keyboard Shortcut 
 

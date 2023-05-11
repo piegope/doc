@@ -8,7 +8,7 @@ Pour actualiser la source de données, utiliser ***Fichier - Actualiser*** . Eff
 ### Actualisation simple 
 
 Une actualisation simple met à jour la source de données pour récupérer uniquement le contenu modifié. Utiliser ***Fichier - Actualiser*** ou le bouton ***Actualiser*** dans la barre de connexion rapide.  
-![!!Refresh the data source](/img/fr/rdm/windows/clip11279.png)
+![!!Refresh the data source](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11279.png)
 
 ### Actualisation de la cache locale 
 

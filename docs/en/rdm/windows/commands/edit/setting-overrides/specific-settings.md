@@ -18,17 +18,17 @@ If both ***User Specific Settings*** and ***Local Specific Settings*** are defin
 These can also be accessed by using the right-click on an entry and going to Edit – User/Local Specific Settings . 
 {% endsnippet %}
  
-![Context menu – Edit – User and Local Specific Settings](/img/en/rdm/windows/clip10214.png) 
+![Context menu – Edit – User and Local Specific Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10214.png) 
 
 ### Specific settings indicator 
 
 An indicator icon is displayed in the dashboard when an entry with ***Specific Settings*** is selected. Click on the icon to open the ***Specific Settings*** dialog.  
-![Specific Settings indicator](/img/en/rdm/windows/clip10215.png) 
+![Specific Settings indicator](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10215.png) 
 
 ## Workflow 
 
 In the majority of cases, editing the ***Specific Settings*** displays the following dialog:  
-![User Specific Settings](/img/en/rdm/windows/clip10216.png) 
+![User Specific Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10216.png) 
 {% snippet icon.badgeInfo %} 
 ***Specific settings*** are context sensitive, and several settings might not be available for some entry types. 
 {% endsnippet %}

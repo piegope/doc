@@ -2,7 +2,7 @@
 title: User Specific Settings List
 ---
 The ***User Specific Settings List*** feature will provide all entries that are overridden with user ***Specific Settings*** .  
-![User Specific Settings List dialog](/img/en/rdm/windows/RdmWin8001.png) 
+![User Specific Settings List dialog](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin8001.png) 
 
 <table>
 	<tr>
@@ -44,7 +44,7 @@ Export
 		</td>
 		<td>
 Export a list of user Specific Settings into a .rds file. A password is required to encrypt the .rds file.  
-![!!RdmWin8002.png](/img/en/rdm/windows/RdmWin8002.png) 
+![!!RdmWin8002.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin8002.png) 
 		</td>
 	</tr>
 </table>

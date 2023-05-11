@@ -5,7 +5,7 @@ keywords:
 ---
 ***Reset Server Cache*** for specific elements. 
 
-![Administration - Reset Server Cache](/img/en/server/ServerOp8039.png)  
+![Administration - Reset Server Cache](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8039.png)  
 
 <table>
 	<tr>

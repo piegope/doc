@@ -13,17 +13,17 @@ While the following scenario is relevant for small to medium enterprises, it is 
 Our fictional company, Windjammer, has four User Groups: HelpDesk, ServiceDesk, Administrations, and Consultants. There are two client companies: Downhill Pro and Telemark.  
 
 The following tree structure represents entries which users have access to once all permissions are set:  
-![!!clip3379.png](/img/en/rdm/windows/clip3379.png) 
+![!!clip3379.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3379.png) 
 
 ### User Configuration 
 
 Here is an example for user configuration. To create users, navigate to ***Administration – Users – Add User*** .  
 
 The following rights selection is available when setting a user to ***Restricted user*** .  
-![User Management - Rights Section](/img/en/rdm/windows/clip3380.png) 
+![User Management - Rights Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3380.png) 
 
 ***Administrators*** : administrators have a lot more access than regular users. When creating these users, set the User type to ***Administrator*** to give them access to everything. The administrator can access all entries, regardless of permissions.  
-![User Management - Administrator](/img/en/rdm/windows/clip3381.png) 
+![User Management - Administrator](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3381.png) 
 
 ***Regular users (User)*** : these users have fewer rights than administrators. They essentially have all the basic rights (except for ***View Password*** ) but are susceptible to all denied permissions. Later, we will deny these rights by specifying which users can actually perform these actions.  
 
@@ -35,7 +35,7 @@ Now that the users are created, we will add the user groups which we will later 
 * ServiceDesk 
 * HelpDesk 
 * Consultants  
-![User and Security Management - User Groups](/img/en/rdm/windows/clip3472.png) 
+![User and Security Management - User Groups](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3472.png) 
 
 ### Entries Configuration 
 
@@ -48,7 +48,7 @@ Now, everything is ready to grant or deny access to the user groups.
 We will begin with the {{ en.VLT }} level folders: Downhill Pro, Telemark and Windjammer.  
 
 The permission to view the Windjammer folder will be set for the ServiceDesk only since we want them to be able to use its child entries. We don’t want the ServiceDesk to add or edit anything. We will set the ***Add*** , ***Edit*** , and ***Delete*** permissions to ***Never*** . Only the administrator will be able to add or edit entries in the Windjammer folder.  
-![Windjammer - Permissions](/img/en/rdm/windows/clip3385.png) 
+![Windjammer - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3385.png) 
 
 * ***View*** ***:*** ***Custom*** ; ServiceDesk. 
 * ***Add*** ***:*** ***Never*** ; Only the administrator can add entries. 
@@ -56,7 +56,7 @@ The permission to view the Windjammer folder will be set for the ServiceDesk onl
 * ***Delete*** ***:*** ***Never*** ; Only the administrator can delete entries. 
 
 For Downhill Pro, we will grant permissions to the ServiceDesk and the HelpDesk.  
-![Downhill Pro - Permissions](/img/en/rdm/windows/clip3386.png) 
+![Downhill Pro - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3386.png) 
 
 * ***View*** ***:*** ***Custom*** ; HelpDesk, ServiceDesk. 
 * ***Add*** ***:*** ***Custom*** ; ServiceDesk. 
@@ -66,7 +66,7 @@ For Downhill Pro, we will grant permissions to the ServiceDesk and the HelpDesk.
 We already have a good example of the flexibility of {{ en.RDM }} ’s Security. A ServiceDesk user can view and use all the entries in the Downhill Pro folder, even the credential entries, but it will never be able to see any password since View Password is Disallowed (from the {{ en.VLT }} folder).  
 
 Next, for the Telemark folder, we will grant permissions to the ServiceDesk, the HelpDesk and the Consultants. This is where things get complex. If we want the Consultants to be able to view only the Montreal folder which is a child item of Telemark, we must grant to consultants the permission to view the entire Telemark content. Then we will grant permissions on child items only to the user group that should have access to these items. This last step will deny the view permission for the consultants on the child items.  
-![Telemark - Permissions](/img/en/rdm/windows/clip3387.png) 
+![Telemark - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3387.png) 
 
 * ***View*** ***:*** ***Custom*** ; Consultants, HelpDesk, ServiceDesk. 
 * ***Add*** ***:*** ***Custom*** ; ServiceDesk. 
@@ -76,7 +76,7 @@ Next, for the Telemark folder, we will grant permissions to the ServiceDesk, the
 Since we want the users to be able to use the credential entries, we will grant the ServiceDesk and the HelpDesk the permission to view the Credentials folder. This way, the ServiceDesk and HelpDesk will be able to use the entries in the folder without revealing the passwords. Therefore, by specifying that only the HelpDesk and ServiceDesk have the ***View*** permission, we deny the view access to any user group or user that is not in the list of the permission.  
 
 The ***Add*** , ***Edit*** , and ***Delete*** permissions can be left to   ***Inherited*** since they inherit the settings from the Telemark parent folder. The ServiceDesk is the only user group that has been granted the ***Add*** and ***Edit*** permission in the parent folder and the ***Delete*** permission inherits the Never setting.  
-![Telemark / Credentials - Permissions](/img/en/rdm/windows/clip3388.png) 
+![Telemark / Credentials - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3388.png) 
 
 * ***View*** ***:*** ***Custom*** ; HelpDesk, ServiceDesk. 
 * ***Add*** ***:*** ***Inherited*** ; ServiceDesk inherited from Telemark folder. 
@@ -84,22 +84,22 @@ The ***Add*** , ***Edit*** , and ***Delete*** permissions can be left to   ***In
 * ***Delete*** ***:*** ***Inherited*** ; Never inherited from Telemark folder. 
 
 We want the ServiceDesk to be able to use the Domain Admin credential entry as well but not the HelpDesk. For this we must grant the ***View*** permission to the ServiceDesk. The ServiceDesk will still be able to edit the credential entry but will never see the password. The delete permission is set to ***Never*** .  
-![!!clip3392.png](/img/en/rdm/windows/clip3392.png) 
+![!!clip3392.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3392.png) 
 
 The last step for the Telemark child items is to set the ***View*** permission to the ServiceDesk and the HelpDesk on the Boston folder and leave every other permission of this folder to ***Default*** . This denies the Consultants to view the Boston folder. Now, the Consultants will be able to view and open entries only in the Montreal folder.  
-![Telemark / Boston - Permissions](/img/en/rdm/windows/clip3389.png) 
+![Telemark / Boston - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3389.png) 
 
 {% snippet icon.shieldCaution %} 
 Every time a new folder is added, the ***View*** permission must be set for ServiceDesk and HelpDesk to hide the new folder and its content from the Consultants. 
 {% endsnippet %}
  
 No need to set any permissions on the Montreal folder, since they are inherited from the parent folders.  
-![Telemark / Montreal - Permissions](/img/en/rdm/windows/clip3390.png) 
+![Telemark / Montreal - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3390.png) 
 
 ### In Conclusion 
 
 The permissions are now correctly set. Note that every entry added at {{ en.VLT }} level will have no security by default. This means they would be available for anyone, even the consultants. This can be confirmed by looking at the screenshot below in which the entry ***Daily routine*** is available for everyone. Here is what each user should see in the tree view:  
-![Side by Side Tree View](/img/en/rdm/windows/clip3391.png) 
+![Side by Side Tree View](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3391.png) 
 
 You can further customize your permissions by using the ***Security Settings*** tab when editing entries, or the ***Logs***   tab to add more traces of coming and goings. As always, great care must be taken when granting permissions.  
 

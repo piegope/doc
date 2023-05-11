@@ -10,5 +10,5 @@ To learn more, you can find full RDM cmdlet documentation available via the [Pow
 ## Settings 
 
 You will find on [GitHub](https://github.com/Devolutions/RDMSamples-ps) multiple PowerShell script to import edit or interact with the {{ en.RDM }} data.  
-![PowerShell](/img/en/rdm/windows/clip10369.png) 
+![PowerShell](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10369.png) 
 

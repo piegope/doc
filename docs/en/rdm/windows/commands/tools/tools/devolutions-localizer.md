@@ -12,11 +12,11 @@ A free [Devolutions Account](/cloud/devolutions-account/create-devolutions-accou
 ### Translate 
 
 1. In ***File – Languages*** , select the language(s) to translate, then click ***Ok*** .  
-![File – Languages](/img/en/rdm/windows/RdmWin4049.png) 
+![File – Languages](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4049.png) 
 1. Click on the ***Translate*** button.  
-![Translate](/img/en/rdm/windows/RDMWin2131.png) 
+![Translate](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2131.png) 
 1. Choose the file in which to translate in the ***File*** drop-down list.  
-![File Selection](/img/en/rdm/windows/RDMWin2132.png) 
+![File Selection](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2132.png) 
 1. In the lower part, you will be able to filter and review the content already translated or in need of translation. Information about each ***Resource*** line is available in the different columns. The ***Status*** field can be set to different values depending on the progress of the translation:  
 
 * ***Changed*** : The text in its original language has been modified by Devolutions. A local translator must review the localized translation and make changes if necessary. 
@@ -24,9 +24,9 @@ A free [Devolutions Account](/cloud/devolutions-account/create-devolutions-accou
 * ***Translated*** : The text has already been translated in the target language. 
 * ***Under review*** : This status is intended to help translators communicate with each other when they are unsure of the translation and/or use of a particular value. Through the ***Comment*** field, translators can also write translation notes. 
 * ***Use original*** : The text should not be translated, it should be kept in its original language. For example, this can apply to product names or third party system names.  
-![Content to Translate or Translated](/img/en/rdm/windows/RdmWin4050.png) 
+![Content to Translate or Translated](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4050.png) 
 5. To start, select a ***Resource*** line in the bottom list and click ***Translate*** . The original text will appear in the ***Original*** box.  
-![Resource Line Selection](/img/en/rdm/windows/RDMWin2133.png) 
+![Resource Line Selection](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2133.png) 
 
 {% snippet icon.badgeCaution %} 
 When translating text, you may encounter the ampersand character ("&") used in a way other than its usual meaning of "and". This is not an error: the ampersand causes the character immediately to the right of it to be underlined when displayed. Please double check before translating.  
@@ -39,10 +39,10 @@ For example, "P&roperties" will be displayed as "P r operties" with an underline
 A ***Bing*** button is available to assist you in translating your text. 
 {% endsnippet %}
  
-![Translation](/img/en/rdm/windows/clip11554.png) 
+![Translation](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11554.png) 
 
 7. When done, change the ***Status*** to ***Translated*** for this resource and click the ***Save Changes*** button. This will send your translation to our server and it will be deployed with the next release version of our applications.  
-![Change Status and Save Changes](/img/en/rdm/windows/RDMWin2134.png) 
+![Change Status and Save Changes](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2134.png) 
 
 ### Preview 
 

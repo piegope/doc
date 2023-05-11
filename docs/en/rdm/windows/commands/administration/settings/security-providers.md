@@ -38,9 +38,9 @@ Applying a new security provider does process the whole database, therefore we a
 {% endsnippet %}
  
 1. Click on Change Security Settings to change the security provider.  
-![Security Provider](/img/en/rdm/windows/clip10284.png) 
+![Security Provider](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10284.png) 
 1. Select a security type from the drop-down list.  
-![Security Type](/img/en/rdm/windows/clip10285.png) 
+![Security Type](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10285.png) 
 
 <table>
 	<tr>
@@ -83,7 +83,7 @@ Set up a Certificate for the Security Provider.
 If the passphrase is lost, nothing that can be done to recover the data. When using a passphrase, always copy it to a secure location. 
 {% endsnippet %}
  
-![Security Provider - Shared Passphrase](/img/en/rdm/windows/clip3436.png) 
+![Security Provider - Shared Passphrase](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3436.png) 
 
 Entries configuration data is encrypted using a mix of a key stored in {{ en.RDM }} and the passphrase you've entered.  
 
@@ -107,7 +107,7 @@ In a portable installation of RDM, the passphrase will be saved at the same loca
 ## Certificate 
 
 When choosing ***Certificate*** as Security Provider, entries configuration data is encrypted using a mix of a key stored in {{ en.RDM }} and the private key contained in the certificate.  
-![Security Provider - Certificate](/img/en/rdm/windows/clip10286.png) 
+![Security Provider - Certificate](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10286.png) 
 
 <table>
 	<tr>
@@ -160,7 +160,7 @@ Select an existing RSA certificate.
 ### Create Certificate 
 
 It is possible to create a Self Signed certificate by clicking on ***Create Certificate*** .  
-![Self Signed Certificate](/img/en/rdm/windows/clip10288.png) 
+![Self Signed Certificate](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10288.png) 
 
 <table>
 	<tr>

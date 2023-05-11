@@ -11,29 +11,29 @@ Si vous avez déjà un compte pour le site Web, apprenez plutôt comment [Ajoute
 Suivez les étapes ci-dessous pour créer un compte de site Web avec {{ fr.DWL }} et sauvegarder vos identifiants dans {{ fr.RDM }} .  
 
 1. Sur le site Web pour lequel vous souhaitez créer votre compte, aller à la page d'inscription/création de compte. Cette page sera différente pour chaque site Web; cette rubrique utilisera le site Web d'Atlassian comme exemple.  
-![Page d'enregistrement](/img/fr/rdm/windows/RDMWin2091.png) 
+![Page d'enregistrement](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2091.png) 
 1. Suivre le processus d'enregistrement du site Web jusqu'à atteindre le champ du mot de passe. 
 1. Cliquer sur l'icône {{ fr.DWL }} dans la barre d'outils de votre navigateur, puis sélectionner l'onglet ***Générateur de mots de passe*** dans le ***Menu latéral*** de l'extension.  
-![Onglet du Générateur de mots de passe](/img/fr/rdm/windows/RDMWin2092.png) 
+![Onglet du Générateur de mots de passe](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2092.png) 
 1. Il est maintenant possible de personnaliser les paramètres de génération du mot de passe, mais cette opération est facultative puisque les paramètres par défaut génèrent déjà des mots de passe très forts. Cela dit, il peut être nécessaire d'ajuster les paramètres pour répondre aux exigences spécifiques de certains sites Web. Si vous ne souhaitez pas personnaliser les paramètres de génération, vous pouvez passer à l' <a href="#5">étape 5</a>. 
     1. Définir la ***Longueur du mot de passe*** . La valeur par défaut est fixée à 12.  
-    ![Longueur du mot de passe](/img/fr/rdm/windows/RDMWin2095.png) 
+    ![Longueur du mot de passe](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2095.png) 
     1. Dans la section ***Général*** , sélectionner les types de caractères que votre mot de passe doit contenir. Par défaut, les lettres majuscules, les lettres minuscules et les chiffres sont inclus, mais il est aussi possible d'inclure des caractères spéciaux dans votre mot de passe.  
-    ![Paramètres généraux](/img/fr/rdm/windows/RDMWin2096.png) 
+    ![Paramètres généraux](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2096.png) 
     1. Dans la même section à côté des types de caractères, sélectionner le nombre minimum de caractères de chaque type qui doit être inclus dans le mot de passe. Les valeurs par défaut sont de 0. 
     1. Dans la section ***Avancé*** , il est possible de personnaliser davantage le mot de passe si désiré. Dans le premier champ, saisir les caractères qui doivent être inclus dans le mot de passe, suivis par le nombre minimum d'occurrences de ces caractères dans le champ plus à droite. Dans le deuxième champ, saisir les caractères qui doivent être exclus du mot de passe.  
-    ![Paramètres avancés](/img/fr/rdm/windows/RDMWin2097.png) 
+    ![Paramètres avancés](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2097.png) 
 
 Vos paramètres de mot de passe sont maintenant configurés.  
 
 5. <a name="5"></a> Si souhaité, pour modifier le mot de passe actuel, cliquer sur le bouton ***Générer un mot de passe*** jusqu'à ce que le résultat soit satisfaisant.  
-![Générer un mot de passe](/img/fr/rdm/windows/RDMWin2094.png) 
+![Générer un mot de passe](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2094.png) 
 1. Cliquer sur le bouton ***Copier dans le presse-papiers*** pour copier le mot de passe.  
-![Copier dans le presse-papiers](/img/fr/rdm/windows/RDMWin2093.png) 
+![Copier dans le presse-papiers](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2093.png) 
 1. Coller le mot de passe dans le champ du site Web correspondant.  
-![Coller le mot de passe](/img/fr/rdm/windows/RDMWin2098.png) 
+![Coller le mot de passe](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2098.png) 
 1. Suivre le reste des étapes d'enregistrement du site Web jusqu'à ce que la fenêtre ***Ajouter un site Web*** de {{ fr.DWL }} apparaisse dans le coin du navigateur Web.  
-![Ajouter un site Web](/img/fr/rdm/windows/RDMWin2099.png) 
+![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2099.png) 
 1. Saisir un ***Nom*** pour l'entrée. Le nom par défaut peut être gardé ou modifié, mais il est recommandé qu'il reflète le contenu de l'entrée pour la retrouver plus facilement au besoin. 
 1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l'entrée de site Web. Si ce champ reste vide, l'entrée sera sauvegardée à la racine du coffre. Si le dossier spécifié n'existe pas, il sera créé en même temps que l'entrée. 
 1. Spécifier si vous souhaitez enregistrer votre entrée dans votre ***Coffre d'utilisateur*** ou dans un ***Coffre*** . Notez que pour créer votre entrée dans le coffre de votre choix, le coffre correspondant doit être actuellement ouvert dans {{ fr.RDM }} . 

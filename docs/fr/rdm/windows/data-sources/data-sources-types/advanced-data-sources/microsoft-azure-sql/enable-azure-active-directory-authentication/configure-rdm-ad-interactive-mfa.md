@@ -16,7 +16,7 @@ Utiliser les serveurs définis par l'admin Azure Active Directory pour créer vo
 
 ## Paramètres 
 
-![Active Directory Interactive (avec MFA pris en charge)](/img/fr/rdm/windows/clip5009.png) 
+![Active Directory Interactive (avec MFA pris en charge)](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip5009.png) 
 
 1. Sélectionner Active Directory Interactive (avec MFA pris en charge) dans le menu déroulant Mode de connexion . 
 1. Dans le champ ***Nom d'utilisateur*** , coller le courriel d' ***Active Directory admin*** que vous avez créé dans Microsoft Azure SQL databases. 
@@ -25,7 +25,7 @@ Lors de la première connexion, le nom d'utilisateur doit être l'administrateur
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-![!!RdmWin4032.png](/img/fr/rdm/windows/RdmWin4032.png) 
+![!!RdmWin4032.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4032.png) 
 Si vous obtenez ce message d'erreur: Unable to connect to the database! Login failed for user '<token-identified principal>' Vérifier le nom d'utilisateur pour les fautes d'orthographe. 
 {% endsnippet %}
  

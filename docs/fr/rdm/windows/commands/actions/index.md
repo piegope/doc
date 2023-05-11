@@ -4,7 +4,7 @@ title: Actions
 L'onglet ***Actions*** est disponible seulement lorsqu'une session est ouverte. Les actions disponibles diffèrent selon l'action.  
 
 Pour notre exemple, nous exécutons une session RDP. Le ruban affichera l'onglet suivant lorsque la session s'exécute avec le mode d'affichage Intégré (tabulé).  
-![Ruban - Actions](/img/fr/rdm/windows/clip11288.png) 
+![Ruban - Actions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11288.png) 
 
 ### Connexion 
 
@@ -245,6 +245,6 @@ Enregistre votre écran en format MP4. Nous vous recommandons d'utiliser un lect
 </table>
 
 Alternativement, ces actions sont également disponibles en cliquant avec le bouton droit sur l'onglet d'une session intégrée.  
-![Menu Actions d'une session intégré](/img/fr/rdm/windows/clip10184.png) 
+![Menu Actions d'une session intégré](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10184.png) 
 
 

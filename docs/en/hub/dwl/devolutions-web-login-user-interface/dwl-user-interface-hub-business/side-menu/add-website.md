@@ -4,7 +4,7 @@ title: Add Website
 The ***Add Website*** button is only available while in the [***Matching***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#matching-tab) tab, which is the tab selected when opening the extension, or when browsing through the vaults and entries of the [***Vaults***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#vaults-tab) or [***User vault***](/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#user-vault-tab) tabs. It opens a new tab in your browser that allows you to add a website entry in {{ en.PHUB }} Business through {{ en.DWL }} .  
 
 When {{ en.PHUB }} Business is used as the data source, the basic entry configuration is done in the ***General*** tab, but other parameters are also available in other tabs. Below is an example of the ***General*** tab settings when creating a website entry.  
-![New Entry - Website (General Tab)](/img/en/hub/Hub2132.png) 
+![New Entry - Website (General Tab)](https://webdevolutions.azureedge.net/docs/en/hub/Hub2132.png) 
 
 The tables below list all fields/settings available in the ***New Entry - Website*** window. The different sections represent the left menu tabs. 
 

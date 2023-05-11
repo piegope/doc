@@ -5,7 +5,7 @@ title: Microsoft SQL Azure
 	<tr>
 		<td>
 
-![!!DataSourceAzureLarge.png](/img/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 Avec une source de données Microsoft Azure SQL, {{ fr.RDM }} utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions.  
@@ -46,7 +46,7 @@ Pour configurer une source de données Azure SQL, veuillez lire la rubrique [Con
 
 ### Général 
 
-![Microsoft Azure SQL - Général](/img/fr/rdm/windows/clip11499.png) 
+![Microsoft Azure SQL - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11499.png) 
 
 <table>
 	<tr>
@@ -148,7 +148,7 @@ Tester la connexion avec la base de données pour valider si les informations ap
 
 ### Paramètres 
 
-![Microsoft Azure SQL - Paramètres](/img/fr/rdm/windows/clip11363.png) 
+![Microsoft Azure SQL - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11363.png) 
 
 <table>
 	<tr>
@@ -192,7 +192,7 @@ Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement h
 
 ### {{ fr.PVLT }} 
 
-![Microsoft Azure SQL - Coffre de l'utilisateur](/img/fr/rdm/windows/clip3416.png) 
+![Microsoft Azure SQL - Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3416.png) 
 
 <table>
 	<tr>
@@ -220,7 +220,7 @@ Sélectionner le type de [{{ fr.PVLT }}](DataSources_Advanced_PrivateVault) à u
 
 ### Mise à niveau 
 
-![Microsoft Azure SQL - Mise à niveau](/img/fr/rdm/windows/clip10377.png) 
+![Microsoft Azure SQL - Mise à niveau](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10377.png) 
 
 <table>
 	<tr>
@@ -276,11 +276,11 @@ Afficher le script de mise à jour.
 ### VPN 
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à Microsoft Azure SQL .  
-![Microsoft Azure SQL - VPN](/img/fr/rdm/windows/SQLAzureVPN.png) 
+![Microsoft Azure SQL - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SQLAzureVPN.png) 
 
 ### Avancé 
 
-![Microsoft Azure SQL - Avancé](/img/fr/rdm/windows/clip10370.png) 
+![Microsoft Azure SQL - Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10370.png) 
 
 <table>
 	<tr>

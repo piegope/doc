@@ -20,16 +20,16 @@ Pour activer la couche de sécurité dans {{ fr.RDM }} , procéder comme suit :
 
 1. Dans {{ fr.RDM }} , accéder à ***Fichier – Options – Extensions de navigateur*** . 
 1. Sous la section ***{{ fr.DWL }}*** ***(Extensions du navigateur)*** , décocher la case ***Utiliser le port par défaut*** ***.***  
-![Décocher Utiliser le port par défaut](/img/fr/rdm/windows/Dwl2000.png) 
+![Décocher Utiliser le port par défaut](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/Dwl2000.png) 
 1. Cliquer sur ***Par défaut*** . Dans la fenêtre qui apparaît, saisir un ***Port*** personnalisé et cliquer sur ***OK*** lorsque vous avez terminé.  
-![Port](/img/fr/rdm/windows/Dwl4049.png) 
+![Port](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/Dwl4049.png) 
 1. Entrer la ***Clé de l'application*** , puis cliquer   ***OK*** pour enregistrer.  
-![Clé de l'application](/img/fr/rdm/windows/Dwl4032.png) 
+![Clé de l'application](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/Dwl4032.png) 
 1. Dans votre navigateur, cliquer sur l'icône {{ fr.DWL }} et accédez à ***Paramètres – Sources de données –*** ***{{ fr.RDM }}*** . 
 1. Dans l'onglet ***Général*** , désactiver ***Utiliser le port par défaut (19443)*** , puis e ntrer le ***Port*** personnalisé créé précédemment dans {{ fr.RDM }} .  
-![Onglet Général](/img/fr/rdm/windows/Dwl4043.png) 
+![Onglet Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/Dwl4043.png) 
 1. Dans l'onglet ***Avancé*** , entrer la même ***Clé de l'application*** que celle de {{ fr.RDM }} , puis cliquer sur ***Enregistrer*** .  
-![Onglet Avancé](/img/fr/rdm/windows/Dwl4033.png) 
+![Onglet Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/Dwl4033.png) 
 
 
 

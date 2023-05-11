@@ -2,9 +2,9 @@
 title: Abonnements
 ---
 Les abonnements sont destinés à envoyer des notifications par courriels liés aux activités dans {{ fr.RDMS }} . Cela peut être des activités reliées aux entrées, utilisateurs, configuration système, etc.  
-![Notifications - Abonnements](/img/fr/server/ServerOp8076.png)  
+![Notifications - Abonnements](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8076.png)  
 
-![Fenêtre de dialogue des propriétés d'un abonnement](/img/fr/server/ServerOp8149.png)  
+![Fenêtre de dialogue des propriétés d'un abonnement](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8149.png)  
 
 <table>
 	<tr>

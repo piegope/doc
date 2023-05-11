@@ -11,7 +11,7 @@ In {{ en.HUB }}, many situations can trigger an ***Access denied*** error. Here 
 ## List of Errors
 
 ### Activate your Two-Step Verification on your account.
-![Activate your Two-Step Verification on your account.](/img/en/kb/KB4770.png)
+![Activate your Two-Step Verification on your account.](https://webdevolutions.azureedge.net/docs/en/kb/KB4770.png)
 
 <table>
 		<td>
@@ -32,7 +32,7 @@ All users that connect to this {{ en.PHUBB }} need to have a two-factor authenti
 </table>
 
 ### Enter your emergency reset code.
-![Enter your emergency reset code.](/img/en/kb/KB4771.png)
+![Enter your emergency reset code.](https://webdevolutions.azureedge.net/docs/en/kb/KB4771.png)
 
 <table>
 		<td>
@@ -59,7 +59,7 @@ There is no way to recover it if the Emergency reset kit cannot be located.<br>
 </table>
 
 ### Please contact your administrator to be allowed to use Devolutions Web Login.
-![Please contact your administrator to be allowed to use Devolutions Web Login.](/img/en/kb/KB2146.png)
+![Please contact your administrator to be allowed to use Devolutions Web Login.](https://webdevolutions.azureedge.net/docs/en/kb/KB2146.png)
 
 <table>
 		<td>
@@ -80,7 +80,7 @@ The user needs to contact their {{ en.PHUBB }} administrator or any user that ha
 </table>
 
 ### Please contact your administrator to enable your account.
-![Please contact your administrator to enable your account.](/img/en/kb/KB4767.png)
+![Please contact your administrator to enable your account.](https://webdevolutions.azureedge.net/docs/en/kb/KB4767.png)
 
 <table>
 		<td>
@@ -101,7 +101,7 @@ The user needs to contact their {{ en.PHUBB }} administrator or any user that ha
 </table>
 
 ### Please contact your administrator to request an invitation.
-![Please contact your administrator to request an invitation.](/img/en/kb/KB4763.png)
+![Please contact your administrator to request an invitation.](https://webdevolutions.azureedge.net/docs/en/kb/KB4763.png)
 
 <table>
 		<td>
@@ -122,7 +122,7 @@ An administrator or any user that has the permission to manage users needs to in
 </table>
 
 ### Please contact your administrator to request an invitation OR Enter your emergency reset code.
-![Please contact your administrator to request an invitation OR Enter your emergency reset code.](/img/en/kb/KB4765.png)
+![Please contact your administrator to request an invitation OR Enter your emergency reset code.](https://webdevolutions.azureedge.net/docs/en/kb/KB4765.png)
 
 <table>
 	<tr>
@@ -152,7 +152,7 @@ You can search for a PDF file titled "Devolutions Hub Emergency Kit huburlxxxx.d
 </table>
 
 ### We detected a forgot password. In order to regain access to this Hub, please contact your administrator to request a new invitation.
-![We detected a forgot password. In order to regain access to this Hub, please contact your administrator to request a new invitation.](/img/en/kb/KB4764.png)
+![We detected a forgot password. In order to regain access to this Hub, please contact your administrator to request a new invitation.](https://webdevolutions.azureedge.net/docs/en/kb/KB4764.png)
 
 <table>
 		<td>
@@ -175,7 +175,7 @@ An administrator or any user that has the permission to manage users needs to re
 </table>
 
 ### We detected a forgot password or a lost your phone (unpaired). In order to regain access to this Hub, please contact your administrator to request a new invitation.
-![We detected a forgot password or a lost your phone (unpaired). In order to regain access to this Hub, please contact your administrator to request a new invitation.](/img/en/kb/KB2219.png)
+![We detected a forgot password or a lost your phone (unpaired). In order to regain access to this Hub, please contact your administrator to request a new invitation.](https://webdevolutions.azureedge.net/docs/en/kb/KB2219.png)
 
 <table>
 		<td>
@@ -203,7 +203,7 @@ Solution
 </table>
 
 ### Workspace is disabled for this user on this {{ en.PHUB }}.
-![Workspace is disabled for this user on this {{ en.PHUB }}.](/img/en/kb/KB2209.png)
+![Workspace is disabled for this user on this {{ en.PHUB }}.](https://webdevolutions.azureedge.net/docs/en/kb/KB2209.png)
 
 <table>
 		<td>
@@ -224,7 +224,7 @@ The user needs to contact their {{ en.PHUBB }} administrator or any user that ha
 </table>
 
 ### Your IP address is not allowed.
-![Your IP address is not allowed.](/img/en/kb/KB4768.png)
+![Your IP address is not allowed.](https://webdevolutions.azureedge.net/docs/en/kb/KB4768.png)
 
 <table>
 		<td>
@@ -245,7 +245,7 @@ The user needs to contact their {{ en.PHUBB }} administrator.
 </table>
 
 ### Your license is invalid; please contact your administrator. If you believe this is an error, contact support.
-![Your license is invalid; please contact your administrator. If you believe this is an error, contact support.](/img/en/kb/KB4766.png)
+![Your license is invalid; please contact your administrator. If you believe this is an error, contact support.](https://webdevolutions.azureedge.net/docs/en/kb/KB4766.png)
 
 <table>
 		<td>
@@ -266,7 +266,7 @@ The {{ en.PHUBB }} owner must <a href="https://store.devolutions.net/store">buy 
 </table>
 
 ### Your {{ en.PHUB }} has been disabled; contact your administrator.
-![Your {{ en.PHUB }} has been disabled; contact your administrator.](/img/en/kb/KB4769.png)
+![Your {{ en.PHUB }} has been disabled; contact your administrator.](https://webdevolutions.azureedge.net/docs/en/kb/KB4769.png)
 
 <table>
 		<td>

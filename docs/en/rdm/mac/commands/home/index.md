@@ -2,7 +2,7 @@
 title: Home
 ---
 The Home ribbon allows you to apply an action to the currently selected entry. The actions available in the ribbon will depend on the type of entry that is selected in your Navigation Pane.  
-![Home Ribbon menu - RDP embedded session selected](/img/en/rdm/mac/clip10326.png) 
+![Home Ribbon menu - RDP embedded session selected](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10326.png) 
 
 ## Settings 
 

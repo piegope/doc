@@ -57,12 +57,12 @@ Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant to
 1. Sélectionner l'instance que vous souhaitez mettre à niveau. 
 1. Mettre l'instance en Mode hors ligne avec le bouton ***Mettre hors-ligne*** . Sur une topologie à haute disponibilité/équilibrage de charge, toutes les instances doivent être définies en mode hors ligne avant de démarrer le processus de mise à niveau. 
 1. Cliquer sur le bouton ***Mettre à jour*** .  
-![{{ fr.DVLSCONSOLE }}](/img/fr/server/ServerOp8064.png)  
+![{{ fr.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8064.png)  
 1. Sélectionner la source de mise à niveau. Vous pouvez utiliser la dernière version disponible en ligne ou spécifier le chemin d'accès à un fichier zip que vous avez téléchargé vous-même. Utilisez-le pour les versions bêta ou pour les versions antérieures.  
-![{{ fr.DVLS }} Upgrade Wizard](/img/fr/server/ServerOp8066.png)  
+![{{ fr.DVLS }} Upgrade Wizard](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8066.png)  
 1. Appuyer sur ***Suivant*** . 
 1. Consulter le résumé et appuyer sur ***Mettre à niveau*** si vous êtes satisfait.  
-![!!ServerOp4016.png](/img/fr/server/ServerOp4016.png) 
+![!!ServerOp4016.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4016.png) 
 
 ### Phase finale 
 

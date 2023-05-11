@@ -3,7 +3,7 @@ title: IIS
 ---
 The ***IIS*** settings are part of the prerequisite at the installation level. Most of what is found in this tab is automatically filled in by the information given while setting up your {{ en.RDMS }} , the IIS settings section is used more as an information source rather than configuration.  
 
-![Server Settings - IIS](/img/en/server/ServerOp8010.png) 
+![Server Settings - IIS](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8010.png) 
 
 ## Settings 
 ### General 

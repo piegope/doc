@@ -15,11 +15,11 @@ La fonctionnalité ***Documentation*** est chiffrée uniquement pour la source d
 La fonctionnalité ***Documentation*** est disponnible hors-ligne depuis la version 2022.3.14. 
 {% endsnippet %}
  
-![Fenêtre de dialogue de Recherche dans la documentation](/img/fr/rdm/windows/RDMWin2014.png) 
+![Fenêtre de dialogue de Recherche dans la documentation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2014.png) 
 
 ## Interface utilisateur 
 
-![Recherche dans la documentation](/img/fr/rdm/windows/clip9001.png) 
+![Recherche dans la documentation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip9001.png) 
 
 <table>
 	<tr>

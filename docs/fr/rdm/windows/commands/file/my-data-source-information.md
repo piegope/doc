@@ -7,14 +7,14 @@ Les ***Informations sur la source de données*** affichent diverses informations
 La vue ***Informations de la source de données*** peut être différente selon le [Types de sources de données](/fr/rdm/windows/data-sources/data-sources-types/) . Cette rubrique utilise une source de données SQL Server. 
 {% endsnippet %}
  
-![Fichier - Informations de la source de données](/img/fr/rdm/windows/clip3567.png) 
+![Fichier - Informations de la source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3567.png) 
 
 ## Utilisateur et sécurité 
 
 ### Général 
 
 L'onglet ***Général*** affiche des informations sur la configuration actuelle de l'utilisateur et de la source de données. 
-![Informations sur la source de données - Général](/img/fr/rdm/windows/clip10881.png) 
+![Informations sur la source de données - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10881.png) 
 
 <table>
 	<tr>
@@ -101,7 +101,7 @@ Indique si la source de données est configurée avec un deuxième facteur d'aut
 
 ### Entrées 
 
-![Informations sur la source de données - Entrées](/img/fr/rdm/windows/clip10065.png) 
+![Informations sur la source de données - Entrées](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10065.png) 
 
 <table>
 	<tr>

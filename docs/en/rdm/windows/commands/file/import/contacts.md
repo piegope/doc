@@ -7,7 +7,7 @@ You can go to File – Import – Contacts   to import contacts from other softw
 The import feature is only active if the import ***Privilege*** has been enabled inside the user account. 
 {% endsnippet %}
  
-![File – Import – Contacts](/img/en/rdm/windows/clip10882.png) 
+![File – Import – Contacts](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10882.png) 
 
 ### Import from Contact 
 

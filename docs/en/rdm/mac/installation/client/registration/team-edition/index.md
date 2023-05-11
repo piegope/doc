@@ -12,23 +12,23 @@ It is possible to [request a trial](/rdm/mac/installation/client/registration/tr
 {% endsnippet %}
  
 1. To add a license serial to the data source, navigate to ***Administration – Licenses*** .  
-![Administration – Licenses](/img/en/rdm/mac/RDMMac0000.png) 
+![Administration – Licenses](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0000.png) 
 1. Click ***Add License*** .  
-![Add License Button](/img/en/rdm/mac/RDMMac0001.png) 
+![Add License Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0001.png) 
 1. Enter the license serial in the ***License*** field.  
-![License Field](/img/en/rdm/mac/RDMMac0002.png) 
+![License Field](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0002.png) 
 1. Optional: Check the ***Auto assign*** box to automatically provide the {{ en.RDM }} for Mac serial to all newly created users.  
-![Auto Assign Setting](/img/en/rdm/mac/RDMMac0003.png) 
+![Auto Assign Setting](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0003.png) 
 1. Click ***OK*** . 
 1. Click the ***Edit*** button in the ***User and Security Management*** .  
-![Edit Button](/img/en/rdm/mac/RDMMac0004.png) 
+![Edit Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0004.png) 
 1. Click ***Assigned To*** in the left menu. 
 1. Click ***Assign All*** or select in the ***Assigned*** column who should have a {{ en.RDM }} for Mac serial access. 
 {% snippet icon.badgeNotice %} 
 This step will automatically assign the license to the selected users, removing the need to interact with each user. 
 {% endsnippet %}
  
-![Assigned To Tab](/img/en/rdm/mac/RDMMac0005.png) 
+![Assigned To Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0005.png) 
 
 9. Click ***OK*** and ***Close*** the ***User and Security Management*** window. 
 

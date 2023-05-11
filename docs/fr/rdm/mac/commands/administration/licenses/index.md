@@ -10,11 +10,11 @@ Il est possible de [demander un essai](/fr/rdm/mac/installation/client/registrat
 Lorsque la licence est stockée dans une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , il n'est pas nécessaire d'enregistrer {{ fr.RDM }} car le numéro de série de la licence est récupéré directement à partir de celle-ci. Lors du premier lancement de l'application, ajoutez la source de données contenant le numéro de série.  
 
 1. Pour ajouter une clé de licence, accéder à ***Administration – Licences*** .  
-![Administration – Licences](/img/fr/rdm/mac/RdmMac4009.png) 
+![Administration – Licences](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4009.png) 
 1. Cliquer ***Ajouter une licence*** .  
-![Gestion des usagers et de la sécurité – Licence](/img/fr/rdm/mac/RdmMac4044.png) 
+![Gestion des usagers et de la sécurité – Licence](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4044.png) 
 1. Saisir la ***Licence*** .  
-![Licence](/img/fr/rdm/mac/clip0152.png) 
+![Licence](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0152.png) 
 1. Facultatif: Cocher la case ***Assignation automatique*** pour fournir automatiquement la clé de licence RDM à tous les utilisateurs nouvellement créés. 
 1. Cliquer sur ***OK*** pour enregistrer. 
 

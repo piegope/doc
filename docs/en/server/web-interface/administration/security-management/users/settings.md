@@ -2,7 +2,7 @@
 title: Settings
 ---
 
-![Edit User - Settings](/img/en/server/ServerOp7012.png) 
+![Edit User - Settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp7012.png) 
 
 Allow the user to enable [Offline Mode](https://helprdm.devolutions.net/datasource_offline.htm) on the data source. The data source also needs to be configured to permit offline mode. There are multiple modes available: 
 <table>

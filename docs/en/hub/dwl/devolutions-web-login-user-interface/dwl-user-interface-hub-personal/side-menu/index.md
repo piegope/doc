@@ -17,7 +17,7 @@ The extension opens on the ***Matching*** tab. This is where you will see the li
 For methods of retrieving your credentials, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/retrieve-credentials-hub-personal/) . 
 {% endsnippet %}
  
-![Matching Tab](/img/en/hub/Hub2121.png) 
+![Matching Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2121.png) 
 
 At the top, you can use the ***Search*** bar to filter through all your credentials, not just those applicable to the website. You can also use the ***Refresh*** button next to it to update the search results.  
 
@@ -30,7 +30,7 @@ For a complete list of the available entries and fields in the ***New Entry*** w
 ### All Entries tab 
 
 The ***All Entries*** tab allows you to browse through all your folders and entries.  
-![All Entries Tab](/img/en/hub/Hub2122.png)  
+![All Entries Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2122.png)  
 At the top, you can use the ***Filter*** bar to search through all your folders and entries.  
 
 To access an entry in {{ en.DWL }} , navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.PHUB }} Personal.  
@@ -40,13 +40,13 @@ When navigating in the folders, the [***New Entry***](/hub/dwl/devolutions-web-l
 ### Favorites tab 
 
 If you have entries marked as favorites, they will be displayed here in the ***Favorites*** tab.  
-![Favorites Tab](/img/en/hub/Hub2123.png)  
+![Favorites Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2123.png)  
 You can search a particular entry using the ***Filter*** bar at the top. 
 
 ### Recent tab 
 
 The last entries you used will be displayed in the ***Recent*** tab.  
-![Recent Tab](/img/en/hub/Hub2124.png)  
+![Recent Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2124.png)  
 You can search a particular entry using the ***Filter*** bar at the top.  
 
 At the bottom, you can click on the ***Clear Recent Entries*** button to erase all current entries from this view.  
@@ -59,7 +59,7 @@ In the ***Trash*** tab, you can select entries or entire folders to delete.
 Note that if you delete entries or folders, they will be deleted from your {{ en.PHUB }} Personal and not just from the {{ en.DWL }} view. 
 {% endsnippet %}
  
-![Trash Tab](/img/en/hub/Hub2125.png)  
+![Trash Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2125.png)  
 
 You can select all your entries and folders using the ***Select All*** button at the bottom, or you can select them one by one by checking the box next to each one. When your selection is done, click the ***Delete*** button to delete your selected entries and folders.  
 
@@ -68,15 +68,15 @@ The ***Resurrect*** button allows you to bring back previously deleted entries. 
 ### Password Generator tab 
 
 The ***Password Generator*** tab assists you in creating a strong and secure password adapted to your needs and to website requirements for your new account.  
-![Password Generator Tab](/img/en/hub/Hub2126.png)  
+![Password Generator Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2126.png)  
 
 Your custom password is generated at the top of the ***Content Area*** with a strenght indicator below it. You can copy it or generate a new one using the ***Copy to Clipboard*** and ***Generate Password*** buttons respectively. The ***Password lenght*** , which is set to 12 by default, can also be adjusted.  
 
 In the ***General*** drop-down section, you are able to select the types of characters that your password must contain as well as the minimum number of characters of each type that must be included.  
-![General Section](/img/en/hub/Hub2114.png)  
+![General Section](https://webdevolutions.azureedge.net/docs/en/hub/Hub2114.png)  
 
 In the ***Advanced*** drop-down section, you are able to further customize your password by entering characters you want included in your password, followed by the minimum number of times they must appear. In the second field, you can also enter characters you want excluded from your password.  
-![Advanced Section](/img/en/hub/Hub2115.png)  
+![Advanced Section](https://webdevolutions.azureedge.net/docs/en/hub/Hub2115.png)  
 
 {% snippet icon.badgeInfo %} 
 To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-personal/create-account-website-hub-personal/) . 
@@ -85,7 +85,7 @@ To learn how to use the ***Password Generator*** when creating an account on a w
 ### Entry functionalities 
 
 No matter what tab you are in (except the ***Password Generator*** tab), when hovering over an entry, three new options appear: the ***Copy Username***, ***Copy Password***, and ***View*** buttons.  
-![Copy Username, Copy Password, and View options](/img/en/hub/Hub2128.png) 
+![Copy Username, Copy Password, and View options](https://webdevolutions.azureedge.net/docs/en/hub/Hub2128.png) 
 
 The ***Copy Username*** and ***Copy Password*** buttons copy the username/password of the entry to your clipboard.  
 
@@ -98,6 +98,6 @@ The ***View*** button gives you an overview of the entry as well as additional f
 * Access and view files attached to the entry using the ***Attachments*** button.  
 
 Other information and functionalities will depend on what you provided when creating the entry (username, password, tags, description, etc.). 
-![Entry Overview](/img/en/hub/Hub2129.png) 
+![Entry Overview](https://webdevolutions.azureedge.net/docs/en/hub/Hub2129.png) 
 
 

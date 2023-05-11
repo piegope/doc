@@ -5,7 +5,7 @@ Les options de modification sont utilisées pour éditer l'une de vos entrées. 
 
 ## Paramètres 
 
-![Modifier les entrées](/img/fr/rdm/mac/clip4054.png) 
+![Modifier les entrées](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4054.png) 
 
 <table>
 	<tr>

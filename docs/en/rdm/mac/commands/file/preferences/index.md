@@ -2,7 +2,7 @@
 title: Preferences
 ---
 There are multiple options available to manage and customize your {{ en.RDM }} for Mac in the menu File - Preferences .  
-![File - Preferences](/img/en/rdm/mac/RdmMac4007.png) 
+![File - Preferences](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4007.png) 
 
 Please see the following topics for more information each tab:  
 

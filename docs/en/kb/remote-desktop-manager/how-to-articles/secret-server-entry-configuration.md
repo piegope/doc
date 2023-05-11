@@ -17,7 +17,7 @@ The ***Secret Server*** integration is quite straightforward in {{ en.RDM }}. Fo
 It will either be https<area>://server or https<area>://server/SecretServer. 
 {% endsnippet %}
  
-![Secret Server URL](/img/en/kb/KB5021.png) 
+![Secret Server URL](https://webdevolutions.azureedge.net/docs/en/kb/KB5021.png) 
 
   <li>Credentials information setup:  
     <ol>
@@ -26,7 +26,7 @@ It will either be https<area>://server or https<area>://server/SecretServer.
     </ol>
   </li>
 
-![My Secret Server Account](/img/en/kb/KB4027.png) 
+![My Secret Server Account](https://webdevolutions.azureedge.net/docs/en/kb/KB4027.png) 
   <li>Two Factor Authentication (2FA) is supported with the <b><i>Secret Server</i></b> entry. 
 {% snippet icon.badgeInfo %} 
 SAML is not yet supported, but it should be in version 2023.1 of {{ en.RDM }}. 
@@ -47,7 +47,7 @@ There is a limitation with the Rest API, you cannot have 2FA with Windows Authen
   </li>
   <li>In the session you want to use the <b><i>Secret Server</i></b> credentials with (RDP, etc.), you select the <b><i>Credentials</i></b> you created with <b><i>Linked (Vault)</i></b>, and then you can click the <b><i>Select from List</i></b> to specify the account you wish to use. </li>
 
-![Credentials – Select from list](/img/en/kb/KB4059.png) 
+![Credentials – Select from list](https://webdevolutions.azureedge.net/docs/en/kb/KB4059.png) 
 
 This way, you have one ***Secret Server*** entry for all the connections. 
 {% snippet icon.badgeNotice %} 

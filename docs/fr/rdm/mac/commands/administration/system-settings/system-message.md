@@ -5,7 +5,7 @@ Entrer un message système pour les autres utilisateurs de la même source de do
 
 ### Message système 
 
-![Message système](/img/fr/rdm/mac/clip0161.png) 
+![Message système](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0161.png) 
 
 <table>
 	<tr>

@@ -2,7 +2,7 @@
 title: Type d'utilisateur
 ---
 Lors de la création d'utilisateurs dans {{ fr.RDM }} , quatre types sont disponibles. Les droits de base sont accordés aux utilisateurs créés en fonction de leur type.  
-![Gestion des utilisateurs - Type d'utilisateur](/img/fr/rdm/windows/clip3423.png) 
+![Gestion des utilisateurs - Type d'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3423.png) 
 
 <table>
 	<tr>
@@ -56,4 +56,4 @@ Lorsque vous définissez un utilisateur comme ***Utilisateur accès restreint***
 Une fois les droits accordés, ils peuvent être limités avec le [Contrôle d'accès basé sur les groupes d'utilisateurs](/fr/rdm/windows/user-groups-based-access-control/) ou les groupes de sécurité.  
 
 Le droit ***Ajouter*** affiche également l'option ***Ajouter au coffre*** . Cela doit être activé pour que les utilisateurs puissent ajouter des entrées dans le coffre de la source de données.  
-![Gestion des utilisateurs - Droits](/img/fr/rdm/windows/clip3424.png) 
+![Gestion des utilisateurs - Droits](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3424.png) 

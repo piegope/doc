@@ -10,6 +10,6 @@ After it has been properly configured, the only modification to perform in Remot
 ### Procedure 
 
 1. Create or edit an SQL Server data source, access the Advanced tab and click the Advanced Settings button  
-![SQL Server - Advanced tab](/img/en/rdm/mac/clip6044.png) 
+![SQL Server - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6044.png) 
 1. Set the Encrypt property value to true . Click on OK to validate.  
-![SQL Server - Advanced Settings](/img/en/rdm/mac/clip6045.png) 
+![SQL Server - Advanced Settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6045.png) 

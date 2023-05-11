@@ -9,7 +9,7 @@ Pour créer une nouvelle entrée dans votre {{ fr.PVLT }} , cliquer sur {{ fr.PV
 Le {{ fr.PVLT }} est uniquement disponible pour les sources de données suivantes: [SQL Server](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et [{{ fr.RDMS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) . 
 {% endsnippet %}
  
-![Coffre de l'utilisateur](/img/fr/rdm/mac/clip4416.png) 
+![Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4416.png) 
 
 ### Une note sur les identifiants 
 

@@ -6,7 +6,7 @@ order: 10
 
 ## Settings 
 
-![Administration - Users](/img/en/server/clip10340.png) 
+![Administration - Users](https://webdevolutions.azureedge.net/docs/en/server/clip10340.png) 
 
 ### Global Options 
 
@@ -22,7 +22,7 @@ Description
 	<tr>
 		<td>
 
-![AddSmallGrey.png](/img/en/server/Icons/AddSmallGrey.png) 
+![AddSmallGrey.png](https://webdevolutions.azureedge.net/docs/en/server/Icons/AddSmallGrey.png) 
 		</td>
 		<td>
 Add a user. 
@@ -30,7 +30,7 @@ Add a user.
 	</tr>
 	<tr>
 		<td>
-![NavImportSmall.png](/img/common/NavImportSmall.png) 
+![NavImportSmall.png](https://webdevolutions.azureedge.net/docs/common/NavImportSmall.png) 
 		</td>
 		<td>
 Import users from LDAP or Azure. 
@@ -38,7 +38,7 @@ Import users from LDAP or Azure.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonRefreshGraySmall.png](/img/common/RibbonRefreshGraySmall.png) 
+![!!RibbonRefreshGraySmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshGraySmall.png) 
 		</td>
 		<td>
 Refresh users list. 
@@ -46,7 +46,7 @@ Refresh users list.
 	</tr>
 </table>
 
-![!!ServerOp8004.png](/img/en/server/ServerOp8004.png) 
+![!!ServerOp8004.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8004.png) 
 
 ### User Options 
 
@@ -62,7 +62,7 @@ Description
 	<tr>
 		<td>
 
-![!!RibbonEditSmall.png](/img/common/RibbonEditSmall.png) 
+![!!RibbonEditSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
 		</td>
 		<td>
 Edit user settings. 
@@ -70,7 +70,7 @@ Edit user settings.
 	</tr>
 	<tr>
 		<td>
-![!!EditAssignGroup.png](/img/common/EditAssignGroup.png) 
+![!!EditAssignGroup.png](https://webdevolutions.azureedge.net/docs/common/EditAssignGroup.png) 
 		</td>
 		<td>
 Assign user groups to user account. 
@@ -78,7 +78,7 @@ Assign user groups to user account.
 	</tr>
 	<tr>
 		<td>
-![!!EditAssignVault.png](/img/common/EditAssignVault.png) 
+![!!EditAssignVault.png](https://webdevolutions.azureedge.net/docs/common/EditAssignVault.png) 
 		</td>
 		<td>
 Assign vaults to the user account. 
@@ -86,7 +86,7 @@ Assign vaults to the user account.
 	</tr>
 	<tr>
 		<td>
-![!!ServerOp7016.png](/img/en/server/ServerOp7016.png) 
+![!!ServerOp7016.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp7016.png) 
 		</td>
 		<td>
 See user activity report. 
@@ -94,7 +94,7 @@ See user activity report.
 	</tr>
 	<tr>
 		<td>
-![!!ViewPasswordSmall.png](/img/en/server/Icons/ViewPasswordSmall.png) 
+![!!ViewPasswordSmall.png](https://webdevolutions.azureedge.net/docs/en/server/Icons/ViewPasswordSmall.png) 
 		</td>
 		<td>
 Change password for {{ en.DPS }} user accounts only. 
@@ -102,7 +102,7 @@ Change password for {{ en.DPS }} user accounts only.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonTrashSmall.png](/img/common/RibbonTrashSmall.png) 
+![!!RibbonTrashSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonTrashSmall.png) 
 		</td>
 		<td>
 Delete user. 

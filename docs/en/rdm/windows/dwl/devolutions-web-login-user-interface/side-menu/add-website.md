@@ -5,7 +5,7 @@ The ***Add Website*** button is only available while in the [***Matching***](/rd
 
 When {{ en.RDM }} is used as the data source, the entry configuration is done in the ***General*** tab. 
 See the table below to learn about each field/setting from this view.  
-![Add Website](/img/en/rdm/windows/RDMWin2130.png) 
+![Add Website](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2130.png) 
 
 <table>
 	<tr>

@@ -13,7 +13,7 @@ If you need finer control, you can specify the template to use in a ***Template*
 
 {% snippet icon.badgeNotice %} 
 In ***File – Import*** , we recommend you use the ***Import Generic Csv Wizard*** option first. You can modify, if needed, the ***Header format instruction*** .  
-![Import Csv Wizard](/img/en/rdm/windows/RdmWin4044.png) 
+![Import Csv Wizard](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4044.png) 
 {% endsnippet %}
  
 ## File Content 

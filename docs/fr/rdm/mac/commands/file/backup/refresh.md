@@ -8,4 +8,4 @@ Une actualisation peut également aider en cas de problèmes de [Cache](/fr/rdm/
 ## Paramètres 
 
 Vous pouvez également effectuer une actualisation de votre source de données en maintenant le bouton ***Commande*** et la lettre R.  
-![Fichier - Actualiser](/img/fr/rdm/mac/clip4023.png)
+![Fichier - Actualiser](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4023.png)

@@ -2,7 +2,7 @@
 title: Applications
 ---
 Permet d'assigner des clés d'applications au coffre.  
-![Coffres - Applications](/img/fr/server/ServerOp8071.png) 
+![Coffres - Applications](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8071.png) 
 
 <table>
 	<tr>

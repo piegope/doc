@@ -5,7 +5,7 @@ Use the Export options to export selected entries from {{ en.RDM }} for Mac .
 
 ## Settings 
 
-![Edit ribbon - Export options](/img/en/rdm/mac/clip10353.png) 
+![Edit ribbon - Export options](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10353.png) 
 
 <table>
 	<tr>

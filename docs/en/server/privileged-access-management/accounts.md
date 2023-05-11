@@ -2,10 +2,10 @@
 title: Accounts
 ---
 The Privileged Access section allows to manage all privileged accounts within a given PAM Vault. The accounts can be organized within folders or directly saved in the root.  
-![Privileged Access Vault dashboard](/img/en/server/ServerOp8150.png) 
+![Privileged Access Vault dashboard](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8150.png) 
 
 For every privileged account, it is possible to manage the checkout/check-in process or to have access to many options from the contextual menu or the top right menu described below.  
-![Privileged Accounts folder content](/img/en/server/ServerOp8151.png) 
+![Privileged Accounts folder content](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8151.png) 
 
 ### More 
 

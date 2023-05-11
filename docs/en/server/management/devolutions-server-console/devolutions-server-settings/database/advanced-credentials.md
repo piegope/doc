@@ -10,7 +10,7 @@ Only SQL login accounts can be used.
  
 For further information about these accounts, please see [Pre-Deployment Account Survey](/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) . 
 
-![Advanced Credentials Dialog](/img/en/server/ServerOp8168.png) 
+![Advanced Credentials Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8168.png) 
 
 ## Settings 
 <table>

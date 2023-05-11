@@ -8,14 +8,14 @@ The main view, which is the one displayed when first opening {{ en.DWL }} in you
 1. The ***Top Menu*** gives you access to some {{ en.DWL }} functionalities and settings. 
 1. The window depending on its function. 
 1. The ***Content Area*** is where information will be displayed and where you can interact with {{ en.DWL }} functionalities corresponding to the different tabs.  
-![User Interface Sections](/img/en/hub/Hub2102.png) 
+![User Interface Sections](https://webdevolutions.azureedge.net/docs/en/hub/Hub2102.png) 
 
 ### Top Menu 
 
 If you use multiple Devolutions products with the extension, you can switch between them using the ***Data Source Selector*** at the left of the ***Top Menu*** . A drop-down list will appear with the other products you have previously paired with {{ en.DWL }} .  
-![Data Source Selector](/img/en/hub/Hub2103.png) 
+![Data Source Selector](https://webdevolutions.azureedge.net/docs/en/hub/Hub2103.png) 
 At the right of the ***Top Menu*** , the ***Settings*** button opens a new tab in which you can configure your extension. You can see the full settings list [here](/hub/dwl/settings/) .  
-![Settings Button](/img/en/hub/Hub2104.png) 
+![Settings Button](https://webdevolutions.azureedge.net/docs/en/hub/Hub2104.png) 
 Next to the ***Settings*** button is your ***Account*** button. This section has some useful links and information, namely:  
 
 * a ***Manage Account*** button to view/edit your {{ en.DA }} through the Devolutions Portal. 
@@ -26,12 +26,12 @@ Next to the ***Settings*** button is your ***Account*** button. This section has
 * a link to our [{{ en.PHUB }} Forum](https://forum.devolutions.net/product/password-hub) . 
 * a link to our [{{ en.PHUB }} Online Help](/hub/overview/what-is-hub/) . 
 * the current version of {{ en.DWL }} .  
-![Account Button](/img/en/hub/Hub2105.png) 
+![Account Button](https://webdevolutions.azureedge.net/docs/en/hub/Hub2105.png) 
 
 ### Side Menu and Content Area 
 
 Using the tabs of the ***Side Menu*** , you can access various {{ en.DWL }} features.  
-![Side Menu Tabs](/img/en/hub/Hub2106.png) 
+![Side Menu Tabs](https://webdevolutions.azureedge.net/docs/en/hub/Hub2106.png) 
 Each tab will display a different view in the ***Content Area*** . The tabs available when using {{ en.DWL }} with {{ en.PHUB }} Personal are:  
 
 * the ***Matching*** tab, where you find available credentials for a specific website. 

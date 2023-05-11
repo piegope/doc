@@ -14,7 +14,7 @@ If the cache is outdated, press ***Ctrl+Refresh*** or ***Ctrl+F5*** to refresh t
 ## Settings 
 
 The ***Caching mode*** option can be accessed via ***File – Data Sources – Edit Data Source – Advanced*** in an advanced data source.  
-![Caching mode](/img/en/rdm/windows/clip3581.png) 
+![Caching mode](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3581.png) 
 
 <table>
 	<tr>

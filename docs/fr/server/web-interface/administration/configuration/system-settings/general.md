@@ -4,7 +4,7 @@ keywords:
 - Coffre privé
 ---
 La section ***Général*** des ***Paramètres du système*** permet aux administrateurs d'appliquer des politiques générales pour l'ensemble de la source de données.  
-![Administration – Paramètres du système](/img/fr/server/clip10372.png) 
+![Administration – Paramètres du système](https://webdevolutions.azureedge.net/docs/fr/server/clip10372.png) 
 
 ### Général 
 

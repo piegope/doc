@@ -14,20 +14,20 @@ In this topic:
 ## Create a new template 
 
 1. Navigate to ***File – Templates*** and select ***Entry Templates*** .  
-![File – Templates](/img/en/rdm/windows/clip3405.png) 
+![File – Templates](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3405.png) 
 1. In the ***Entry Templates*** window, click the ***Add template***   button.  
-![Add a new template](/img/en/rdm/windows/clip3406.png) 
+![Add a new template](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3406.png) 
 1. Select an entry to create the template for, then click ***OK*** .  
-![Select an entry to create the template for](/img/en/rdm/windows/clip3408.png) 
+![Select an entry to create the template for](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3408.png) 
 1. Enter a name for the template, and configure the properties as necessary.  
-![Template Properties](/img/en/rdm/windows/clip3409.png) 
+![Template Properties](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3409.png) 
 
 ## Save entry as template 
 
 It is possible to save entries as templates to use their properties in other entries. Furthermore, this can be achieve on folders to include all their child items in the template.  
 
 From the {{ en.NPANE }} , right-click an entry and select ***Add – Save as Template*** .  
-![Save as Template...](/img/en/rdm/windows/clip3410.png) 
+![Save as Template...](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3410.png) 
 
 ## Import template 
 
@@ -35,7 +35,7 @@ It is possible to import previously exported entries as templates.
 
 1. Navigate to ***File – Templates*** and select ***Templates*** . 
 1. From the ***Templates*** window, click on the ***Import template*** button.  
-![Import Template](/img/en/rdm/windows/clip3411.png) 
+![Import Template](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3411.png) 
 1. Select the ****.rdm*** file to import to create a template for each entry in the file. 
 
 ## Duplicate template 

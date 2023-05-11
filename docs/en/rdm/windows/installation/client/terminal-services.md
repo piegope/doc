@@ -67,7 +67,7 @@ If the main concern is deploying a new license key, and you are using an [Advanc
 {% endsnippet %}
  
 Whenever {{ en.RDM }} is started and it detects a new default.cfg file, the following dialog will appear:  
-![New default.cfg detected](/img/en/rdm/windows/clip10368.png) 
+![New default.cfg detected](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10368.png) 
 
 By selecting Use New Configuration (Lose Mine) , the user's configuration is simply overwritten. If you only wish to update the {{ en.RDM }} license key after a renewal, choose Retrieve New Registration Only . 
 

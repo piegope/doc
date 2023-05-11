@@ -22,13 +22,13 @@ Pour créer des utilisateurs et attribuer des droits, vous devez être administr
 ## Gérer les utilisateurs 
 
 Pour créer, modifier, supprimer, renommer ou gérer les utilisateurs dans leur ensemble, utiliser les boutons de la barre d'outils.  
-![Gestion des usagers et de la sécurité](/img/fr/rdm/windows/clip10726.png) 
+![Gestion des usagers et de la sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10726.png) 
 
 ## Paramètres de gestion des utilisateurs 
 
 ### Général 
 
-![Gestion des utilisateurs - Général](/img/fr/rdm/windows/clip11296.png) 
+![Gestion des utilisateurs - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11296.png) 
 
 <table>
 	<tr>
@@ -107,12 +107,12 @@ Insérer l'adresse courriel de l'utilisateur.
 ### Entrée de données 
 
 Saisir toutes les informations nécessaires concernant votre nouvel utilisateur. La section est divisée en trois sous-sections: ***Détails, Adresse*** et ***Téléphone*** .  
-![Gestion des utilisateurs - Entrée de données - Détails](/img/fr/rdm/windows/clip10728.png) 
+![Gestion des utilisateurs - Entrée de données - Détails](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10728.png) 
 
 ### Groupes d'utilisateurs 
 
 Sélectionner les ***Groupes d'utilisateurs*** à attribuer à l'utilisateur.  
-![Gestion des utilisateurs - Groupes d'utilisateurs](/img/fr/rdm/windows/clip11297.png) 
+![Gestion des utilisateurs - Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11297.png) 
 
 <table>
 	<tr>
@@ -137,12 +137,12 @@ Cochez la case ***Est membre*** pour attribuer le groupes d'utilisateurs à l'ut
 ### Coffres 
 
 Sélectionner les ***Coffres*** auxquels l'utilisateur a accès.  
-![Gestion des utilisateurs - Coffres](/img/fr/rdm/windows/clip3624.png) 
+![Gestion des utilisateurs - Coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3624.png) 
 
 ### Accès à l'application 
 
 La section d' ***Accès aux applications*** permet de restreindre l'accès à {{ fr.RDM }} ou à [{{ fr.DWL }}](/fr/rdm/windows/dwl/overview/) .  
-![Gestion des utilisateurs - Accès à l'application](/img/fr/rdm/windows/clip3625.png) 
+![Gestion des utilisateurs - Accès à l'application](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3625.png) 
 
 <table>
 	<tr>
@@ -174,7 +174,7 @@ Sélectionner si l'utilisateur peut accéder au formulaire de source de données
 
 ### Paramètres 
 
-![Gestion des utilisateurs - Paramètres](/img/fr/rdm/windows/clip11304.png) 
+![Gestion des utilisateurs - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11304.png) 
 
 Autoriser l'utilisateur à activer le mode Hors connexion sur les sources de données. Cela dépend également de la source de données configurée pour l'autoriser. Vous pouvez choisir entre:  
 

@@ -3,7 +3,7 @@ title: Général
 ---
 La section de l'onglet ***Général*** contient les informations de base de l'instance {{ fr.RDMS }} tels que le ***Nom*** , la ***Description*** , les ***Licences*** , etc.  
 
-![Paramètres Serveur - Général](/img/fr/server/ServerOp8006.png) 
+![Paramètres Serveur - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8006.png) 
 
 ## Paramètres 
 

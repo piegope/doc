@@ -3,5 +3,5 @@ title: User Information
 ---
 Display the ***User Information*** rights and permission configuration.  
 
-![User Information](/img/en/server/ServerOp8021.png)
+![User Information](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8021.png)
 

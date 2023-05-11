@@ -4,7 +4,7 @@ title: Attachments
 Files are attached to an entry and are stored directly in the database.  
 
 To enable the attachment pane, navigate to ***View – Layout*** in the ribbon, then select ***Attachments*** .  
-![Attachments Button](/img/en/rdm/windows/clip3565.png) 
+![Attachments Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3565.png) 
 
 {% snippet icon.badgeInfo %} 
 This feature is only available when using an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
@@ -14,7 +14,7 @@ This feature is only available when using an [Advanced Data Source](/rdm/windows
 The files in attachments are not available in offline mode. 
 {% endsnippet %}
  
-![Attachments](/img/en/rdm/windows/RDMWin2027.png) 
+![Attachments](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2027.png) 
 
 The attachment type and size are limited only by your bandwidth and the data source. You can also view a saved attachment:  
 
@@ -26,7 +26,7 @@ The refresh button allows you to update directly the selected document. Use it t
 
 ### Actions 
 Use the toolbar above the attachments list to manage the selected attachment.  
-![Attachments Toolbar](/img/en/rdm/windows/clip3566.png) 
+![Attachments Toolbar](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3566.png) 
 
 <table>
 	<tr>

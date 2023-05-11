@@ -3,7 +3,7 @@ title: Type d'entrée
 ---
 Il existe plusieurs types d' ***Entrées*** , qui répondent tous à des objectifs différents pour votre convenance. 
 
-![Nouvelle entrée](/img/fr/server/clip10074.png) 
+![Nouvelle entrée](https://webdevolutions.azureedge.net/docs/fr/server/clip10074.png) 
 
 <table>
 	<tr>

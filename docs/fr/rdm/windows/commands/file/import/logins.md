@@ -13,5 +13,5 @@ Vous pouvez importer les identifiants à partir d'un large éventail de formats 
 Toutes les entrées seront importées dans le dossier actuel. 
 {% endsnippet %}
  
-![Fichier – Importer – Connexions](/img/fr/rdm/windows/clip10745.png) 
+![Fichier – Importer – Connexions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10745.png) 
 

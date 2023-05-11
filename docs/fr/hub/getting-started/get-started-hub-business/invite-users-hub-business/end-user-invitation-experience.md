@@ -22,37 +22,37 @@ Pour sauter les instruction de connexion et accéder directement aux fonctionnal
 Si l'utilisateur ne possède pas de {{ fr.DA }} , il aura besoin d'un [mot de passe temporaire](/fr/hub/web-interface/hub-overview/administration/management/users/create-invite-users/temporary-password/) pour accéder à {{ fr.PHUB }} Business. L'administrateur qui a invité l'utilisateur peut inclure ou non ce mot de passe dans le courriel d'invitation.  
 
 Si le mot de passe temporaire est inclus , l'utilisateur reçoit un courriel d'invitation contenant un lien vers {{ fr.PHUB }} Business avec son mot de passe temporaire.  
-![Courriel d'invitation – Mot de passe temporaire inclus](/img/fr/hub/Hub2008.png) 
+![Courriel d'invitation – Mot de passe temporaire inclus](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2008.png) 
 
 Si le mot de passe temporaire n'est pas inclus , l'utilisateur reçoit un courriel d'invitation avec un lien vers {{ fr.PHUB }} Business ainsi qu'un avis indiquant que l'administrateur lui transmettra bientôt le mot de passe temporaire.  
-![Courriel d'invitation – Mot de passe temporaire non inclus](/img/fr/hub/Hub2011.png) 
+![Courriel d'invitation – Mot de passe temporaire non inclus](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2011.png) 
 
 Une fois que les utilisateurs ont reçu leur mot de passe temporaire, ils sont prêts à se connecter à {{ fr.PHUB }} Business.  
 
 1. Accéder au lien URL de {{ fr.PHUB }} Business. 
 1. Saisir le mot de passe temporaire, puis cliquer sur ***Continuer*** .  
-![Connexion – Aucun compte Devolutions](/img/fr/hub/Hub2009.png) 
+![Connexion – Aucun compte Devolutions](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2009.png) 
 1. Créer un nouveau mot de passe pour le compte en respectant les restrictions relatives au mot de passe, puis cliquer sur ***Mettre à jour mon mot de passe*** .  
-![Modification du mot de passe](/img/fr/hub/Hub2010.png) 
+![Modification du mot de passe](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2010.png) 
 
 Maintenant que vous avez accès à {{ fr.PHUB }} Business, vous pouvez passer à la section [Premiers pas dans {{ fr.PHUB }} Business](#premiers-pas-dans--frphub--business) . 
 
 ### Invité avec un {{ fr.DA }} existant 
 
 Si l'utilisateur possède déjà un {{ fr.DA }} , il recevra un courriel d'invitation avec un lien vers {{ fr.PHUB }} Business.  
-![Courriel d'invitation – Compte Devolutions existant](/img/fr/hub/Hub2006.png) 
+![Courriel d'invitation – Compte Devolutions existant](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2006.png) 
 1. Accéder au lien URL de {{ fr.PHUB }} Business. 
 1. Saisir vos identifiants de {{ fr.DA }} , puis cliquer sur ***Continuer*** .  
-![Connexion – Compte Devolutions existant](/img/fr/hub/Hub2007.png) 
+![Connexion – Compte Devolutions existant](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2007.png) 
 
 Maintenant que vous avez accès à {{ fr.PHUB }} Business, vous pouvez continuer à la section suivante. 
 
 ## Premiers pas dans {{ fr.PHUB }} Business 
 
 Après vous être connecté, {{ fr.PHUB }} Business s'ouvre sur l'onglet ***Coffre*** . Cette vue permet d'interagir avec les coffres et les entrées auxquels vous avez accès. Vous pouvez changer de coffre en utilisant le menu de sélection des coffres en haut.  
-![Onglet Coffre](/img/fr/hub/Hub2001.png) 
+![Onglet Coffre](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2001.png) 
 Vous pouvez aussi accéder à votre ***Coffre d'utilisateur*** , qui est centré sur l'utilisateur et est utilisé pour stocker des informations telles que des identifiants de comptes personnels, en cliquant sur l'onglet ***Coffre d'utilisateur*** dans le menu latéral.  
-![Onglet Coffre d'utilisateur](/img/fr/hub/Hub2002.png) 
+![Onglet Coffre d'utilisateur](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2002.png) 
 
 ### Créer des entrées 
 
@@ -60,13 +60,13 @@ Vous pouvez aussi accéder à votre ***Coffre d'utilisateur*** , qui est centré
 
 1. Sélectionner le dossier dans lequel vous voulez créer la nouvelle entrée, le cas échéant. Sinon, passez cette première étape. 
 1. Cliquer sur le bouton ***Ajouter*** situé dans le {{ fr.NPANE }} .  
-![Bouton Ajouter](/img/fr/hub/Hub2003.png) 
+![Bouton Ajouter](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2003.png) 
 1. Sélectionner le type d'entrée que vous voulez créer. Vous pouvez effectuer une recherche par catégories avec le menu latéral ou appliquer un filtre avec la barre de recherche. Cliquer sur ***Continuer*** lorsque votre type d'entrée est sélectionné. 
 {% snippet icon.badgeInfo %} 
 Pour en apprendre davantage sur les types d'entrées, visitez notre rubrique [Type d'entrée](/fr/hub/web-interface/hub-overview/entries/entry-type/) . 
 {% endsnippet %}
  
-![Ajouter une entrée](/img/fr/hub/Hub2004.png) 
+![Ajouter une entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2004.png) 
 
 4. Remplir les informations pertinentes pour le type d'entrée que vous avez sélectionné, puis cliquer sur ***Ajouter*** .  
-![Exemples de champs d'information à remplir](/img/fr/hub/Hub2005.png) 
+![Exemples de champs d'information à remplir](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2005.png) 

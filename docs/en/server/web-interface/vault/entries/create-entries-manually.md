@@ -11,7 +11,7 @@ Create entries manually and save your data in {{ en.DPS }} .
 Hovering the mouse over the ***Add*** button will display a list of shortcuts for common entries. 
 {% endsnippet %}
 
-![Add a new Entry](/img/en/server/clip10073.png) 
+![Add a new Entry](https://webdevolutions.azureedge.net/docs/en/server/clip10073.png) 
  
 1. Select an entry from the [Entry Type](/server/web-interface/vault/entries/entry-type/) in the list. 
 1. Click ***Continue*** . 

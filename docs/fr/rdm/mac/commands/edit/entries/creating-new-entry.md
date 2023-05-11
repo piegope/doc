@@ -11,11 +11,11 @@ Remote Desktop Manager pour macOS prend en charge plusieurs types d'entrées.
 La méthode la plus simple consiste à : 
 
 1. Créer une entrée à partir du menu Modifier dans le Ruban, puis sélectionner Nouvelle Entrée .  
-![Menu Modifier - Ajouter une session](/img/fr/rdm/mac/clip9008.png) 
+![Menu Modifier - Ajouter une session](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip9008.png) 
 1. Cliquer sur le type d'entrée ou le modèle désiré pour lancer une session.  
-![Sélectionner le type d'entrée](/img/fr/rdm/mac/clip9007.png) 
+![Sélectionner le type d'entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip9007.png) 
 1. Dans la fenêtre des propriétés de la session, personnaliser les paramètres.  
-![Paramètres de la session](/img/fr/rdm/mac/clip9009.png) 
+![Paramètres de la session](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip9009.png) 
 
 ## Créer une session en important la configuration 
 

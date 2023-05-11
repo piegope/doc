@@ -46,28 +46,28 @@ Pour être plus précis, nous utiliserons ces noms d'équipe dans nos scénarios
 ### Créer un groupe d'utilisateurs 
 
 Pour créer des groupes d'utilisateurs, accéder à ***Administration - Groupes d'utilisateurs*** , puis cliquer sur ***Ajouter un groupe d'utilisateurs*** .  
-![Gestion des usagers et de la sécurité](/img/fr/rdm/windows/clip3472.png) 
+![Gestion des usagers et de la sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3472.png) 
 
 Tous les paramètres peuvent être laissés par défaut, sauf si le groupe d'utilisateurs ne contient que des administrateurs. Dans ce cas, cochez la case ***Administrateur*** lors de la configuration du groupe d'utilisateur. Saisir un nom pour le groupe d'utilisateurs, puis cliquer sur ***OK*** .  
-![Gestion des Groupes d'utilisateurs](/img/fr/rdm/windows/clip3473.png) 
+![Gestion des Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3473.png) 
 
 Pour attribuer des groupes d'utilisateurs aux utilisateurs, cliquer sur le bouton groupe d'utilisateurs , puis cocher la case ***Est membre*** de l'utilisateur respectif.  
-![Assignation des groupes d'utilisateurs](/img/fr/rdm/windows/clip3474.png) 
+![Assignation des groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3474.png) 
 
 ## Configuration utilisateur 
 
 ### Modèle utilisateur 
 
 Il est possible de modifier le modèle utilisateur par défaut. Pour ce faire, accéder à ***Administration - Paramètres du système - Modèle utilisateur*** . Ces paramètres contrôlent les paramètres par défaut d'un nouvel utilisateur. La meilleure pratique consiste à désactiver tous les privilèges.  
-![Paramètres du système - Modèle utilisateur](/img/fr/rdm/windows/RdmWin4026.png) 
+![Paramètres du système - Modèle utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4026.png) 
 
 ### Créer l'utilisateur 
 
 Pour créer des utilisateurs, accéder à ***Administration - Utilisateurs*** , puis cliquer sur ***Ajouter un utilisateur*** . Saisir un nom d'utilisateur et un mot de passe et sélectionner le type d'utilisateur.  
-![Gestion des utilisateurs - Général](/img/fr/rdm/windows/clip3475.png) 
+![Gestion des utilisateurs - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3475.png) 
 
 Un utilisateur peut être affecté à plusieurs groupes d'utilisateurs à la fois en cochant la case ***Est membre*** des groupes d'utilisateurs respectifs dans la section ***Groupes d'utilisateurs*** de la gestion des utilisateurs.  
-![Gestion des utilisateurs - Groupes d'utilisateurs](/img/fr/rdm/windows/clip3476.png) 
+![Gestion des utilisateurs - Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3476.png) 
 
 ### Administrateur 
 
@@ -97,21 +97,21 @@ Lors de la création d'utilisateurs, certains points clés doivent être pris en
 L'accès est accordé ou refusé aux utilisateurs en définissant une permission sur les entrées. Les permissions peuvent être définies pour les utilisateurs ou les groupes d'utilisateurs. La meilleure pratique consiste à accorder des permissions aux groupes d'utilisateurs pour contrôler l'accès de plusieurs utilisateurs à la fois.  
 
 Pour définir des permissions sur une entrée, modifier une entrée, puis accèder à la section ***Permissions*** .  
-![Permissions](/img/fr/rdm/windows/clip3480.png) 
+![Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3480.png) 
 
 Les permissions sont généralement définies sur les dossiers et s'appliquent à toutes les entrées enfants. Une meilleure pratique consiste à définir toutes les autorisations du coffre sur ***Jamais*** . Par conséquent, toutes les permissions de toutes les entrées sont refusées par défaut.  
-![Paramètres du coffre](/img/fr/rdm/windows/clip3481.png) 
+![Paramètres du coffre](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3481.png) 
 
 L'accès est refusé aux utilisateurs en accordant expressément l'accès à d'autres utilisateurs. En d'autres termes, tous les utilisateurs qui ne figurent pas sur la liste d'une permission se voient refuser l'accès.  
 
 Pour qu'un utilisateur ait accès à un sous-dossier, l'utilisateur doit avoir au moins la permission d'affichage sur tous les dossiers parents.  
 
 Considérer la structure suivante:  
-![!!clip3482.png](/img/fr/rdm/windows/clip3482.png) 
+![!!clip3482.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3482.png) 
 
 Il existe trois niveaux de dossiers: les éléments du coffre, Telemark et enfant du Telemark.  
 
 Supposons qu'un utilisateur, tel qu'un consultant, doit avoir accès au dossier Montréal uniquement. Le consultant doit également être autorisé à consulter le dossier Telemark. Toutefois, accorder l'accès à la vue au dossier Telemark donne au consultant les autorisations pour afficher tous les éléments enfants de Telemark. Pour refuser les autorisations d'affichage pour le consultant sur des éléments enfants spécifiques, les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs.  
-![!!clip3483.png](/img/fr/rdm/windows/clip3483.png) 
+![!!clip3483.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3483.png) 
 
 

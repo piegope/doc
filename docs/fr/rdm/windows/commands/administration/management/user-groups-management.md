@@ -24,5 +24,5 @@ Pour plus d'informations, consultez [Gestion des groupes d'utilisateurs](/fr/ser
 Les ***Groupes d'utilisateur*** dans {{ fr.RDM }} sont des ensembles d'autorisations que vous attribuez à un utilisateur. Vous pouvez attribuer plusieurs groupes d'utilisateurs à chaque utilisateur et le résultat final est l'union de toutes les autorisations.  
 
 Pour créer un nouveau groupe d'utilisateurs aller dans ***Administration - Groupes d'utilisateurs*** et cliquer sur le signe plus ***Ajouter un groupe d'utilisateurs*** . Dans le même menu, vous pouvez également modifier, affecter des utilisateurs, supprimer ou actualiser.  
-![Gestion des usagers et de la sécurité - Groupes d'utilisateurs - Ajouter un groupe d'utilisateurs](/img/fr/rdm/windows/clip11310.png) 
+![Gestion des usagers et de la sécurité - Groupes d'utilisateurs - Ajouter un groupe d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11310.png) 
 

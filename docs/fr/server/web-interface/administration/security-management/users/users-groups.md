@@ -4,7 +4,7 @@ keywords:
 - Rôle
 ---
 Attribuer des utilisateurs à un groupe d'utilisateurs.  
-![Modifier l'utilisateur - Groupes d'utilisateurs](/img/fr/server/ServerOp7007.png) 
+![Modifier l'utilisateur - Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp7007.png) 
 
 <table>
 	<tr>

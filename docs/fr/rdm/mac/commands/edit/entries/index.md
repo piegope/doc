@@ -5,7 +5,7 @@ Les options pour ajouter vous permettent de créer rapidement de nouvelles entr�
 
 ## Paramètres 
 
-![Ajouter des entrées](/img/fr/rdm/mac/clip4049.png) 
+![Ajouter des entrées](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4049.png) 
 
 <table>
 	<tr>

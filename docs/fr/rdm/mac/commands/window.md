@@ -5,7 +5,7 @@ Le menu ***Fenêtre*** vous permet de gérer l'affichage global de {{ fr.RDM }} 
 
 ## Paramètres 
 
-![Ruban Fenêtre](/img/fr/rdm/mac/clip4223.png) 
+![Ruban Fenêtre](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4223.png) 
 
 <table>
 	<tr>

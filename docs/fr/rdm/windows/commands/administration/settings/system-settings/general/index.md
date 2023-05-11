@@ -9,7 +9,7 @@ Les ***Paramètres du système*** vous permettent de contrôler de nombreux aspe
 Ces paramètres s'appliquent à tous les utilisateurs qui ont accès à la source de données. 
 {% endsnippet %}
  
-![Paramètres du système](/img/fr/rdm/windows/clip10720.png) 
+![Paramètres du système](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10720.png) 
 
 <table>
 	<tr>

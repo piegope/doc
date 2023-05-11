@@ -17,7 +17,7 @@ The Manage Cache options should only be used upon request from our Support Team 
 The Manage Cache option will only be available when using an SQLite cache. 
 {% endsnippet %}
  
-![Manage Cache](/img/en/rdm/mac/clip10504.png)
+![Manage Cache](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10504.png)
 
 <table>
 	<tr>

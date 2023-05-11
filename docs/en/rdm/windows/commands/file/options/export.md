@@ -9,7 +9,7 @@ Sharing the exported file with a colleague would effectively give that person wh
 Devolutions does not recommend sharing any credential to a team data source. 
 {% endsnippet %}
  
-![Configuration file export dialog](/img/en/rdm/windows/clip10759.png) 
+![Configuration file export dialog](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10759.png) 
 
 ## Settings 
 

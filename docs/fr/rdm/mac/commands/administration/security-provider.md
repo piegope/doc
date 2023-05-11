@@ -28,9 +28,9 @@ L'application d'un nouveau fournisseur de sécurité traite toute la base de don
  
 
 1. Cliquer sur ***Modifier les paramètres de sécurité*** pour changer le fournisseur de sécurité.  
-![Modifier les paramètres de sécurité](/img/fr/rdm/mac/clip4110.png) 
+![Modifier les paramètres de sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4110.png) 
 1. Sélectionner votre nouveau ***Type de sécurité*** dans le menu déroulant. 
-![Type de sécurité](/img/fr/rdm/mac/clip4111.png) 
+![Type de sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4111.png) 
 
 <table>
 	<tr>
@@ -79,7 +79,7 @@ Toutes les données de configuration des entrées sont cryptées avec un mélang
 ### Certificate
 
 Si vous avez choisi le ***Certificate*** comme fournisseur de sécurité, il cryptera les données de configuration d'entrée avec un mélange de clés stockées dans {{ fr.RDM }} et la clé privée contenue dans le certificat.  
-![Fournisseur de certificat de sécurité](/img/fr/rdm/mac/clip4112.png) 
+![Fournisseur de certificat de sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4112.png) 
 
 <table>
 	<tr>

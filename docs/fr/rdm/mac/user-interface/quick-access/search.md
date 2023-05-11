@@ -6,10 +6,10 @@ Il est possible d'appliquer un filtre dans le [Volet de navigation](/fr/rdm/mac/
 ## Paramètres 
 
 Le filtre de ***Recherche*** est accessible à partir de la barre d'accès rapide de {{ fr.RDM }} .  
-![Recherche/ Filtre](/img/fr/rdm/mac/clip4402.png) 
+![Recherche/ Filtre](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4402.png) 
 
 Cliquer sur la flèche dans la zone de ***Recherche*** pour afficher vos options de recherche.  
-![Menu d'options de recherche](/img/fr/rdm/mac/clip4404.png) 
+![Menu d'options de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4404.png) 
 
 L'expression du filtre est mise en correspondance avec les champs sélectionnés dans les options de filtre, tels que:  
 
@@ -28,7 +28,7 @@ Il est possible d'exclure des résultats en choisissant d'afficher les entrées 
 * Si la session est marquée comme Favorites 
 
 Une recherche par ***Options de navigation*** peut être exécutée pour inclure des Sessions, des Entrées de données, des Contacts, des Documents, des Entrées d'identifiants, des VPN, des Macros/Scripts/Outils et Sync.  
-![Options de navigation](/img/fr/rdm/mac/clip4406.png) 
+![Options de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4406.png) 
 
 Les ***Options de recherche*** vous offriront la possibilité d'inclure les raccourcis, les sous-connexions, d'afficher uniquement les favoris et/ou de rendre la recherche sensible à la casse.  
-![Options de recherche](/img/fr/rdm/mac/clip4407.png) 
+![Options de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4407.png) 

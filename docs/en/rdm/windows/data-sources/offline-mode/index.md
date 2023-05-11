@@ -38,7 +38,7 @@ The offline mode availability relies on several settings:
 The lowest setting (in terms of security) prevails over the others, which may prevent you from using the offline mode. If the ***Go Offline*** button is not available, please consult your administrator.  
 
 The   [Data Source Information](/rdm/windows/commands/file/my-data-source-information/) displays the size of the offline cache file along with the effective modes (disabled, read-only, or read/write).  
-![File – My Data Source Information – Offline mode](/img/en/rdm/windows/clip11278.png) 
+![File – My Data Source Information – Offline mode](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11278.png) 
 
 ### Caching mode 
 
@@ -47,7 +47,7 @@ The caching mode must be set to ***In-Memory*** or ***File*** to enable the offl
 This step cannot be modified remotely once you have exported your data source settings. You should take a moment and think about the needs of your data source and select what is appropriate before moving on to exporting. 
 {% endsnippet %}
  
-![Caching mode](/img/en/rdm/windows/clip3581.png) 
+![Caching mode](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3581.png) 
 
 <table>
 	<tr>

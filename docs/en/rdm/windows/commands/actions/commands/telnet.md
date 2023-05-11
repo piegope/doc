@@ -5,7 +5,7 @@ The actions for a Telnet session allow you to send remote commands to your host.
 
 ## Settings 
 
-![Telnet Commands Actions ](/img/en/rdm/windows/2028.png) 
+![Telnet Commands Actions ](https://webdevolutions.azureedge.net/docs/en/rdm/windows/2028.png) 
 
 <table>
 	<tr>
@@ -52,7 +52,7 @@ Reset host terminal connection.
 
 ### Start Recording 
 
-![!!clip10199.png](/img/en/rdm/windows/clip10199.png) 
+![!!clip10199.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10199.png) 
 
 <table>
 	<tr>

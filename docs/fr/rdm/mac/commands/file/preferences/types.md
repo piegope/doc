@@ -5,7 +5,7 @@ Utiliser ***Fichier - Préférences - Types*** pour contrôler les paramètres a
 
 ## Paramètres 
 
-![Préférences - Types](/img/fr/rdm/mac/clip4032.png) 
+![Préférences - Types](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4032.png) 
 
 ### Type de session 
 

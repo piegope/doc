@@ -7,7 +7,7 @@ Certains de ces paramètres peuvent être remplacés à l'aide de stratégies de
 
 ## Paramètres 
 
-![Paramètres du système - Politique de mot de passe](/img/fr/rdm/mac/clip4105.png) 
+![Paramètres du système - Politique de mot de passe](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4105.png) 
 
 <table>
 	<tr>

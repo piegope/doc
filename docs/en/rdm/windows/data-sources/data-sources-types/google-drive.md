@@ -5,7 +5,7 @@ title: Google Drive
 	<tr>
 		<td>
 
-![!!DataSourceFtpLarge.png](/img/common/DataSourceFtpLarge.png) 
+![!!DataSourceFtpLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceFtpLarge.png) 
 		</td>
 		<td>
 {{ en.RDM }} downloads and uploads the session settings directly from file located on an FTP site. 
@@ -15,7 +15,7 @@ title: Google Drive
 
 ### General 
 
-![Google Drive - General Tab](/img/en/rdm/windows/clip3622.png) 
+![Google Drive - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3622.png) 
 
 <table>
 	<tr>
@@ -103,5 +103,5 @@ Enter the Google Drive path of the data source's file.
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your Google Drive .  
-![Google Drive - VPN Tab](/img/en/rdm/windows/GoogleDriveVPN.png) 
+![Google Drive - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/GoogleDriveVPN.png) 
 

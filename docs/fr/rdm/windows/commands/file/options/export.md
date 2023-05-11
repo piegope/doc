@@ -11,7 +11,7 @@ Devolutions ne recommande pas de partager des identifiants dans une source de do
  
 ## Paramètres 
 
-![Exportation du fichier de configuration](/img/fr/rdm/windows/clip10759.png) 
+![Exportation du fichier de configuration](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10759.png) 
 
 ### Informations sur l'enregistrement 
 

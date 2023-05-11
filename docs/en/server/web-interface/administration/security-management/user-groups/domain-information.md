@@ -3,7 +3,7 @@ title: Domain Information
 ---
 Provides the user group's domain information. 
 
-![!!ServerOp8013.png](/img/en/server/ServerOp8013.png) 
+![!!ServerOp8013.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8013.png) 
 
 <table>
 	<tr>
@@ -36,4 +36,4 @@ User group domain security identifier.
 
 Display the detailed user group domain information. 
 
-![User Group Domain Information](/img/en/server/ServerOp8017.png) 
+![User Group Domain Information](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8017.png) 

@@ -15,7 +15,7 @@ Before migrating from ***Legacy Security*** it is advised to also configure the 
 
 1. Navigate to the ***Administration*** tab in {{ en.RDM }}.
 1. Under the ***Settings*** section, select ***System Settings***.  
-![System Settings](/img/en/kb/KB0026.png)
+![System Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB0026.png)
 1. Go to ***Vault Management*** – ***Security Settings*** – ***Security***, and uncheck ***Use legacy security***.  
-![Use legacy security](/img/en/kb/KB0027.png)
+![Use legacy security](https://webdevolutions.azureedge.net/docs/en/kb/KB0027.png)
 1. Click ***Ok*** to apply the changes and close the window.

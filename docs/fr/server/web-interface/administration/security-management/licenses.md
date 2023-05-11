@@ -2,11 +2,11 @@
 title: Licences
 ---
 La gestion globale de l'enregistrement pour tous vos utilisateurs peut être effectuée avec une licence stockée dans {{ fr.DPS }} via la section Licences.  
-![Licences](/img/fr/server/ServerOp8061.png) 
+![Licences](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8061.png) 
 
 ### Générale 
 
-![Licences - Générale](/img/fr/server/ServerOp8062.png) 
+![Licences - Générale](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8062.png) 
 
 <table>
 	<tr>
@@ -37,7 +37,7 @@ Une licence sera automatiquement attribué à tout nouveau compte d'utilisateur.
 
 ### Assigné à 
 
-![!!ServerOp8063.png](/img/fr/server/ServerOp8063.png) 
+![!!ServerOp8063.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8063.png) 
 
 <table>
 	<tr>

@@ -11,8 +11,8 @@ Cela vous permet de centraliser une information d'identifiant spécial pour remp
 Si vous souhaitez modifier le type d'identifiant, accéder à ***%LOCALAPPDATA%*** (par défaut) ou ***% APPDATA%*** (services Terminal Server) \ Devolutions \ RemoteDesktopManager et supprimer le fichier ***Credentials.rdt*** pour le réinitialiser. 
 {% endsnippet %}
  
-![Mes identifiants personnels](/img/fr/rdm/windows/clip10269.png) 
+![Mes identifiants personnels](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10269.png) 
 
 ***Mes identifiants personnels*** peuvent être sélectionnés dans vos entrées sous ***Identifiants*** .  
-![Identifiants - Mes identifiants personnels](/img/fr/rdm/windows/clip11293.png) 
+![Identifiants - Mes identifiants personnels](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11293.png) 
 

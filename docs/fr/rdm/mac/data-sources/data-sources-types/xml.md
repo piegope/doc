@@ -5,7 +5,7 @@ title: XML
 	<tr>
 		<td>
 
-![!!DataSourceXMLLarge.png](/img/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 {{ fr.RDM }} enregistre les paramètres directement dans un fichier au format XML. 
@@ -32,7 +32,7 @@ Il est impossible de récupérer les données si la clé maîtresse est perdue. 
 
 ### Général 
 
-![XML - Général](/img/fr/rdm/mac/clip0339.png) 
+![XML - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0339.png) 
 
 <table>
 	<tr>
@@ -79,7 +79,7 @@ Indiquer le nom de fichier utilisé pour stocker les données sur la source de d
 
 ### Sauvegarde 
 
-![XML - Sauvegarde](/img/fr/rdm/mac/clip0340.png) 
+![XML - Sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0340.png) 
 
 <table>
 	<tr>
@@ -115,7 +115,7 @@ Spécifier le nom de sauvegarde qui vous permettra d'enregistrer automatiquement
 
 ### Avancée 
 
-![XML - Avancée](/img/fr/rdm/mac/clip4269.png) 
+![XML - Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4269.png) 
 
 <table>
 	<tr>

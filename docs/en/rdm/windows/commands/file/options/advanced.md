@@ -2,7 +2,7 @@
 title: Advanced Options
 ---
 Use ***File – Options – Advanced*** to control the behavior of the application with respect to the lower level settings.  
-![File – Options – Advanced](/img/en/rdm/windows/clip10595.png) 
+![File – Options – Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10595.png) 
 
 ## Settings 
 

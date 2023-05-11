@@ -6,11 +6,11 @@ Here are the steps to create and assign ***Application Users*** for {{ en.PHUB }
 ### Create an Application user 
 
 1. In ***Administration – Application Users*** , click ***Add Application User*** at the top right. 
-![Add Application User](/img/en/hub/Hub2180.png)
+![Add Application User](https://webdevolutions.azureedge.net/docs/en/hub/Hub2180.png)
 1. Name the ***Application User*** and click ***Add*** . 
-![Application User Name](/img/en/hub/Hub4057.png)
+![Application User Name](https://webdevolutions.azureedge.net/docs/en/hub/Hub4057.png)
 1. Copy the ***Application Secret*** and ***Application key*** or download the PDF file provided and save it in a secure place. 
-![Application Secret & Application key](/img/en/hub/Hub4058.png)
+![Application Secret & Application key](https://webdevolutions.azureedge.net/docs/en/hub/Hub4058.png)
 {% snippet icon.badgeCaution %} 
 Be sure to keep the information about the newly created ***Application User*** . 
 {% endsnippet %}

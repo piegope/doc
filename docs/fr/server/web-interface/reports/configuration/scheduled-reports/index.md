@@ -16,4 +16,4 @@ Grâce à cette fonction, vous pouvez définir des dates, des filtres et divers 
 Pour que cette fonctionnalité soit opérationnelle, il est obligatoire d'activer le ***Service de planification*** dans l'onglet ***Compagnons*** de la {{ fr.DVLSCONSOLE }}.
 {% endsnippet %}
  
-![Rapports – Rapports planifiés](/img/fr/server/ServerOp4079.png)
+![Rapports – Rapports planifiés](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4079.png)

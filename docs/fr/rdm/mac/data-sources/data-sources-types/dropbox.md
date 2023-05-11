@@ -6,7 +6,7 @@ title: Dropbox
 	<tr>
 		<td>
 
-![!!DataSourceDropBoxLarge.png](/img/common/DataSourceDropBoxLarge.png) 
+![!!DataSourceDropBoxLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
 		</td>
 		<td>
 {{ fr.RDM }} utilise l'API Dropbox pour récupérer un fichier XML à partir du coffre configuré. Il n'est pas nécessaire d'installer le client Dropbox sur la machine pour ouvrir la source de données. Il est également possible de configurer plusieurs comptes Dropbox sur la même machine. 
@@ -35,7 +35,7 @@ Bien qu'il puisse être partagé entre plusieurs emplacements, il n'y a pas de g
 
 ### Général 
 
-![Dropbox - Général](/img/fr/rdm/mac/clip0322.png) 
+![Dropbox - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0322.png) 
 
 {% snippet icon.badgeInfo %} 
 {{ fr.RDM }} prend en charge l'authentification à 2 facteurs de Dropbox. Lorsque le bouton ***Valider Dropbox*** est enfoncé et que l'authentification à 2 facteurs est activée dans Dropbox, une première boîte s'ouvre et demande le mot de passe du compte Dropbox. Après, une deuxième boîte s'ouvrira pour entrer le code de sécurité. Le code de sécurité peut être reçu par SMS ou généré par Google Authenticator. 
@@ -94,7 +94,7 @@ Indique le nom de fichier utilisé pour stocker les données sur la source de do
 
 ### Avancée 
 
-![Dropbox - Avancée](/img/fr/rdm/mac/clip0323.png) 
+![Dropbox - Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0323.png) 
 
 <table>
 	<tr>

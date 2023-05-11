@@ -12,7 +12,7 @@ The [{{ en.PVLT }}](/rdm/mac/user-interface/navigation-pane/user-vault/) credent
 1. the {{ en.PVLT }} is available for your data source; 
 1. You are overriding at the folder level; 
 1. You are overriding a session that is itself in the {{ en.PVLT }} .  
-![User Specific settings - VPN](/img/en/rdm/mac/clip10344.png) 
+![User Specific settings - VPN](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10344.png) 
 
 <table>
 	<tr>

@@ -4,7 +4,7 @@ title: Administration
 Le ruban ***Administration*** n'est disponible que pour l'administrateur de la source de données, car il est principalement utilisé pour gérer les paramètres et les utilisateurs d'une source de données. Si les options sont grisées, contactez votre administrateur.  
 
 De plus, la plupart des fonctionnalités contenues dans le menu Administration nécessitent une [Sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) .  
-![Administration](/img/fr/rdm/windows/clip10692.png) 
+![Administration](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10692.png) 
 
 ### Gestion 
 

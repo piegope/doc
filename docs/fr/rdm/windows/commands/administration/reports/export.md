@@ -14,7 +14,7 @@ Vous devez avoir les droits pour exécuter le rapport dans {{ fr.RDM }} pour uti
 Pour les rapports contenant des paramètres, vous devrez commencer par exporter vos paramètres de rapport pour créer le fichier ****.rdr*** que la ligne de commande utilise pour générer les rapports.  
 
 1. Sélectionner votre rapport dans ***Administrations - Rapports*** , puis sélectionner l'option ***Paramètres d'exportation*** dans le bouton ***Plus*** . Il créera un fichier * .rdr contenant tous vos paramètres de rapport. C'est également là que se trouve votre ID du rapport (cela sera utile plus tard).  
-![Paramètres d'exportation](/img/fr/rdm/windows/clip10006.png) 
+![Paramètres d'exportation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10006.png) 
 1. Dans votre invite de commandes Windows, entrer la ligne de commande suivante:  
 
 `C:\*** /DataSource:*** /report:***/reportoutput:"***" /reportsettings:"***.rdr" /closeapp` 
@@ -79,7 +79,7 @@ Cette commande fermera {{ fr.RDM }} si l'application a été démarrée à parti
 </table>
 
 Pour trouver votre ID de source de données et la ligne de commande utilisée pour démarrer {{ fr.RDM }} , aller dans les propriétés d'une de vos sessions depuis votre source de données et sélectionner la section ***Informations de l'entrée*** .  
-![Session RDP - Informations de l'entrée](/img/fr/rdm/windows/clip10008.png) 
+![Session RDP - Informations de l'entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10008.png) 
 
 Voici une liste des types de rapports que vous pouvez trouver dans {{ fr.RDM }} et le nom à entrer dans la ligne de commande pour générer le rapport:  
 

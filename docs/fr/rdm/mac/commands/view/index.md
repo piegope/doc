@@ -2,7 +2,7 @@
 title: Affichage
 ---
 L'onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l'affichage, les journaux et la disposition de {{ fr.RDM }} pour Mac.  
-![Onglet Affichage](/img/fr/rdm/mac/clip4079.png) 
+![Onglet Affichage](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4079.png) 
 
 ### Sujets 
 

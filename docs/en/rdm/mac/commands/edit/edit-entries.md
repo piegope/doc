@@ -5,7 +5,7 @@ The Edit options is used to Edit one of your entry. You may edit the properties,
 
 ## Settings 
 
-![Edit options](/img/en/rdm/mac/clip10336.png) 
+![Edit options](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10336.png) 
 
 <table>
 	<tr>

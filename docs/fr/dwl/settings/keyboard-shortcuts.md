@@ -7,11 +7,11 @@ Voici la liste des raccourcis clavier disponibles pour {{ fr.DWL }} :
 
 Utiliser ce raccourci pour ouvrir la fenêtre {{ fr.DWL }} dans le navigateur actif.  
 
-![Devolutions Web Login dans Chrome.png](/img/fr/dwl/Dwl4030.png)
+![Devolutions Web Login dans Chrome.png](https://webdevolutions.azureedge.net/docs/fr/dwl/Dwl4030.png)
 
 ### Ctrl+Maj+Y 
 
 Utiliser ce raccourci pour saisir automatiquement vos identifiants lorsqu'un seul est disponible pour l'entrée.  
 
-![Connexion avec un identifiant avec Devolutions Web Login.png](/img/fr/dwl/Dwl4031.png)
+![Connexion avec un identifiant avec Devolutions Web Login.png](https://webdevolutions.azureedge.net/docs/fr/dwl/Dwl4031.png)
 

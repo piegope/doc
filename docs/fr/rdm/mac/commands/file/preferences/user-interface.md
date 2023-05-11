@@ -5,7 +5,7 @@ Utiliser ***Fichier - Préférences - Interface utilisateur*** pour configurer l
 
 ## Paramètres 
 
-![Préférences - Interface utilisateur](/img/fr/rdm/mac/clip4031.png) 
+![Préférences - Interface utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4031.png) 
 
 ### Menu contextuel 
 

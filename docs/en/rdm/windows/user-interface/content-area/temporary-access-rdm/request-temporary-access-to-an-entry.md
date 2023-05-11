@@ -18,9 +18,9 @@ Follow the steps below to learn how to make a temporary access request:
 
 1. In the ***{{ en.NPANE }}*** of {{ en.RDM }} , open the entry you want access to by double clicking on it. 
 1. A message will pop up asking if you want to send a request to get temporary access. Click ***Yes*** .  
-![Send a Temporary Access Request](/img/en/rdm/windows/RDMWin2059.png) 
+![Send a Temporary Access Request](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2059.png) 
 1. In the ***Temporary Access Request*** window, select the ***Access duration*** as well as the authorizer you want to send the request to.  
-![Temporary Access Request](/img/en/rdm/windows/RDMWin2060.png) 
+![Temporary Access Request](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2060.png) 
 1. Write a short ***Message*** to the authorizer explaining why you want access to this entry. This is optional, but we strongly recommend it as it allows the authorizer to make a more informed decision. When you are done, click on ***Send Request*** . 
 1. A message will appear indicating that the request has been sent to the authorizer. Click ***OK*** to make it disappear. 
 
@@ -35,9 +35,9 @@ Once the authorizer has granted you access, you can go straight to your entry in
 For any reason, you may revoke your temporary access. Be sure you want to do this first, since in order to regain access to your entry, you will need to make another request. Otherwise, your access will end within the time frame set by you and the authorizer.  
 
 1. Select your entry in the ***{{ en.NPANE }}*** . Then, from the ***Actions*** menu of your ***Dashboard*** , click on ***Revoke Temporary Access*** .  
-![Revoke Temporary Access](/img/en/rdm/windows/RDMWin2065.png) 
+![Revoke Temporary Access](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2065.png) 
 1. Click the ***Yes*** button when asked if you are sure you want to revoke your temporary access.  
-![Approve Temporary Access Revocation](/img/en/rdm/windows/RDMWin2066.png) 
+![Approve Temporary Access Revocation](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2066.png) 
 1. The next window will indicate that the revocation has been executed. Click on OK to make this window disappear. 
 
 Your temporary access has now been revoked. 

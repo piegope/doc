@@ -2,7 +2,7 @@
 title: User Types
 ---
 When creating users in {{ en.RDM }} , four types of user are available. Basic rights are granted to the created users depending on their type.  
-![User Management - User Type](/img/en/rdm/windows/clip3423.png) 
+![User Management - User Type](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3423.png) 
 
 <table>
 	<tr>
@@ -56,5 +56,5 @@ When setting a user to the ***Restricted User*** type, rights must be granted ma
 Once rights are granted, they can be restricted with the [User Groups Based Security](/rdm/windows/user-groups-based-access-control/) or Security Groups.  
 
 The ***Add*** right also displays the ***Add in*** ***{{ en.VLT }}*** option. This must be enable for users to be able to add entries into the {{ en.VLT }} folder of the data source.  
-![User Management - Rights](/img/en/rdm/windows/clip3424.png) 
+![User Management - Rights](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3424.png) 
 

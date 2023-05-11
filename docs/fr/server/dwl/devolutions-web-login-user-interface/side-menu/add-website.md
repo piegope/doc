@@ -4,7 +4,7 @@ title: Ajouter un site Web
 Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant*** , qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les coffres de l'onglet ***Toutes les entrées*** . Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.DPS }} via {{ fr.DWL }} .  
 
 Lorsque {{ fr.DPS }} est utilisé comme source de données, la configuration de l'entrée se fait dans l'onglet ***Général*** .  
-![Ajouter un site Web](/img/fr/server/ServerOp2021.png) 
+![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2021.png) 
 
 Consultez le tableau ci-dessous pour en savoir plus sur chaque champ/paramètre de cette vue.  
 

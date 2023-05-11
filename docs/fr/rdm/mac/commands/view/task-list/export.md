@@ -10,7 +10,7 @@ Avant d'exporter des tâches, vous pouvez effectuer une [Recherche](/fr/rdm/mac/
 {% endsnippet %}
  
 Sélectionner les tâches et faire un clic droit pour choisir le format d“exportation.  
-![Exporter la Liste des tâches](/img/fr/rdm/mac/clip4084.png)
+![Exporter la Liste des tâches](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4084.png)
 
 ### Type de fichier d'exportation 
 

@@ -5,7 +5,7 @@ Use the File - Import - Import Sessions From to import sessions into   {{ en.RDM
 
 ## Settings 
 
-![Import Sessions from](/img/en/rdm/mac/clip10314.png) 
+![Import Sessions from](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10314.png) 
 
 ### Import Sessions From 
 

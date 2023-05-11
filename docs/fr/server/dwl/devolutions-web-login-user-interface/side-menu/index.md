@@ -17,7 +17,7 @@ L'extension s'ouvre sur l'onglet ***Correspondant*** . C'est là que vous verrez
 Pour connaître les méthodes de récupération de vos identifiants, consultez [cette rubrique](/fr/server/dwl/using-devolutions-web-login/retrieve-credentials-dwl/) . 
 {% endsnippet %}
  
-![Onglet Correspondant](/img/fr/server/ServerOp2011.png) 
+![Onglet Correspondant](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2011.png) 
 
 En haut, vous pouvez utiliser la barre de ***Recherche*** pour filtrer tous vos identifiants, pas seulement celles applicables au site Web. Vous pouvez également utiliser le bouton ***Actualiser*** situé à côté pour mettre à jour les résultats de la recherche.  
 
@@ -34,7 +34,7 @@ Lorsque vous accédez à l'onglet ***Toutes les entrées*** pour la première fo
 {% endsnippet %}
  
 L'onglet ***Toutes les entrées*** vous permet de parcourir tous vos coffres synchronisés pour les entrées de sites Web uniquement. Vous rencontrerez d'abord la liste de vos coffres synchronisés.  
-![Onglet Toutes les entrées](/img/fr/server/ServerOp2012.png)  
+![Onglet Toutes les entrées](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2012.png)  
 
 En haut, vous pouvez utiliser la barre de ***Filtre*** pour rechercher des entrées de site Web dans tous vos coffres.  
 
@@ -43,21 +43,21 @@ Vous pouvez accéder à vos coffres de deux manières :
 * Pour accéder à un coffre dans {{ fr.DPS }} , cliquer sur le bouton ***Ouvrir*** à côté d'un coffre pour l'ouvrir dans {{ fr.DPS }} dans un nouvel onglet de navigateur.  
 
 * Pour accéder à un coffre dans {{ fr.DWL }} , cliquer sur ce coffre et naviguer dans les dossiers pour trouver manuellement l'entrée recherchée. La structure des dossiers est identique à celle de votre {{ fr.DPS }} , sauf que seuls les chemins menant aux entrées de site Web seront affichés. Lorsque vous naviguez dans les dossiers, le bouton ***Ajouter un site Web*** apparaît au bas de la ***Zone de contenu*** . Vous pouvez également utiliser la barre du haut pour faire une recherche dans un emplacement spécifique.  
-![Navigation dans un coffre via Devolutions Web Login](/img/fr/server/ServerOp2013.png)  
+![Navigation dans un coffre via Devolutions Web Login](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2013.png)  
 
 De retour sur la vue principale de l'onglet ***Toutes les entrées*** , le bouton ***Sélectionner les coffres à synchroniser*** en bas de la ***Zone de contenu*** vous permet de sélectionner individuellement les coffres de {{ fr.DPS }} à synchroniser avec {{ fr.DWL }} .  
 
 ### Onglet Favoris 
 
 Si vous avez des entrées marquées comme favorites, elles seront affichées ici dans l'onglet ***Favoris*** .  
-![Onglet Favoris](/img/fr/server/ServerOp2014.png)  
+![Onglet Favoris](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2014.png)  
 
 Vous pouvez rechercher une entrée particulière à l'aide de la barre ***Rechercher dans Favoris*** située en haut. 
 
 ### Onglet Récent 
 
 Les dernières entrées que vous avez utilisées s'affichent dans l'onglet ***Récent*** .  
-![Onglet Récent](/img/fr/server/ServerOp2015.png)  
+![Onglet Récent](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2015.png)  
 
 Vous pouvez rechercher une entrée particulière à l'aide de la barre de ***Filtre*** située en haut.  
 
@@ -66,15 +66,15 @@ En bas, vous pouvez cliquer sur le bouton ***Effacer les entrées récentes*** p
 ### Onglet Générateur de mots de passe 
 
 L'onglet ***Générateur de mots de passe*** vous aide à créer un mot de passe fort et sécurisé adapté à vos besoins et aux exigences du site Web pour votre nouveau compte.  
-![Onglet Générateur de mots de passe](/img/fr/server/ServerOp2016.png)  
+![Onglet Générateur de mots de passe](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2016.png)  
 
 Votre mot de passe personnalisé est généré en haut de la ***Zone de contenu*** avec un indicateur de force en dessous. Vous pouvez le copier ou en générer un nouveau en utilisant respectivement les boutons ***Copier dans le presse-papiers*** et ***Générer un mot de passe***. La ***Longueur du mot de passe*** , qui est fixée à 12 par défaut, peut également être ajustée.  
 
 Dans la section déroulante ***Général*** , vous pouvez sélectionner les types de caractères que votre mot de passe doit contenir ainsi que le nombre minimum de caractères de chaque type qui doit être inclus.  
-![Section Général](/img/fr/server/ServerOp2017.png)  
+![Section Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2017.png)  
 
 Dans la section déroulante ***Avancé*** , vous êtes en mesure de personnaliser davantage votre mot de passe en saisissant les caractères que vous souhaitez inclure dans votre mot de passe, suivis du nombre minimum de fois où ils doivent apparaître. Dans le second champ, vous pouvez également saisir les caractères que vous voulez exclure de votre mot de passe.  
-![Section Avancé](/img/fr/server/ServerOp2018.png)  
+![Section Avancé](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2018.png)  
 
 {% snippet icon.badgeInfo %} 
 Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la création d'un compte sur un site Web, consultez [cette rubrique](/fr/server/dwl/using-devolutions-web-login/create-account-website-dwl/) . 
@@ -83,7 +83,7 @@ Pour apprendre à utiliser le ***Générateur de mots de passe*** lors de la cr�
 ### Fonctionnalités des entrées 
 
 Quel que soit l'onglet dans lequel vous vous trouvez (à l'exception de l'onglet ***Générateur de mots de passe*** ), lorsque vous passez la souris sur une entrée, trois nouvelles options apparaissent : les boutons ***Copier le nom d'utilisateur***, ***Copier le mot de passe*** et ***Affichage***.  
-![Options Copier le nom d'utilisateur, Copier le mot de passe et Affichage](/img/fr/server/ServerOp2019.png)  
+![Options Copier le nom d'utilisateur, Copier le mot de passe et Affichage](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2019.png)  
 
 Les boutons ***Copier le nom d'utilisateur*** et ***Copier le mot de passe*** copient le nom d'utilisateur/mot de passe de l'entrée dans votre presse-papiers.  
 
@@ -95,6 +95,6 @@ Le bouton ***Affichage*** vous donne un aperçu de l'entrée ainsi que des fonct
 * Visualiser et accéder à l' ***URL*** associée à l'entrée.  
 
 Les autres informations et fonctionnalités dépendront de ce que vous avez fourni lors de la création de l'entrée (nom d'utilisateur, mot de passe, étiquettes, description, etc.).  
-![Aperçu de l'entrée](/img/fr/server/ServerOp2020.png)  
+![Aperçu de l'entrée](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2020.png)  
 
 

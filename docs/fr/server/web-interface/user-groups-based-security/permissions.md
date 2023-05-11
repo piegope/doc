@@ -9,7 +9,7 @@ Il est également possible d'autoriser les administrateurs à accorder des permi
 
 Le système d'autorisations basé sur les groupes d'utilisateurs peut donner un contrôle très précis de la sécurité. Voici un aperçu de la fenêtre des permissions:  
 
-![Sécurité - Permissions](/img/fr/server/clip8046.png)  
+![Sécurité - Permissions](https://webdevolutions.azureedge.net/docs/fr/server/clip8046.png)  
 
 <table>
 	<tr>
@@ -59,7 +59,7 @@ Vous permet de sélectionner les utilisateurs/groupes d'utilisateurs pour lesque
 
 ### Général 
 
-![Permissions - Général](/img/fr/server/clip8047.png)  
+![Permissions - Général](https://webdevolutions.azureedge.net/docs/fr/server/clip8047.png)  
 
 <table>
 	<tr>
@@ -131,7 +131,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à ouvrir les entrées.
 
 ### Sécurité 
 
-![Permissions - Sécurité](/img/fr/server/clip8048.png)  
+![Permissions - Sécurité](https://webdevolutions.azureedge.net/docs/fr/server/clip8048.png)  
 
 <table>
 	<tr>
@@ -170,7 +170,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à afficher l'historique des m
 
 ### Plus
 
-![Permissions - Plus](/img/fr/server/clip8049.png)  
+![Permissions - Plus](https://webdevolutions.azureedge.net/docs/fr/server/clip8049.png)  
 
 <table>
 	<tr>
@@ -201,7 +201,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à utiliser l'outil de rapport
 
 ### Pièces jointes 
 
-![Permissions - Pièces jointes](/img/fr/server/clip8050.png)  
+![Permissions - Pièces jointes](https://webdevolutions.azureedge.net/docs/fr/server/clip8050.png)  
 
 <table>
 	<tr>
@@ -232,7 +232,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à ajouter/modifier/supprimer 
 
 ### Documentation 
 
-![Permissions - Documentation](/img/fr/server/clip8051.png)  
+![Permissions - Documentation](https://webdevolutions.azureedge.net/docs/fr/server/clip8051.png)  
 
 <table>
 	<tr>

@@ -2,7 +2,7 @@
 title: Coffres
 ---
 Les ***{{ fr.VLT }}s*** sont des emplacements pour vos entrées, vos informations d'identification, vos informations sensibles, vos sessions, et même plus.  
-![Coffres](/img/fr/rdm/windows/RdmWin2003.png) 
+![Coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin2003.png) 
 
 Vous commencerez avec deux coffres :  
 
@@ -10,5 +10,5 @@ Vous commencerez avec deux coffres :
 * Un ***{{ fr.PVLT }}*** qui est centré sur l'utilisateur et utilisé pour stocker des informations telles que des informations d'identification de compte personnel. Le ***{{ fr.PVLT }}*** empêche les utilisateurs de se servir d'un outil non sécurisé pour gérer leurs mots de passe personnels au travail. Le ***{{ fr.PVLT }}*** peut être désactivé dans ***Administration – Paramètres du système – Coffre d'utilisateur*** .  
 
 Les deux types de coffres sont aussi accessibles à partir des onglets du ***{{ fr.NPANE }}*** .  
-![Onglets Coffres dans le Volet de navigation](/img/fr/rdm/windows/RDMWin2050.png) 
+![Onglets Coffres dans le Volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2050.png) 
 

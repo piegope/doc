@@ -8,7 +8,7 @@ La barre d'état se trouve au bas de l'application. Elle est composée de plusie
 * La bascule En ligne / Hors ligne. 
 * La bascule de Saisie de l'entrée clavier. 
 
-![Barre d'état](/img/fr/rdm/windows/clip10988.png) 
+![Barre d'état](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10988.png) 
 
 ## Recherche / filtre 
 

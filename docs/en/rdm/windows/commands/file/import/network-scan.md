@@ -9,4 +9,4 @@ Once the scan is completed, select the sessions you wish to import (by default, 
 If you wish to review each and every session as they are imported, you can check the ***Edit imported entry*** option. However, this is not recommend for a large number of sessions. 
 {% endsnippet %}
  
-![File – Import – Import with Network Scan](/img/en/rdm/windows/clip10034.png) 
+![File – Import – Import with Network Scan](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10034.png) 

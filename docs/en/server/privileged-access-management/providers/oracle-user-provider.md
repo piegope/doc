@@ -2,7 +2,7 @@
 title: Oracle User Provider
 ---
 The Oracle Provider allows {{ en.RDMS }} to store the Oracle account credentials to be used to achieve password rotation.  
-![Oracle User Provider](/img/en/server/ServerOp8094.png) 
+![Oracle User Provider](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8094.png) 
 
 ### General 
 

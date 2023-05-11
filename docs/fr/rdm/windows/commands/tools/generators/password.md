@@ -12,17 +12,17 @@ Le Générateur de mots de passe est disponible dans ***Outils - Générateur de
 ### Paramètres avancés 
 
 Choisir tous les types de caractères que vous désirez et générer un mot de passe.  
-![Générateur de mot de passe - Paramètres avancés](/img/fr/rdm/windows/PassGenDef.png) 
+![Générateur de mot de passe - Paramètres avancés](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/PassGenDef.png) 
 
 ### Mot de passe lisible 
 
 Chaque mot de passe généré sera lisible, mais ne sera pas un mot dans le dictionnaire.  
-![Générateur de mot de passe - Mot de passe lisible](/img/fr/rdm/windows/clip10384.png) 
+![Générateur de mot de passe - Mot de passe lisible](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10384.png) 
 
 ### Utiliser un modèle 
 
 Appuyer sur le bouton information et sélectionner le modèle dont vous avez besoin pour créer vos mots de passe. Une liste des modèles utilisés les plus récents sera également créée.  
-![Générateur de mot de passe - Utiliser un modèle](/img/fr/rdm/windows/clip10385.png) 
+![Générateur de mot de passe - Utiliser un modèle](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10385.png) 
 
 Voici les modèles pris en charge: 
 
@@ -296,10 +296,10 @@ Définir une séquence de caractères personnalisée
 ### Mot de passe prononçable 
 
 L'application générera un mot de passe prononçable.  
-![Générateur de mot de passe - Mot de passe prononçable](/img/fr/rdm/windows/clip10386.png) 
+![Générateur de mot de passe - Mot de passe prononçable](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10386.png) 
 
 ### Mot de passe fort 
 
 L'application générera un mot de passe de 8 caractères avec des alphanumériques à casse mixte et des caractères spéciaux.  
-![Générateur de mot de passe - Mot de passe fort](/img/fr/rdm/windows/clip10387.png) 
+![Générateur de mot de passe - Mot de passe fort](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10387.png) 
 

@@ -5,7 +5,7 @@ title: SQLite
 	<tr>
 		<td>
 
-![!!DataSourceSQLiteLarge.png](/img/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 {{ en.RDM }} 's SQLite data source is ideal for single user and stand-alone situations. More powerful and more flexible than the XML file format, it also supports a few of the Advanced Data Source options like Logs and Attachments. 
@@ -35,13 +35,13 @@ SQLite supports an unlimited number of simultaneous readers, but will only allow
 You can specify a password to further encrypt your data. Specify it at creation time. If the data source already exists you can modify the password by using the File – Manage Password dialog.  
 
 Change or clear the password of a SQLite data source.  
-![Manage password dialog](/img/en/rdm/windows/clip10340.png) 
+![Manage password dialog](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10340.png) 
 
 ## Settings 
 
 ### General 
 
-![SQLite - General Tab](/img/en/rdm/windows/clip11345.png)  
+![SQLite - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11345.png)  
 
 <table>
 	<tr>
@@ -105,7 +105,7 @@ Enable the [Multi-Factor Authentication](/rdm/windows/data-sources/multi-factor-
 
 ### Backup 
 
-![SQLite - Backup Tab](/img/en/rdm/windows/clip10784.png) 
+![SQLite - Backup Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10784.png) 
 
 <table>
 	<tr>
@@ -134,11 +134,11 @@ Select between:
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your SQLite .  
-![SQLite - VPN Tab](/img/en/rdm/windows/SQLiteVPN.png) 
+![SQLite - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SQLiteVPN.png) 
 
 ### Advanced 
 
-![SQLite - Advanced Tab](/img/en/rdm/windows/clip10785.png) 
+![SQLite - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10785.png) 
 
 <table>
 	<tr>

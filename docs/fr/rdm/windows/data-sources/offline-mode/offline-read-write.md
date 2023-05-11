@@ -19,7 +19,7 @@ Lorsqu'une entrée est modifiée par un utilisateur en ligne alors qu'un autre u
 1. Se remettre en ligne dans ***Fichier - Aller en ligne*** . 
 
 La fenêtre ***Modifications hors connexion*** s'affiche:  
-![Modifications hors connexion](/img/fr/rdm/windows/clip10394.png) 
+![Modifications hors connexion](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10394.png) 
 
 Utiliser cette boîte de dialogue pour ***Accepter/Rejeter*** vos modifications hors ligne.  
 

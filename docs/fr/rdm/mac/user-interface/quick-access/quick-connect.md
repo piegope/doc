@@ -6,12 +6,12 @@ Via la fonction de ***Connexion rapide*** , vous pouvez ouvrir une session ad ho
 ## Paramètres 
 
 La fonction de ***Connexion rapide*** est accessible à partir du menu ***Affichage - Connexion rapide*** ou via le bouton ***Connexion rapide*** situé dans la barre d'accès rapide ***Remote Desktop Manager*** .  
-![Connexion rapide](/img/fr/rdm/mac/clip4400.png) 
+![Connexion rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4400.png) 
 
 Entrer l'Hôte (adresse IP), le Nom d'utilisateur ainsi que le Mot de passe et cliquer sur ***Se connecter*** .  
 
 Le bouton ***Parcourir*** répertorie les ordinateurs détectables sur le réseau pour vous permettre de sélectionner un ordinateur dans la liste. La liste des périphériques détectables sur le réseau peut être une opération longue.  
-![Information de la Connexion rapide](/img/fr/rdm/mac/clip4401.png) 
+![Information de la Connexion rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4401.png) 
 
 Vous pouvez également sélectionner un nom d'hôte précédent en cliquant sur la flèche.  
 

@@ -7,7 +7,7 @@ Un abonnement Microsoft Azure Active Directory est requis pour configurer l'auth
  
 L'onglet ***Office365*** permet à {{ fr.RDMS }} d'authentifier les utilisateurs à l'aide de l' ***authentification Office365*** . Tous les champs sont obligatoires .  
 
-![Authentification - Office365](/img/fr/server/AuthenticationOffice365.png) 
+![Authentification - Office365](https://webdevolutions.azureedge.net/docs/fr/server/AuthenticationOffice365.png) 
 
 ## Paramètres 
 

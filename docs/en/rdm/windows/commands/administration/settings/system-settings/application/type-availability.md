@@ -1,7 +1,7 @@
 ---
 title: Type availability
 ---
-![System Settings - Types - Availability](/img/en/rdm/windows/clip10330.png) 
+![System Settings - Types - Availability](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10330.png) 
 
 <table>
 	<tr>

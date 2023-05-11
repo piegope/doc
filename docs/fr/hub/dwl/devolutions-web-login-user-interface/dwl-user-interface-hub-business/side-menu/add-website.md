@@ -4,7 +4,7 @@ title: Ajouter un site Web
 Le bouton ***Ajouter un site Web*** n'est que disponible dans l'onglet ***Correspondant*** , qui est l'onglet sélectionné à l'ouverture de l'extension, ou lorsque vous parcourez les coffres et entrées des onglets ***Coffres*** ou [***Coffre d'utilisateur***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-business/side-menu/#onglet-coffre-d'utilisateur) . Un nouvel onglet est ouvert dans votre navigateur qui vous permet d'ajouter une entrée de site Web dans {{ fr.PHUB }} Business via {{ fr.DWL }} .  
 
 Lorsque {{ fr.PHUB }} Business est utilisé comme source de données, la configuration de base de l'entrée est exécutée dans l'onglet ***Général*** , mais des paramètres supplémentaires sont aussi disponibles dans d'autres onglets. Vous trouverez ci-dessous un exemple des paramètres de l'onglet ***Général*** lors de la création d'une entrée de site Web.  
-![Nouvelle entrée - Site Web (onglet Général)](/img/fr/hub/Hub2090.png) 
+![Nouvelle entrée - Site Web (onglet Général)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2090.png) 
 
 Les tableaux ci-dessous répertorient tous les champs/paramètres disponibles dans la fenêtre ***Nouvelle entrée - Site Web*** . Les différentes sections représentent les onglets du menu de gauche. 
 

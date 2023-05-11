@@ -2,7 +2,7 @@
 title: Agent RDM
 ---
 L' {{ fr.RDMA }} est un outil très puissant qui permet d'exécuter des commandes sur plusieurs machines.  
-![Outils - Plus d'outils - Agent RDM](/img/fr/rdm/windows/clip11234.png) 
+![Outils - Plus d'outils - Agent RDM](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11234.png) 
 
 ## Paramètres 
 
@@ -12,11 +12,11 @@ Pour lancer un script via l'Agent RDM , vous devez d'abord ouvrir une connexion 
 L'exécution du script via l'Agent a besoin seulement de l'Agent RDM que lorsque le script est exécuté à partir de l'onglet Quick Script. RDM doit être entièrement installé sur l'ordinateur distant lorsque le script est exécuté à partir de l'onglet Outils/Scripts/Macros. 
 {% endsnippet %}
  
-![Exécuter le script par Agent](/img/fr/rdm/windows/clip11244.png) 
+![Exécuter le script par Agent](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11244.png) 
 
 ### Quick Script - Message 
 
-![Quick Script - Message](/img/fr/rdm/windows/ExecuteScriptMessage.png) 
+![Quick Script - Message](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/ExecuteScriptMessage.png) 
 
 <table>
 	<tr>
@@ -38,7 +38,7 @@ Envoyer un message à toutes les cibles.
 
 ### Quick Script - Ligne de Commande (cmd.exe) 
 
-![Quick Script - Ligne de Commande](/img/fr/rdm/windows/clip10407.png) 
+![Quick Script - Ligne de Commande](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10407.png) 
 
 <table>
 	<tr>
@@ -81,7 +81,7 @@ Garde la fenêtre ouverte après l'exécution de la ligne de commande.
 
 ### Quick Script - PowerShell 
 
-![Quick Script - PowerShell](/img/fr/rdm/windows/clip10408.png) 
+![Quick Script - PowerShell](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10408.png) 
 
 <table>
 	<tr>
@@ -138,7 +138,7 @@ Ne se ferme pas après l'exécution des commandes de démarrage.
 
 ### Quick Script - exécuter 
 
-![Quick Script - Exécuter](/img/fr/rdm/windows/clip10409.png) 
+![Quick Script - Exécuter](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10409.png) 
 
 <table>
 	<tr>
@@ -181,7 +181,7 @@ Exécuter en tant qu'administrateur
 
 ### Quick Script - Scripts/outils 
 
-![Quick Script - Scripts/Outils](/img/fr/rdm/windows/clip10410.png) 
+![Quick Script - Scripts/Outils](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10410.png) 
 
 <table>
 	<tr>
@@ -203,13 +203,13 @@ Sélectionner un script ou un outil de session que vous avez déjà créé dans 
 
 ### Liste des Macros/Scripts/Outils 
 
-![Scripts/Outils](/img/fr/rdm/windows/clip10411.png) 
+![Scripts/Outils](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10411.png) 
 
 Rechercher un script ou un outil que vous souhaitez exécuter via l'agent RDM. 
 
 ### Paramètres 
 
-![Avancée](/img/fr/rdm/windows/clip10412.png) 
+![Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10412.png) 
 
 <table>
 	<tr>
@@ -239,5 +239,5 @@ Entrer le délai entre l'ouverture de chaque session sélectionnée.
 ### État de l'Agent 
 
 Ouvrir une session RDP, cliquer avec le bouton droit sur cette session unique et sélectionner ***État de l'Agent*** . L'État de l'agent vous montrera que {{ fr.RDM }} est installé sur l'ordinateur distant ou non, que l'Agent {{ fr.RDM }} est actif ou non et combien de sessions {{ fr.RDM }} Jump sont ouvertes.  
-![État de l'Agent](/img/fr/rdm/windows/clip10413.png) 
+![État de l'Agent](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10413.png) 
 

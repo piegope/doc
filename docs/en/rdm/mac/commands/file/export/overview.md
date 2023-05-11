@@ -19,7 +19,7 @@ The only appropriate format to import the entries back into Remote Desktop Manag
  
 ## Settings 
 
-![File - Export](/img/en/rdm/mac/clip10315.png) 
+![File - Export](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10315.png) 
 
 {% snippet icon.badgeInfo %} 
 When using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , export capabilities can be disabled via security policies at the data source level (no one can export) or at a user level (particular users can't export). See [Security Group Management](/rdm/mac/commands/administration/security-group-management/) for more information. 
@@ -37,7 +37,7 @@ By default the credentials are NOT included. It's critical to check the Credenti
 By default the credentials are NOT included. It's critical to check the Credentials option in order for the exported data to include the credentials. 
 {% endsnippet %}
  
-![Export all entries (.rdm)](/img/en/rdm/mac/clip10316.png) 
+![Export all entries (.rdm)](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10316.png) 
 
 ### Export Selection (.rdm) 
 

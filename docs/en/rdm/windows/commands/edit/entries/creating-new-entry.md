@@ -8,7 +8,7 @@ When getting started with {{ en.RDM }} , you must configure your entries. There 
 ## Creating an entry from the context menu 
 
 On the main application window, right-click on the name of the data source and select ***Add***   from   the menu. To initialize a new session, you can specify either the type of session or a template. You will be prompted to customize your settings in the entry properties window.  
-![Adding a new entry](/img/en/rdm/windows/clip11224.png) 
+![Adding a new entry](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11224.png) 
 
 ## Creating an entry with drag & drop 
 

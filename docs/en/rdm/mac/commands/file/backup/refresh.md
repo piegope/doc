@@ -8,4 +8,4 @@ A Refresh may also help when experiencing [Cache](/rdm/mac/data-sources/caching/
 ## Settings 
 
 You can also perform a refresh of your data source by holding the Command plus R button.  
-![File - Refresh](/img/en/rdm/mac/clip10311.png) 
+![File - Refresh](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10311.png) 

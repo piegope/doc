@@ -2,7 +2,7 @@
 title: Options d'importation
 ---
 Sélectionner l' [Emplacement du fichier de configuration](/fr/rdm/windows/installation/client/configuration-file-location/) à importer dans {{ fr.RDM }} et cliquer sur ***Ouvrir*** .   
-![Importateur de fichiers d'options](/img/fr/rdm/windows/clip10186.png) 
+![Importateur de fichiers d'options](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10186.png) 
 
 <table>
 	<tr>
@@ -41,7 +41,7 @@ Créer une sauvegarde de votre ancien RemoteDesktopManager.cfg
 
 ### Choisissez les options pour remplacer 
 
-![Importateur de fichiers d'options](/img/fr/rdm/windows/clip10187.png) 
+![Importateur de fichiers d'options](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10187.png) 
 
 Décider quelles options remplacer par celle de RemoteDesktopManager.cfg que vous souhaitez importer. Sélectionner ***Remplacer*** pour remplacer un paramètre existant par un nouveau ou sélectionner ***Ignorer*** si vous souhaitez conserver le paramètre que vous avez déjà. 
 

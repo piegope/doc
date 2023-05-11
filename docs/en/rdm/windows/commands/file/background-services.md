@@ -4,12 +4,12 @@ title: Background Services
 The Synchronizers feature centralizes all your synchronizers entry in one place.  
 
 When experiencing a performance degradation with {{ en.RDM }} , you will be able to verify if a synchronizer is running in the background causing the system to slow down.  
-![Synchronizers](/img/en/rdm/windows/clip11280.png) 
+![Synchronizers](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11280.png) 
 
 ## Is Online 
 
 ***Is Online*** allows you to verify and change the settings of your server's online availability.  
-![Is Online](/img/en/rdm/windows/clip10033.png) 
+![Is Online](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10033.png) 
 
 <table>
 	<tr>

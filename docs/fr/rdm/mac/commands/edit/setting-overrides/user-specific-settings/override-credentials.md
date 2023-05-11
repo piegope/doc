@@ -11,7 +11,7 @@ title: Substituer identifiants
 ### Général 
 
 Cocher ***Substituer identifiants*** et sélectionner vos identifiants pour commencer à les remplacer. Pour arrêter de substituer les identifiants, décocher l'option.  
-![Paramètres spécifiques de l'usager - Substituer identifiants](/img/fr/rdm/mac/clip4059.png) 
+![Paramètres spécifiques de l'usager - Substituer identifiants](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4059.png) 
 
 Les choix suivants sont proposés en fonction du type d'entrée remplacé, ainsi que de l'emplacement de cette entrée. 
 

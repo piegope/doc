@@ -3,7 +3,7 @@ title: Advanced Settings
 ---
 The ***Advanced Settings*** contains advanced parameters that are used for the SQL database connection string. 
 
-![Advanced Settings Dialog](/img/en/server/ServerOp8003.png) 
+![Advanced Settings Dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8003.png) 
 
 ## Settings 
 <table>
@@ -85,4 +85,4 @@ The length of time (in seconds) to wait for a connection to the server before te
 
 The ***More Settings*** button, in the ***Advanced Settings*** section, contains more advanced parameters that can be edited to replace a missing parameter. Double click a ***Setting Name*** to enter edit mode. 
 
-![More Settings](/img/en/server/ServerOp4089.png) 
+![More Settings](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4089.png) 

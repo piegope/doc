@@ -6,7 +6,7 @@ Vous pouvez appliquer une clé maitresse pour crypter les fichiers de données d
 * [XML](/fr/rdm/mac/data-sources/data-sources-types/xml/) 
 * [Dropbox](/fr/rdm/mac/data-sources/data-sources-types/dropbox/) 
 
-![Clé maitresse](/img/fr/rdm/mac/clip0243.png) 
+![Clé maitresse](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0243.png) 
 
 Il est généralement recommandé d'appliquer une clé maitresse à vos sources de données XML ou Dropbox, car cela ajoute une autre couche de sécurité protégeant vos sessions distantes.  
 

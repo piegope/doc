@@ -2,7 +2,7 @@
 title: Options avancées
 ---
 Utilisez ***Fichier – Options – Avancé*** pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.  
-![Fichier – Options – Avancé](/img/fr/rdm/windows/clip10595.png) 
+![Fichier – Options – Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10595.png) 
 
 ## Paramètres 
 

@@ -5,7 +5,7 @@ title: Microsoft SQL Azure
 	<tr>
 		<td>
 
-![!!DataSourceAzureLarge.png](/img/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 With a Microsoft Azure SQL data source, {{ en.RDM }} uses the Microsoft cloud platform to save and manage entries.  
@@ -46,7 +46,7 @@ Consult the [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/a
 
 ### General 
 
-![Microsoft Azure SQL - General](/img/en/rdm/windows/clip11499.png) 
+![Microsoft Azure SQL - General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11499.png) 
 
 <table>
 	<tr>
@@ -148,7 +148,7 @@ Test the connection with the database to validate if the proper information has 
 
 ### Settings 
 
-![Microsoft Azure SQL - Settings Tab](/img/en/rdm/windows/clip11363.png) 
+![Microsoft Azure SQL - Settings Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11363.png) 
 
 <table>
 	<tr>
@@ -200,7 +200,7 @@ Disable the option to lock the data source directly. You can still lock the appl
 
 ### {{ en.PVLT }} 
 
-![Microsoft Azure SQL - User Vault Tab](/img/en/rdm/windows/clip3416.png) 
+![Microsoft Azure SQL - User Vault Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3416.png) 
 
 <table>
 	<tr>
@@ -228,7 +228,7 @@ Select the type of [{{ en.PVLT }}](/rdm/windows/data-sources/data-sources-types/
 
 ### Upgrade 
 
-![Microsoft Azure SQL - Upgrade Tab](/img/en/rdm/windows/clip10377.png) 
+![Microsoft Azure SQL - Upgrade Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10377.png) 
 
 <table>
 	<tr>
@@ -276,11 +276,11 @@ Send your schema to the Devolutions Support team.
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database.  
-![Microsoft Azure SQL - VPN](/img/en/rdm/windows/SQLAzureVPN.png) 
+![Microsoft Azure SQL - VPN](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SQLAzureVPN.png) 
 
 ### Advanced 
 
-![Microsoft Azure SQL - Advanced Tab](/img/en/rdm/windows/clip10370.png) 
+![Microsoft Azure SQL - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10370.png) 
 
 <table>
 	<tr>

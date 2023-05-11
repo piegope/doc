@@ -15,7 +15,7 @@ Quick Access Toolbar buttons are flagged locally on the current machine by the c
 ### Favorite commands 
 
 Commands contained in the ribbon can be added in the quick access toolbar. These are the favorite commands. To add a command to the quick access toolbar, right-click any icon in the ribbon the select Add .  
-![Favorite Commands](/img/en/rdm/windows/clip11178.png) 
+![Favorite Commands](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11178.png) 
 
 <table>
 	<tr>
@@ -29,7 +29,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-![!!RibbonNewDocumentSmall.png](/img/common/RibbonNewDocumentSmall.png) 
+![!!RibbonNewDocumentSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonNewDocumentSmall.png) 
 		</td>
 		<td>
 Create a new entry in your current data source. 
@@ -37,7 +37,7 @@ Create a new entry in your current data source.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonEditSmall.png](/img/common/RibbonEditSmall.png) 
+![!!RibbonEditSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
 		</td>
 		<td>
 Open the properties window of your selected entry. 
@@ -45,7 +45,7 @@ Open the properties window of your selected entry.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonRefreshSmall.png](/img/common/RibbonRefreshSmall.png) 
+![!!RibbonRefreshSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshSmall.png) 
 		</td>
 		<td>
 Refresh your data source. 
@@ -53,7 +53,7 @@ Refresh your data source.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonSearchSmall.png](/img/common/RibbonSearchSmall.png) 
+![!!RibbonSearchSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonSearchSmall.png) 
 		</td>
 		<td>
 Open the filter dialog window to allow you to do a quick search. 

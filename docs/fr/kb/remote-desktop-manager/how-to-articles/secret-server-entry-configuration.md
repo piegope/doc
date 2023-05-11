@@ -15,7 +15,7 @@ L'intégration de ***Secret Server*** est assez simple dans {{ fr.RDM }}. Suivre
 Il s'agira soit de https<area>://server, soit de https<area>://server/SecretServer. 
 {% endsnippet %}
  
-![URL Secret Server](/img/fr/kb/KB4058.png) 
+![URL Secret Server](https://webdevolutions.azureedge.net/docs/fr/kb/KB4058.png) 
 
   <li>Configuration des identifiants :  
     <ol>
@@ -24,7 +24,7 @@ Il s'agira soit de https<area>://server, soit de https<area>://server/SecretServ
     </ol>
   </li>
 
-![Mon compte Secret Server](/img/fr/kb/KB4059.png) 
+![Mon compte Secret Server](https://webdevolutions.azureedge.net/docs/fr/kb/KB4059.png) 
 
   <li>L'authentification à deux facteurs (2FA) est prise en charge par l'entrée <b><i>Secret Server</i></b>. 
 {% snippet icon.badgeInfo %} 
@@ -46,7 +46,7 @@ Il y a une limitation avec le Rest API, vous ne pouvez pas avoir le 2FA avec Win
   </li>
   <li>Dans la session avec laquelle vous voulez utiliser les identifiants de <b><i>Secret Server</i></b> (RDP, etc.), sélectionner les <b><i>Identifiants</i></b> que vous avez créés avec <b><i>Lié (Coffre)</i></b>, puis vous pouvez cliquer sur le bouton <b><i>Sélectionner dans la liste</i></b> pour spécifier le compte que vous souhaitez utiliser. </li>
 
-![Identifiants – Sélectionner dans la liste](/img/fr/kb/KB4062.png) 
+![Identifiants – Sélectionner dans la liste](https://webdevolutions.azureedge.net/docs/fr/kb/KB4062.png) 
 
 De cette façon, vous avez une seule entrée de ***Secret Server*** pour toutes les connexions. 
 {% snippet icon.badgeNotice %} 

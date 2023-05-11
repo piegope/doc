@@ -2,7 +2,7 @@
 title: Multi Vault Search
 ---
 The ***Multi Vault Search*** feature of {{ en.RDM }} allows you to search for folders and entries in all the vaults of the selected data source at once.  
-![Multi Vault Search Window](/img/en/rdm/windows/RDMWin2008.png) 
+![Multi Vault Search Window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2008.png) 
 
 ### Criteria Types 
 
@@ -12,14 +12,14 @@ The following criteria are available to refine your search: ***Connection type**
 At least one criterion must be used to filter your results, and a maximum of four criteria can be applied at once. 
 {% endsnippet %}
  
-![Multi Vault Search Criteria](/img/en/rdm/windows/RDMWin2009.png) 
+![Multi Vault Search Criteria](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2009.png) 
 
 {% snippet icon.badgeInfo %} 
 In ***Hub*** databases, only the ***Name*** criterion is available. 
 {% endsnippet %}
  
 Drop-down lists will appear when selecting certain criteria to give you more search options.  
-![Multi Vault Search Drop-down](/img/en/rdm/windows/RDMWin2010.png) 
+![Multi Vault Search Drop-down](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2010.png) 
 
 Below is a description of what each of these drop-down lists type is used for.  
 
@@ -70,7 +70,7 @@ Search by typing part or all of a word in the name of the entries or folders or 
 ### Results Display 
 
 The results are displayed when the ***Search*** button is pressed. Once done, the name of all entries and folders and the vault in which they are located are shown in the results field. The paths to entries or folders are also displayed above each result or result group.  
-![Search Button](/img/en/rdm/windows/RDMWin2011.png) 
+![Search Button](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2011.png) 
 
 It is possible to select multiple entries at once by shift-clicking or all of them with the Ctrl+A shortcut. Right-clicking one or more entries shows the same menu and options as the ***{{ en.NPANE }}*** . 
 

@@ -9,7 +9,7 @@ This feature is only available when using an [Advanced Data Source](/rdm/windows
  
 ### Entries 
 
-![System Permissions - Entries](/img/en/rdm/windows/clip3432.png) 
+![System Permissions - Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3432.png) 
 
 <table>
 	<tr>
@@ -56,7 +56,7 @@ Allow users/user groups to access the {{ en.VLT }} properties.
 
 ### Miscellaneous 
 
-![System Permissions - Miscellaneous](/img/en/rdm/windows/clip3434.png) 
+![System Permissions - Miscellaneous](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3434.png) 
 
 <table>
 	<tr>
@@ -111,7 +111,7 @@ Allow users/user groups to check in entries with the checked out state.
 
 ### Tools 
 
-![System Permissions - Tools](/img/en/rdm/windows/clip3621.png) 
+![System Permissions - Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3621.png) 
 
 <table>
 	<tr>
@@ -170,7 +170,7 @@ Allow users/user groups to use web management tools.
 The ***Default*** value in ***Tools***   is equivalent to ***Never*** . 
 {% endsnippet %}
  
-![System Permissions - Management](/img/en/rdm/windows/clip3433.png) 
+![System Permissions - Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3433.png) 
 
 <table>
 	<tr>

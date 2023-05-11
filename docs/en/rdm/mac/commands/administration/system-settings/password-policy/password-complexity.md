@@ -13,7 +13,7 @@ This security setting determines whether passwords must meet predetermined compl
 ## Settings 
 
 The settings set in the Password Complexity Data source will determine what is the Default value of the Session settings.  
-![Data Source Settings - Password Complexity](/img/en/rdm/mac/clip10376.png) 
+![Data Source Settings - Password Complexity](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10376.png) 
 
 ### Enabled 
 
@@ -106,5 +106,5 @@ Inherit the usage set in the validation folder. When using Inherited you will ha
 ## Create 
 
 You must create your own Password Complexity requirements template to then apply them to your sessions. Click on the plus button to create your Password Complexity template, enter a name and the desired requirements.  
-![Data Source Settings - Password Complexity](/img/en/rdm/mac/clip10377.png) 
+![Data Source Settings - Password Complexity](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10377.png) 
 

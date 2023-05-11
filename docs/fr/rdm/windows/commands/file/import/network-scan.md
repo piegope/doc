@@ -10,5 +10,5 @@ Une fois l'analyse terminée, vous pouvez sélectionner les sessions que vous so
 Si vous souhaitez valider chaque session importée, vous pouvez activer l'option ***Modifier l'entrée importée*** . Toutefois, ce n'est pas recommandé pour un grand nombre de sessions. 
 {% endsnippet %}
  
-![Fichier – Importer – Importer à partir d'une recherche réseau](/img/fr/rdm/windows/clip10034.png) 
+![Fichier – Importer – Importer à partir d'une recherche réseau](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10034.png) 
 

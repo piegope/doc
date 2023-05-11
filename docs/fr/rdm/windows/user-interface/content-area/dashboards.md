@@ -2,7 +2,7 @@
 title: Tableau de bord
 ---
 Le ***Tableau de bord*** affiche les commandes et les informations relatives à l'entrée sélectionnée. Le contenu du tableau de bord dépend du type d'entrée sélectionnée.  
-![Tableau de bord](/img/fr/rdm/windows/clip3576.png) 
+![Tableau de bord](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3576.png) 
 
 Les différents onglets disponibles dans le tableau de bord:  
 
@@ -20,7 +20,7 @@ Les différents onglets disponibles dans le tableau de bord:
 Les onglets peuvent être masqués s'ils ne sont pas nécessaires pour un utilisateur.  
 
 Cliquer avec le bouton droit sur n'importe quel onglet, puis sélectionner un élément pour basculer la visibilité de son onglet relatif.  
-![!!clip3577.png](/img/fr/rdm/windows/clip3577.png) 
+![!!clip3577.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3577.png) 
 {% endsnippet %}
  
 

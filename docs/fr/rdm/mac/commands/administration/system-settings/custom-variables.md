@@ -5,7 +5,7 @@ Vous pouvez définir vos propres variables personnalisées à utiliser dans votr
 
 ### Variables personnalisées 
 
-![Variables personnalisées](/img/fr/rdm/mac/clip0162.png) 
+![Variables personnalisées](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0162.png) 
 
 <table>
 	<tr>

@@ -5,7 +5,7 @@ title: Service d'installateur personnalisé
 	<tr>
 		<td>
 
-![!!CustomInstallerServiceIcon.png](/img/fr/rdm/windows/CustomInstallerServiceIcon.png) 
+![!!CustomInstallerServiceIcon.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/CustomInstallerServiceIcon.png) 
 		</td>
 		<td>
 * Générer et télécharger des paquets d'installation personnalisés pour {{ fr.RDM }} . 
@@ -30,7 +30,7 @@ Vous pouvez stocker et créer jusqu'à six paquets de fichiers de configuration 
 {% endsnippet %}
  
 Le service d'installateur personnalisé peut être trouvé dans les outils du {{ fr.DA }} , situés sous ***Fichier – Compte Devolutions – Outils*** . Vous devez être connecté pour y accéder.  
-![Fichier – Compte Devolutions – Outils](/img/fr/rdm/windows/clip11245.png)
+![Fichier – Compte Devolutions – Outils](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11245.png)
 
 Les rubriques suivantes vous aideront à commencer la configuration de vos programmes d'installation personnalisés avec {{ fr.RDM }} .  
 

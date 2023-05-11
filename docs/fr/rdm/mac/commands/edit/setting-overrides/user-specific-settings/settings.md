@@ -12,7 +12,7 @@ Substituer le format de l'écran est visible que pour les sessions RDP.
 {% endsnippet %}
  
 Substituer le format de l'écran vous permet de personnaliser la taille de la fenêtre locale hébergeant la session distante.  
-![Paramètres spécifiques de l'usager - Substituer le format de l'écran](/img/fr/rdm/mac/clip4062.png) 
+![Paramètres spécifiques de l'usager - Substituer le format de l'écran](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4062.png) 
 
 <table>
 	<tr>
@@ -71,7 +71,7 @@ La ***Passerelle*** vous permet de personnaliser les identifiants de la passerel
 ***Substituer la passerelle*** est visible que pour les sessions RDP. 
 {% endsnippet %}
  
-![Paramètres spécifiques de l'usager - Substituer la passerelle](/img/fr/rdm/mac/clip4063.png) 
+![Paramètres spécifiques de l'usager - Substituer la passerelle](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4063.png) 
 
 ### Disques durs 
 
@@ -81,7 +81,7 @@ Substituer les disques durs vous permet de personnaliser les disques durs RDP qu
 Substituer les disques durs est visible que pour les sessions RDP. 
 {% endsnippet %}
  
-![Paramètres spécifiques de l'usager - Substituer les disques durs](/img/fr/rdm/mac/clip4064.png) 
+![Paramètres spécifiques de l'usager - Substituer les disques durs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4064.png) 
 
 <table>
 	<tr>

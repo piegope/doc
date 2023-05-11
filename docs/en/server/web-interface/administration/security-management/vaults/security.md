@@ -3,7 +3,7 @@ title: Security
 ---
 Allow to protect the vault's modification from other administrator accounts. 
 
-![Vaults - Security](/img/en/server/ServerOp8071.png)  
+![Vaults - Security](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8071.png)  
 
 <table>
 	<tr>

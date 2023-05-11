@@ -2,7 +2,7 @@
 title: Diagnostic
 ---
 If you encounter a problem with Remote Desktop Manager you can run a system diagnostic, which is available in Help - Diagnostic . This could help diagnose or give a pointer to what kind of issues you might be experiencing.  
-![Help - Diagnostic](/img/en/rdm/mac/clip10466.png) 
+![Help - Diagnostic](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10466.png) 
 
 ## Settings 
 
@@ -13,12 +13,12 @@ The administrator item could be the possible source for security problem. This h
 Some other issues could be related to the fact that the application is running in Terminal Services. However Remote Desktop Manager is fully compatible with Terminal Services.  
 
 FIPS related issues and solutions can be found in the specific FIPS (Encryption) troubleshooting section.  
-![System Diagnostic - System](/img/en/rdm/mac/clip10467.png) 
+![System Diagnostic - System](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10467.png) 
 
 ### Sessions 
 
 The Sessions tab contains information regarding your RDP, ARD and VNC sessions held in your Data Source.  
-![System Diagnositc - Sessions](/img/en/rdm/mac/clip10468.png) 
+![System Diagnositc - Sessions](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10468.png) 
 
 ### Data Source 
 The Data Source tab contains information regarding your Data Source, including the number of entries it contains, the size of your data source, the number of custom images and the offline state. 
@@ -26,4 +26,4 @@ The Data Source tab contains information regarding your Data Source, including t
 Too many custom images could dramatically increase the size of the data source and cause load time issue. 
 {% endsnippet %}
  
-![System Diagnostic - Data Source](/img/en/rdm/mac/clip10469.png) 
+![System Diagnostic - Data Source](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10469.png) 

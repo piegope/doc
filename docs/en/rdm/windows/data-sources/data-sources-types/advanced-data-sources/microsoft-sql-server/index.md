@@ -5,7 +5,7 @@ title: Microsoft SQL Server
 	<tr>
 		<td>
 
-![!!DataSourceSQLServerLarge.png](/img/common/DataSourceSQLServerLarge.png) 
+![!!DataSourceSQLServerLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
 		</td>
 		<td>
 With the Microsoft SQL Server data source, {{ en.RDM }} uses the power of Microsoft SQL Server to save and manage entries. 
@@ -58,7 +58,7 @@ Consult the [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/
 
 ### General 
 
-![Microsoft SQL Server - General Tab](/img/en/rdm/windows/clip11357.png) 
+![Microsoft SQL Server - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11357.png) 
 
 <table>
 	<tr>
@@ -167,7 +167,7 @@ Test the connection with the database to validate if the proper information has 
 
 ### Settings 
 
-![Microsoft SQL Server - Settings Tab](/img/en/rdm/windows/clip11358.png) 
+![Microsoft SQL Server - Settings Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11358.png) 
 
 <table>
 	<tr>
@@ -219,7 +219,7 @@ Disable the option to lock the data source directly. You can still lock the appl
 
 ### {{ en.PVLT }} 
 
-![Microsoft SQL Server - User Vault Tab](/img/en/rdm/windows/clip3413.png) 
+![Microsoft SQL Server - User Vault Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3413.png) 
 
 <table>
 	<tr>
@@ -247,7 +247,7 @@ Select the type of [{{ en.PVLT }}](/rdm/windows/data-sources/data-sources-types/
 
 ### Upgrade 
 
-![Microsoft SQL Server - Upgrade Tab](/img/en/rdm/windows/clip11360.png) 
+![Microsoft SQL Server - Upgrade Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11360.png) 
 
 <table>
 	<tr>
@@ -303,11 +303,11 @@ Send your schema to the Devolutions support team.
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your Microsoft SQL Server .  
-![Microsoft SQL Server - VPN Tab](/img/en/rdm/windows/SQLServVPN.png) 
+![Microsoft SQL Server - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SQLServVPN.png) 
 
 ### Advanced 
 
-![Microsoft SQL Server - Advanced Tab](/img/en/rdm/windows/clip11359.png) 
+![Microsoft SQL Server - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11359.png) 
 
 <table>
 	<tr>

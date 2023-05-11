@@ -5,7 +5,7 @@ Utiliser ***Fichier - Paramètres de mon compte*** pour configurer les comptes q
 
 ## Paramètres 
 
-![Paramètres de mon compte](/img/fr/rdm/windows/clip10203.png) 
+![Paramètres de mon compte](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10203.png) 
 
 ### Information 
 

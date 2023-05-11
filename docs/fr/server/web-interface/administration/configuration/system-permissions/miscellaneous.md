@@ -3,7 +3,7 @@ title: Divers
 keywords:
 - Rôle
 ---
-![Administration - Permissions du système - Divers](/img/fr/server/clip8055.png)  
+![Administration - Permissions du système - Divers](https://webdevolutions.azureedge.net/docs/fr/server/clip8055.png)  
 
 <table>
 	<tr>

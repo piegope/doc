@@ -8,4 +8,4 @@ The ***{{ en.VLT }}*** ***s*** allow users to [create entries](/server/web-inter
 
 We recommend using vaults for improved organization and security. {{ en.VLT }} s also help performance as they limit the amount of entries that load at once.  
 
-![Administration - Vaults](/img/en/server/clip10344.png)
+![Administration - Vaults](https://webdevolutions.azureedge.net/docs/en/server/clip10344.png)

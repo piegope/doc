@@ -18,7 +18,7 @@ Le seul format approprié pour réimporter les entrées dans {{ fr.RDM }} est le
  
 ## Paramètres 
 
-![Fichier - Exporter](/img/fr/rdm/mac/clip4028.png) 
+![Fichier - Exporter](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4028.png) 
 
 {% snippet icon.badgeInfo %}
 Lorsque vous utilisez une [Source de données avancée](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) , les capacités d'exportation peuvent être désactivées via des politiques de sécurité au niveau de la source de données (personne ne peut exporter) ou au niveau de l'utilisateur (certains utilisateurs ne peuvent pas exporter). Voir gestion des [Groupes de sécurité (Ancien)](/fr/rdm/mac/commands/administration/security-group-management/) pour plus d'informations. 
@@ -32,7 +32,7 @@ Exporter toutes les entrées dans un fichier .rdm qui peut être importé dans n
 Par défaut, les identifiants ne sont PAS inclus. Il est essentiel de cocher l'option Inclure identifiants afin que les données exportées les incluent. 
 {% endsnippet %}
  
-![Fichier - Exporter](/img/fr/rdm/mac/clip4028.png) 
+![Fichier - Exporter](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4028.png) 
 
 ### Exporter la Sélection (.rdm) 
 

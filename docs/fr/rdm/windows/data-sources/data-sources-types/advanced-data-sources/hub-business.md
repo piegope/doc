@@ -14,7 +14,7 @@ Pour commencer dès aujourd'hui votre essai gratuit de {{ fr.HUB }} Business, [c
 
 ### Général 
 
-![!!RdmWin4035.png](/img/fr/rdm/windows/RdmWin4035.png) 
+![!!RdmWin4035.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4035.png) 
 
 <table>
 	<tr>
@@ -55,10 +55,10 @@ Copier dans ***Hôte*** votre URL {{ fr.HUB }} Business (ex: https://windjammer.
 ### VPN 
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.HUB }} .  
-![!!RdmWin4036.png](/img/fr/rdm/windows/RdmWin4036.png) 
+![!!RdmWin4036.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4036.png) 
 
 ### Avancé 
 
 Définir l'intervalle d'actualisation automatique.  
-![!!RdmWin4037.png](/img/fr/rdm/windows/RdmWin4037.png) 
+![!!RdmWin4037.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4037.png) 
 

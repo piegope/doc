@@ -11,7 +11,7 @@ Cette fonctionnalité nécessite une [Sources de données avancées](/fr/rdm/mac
  
 ## Paramètres 
 
-![Paramètres du système](/img/fr/rdm/mac/clip4104.png) 
+![Paramètres du système](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4104.png) 
 
 Pour plus d'informations sur les différentes options contenues dans les paramètres du système, veuillez consulter:  
 

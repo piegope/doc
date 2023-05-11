@@ -14,7 +14,7 @@ If the cache is outdated, press Ctrl+Refresh or Ctrl+F5 to refresh the local cac
 ## Settings 
 
 The Caching ***mode*** option can be accessed via File – Data Sources – Edit Data Source – Advanced in an advanced data source.  
-![Caching mode](/img/en/rdm/mac/clip10591.png)
+![Caching mode](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10591.png)
 
 <table>
 	<tr>

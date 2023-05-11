@@ -13,7 +13,7 @@ Les boutons ***Désactiver tout*** et ***Réinitialiser par défaut*** effacent 
 Consultez notre rubrique sur la [personnalisation de vos raccourcis (EN)](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/) . 
 {% endsnippet %}
  
-![Raccourcis clavier](/img/fr/rdm/windows/RDMWin2061.png) 
+![Raccourcis clavier](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2061.png) 
 
 ## Raccourcis par défaut 
 

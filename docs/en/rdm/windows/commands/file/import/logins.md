@@ -13,4 +13,4 @@ You can import the credentials from a wide array of formats exported by various 
 All the entries will be imported in the current folder. 
 {% endsnippet %}
  
-![File – Import – Logins](/img/en/rdm/windows/clip10745.png) 
+![File – Import – Logins](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10745.png) 

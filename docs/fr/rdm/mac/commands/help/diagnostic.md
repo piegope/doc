@@ -2,7 +2,7 @@
 title: Diagnostic
 ---
 Si vous rencontrez un problème avec {{ fr.RDM }} , vous pouvez exécuter un diagnostic système, disponible dans ***Aide - Diagnostic*** . Cela pourrait aider à diagnostiquer ou à indiquer le type de problèmes que vous pourriez rencontrer.  
-![Aide - Diagnostic](/img/fr/rdm/mac/clip4229.png) 
+![Aide - Diagnostic](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4229.png) 
 
 ## Paramètres 
 
@@ -13,12 +13,12 @@ L'élément administrateur peut être la source possible d'un problème de sécu
 Certains autres problèmes peuvent être liés au fait que l'application s'exécute dans un Terminal Server. Cependant, {{ fr.RDM }} est entièrement compatible avec les services Terminal Server.  
 
 Les problèmes et solutions liés à FIPS se trouvent dans la section de dépannage spécifique de FIPS (chiffrement).  
-![Diagnostic du système - Système](/img/fr/rdm/mac/clip4230.png) 
+![Diagnostic du système - Système](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4230.png) 
 
 ### Sessions 
 
 L'onglet ***Sessions*** contient des informations concernant vos sessions RDP, ARD et VNC détenues dans votre source de données.  
-![Diagnostic du système - Sessions](/img/fr/rdm/mac/clip4231.png) 
+![Diagnostic du système - Sessions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4231.png) 
 
 ### Source de données 
 
@@ -28,4 +28,4 @@ L'onglet ***Source de données*** contient des informations concernant votre sou
 Trop d'images personnalisées pourraient considérablement augmenter la taille de la source de données et provoquer un problème de temps de chargement. 
 {% endsnippet %}
  
-![Diagnostic du système - Sources de données](/img/fr/rdm/mac/clip4232.png) 
+![Diagnostic du système - Sources de données](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4232.png) 

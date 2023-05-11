@@ -5,7 +5,7 @@ Utiliser ***Fichier - Préférences - Outils*** pour configurer le délai avant 
 
 ## Paramètres 
 
-![Préférences - Outils](/img/fr/rdm/mac/clip4202.png) 
+![Préférences - Outils](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4202.png) 
 
 ### Outils 
 

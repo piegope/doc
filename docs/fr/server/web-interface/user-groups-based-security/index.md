@@ -20,15 +20,15 @@ Lors de l'utilisation de la sécurité basée sur les groupes d'utilisateurs de 
 
 Pour créer des groupes d'utilisateurs, accéder à ***Administration – Groupes d'utilisateurs*** , puis cliquer sur le bouton ***Ajouter*** pour ajouter un groupe. 
 
-![Ajouter un groupe d'utilisateurs](/img/fr/server/clip8034.png)
+![Ajouter un groupe d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/clip8034.png)
 
 Tous les paramètres peuvent être laissés à la valeur par défaut, sauf si le groupe contient uniquement des administrateurs. Dans ce cas, cochez la case ***Administrateur*** lors de la configuration du groupe. Entrer un nom pour le groupe d'utilisateurs, puis cliquer sur ***OK*** . Pour les groupes Active Directory, le domaine doit être fourni. 
 
-![Configurer un groupe d'utilisateurs](/img/fr/server/clip8035.png)
+![Configurer un groupe d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/clip8035.png)
 
 Pour attribuer des utilisateurs au groupe d'utilisateurs, cliquer sur ***Groupes d'utilisateurs***, puis cocher la case ***Est membre*** de l'utilisateur concerné. Avec un groupe d'utilisateurs créé à partir d'un groupe Active Directory, il n'est pas nécessaire d'attribuer des utilisateurs, car il est automatiquement géré par {{ fr.RDMS }} . 
 
-![Attribution de groupe d'utilisateurs](/img/fr/server/clip8036.png)
+![Attribution de groupe d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/clip8036.png)
 
 ## Configuration Utilisateur 
 
@@ -40,11 +40,11 @@ Il est possible de modifier le modèle utilisateur par défaut. Pour ce faire, a
 
 Pour créer des utilisateurs, accéder à ***Administration – Utilisateurs*** , puis cliquer sur ***Ajouter un utilisateur*** . Entrer un nom d'utilisateur, sélectionner le type d'utilisateur et entrer une adresse courriel. 
 
-![Ajouter un utilisateur](/img/fr/server/clip8037.png)
+![Ajouter un utilisateur](https://webdevolutions.azureedge.net/docs/fr/server/clip8037.png)
 
 Un utilisateur peut être affecté à plusieurs groupes d'utilisateurs à la fois en cochant la case ***Est membre*** des groupes respectifs dans la section ***Groupe d'utilisateurs*** de la ***Gestion des utilisateurs*** . Dans le cadre de l'intégration d'Active Directory, il n'est pas nécessaire d'attribuer des utilisateurs à ces groupes car il est automatiquement géré par {{ fr.RDMS }} . 
 
-![!!ServerOp4015.png](/img/fr/server/ServerOp4015.png) 
+![!!ServerOp4015.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4015.png) 
 
 ### Administrateur 
 
@@ -69,12 +69,12 @@ Lors de la création d'utilisateurs, certains points clés doivent être pris en
 * Doivent-ils pouvoir accéder à n'importe quelle ressource sans restriction? 
     * Les administrateurs peuvent accéder à n'importe quelle ressource sans restriction. 
     * Définir un utilisateur administrateur en sélectionnant ***Administrateur*** comme ***Type d'utilisateur*** lors de la création de l'utilisateur.  
-    ![Administrateur](/img/fr/server/clip8039.png)  
+    ![Administrateur](https://webdevolutions.azureedge.net/docs/fr/server/clip8039.png)  
 
 * Doivent-ils être en mesure d'ajouter, de modifier ou de supprimer des entrées? 
     * Créer un utilisateur restreint en sélectionnant ***Utilisateur accès restreint*** comme ***Type d'utilisateur*** lors de la création de l'utilisateur. 
     * Configurer manuellement les droits accordés à l'utilisateur.  
-    ![Utilisateur accès restreint](/img/fr/server/clip8040.png)  
+    ![Utilisateur accès restreint](https://webdevolutions.azureedge.net/docs/fr/server/clip8040.png)  
 
 ## Configuration d'entrée 
 
@@ -82,11 +82,11 @@ L'accès est accordé ou refusé aux utilisateurs en définissant une permission
 
 Pour définir des permissions sur une entrée, modifier une entrée, puis accéder à la section ***Sécurité – Permissions*** .  
 
-![Entrée - Sécurité - Permissions](/img/fr/server/clip8042.png)  
+![Entrée - Sécurité - Permissions](https://webdevolutions.azureedge.net/docs/fr/server/clip8042.png)  
 
 Les permissions sont généralement définies sur les dossiers et s'appliquent à toutes les entrées enfants. Une meilleure pratique consiste à définir toutes les autorisations du dossier racine sur ***Jamais*** . Par conséquent, toutes les permissions de toutes les entrées sont refusées par défaut. 
 
-![Racine - Sécurité - Permissions](/img/fr/server/clip8043.png)  
+![Racine - Sécurité - Permissions](https://webdevolutions.azureedge.net/docs/fr/server/clip8043.png)  
 
 L'accès est refusé aux utilisateurs en accordant expressément l'accès à d'autres utilisateurs. En d'autres termes, tous les utilisateurs qui ne figurent pas sur la liste d'une permission se voient refuser l'accès.  
 
@@ -94,12 +94,12 @@ Pour qu'un utilisateur ait accès à un sous-dossier, l'utilisateur doit avoir a
 
 Considérer la structure suivante:  
 
-![!!clip8044.png](/img/fr/server/clip8044.png) 
+![!!clip8044.png](https://webdevolutions.azureedge.net/docs/fr/server/clip8044.png) 
 
 Il existe trois niveaux de dossiers: les éléments racine, Telemark et enfant du Telemark.  
 
 Supposons qu'un utilisateur, tel qu'un consultant, doit avoir accès au dossier Montréal uniquement. Le consultant doit également être autorisé à consulter le dossier Telemark. Toutefois, accorder l'accès à la vue au dossier Telemark donne au consultant les autorisations pour afficher tous les éléments enfants de Telemark. Pour refuser les autorisations d'affichage pour le consultant sur des éléments enfants spécifiques, les autorisations d'affichage de ces éléments doivent être expressément définies pour les autres utilisateurs.  
 
-![!!clip8045.png](/img/fr/server/clip8045.png) 
+![!!clip8045.png](https://webdevolutions.azureedge.net/docs/fr/server/clip8045.png) 
 
 

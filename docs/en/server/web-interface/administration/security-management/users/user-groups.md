@@ -5,7 +5,7 @@ keywords:
 ---
 Assign users to ***User Groups*** . 
 
-![Edit User - User Groups](/img/en/server/ServerOp7007.png) 
+![Edit User - User Groups](https://webdevolutions.azureedge.net/docs/en/server/ServerOp7007.png) 
 
 <table>
 	<tr>

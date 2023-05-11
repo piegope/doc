@@ -5,7 +5,7 @@ title: Microsoft SQL Server
 	<tr>
 		<td>
 
-![!!DataSourceSQLServerLarge.png](/img/common/DataSourceSQLServerLarge.png) 
+![!!DataSourceSQLServerLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
 		</td>
 		<td>
 {{ fr.RDM }} utilise la puissance de SQL Server de Microsoft pour enregistrer et gérer toutes les sessions. 
@@ -60,7 +60,7 @@ Pour configurer une source de données Serveur SQL, veuillez lire la [Configurer
 
 ### Général 
 
-![SQL Server - Général](/img/fr/rdm/mac/clip4250.png) 
+![SQL Server - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4250.png) 
 
 <table>
 	<tr>
@@ -156,7 +156,7 @@ Tester la connexion avec la base de données pour valider si les informations ap
 
 ### Paramètres 
 
-![SQL Server - Paramètres](/img/fr/rdm/mac/clip4251.png) 
+![SQL Server - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4251.png) 
 
 <table>
 	<tr>
@@ -198,7 +198,7 @@ Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement h
 
 ### Avancée 
 
-![SQL Server - Avancée](/img/fr/rdm/mac/clip4252.png) 
+![SQL Server - Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4252.png) 
 
 <table>
 	<tr>
@@ -262,7 +262,7 @@ Modifier directement les valeurs de chaîne de connexion..
 
 ### Mise à niveau 
 
-![SQL Server - Mise à niveau](/img/fr/rdm/mac/RdmMac4019.png) 
+![SQL Server - Mise à niveau](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4019.png) 
 
 <table>
 	<tr>

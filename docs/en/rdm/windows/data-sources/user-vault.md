@@ -6,7 +6,7 @@ The ***{{ en.PVLT }}*** is a user centric {{ en.VLT }} for entries of any type. 
 The {{ en.PVLT }} is available for all [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
 {% endsnippet %}
  
-![Navigation Pane – User Vault](/img/en/rdm/windows/clip11205.png) 
+![Navigation Pane – User Vault](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11205.png) 
 
 ## A note on Credentials 
 

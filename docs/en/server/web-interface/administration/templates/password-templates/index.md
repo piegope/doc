@@ -4,12 +4,12 @@ order: 10
 ---
 ***Password Templates*** are used by administrators to create predefined settings for the [***Password Generator***](/server/web-interface/administration/templates/password-templates/password-generator/) of {{ en.DPS }} .  
 
-![Administration – Password Templates](/img/en/server/clip10401.png) 
+![Administration – Password Templates](https://webdevolutions.azureedge.net/docs/en/server/clip10401.png) 
 
 ### Create password templates 
 To create ***Password Templates*** , go to ***Administration – Password Templates*** and click on the ***Add*** button. You can also create a ***Password Template*** when using the ***Password Generator*** . Just customize the settings and click on ***Add template*** .  
 
-![Password Templates](/img/en/server/clip10402.png) 
+![Password Templates](https://webdevolutions.azureedge.net/docs/en/server/clip10402.png) 
 
 <table>
 	<tr>
@@ -157,4 +157,4 @@ Force a default ***Password Template*** for all {{ en.DPS }} users.
 2. Choose a ***Default template*** . 
 3. Check ***Force default template*** and ***Save*** . 
 
-![Default Password Template](/img/en/server/ServerOp4087.png) 
+![Default Password Template](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4087.png) 

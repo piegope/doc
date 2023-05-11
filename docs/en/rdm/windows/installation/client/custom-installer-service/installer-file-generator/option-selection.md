@@ -14,7 +14,7 @@ The same dialog is used for the {{ en.CI }} and for exporting the {{ en.RDM }} c
 ## Options 
 
 You can open the ***Installer File Generator*** from ***File –*** ***{{ en.DA }}*** ***– Installer File Generator*** . It is also accessible when creating a installation package in ***File –*** ***{{ en.DA }}*** ***– Custom Installer Manager*** .  
-![Installer File Generator](/img/en/rdm/windows/clip11249.png) 
+![Installer File Generator](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11249.png) 
 
 ### Miscellaneous 
 
@@ -26,7 +26,7 @@ Do not redistribute the ***{{ en.DA }}*** ***credentials*** . Doing so would sha
 All ***Local templates*** will be included. If any of these contain credentials, it may pose a security risk. Ensure that you only share what is needed. 
 {% endsnippet %}
  
-![Miscellaneous Options](/img/en/rdm/windows/clip11260.png) 
+![Miscellaneous Options](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11260.png) 
 
 <table>
 	<tr>

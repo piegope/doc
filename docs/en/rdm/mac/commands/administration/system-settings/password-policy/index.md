@@ -7,7 +7,7 @@ Some of these settings could be overridden using Group Policies. For more inform
 
 ## Settings 
 
-![Data Source Settings - Password Policy](/img/en/rdm/mac/clip10375.png) 
+![Data Source Settings - Password Policy](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10375.png) 
 
 <table>
 	<tr>

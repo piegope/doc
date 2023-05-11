@@ -7,7 +7,7 @@ Here's a checklist to help you get started with {{ en.RDM }} for individuals.
 	<tr>
 		<th>
 
-![!!RdmWin4035.png](/img/en/rdm/windows/RdmWin4035.png) 
+![!!RdmWin4035.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4035.png) 
 		</th>
 		<th>
 CHECKLIST FOR INDIVIDUALS (TEAM EDITION) 

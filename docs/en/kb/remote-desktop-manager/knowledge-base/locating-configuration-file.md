@@ -20,8 +20,8 @@ Note that this example assumes that {{ en.RDM }} was installed with the default 
  
 1. Press the ***Windows key + R***. 
 1. Type "***%LOCALAPPDATA%\Devolutions\RemoteDesktopManager***" in the ***Run*** window and press ***OK***. 
-![Run window](/img/en/kb/KB2028.png) 
+![Run window](https://webdevolutions.azureedge.net/docs/en/kb/KB2028.png) 
 1. In the folder, locate the RemoteDesktopManager.cfg file.  
-![RemoteDesktopManager.cfg file](/img/en/kb/KB2029.png) 
+![RemoteDesktopManager.cfg file](https://webdevolutions.azureedge.net/docs/en/kb/KB2029.png) 
 1. Please send us the file securely by following the instructions in [Securely send a file to our team](/kb/devolutions-customer-success/securely-send-file/). 
 

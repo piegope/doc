@@ -5,7 +5,7 @@ The ***Certificate Generator*** allows you to create a self signed certificate w
 
 ## Settings 
 
-![Certificate Generator - Self Signed Certificate](/img/en/rdm/windows/clip10390.png) 
+![Certificate Generator - Self Signed Certificate](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10390.png) 
 
 <table>
 	<tr>
@@ -101,7 +101,7 @@ Indicate the store location of the certificate. Select between:
 	</tr>
 </table>
 
-![Self Signed Certificate](/img/en/rdm/windows/clip10391.png) 
+![Self Signed Certificate](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10391.png) 
 
 <table>
 	<tr>

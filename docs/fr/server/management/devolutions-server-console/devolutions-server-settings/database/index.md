@@ -3,7 +3,7 @@ title: Base de données
 ---
 La section de l'onglet ***Base de données*** contient les informations du serveur SQL, les identifiants SQL et le nom de la base de données utilisé par {{ fr.RDMS }} .  
 
-![Paramètres Serveur - Base de données](/img/fr/server/ServerOp8002.png) 
+![Paramètres Serveur - Base de données](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8002.png) 
 
 ## Paramètres 
 

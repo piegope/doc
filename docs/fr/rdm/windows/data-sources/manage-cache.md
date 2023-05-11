@@ -17,7 +17,7 @@ Les options de gestion du cache ne doivent généralement être utilisées que s
 Les options de gestion du cache ne seront disponibles que lors de l'utilisation d'un cache SQLite. 
 {% endsnippet %}
  
-![Gérer fichier SQLite](/img/fr/rdm/windows/clip10013.png) 
+![Gérer fichier SQLite](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10013.png) 
 
 <table>
 	<tr>

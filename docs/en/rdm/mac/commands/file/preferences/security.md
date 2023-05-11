@@ -5,7 +5,7 @@ Use File - Preferences - Security to configure the security of the application.
 
 ## Settings 
 
-![Preferences - Security](/img/en/rdm/mac/clip10440.png) 
+![Preferences - Security](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10440.png) 
 
 ### Application Security 
 

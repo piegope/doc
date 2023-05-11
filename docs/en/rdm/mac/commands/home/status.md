@@ -5,7 +5,7 @@ The Status allows you to change the status of a session.
 
 ## Settings 
 
-![Home - Status](/img/en/rdm/mac/clip409.png) 
+![Home - Status](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip409.png) 
 
 <table>
 	<tr>

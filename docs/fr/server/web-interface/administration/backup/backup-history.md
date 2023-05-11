@@ -2,7 +2,7 @@
 title: Historique des sauvegardes
 ---
 La section ***Historique des sauvegardes*** affiche la liste des sauvegardes qui ont été effectuées.  
-![Administration - Historique des sauvegardes](/img/fr/server/clip10404.png) 
+![Administration - Historique des sauvegardes](https://webdevolutions.azureedge.net/docs/fr/server/clip10404.png) 
 
 <table>
 	<tr>

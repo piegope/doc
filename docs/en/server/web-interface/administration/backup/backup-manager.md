@@ -5,7 +5,7 @@ The ***Backup Manager*** section allows administrators to configure the paramete
 
 Click the ***Backup Now*** button to immediately create a backup of the SQL database and/or the web application folder.  
 
-![Administration - Backup Manager](/img/en/server/clip10403.png) 
+![Administration - Backup Manager](https://webdevolutions.azureedge.net/docs/en/server/clip10403.png) 
 
 ## Settings 
 ### Database Configuration 

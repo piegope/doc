@@ -5,7 +5,7 @@ SSH keys provide a secure way of logging into a virtual private server with SSH 
 
 ## Settings 
 
-![SSH Key Generator](/img/en/rdm/windows/clip10864.png) 
+![SSH Key Generator](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10864.png) 
 
 <table>
 	<tr>

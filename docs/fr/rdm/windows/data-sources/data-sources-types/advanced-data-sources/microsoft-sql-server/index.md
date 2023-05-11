@@ -5,7 +5,7 @@ title: Microsoft SQL Server
 	<tr>
 		<td>
 
-![!!DataSourceSQLServerLarge.png](/img/common/DataSourceSQLServerLarge.png) 
+![!!DataSourceSQLServerLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
 		</td>
 		<td>
 {{ fr.RDM }} utilise la puissance de SQL Server de Microsoft pour enregistrer et gérer toutes les sessions. 
@@ -59,7 +59,7 @@ Consulter la rubrique [Configurer SQL Server](/fr/rdm/windows/data-sources/data-
 
 ### Général 
 
-![Microsoft SQL Server - Général](/img/fr/rdm/windows/clip11357.png) 
+![Microsoft SQL Server - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11357.png) 
 
 <table>
 	<tr>
@@ -167,7 +167,7 @@ Tester la connexion avec la base de données pour valider si les informations ap
 
 ### Paramètres 
 
-![Microsoft SQL Server - Paramètres](/img/fr/rdm/windows/clip11358.png) 
+![Microsoft SQL Server - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11358.png) 
 
 <table>
 	<tr>
@@ -210,7 +210,7 @@ Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement h
 
 ### {{ fr.PVLT }} 
 
-![Microsoft SQL Server - Coffre de l'utilisateur](/img/fr/rdm/windows/clip3413.png) 
+![Microsoft SQL Server - Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3413.png) 
 
 <table>
 	<tr>
@@ -238,7 +238,7 @@ Sélectionner le type de [{{ fr.PVLT }}](/fr/rdm/windows/data-sources/data-sourc
 
 ### Mise à niveau 
 
-![Microsoft SQL Server - Mise à niveau](/img/fr/rdm/windows/clip11360.png) 
+![Microsoft SQL Server - Mise à niveau](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11360.png) 
 
 <table>
 	<tr>
@@ -302,11 +302,11 @@ Afficher le script de mise à jour.
 ### VPN 
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à Microsoft SQL Server .  
-![Microsoft SQL Server - VPN](/img/fr/rdm/windows/SQLServVPN.png) 
+![Microsoft SQL Server - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SQLServVPN.png) 
 
 ### Avancé 
 
-![Microsoft SQL Server - Avancé](/img/fr/rdm/windows/clip11359.png) 
+![Microsoft SQL Server - Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11359.png) 
 
 <table>
 	<tr>

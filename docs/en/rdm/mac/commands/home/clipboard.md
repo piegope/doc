@@ -15,7 +15,7 @@ When using an [Advanced Data Source](/rdm/mac/data-sources/data-sources-types/ad
  
 ## Settings 
 
-![Home - Copy options](/img/en/rdm/mac/clip10327.png) 
+![Home - Copy options](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10327.png) 
 
 ### Copy Username 
 

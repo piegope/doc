@@ -2,7 +2,7 @@
 title: Modifier
 ---
 L'onglet ***Modifier*** contient des opérations pour ajouter, modifier, remplacer, modifier en lot ou exporter des entrées rapidement.  
-![Ruban - Modifier](/img/fr/rdm/windows/clip10207.png) 
+![Ruban - Modifier](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10207.png) 
 
 ### Ajouter 
 
@@ -146,7 +146,7 @@ Remplacez les propriétés de l'entrée sélectionnée par des paramètres spéc
 
 {% snippet icon.badgeInfo %} 
 Une colonne ***Paramètres spécifiques*** peut être ajoutée dans le volet de navigation. Faire un clic droit sur la colonne ***Nom*** dans le volet de navigation et choisir Sélecteur de colonnes. Double-cliquer sur ***Paramètres spécifiques*** pour ajouter la colonne. Maintenant, si un paramètre spécifique est appliqué à une entrée, il s'affiche à côté du nom de l'entrée.  
-![Volet de navigation - Sélecteur de colonnes](/img/fr/rdm/windows/SpecificSettingsColumnChooser.png) 
+![Volet de navigation - Sélecteur de colonnes](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SpecificSettingsColumnChooser.png) 
 {% endsnippet %}
  
 

@@ -12,7 +12,7 @@ To create a new entry in your {{ en.PVLT }} , simply click on {{ en.PVLT }} in y
 The {{ en.PVLT }} is only available for all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
 {% endsnippet %}
  
-![Navigation pane - User Vault](/img/en/rdm/mac/clip6003.png) 
+![Navigation pane - User Vault](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6003.png) 
 
 ## A note on Credentials 
 

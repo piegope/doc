@@ -5,7 +5,7 @@ You can manage your Remote Desktop Manager versions for Windows, Mac, Android or
 
 ### Version Management 
 
-![Version Management tab](/img/en/rdm/mac/2015-09-22_09-38-30.png) 
+![Version Management tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/2015-09-22_09-38-30.png) 
 
 <table>
 	<tr>

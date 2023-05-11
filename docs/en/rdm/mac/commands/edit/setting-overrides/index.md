@@ -5,7 +5,7 @@ Setting Overrides options are used to override the user specific settings or the
 
 ## Settings 
 
-![Edit - Setting Overrides](/img/en/rdm/mac/clip10337.png) 
+![Edit - Setting Overrides](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10337.png) 
 
 <table>
 	<tr>

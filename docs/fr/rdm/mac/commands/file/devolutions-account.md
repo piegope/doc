@@ -2,7 +2,7 @@
 title: Compte Devolutions
 ---
 Dans ***Fichier - Compte Devolutions*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }}. Le {{ fr.DA }} est gratuit pour les clients.  
-![Compte Devolutions](/img/fr/rdm/mac/RdmMac4006.png) 
+![Compte Devolutions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4006.png) 
 
 <table>
 	<tr>

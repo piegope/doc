@@ -13,7 +13,7 @@ Les modèles par défaut créent des paramètres par défaut pour les nouvelles 
 * ***Document*** 
 * ***Synchroniseur*** 
 * ***Macros/Scripts/Outils***  
-![Fichier - Modèles - Paramètres par défaut](/img/fr/rdm/windows/clip10168.png) 
+![Fichier - Modèles - Paramètres par défaut](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10168.png) 
 
 ## Paramètres 
 
@@ -26,4 +26,4 @@ Noter qu'un avis ***Pas de valeur par défaut*** s'affiche sous chaque type qui 
 Vous pouvez double-cliquer sur le type pour modifier le modèle ou appuyer sur le bouton ***Modifier*** .  
 
 Si vous souhaitez supprimer le modèle de paramètres par défaut, appuyer sur le bouton ***Supprimer*** .  
-![Gestion de modèle type par défaut](/img/fr/rdm/windows/clip10169.png) 
+![Gestion de modèle type par défaut](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10169.png) 

@@ -13,7 +13,7 @@ Si vous avez besoin d'un contrôle plus précis, vous pouvez spécifier le modè
 
 {% snippet icon.badgeNotice %} 
 Dans ***Fichier – Importer*** , nous vous recommandons d'utiliser d'abord l'option ***Assistant d'importation de Csv générique*** . Vous pouvez modifier au besoin l' ***Instruction du format en-tête*** .  
-![Assistant d'importation de CSV](/img/fr/rdm/windows/RdmWin4042.png) 
+![Assistant d'importation de CSV](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4042.png) 
 {% endsnippet %}
  
 

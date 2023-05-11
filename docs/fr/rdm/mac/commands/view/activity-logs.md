@@ -2,7 +2,7 @@
 title: Journaux d'activité
 ---
 Les ***Journaux d'activité*** offrent une solution robuste de journalisation. Grâce à cette fonctionnalité, il est possible de surveiller une session ouverte pour tous les utilisateurs qui utilisent des [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . Le journal est disponible dans l'onglet ***Affichage*** .  
-![Bouton Journaux d'activité](/img/fr/rdm/mac/RDMMac0037.png) 
+![Bouton Journaux d'activité](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0037.png) 
 
 {% snippet icon.badgeInfo %} 
 En fonction des permissions dont dispose chaque utilisateur, il se peut qu'il ne puisse accéder qu'aux ***Journaux des connexions locales*** . 
@@ -11,11 +11,11 @@ En fonction des permissions dont dispose chaque utilisateur, il se peut qu'il ne
 ### Recherche 
 
 Toutes les activités dans la source de données s'affichent automatiquement lors de l'ouverture des ***Journaux d'activité*** , sans avoir à appliquer de paramètres. Toutefois, des champs de recherche sont disponibles et peuvent s'avérer utiles lorsqu'il y a beaucoup d'entrées d'activités. Ainsi, les résultats peuvent être affinés en spécifiant la ***Date*** ou une période personnalisée, le ***Nom d'utilisateur*** , le ***Message*** , l' ***Hôte*** , le ***Dossier*** , le ***Commentaire d'ouverture*** et le ***Commentaire de fermeture*** . Il est également possible de choisir entre l' ***Heure locale*** , l' ***Heure d'orgine*** et l' ***Heure UTC*** et de rechercher dans tous les coffres ou seulement dans le coffre actuel. Lorsque tous les critères ont été choisis, le bouton ***Recherche*** les appliquera aux résultats.  
-![Journaux d'activité champs de recherche](/img/fr/rdm/mac/RDMMac0038.png) 
+![Journaux d'activité champs de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0038.png) 
 
 ### Journaux 
 Le journal contient toutes les opérations CRUD (ajout, modification et suppression), les mots de passe affichés, les identifiants utilisés par d'autres sessions, etc. Il est possible de cliquer sur une entrée avec le bouton de droite pour accéder à plus d'options.  
-![Journaux](/img/fr/rdm/mac/RDMMac0039.png) 
+![Journaux](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0039.png) 
 
 Les informations disponibles pour chaque ligne d'activité sont présentées dans le tableau suivant.  
 

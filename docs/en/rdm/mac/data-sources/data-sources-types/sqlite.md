@@ -5,7 +5,7 @@ title: SQLite
 	<tr>
 		<td>
 
-![!!DataSourceSQLiteLarge.png](/img/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 {{ en.RDM }} for Mac SQLite data source is ideal for single user in a stand alone situations . More powerful and more flexible than the XML file format, it also supports a few of the advanced data source options like Logs and Attachments. 
@@ -38,7 +38,7 @@ You can specify a password to further encrypt your data, you must enter your pas
 
 ### Connection 
 
-![SQLite - Connection tab](/img/en/rdm/mac/clip10159.png) 
+![SQLite - Connection tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10159.png) 
 
 <table>
 	<tr>
@@ -101,7 +101,7 @@ Enable the [2-Factor Authentication](2-Factor_Authentication) to access your dat
 
 ### Backup 
 
-![SQLite - Backup tab](/img/en/rdm/mac/clip6055.png) 
+![SQLite - Backup tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6055.png) 
 
 <table>
 	<tr>
@@ -137,7 +137,7 @@ Specify the backup name that will allow you to automatically save your sessions 
 
 ### Advanced 
 
-![SQLite - Advanced tab](/img/en/rdm/mac/clip10161.png) 
+![SQLite - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10161.png) 
 
 <table>
 	<tr>
@@ -193,7 +193,7 @@ Use to directly modify the connection string value.
 
 ### Maintenance 
 
-![SQLite - Maintenance tab](/img/en/rdm/mac/clip10162.png) 
+![SQLite - Maintenance tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10162.png) 
 
 <table>
 	<tr>

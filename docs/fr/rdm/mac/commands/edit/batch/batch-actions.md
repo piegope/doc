@@ -7,13 +7,13 @@ Utiliser les options ***Modifier - Modifier (Actions spéciales)*** pour modifie
 Les modifications par lots sont appliquées qu'aux entrées actuellement sélectionnées dans votre volet de navigation. 
 {% endsnippet %}
  
-![Modifier - Modifier (Actions spéciales)](/img/fr/rdm/mac/clip4074.png) 
+![Modifier - Modifier (Actions spéciales)](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4074.png) 
 
 ## Paramètres 
 
 ### Général 
 
-![Modifier - Général](/img/fr/rdm/mac/clip4076.png) 
+![Modifier - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4076.png) 
 
 <table>
 	<tr>
@@ -48,7 +48,7 @@ Analysera toutes vos entrées dans votre base de données actuelle pour détecte
 Ces options ne fonctionnent qu'avec l'entrée de session ***Site Web*** , PAS avec l'entrée d'informations ***Site Web (Ancien)*** . 
 {% endsnippet %}
  
-![Modifier - Web](/img/fr/rdm/mac/clip0249.png) 
+![Modifier - Web](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0249.png) 
 
 <table>
 	<tr>
@@ -78,11 +78,11 @@ Une fois que vous avez sélectionné vos entrées de ***Site Web*** et exécuté
 	</tr>
 </table>
 
-![Session Site Web - ID du contrôle HTML](/img/fr/rdm/mac/clip4077.png) 
+![Session Site Web - ID du contrôle HTML](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4077.png) 
 
 ### Convert to 
 
-![Modifier - ConvertTo](/img/fr/rdm/mac/clip0250.png) 
+![Modifier - ConvertTo](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0250.png) 
 
 <table>
 	<tr>

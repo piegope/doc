@@ -5,7 +5,7 @@ Utiliser ***Fichier - Préférences - Sécurité*** pour configurer la sécurit�
 
 ## Paramètres 
 
-![Préférences - Sécurité](/img/fr/rdm/mac/clip4201.png) 
+![Préférences - Sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4201.png) 
 
 ### Sécurité de l'application (local) 
 

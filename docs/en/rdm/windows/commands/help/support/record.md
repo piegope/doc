@@ -8,5 +8,5 @@ The   ***Record*** is an easy-to-use built-in screen recorder that could even be
 ## Settings 
 
 The Video Recording Options uses the MP4 format, which on Vanilla installs of Windows is not supported. If you encounter any difficulty viewing the video we strongly suggest the use of a [VLC player](http://www.videolan.org/vlc/download-windows.html) .  
-![Video Recording Options](/img/en/rdm/windows/clip11330.png) 
+![Video Recording Options](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11330.png) 
 

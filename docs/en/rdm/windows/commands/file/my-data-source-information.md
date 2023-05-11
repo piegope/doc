@@ -7,14 +7,14 @@ The   ***Data Source Information*** window displays various information related 
 The ***My Data Source Information*** view can be different depending on the [Data Source Type](/rdm/windows/data-sources/data-sources-types/) . This topic uses an SQL Server data source. 
 {% endsnippet %}
  
-![File – My Data Source Information](/img/en/rdm/windows/clip3567.png) 
+![File – My Data Source Information](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3567.png) 
 
 ## User and security 
 
 ### General 
 
 The General tab displays information about the current user and data source configuration.  
-![My Data Source Information - General](/img/en/rdm/windows/clip10881.png) 
+![My Data Source Information - General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10881.png) 
 
 <table>
 	<tr>
@@ -101,7 +101,7 @@ Indicates if the data source is configured with a second factor of authenticatio
 
 ### Entries 
 
-![My Data Source Information – Entries](/img/en/rdm/windows/clip10065.png) 
+![My Data Source Information – Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10065.png) 
 
 <table>
 	<tr>
@@ -154,5 +154,5 @@ The ***User Groups*** tab displays the user groups that the user is a member of 
 This feature is only available with an SQL Server/Azure SQL and a {{ en.RDMS }} (DVLS) data source. 
 {% endsnippet %}
  
-![!!RdmWin4037.png](/img/en/rdm/windows/RdmWin4037.png) 
+![!!RdmWin4037.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4037.png) 
 

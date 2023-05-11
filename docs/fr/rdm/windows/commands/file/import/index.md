@@ -11,7 +11,7 @@ Nous prenons en charge les formats d'importation natifs de nombreux outils popul
 La fonction d'importation n'est active que si les ***Privilèges*** d'importation ont été activés dans le compte d'utilisateur. 
 {% endsnippet %}
  
-![Fichier – Importer](/img/fr/rdm/windows/clip11281.png) 
+![Fichier – Importer](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11281.png) 
 
 Consultez les rubriques suivantes pour obtenir plus d'informations sur chaque option :  
 

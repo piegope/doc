@@ -2,7 +2,7 @@
 title: Options d'identifiants
 ---
 Plusieurs options sont disponibles pour les ***Identifiants*** dans vos entrées {{ fr.RDM }}.  
-![!!RdmWin4041.png](/img/fr/rdm/windows/RdmWin4041.png) 
+![!!RdmWin4041.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4041.png) 
 
 <table>
 	<tr>

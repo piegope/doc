@@ -3,7 +3,7 @@ title: Version Management
 ---
 The ***Version Management*** allows the administrators to manage the data source availability in other versions of {{ en.RDM }} for Windows, Mac, and Linux. 
 
-![Administration – System Settings – Version Management](/img/en/server/ServerOp8078.png)
+![Administration – System Settings – Version Management](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8078.png)
 
 <table>
 	<tr>

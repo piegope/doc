@@ -5,7 +5,7 @@ The   ***Playback (Ansi)*** is available in ***Tools – More***   Tools – Pla
 
 ## Settings 
 
-![More Tools - Playback (Ansi)](/img/en/rdm/windows/clip10414.png) 
+![More Tools - Playback (Ansi)](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10414.png) 
 
 <table>
 	<tr>
@@ -19,7 +19,7 @@ DESCRIPTION
 	<tr>
 		<td>
 
-![!!clip10865.png](/img/en/rdm/windows/clip10865.png) 
+![!!clip10865.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10865.png) 
 		</td>
 		<td>
 Select the ansi file you wish to open in the Terminal Playback. 
@@ -35,7 +35,7 @@ Select the font for the Terminal Playback.
 	</tr>
 	<tr>
 		<td>
-![!!clip10867.png](/img/en/rdm/windows/clip10867.png) Options 
+![!!clip10867.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10867.png) Options 
 		</td>
 		<td>
 See the ***Options*** section. 
@@ -43,7 +43,7 @@ See the ***Options*** section.
 	</tr>
 	<tr>
 		<td>
-![!!clip10868.png](/img/en/rdm/windows/clip10868.png) 
+![!!clip10868.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10868.png) 
 		</td>
 		<td>
 Clear the screen to play another ansi file. 
@@ -53,7 +53,7 @@ Clear the screen to play another ansi file.
 
 ### Options 
 
-![Playback (Ansi) - Ansi Player Options](/img/en/rdm/windows/clip10415.png)
+![Playback (Ansi) - Ansi Player Options](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10415.png)
 
 <table>
 	<tr>

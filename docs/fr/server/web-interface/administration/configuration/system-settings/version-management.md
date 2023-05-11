@@ -2,7 +2,7 @@
 title: Gestion de version
 ---
 Permet de gérer les versions de {{ fr.RDM }} pour les plateformes Windows, MacOS et Linux.  
-![Administration – Paramètres du système – Gestion de version](/img/fr/server/ServerOp8080.png) 
+![Administration – Paramètres du système – Gestion de version](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8080.png) 
 
 <table>
 	<tr>

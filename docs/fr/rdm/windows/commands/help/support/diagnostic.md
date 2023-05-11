@@ -12,7 +12,7 @@ Certains autres problèmes peuvent être liés au fait que l'application s'exéc
 Les problèmes et solutions liés à FIPS (chiffrement) se trouvent dans la section de dépannage spécifique de FIPS (chiffrement).  
 
 Si un [Remote Desktop Manager Jump](/fr/rdm/windows/overview/the-devolutions-platform/rdm-jump/) est configuré, vous pouvez exécuter un test de votre hôte Jump en cliquant sur Jump Test.  
-![Diagnostic du système – Système](/img/fr/rdm/windows/clip10814.png) 
+![Diagnostic du système – Système](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10814.png) 
 
 {% snippet icon.badgeInfo %} 
 Veuillez lire la rubrique Troubleshooting si vous rencontrez des problèmes avec {{ fr.RDM }} , il répertorie les messages d'erreur et peut contenir le correctif/solution de contournement pour votre problème. 
@@ -27,9 +27,9 @@ L'onglet Source de données contient des informations concernant la source de do
 Trop d'images personnalisées pourraient considérablement augmenter la taille de la source de données et provoquer un problème de temps de chargement. 
 {% endsnippet %}
  
-![Diagnostic du système - Source de données](/img/fr/rdm/windows/clip11353.png) 
+![Diagnostic du système - Source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11353.png) 
 
 ### Politique 
 
 L'onglet Politique affiche la liste des modèles de stratégie de groupe pour voir si l'un d'eux a été appliqué.  
-![Diagnostic du système - Politique](/img/fr/rdm/windows/clip11354.png) 
+![Diagnostic du système - Politique](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11354.png) 

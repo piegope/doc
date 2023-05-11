@@ -14,9 +14,9 @@ Vous devez être administrateur de la source de données pour effectuer cette ac
 ## Paramètres 
 
 1. Sélectionner la date avant laquelle vous souhaitez supprimer définitivement votre historique d'entrées.  
-![Nettoyer l'historique d'entrées](/img/fr/rdm/windows/clip10341.png) 
+![Nettoyer l'historique d'entrées](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10341.png) 
 1. Confirmer votre choix avant de supprimer définitivement votre historique d'entrées.  
-![Fenêtre de confirmation](/img/fr/rdm/windows/clip11326.png) 
+![Fenêtre de confirmation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11326.png) 
 {% snippet icon.badgeWarning %} 
 Il n'y aura pas de sauvegarde de votre historique. Nous vous recommandons fortement de faire une [Copie de sauvegarde](/rdm/windows/commands/file/backup/) avant de continuer. 
 {% endsnippet %}

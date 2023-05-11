@@ -14,7 +14,7 @@ If the validation is successful, contact us to open a ticket. If it is not succe
 
 ## Troubleshooting WITHIN {{ en.RDM }}
 {{ en.RDM }} indicates a certificate validation error by displaying the following dialog:  
-![Certificate validation error dialog ](/img/en/kb/KB4450.png)  
+![Certificate validation error dialog ](https://webdevolutions.azureedge.net/docs/en/kb/KB4450.png)  
  
 {% snippet icon.shieldCaution %}
 Before ignoring the error or adding the certificate to you exception list, always perform a perfunctory validation of the certificate by using the ***View Certificate*** action, you should validate the ***Issued To*** and ***Issued By*** fields to determine if they seem correct for your organization.
@@ -75,7 +75,7 @@ Displays the certificate using the <a href="#systemdialog">System Dialog</a>. Yo
 ## {{ en.RDM }} Certificate diagnostic window  
 <a name="certificatediagnosticwindow"></a>
 
-![Certificate Diagnostic Window](/img/en/kb/KB4453.png)  
+![Certificate Diagnostic Window](https://webdevolutions.azureedge.net/docs/en/kb/KB4453.png)  
 ## System dialog
 <a name="systemdialog"></a>
 
@@ -85,7 +85,7 @@ To export the certificate, follow these steps:
 
 1. Click on the ***Details*** tab of the Windows certificate prompt.
 1. Click ***Copy to File***.. and proceed to export the certificate as a *.cer file.  
-![Certificate information system dialog](/img/en/kb/KB4452.png)  
+![Certificate information system dialog](https://webdevolutions.azureedge.net/docs/en/kb/KB4452.png)  
 ## Manual certificate validation
 <a name="manualcertificatevalidation"></a>
 
@@ -106,7 +106,7 @@ The resulting output from those tools can be used to obtain more information abo
 <a name="certificatesecurityrelatedoptions"></a>
 
 Navigate to ***File – Options – Security – Certificate security*** to manage options related to certificates.  
-![Remote Desktop Manager Options](/img/en/kb/KB4451.png)  
+![Remote Desktop Manager Options](https://webdevolutions.azureedge.net/docs/en/kb/KB4451.png)  
 
 <table>
 	<tr>
@@ -145,11 +145,11 @@ Use this option to clear the cached certificates. All certificates would need to
 
 ## Verify the Certification Authority (CA)
 1. Open the certificate, then verify by which Certification Authority the certificate has been ***issued by*** , in the ***General*** tab.  
-![!!KB4448.png](/img/en/kb/KB4448.png)
+![!!KB4448.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4448.png)
 1. Verify that the Certification Authority is properly installed in the certificate store.  
-![!!KB4449.png](/img/en/kb/KB4449.png)
+![!!KB4449.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4449.png)
 ## Certificate revocation check
 <a name="certificatecheck"></a>
 
 Ensure that the CRL (Certificate Revocation List) server is reachable as it is required to validate a certificate.  
-![!!KB4454.png](/img/en/kb/KB4454.png)
+![!!KB4454.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4454.png)

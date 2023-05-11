@@ -3,7 +3,7 @@ title: Application Access
 ---
 Allows to grant access to applications. 
 
-![Administration – System Settings – Application Access](/img/en/server/ServerOp8074.png)
+![Administration – System Settings – Application Access](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8074.png)
 
 ### Options 
 <table>

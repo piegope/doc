@@ -2,7 +2,7 @@
 title: Window
 ---
 The Window menu allows you to manage the overall display of {{ en.RDM }} for Mac .  
-![Windows ribbon](/img/en/rdm/mac/clip10461.png) 
+![Windows ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10461.png) 
 
 ## Settings 
 <table>

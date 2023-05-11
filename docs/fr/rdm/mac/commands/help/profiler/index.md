@@ -10,18 +10,18 @@ Trop d'images personnalisées pourraient considérablement augmenter la taille d
 ## Procédure 
 
 1. Sélectionner Aide - Profileur .  
-![Aide - Profileur](/img/fr/rdm/mac/clip4233.png) 
+![Aide - Profileur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4233.png) 
 1. Déplacer la fenêtre sur le côté afin d'afficher la fenêtre principale de {{ fr.RDM }} et actualiser la source de données en utilisant le bouton ***Actualiser*** ou en utilisant ***Fichier - Actualiser*** . 
 {% snippet icon.badgeInfo %} 
 Maintenir la touche ***CTRL*** pendant l'exécution de l'actualisation forcera un rechargement complet de la source de données, ignorant ainsi le cache. 
 {% endsnippet %}
  
-![Profilage des performances](/img/fr/rdm/mac/clip4234.png) 
+![Profilage des performances](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4234.png) 
 
 3. Les données du ***Profileur*** s'affichent dans sa fenêtre.  
-![Résultat du Profileur](/img/fr/rdm/mac/clip4235.png) 
+![Résultat du Profileur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4235.png) 
 1. Cliquer sur ***Envoyez la trace au soutien*** afin d'envoyer les journaux de données du ***Profileur*** à notre équipe de support Devolutions. Vous pouvez ajouter un marqueur lors de l'exécution de plusieurs tests pour les séparer.  
-![Envoyez la trace au soutien](/img/fr/rdm/mac/clip4236.png) 
+![Envoyez la trace au soutien](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4236.png) 
 
 ### Débogage seulement 
 

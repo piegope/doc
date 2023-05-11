@@ -5,7 +5,7 @@ Le ***Générateur de port*** vous permet de générer des ports pour vos connex
 
 ## Paramètres 
 
-![Générateur de port](/img/fr/rdm/windows/clip10393.png) 
+![Générateur de port](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10393.png) 
 
 <table>
 	<tr>

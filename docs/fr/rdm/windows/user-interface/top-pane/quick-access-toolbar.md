@@ -8,7 +8,7 @@ La ***Barre de connexion rapide*** , qui se trouve en haut de l'application, est
 * Contrôle de la Connexion rapide. 
 * Commande de verrouillage. 
 
-![Barre de connexion rapide](/img/fr/rdm/windows/clip11177.png) 
+![Barre de connexion rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11177.png) 
 
 {% snippet icon.badgeInfo %} 
 Les boutons de la ***Barre de connexion rapide*** sont signalés localement sur la machine actuelle par l'utilisateur actuel. Ces boutons locaux sont enregistrés dans un fichier nommé ***RemoteDesktopManager.qtb*** . Par défaut, ce fichier se trouve dans %localappdata%\Devolutions\RemoteDesktopManager . 
@@ -17,7 +17,7 @@ Les boutons de la ***Barre de connexion rapide*** sont signalés localement sur 
 ### Commandes favorites 
 
 Les commandes contenues dans le ruban peuvent être ajoutées dans la barre de connexion rapide. Ce sont les commandes favorites. Pour ajouter une commande à la barre de connexion rapide, cliquer avec le bouton droit sur une icône du ruban et sélectionnez ***Ajouter*** .  
-![Commandes favorites](/img/fr/rdm/windows/clip11178.png) 
+![Commandes favorites](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11178.png) 
 
 <table>
 	<tr>
@@ -31,7 +31,7 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
-![!!RibbonAddSmall.png](/img/common/RibbonAddSmall.png) 
+![!!RibbonAddSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonAddSmall.png) 
 		</td>
 		<td>
 Créer une nouvelle entrée dans votre source de données actuelle. 
@@ -39,7 +39,7 @@ Créer une nouvelle entrée dans votre source de données actuelle.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonEditSmall.png](/img/common/RibbonEditSmall.png) 
+![!!RibbonEditSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
 		</td>
 		<td>
 Ouvrir la fenêtre des propriétés de votre entrée sélectionnée 
@@ -47,7 +47,7 @@ Ouvrir la fenêtre des propriétés de votre entrée sélectionnée
 	</tr>
 	<tr>
 		<td>
-![!!RibbonRefreshSmall.png](/img/common/RibbonRefreshSmall.png) 
+![!!RibbonRefreshSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshSmall.png) 
 		</td>
 		<td>
 Actualiser votre source de données. 
@@ -55,7 +55,7 @@ Actualiser votre source de données.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonSearchSmall.png](/img/common/RibbonSearchSmall.png) 
+![!!RibbonSearchSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonSearchSmall.png) 
 		</td>
 		<td>
 Ouvrir la fenêtre de dialogue du filtre pour vous permettre d'effectuer une recherche rapide 

@@ -2,7 +2,7 @@
 title: Batch Edit
 ---
 Use the Edit - Batch Edit or the Batch Edit option in the context menu to change the settings of multiple sessions in one operation. It can be used for example to remove or update all of the credentials of a group of sessions.  
-![Batch Edit](/img/en/rdm/mac/clip10346.png) 
+![Batch Edit](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10346.png) 
 
 You could also change:  
 
@@ -17,7 +17,7 @@ You could also change:
 ## Advanced Search 
 
 You can select multiple entries by using Command and mouse click. For a method with a little more power, use our [Advanced Search](/rdm/mac/commands/view/advanced-search/) dialog, accessible from View - Advanced Search . The Advanced Search allows you to select multiple criteria at once.  
-![Advanced Search](/img/en/rdm/mac/clip10605.png) 
+![Advanced Search](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10605.png) 
 
 After you've tweaked your criteria to get the results you want, press on Select in Navigation Pane and then Action - Batch Edit . 
 
@@ -25,14 +25,14 @@ After you've tweaked your criteria to get the results you want, press on Select 
 
 ### Change Saved Host Name 
 
-![Change Saved Host Name](/img/en/rdm/mac/clip10031.png) 
+![Change Saved Host Name](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10031.png) 
 
 You can change multiple host name at the same time. 
 
 ### Change Saved Credentials 
 
 You can change the configured credentials for multiple sessions in a batch.  
-![Change Saved credentials](/img/en/rdm/mac/clip10606.png) 
+![Change Saved credentials](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10606.png) 
 
 <table>
 	<tr>
@@ -104,7 +104,7 @@ Clear all existing passwords for the selected sessions.
 
 ### Edit Sessions (General Settings) 
 
-![Batch Edit - General Settings](/img/en/rdm/mac/clip10348.png) 
+![Batch Edit - General Settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10348.png) 
 
 Edit Sessions (General Settings) allows you to change common sessions settings simultaneously. The session can be of any type, because a common set of options are shared among sessions. The following common general settings can be changed:  
 
@@ -125,16 +125,16 @@ Edit Sessions (General Settings) allows you to change common sessions settings s
 Edit Sessions Session Type Settings is only available for specific session types like RDP. 
 {% endsnippet %}
  
-![Batch Edit - Session Type](/img/en/rdm/mac/clip10347.png) 
+![Batch Edit - Session Type](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10347.png) 
 
 ### Edit Sessions (User Specific Settings) 
 
 User Specific Settings can be modified in a batch if they're supported by the session type.  
-![Batch Edit - User Specific settings](/img/en/rdm/mac/clip10349.png) 
+![Batch Edit - User Specific settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10349.png) 
 
 ### Edit Sessions (Security Group) 
 
 Use the Edit Sessions (Security Group) option to apply a new security group on multiple sessions.  
-![Batch Edit - Security Group](/img/en/rdm/mac/clip10032.png) 
+![Batch Edit - Security Group](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10032.png) 
 
 

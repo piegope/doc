@@ -4,12 +4,12 @@ title: Abonnés
 Au minimum un abonné doit exister afin de recevoir les notifications des activités de l'instance {{ fr.RDMS }} .  
 
 Pour créer un abonné, cliquer sur le bouton ***Ajouter*** .  
-![Créer un abonné](/img/fr/server/ServerOp8145.png)  
+![Créer un abonné](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8145.png)  
 
 Remplir les informations de l'abonné dans les champs appropriés.  
-![Abonné de type Courriel](/img/fr/server/ServerOp8146.png)  
+![Abonné de type Courriel](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8146.png)  
 
-![Abonné de type Serveur Syslog](/img/fr/server/ServerOp8147.png)  
+![Abonné de type Serveur Syslog](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8147.png)  
 
 <table>
 	<tr>

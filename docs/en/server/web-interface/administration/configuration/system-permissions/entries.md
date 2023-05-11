@@ -2,7 +2,7 @@
 title: Entries
 ---
 
-![Administration - System Permissions](/img/en/server/clip8052.png) 
+![Administration - System Permissions](https://webdevolutions.azureedge.net/docs/en/server/clip8052.png) 
 
 The administrative permissions regarding the ***Entries*** section are described below. 
 <table>

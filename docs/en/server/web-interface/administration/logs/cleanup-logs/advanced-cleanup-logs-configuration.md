@@ -3,7 +3,7 @@ title: Advanced Configuration
 ---
 The ***Advanced*** configuration allows to set individual clean up parameters for all the different logs of {{ en.RDMS }} . 
 
-![Cleanup Logs - Advanced](/img/en/server/ServerOp8161.png) 
+![Cleanup Logs - Advanced](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8161.png) 
 
 <table>
 	<tr>

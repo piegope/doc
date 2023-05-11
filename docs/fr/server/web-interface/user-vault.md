@@ -7,5 +7,5 @@ Le ***{{ fr.PVLT }}*** est un coffre spécifique à l'utilisateur utilisé pour 
 
 Le ***{{ fr.PVLT }}*** prévient également les utilisateurs d'utiliser un outil non sécurisé pour gérer leurs mots de passe personnels au travail. 
 
-![Coffre de l'utilisateur](/img/fr/server/ServerOp8026.png) 
+![Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8026.png) 
 

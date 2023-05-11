@@ -3,7 +3,7 @@ title: Backup History
 ---
 The ***Backup History*** section displays the list of the backups that have been run with messages related to their success or failure. 
 
-![Administration - Backup History](/img/en/server/clip10404.png) 
+![Administration - Backup History](https://webdevolutions.azureedge.net/docs/en/server/clip10404.png) 
 
 <table>
 	<tr>

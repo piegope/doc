@@ -3,7 +3,7 @@ title: Gestion
 keywords:
 - Rôle
 ---
-![Administration - Permissions du système - Gestion](/img/fr/server/clip8053.png)  
+![Administration - Permissions du système - Gestion](https://webdevolutions.azureedge.net/docs/fr/server/clip8053.png)  
 
 <table>
 	<tr>

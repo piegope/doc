@@ -1,7 +1,7 @@
 ---
 title: Entrées
 ---
-![Administration - Permissions du système - Entrées](/img/fr/server/clip8052.png)  
+![Administration - Permissions du système - Entrées](https://webdevolutions.azureedge.net/docs/fr/server/clip8052.png)  
 
 <table>
 	<tr>

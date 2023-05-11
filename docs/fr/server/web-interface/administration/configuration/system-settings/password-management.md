@@ -2,7 +2,7 @@
 title: Gestion des mots de passe
 ---
 La ***Politique de mot de passe*** permet de définir les exigences minimales pour les mots de passe qui seront enregistrés dans les entrées.  
-![Administration – Paramètres du système – Gestion des mots de passe](/img/fr/server/clip10376.png) 
+![Administration – Paramètres du système – Gestion des mots de passe](https://webdevolutions.azureedge.net/docs/fr/server/clip10376.png) 
 
 <table>
 	<tr>

@@ -4,7 +4,7 @@ title: Add Website
 The ***Add Website*** button is only available while in the [***Matching***](/rdm/mac/dwl/devolutions-web-login-user-interface/side-menu/#matching-tab) tab, which is the tab selected when opening the extension. It opens a new tab in your browser that allows you to add a website entry in {{ en.RDM }} for Mac through {{ en.DWL }} .  
 
 When {{ en.RDM }} for Mac is used as the data source, the entry configuration is done in the ***General*** tab.  
-![Add Website](/img/en/rdm/mac/RDMMac2045.png) 
+![Add Website](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2045.png) 
 
 See the table below to learn about each field/setting from this view. 
 

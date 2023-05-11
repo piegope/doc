@@ -1,7 +1,7 @@
 ---
 title: Général
 ---
-![Coffres - Général](/img/fr/server/ServerOp8065.png) 
+![Coffres - Général](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8065.png) 
 
 <table>
 	<tr>

@@ -2,7 +2,7 @@
 title: User Management
 ---
 The User management is available from the menu Administration - Users . Users management allows you to create, manage and assign rights to a user.  
-![Administration - Users](/img/en/rdm/mac/clip10381.png) 
+![Administration - Users](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10381.png) 
 
 {{ en.RDM }} for Mac allows for advanced user right management allowing you to control how a session is employed by each user. Note that some visibility control will depend on the active data source. There is currently no way to inherit security rights from a group as they must be assigned individually for each user. If using the [{{ en.RDMS }}](/server/overview/what-is-server/) you will then be able to use Integrated Security with Active Directory.  
 
@@ -23,7 +23,7 @@ Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advance
 ### Create users 
 
 To create a new user click on the add button. You can create a user using default security (specifying the password) or [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . Consult the [Permissions](/rdm/mac/commands/administration/user-management/permissions/) topic for more information on the rights that can be added to a user. You can assign different security options to the user such as allow the user to use the Offline mode.  
-![User and Security Management](/img/en/rdm/mac/clip10133.png) 
+![User and Security Management](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10133.png) 
 
 {% snippet icon.badgeInfo %} 
 Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) support the use of [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . If using the [{{ en.RDMS }}](/server/overview/what-is-server/) you will then be able to use Integrated Security with Active Directory.To learn more please see   [Integrated Security](/rdm/mac/commands/administration/user-management/integrated-security/) . 
@@ -33,7 +33,7 @@ Not all [Advanced Data Sources](/rdm/mac/data-sources/data-sources-types/advance
 
 ### General 
 
-![User Management - General](/img/en/rdm/mac/clip10382.png) 
+![User Management - General](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10382.png) 
 
 <table>
 	<tr>
@@ -101,11 +101,11 @@ Grants full administrative rights to the user. This is for the system as a whole
 ### Information 
 
 Enter all the information needed regarding your new user.  
-![User Management - Information](/img/en/rdm/mac/clip10383.png) 
+![User Management - Information](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10383.png) 
 
 ### User groups 
 
-![User Management - User Groups](/img/en/rdm/mac/clip10384.png) 
+![User Management - User Groups](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10384.png) 
 
 <table>
 	<tr>
@@ -128,7 +128,7 @@ Consult User Groups Management topic for more information. When a user group nee
 
 ### Privileges 
 
-![User Management - Privileges](/img/en/rdm/mac/clip10385.png) 
+![User Management - Privileges](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10385.png) 
 
 <table>
 	<tr>
@@ -205,11 +205,11 @@ The export menu (File - Export) and the export feature in the context menu will 
 The Permissions section allows you to assign permissions. Controls are sometimes hidden depending on the data source or the state of other controls.  
 
 Consult the [Permissions](/rdm/mac/commands/administration/user-management/permissions/) topic for more information on rights that can be added to a user.  
-![User Management - Permissions](/img/en/rdm/mac/clip10386.png) 
+![User Management - Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10386.png) 
 
 ### Settings 
 
-![User Management - Settings](/img/en/rdm/mac/clip10388.png) 
+![User Management - Settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10388.png) 
 
 Allow the user to enable the Offline Mode on the data sources. This also depends on the data source being configured to allow it. You can choose between: 
 

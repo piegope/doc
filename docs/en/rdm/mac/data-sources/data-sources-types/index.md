@@ -27,7 +27,7 @@ PROS AND CONS
 	<tr>
 		<td>
 
-![!!DataSourceDODLarge.png](/img/common/DataSourceDODLarge.png) 
+![!!DataSourceDODLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
 		</td>
 		<td>
 {{ en.DODV }} 
@@ -52,7 +52,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!dvls-90X90.png](/img/common/dvls-90X90.png) 
+![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/common/dvls-90X90.png) 
 		</td>
 		<td>
 {{ en.RDMS }} 
@@ -79,7 +79,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDropBoxLarge.png](/img/common/DataSourceDropBoxLarge.png) 
+![!!DataSourceDropBoxLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
 		</td>
 		<td>
 Dropbox 
@@ -106,7 +106,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceAzureLarge.png](/img/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 Microsoft Azure SQL 
@@ -131,7 +131,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLServerLarge.png](/img/common/DataSourceSQLServerLarge.png) 
+![!!DataSourceSQLServerLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
 		</td>
 		<td>
 Microsoft SQL Server 
@@ -158,7 +158,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!ApplicationHubLarge.png](/img/common/ApplicationHubLarge.png) 
+![!!ApplicationHubLarge.png](https://webdevolutions.azureedge.net/docs/common/ApplicationHubLarge.png) 
 		</td>
 		<td>
 {{ en.HUB }} Business 
@@ -186,7 +186,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!Hub-personal-32x32.png](/img/common/hub-personal-32x32.png) 
+![!!Hub-personal-32x32.png](https://webdevolutions.azureedge.net/docs/common/hub-personal-32x32.png) 
 		</td>
 		<td>
 {{ en.HUB }} Personal 
@@ -212,7 +212,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLiteLarge.png](/img/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 SQLite 
@@ -239,7 +239,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceXMLLarge.png](/img/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 XML 

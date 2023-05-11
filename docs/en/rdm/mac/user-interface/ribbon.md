@@ -2,7 +2,7 @@
 title: Ribbon
 ---
 Depending on your chosen User Interface style, commands are presented via the Ribbon or a standard menu.  
-![Ribbon](/img/en/rdm/mac/clip10565.png) 
+![Ribbon](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10565.png) 
 
 ## Ribbon 
 

@@ -10,7 +10,7 @@ Cette fonctionnalité n'est disponible que lors de l'utilisation d'une [Source d
 {% endsnippet %}
  
 Dans la majorité des cas, cette boîte de dialogue apparaîtra.  
-![Paramètres spécifiques locaux](/img/fr/rdm/mac/clip4067.png) 
+![Paramètres spécifiques locaux](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4067.png) 
 
 Veuillez consulter chaque rubrique pour plus d'informations:  
 

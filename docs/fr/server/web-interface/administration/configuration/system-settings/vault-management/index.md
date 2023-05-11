@@ -4,7 +4,7 @@ description: La section Gestion des coffres vous permet de définir des permissi
 ---
 La section ***Gestion des coffres*** vous permet de définir des permissions par défaut et de créer des ensembles de permissions, ainsi que de forcer la location d'enregistrement des ***Paramètres de mon compte***.
 
-![Administration – Paramètres du système – Gestion des coffres](/img/fr/server/ServerOp2046.png)
+![Administration – Paramètres du système – Gestion des coffres](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2046.png)
 
 ## Permissions par défaut 
 <table>

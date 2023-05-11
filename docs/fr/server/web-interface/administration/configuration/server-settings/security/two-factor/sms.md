@@ -6,7 +6,7 @@ Le texto d'authentification à deux facteurs demandera à l'utilisateur de saisi
 Il existe deux configurations possibles. Pour utiliser la version gratuite, ne remplissez pas les paramètres Twilio.  
 
 L'autre configuration disponible est de configurer Twilio. Veuillez remplir les champs appropriés avec les informations de votre abonnement Twilio.  
-![Paramètres Twilio](/img/fr/server/ServerOp8136.png)  
+![Paramètres Twilio](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8136.png)  
 
 <table>
 	<tr>

@@ -18,15 +18,15 @@ To enable the security layer in {{ en.RDM }} , follow these steps:
 
 1. In {{ en.RDM }} , navigate to ***File – Options – Browser Extensions*** . 
 1. Under the ***{{ en.DWL }}*** ***(Browser Extensions)*** section, uncheck ***Use default port*** ***.***  
-![Uncheck Use default port](/img/en/rdm/windows/RDMWin2097.png) 
+![Uncheck Use default port](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2097.png) 
 1. Click ***Default*** . In the window that pops up, enter a custom ***Port*** and click ***OK*** when done.  
-![Port](/img/en/rdm/windows/Dwl4060.png) 
+![Port](https://webdevolutions.azureedge.net/docs/en/rdm/windows/Dwl4060.png) 
 1. Type an ***Application key*** , then click ***OK*** to save.  
-![Application Key](/img/en/rdm/windows/RDMWin2098.png) 
+![Application Key](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2098.png) 
 1. In your browser, click the {{ en.DWL }} icon and go to ***Settings – Data sources –*** ***{{ en.RDM }}*** . 
 1. In the ***General*** tab, uncheck ***Use default port (19443)*** , then enter the custom ***Port*** created earlier in {{ en.RDM }} .  
-![General Tab](/img/en/rdm/windows/RDMWin2099.png) 
+![General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2099.png) 
 1. In the ***Advanced*** tab, enter the same ***Application key*** as in {{ en.RDM }} , then click ***Save*** .  
-![Advanced Tab](/img/en/rdm/windows/RDMWin2100.png) 
+![Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2100.png) 
 
 

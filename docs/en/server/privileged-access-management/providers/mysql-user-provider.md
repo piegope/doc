@@ -2,7 +2,7 @@
 title: MySQL User Provider
 ---
 The MySQL Provider allows {{ en.RDMS }} to store the MySQL account credentials to be used for MySQL accounts discovery or to achieve password rotation.  
-![MySQL User Provider](/img/en/server/ServerOp8092.png) 
+![MySQL User Provider](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8092.png) 
 
 ### General 
 

@@ -8,5 +8,5 @@ L' ***Enregistrement*** est un enregistreur d'écran intégré facile à utilise
 ## Paramètres 
 
 Les options d'enregistrement vidéo utilisent le format MP4, qui sur les installations Vanilla de Windows n'est pas pris en charge. Si vous rencontrez des difficultés pour visionner la vidéo, nous vous suggérons fortement d'utiliser un [lecteur VLC](http://www.videolan.org/vlc/download-windows.html) .  
-![Options d'enregistrement vidéo](/img/fr/rdm/windows/clip11330.png) 
+![Options d'enregistrement vidéo](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11330.png) 
 

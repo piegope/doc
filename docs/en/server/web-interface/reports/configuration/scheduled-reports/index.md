@@ -10,5 +10,5 @@ With this feature, you can set dates, filters and various customized settings to
 For this feature to work, it is mandatory to enable the [***Scheduler Service***](/kb/devolutions-server/knowledge-base/scheduler-service-general-information/) in the {{ en.DPS }} console ***Companions*** tab. 
 {% endsnippet %}
 
-![Reports - Scheduled Reports](/img/en/server/ServerOp8133.png) 
+![Reports - Scheduled Reports](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8133.png) 
 
