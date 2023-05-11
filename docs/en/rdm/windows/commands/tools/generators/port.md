@@ -5,7 +5,7 @@ The ***Port Generator*** allows you to generate ports for your connections.
 
 ## Settings 
 
-![Port Generator](/img/en/rdm/windows/clip10393.png) 
+![Port Generator](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10393.png) 
 
 <table>
 	<tr>

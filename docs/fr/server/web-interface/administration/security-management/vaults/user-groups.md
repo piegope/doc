@@ -2,7 +2,7 @@
 title: Groupes d'utilisateurs
 ---
 Permet d'assigner des groupes d'utilisateurs au coffre.  
-![Coffres - Groupe d'utilisateurs](/img/fr/server/ServerOp8070.png) 
+![Coffres - Groupe d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8070.png) 
 
 <table>
 	<tr>

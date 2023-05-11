@@ -6,7 +6,7 @@ Il est possible d'appliquer un filtre dans le volet de navigation en tapant cert
 ### Bouton à points de suspension 
 
 Sélectionner le bouton à points de suspension pour afficher les options.  
-![Bouton à points de suspension](/img/fr/rdm/windows/clip11003.png) 
+![Bouton à points de suspension](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11003.png) 
 
 L'expression du filtre est mise en correspondance avec les champs sélectionnés dans les options de filtre, tels que:  
 
@@ -22,10 +22,10 @@ Il est possible d'exclure des résultats en choisissant d'afficher les entrées 
 * Si la session est marquée comme Favoris 
 
 Dans les options de navigation, vous pouvez limiter les paramètres de recherche à des types d'entrées spécifiques. Telles que les sessions, les entrées de données, etc.  
-![Options de navigation](/img/fr/rdm/windows/clip11006.png) 
+![Options de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11006.png) 
 
 Les options de recherche offrent la possibilité de personnaliser votre recherche, notamment en incluant des raccourcis ou des favoris, en la rendant sensible à la casse, et bien plus encore!  
-![Options de recherche](/img/fr/rdm/windows/clip11012.png) 
+![Options de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11012.png) 
 
 ### Raccourci clavier 
 

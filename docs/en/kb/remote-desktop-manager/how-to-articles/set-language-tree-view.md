@@ -23,10 +23,10 @@ Tags are generally composed of lowercase letters representing the language (e.g.
 Other tag formats also exist. 
 {% endsnippet %}
 
-![Tree view culture field](/img/en/kb/KB2110.png) 
+![Tree view culture field](https://webdevolutions.azureedge.net/docs/en/kb/KB2110.png) 
 
 3. Click on the ***Verify*** button next to the ***Tree view culture*** field. A window will pop up to confirm the language and location. Click ***OK*** to close it.  
-![Verify the culture](/img/en/kb/KB2111.png) 
+![Verify the culture](https://webdevolutions.azureedge.net/docs/en/kb/KB2111.png) 
 
 4. Click ***OK*** in the ***Tree View*** window to save your changes and restart {{ en.RDM }} to apply them.  
 

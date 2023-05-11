@@ -2,7 +2,7 @@
 title: Effacer les journaux
 ---
 La fonctionnalité ***Effacer les journaux*** permet d'archiver les journaux présents dans la base de données qui sont plus anciens qu'une période définie dans les paramètres sélectionnés. Aussi, ces archives peuvent aussi être supprimées s'ils sont plus anciens que la période limite sélectionnée dans les paramètres.  
-![Administration - Effacer les journaux](/img/fr/server/ServerOp8151.png) 
+![Administration - Effacer les journaux](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8151.png) 
 
 <table>
 	<tr>

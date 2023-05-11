@@ -7,7 +7,7 @@ Keyboard keycodes vary based on the type of keyboard used, with minor difference
 
 ## Changing the Keyboard Type
 1. In the ***File*** tab, click on ***Preferences***.  
-![Preferences](/img/en/kb/KB0042.png)
+![Preferences](https://webdevolutions.azureedge.net/docs/en/kb/KB0042.png)
 1. Go to ***User Interface*** – ***Keyboard***.
 1. Select the desired ***Keyboard type***.  
-![Keyboard type](/img/en/kb/KB0043.png)
+![Keyboard type](https://webdevolutions.azureedge.net/docs/en/kb/KB0043.png)

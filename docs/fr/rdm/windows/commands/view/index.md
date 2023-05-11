@@ -2,7 +2,7 @@
 title: Affichage
 ---
 L'onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l'affichage, les journaux et la disposition de {{ fr.RDM }} .  
-![Onglet Affichage](/img/fr/rdm/windows/clip10768.png) 
+![Onglet Affichage](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10768.png) 
 
 Reportez-vous aux rubriques suivantes pour plus d'informations :  
 

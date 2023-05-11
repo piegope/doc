@@ -8,13 +8,13 @@ La barre de ***Accès rapide*** , qui se trouve en haut de l'application, est co
 * Recherche 
 * Commande de verrouillage  
 
-![Barre d'accès rapide](/img/fr/rdm/mac/clip4371.png) 
+![Barre d'accès rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4371.png) 
 
 ## Paramètres 
 
 ### Commandes favorites 
 
-![Commandes favorites](/img/fr/rdm/mac/clip4322.png) 
+![Commandes favorites](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4322.png) 
 
 <table>
 	<tr>
@@ -28,7 +28,7 @@ Description
 	<tr>
 		<td>
 
-![!!clip4323.png](/img/fr/rdm/mac/clip4323.png) 
+![!!clip4323.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4323.png) 
 		</td>
 		<td>
 Créer une nouvelle entrée dans votre source de données actuelle. 
@@ -36,7 +36,7 @@ Créer une nouvelle entrée dans votre source de données actuelle.
 	</tr>
 	<tr>
 		<td>
-![!!clip4324.png](/img/fr/rdm/mac/clip4324.png) 
+![!!clip4324.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4324.png) 
 		</td>
 		<td>
 Ouvrir la fenêtre des propriétés de votre entrée sélectionnée 
@@ -46,17 +46,17 @@ Ouvrir la fenêtre des propriétés de votre entrée sélectionnée
 
 ### Contrôle de la Connexion rapide 
 
-![Connexion rapide](/img/fr/rdm/mac/clip4372.png) 
+![Connexion rapide](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4372.png) 
 Veuillez vous référer à [Connexion rapide](/fr/rdm/mac/commands/view/quick-connect/) 
 
 ### Recherche 
 
-![Recherche](/img/fr/rdm/mac/clip4373.png) 
+![Recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4373.png) 
 Veuillez vous référer à [Recherche](/fr/rdm/mac/user-interface/quick-access/search/) 
 
 ### Commande de verrouillage 
 
-![Commande de verrouillage](/img/fr/rdm/mac/clip4325.png) 
+![Commande de verrouillage](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4325.png) 
 Veuillez vous référer à [Commande de verrouillage](/fr/rdm/mac/commands/file/lock-application/) 
 
 

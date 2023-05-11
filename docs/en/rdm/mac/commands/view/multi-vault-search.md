@@ -1,10 +1,10 @@
 ---
 title: Multi Vault Search
 ---
-![Multi Vault Search Button](/img/en/rdm/mac/RDMMac0025.png) 
+![Multi Vault Search Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0025.png) 
 
 The Multi Vault Search feature of {{ en.RDM }} for Mac allows you to search for folders and entries in all the vaults of the selected data source at once.  
-![Multi Vault Search Window](/img/en/rdm/mac/RDMMac0028.png) 
+![Multi Vault Search Window](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0028.png) 
 
 ### Criteria Types 
 
@@ -13,14 +13,14 @@ The following criteria are available to refine your search: ***Connection type**
 At least one criterion must be used to filter your results, and a maximum of four criteria can be applied at once. 
 {% endsnippet %}
  
-![Multi Vault Search Criteria](/img/en/rdm/mac/RDMMac0029.png) 
+![Multi Vault Search Criteria](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0029.png) 
 
 {% snippet icon.badgeInfo %} 
 In ***Hub*** databases, only the ***Name*** criterion is available. 
 {% endsnippet %}
  
 Drop-down lists will appear when selecting certain criteria to give you more search options.  
-![Multi Vault Search Drop-down](/img/en/rdm/mac/RDMMac0030.png) 
+![Multi Vault Search Drop-down](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0030.png) 
 
 Below is a description of what each of these drop-down lists type is used for. 
 
@@ -73,7 +73,7 @@ Search by typing part or all of a word in the name of the entries or folders or 
 ### Results Display 
 
 The results are displayed when the ***Search*** button is pressed. Once done, the name of all entries and the vault in which they are located are shown in the results field.  
-![Search Button](/img/en/rdm/mac/RDMMac0031.png) 
+![Search Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0031.png) 
 
 It is possible to select multiple entries at once by shift-clicking or all of them with the Cmd+A shortcut. Right-clicking one or more entries shows the same menu and options as in the ***{{ en.NPANE }}*** . 
 

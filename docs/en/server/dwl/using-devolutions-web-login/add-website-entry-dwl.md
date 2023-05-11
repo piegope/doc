@@ -15,10 +15,10 @@ The main way to achieve this is by successfully logging into the website. {{ en.
 ### Automatically Add a Website Entry 
 
 1. Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example.  
-![Login Page](/img/en/server/ServerOp2009.png) 
+![Login Page](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2009.png) 
 1. Websites usually ask for information such as an email address/username and a password. Follow the website’s login process until you log in to your account. 
 1. A {{ en.DWL }}   ***Add Website*** window will pop up in the corner of your web browser. 
-![Add Website](/img/en/server/ServerOp2010.png) 
+![Add Website](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2010.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Select the ***Vault*** you want to save your credentials into. 
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
@@ -29,11 +29,11 @@ Your credentials are now securely stored in a new website entry in {{ en.DPS }} 
 ### Manually Add a Website Entry 
 
 1. Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example. <a name="1"></a>
-![Login Page](/img/en/server/ServerOp2009.png) 
+![Login Page](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2009.png) 
 1. Click on the {{ en.DWL }} extension icon in your browser toolbar and, in the ***Matching*** tab, click on the ***Add Website*** button. 
-![Add Website Button](/img/en/server/ServerOp2011.png) 
+![Add Website Button](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2011.png) 
 1. The {{ en.DWL }}   ***Add Website*** tab will open in your browser. 
-![Add Website](/img/en/server/ServerOp2049.png) 
+![Add Website](https://webdevolutions.azureedge.net/docs/en/server/ServerOp2049.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. The ***URL*** field is automatically filled in with the login page URL from <a href="#1">Step 1</a>.
 1. The ***Credentials*** drop-down list is set to ***Custom*** by default. This allows you to manually enter your ***Username*** and ***Password*** in the next step. 

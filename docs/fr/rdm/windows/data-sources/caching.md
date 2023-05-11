@@ -14,7 +14,7 @@ Si vous pensez que le cache est obsolète, appuyez sur Ctrl+Actualiser ou Ctrl+F
 ## Paramètres 
 
 L'option ***Mode de la cache*** est accessible via ***Fichier – Sources de données – Modifier la source de données – Avancé*** dans une source de données avancée.  
-![Mode de la cache](/img/fr/rdm/windows/clip3581.png) 
+![Mode de la cache](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3581.png) 
 
 <table>
 	<tr>

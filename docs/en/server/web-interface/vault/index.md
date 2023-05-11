@@ -15,4 +15,4 @@ To access the {{ en.VLT }}s management, navigate to [Administration – Vaults](
 * The ***Navigation Pane*** (left) lists the entries available in the data source (current {{ en.VLT }} ).  
 * The ***Content Area*** (right) displays information regarding the selected entry.  
 
-![Vaults](/img/en/server/ServerOp8023.png) 
+![Vaults](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8023.png) 

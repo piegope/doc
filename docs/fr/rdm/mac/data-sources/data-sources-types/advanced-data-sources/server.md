@@ -5,7 +5,7 @@ title: Devolutions Server
 	<tr>
 		<td>
 
-![!!dvls-90X90.png](/img/fr/rdm/mac/dvls-90X90.png) 
+![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
 {{ fr.RDMS }} est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr) . 
@@ -41,7 +41,7 @@ Vous pouvez également exporter les informations sur la source de données, puis
 
 ### CONNEXION 
 
-![Devolutions Server - Général](/img/fr/rdm/mac/clip4261.png) 
+![Devolutions Server - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4261.png) 
 
 <table>
 	<tr>
@@ -112,7 +112,7 @@ Toujours demander le mot de passe lors de la connexion à la source de données.
 
 ### {{ fr.PVLT }} 
 
-![Devolutions Password Server - Coffre de l'utilisateur](/img/fr/rdm/mac/clip4262.png) 
+![Devolutions Password Server - Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4262.png) 
 
 <table>
 	<tr>
@@ -135,7 +135,7 @@ Si vous utilisez des {{ fr.PVLT }} , cliquer sur les flèches pour sélectionner
 
 ### Avancée 
 
-![Devolutions Password Server - Avancée](/img/fr/rdm/mac/clip4263.png) 
+![Devolutions Password Server - Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4263.png) 
 
 <table>
 	<tr>

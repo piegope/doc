@@ -5,7 +5,7 @@ Use File - My Account Settings to configure different accounts that can be used 
 
 ## Settings 
 
-![File - My Account Settings](/img/en/rdm/mac/clip10320.png) 
+![File - My Account Settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10320.png) 
 
 <table>
 	<tr>

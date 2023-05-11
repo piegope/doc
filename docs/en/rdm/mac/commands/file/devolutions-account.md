@@ -2,7 +2,7 @@
 title: Devolutions Account
 ---
 In ***File - Devolutions Account*** create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers.  
-![File - Devolutions Account](/img/en/rdm/mac/RdmMac4008.png) 
+![File - Devolutions Account](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4008.png) 
 
 <table>
 	<tr>

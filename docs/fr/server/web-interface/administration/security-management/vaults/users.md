@@ -2,7 +2,7 @@
 title: Usagers
 ---
 Permet d'assigner des utilisateurs au coffre.  
-![Coffres - Usagers](/img/fr/server/ServerOp8069.png) 
+![Coffres - Usagers](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8069.png) 
 
 <table>
 	<tr>

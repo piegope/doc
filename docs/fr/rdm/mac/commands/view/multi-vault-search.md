@@ -1,10 +1,10 @@
 ---
 title: Recherche multi-coffres
 ---
-![Bouton Recherche multi-coffres](/img/fr/rdm/mac/RDMMac0020.png) 
+![Bouton Recherche multi-coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0020.png) 
 
 La fonctionnalité ***Recherche multi-coffres*** de {{ fr.RDM }} pour Mac permet de rechercher des dossiers et des entrées dans tous les coffres de la source de données sélectionnée à la fois.  
-![Recherche multi-coffres](/img/fr/rdm/mac/RDMMac0021.png) 
+![Recherche multi-coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0021.png) 
 
 ### Types de critères 
 
@@ -14,14 +14,14 @@ Les critères suivants sont disponibles afin d'affiner votre recherche : ***Type
 Au moins un critère doit être utilisé pour filtrer vos résultats et un maximum de quatre critères peuvent être appliqués à une même recherche. 
 {% endsnippet %}
  
-![Critères de recherche](/img/fr/rdm/mac/RDMMac0022.png) 
+![Critères de recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0022.png) 
 
 {% snippet icon.badgeInfo %} 
 Avec une base de donnée ***Hub*** , seulement le critère de recherche ***Nom*** peut être sélectionné. 
 {% endsnippet %}
  
 Des listes déroulantes apparaissent lors de la sélection de certains critères pour vous donner plus d'options de recherche.  
-![Listes déroulantes pour Recherche multi-coffres](/img/fr/rdm/mac/RDMMac0023.png) 
+![Listes déroulantes pour Recherche multi-coffres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0023.png) 
 
 
 Vous trouverez ci-dessous une description de l'utilité de chacun de ces types de listes déroulantes. 
@@ -75,7 +75,7 @@ Rechercher en tapant une partie ou la totalité d'un mot contenu dans le nom des
 ### Affichage des résultats 
 
 Les résultats s'affichent après avoir appuyé sur le bouton ***Recherche*** . Une fois effectué, le nom des entrées et dossiers et le coffre dans lequel ils se trouvent sont affichés dans le champ des résultats.  
-![Bouton Recherche](/img/fr/rdm/mac/RDMMac0024.png) 
+![Bouton Recherche](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0024.png) 
 
 Il est possible de sélectionner plusieurs entrées à la fois avec Maj+Clic ou toutes les entrées avec le raccourci Cmd+A . Un clic droit sur une ou plusieurs entrées affiche le même menu et les mêmes options que le ***{{ fr.NPANE }}*** . 
 

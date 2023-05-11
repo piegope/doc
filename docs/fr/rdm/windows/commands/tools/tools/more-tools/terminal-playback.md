@@ -5,7 +5,7 @@ La ***Lecture (Ansi)*** est disponible dans ***Outils - Plus d' outils - Lecture
 
 ## Paramètres 
 
-![Lecture (Ansi)](/img/fr/rdm/windows/clip10414.png) 
+![Lecture (Ansi)](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10414.png) 
 
 <table>
 	<tr>
@@ -49,7 +49,7 @@ Vider l'écran pour lire un autre fichier ansi.
 
 ### Options 
 
-![Options Ansi Player](/img/fr/rdm/windows/clip10415.png) 
+![Options Ansi Player](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10415.png) 
 
 <table>
 	<tr>

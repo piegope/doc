@@ -5,7 +5,7 @@ title: XML
 	<tr>
 		<td>
 
-![!!DataSourceXMLLarge.png](/img/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 {{ en.RDM }} saves the settings directly in an XML file format. 
@@ -30,7 +30,7 @@ All passwords are encrypted by default. You can specify a custom password (maste
 
 ### General 
 
-![XML - General Tab](/img/en/rdm/windows/clip10788.png) 
+![XML - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10788.png) 
 
 <table>
 	<tr>
@@ -77,7 +77,7 @@ Always prompts for the master key when connecting to the data source.
 
 ### Backup 
 
-![XML - Backup Tab](/img/en/rdm/windows/clip10789.png) 
+![XML - Backup Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10789.png) 
 
 <table>
 	<tr>
@@ -114,11 +114,11 @@ Specify the backup name that will allow you to automatically save your sessions 
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your XML .  
-![XML - VPN Tab](/img/en/rdm/windows/XMLVPN.png) 
+![XML - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/XMLVPN.png) 
 
 ### Advanced 
 
-![XML - Advanced Tab](/img/en/rdm/windows/clip10790.png) 
+![XML - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10790.png) 
 
 <table>
 	<tr>

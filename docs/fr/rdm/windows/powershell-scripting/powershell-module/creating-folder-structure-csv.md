@@ -40,5 +40,5 @@ Le fichier CSV ne doit avoir qu'une seule colonne avec le titre défini comme No
 Le chemin complet doit être spécifié pour chaque sous-dossier.  
 
 Voici un exemple de ce fichier CSV:  
-![Exemple de fichier CSV](/img/fr/rdm/windows/clip11585.png) 
+![Exemple de fichier CSV](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11585.png) 
 

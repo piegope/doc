@@ -7,7 +7,7 @@ The data sources are at the heart of {{ en.RDM }} . They are the container that 
 ### Settings 
 
 A data source can be a local file or a database (either local or shared). Multiple data sources can be managed at the same time as seen below.  
-![Data Source](/img/en/rdm/windows/clip11314.png) 
+![Data Source](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11314.png) 
 
 ### Create a data source 
 
@@ -18,12 +18,12 @@ Please consult our [Create a new data source](/rdm/windows/data-sources/create-n
 Multiple data sources can be configured, but there is only one active at a time.  
 
 Switch from one data source to another by using the data source drop down list.  
-![Select a Data Source](/img/en/rdm/windows/clip11369.png) 
+![Select a Data Source](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11369.png) 
 
 ### Startup data source 
 
 You may assign a data source to open automatically when {{ en.RDM }} starts.  
-![Startup Data Source](/img/en/rdm/windows/clip10940.png) 
+![Startup Data Source](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10940.png) 
 
 <table>
 	<tr>

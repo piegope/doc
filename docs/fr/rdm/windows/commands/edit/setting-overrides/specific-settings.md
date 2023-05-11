@@ -18,17 +18,17 @@ Si les Paramètres spécifiques de l'usager et les Paramètres spécifiques loca
 Vous pouvez également y accéder en utilisant le clic droit sur une entrée et en allant dans ***Modifier - Paramètres spécifiques de l'usager/locaux*** . 
 {% endsnippet %}
  
-![Modifier – Paramètres spécifiques de l'usager/locaux](/img/fr/rdm/windows/clip10214.png) 
+![Modifier – Paramètres spécifiques de l'usager/locaux](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10214.png) 
 
 ### Indicateur des paramètres spécifiques 
 
 Une icône indicatrice s'affiche dans le tableau de bord lorsqu'une entrée qui a des Paramètres spécifiques est sélectionnée. Cliquer sur l'icône pour ouvrir la boîte de dialogue Paramètres spécifiques.  
-![Indicateur des Paramètres spécifiques](/img/fr/rdm/windows/clip10215.png) 
+![Indicateur des Paramètres spécifiques](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10215.png) 
 
 ## Processus 
 
 Dans la majorité des cas, la modification des Paramètres spécifiques affiche la boîte de dialogue suivante:  
-![Paramètres spécifiques locaux](/img/fr/rdm/windows/clip10216.png) 
+![Paramètres spécifiques locaux](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10216.png) 
 
 {% snippet icon.badgeInfo %} 
 Les Paramètres spécifiques sont sensibles au contexte et plusieurs paramètres peuvent ne pas être disponibles pour certains types d'entrées. 

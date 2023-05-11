@@ -5,7 +5,7 @@ The commands for an RDP session allow you to send remote commands to your host.
 
 ## Settings 
 
-![RDP Commands](/img/en/rdm/windows/clip10190.png) 
+![RDP Commands](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10190.png) 
 
 <table>
 	<tr>

@@ -5,13 +5,13 @@ At least one subscriber must exist to receive notifications about {{ en.RDMS }} 
 
 To create a new ***Subscriber*** , click on the ***Add*** button.  
 
-![Create a Subscriber](/img/en/server/ServerOp8154.png)  
+![Create a Subscriber](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8154.png)  
 
 Fill in the information in the following fields. 
 
-![Email Subscriber properties](/img/en/server/ServerOp8155.png)  
+![Email Subscriber properties](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8155.png)  
 
-![Syslog Server Subscriber properties](/img/en/server/ServerOP8156.png)  
+![Syslog Server Subscriber properties](https://webdevolutions.azureedge.net/docs/en/server/ServerOP8156.png)  
 
 <table>
 	<tr>

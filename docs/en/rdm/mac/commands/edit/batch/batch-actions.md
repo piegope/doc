@@ -7,13 +7,13 @@ Use the Edit - Batch Edit - Batch Actions to change the settings of multiple ses
 Batch Actions are only applied to entries currently selected in your navigation pane. 
 {% endsnippet %}
  
-![Batch Edit - Batch Actions](/img/en/rdm/mac/clip10350.png) 
+![Batch Edit - Batch Actions](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10350.png) 
 
 ## Settings 
 
 ### General 
 
-![Batch action - General](/img/en/rdm/mac/clip10351.png) 
+![Batch action - General](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10351.png) 
 
 <table>
 	<tr>
@@ -48,7 +48,7 @@ It will scan all of your sessions in your current database to detect if there is
 These options will only work for ***Website*** session entries, NOT for ***Website (Legacy)*** data entries. 
 {% endsnippet %}
  
-![Batch Action - Web](/img/en/rdm/mac/clip10102.png) 
+![Batch Action - Web](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10102.png) 
 
 <table>
 	<tr>
@@ -78,11 +78,11 @@ Once you have selected your ***Website*** session entries and run the batch acti
 	</tr>
 </table>
 
-![Website Html Control ID Settings](/img/en/rdm/mac/clip10352.png) 
+![Website Html Control ID Settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10352.png) 
 
 ### SSH 
 
-![Batch Action - Web](/img/en/rdm/mac/clip10103.png) 
+![Batch Action - Web](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10103.png) 
 
 <table>
 	<tr>

@@ -2,7 +2,7 @@
 title: General
 ---
 
-![User Group - General](/img/en/server/ServerOp8009.png)
+![User Group - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8009.png)
 
 <table>
 	<tr>

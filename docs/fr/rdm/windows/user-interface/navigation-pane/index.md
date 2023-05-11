@@ -2,7 +2,7 @@
 title: Volet de navigation
 ---
 Le ***Volet de navigation*** est l'un des principaux composants de l'interface utilisateur de {{ fr.RDM }} . Il répertorie toutes les entrées disponibles dans la source de données actuelle et permet de basculer vers une autre source de données ou coffre.  
-![Volet de navigation](/img/fr/rdm/windows/clip11204.png) 
+![Volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11204.png) 
 
 <table>
 	<tr>
@@ -51,7 +51,7 @@ Permet de basculer vers différentes vues de la liste des entrées, telles que l
 ### Sélecteur de colonnes 
 
 Choisir les colonnes à afficher dans l'arborescence. Cliquer avec le bouton droit sur le nom de la colonne dans le ***{{ fr.NPANE }}*** et sélectionner ***Sélecteur de colonnes*** .  
-![Sélecteur de colonnes](/img/fr/rdm/windows/clip11201.png) 
+![Sélecteur de colonnes](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11201.png) 
 
 {% snippet icon.badgeInfo %} 
 Des paramètres et informations additionnels sur l'arborescence sont disponibles dans ***Fichier – Options – Arborescence*** . 

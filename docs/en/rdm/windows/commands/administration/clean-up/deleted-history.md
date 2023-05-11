@@ -14,9 +14,9 @@ You must be an administrator of the data source to perform this action.
 ## Settings 
 
 1. Select prior to which date you wish to permanently delete your deleted entries.  
-![Clean up Deleted History](/img/en/rdm/windows/clip10339.png) 
+![Clean up Deleted History](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10339.png) 
 1. Confirm your choice prior to permanently delete your deleted entries.  
-![Confirmation window](/img/en/rdm/windows/clip11324.png) 
+![Confirmation window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11324.png) 
 {% snippet icon.badgeWarning %} 
 There will be no backup of your History. We strongly recommend to do a [Backup](/rdm/windows/commands/file/backup/) before proceeding. 
 {% endsnippet %}

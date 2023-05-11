@@ -15,11 +15,11 @@ The ***Documentation*** feature is encrypted only for the {{ en.RDMS }} data sou
 The ***Documentation*** feature is available offline since 2022.3.14. 
 {% endsnippet %}
  
-![Documentation Search Window](/img/en/rdm/windows/clip9001.png) 
+![Documentation Search Window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip9001.png) 
 
 ## User Interface 
 
-![Documentation Search Elements](/img/en/rdm/windows/clip7003.png) 
+![Documentation Search Elements](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip7003.png) 
 
 <table>
 	<tr>

@@ -9,20 +9,20 @@ La vue principale, qui est celle qui s'affiche lors de la première ouverture de
 1. Le ***Menu supérieur*** vous donne accès à certaines fonctionnalités et certains paramètres de {{ fr.DWL }} . 
 1. Le ***Menu latéral*** est directement lié au panneau central, car chaque onglet modifie ce qui est affiché dans la fenêtre selon sa fonction. 
 1. La ***Zone de contenu*** est l'endroit où les informations seront affichées et où vous pourrez interagir avec les fonctionnalités de {{ fr.DWL }} correspondant aux différents onglets.  
-![Sections de l'interface utilisateur](/img/fr/rdm/windows/RDMWin2081.png) 
+![Sections de l'interface utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2081.png) 
 
 ### Menu supérieur 
 
 Si vous utilisez plusieurs produits Devolutions avec l'extension, vous pouvez passer de l'un à l'autre en utilisant le ***Sélecteur de source de données*** situé à gauche du ***Menu supérieur*** . Une liste déroulante apparaîtra avec les autres produits que vous avez précédemment couplés avec {{ fr.DWL }} .  
-![Sélecteur de source de données](/img/fr/rdm/windows/RDMWin2082.png) 
+![Sélecteur de source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2082.png) 
 
 À droite du ***Menu supérieur*** , le bouton ***Paramètres*** ouvre un nouvel onglet dans lequel vous pouvez configurer votre extension. Consultez la [liste complète des paramètres](/fr/rdm/windows/dwl/settings/) .  
-![Bouton Paramètres](/img/fr/rdm/windows/RDMWin2083.png) 
+![Bouton Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2083.png) 
 
 ### Menu latéral et Zone de contenu 
 
 En utilisant les onglets du ***Menu latéral*** , vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }} .  
-![Onglets du Menu latéral](/img/fr/rdm/windows/RDMWin2084.png) 
+![Onglets du Menu latéral](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2084.png) 
 
 Chaque onglet affiche une vue différente dans la ***Zone de contenu*** . Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.RDM }} sont :  
 

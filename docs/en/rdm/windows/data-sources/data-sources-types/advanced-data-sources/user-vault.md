@@ -5,4 +5,4 @@ The {{ en.PVLT }} allows you to connect a personal {{ en.VLT }} stored in a {{ e
 
 1. In the   {{ en.PVLT }} tab of your Advanced Data Source, select ***Online Drive*** in ***Type*** . 
 1. Click on the ellipsis next to the ***Filename*** field. A list containing your pre-existing {{ en.DODV }} files will prompt. You may choose to use an existing file (.dod) or if you wish you can enter a name in the ***New data source field*** and click on ***Create*** to automatically create a new {{ en.DODV }} file. 
-![Devolutions Online Drive Data Source](/img/en/rdm/windows/clip10021.png) 
+![Devolutions Online Drive Data Source](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10021.png) 

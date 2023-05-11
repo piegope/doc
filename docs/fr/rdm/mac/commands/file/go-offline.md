@@ -25,4 +25,4 @@ Certaines options ne seront pas disponibles en mode hors ligne:
 ### Mode hors-ligne 
 
 Dans ***Fichier - Informations sur la source de données*** , le mode hors ligne affiche la taille du fichier hors ligne ainsi que le mode effectif (désactivé, en lecture seule ou accessible en écriture). Passez la souris sur le mode hors ligne pour obtenir l'affichage complet.  
-![Informations de la source de données - Mode hors connexion](/img/fr/rdm/mac/clip4015.png) 
+![Informations de la source de données - Mode hors connexion](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4015.png) 

@@ -12,16 +12,16 @@ Il est possible de [demander un essai](/fr/rdm/mac/installation/client/registrat
 {% endsnippet %}
  
 1. Pour ajouter une clé de licence dans la source de donnée, accéder à ***Administration – Licences*** .  
-![Administration – Licences](/img/fr/rdm/mac/RDMMac0000.png) 
+![Administration – Licences](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0000.png) 
 1. Cliquer sur le bouton Ajouter une licence.  
-![Bouton Ajouter une licence](/img/fr/rdm/mac/RDMMac0001.png) 
+![Bouton Ajouter une licence](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0001.png) 
 1. Saisir la ***Licence*** dans le champ approprié.  
-![Champ Licence](/img/fr/rdm/mac/RDMMac0003.png) 
+![Champ Licence](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0003.png) 
 1. Facultatif: Cocher la case ***Assignation automatique*** pour fournir automatiquement une clé de licence {{ fr.RDM }} à tous les utilisateurs nouvellement créés.  
-![Paramètre Assignation automatique](/img/fr/rdm/mac/RDMMac0004.png) 
+![Paramètre Assignation automatique](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0004.png) 
 1. Cliquer ***OK*** . 
 1. Cliquer sur le bouton ***Modifier*** dans la fenêtre de ***Gestion des usagers et de la sécurité*** .  
-![Bouton Modifier](/img/fr/rdm/mac/RDMMac0002.png) 
+![Bouton Modifier](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac0002.png) 
 1. Cliquer ***Assigné à*** dans le menu de gauche. 
 1. Cliquer ***Assigner tout*** ou sélectionner dans la colonne ***Assignée*** qui doit avoir un accès à {{ fr.RDM }} . 
 

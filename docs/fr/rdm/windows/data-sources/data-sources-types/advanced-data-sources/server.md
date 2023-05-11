@@ -5,7 +5,7 @@ title: Devolutions Server
 	<tr>
 		<td>
 
-![!!DataSourceDPSLarge.png](/img/common/DataSourceDPSLarge.png) 
+![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
 ***{{ fr.RDMS }}*** est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr) . 
@@ -40,7 +40,7 @@ Vous pouvez également exporter les informations sur la source de données, puis
 
 ### Général 
 
-![{{ fr.RDMS }} - Général](/img/fr/rdm/windows/clip11355.png) 
+![{{ fr.RDMS }} - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11355.png) 
 
 <table>
 	<tr>
@@ -134,7 +134,7 @@ Tester la connexion avec {{ fr.RDMS }} pour valider si les informations appropri
 
 ### Paramètres 
 
-![{{ fr.RDMS }} - Paramètres](/img/fr/rdm/windows/clip11356.png) 
+![{{ fr.RDMS }} - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11356.png) 
 
 <table>
 	<tr>
@@ -169,7 +169,7 @@ Gérer votre cache sur votre ordinateur pour l'analyser, le vider, le réparer o
 
 ### {{ fr.PVLT }} 
 
-![{{ fr.RDMS }} – {{ fr.PVLT }}](/img/fr/rdm/windows/clip3603.png)  
+![{{ fr.RDMS }} – {{ fr.PVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3603.png)  
 
 <table>
 	<tr>
@@ -198,11 +198,11 @@ Sélectionner le type de [{{ fr.PVLT }}](/fr/rdm/windows/data-sources/data-sourc
 ### VPN 
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.RDMS }} .  
-![{{ fr.RDMS }} - VPN](/img/fr/rdm/windows/DPSVPN.png) 
+![{{ fr.RDMS }} - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/DPSVPN.png) 
 
 ### Avancé 
 
-![{{ fr.RDMS }} - Avancé](/img/fr/rdm/windows/clip10815.png) 
+![{{ fr.RDMS }} - Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10815.png) 
 
 <table>
 	<tr>

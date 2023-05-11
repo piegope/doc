@@ -2,7 +2,7 @@
 title: Configuration avancée
 ---
 La configuration avancée permet de sélectionner des paramètres d'archivage individuellement pour chacun des journaux de {{ fr.RDMS }} .  
-![Effacer les journaux - Configuration avancée](/img/fr/server/ServerOp8152.png) 
+![Effacer les journaux - Configuration avancée](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8152.png) 
 
 ### Journaux 
 

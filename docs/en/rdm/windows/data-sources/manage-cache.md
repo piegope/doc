@@ -17,7 +17,7 @@ The Manage Cache options should usually only be used upon request from our Suppo
 The Manage Cache options will only be available when using an SQLite cache. 
 {% endsnippet %}
  
-![Manage Cache](/img/en/rdm/windows/clip10013.png) 
+![Manage Cache](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10013.png) 
 
 <table>
 	<tr>

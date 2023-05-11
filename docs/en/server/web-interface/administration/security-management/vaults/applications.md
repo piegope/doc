@@ -3,7 +3,7 @@ title: Applications
 ---
 Grant access to applications on the vault. 
 
-![Vaults - Application](/img/en/server/ServerOp8070.png)
+![Vaults - Application](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8070.png)
 
 <table>
 	<tr>

@@ -21,7 +21,7 @@ Bien que ce soit un service Cloud, vous DEVEZ utiliser notre service de sauvegar
 
 ### Général 
 
-![Devolutions Online Drive - Général](/img/fr/rdm/windows/SNAGHTML1ea82acc.PNG) 
+![Devolutions Online Drive - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SNAGHTML1ea82acc.PNG) 
 
 <table>
 	<tr>
@@ -110,7 +110,7 @@ Toujours demander la clé maîtresse lors de la connexion à la source de donné
 ### Copie de sauvegarde 
 
 Veuillez consulter la rubrique [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) pour plus d'informations sur ce service.  
-![Devolutions Online Drive - Copie de sauvegarde](/img/fr/rdm/windows/clip11334.png) 
+![Devolutions Online Drive - Copie de sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11334.png) 
 
 <table>
 	<tr>
@@ -139,11 +139,11 @@ Choisir entre:
 ### VPN 
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à Devolutions Online Drive .  
-![Devolutions Online Drive - VPN](/img/fr/rdm/windows/DODVVPN.png) 
+![Devolutions Online Drive - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/DODVVPN.png) 
 
 ### Avancé 
 
-![Devolutions Online Drive - Avancé](/img/fr/rdm/windows/clip11335.png) 
+![Devolutions Online Drive - Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11335.png) 
 
 <table>
 	<tr>

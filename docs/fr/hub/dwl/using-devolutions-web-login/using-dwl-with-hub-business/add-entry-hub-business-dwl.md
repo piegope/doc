@@ -18,10 +18,10 @@ Suivez les instructions dans les sections ci-dessous pour apprendre à ajouter u
 ### Ajouter automatiquement une entrée de site Web 
 
 1. Aller à la page de connexion du site Web. Cette page sera différente pour chaque site Web; cette rubrique utilisera le site Web d 'Atlassian comme exemple.  
-![Page de connexion](/img/fr/hub/Hub2109.png) 
+![Page de connexion](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2109.png) 
 1. Les sites Web demandent généralement des informations telles qu 'une adresse courriel / un nom d 'utilisateur et un mot de passe. Suivre le processus de connexion du site Web jusqu 'à la connexion à votre compte. 
 1. Une fenêtre ***Ajouter un site Web*** de {{ fr.DWL }} apparaîtra dans le coin du navigateur Web.  
-![Ajouter un site Web](/img/fr/hub/Hub2101.png) 
+![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2101.png) 
 1. Saisir un ***Nom*** pour l 'entrée. Le nom par défaut peut être gardé ou modifié, mais il est recommandé qu 'il reflète le contenu de l 'entrée pour la retrouver plus facilement au besoin. 
 1. Sélectionner le ***Coffre*** et le ***Dossier*** dans lesquels sauvegarder l 'entrée de site Web. 
 1. Cliquer sur ***Enregistrer*** .  
@@ -31,11 +31,11 @@ Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle ent
 ### Ajouter manuellement une entrée de site Web 
 
 1. Aller à la page de connexion du site Web. Cette page sera différente pour chaque site Web; cette rubrique utilisera le site Web d 'Atlassian comme exemple.  
-![Page de connexion](/img/fr/hub/Hub2109.png) 
+![Page de connexion](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2109.png) 
 1. Cliquer sur l 'extension {{ fr.DWL }} dans la barre d 'outils de votre navigateur, puis, dans l 'onglet ***Correspondant*** , cliquer sur le bouton ***Ajouter un site Web*** .  
-![Bouton Ajouter un site Web](/img/fr/hub/Hub2111.png) 
+![Bouton Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2111.png) 
 1. L 'onglet ***Nouvelle entrée - Site Web*** de {{ fr.DWL }} s 'ouvrira dans votre navigateur.  
-![Nouvelle entrée - Site Web (onglet Général)](/img/fr/hub/Hub2090.png) 
+![Nouvelle entrée - Site Web (onglet Général)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2090.png) 
 1. Saisir un ***Nom*** pour l 'entrée. Le nom par défaut peut être gardé ou modifié, mais il est recommandé qu 'il reflète le contenu de l 'entrée pour la retrouver plus facilement au besoin. 
 1. Sélectionner le ***Coffre*** et le ***Dossier*** dans lesquels sauvegarder l 'entrée de site Web. 
 1. La liste déroulante ***Hôte*** est définie à ***Personnalisé*** par défaut. Cela permet à {{ fr.DWL }} de spécifier automatiquement l ' ***URL*** dans le champ suivant avec l 'URL de la page de connexion de l ' [étape 1](#ajouter-manuellement-une-entrée-de-site-web) . 

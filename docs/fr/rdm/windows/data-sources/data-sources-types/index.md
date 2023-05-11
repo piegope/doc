@@ -30,7 +30,7 @@ AVANTAGES ET INCONVÉNIENTS
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDODLarge.png](/img/common/DataSourceDODLarge.png) 
+![!!DataSourceDODLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
 		</td>
 		<td>
 {{ fr.DODV }} 
@@ -55,7 +55,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDPSLarge.png](/img/common/DataSourceDPSLarge.png) 
+![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
 {{ fr.RDMS }} 
@@ -81,7 +81,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDropBoxLarge.png](/img/common/DataSourceDropBoxLarge.png) 
+![!!DataSourceDropBoxLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
 		</td>
 		<td>
 Dropbox 
@@ -108,7 +108,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceAzureLarge.png](/img/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 Microsoft Azure SQL 
@@ -133,7 +133,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLServerLarge.png](/img/common/DataSourceSQLServerLarge.png) 
+![!!DataSourceSQLServerLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
 		</td>
 		<td>
 Microsoft SQL Server 
@@ -159,7 +159,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!ApplicationHubLarge.png](/img/common/ApplicationHubLarge.png) 
+![!!ApplicationHubLarge.png](https://webdevolutions.azureedge.net/docs/common/ApplicationHubLarge.png) 
 		</td>
 		<td>
 {{ fr.HUB }} Business 
@@ -185,7 +185,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!hub-personal-32x32.png](/img/common/hub-personal-32x32.png) 
+![!!hub-personal-32x32.png](https://webdevolutions.azureedge.net/docs/common/hub-personal-32x32.png) 
 		</td>
 		<td>
 {{ fr.HUB }} Personal 
@@ -210,7 +210,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLiteLarge.png](/img/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 SQLite 
@@ -236,7 +236,7 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceXMLLarge.png](/img/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 XML 

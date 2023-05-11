@@ -4,12 +4,12 @@ title: Services en arrière plan
 Les ***Synchroniseurs*** centralisent toutes vos entrées de synchroniseurs en un seul endroit.  
 
 En cas de dégradation des performances avec {{ fr.RDM }} , vous pourrez vérifier si un synchroniseur s'exécute en arrière-plan, ce qui ralentit le système.  
-![Synchroniseurs](/img/fr/rdm/windows/clip11280.png) 
+![Synchroniseurs](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11280.png) 
 
 ## Est en ligne 
 
 ***Est en ligne*** vous permet de vérifier et de modifier les paramètres de disponibilité en ligne de votre serveur.  
-![Est en ligne](/img/fr/rdm/windows/clip10033.png) 
+![Est en ligne](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10033.png) 
 
 <table>
 	<tr>

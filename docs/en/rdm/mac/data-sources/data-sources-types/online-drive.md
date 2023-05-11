@@ -19,7 +19,7 @@ Even though this is a cloud service, you MUST use our Online Backup service to k
 
 ### General 
 
-![Online Drive - General tab](/img/en/rdm/mac/clip10499.png) 
+![Online Drive - General tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10499.png) 
 
 <table>
 	<tr>
@@ -108,7 +108,7 @@ Ask for the master key every time a connection to the {{ en.DODV }} is attempted
 ### Backup 
 
 Please consult the [Online Backup](/cloud/rdm-online-services/online-backup/) topic for more information on this service.  
-![Online Drive - Backup](/img/en/rdm/mac/clip10500.png) 
+![Online Drive - Backup](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10500.png) 
 
 <table>
 	<tr>
@@ -145,11 +145,11 @@ Specify the backup name that will allow you to automatically save your sessions 
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.DODV }} .  
-![!!RDMMac4040.png](/img/en/rdm/mac/RdmMac4040.png) 
+![!!RDMMac4040.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4040.png) 
 
 ### Advanced 
 
-![Online Drive - Advanced tab](/img/en/rdm/mac/clip10501.png) 
+![Online Drive - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10501.png) 
 
 <table>
 	<tr>

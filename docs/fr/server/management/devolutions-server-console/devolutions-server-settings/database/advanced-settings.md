@@ -3,7 +3,7 @@ title: Paramètres avancés
 ---
 Les ***Paramètres avancés*** contiennent des paramètres avancés utilisés pour la chaîne de connexion à la base de données SQL. 
 
-![Paramètres avancés](/img/fr/server/ServerOp8003.png) 
+![Paramètres avancés](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8003.png) 
 
 ## Paramètres 
 

@@ -2,7 +2,7 @@
 title: Gestion des utilisateurs
 ---
 La gestion des utilisateurs est disponible dans le menu ***Administration - Utilisateurs*** . La gestion des utilisateurs vous permet de créer, gérer et attribuer des droits à un utilisateur.  
-![Administration - Utilisateurs](/img/fr/rdm/mac/clip4113.png) 
+![Administration - Utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4113.png) 
 
 {{ fr.RDM }} permet une gestion avancée des droits d'utilisateur vous permettant de contrôler la façon dont une session est utilisée par chaque utilisateur. Noter que certains contrôles de visibilité dépendent de la source de données active. Il n'existe actuellement aucun moyen d'hériter des droits de sécurité d'un groupe, car ils doivent être attribués individuellement à chaque utilisateur. Si vous utilisez le [{{ fr.RDMS }}](/fr/server/overview/what-is-server/) , vous pourrez alors utiliser la sécurité intégrée avec Active Directory. 
 
@@ -24,7 +24,7 @@ Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources
 ### Créer des utilisateurs 
 
 Pour créer un nouvel utilisateur, cliquez sur le plus. Vous pouvez créer un utilisateur en utilisant la sécurité par défaut (en spécifiant le mot de passe) ou la [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) . Consulter la rubrique [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/) pour plus d'informations sur les droits qui peuvent être ajoutése à un utilisateur. Vous pouvez attribuer différentes options de sécurité à l'utilisateur, telles que lui permettre d'utiliser le mode Hors connexion .  
-![Gestion des usagers et de la sécurité](/img/fr/rdm/mac/clip0292.png) 
+![Gestion des usagers et de la sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0292.png) 
 
 {% snippet icon.badgeInfo %} 
 Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) ne prennent pas en charge l'utilisation de la sécurité intégrée. Pour en savoir plus, veuillez consulter [Sécurité intégrée](/fr/rdm/mac/commands/administration/user-management/integrated-security/) . 
@@ -34,7 +34,7 @@ Toutes les [Sources de données avancées](/fr/rdm/mac/data-sources/data-sources
 
 ### Général 
 
-![Gestion des utilisateurs - Général](/img/fr/rdm/mac/clip4114.png) 
+![Gestion des utilisateurs - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4114.png) 
 
 <table>
 	<tr>
@@ -102,10 +102,10 @@ Accorde tous les droits administratifs à l'utilisateur. C'est pour le système 
 ### Informations 
 
 Saisir toutes les informations nécessaires concernant votre nouvel utilisateur.  
-![Gestion des utilisateurs - Informations](/img/fr/rdm/mac/clip4115.png) 
+![Gestion des utilisateurs - Informations](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4115.png) 
 
 ### Groupes d'utilisateurs 
-![Gestion des utilisateurs - Groupes d'utilisateurs](/img/fr/rdm/mac/clip4116.png) 
+![Gestion des utilisateurs - Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4116.png) 
 
 <table>
 	<tr>
@@ -127,7 +127,7 @@ Consulter la rubrique Gestion des Groupes d'utilisateurs pour plus d'information
 </table>
 
 ### Privilèges 
-![Gestion des utilisateurs - Privilèges](/img/fr/rdm/mac/clip4117.png) 
+![Gestion des utilisateurs - Privilèges](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4117.png) 
 
 <table>
 	<tr>
@@ -196,11 +196,11 @@ Le menu d'exportation (Fichier - Exporter) et la fonction d'exportation dans le 
 La section ***Permissions*** vous permet d'attribuer des permissions. Les contrôles sont parfois masqués en fonction de la source de données ou de l'état des autres contrôles.  
 
 Consulter la rubrique [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/) pour plus d'informations.  
-![Gestion des utilisateurs - Permissions](/img/fr/rdm/mac/clip4118.png) 
+![Gestion des utilisateurs - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4118.png) 
 
 ### Paramètres 
 
-![Gestion des utilisateurs - Paramètres](/img/fr/rdm/mac/clip4120.png) 
+![Gestion des utilisateurs - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4120.png) 
 
 Autoriser l'utilisateur à activer le mode Hors connexion sur les sources de données. Cela dépend également de la source de données configurée pour l'autoriser. Vous pouvez choisir entre:  
 

@@ -5,7 +5,7 @@ Vous pouvez gérer vos versions de Remote Desktop Manager pour Windows, macOS ou
 
 ## Gestion de version 
 
-![Paramètres de systèmes - Gestion de version](/img/fr/rdm/windows/clip5008.png) 
+![Paramètres de systèmes - Gestion de version](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip5008.png) 
 
 <table>
 	<tr>

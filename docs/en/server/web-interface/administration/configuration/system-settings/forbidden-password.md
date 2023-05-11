@@ -3,7 +3,7 @@ title: Forbidden Password
 ---
 ***Forbidden Passwords*** allow to create a list of blacklisted passwords to forbid usage in the application. Once set in this list, the password cannot be used anymore in the {{ en.RDMS }} data source. 
 
-![Administration – System Settings – Forbidden Password](/img/en/server/clip10378.png)
+![Administration – System Settings – Forbidden Password](https://webdevolutions.azureedge.net/docs/en/server/clip10378.png)
 
 <table>
 	<tr>

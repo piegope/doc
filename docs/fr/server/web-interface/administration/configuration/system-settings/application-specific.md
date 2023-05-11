@@ -1,7 +1,7 @@
 ---
 title: Spécifique à l'application
 ---
-![Administration – Paramètres du système – Spécifique à l'application](/img/fr/server/ServerOp2043.png) 
+![Administration – Paramètres du système – Spécifique à l'application](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2043.png) 
 
 <table>
 	<tr>

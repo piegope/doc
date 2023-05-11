@@ -2,7 +2,7 @@
 title: Editor
 ---
 The documentation editor is a simple plain text editor. The text is formatted using the Markdown text formatting syntax. Markdown is a markup language designed to be as easy-to-read and easy-to-write as possible.  
-![Documentation editor](/img/en/rdm/windows/clip3489.png) 
+![Documentation editor](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3489.png) 
 
 ## Markdown formatting tags 
 
@@ -20,7 +20,7 @@ Two methods of text emphasis are available:
 ```
 
 Output:  
-![!!clip3497.png](/img/en/rdm/windows/clip3497.png) 
+![!!clip3497.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3497.png) 
 
 ### Headers 
 
@@ -37,7 +37,7 @@ Second level header
 ```
 
 Output: 
-![!!clip3498.png](/img/en/rdm/windows/clip3498.png) 
+![!!clip3498.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3498.png) 
 
 More levels of headers can be created by using one to five hash symbol (#) at the beginning of the line.  
 
@@ -54,7 +54,7 @@ More levels of headers can be created by using one to five hash symbol (#) at th
 ```
 
 Output:  
-![!!clip3499.png](/img/en/rdm/windows/clip3499.png) 
+![!!clip3499.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3499.png) 
 
 ### Lists 
 
@@ -75,7 +75,7 @@ or
 ```
 
 Output:  
-![!!clip3500.png](/img/en/rdm/windows/clip3500.png) 
+![!!clip3500.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3500.png) 
 
 Use regular numbers, followed by periods, to create an ordered bulleted list.  
 
@@ -86,7 +86,7 @@ Use regular numbers, followed by periods, to create an ordered bulleted list.
 ```
 
 Output: 
-![!!clip3501.png](/img/en/rdm/windows/clip3501.png) 
+![!!clip3501.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3501.png) 
 
 ### Horizontal rulers 
 
@@ -101,7 +101,7 @@ or
 ```
 
 Output:  
-![!!clip3502.png](/img/en/rdm/windows/clip3502.png) 
+![!!clip3502.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3502.png) 
 
 ### Links 
 
@@ -116,7 +116,7 @@ Navigate to the [Devolutions website](https://devolutions.net).
 ```
 
 Output:  
-![!!clip3503.png](/img/en/rdm/windows/clip3503.png) 
+![!!clip3503.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3503.png) 
 
 Optionally a title attribute may be included in the parentheses.  
 
@@ -125,7 +125,7 @@ Navigate to the [Devolutions website](https://devolutions.net "Website of Devolu
 ```
 
 Output:  
-![!!clip3504.png](/img/en/rdm/windows/clip3504.png) 
+![!!clip3504.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3504.png) 
 
 For reference-style links, define the links elsewhere in the document, then refer to a link by its name in another set of square brackets.  
 
@@ -137,7 +137,7 @@ Navigate to the [Devolutions website][mainwebsite] or the [Devolutions forum][fo
 ```
 
 Output:  
-![!!clip3505.png](/img/en/rdm/windows/clip3505.png) 
+![!!clip3505.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3505.png) 
 
 The title attribute is optional again. Link names may contain letters, numbers and spaces, but are not case sensitive. 
 
@@ -146,10 +146,10 @@ The title attribute is optional again. Link names may contain letters, numbers a
 Image syntax is very similar to link syntax. Images must be added in the image manager before referencing them.  
 
 To add images in the image manager, click the ***Manage images*** button.  
-![Documentation editor – Image manager](/img/en/rdm/windows/clip3495.png) 
+![Documentation editor – Image manager](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3495.png) 
 
 Click ***Add*** to select an image from the computer. Select the image in the list, and click ***Insert*** to place the image in the text.  
-![Documentation editor - Add an image](/img/en/rdm/windows/clip3496.png) 
+![Documentation editor - Add an image](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3496.png) 
 
 ### Blockquotes 
 
@@ -160,7 +160,7 @@ Quote a passage of text by inputting a greater-than (>) symbol at the beginning 
 ```
 
 Output:  
-![!!clip3506.png](/img/en/rdm/windows/clip3506.png) 
+![!!clip3506.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3506.png) 
 
 Blockquotes can easily be nested.  
 
@@ -170,7 +170,7 @@ Blockquotes can easily be nested.
 ```
 
 Output:  
-![!!clip3507.png](/img/en/rdm/windows/clip3507.png) 
+![!!clip3507.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3507.png) 
 
 ### Code examples 
 
@@ -181,7 +181,7 @@ Inline `code`.
 ```
 
 Output:  
-![!!clip3508.png](/img/en/rdm/windows/clip3508.png) 
+![!!clip3508.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3508.png) 
 
 Code blocks are created be indenting the text with four spaces at the beginning of each lines There must have an empty line before.  
 
@@ -196,7 +196,7 @@ Code blocks are created be indenting the text with four spaces at the beginning 
 ```
 
 Output:  
-![!!clip3509.png](/img/en/rdm/windows/clip3509.png) 
+![!!clip3509.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3509.png) 
 
 A specific syntax highlighting can be specified as well.  
 
@@ -206,5 +206,5 @@ alert(s);
 ``` 
 
 Output:  
-![!!clip3510.png](/img/en/rdm/windows/clip3510.png) 
+![!!clip3510.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3510.png) 
 

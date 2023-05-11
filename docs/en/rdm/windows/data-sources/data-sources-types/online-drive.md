@@ -21,7 +21,7 @@ Even though this is a cloud service, you MUST use our [{{ en.OBACK }}](/cloud/rd
 
 ### General 
 
-![Devolutions Online Drive - General Tab](/img/en/rdm/windows/clip11347.png) 
+![Devolutions Online Drive - General Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11347.png) 
 
 <table>
 	<tr>
@@ -110,7 +110,7 @@ Ask for the master key every time a connection to the {{ en.DODV }} is attempted
 ### Backup 
 
 Please consult the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) topic for information on this service.  
-![Devolutions Online Drive - Backup Tab](/img/en/rdm/windows/clip11334.png) 
+![Devolutions Online Drive - Backup Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11334.png) 
 
 <table>
 	<tr>
@@ -139,11 +139,11 @@ Choose the backup mode. Select between:
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.DODV }} .  
-![Devolutions Online Drive - VPN Tab](/img/en/rdm/windows/DODVVPN.png) 
+![Devolutions Online Drive - VPN Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DODVVPN.png) 
 
 ### Advanced 
 
-![Devolutions Online Drive - Advanced Tab](/img/en/rdm/windows/clip11335.png) 
+![Devolutions Online Drive - Advanced Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11335.png) 
 
 <table>
 	<tr>

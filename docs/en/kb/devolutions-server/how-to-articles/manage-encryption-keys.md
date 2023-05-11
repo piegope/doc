@@ -15,20 +15,20 @@ The encryption keys must be the same of each {{ en.DPS }} instances of your High
 
 1. Open the {{ en.DVLSCONSOLE }}.
 1. Go in the ***Tools*** tab and click on the ***Export*** button.  
-![!!KB4382.png](/img/en/kb/KB4382.png)
+![!!KB4382.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4382.png)
 1. Select a destination file name and path. Then set a password to protect the file and on the OK button.
 {% snippet icon.shieldCaution %}
 We strongly recommend storing the Encryption keys file in a secure storage outside of {{ en.DPS }} like {{ en.PHUB }} Business, Azure Key Vault or AWS Key Management Service.
 {% endsnippet %}  
 
-   ![!!KB4384.png](/img/en/kb/KB4384.png)
+   ![!!KB4384.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4384.png)
 
 ## Import the Encryption Keys
 
 4. Open the {{ en.DVLSCONSOLE }} on the server. Then, go in the ***Tools*** tab and click on the ***Import*** button.  
-![!!KB8107.png](/img/en/kb/KB8107.png)
+![!!KB8107.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8107.png)
 1. Select the encryption keys file, set the password and click on the OK button.  
-![!!KB4387.png](/img/en/kb/KB4387.png)
+![!!KB4387.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4387.png)
 1. Once the operation completed, the new encryption keys have been applied on the data of the database.
 
 ## Regenerate the Encryption Keys
@@ -43,19 +43,19 @@ There may be scenarios where you need to regenerate the encryption keys, such as
 1. Make a backup of the {{ en.DPS }} web application folder.
 1. Export the existing Encryption Keys. See above steps 1 to 3.
 1. Switch the {{ en.DPS }} instance to offline mode using the ***Go Offline*** button.  
-![Devolutions Server Console - Go Offline.png](/img/en/kb/KB8036.png)
+![Devolutions Server Console - Go Offline.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8036.png)
 1. Go in the Tools menu and click on the Regenerate button.  
-![Devolutions Server Console - Tools - Regenerate.png](/img/en/kb/KB8037.png)
+![Devolutions Server Console - Tools - Regenerate.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8037.png)
 1. Select a destination file name and path. Then set a password to protect the file and on the OK button.  
 {% snippet icon.shieldCaution %}
 We strongly recommend storing the Encryption keys file in a secure storage outside of {{ en.DPS }} like {{ en.PHUB }} Business, Azure Key Vault or AWS Key Management Service.
 {% endsnippet %}
 
-   ![Backup the new Encryption Keys.png](/img/en/kb/KB8038.png)
+   ![Backup the new Encryption Keys.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8038.png)
 1. A last warning will be displayed before launching the Regenerate process. Click on OK to start it.  
-![Start Regenerate process.png](/img/en/kb/KB8039.png)
+![Start Regenerate process.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8039.png)
 1. Once completed, the following process status should be displayed.  
-![Regenerate Encryption Keys process status report.png](/img/en/kb/KB8040.png)
+![Regenerate Encryption Keys process status report.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8040.png)
 1. If any error occurs during the Regenerate process, please follow these instructions to recover the {{ en.DPS }} instance to its previous state.  
-![Recovering instructions.png](/img/en/kb/KB8041.png)
+![Recovering instructions.png](https://webdevolutions.azureedge.net/docs/en/kb/KB8041.png)
 {start="7"}

@@ -7,7 +7,7 @@ The ***Import Multiple Vaults (.rdx)*** function lets you import one or more vau
 The vaults you want to import must have been previously exported using the ***Export All Vaults (.rdx)*** , because they need to be in the .rdx format. 
 {% endsnippet %}
  
-![!!RdmWin2000.png](/img/en/rdm/windows/RdmWin2000.png) 
+![!!RdmWin2000.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin2000.png) 
 
 To learn more about other import functions, see our [Import](/rdm/windows/commands/file/import/) topic. 
 

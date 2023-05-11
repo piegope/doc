@@ -4,7 +4,7 @@ order: 30
 ---
 The {{ en.SSP }} allow to grant some administrative permissions to standard users without making them administrators. The ***Default*** setting inherits the permission set on the user or user groups. These are handled as you would permissions in an entry.  
 
-![Administration - System Permissions](/img/en/server/clip8052.png) 
+![Administration - System Permissions](https://webdevolutions.azureedge.net/docs/en/server/clip8052.png) 
 
 ### System Permissions  
 

@@ -10,4 +10,4 @@ Si vous souhaitez refuser l'accès à {{ fr.RDM }} à partir d'une extension de 
 Dans la section ***Association*** ***{{ fr.DWL }}*** , vous trouverez une liste de chaque association faite à {{ fr.RDM }} comprenant des informations pour les identifier. Cela inclut le nom spécifié au moment de l’association (qui correspond par défaut au nom du navigateur Web), une partie de la clé de chiffrement utilisée entre les deux, sa date de création et la date de sa dernière utilisation. 
 {% endsnippet %}
  
-![Supprimer une association Devolutions Web Login](/img/fr/rdm/windows/Dwl4048.png) 
+![Supprimer une association Devolutions Web Login](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/Dwl4048.png) 

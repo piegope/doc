@@ -10,11 +10,11 @@ Il est possible de [demander un essai](/fr/rdm/windows/installation/client/regis
 Avec la licence stockée dans une [Source de données avancée](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) , il n'est plus nécessaire d'enregistrer {{ fr.RDM }} car le numéro de série de la licence est récupéré directement à partir de celle-ci. Lors du premier lancement de l'application, ajoutez la source de données contenant le numéro de série.  
 
 1. Pour ajouter une clé de licence, accéder à ***Administration – Licences*** .  
-![Administration – Licences](/img/fr/rdm/windows/clip3417.png) 
+![Administration – Licences](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3417.png) 
 1. Cliquer ***Ajouter une licence*** .  
-![Gestion des usagers et de la sécurité – Licences](/img/fr/rdm/windows/RdmWin4118.png) 
+![Gestion des usagers et de la sécurité – Licences](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4118.png) 
 1. Saisir la ***Licence*** .  
-![Licence](/img/fr/rdm/windows/RdmWin4000.png) 
+![Licence](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4000.png) 
 1. Facultatif: Cocher la case ***Assignation automatique*** pour fournir automatiquement la clé de licence RDM à tous les utilisateurs nouvellement créés. 
 1. Cliquer sur ***OK*** pour enregistrer. 
 

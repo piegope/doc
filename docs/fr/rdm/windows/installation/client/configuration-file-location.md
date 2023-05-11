@@ -9,7 +9,7 @@ title: Emplacement du fichier de configuration
 Vous pouvez récupérer le dossier d'installation de {{ fr.RDM }} en cliquant sur ***Fichier – Options – Avancée*** . Un hyperlien affiche le dossier d'installation. 
 {% endsnippet %}
  
-![Options - Advancée](/img/fr/rdm/windows/clip10436.png)
+![Options - Advancée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10436.png)
 
 Le fichier de configuration peut se trouver dans différents dossiers en fonction de certaines conditions: 
 

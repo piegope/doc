@@ -68,7 +68,7 @@ Si la principale  préoccupation est le déploiement d'une nouvelle clé de lice
 {% endsnippet %}
  
 Chaque fois que {{ fr.RDM }} est démarré et qu'il détecte un nouveau fichier ***default.cfg*** , la boîte de dialogue suivante apparaît:  
-![Nouveau default.cfg détecté](/img/fr/rdm/windows/clip10368.png) 
+![Nouveau default.cfg détecté](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10368.png) 
 
 En sélectionnant ***Use New Configuration (Lose Mine)*** , la configuration de l'utilisateur est remplacée. Si vous souhaitez uniquement mettre à jour la clé de licence de {{ fr.RDM }} après un renouvellement, choisir Retrieve New Registration Only . 
 

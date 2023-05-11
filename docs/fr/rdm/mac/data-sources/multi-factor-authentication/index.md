@@ -19,11 +19,11 @@ Consultez la section qui correspond à votre type de source de données :
 
 1. Dans {{ fr.RDM }} , accéder à la source de données pour laquelle l'AMF doit être configurée. 
 1. Accéder à ***Fichier – Paramètres de mon compte – Source de données AMF*** .  
-![Fichier – Paramètres de mon compte – Source de données AMF](/img/fr/rdm/mac/RDMMac2046.png) 
+![Fichier – Paramètres de mon compte – Source de données AMF](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2046.png) 
 1. Dans la fenêtre ***Configuration de l'authentification multifacteur*** , cliquer sur ***Modifier*** .  
-![Modifier la Configuration de l'authentification multifacteur](/img/fr/rdm/mac/RDMMac2044.png) 
+![Modifier la Configuration de l'authentification multifacteur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2044.png) 
 1. Sélectionner le ***Type*** d'AMF dans la liste déroulante.  
-![Type d'authentification multifacteur](/img/fr/rdm/mac/RDMMac2045.png) 
+![Type d'authentification multifacteur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2045.png) 
 1. Suivre l'un des liens ci-dessous en fonction du choix effectué à l'étape précédente :  
 * [Authenticator (TOTP)](/fr/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/) 
 * [Yubikey](/fr/rdm/mac/data-sources/multi-factor-authentication/yubikey/) 
@@ -33,13 +33,13 @@ Consultez la section qui correspond à votre type de source de données :
 
 1. Dans {{ fr.RDM }} , accéder à ***Fichier – Sources de données*** . 
 1. Sélectionner la source de données SQLite dans le menu de gauche, puis cliquer sur le bouton ***Modifier la source de données*** .  
-![Modifier la source de données](/img/fr/rdm/mac/RDMMac2047.png) 
+![Modifier la source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2047.png) 
 1. À côté du paramètre ***2 facteurs*** , cliquer sur ***Aucun*** .  
-![Options 2 facteurs](/img/fr/rdm/mac/RDMMac2048.png) 
+![Options 2 facteurs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2048.png) 
 1. Dans la fenêtre ***Configuration multifacteur*** , cliquer sur ***Changer*** .  
-![Modifier la Configuration de l'authentification multifacteur](/img/fr/rdm/mac/RDMMac2044.png) 
+![Modifier la Configuration de l'authentification multifacteur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2044.png) 
 1. Sélectionner le ***Type*** d'AMF dans la liste déroulante.  
-![Type d'authentification multifacteur](/img/fr/rdm/mac/RDMMac2045.png) 
+![Type d'authentification multifacteur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2045.png) 
 1. Suivre l'un des liens ci-dessous en fonction du choix effectué à l'étape précédente : 
 * [Authenticator (TOTP)](/fr/rdm/mac/data-sources/multi-factor-authentication/authenticator-totp/) 
 * [Yubikey](/fr/rdm/mac/data-sources/multi-factor-authentication/yubikey/) 

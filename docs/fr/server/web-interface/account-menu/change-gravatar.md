@@ -9,4 +9,4 @@ L'utilisation d'un avatar, autre que les initiales, est seulement disponible lor
  
 Les utilisateurs peuvent modifier l'avatar et utiliser une image téléchargée sur [Gravatar](http://en.gravatar.com/) en entrant le courriel associé au compte Gravatar. 
 
-![Changer votre avatar](/img/fr/server/clip7004.png) 
+![Changer votre avatar](https://webdevolutions.azureedge.net/docs/fr/server/clip7004.png) 

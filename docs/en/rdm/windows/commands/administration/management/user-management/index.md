@@ -20,13 +20,13 @@ In order to create users and assign rights, you must be administrator of not onl
 ## Manage Users 
 
 To create, edit, delete, rename, or otherwise manage users as a whole, simply use the buttons in the toolbar.  
-![User and Security Management - Toolbar](/img/en/rdm/windows/clip10726.png) 
+![User and Security Management - Toolbar](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10726.png) 
 
 ## User Management Settings 
 
 ### General 
 
-![User Management - General](/img/en/rdm/windows/clip11296.png) 
+![User Management - General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11296.png) 
 
 <table>
 	<tr>
@@ -121,12 +121,12 @@ Insert the user's email address.
 ### Information 
 
 The ***Information*** section allows to store information regarding the users, such as their name, address, and more. The Information section is divided in three sub-sections: ***Details, Address, Phone*** .  
-![User Management - Information - Details](/img/en/rdm/windows/clip10728.png) 
+![User Management - Information - Details](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10728.png) 
 
 ### User Groups 
 
 Select user groups to assign to the user.  
-![User Management - User Groups](/img/en/rdm/windows/clip11297.png) 
+![User Management - User Groups](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11297.png) 
 
 <table>
 	<tr>
@@ -151,12 +151,12 @@ Check the ***Is Member*** box to assign the user groups to the user. Consult [Us
 ### {{ en.VLT }}s 
 
 Select which repositories the user has access to. For more information, please consult the {{ en.VLT }} s topic.  
-![User Management - Vaults](/img/en/rdm/windows/clip3624.png) 
+![User Management - Vaults](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3624.png) 
 
 ### Application Access 
 
 The application access section allows to restrain access to {{ en.RDM }} or [{{ en.DWL }}](https://helprdm.devolutions.net/devolutionsweblogin_overview.html) .  
-![User Management - Application Access](/img/en/rdm/windows/clip3625.png) 
+![User Management - Application Access](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3625.png) 
 
 <table>
 	<tr>
@@ -188,7 +188,7 @@ Select if the user can access to the data source form {{ en.DWL }} .
 
 ### Settings 
 
-![User Management - Settings](/img/en/rdm/windows/clip11304.png) 
+![User Management - Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11304.png) 
 
 Allow the user to enable the [Offline Mode](/rdm/windows/data-sources/offline-mode/) on the data sources. This also depends on the data source being configured to allow it. See the available modes below:  
 

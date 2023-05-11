@@ -5,7 +5,7 @@ Le ***Générateur de certificat*** vous permet de créer un certificat d'auto-s
 
 ## Paramètres 
 
-![Certificat d'auto-signature](/img/fr/rdm/windows/clip10390.png) 
+![Certificat d'auto-signature](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10390.png) 
 
 <table>
 	<tr>

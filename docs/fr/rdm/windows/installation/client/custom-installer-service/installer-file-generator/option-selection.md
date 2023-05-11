@@ -14,7 +14,7 @@ La même boîte de dialogue est utilisée pour le service d'installateur personn
 ## Options 
 
 Vous pouvez ouvrir le ***Générateur de fichier d'installateur*** à partir de ***Fichier –*** ***{{ fr.DA }}*** ***– Générateur de fichier de configuration*** . Cette fenêtre est aussi accessible lors de la création d'un paquet d'installation dans ***Fichier –*** ***{{ fr.DA }}*** ***– Gestionnaire de paquets d'installation personnalisés*** .  
-![Générateur de fichier d'installateur](/img/fr/rdm/windows/clip11249.png) 
+![Générateur de fichier d'installateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11249.png) 
 
 ### Divers 
 
@@ -26,7 +26,7 @@ Ne redistribuez pas les ***Identifiants du*** ***{{ fr.DA }}*** . Cela les parta
 Tous les ***modèles locaux*** seront inclus. Si certains contiennent des informations d'identification, cela peut constituer un risque pour la sécurité. Assurez-vous de ne partager que ce qui est nécessaire. 
 {% endsnippet %}
  
-![Options diverses](/img/fr/rdm/windows/clip11260.png)
+![Options diverses](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11260.png)
 
 <table>
 	<tr>

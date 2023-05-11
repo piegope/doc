@@ -8,5 +8,5 @@ The ***{{ en.PVLT }}*** is a user centric ***{{ en.VLT }}***   used to store per
 
 The ***{{ en.PVLT }}*** also prevents users from using a non-secure tool to manage their personal passwords at work. 
 
-![User Vault](/img/en/server/ServerOp8026.png) 
+![User Vault](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8026.png) 
 

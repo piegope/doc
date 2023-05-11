@@ -5,7 +5,7 @@ Utiliser ***Fichier - Importer - Importer les sessions de*** pour importer des s
 
 ## Paramètres 
 
-![Importer les sessions de](/img/fr/rdm/mac/clip4027.png) 
+![Importer les sessions de](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4027.png) 
 
 ### Importer les Sessions de 
 

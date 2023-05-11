@@ -11,7 +11,7 @@ The General tab allows you to override the Display mode and the credentials.
 The Display override is only available for Sessions entry type. 
 {% endsnippet %}
  
-![Display Override](/img/en/rdm/mac/clip10339.png) 
+![Display Override](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10339.png) 
 
 Please consult Display Mode for more information on available settings and their usage. 
 

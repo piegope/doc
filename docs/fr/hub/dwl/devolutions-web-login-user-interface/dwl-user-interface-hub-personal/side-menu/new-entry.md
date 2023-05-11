@@ -2,12 +2,12 @@
 title: Nouvelle entrée
 ---
 Le bouton ***Nouvelle entrée*** n 'est que disponible dans l 'onglet [***Correspondant***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#onglet-correspondant) , qui est l 'onglet sélectionné à l 'ouverture de l 'extension, ou lorsque vous parcourez les entrées dans l 'onglet [***Toutes les entrées***](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/#onglet-toutes-les-entrées) . Vous pouvez choisir de crééer une nouvelle entrée de ***Site Web*** , de ***Carte de crédit*** , de ***Contact*** ou de ***Note sécurisée*** .  
-![Sélection du type de nouvelle entrée](/img/fr/hub/Hub2091.png) 
+![Sélection du type de nouvelle entrée](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2091.png) 
 
 Lorsque le type d 'entrée est sélectionné, un nouvel onglet est ouvert dans votre navigateur qui vous permet d 'ajouter une entrée de ce type dans {{ fr.PHUB }} Personal via {{ fr.DWL }} .  
 
 Lorsque {{ fr.PHUB }} Personal est utilisé comme source de données, la configuration de base de l 'entrée est exécutée dans l 'onglet ***Général*** , mais des paramètres supplémentaires sont aussi disponibles dans d 'autres onglets. Vous trouverez ci-dessous un exemple des paramètres de l 'onglet ***Général*** lors de la création d 'une entrée de site Web.  
-![Nouvelle entrée - Site Web (onglet Général)](/img/fr/hub/Hub2092.png) 
+![Nouvelle entrée - Site Web (onglet Général)](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2092.png) 
 
 Les tableaux ci-dessous répertorient tous les champs/paramètres disponibles dans la fenêtre ***Nouvelle entrée - Site Web*** . Les différentes sections et sous-sections représentent respectivement les types d 'entrées et les onglets du menu de gauche.  
 

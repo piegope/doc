@@ -5,7 +5,7 @@ Le ***Statut*** vous permet de modifier le statut d'une session.
 
 ## Paramètres 
 
-![Accueil - Statut](/img/fr/rdm/mac/clip409.png) 
+![Accueil - Statut](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip409.png) 
 
 <table>
 	<tr>

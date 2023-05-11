@@ -46,13 +46,13 @@ To be more specific, we will use these team names in our scenarios.
 ### Create the User Groups 
 
 To create user groups, navigate to ***Administration – User Groups*** , then click ***Add User Groups*** .  
-![Create a User Group](/img/en/rdm/windows/clip3472.png) 
+![Create a User Group](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3472.png) 
 
 All settings can be left to default unless the user group contains only administrators. In this case, check the ***Administrator*** box when configuring the user group. Enter a ***Name*** for the user group, then click ***Ok*** .  
-![Configure a User Group](/img/en/rdm/windows/clip3473.png) 
+![Configure a User Group](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3473.png) 
 
 To assign users to the user group, click the user group button, then check the ***Is Member*** box of the respective user.  
-![Assign a user to the User Groups](/img/en/rdm/windows/clip3474.png) 
+![Assign a user to the User Groups](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3474.png) 
 
 ## User configuration 
 
@@ -61,10 +61,10 @@ It is possible to change the default user template. To do so, navigate to ***Fil
 ### Create the user 
 
 To create users, navigate to ***Administration – Users*** , then click ***Add User*** . Enter a ***Login*** and ***Password*** for the user and select the ***User type*** .  
-![Create a user](/img/en/rdm/windows/clip3475.png) 
+![Create a user](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3475.png) 
 
 A user can be assigned to multiple user groups at once by checking the ***Is Member*** box of the respective user groups in the ***User Groups*** section of the ***User Management*** .  
-![Assign a user to a User Groups](/img/en/rdm/windows/clip3476.png) 
+![Assign a user to a User Groups](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3476.png) 
 
 ### Administrators 
 
@@ -95,21 +95,21 @@ When creating users, some key points must be taken into consideration. Ask yours
 Access is granted or denied to users by setting permission on entries. ***Permissions*** can be set to users or user groups. The best practice is to grant permissions to user groups to control access for multiple users at once.  
 
 To set permissions on an entry, edit any entry, then navigate to the ***Permissions*** section.  
-![Entry's Permissions](/img/en/rdm/windows/clip3480.png) 
+![Entry's Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3480.png) 
 
 Permissions are usually set on folders, and apply to all child entries. A best practice is to set all the permissions of the {{ en.VLT }} folder to ***Never*** . As a result, all permissions of all entries are denied by default.  
-![Vault Settings Permissions](/img/en/rdm/windows/clip3481.png) 
+![Vault Settings Permissions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3481.png) 
 
 Access is denied to users by expressly granting the access to other users. In other words, all users that are not on the list of a permission have the access denied.  
 
 For a user to have access to a sub folder, the user must have at least the view permission on all parent folders.  
 
 Consider the following structure:  
-![!!clip3482.png](/img/en/rdm/windows/clip3482.png) 
+![!!clip3482.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3482.png) 
 
 There are three levels of folders: the {{ en.VLT }} , Telemark, and child items of Telemark.  
 
 Suppose that a user, such as a consultant, must have access to the Montreal folder only. The consultant must be granted the view permission on the Telemark folder as well. However, granting the view access to the Telemark folder gives to the consultant the permissions to view all child items of Telemark. To deny the view permissions for the consultant on specific child items, the view permissions of these items must be expressly set for other users.  
-![!!clip3483.png](/img/en/rdm/windows/clip3483.png) 
+![!!clip3483.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3483.png) 
 
 

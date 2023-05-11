@@ -2,7 +2,7 @@
 title: Open with Parameters
 ---
 The ***Open with Parameters*** menu all options available to open a session.  
-![Open with Parameters](/img/en/rdm/windows/clip10056.png) 
+![Open with Parameters](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10056.png) 
 
 <table>
 	<tr>

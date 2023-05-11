@@ -13,7 +13,7 @@ The extension opens on the ***Matching*** tab. This is where you will see the li
 For methods of retrieving your credentials, visit [this topic](/rdm/windows/dwl/using-devolutions-web-login/retrieve-credentials/) . 
 {% endsnippet %}
  
-![Matching Tab](/img/en/rdm/windows/RDMWin2123.png) 
+![Matching Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2123.png) 
 
 At the top, you can use the ***Filter*** bar to search through all your credentials, not just those applicable to the website. You can also use the ***Refresh*** button next to it to update the search results.  
 
@@ -26,15 +26,15 @@ For a complete list of the available fields in the ***Add Website*** window, vis
 ### Password Generator tab 
 
 The ***Password Generator*** tab assists you in creating a strong and secure password adapted to your needs and to website requirements for your new account.  
-![Password Generator Tab](/img/en/rdm/windows/RDMWin2126.png) 
+![Password Generator Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2126.png) 
 
 Your custom password is generated at the top of the ***Content Area*** with a strenght indicator below it. You can copy it or generate a new one using the ***Copy to Clipboard*** and ***Generate Password*** buttons respectively. The ***Password lenght*** , which is set to 12 by default, can also be adjusted.  
 
 In the ***General*** drop-down section, you are able to select the types of characters that your password must contain as well as the minimum number of characters of each type that must be included.  
-![General Section](/img/en/rdm/windows/RDMWin2127.png) 
+![General Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2127.png) 
 
 In the ***Advanced*** drop-down section, you are able to further customize your password by entering characters you want included in your password, followed by the minimum number of times they must appear. In the second field, you can also enter characters you want excluded from your password.  
-![Advanced Section](/img/en/rdm/windows/RDMWin2128.png) 
+![Advanced Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2128.png) 
 
 {% snippet icon.badgeInfo %} 
 To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/rdm/windows/dwl/using-devolutions-web-login/create-account-website/) . 
@@ -43,6 +43,6 @@ To learn how to use the ***Password Generator*** when creating an account on a w
 ### About tab 
 
 The ***About*** tab has some useful links and information, namely a link to our [{{ en.RDM }} Devolutions Forum](https://forum.devolutions.net/product/rdm-windows) , a link to our [{{ en.RDM }} Online Help](/rdm/windows/overview/what-is-rdm/) , and the current version of {{ en.DWL }} . 
-![About Tab](/img/en/rdm/windows/RDMWin2129.png) 
+![About Tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2129.png) 
 
 

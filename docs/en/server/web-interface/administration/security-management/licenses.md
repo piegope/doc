@@ -3,11 +3,11 @@ title: Licenses
 ---
 Managing registration globally for all your users can be done with a license serial stored in ***Licenses*** section. 
 
-![Licenses](/img/en/server/ServerOp8030.png)  
+![Licenses](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8030.png)  
 
 ### General 
 
-![Licenses - General](/img/en/server/ServerOp8043.png)  
+![Licenses - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8043.png)  
 
 <table>
 	<tr>
@@ -38,7 +38,7 @@ Will automatically assign the license key to every new user account.
 
 ### Assigned To 
 
-![Licenses - Assigned to](/img/en/server/ServerOp8052.png)  
+![Licenses - Assigned to](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8052.png)  
 
 <table>
 	<tr>

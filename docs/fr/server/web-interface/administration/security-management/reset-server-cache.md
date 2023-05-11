@@ -4,7 +4,7 @@ keywords:
 - Rôle
 ---
 ***Réinitialiser le cache du serveur*** pour des éléments spécifiques.  
-![Administration – Réinitialiser le cache du serveur](/img/fr/server/ServerOp8039.png) 
+![Administration – Réinitialiser le cache du serveur](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8039.png) 
 
 <table>
 	<tr>

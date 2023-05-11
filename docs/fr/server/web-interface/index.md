@@ -15,9 +15,9 @@ Si l'instance a été créée avec l'URL par défaut, elle serait disponible sou
 {% endsnippet %}
  
 2. Choisir votre mode d'authentification entre {{ fr.RDMS }} et Active Directory.  
-![!!ServerOp4039.png](/img/fr/server/ServerOp4039.png) 
+![!!ServerOp4039.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4039.png) 
 1. Entrer le ***Nom d'utilisateur*** et le ***Mot de passe*** de la méthode d'authentification choisie pour vous connecter. {{ fr.RDMS }} est la méthode d'authentification illustrée ici:  
-![!!ServerOp4049.png](/img/fr/server/ServerOp4049.png) 
+![!!ServerOp4049.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4049.png) 
 1. Cliquer ***Se connecter*** .  
 
 ## Menu 
@@ -27,5 +27,5 @@ Le ***Menu*** permet à l'utilisateur de naviguer dans les différentes sections
 Il peut être seulement développé ou réduit, pour masquer les sections, qu'en cliquant sur l'icône du menu dans le coin supérieur gauche lorsque l'affichage de la fenêtre de l'interface Web est plus petit. 
 {% endsnippet %} 
 
-![Menu](/img/fr/server/ServerOp8015.png) 
+![Menu](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8015.png) 
 

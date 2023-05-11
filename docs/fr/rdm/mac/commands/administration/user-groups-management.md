@@ -4,7 +4,7 @@ keywords:
 - rôle
 ---
 Les ***Groupes d'utilisateurs*** dans {{ fr.RDM }} sont principalement utilisés pour réduire le temps de gestion des utilisateurs. La gestion des autorisations accordées aux groupes d'utilisateurs est assez similaire aux notions correspondantes pour les utilisateurs, mais au lieu d'un seul utilisateur, elles s'appliquent à tous les utilisateurs auxquels vous avez attribué le groupe d'utilisateurs.  
-![Administration - Groupes d'utilisateurs](/img/fr/rdm/mac/clip4128.png) 
+![Administration - Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4128.png) 
 
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité est uniquement disponible avec un serveur [SQL](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) et une source de données [{{ fr.RDMS }}](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/server/) . 
@@ -21,7 +21,7 @@ Pour créer un nouveau groupe d'utilisateur aller dans ***Administration - Group
 ### Général 
 
 Le menu ***Général*** est utilisé pour définir des informations générales sur le nouveau groupe d'utilisateurs.  
-![Gestion du groupe d'utilisateurs - Général](/img/fr/rdm/mac/clip4130.png) 
+![Gestion du groupe d'utilisateurs - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4130.png) 
 
 <table>
 	<tr>
@@ -53,7 +53,7 @@ Saisir une brève description de votre nouveau groupe d'utilisateurs.
 ### Privilèges 
 
 Le menu ***Privilèges*** vous permet d'ajouter des privilèges particuliers aux groupes d'utilisateurs. Ces privilèges doivent être activés pour que certaines fonctionnalités soient disponibles pour les utilisateurs, comme les droits d'importation ou d'exportation de sessions.  
-![Gestion du groupe d'utilisateurs - Privilèges](/img/fr/rdm/mac/clip4131.png) 
+![Gestion du groupe d'utilisateurs - Privilèges](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4131.png) 
 
 <table>
 	<tr>
@@ -120,12 +120,12 @@ Le menu d'exportation ( ***Fichier - Exporter*** ) et la fonction d'exportation 
 ### Permissions 
 
 Utiliser le menu ***Permissions*** pour attribuer les autorisations Affichage, Ajouter, Modifier et Supprimer à vos groupes d'utilisateurs. Pour plus d'informations, consultez la rubrique [Permissions](/fr/rdm/mac/commands/administration/user-management/permissions/) .  
-![Gestion du groupe d'utilisateurs - Permissions](/img/fr/rdm/mac/clip4132.png) 
+![Gestion du groupe d'utilisateurs - Permissions](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4132.png) 
 
 ### Paramètres 
 
 Le menu ***Paramètres*** vous permet de définir les droits du mode hors connexion pour votre groupe d'utilisateurs.  
-![Gestion du groupe d'utilisateurs - Paramètres](/img/fr/rdm/mac/clip4136.png) 
+![Gestion du groupe d'utilisateurs - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4136.png) 
 
 <table>
 	<tr>
@@ -166,10 +166,10 @@ Un cache avancé, avec synchronisation des modifications, est autorisé pour les
 ## Assigner les groupes d'utilisateurs 
 
 Pour assigner des groupes d'utilisateurs à un utilisateur ou pour gérer des groupes d'utilisateurs pour un utilisateur, allez dans ***Administration - Groupe d'utilisateurs*** et cliquer sur Assigner les groupes d'utilisateurs.  
-![Gestion des usagers et de la sécurité - Groupes d'utilisateurs](/img/fr/rdm/mac/clip4137.png) 
+![Gestion des usagers et de la sécurité - Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4137.png) 
 
 Il est possible d'assigner un groupe d'utilisateur à plusieurs utilisateurs en même temps. Sélectionner les utilisateurs auxquels vous souhaitez appliquer le groupe d'utilisateurs sélectionné ou vous pouvez cliquer sur ***Sélectionner tout*** ou ***Désélectionner tout*** .  
-![Assignation des groupes d'utilisateurs](/img/fr/rdm/mac/clip4138.png) 
+![Assignation des groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4138.png) 
 
 ### Groupe d'utilisateurs dans {{ fr.RDMS }} 
 Les groupes d'utilisateurs dans {{ fr.RDMS }} sont en fait des liens vers des groupes Active Directory. En tirant parti de l'intégration d'Active Directory, vous pouvez facilement définir des droits d'accès pour tous les utilisateurs de domaine de votre organisation. Une fois qu'un utilisateur du domaine se connecte à la source de données {{ fr.RDMS }} , son compte d'utilisateur est créé si nécessaire et les droits des utilisateurs sont contrôlés par les groupes définis.  

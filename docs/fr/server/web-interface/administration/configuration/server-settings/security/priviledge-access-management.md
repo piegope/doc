@@ -3,7 +3,7 @@ title: Gestion des accès privilégiés (PAM)
 ---
 Cette section est dédiée à l'activation et à la configuration de la gestion des accès privilégiés. 
 
-![Administration - Paramètres de {{ fr.DVLS }} - Gestion des accès privilégiés](/img/fr/server/ServerOp8047.png)  
+![Administration - Paramètres de {{ fr.DVLS }} - Gestion des accès privilégiés](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8047.png)  
 
 ## Paramètres 
 

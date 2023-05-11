@@ -12,7 +12,7 @@ Ce paramètre de sécurité détermine si les mots de passe doivent répondre au
 ## Paramètres 
 
 Les paramètres définis dans la source de données de Modèles de mot de passe détermineront la valeur par défaut des paramètres de session.  
-![Paramètres du système - Modèles de mot de passe](/img/fr/rdm/mac/clip4106.png) 
+![Paramètres du système - Modèles de mot de passe](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4106.png) 
 
 ### Modèle par défaut 
 
@@ -62,5 +62,5 @@ Les exigences de Modèles de mot de passe sont obligatoires.
 ## Créer 
 
 Vous devez créer votre propre modèle de mot de passe pour ensuite les appliquer à vos sessions. Cliquer sur le bouton pour créer votre modèle de complexité de mot de passe, entrez un nom et les exigences souhaitées.  
-![Paramètres du système - Utilisateur personnalisé](/img/fr/rdm/mac/clip4107.png) 
+![Paramètres du système - Utilisateur personnalisé](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4107.png) 
 

@@ -5,7 +5,7 @@ The ***Version Management*** allows the administrators to manage the data source
 
 ## Windows and macOS 
 
-![Version Management](/img/en/rdm/windows/clip5008.png) 
+![Version Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5008.png) 
 
 <table>
 	<tr>

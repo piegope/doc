@@ -4,7 +4,7 @@ order: 20
 ---
 The ***Database*** tab section contains the information of the SQL Server, the SQL credentials information and the database name used by {{ en.RDMS }} . 
 
-![Server Settings - Database](/img/en/server/ServerOp8002.png) 
+![Server Settings - Database](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8002.png) 
 
 ## Settings 
 ### Database 

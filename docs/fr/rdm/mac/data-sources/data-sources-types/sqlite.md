@@ -5,7 +5,7 @@ title: SQLite
 	<tr>
 		<td>
 
-![!!DataSourceSQLiteLarge.png](/img/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 La source de données SQLite de {{ fr.RDM }} est idéale pour un seul utilisateur dans des situations autonomes . Plus puissant et plus flexible que le format de fichier XML, il prend également en charge quelques-unes des options avancées de source de données comme les journaux et les pièces jointes. 
@@ -34,7 +34,7 @@ SQLite prend en charge un nombre illimité de lecteurs simultanés, mais n'autor
 
 ### Général 
 
-![SQLite - Général](/img/fr/rdm/mac/clip0335.png) 
+![SQLite - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0335.png) 
 
 {% snippet icon.badgeWarning %} 
 La récupération du mot de passe SQLite n'est pas possible, les données seront irrécupérables si vous ne pouvez pas vous authentifier. Veuillez vous assurer de sauvegarder le mot de passe dans un endroit sûr. 
@@ -94,7 +94,7 @@ Activer l' [Authentification 2 facteurs](/fr/rdm/mac/data-sources/multi-factor-a
 
 ### Sauvegarde 
 
-![SQLite - Sauvegarde](/img/fr/rdm/mac/clip0336.png) 
+![SQLite - Sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0336.png) 
 
 <table>
 	<tr>
@@ -129,7 +129,7 @@ Spécifier le nom de sauvegarde qui vous permettra d'enregistrer automatiquement
 
 ### Avancée 
 
-![SQLite - Avancée](/img/fr/rdm/mac/clip0337.png) 
+![SQLite - Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0337.png) 
 
 <table>
 	<tr>
@@ -185,7 +185,7 @@ Modifier directement les valeurs de chaîne de connexion.
 
 ### Entretien 
 
-![SQLite - Entretien](/img/fr/rdm/mac/clip0337.png) 
+![SQLite - Entretien](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0337.png) 
 
 <table>
 	<tr>

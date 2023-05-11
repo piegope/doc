@@ -5,7 +5,7 @@ keywords:
 ---
 The ***General*** section of the {{ en.SST }} allows the administrators to apply general policies for the whole data source. 
 
-![Administration – System Settings – General](/img/en/server/clip10373.png)
+![Administration – System Settings – General](https://webdevolutions.azureedge.net/docs/en/server/clip10373.png)
 
 ## General 
 <table>

@@ -3,7 +3,7 @@ title: Domain Information
 ---
 Provides the user's domain information.  
 
-![!!ServerOp8061.png](/img/en/server/ServerOp8061.png)  
+![!!ServerOp8061.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8061.png)  
 
 <table>
 	<tr>
@@ -36,4 +36,4 @@ User domain security identifier.
 
 Display the detailed user domain account information. 
 
-![Domain user account information](/img/en/server/ServerOp8007.png)  
+![Domain user account information](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8007.png)  

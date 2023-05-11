@@ -4,7 +4,7 @@ keywords:
 - Roles
 ---
 
-![Administration - System Permissions - Miscellaneous](/img/en/server/clip8055.png) 
+![Administration - System Permissions - Miscellaneous](https://webdevolutions.azureedge.net/docs/en/server/clip8055.png) 
 
 <table>
 	<tr>

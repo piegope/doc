@@ -5,7 +5,7 @@ Les clés SSH offrent un moyen sécurisé de se connecter à un serveur privé v
 
 ## Paramètres 
 
-![Générateur de clé SSH](/img/fr/rdm/windows/clip10864.png) 
+![Générateur de clé SSH](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10864.png) 
 
 <table>
 	<tr>

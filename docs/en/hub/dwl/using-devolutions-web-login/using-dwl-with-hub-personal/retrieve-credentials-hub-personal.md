@@ -13,21 +13,21 @@ After the [installation](/hub/dwl/installation/) of {{ en.DWL }} and its [pairin
 ## Settings 
 
 1. Click on the {{ en.DWL }} extension button in your browser, then click on the ***Settings*** icon.  
-![Settings Icon](/img/en/hub/Hub2093.png) 
+![Settings Icon](https://webdevolutions.azureedge.net/docs/en/hub/Hub2093.png) 
 1. Click on ***General*** in the ***Configuration*** section.  
-![Settings – Configuration – General](/img/en/hub/Hub2081.png) 
+![Settings – Configuration – General](https://webdevolutions.azureedge.net/docs/en/hub/Hub2081.png) 
 1. In the ***General*** tab, the ***Show icon in fields*** setting should be enabled by default. If not, check the box next to the option to enable it. 
 {% snippet icon.badgeNotice %} 
 With this option enabled, a {{ en.DWL }} icon is displayed in every credential fields on the websites you visit. This makes it easier to select the correct entry from which to retrieve your credentials, especially when more than one is available. 
 {% endsnippet %}
  
-![Settings – Data sources – Hub Personal](/img/en/hub/Hub2082.png)  
+![Settings – Data sources – Hub Personal](https://webdevolutions.azureedge.net/docs/en/hub/Hub2082.png)  
 
 4. Click ***Save*** . 
 1. Click on ***Hub Personal*** in the ***Data sources*** section.  
-![General – Show icon in fields](/img/en/hub/Hub2094.png)  
+![General – Show icon in fields](https://webdevolutions.azureedge.net/docs/en/hub/Hub2094.png)  
 1. In the ***Actions*** tab, enable the ***Automatically fill in credentials on load*** option by checking the box next to it. With this setting enabled, credentials will be automatically filled in when loading a web page. This only works if you only have one set of credentials for a given website.  
-![Actions – Automatically fill in credentials on load](/img/en/hub/Hub2092.png)  
+![Actions – Automatically fill in credentials on load](https://webdevolutions.azureedge.net/docs/en/hub/Hub2092.png)  
 {% snippet icon.badgeInfo %} 
 If the ***Automatically submit the form after filling*** setting is enabled, the credentials are automatically submitted when the fields are filled. Enabling it is optional as it is not a best practice. 
 {% endsnippet %}
@@ -48,9 +48,9 @@ Credentials can be retrieved from {{ en.HUB }} Personal automatically or manuall
 
 1. Go to the login page of the website you want to access. This page will be different for each website; this section will use the Atlassian website as an example. One of two scenarios can happen:  
     1. If you only have one set of credentials for this website, the login fields should already be filled in with your credentials. If that is the case, follow the login process of the website until you successfully log in to your account. You do not have to follow the next step.  
-    ![Automatically Filled Credentials Fields](/img/en/hub/Hub2088.png)  
+    ![Automatically Filled Credentials Fields](https://webdevolutions.azureedge.net/docs/en/hub/Hub2088.png)  
     1. If you have more than one set of credentials or if your credentials are not filled in, click on the {{ en.DWL }} icon in the credential field and select the entry that contains your credentials for that website. If multiple entries are available, you can search for the one you want using the ***Filter*** bar. Follow the rest of the website 's login process until you successfully log in to your account. 
-    ![Entry Filter and Selection](/img/en/hub/Hub2184.png)  
+    ![Entry Filter and Selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2184.png)  
 
 ### Manually Retrieving Credentials 
 Depending on the options you have enabled/disabled, you may need to retrieve your credentials manually:  
@@ -58,11 +58,11 @@ Depending on the options you have enabled/disabled, you may need to retrieve you
 1. Go to the login page of the website you want to access. This page will be different for each website; this section will use the Atlassian website as an example. 
 1. Click on the {{ en.DWL }} extension in your browser. Website entries that are linked to this website will appear. 
 1. Click on the website entry that contains the credentials for this website. If multiple entries are available, you can use the ***Filter*** bar to find the one you need.  
-![Entry Selection](/img/en/hub/Hub2096.png)  
+![Entry Selection](https://webdevolutions.azureedge.net/docs/en/hub/Hub2096.png)  
 
 {% snippet icon.badgeInfo %} 
 If needed, you can also use the icons that appear when hovering over the entry to copy your username , copy your password , or get an overview of the entry. 
 {% endsnippet %}
  
 4. Your credentials will be transferred to the credentials fields of the website. Follow the rest of the website 's login process until you successfully log in to your account.  
-![Credentials Tranfer in Corresponding Fields](/img/en/hub/Hub2091.png)  
+![Credentials Tranfer in Corresponding Fields](https://webdevolutions.azureedge.net/docs/en/hub/Hub2091.png)  

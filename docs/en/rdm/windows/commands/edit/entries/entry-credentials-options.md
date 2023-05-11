@@ -2,7 +2,7 @@
 title: Entry Credentials Options
 ---
 Multiple options are available to use for ***Credentials*** in your {{ en.RDM }} entries.  
-![!!RdmWin4043.png](/img/en/rdm/windows/RdmWin4043.png) 
+![!!RdmWin4043.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4043.png) 
 
 <table>
 	<tr>

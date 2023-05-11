@@ -2,7 +2,7 @@
 title: Information sur le domaine
 ---
 Permet d'afficher l'information sur le compte de domaine.  
-![Information sur le domaine](/img/fr/server/ServerOp8008.png) 
+![Information sur le domaine](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8008.png) 
 
 <table>
 	<tr>
@@ -34,5 +34,5 @@ Identifiant de sécurité du compte de l'utilisateur du domaine.
 ### Chercher sur le domaine 
 
 Affiche l'information détaillée du compte de domaine.  
-![!!ServerOp8009.png](/img/fr/server/ServerOp8009.png) 
+![!!ServerOp8009.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8009.png) 
 

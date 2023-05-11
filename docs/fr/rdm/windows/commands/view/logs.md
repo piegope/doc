@@ -2,7 +2,7 @@
 title: Journaux
 ---
 Lorsque vous utilisez {{ fr.RDM }} localement avec une source de données de type individuel, les ***Journaux d'activité*** , qui se trouvent en temps normal dans la section ***Affichage*** de l'onglet ***Affichage*** , ne sont pas disponibles. Dans cette situation, la section ***Journaux*** apparaît dans l'onglet ***Affichage*** .  
-![Bouton Journaux des connexions locales](/img/fr/rdm/windows/RDMWin2046.png) 
+![Bouton Journaux des connexions locales](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2046.png) 
 
 {% snippet icon.badgeInfo %} 
 Les ***Journaux des connexions locales*** remplacent les [***Journaux d'activité***](/fr/rdm/windows/commands/view/view/activity-logs/) si vous ne disposez pas des permissions suffisantes pour les consulter. 
@@ -11,7 +11,7 @@ Les ***Journaux des connexions locales*** remplacent les [***Journaux d'activit�
 ### Journaux des connexions locales 
 
 Dans la section ***Journaux*** , vous trouverez la fonction ***Journaux des connexions locales*** , qui est utile si vous souhaitez accéder à vos journaux locaux. En cliquant dessus, vous ouvrez une fenêtre contenant tous vos journaux locaux par ordre chronologique (du plus ancien au plus récent). Vous pouvez faire défiler la liste pour trouver les journaux que vous recherchez.  
-![Journaux des connexions locales](/img/fr/rdm/windows/RDMWin2045.png) 
+![Journaux des connexions locales](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2045.png) 
 
 Les boutons au bas de la fenêtre vous offrent des options supplémentaires. 
 

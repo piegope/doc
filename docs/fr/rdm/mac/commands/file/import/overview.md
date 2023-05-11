@@ -9,7 +9,7 @@ La fonction d'importation est active que si la [Permissions du système](/fr/rdm
  
 ## Paramètres 
 
-![Fichier - Importer](/img/fr/rdm/mac/clip4025.png) 
+![Fichier - Importer](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4025.png) 
 
 ### Importer des entrées 
 

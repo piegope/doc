@@ -5,7 +5,7 @@ Vous pouvez gérer vos versions de {{ fr.RDM }} pour Windows, macOS, Android ou 
 
 ### Gestion de version 
 
-![Gestion de version](/img/fr/rdm/mac/2015-09-22_09-38-30.png) 
+![Gestion de version](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/2015-09-22_09-38-30.png) 
 
 <table>
 	<tr>

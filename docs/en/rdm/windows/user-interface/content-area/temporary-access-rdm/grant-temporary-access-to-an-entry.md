@@ -21,15 +21,15 @@ To learn how to respond to a request, go to the [Approve/Deny Temporary Access R
 ### View Temporary Access Requests 
 
 To view all your past and current requests, you must use the following ***Pending Access Requests*** box to open the ***Temporary Access Requests*** window.  
-![Dashboard – Pending Access Requests](/img/en/rdm/windows/RDMWin2072.png) 
+![Dashboard – Pending Access Requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2072.png) 
 
 In the ***Temporary Access Requests*** window, you can see all your temporary access requests and sort them by ***Status*** , ***Username*** , ***Data source user*** , ***Entry*** , ***Action*** , ***Date*** , ***Request duration*** , ***Authorized duration*** , ***Authorizer username*** , or ***Authorizer data source user*** .  
-![Show Temporary Access Requests](/img/en/rdm/windows/RDMWin2074.png) 
+![Show Temporary Access Requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2074.png) 
 
 It is also possible to display only certain requests with the ***Status*** drop-down menu or with the filter bar at the top.  
 
 Using the ***View messages*** button, you can view the ***Request message*** and the ***Authorization message*** of a specific request.  
-![Request Messages](/img/en/rdm/windows/RDMWin2076.png) 
+![Request Messages](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2076.png) 
 
 Finally, clicking on the ***Approve*** and ***Deny*** buttons open the ***Temporary Access Response*** window, which is described in the [next section](#approvedeny-temporary-access-requests) . 
 
@@ -43,10 +43,10 @@ When using Microsoft SQL Server or Microsoft Azure SQL data sources, if you want
 To respond to a request, you need to open the ***Temporary Access Response*** window. There are two ways to access it.  
 
 The first option is to use the ***Pending Access Requests*** box (see image below) in the ***Overview*** tab of your ***Dashboard*** . Clicking on either the green check mark (approve the request) or the red "X" (deny the request) next to a request will open the ***Temporary Access Response*** window.  
-![Pending Access Requests](/img/en/rdm/windows/RDMWin2077.png) 
+![Pending Access Requests](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2077.png) 
 
 The second option requires you to go through the other ***Pending Access Requests*** box described in the [previous section](#view-temporary-access-requests) . Whatever way you choose to access the response window, the result will be the same.  
-![Temporary Access Response](/img/en/rdm/windows/RDMWin2080.png) 
+![Temporary Access Response](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2080.png) 
 
 This view is divided into two sections: 
 

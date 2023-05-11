@@ -20,14 +20,14 @@ Pour activer la couche de sécurité dans {{ fr.RDM }} pour Mac , procéder comm
 
 1. Dans {{ fr.RDM }} , accéder à ***Fichier – Préférences – Extensions de navigateur*** . 
 1. Sous la section ***{{ fr.DWL }}*** ***(Extensions du navigateur)*** , cliquer sur ***Par défaut*** . Saisir un ***Port*** et cliquer sur ***Compléter*** .  
-![Port](/img/fr/rdm/mac/Dwl2000.png) 
+![Port](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/Dwl2000.png) 
 1. Saisir la ***Clé de l'application*** . Vos changements ne seront appliqués qu'après le redémarrage de l'application.  
-![Clé de l'application](/img/fr/rdm/mac/Dwl2001.png) 
+![Clé de l'application](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/Dwl2001.png) 
 1. Dans votre navigateur, cliquer sur l'icône {{ fr.DWL }} et accédez à ***Paramètres – Sources de données –*** ***{{ fr.RDM }}*** . 
 1. Dans l'onglet ***Général*** , désactiver ***Utiliser le port par défaut (19443)*** , puis entrer le ***Port*** personnalisé créé précédemment dans {{ fr.RDM }} .  
-![Onglet Général](/img/fr/rdm/mac/Dwl2002.png) 
+![Onglet Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/Dwl2002.png) 
 1. Dans l'onglet ***Avancé*** , entrer la même ***Clé de l'application*** que celle de {{ fr.RDM }} , puis cliquer sur ***Enregistrer*** .  
-![Onglet Avancé](/img/fr/rdm/mac/Dwl2003.png) 
+![Onglet Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/Dwl2003.png) 
 
 
 

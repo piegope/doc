@@ -10,14 +10,14 @@ The main view, which is the one displayed when first opening {{ en.DWL }} in you
 1. The ***Side Menu*** is directly linked to the central panel, as each tab changes what is displayed in the window depending on its function. 
 1. The ***Content Area*** is where information will be displayed and where you can interact with {{ en.DWL }} functionalities corresponding to the different tabs.  
 
-![User Interface Sections](/img/en/rdm/mac/RDMMac2034.png) 
+![User Interface Sections](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2034.png) 
 
 ### Top Menu 
 
 If you use multiple Devolutions products with the extension, you can switch between them using the ***Data Source Selector*** at the left of the ***Top Menu*** . A drop-down list will appear with the other products you have previously paired with {{ en.DWL }} .  
-![Data Source Selector](/img/en/rdm/mac/RDMMac2035.png)  
+![Data Source Selector](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2035.png)  
 At the right of the ***Top Menu*** , the ***Settings*** button opens a new tab in which you can configure your extension. Consult the [full settings list](/rdm/mac/dwl/settings/) .  
-![Settings Button](/img/en/rdm/mac/RDMMac2036.png)  
+![Settings Button](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2036.png)  
 
 ### Side Menu and Content Area 
 

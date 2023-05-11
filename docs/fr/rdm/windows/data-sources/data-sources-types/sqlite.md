@@ -5,7 +5,7 @@ title: SQLite
 	<tr>
 		<td>
 
-![!!DataSourceSQLiteLarge.png](/img/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 La source de données SQLite de {{ fr.RDM }} est idéale pour un seul utilisateur dans des situations autonomes. Plus puissant et plus flexible que le format de fichier XML, il prend également en charge quelques-unes des options avancées de source de données comme les journaux et les pièces jointes. 
@@ -33,7 +33,7 @@ SQLite prend en charge un nombre illimité de lecteurs simultanés, mais n'autor
 
 ### Général 
 
-![SQLite - Général](/img/fr/rdm/windows/clip11345.png) 
+![SQLite - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11345.png) 
 
 <table>
 	<tr>
@@ -97,7 +97,7 @@ Activer l' [Authentification 2 facteurs](/fr/rdm/windows/data-sources/multi-fact
 
 ### Copie de sauvegarde 
 
-![SQLite - Copie de sauvegarde](/img/fr/rdm/windows/clip10784.png) 
+![SQLite - Copie de sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10784.png) 
 
 <table>
 	<tr>
@@ -126,11 +126,11 @@ Choisir entre:
 ### VPN 
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à SQLite .  
-![SQLite - VPN](/img/fr/rdm/windows/SQLiteVPN.png) 
+![SQLite - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/SQLiteVPN.png) 
 
 ### Avancée 
 
-![SQLite - Avancée](/img/fr/rdm/windows/clip10785.png) 
+![SQLite - Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10785.png) 
 
 <table>
 	<tr>

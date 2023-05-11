@@ -10,7 +10,7 @@ In {{ en.RDM }}, to use the Offline Mode with a {{ en.PHUB }} Personal data sour
 ## Steps
 
 1. In {{ en.PHUB }} Personal, go to ***Tools – Settings***.
-![Tools – Settings](/img/en/kb/KB2147.png)
+![Tools – Settings](https://webdevolutions.azureedge.net/docs/en/kb/KB2147.png)
 1. In the ***Allow offline mode*** drop-down menu, select ***Yes***.
-![Allow offline mode](/img/en/kb/KB2148.png)
+![Allow offline mode](https://webdevolutions.azureedge.net/docs/en/kb/KB2148.png)
 1. Click ***Save***.

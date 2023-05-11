@@ -36,13 +36,13 @@ The steps below assume that you already have an RDP session entry. If you have n
 
 1. In the {{ en.DVLS }} web interface, go to the ***Properties*** of your RDP entry.
 1. In the ***VPN/SSH/Gateway*** section, select ***{{ en.DGW }}*** in the ***VPN type*** drop-down list.
-![VPN/SSH/Gateway – VPN type – {{ en.DGW }}](/img/en/kb/KB2220.png)
+![VPN/SSH/Gateway – VPN type – {{ en.DGW }}](https://webdevolutions.azureedge.net/docs/en/kb/KB2220.png)
 1. In the ***Connect*** drop-down list, select ***Connect if unable to pin/port scan***.
-![VPN/SSH/Gateway – Connect – Connect if unable to pin/port scan](/img/en/kb/KB2221.png)
+![VPN/SSH/Gateway – Connect – Connect if unable to pin/port scan](https://webdevolutions.azureedge.net/docs/en/kb/KB2221.png)
 1. Under ***Settings***, select the ***{{ en.DGW }}*** to use for this connection, then click on ***Check Health*** to make sure the Gateway is functional. Its version must be 2023.1 or later.
-![VPN/SSH/Gateway – Settings – {{ en.DGW }}](/img/en/kb/KB2222.png)
+![VPN/SSH/Gateway – Settings – {{ en.DGW }}](https://webdevolutions.azureedge.net/docs/en/kb/KB2222.png)
 1. In the ***Session Recording*** section, make sure the ***Mode*** is **not** set to ***Required***.
-![Session Recording – Mode](/img/en/kb/KB2223.png)
+![Session Recording – Mode](https://webdevolutions.azureedge.net/docs/en/kb/KB2223.png)
 {% snippet icon.badgeInfo %}
 At the moment, the web client does not support session recording. However, we are working on adding this feature in a future version.
 {% endsnippet %}  
@@ -53,11 +53,11 @@ At the moment, the web client does not support session recording. However, we ar
 
 Once all the conditions are met, you can press the ***Open in Web Client (Preview)*** button to launch the connection from the web client.
 
-![Open in Web Client (Preview)](/img/en/kb/KB2163.png)
+![Open in Web Client (Preview)](https://webdevolutions.azureedge.net/docs/en/kb/KB2163.png)
 
 A new browser tab should open and your session should start.
 
-![RDP Session Opened in a Web Client](/img/en/kb/KB2224.png)
+![RDP Session Opened in a Web Client](https://webdevolutions.azureedge.net/docs/en/kb/KB2224.png)
 
 {% snippet icon.badgeHelp %}
 If the connection does not work, check the <a href="#requirements">Requirements</a> again or visit [RDP Web Client Not Showing](/kb/devolutions-server/troubleshooting-articles/rdp-web-client-not-showing/).
@@ -67,7 +67,7 @@ If the connection does not work, check the <a href="#requirements">Requirements<
 
 This feature is still under development. The tools menu in the RDP web interface contains what is currently supported.
 
-![Currently Supported Features](/img/en/kb/KB2225.png)
+![Currently Supported Features](https://webdevolutions.azureedge.net/docs/en/kb/KB2225.png)
 
 <table>
 	<tr>

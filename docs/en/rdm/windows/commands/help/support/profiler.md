@@ -19,14 +19,14 @@ To diagnose startup issues, you can enable the profiler from the command line as
 Holding the Ctrl key while performing the refresh should force a full reload of the data source, recreating the offline cache. 
 {% endsnippet %}
  
-![Performance Profiling](/img/en/rdm/windows/clip10442.png) 
+![Performance Profiling](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10442.png) 
 
 2. The Profiler data will appear in the ***Performance Profiling*** window.  
-![Refresh Data Source](/img/en/rdm/windows/clip10438.png) 
+![Refresh Data Source](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10438.png) 
 1. Click on ***Send Trace to Support*** in order to send the Profiler data logs to our Devolutions support team. You can add a Marker when running multiple tests to separate them. 
 
 ### Debug only 
 
 To learn more about the ***Debug only*** tab please see the Debugging topic.  
-![Debug only](/img/en/rdm/windows/clip10443.png) 
+![Debug only](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10443.png) 
 

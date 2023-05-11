@@ -2,7 +2,7 @@
 title: Sécurité
 ---
 Permet de protéger le coffre avec un mot de passe pour empêcher les modifications effectuées par des administrateurs.  
-![Coffre - Sécurité](/img/fr/server/ServerOp8072.png)  
+![Coffre - Sécurité](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8072.png)  
 
 <table>
 	<tr>

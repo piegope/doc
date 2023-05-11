@@ -23,14 +23,14 @@ Il existe deux façons d'utiliser {{ fr.RDMS }} :
 	<tr>
 		<td>
 
-![!!clip10056.png](/img/fr/server/clip10056.png)  
+![!!clip10056.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10056.png)  
 
 ## Coffre infonuagique  
 
 Accès par le navigateur Web et [{{ fr.DWL }}](/fr/server/dwl/overview/) 
 		</td>
 		<td>
-![Application64x64.png](/img/common/Application64x64.png)  
+![Application64x64.png](https://webdevolutions.azureedge.net/docs/common/Application64x64.png)  
 
 ## Gestion de sessions  
 
@@ -65,17 +65,17 @@ Contrairement au navigateur Web, {{ fr.RDM }} peut lancer des connexions à dist
 	<tr>
 		<td>
 
-![!!clip10054.png](/img/fr/server/clip10054.png)  
+![!!clip10054.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10054.png)  
 
 ### Serveur haut de gamme 
 		</td>
 		<td>
-![!!clip10055.png](/img/fr/server/clip10055.png)  
+![!!clip10055.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10055.png)  
 
 ### Intégration d'Active Directory (AD) 
 		</td>
 		<td>
-![!!clip10057.png](/img/fr/server/clip10057.png)  
+![!!clip10057.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10057.png)  
 
 ### Architecture Web 
 		</td>
@@ -93,17 +93,17 @@ Possibilité de publier {{ fr.RDMS }} soit dans votre intranet, soit sur Interne
 	</tr>
 	<tr>
 		<td>
-![!!clip10050.png](/img/fr/server/clip10050.png)  
+![!!clip10050.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10050.png)  
 
 ### Authentification à deux facteurs 
 		</td>
 		<td>
-![!!clip10062.png](/img/fr/server/clip10062.png)  
+![!!clip10062.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10062.png)  
 
 ### Notifications par courriel 
 		</td>
 		<td>
-![!!clip10060.png](/img/fr/server/clip10060.png)  
+![!!clip10060.png](https://webdevolutions.azureedge.net/docs/fr/server/clip10060.png)  
 
 ### Restrictions par adresse IP 
 		</td>

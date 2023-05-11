@@ -6,7 +6,7 @@ title: Barre des tâches
 ## Menu contextuel de la barre des tâches 
 
 Cliquer avec le bouton droit sur la barre des tâches Windows pour accéder au menu contextuel. Vous pouvez lancer des sessions, modifier la source de données, utiliser la fonction de connexion rapide, etc.  
-![Menu contextuel de la barre des tâches](/img/fr/rdm/windows/clip11271.png) 
+![Menu contextuel de la barre des tâches](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11271.png) 
 
 <table>
 	<tr>

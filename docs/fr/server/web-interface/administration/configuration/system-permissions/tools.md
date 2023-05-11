@@ -3,7 +3,7 @@ title: Outils
 keywords:
 - Rôle
 ---
-![Administration - Permissions du système - Outils](/img/fr/server/clip8054.png)  
+![Administration - Permissions du système - Outils](https://webdevolutions.azureedge.net/docs/fr/server/clip8054.png)  
 
 <table>
 	<tr>

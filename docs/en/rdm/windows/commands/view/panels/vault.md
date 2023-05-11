@@ -2,7 +2,7 @@
 title: Vaults
 ---
 ***{{ en.VLT }}*** are containers for your entries, your credentials, sensitive information, sessions, and more.  
-![Vaults](/img/en/rdm/windows/RDMWin2014.png) 
+![Vaults](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2014.png) 
 
 You will start with two vaults:  
 
@@ -10,5 +10,5 @@ You will start with two vaults:
 * One ***{{ en.PVLT }}*** , which is user-centric and is used to store information such as personal account credentials. The ***{{ en.PVLT }}*** prevents users from using a non-secured tool to manage their personal passwords at work. The ***{{ en.PVLT }}*** can be disabled in ***Administration – System Settings – User Vault*** . 
 
 The two vault types can also be found in the ***{{ en.NPANE }}*** menu.  
-![Navigation Pane Vault Tabs](/img/en/rdm/windows/RDMWin2051.png) 
+![Navigation Pane Vault Tabs](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2051.png) 
 

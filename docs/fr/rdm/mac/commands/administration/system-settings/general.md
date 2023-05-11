@@ -3,7 +3,7 @@ title: Général
 ---
 Dans le menu ***Général*** , vous pourrez gérer différents droits d'accès spécifiques à la source de données.  
 
-![Paramètres du système - Général](/img/fr/rdm/mac/clip4104.png) 
+![Paramètres du système - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4104.png) 
 
 ### Général 
 

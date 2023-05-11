@@ -41,22 +41,22 @@ Items will be selected in the Navigation Pane, this allow you to choose another 
 ### Open items in default mode 
 
 In View - Play List and   select the Play List to open and click on Open  
-![Open Default Mode](/img/en/rdm/mac/clip10115.png) 
+![Open Default Mode](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10115.png) 
 
 ### Open items in Embedded mode 
 
 In View - Play List   select the Play List to open and click on Open Embedded .  
-![Open Embedded Mode](/img/en/rdm/mac/clip10116.png) 
+![Open Embedded Mode](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10116.png) 
 
 ### Open items with Select in Navigation Pane 
 
 In View - Play List select the Play List to open and click on Select in   Navigation Pane . Then select the desired entries in your Navigation Pane using Command + click.  
-![Select in Navigation Pane](/img/en/rdm/mac/clip10117.png) 
+![Select in Navigation Pane](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10117.png) 
 
 ## Menu 
 
 You can use the menu in the Play List Management for multiple options.  
-![Play List Management Menu](/img/en/rdm/mac/clip10118.png) 
+![Play List Management Menu](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10118.png) 
 
 ### Settings 
 
@@ -72,7 +72,7 @@ DESCRIPTION
 	<tr>
 		<td>
 
-![!!clip10119.png](/img/en/rdm/mac/clip10119.png) 
+![!!clip10119.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10119.png) 
 		</td>
 		<td>
 Create a new Play List. 
@@ -80,7 +80,7 @@ Create a new Play List.
 	</tr>
 	<tr>
 		<td>
-![!!clip10120.png](/img/en/rdm/mac/clip10120.png) 
+![!!clip10120.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10120.png) 
 		</td>
 		<td>
 Delete an existing Play List. 
@@ -88,7 +88,7 @@ Delete an existing Play List.
 	</tr>
 	<tr>
 		<td>
-![!!clip10121.png](/img/en/rdm/mac/clip10121.png) 
+![!!clip10121.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10121.png) 
 		</td>
 		<td>
 Edit the selected Play List. 
@@ -96,7 +96,7 @@ Edit the selected Play List.
 	</tr>
 	<tr>
 		<td>
-![!!clip10122.png](/img/en/rdm/mac/clip10122.png) 
+![!!clip10122.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10122.png) 
 		</td>
 		<td>
 Refresh your Play List Management. 
@@ -104,7 +104,7 @@ Refresh your Play List Management.
 	</tr>
 	<tr>
 		<td>
-![!!clip10123.png](/img/en/rdm/mac/clip10123.png) 
+![!!clip10123.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10123.png) 
 		</td>
 		<td>
 Copy the selected Play List. 

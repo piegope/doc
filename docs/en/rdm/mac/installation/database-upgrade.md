@@ -25,9 +25,9 @@ Follow these steps for a successful version update:
 1. Backup your database using the database tools. 
 1. Open {{ en.RDM }} for Mac while logged on as a user with administrative rights. You must also be SYSDBA or DB_OWNER. 
 1. You may be prompted with an upgrade message when your data source is accessed. If so accept the upgrade or using File - Data sources , locate and edit your data source to upgrade.  
-![Edit your data source](/img/en/rdm/mac/clip11015.png) 
+![Edit your data source](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip11015.png) 
 1. Switch to the Upgrade tab, then click on Update Database  
-![Upgrade tab - Upgrade Database](/img/en/rdm/mac/clip11016.png) 
+![Upgrade tab - Upgrade Database](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip11016.png) 
 
 <table>
 	<tr>

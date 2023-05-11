@@ -5,7 +5,7 @@ Dans ***Fichier - Compte Devolutions*** vous pouvez créer et connecter {{ fr.RD
 
 ## Paramètres 
 
-![Compte Devolutions](/img/fr/rdm/windows/clip10026.png) 
+![Compte Devolutions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10026.png) 
 
 ### Compte Devolutions 
 

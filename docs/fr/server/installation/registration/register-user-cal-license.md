@@ -7,10 +7,10 @@ Il existe deux méthodes pour enregistrer votre licence ***LAC utilisateur*** , 
 ### Console {{ fr.DPS }} 
 
 Enregistrer votre licence ***LAC utilisateur*** dans ***Serveur – Modifier – Général – Licence*** .  
-![!!ServerOp4030.png](/img/fr/server/ServerOp4030.png) 
+![!!ServerOp4030.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4030.png) 
 
 ### Interface WEB {{ fr.DPS }} 
 
 Enregistrer la licence ***LAC utilisateur*** dans ***Administration – Licences*** .  
-![!!ServerOp4029.png](/img/fr/server/ServerOp4029.png) 
+![!!ServerOp4029.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4029.png) 
 

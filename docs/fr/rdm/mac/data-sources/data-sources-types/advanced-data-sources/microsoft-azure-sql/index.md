@@ -5,7 +5,7 @@ title: Microsoft SQL Azure
 	<tr>
 		<td>
 
-![!!DataSourceAzureLarge.png](/img/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 Avec une source de données Microsoft Azure SQL, {{ fr.RDM }} pour Mac utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions.  
@@ -50,7 +50,7 @@ Pour configurer une source de données Azure SQL, veuillez lire la rubrique [Con
 
 ### Général 
 
-![Azure SQL - Général](/img/fr/rdm/mac/clip4264.png) 
+![Azure SQL - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4264.png) 
 
 <table>
 	<tr>
@@ -146,7 +146,7 @@ Tester la connexion avec la base de données pour valider si les informations ap
 
 ### Paramètres 
 
-![Azure SQL - Paramètres](/img/fr/rdm/mac/clip4251.png) 
+![Azure SQL - Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4251.png) 
 
 <table>
 	<tr>
@@ -188,7 +188,7 @@ Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement h
 
 ### Avancée 
 
-![Azure SQL- Avancée](/img/fr/rdm/mac/clip4252.png) 
+![Azure SQL- Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4252.png) 
 
 <table>
 	<tr>
@@ -252,7 +252,7 @@ Modifier directement les valeurs de chaîne de connexion..
 
 ### Mise à niveau 
 
-![Azure SQL - Mise à niveau](/img/fr/rdm/mac/clip4253.png) 
+![Azure SQL - Mise à niveau](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4253.png) 
 
 <table>
 	<tr>

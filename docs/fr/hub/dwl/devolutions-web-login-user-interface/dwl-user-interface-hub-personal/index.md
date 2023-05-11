@@ -8,14 +8,14 @@ La vue principale, qui est celle qui s 'affiche lors de la première ouverture d
 1. Le ***Menu supérieur*** vous donne accès à certaines fonctionnalités et certains paramètres de {{ fr.DWL }} . 
 1. Le ***Menu latéral*** est directement lié au panneau central, car chaque onglet modifie ce qui est affiché dans la fenêtre selon sa fonction. 
 1. La ***Zone de contenu*** est l 'endroit où les informations seront affichées et où vous pourrez interagir avec les fonctionnalités de {{ fr.DWL }} correspondant aux différents onglets.  
-![Sections de l'interface utilisateur](/img/fr/hub/Hub2065.png) 
+![Sections de l'interface utilisateur](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2065.png) 
 
 ### Menu supérieur 
 
 Si vous utilisez plusieurs produits Devolutions avec l 'extension, vous pouvez passer de l 'un à l 'autre en utilisant le ***Sélecteur de source de données*** situé à gauche du ***Menu supérieur*** . Une liste déroulante apparaîtra avec les autres produits que vous avez précédemment couplés avec {{ fr.DWL }} .  
-![Sélecteur de source de données](/img/fr/hub/Hub2066.png)  
+![Sélecteur de source de données](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2066.png)  
 À droite du ***Menu supérieur*** , le bouton ***Paramètres*** ouvre un nouvel onglet dans lequel vous pouvez configurer votre extension. Consultez la [liste complète des paramètres](/fr/hub/dwl/settings/) .  
-![Bouton Paramètres](/img/fr/hub/Hub2069.png)  
+![Bouton Paramètres](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2069.png)  
 À côté du bouton ***Paramètres*** se trouve le bouton de votre ***Compte*** . Cette section comporte quelques liens et informations utiles, à savoir :  
 
 * un bouton ***Gérer le compte*** pour voir/modifier votre {{ fr.DA }} via Devolutions Portal;  
@@ -26,12 +26,12 @@ Si vous utilisez plusieurs produits Devolutions avec l 'extension, vous pouvez p
 * un lien vers notre [forum de {{ fr.PHUB }}](https://forum.devolutions.net/product/password-hub) ;  
 * un lien vers notre [Aide en ligne de {{ fr.PHUB }}](/fr/hub/overview/what-is-hub/) ;  
 * la version actuelle de {{ fr.DWL }} .  
-![Bouton Compte](/img/fr/hub/Hub2071.png)  
+![Bouton Compte](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2071.png)  
 
 ### Menu latéral et Zone de contenu 
 
 En utilisant les onglets du ***Menu latéral*** , vous pouvez accéder à diverses fonctionnalités de {{ fr.DWL }} .  
-![Onglets du Menu latéral](/img/fr/hub/Hub2072.png)  
+![Onglets du Menu latéral](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2072.png)  
 Chaque onglet affiche une vue différente dans la ***Zone de contenu*** . Les onglets disponibles lors de l 'utilisation de {{ fr.DWL }} avec {{ fr.PHUB }} Personal sont :  
 
 * l 'onglet ***Corresponsant*** , où vous pouvez trouver les identifiants disponibles pour un site Web spécifique;  

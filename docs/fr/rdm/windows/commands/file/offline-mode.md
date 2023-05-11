@@ -14,7 +14,7 @@ La disponibilité du mode hors ligne dépend de plusieurs paramètres, reportez-
 Le paramètre le plus bas (en termes de sécurité) prévaut sur les autres, ce qui peut vous empêcher d'utiliser le mode hors-ligne. Si le bouton ***Mettre hors-ligne*** n'est pas disponible, veuillez consulter votre administrateur.  
 
 Les [Informations sur la source de données](/fr/rdm/windows/commands/file/my-data-source-information/) affichent la taille du fichier de cache hors ligne ainsi que les modes effectifs (désactivé, lecture seule ou lecture / écriture).  
-![Informations de la source de données - Mode hors connexion](/img/fr/rdm/windows/clip11278.png) 
+![Informations de la source de données - Mode hors connexion](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11278.png) 
 
 Plusieurs fonctionnalités ne sont pas disponibles en mode hors-ligne, telles que:  
 

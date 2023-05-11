@@ -9,4 +9,4 @@ L'onglet ***Général*** vous permet de remplacer le mode d'affichage et les ide
 La substitution d'affichage est disponible que pour le type d'entrée Session. 
 {% endsnippet %}
  
-![Affichage](/img/fr/rdm/mac/clip4060.png) 
+![Affichage](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4060.png) 

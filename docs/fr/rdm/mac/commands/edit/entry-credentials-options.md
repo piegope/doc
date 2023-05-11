@@ -2,7 +2,7 @@
 title: Options d'identifiants
 ---
 Plusieurs options sont disponibles pour les ***Identifiants*** dans vos entrées {{ fr.RDM }}.  
-![!!RDMMac4029.png](/img/fr/rdm/mac/RdmMac4029.png) 
+![!!RDMMac4029.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4029.png) 
 
 <table>
 	<tr>

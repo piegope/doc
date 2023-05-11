@@ -11,7 +11,7 @@ We support native import formats from many popular tools on the market. In case 
 The import feature is only active if the import ***Privileges*** have been enabled inside the user account. 
 {% endsnippet %}
  
-![File – Import](/img/en/rdm/windows/clip11281.png) 
+![File – Import](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11281.png) 
 
 See the following topics to get more information about each option:  
 

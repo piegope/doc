@@ -5,7 +5,7 @@ Utiliser ***Fichier - Préférences - Général*** pour configurer les options l
 
 ## Paramètres 
 
-![Préférences - Général](/img/fr/rdm/mac/RdmMac4007.png) 
+![Préférences - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4007.png) 
 
 ### Général 
 <table>

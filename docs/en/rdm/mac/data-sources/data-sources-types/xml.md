@@ -5,7 +5,7 @@ title: XML
 	<tr>
 		<td>
 
-![!!DataSourceXMLLarge.png](/img/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 {{ en.RDM }} for Mac saves the settings directly in a file with the XML format. 
@@ -31,7 +31,7 @@ All passwords are encrypted by default. You can specify a custom password (maste
 
 ### Connection 
 
-![XML - Connection tab](/img/en/rdm/mac/clip10163.png) 
+![XML - Connection tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10163.png) 
 
 <table>
 	<tr>
@@ -62,7 +62,7 @@ Specify the full path of the XML file used to save the data.  Relative paths and
 
 ### Backup 
 
-![XML - Backup tab](/img/en/rdm/mac/clip10164.png) 
+![XML - Backup tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10164.png) 
 
 <table>
 	<tr>
@@ -98,7 +98,7 @@ Specify the backup name that will allow you to automatically save your sessions 
 
 ### Advanced 
 
-![XML - Advanced tab](/img/en/rdm/mac/clip10502.png) 
+![XML - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10502.png) 
 
 <table>
 	<tr>

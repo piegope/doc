@@ -17,4 +17,4 @@ All entries will be imported in the current folder.
 For some applications, it is not possible to extract the password. 
 {% endsnippet %}
  
-![File – Import – Sessions](/img/en/rdm/windows/clip10036.png) 
+![File – Import – Sessions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10036.png) 

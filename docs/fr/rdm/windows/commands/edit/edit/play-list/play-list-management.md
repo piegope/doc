@@ -6,7 +6,7 @@ title: Gestionnaire de listes d'exécution
 Tout d'abord, ouvrez votre Gestionnaire de listes d'exécution dans ***Modifier - Liste d'exécution - Gestionnaire de listes d'exécution*** .  
 
 Il existe cinq méthodes pour utiliser votre liste d'exécution.  
-![Mode par défaut](/img/fr/rdm/windows/clip10260.png) 
+![Mode par défaut](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10260.png) 
 
 <table>
 	<tr>

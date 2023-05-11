@@ -3,9 +3,9 @@ title: Subscriber Groups
 ---
 The ***Subscriber Groups*** can be used to regroup [Subscribers](/server/web-interface/administration/security-management/notifications/subscribers/) and allow to send [Subscriptions](/server/web-interface/administration/security-management/notifications/subscriptions/) to a group of people and/or syslog servers. 
 
-![Notifications - Subscriber Groups](/img/en/server/ServerOp8072.png)  
+![Notifications - Subscriber Groups](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8072.png)  
 
-![Subscriber Group properties dialog](/img/en/server/ServerOp8157.png)  
+![Subscriber Group properties dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8157.png)  
 
 <table>
 	<tr>

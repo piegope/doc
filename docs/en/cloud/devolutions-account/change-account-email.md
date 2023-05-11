@@ -26,5 +26,4 @@ THIS ACTION CANNOT BE UNDONE!
 Once you have deleted an account, the data and the account information is deleted permanently. 
 {% endsnippet %}  
  
-![!!Cloud4002.png](/img/en/cloud/Cloud4002.png) 
-
+![!!Cloud4002.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4002.png)

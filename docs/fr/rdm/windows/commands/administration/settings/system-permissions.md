@@ -9,7 +9,7 @@ Cette fonctionnalité nécessite une [Source de données avancées](/rdm/windows
  
 ### Entrées 
 
-![Permissions du système - Entrées](/img/fr/rdm/windows/clip3432.png) 
+![Permissions du système - Entrées](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3432.png) 
 
 <table>
 	<tr>
@@ -56,7 +56,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à accéder aux propriétés r
 
 ### Divers 
 
-![Permissions du système - Divers](/img/fr/rdm/windows/clip3434.png) 
+![Permissions du système - Divers](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3434.png) 
 
 <table>
 	<tr>
@@ -111,7 +111,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à restituer les entrées en m
 
 ### Outils 
 
-![Permissions du système - Outils](/img/fr/rdm/windows/clip3621.png) 
+![Permissions du système - Outils](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3621.png) 
 
 <table>
 	<tr>
@@ -170,7 +170,7 @@ Autoriser les utilisateurs/groupes d'utilisateurs à utiliser les outils de gest
 La valeur ***Par défaut*** dans ***Gestion*** est équivalente à ***Jamais*** . 
 {% endsnippet %}
  
-![Permissions du système - Gestion](/img/fr/rdm/windows/clip3433.png) 
+![Permissions du système - Gestion](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3433.png) 
 
 <table>
 	<tr>

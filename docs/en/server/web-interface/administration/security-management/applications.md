@@ -3,9 +3,9 @@ title: Applications
 ---
 The ***Applications*** section will allow to create an application key to communicate with {{ en.DPS }} through the [{{ en.PS }} module](https://www.powershellgallery.com/packages/Devolutions.PowerShell/). 
 
-![Administration – Applications](/img/en/server/ServerOp8031.png)  
+![Administration – Applications](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8031.png)  
 
-![Administration – Applications – New Application](/img/en/server/ServerOp8137.png)  
+![Administration – Applications – New Application](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8137.png)  
 
 <table>
 	<tr>

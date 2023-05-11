@@ -3,7 +3,7 @@ title: Applications Access
 ---
 Allow or deny the user access to different applications and companion tools:  
 
-![Edit User - Applications](/img/en/server/ServerOp7008.png) 
+![Edit User - Applications](https://webdevolutions.azureedge.net/docs/en/server/ServerOp7008.png) 
 
 <table>
 	<tr>

@@ -3,7 +3,7 @@ title: User Groups
 ---
 Grant access to user groups on the vault. 
 
-![Vaults - User Groups](/img/en/server/ServerOp8069.png)  
+![Vaults - User Groups](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8069.png)  
 
 <table>
 	<tr>

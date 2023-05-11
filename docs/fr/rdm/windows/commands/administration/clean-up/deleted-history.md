@@ -14,9 +14,9 @@ Vous devez être administrateur de la source de données pour effectuer cette ac
 ## Paramètres 
 
 1. Sélectionner la date avant laquelle vous souhaitez supprimer définitivement vos entrées supprimées.  
-![Nettoyer l'historique supprimées](/img/fr/rdm/windows/clip10339.png) 
+![Nettoyer l'historique supprimées](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10339.png) 
 1. Confirmer votre choix avant de supprimer définitivement vos entrées supprimées.  
-![Fenêtre de confirmation](/img/fr/rdm/windows/clip11324.png) 
+![Fenêtre de confirmation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11324.png) 
 {% snippet icon.badgeWarning %} 
 Il n'y aura pas de sauvegarde de votre historique. Nous vous recommandons fortement de faire une [Copie de sauvegarde](/rdm/windows/commands/file/backup/) avant de continuer. 
 {% endsnippet %}

@@ -14,23 +14,23 @@ Après l' [installation](fr/rdm/mac/dwl/installation/) de {{ fr.DWL }} et son [c
 ## Paramètres 
 
 1. Cliquer sur l'icône de l'extension {{ fr.DWL }} dans la barre d'outils de votre navigateur, puis cliquer sur l'icône des ***Paramètres*** .  
-![Icône des Paramètres](/img/fr/rdm/mac/RDMMac2039.png) 
+![Icône des Paramètres](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2039.png) 
 1. Cliquer sur ***Général*** dans la section ***Configuration*** .  
-![Paramètes – Configuration – Général](/img/fr/rdm/mac/RDMMac2035.png) 
+![Paramètes – Configuration – Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2035.png) 
 1. Dans l'onglet ***Général*** , le paramètre ***Afficher l'icône dans les champs*** est activé par défaut. S'il n'est pas activé, cocher la case à côté de l'option. 
 {% snippet icon.badgeNotice %} 
 Avec cette option activée, un icône {{ fr.DWL }} sera affiché dans chaque champ d'identifiants des sites Web que vous visitez. Il est ainsi plus facle de sélectionner l'entrée correcte à partir de laquelle récupérer vos identifiants, en particulier lorsque plusieurs entrées sont disponibles. 
 {% endsnippet %}
  
-![Général – Afficher l'icône dans les champs](/img/fr/rdm/mac/RDMMac2036.png) 
+![Général – Afficher l'icône dans les champs](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2036.png) 
 
 4. Cliquer sur ***Enregistrer*** . 
 1. Cliquer sur ***{{ fr.RDM }}*** dans la section des ***Sources de données*** .  
-![Paramètres – Sources de données – Remote Desktop Manager](/img/fr/rdm/mac/RDMMac2037.png) 
+![Paramètres – Sources de données – Remote Desktop Manager](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2037.png) 
 1. Dans l'onglet ***Actions*** , activer les options ***Retrouver les identifiants automatiquement lors du chargement de la page*** et ***Remplir automatiquement les champs d'identifiants lors du chargement*** en cochant leurs cases respectives. Ci-dessous se trouve un description de chaque option : 
 * ***Retrouver les identifiants automatiquement lors du chargement de la page*** (activé par défaut) : Permet à {{ fr.DWL }} de rechercher automatiquement les identifiants disponibles lors du chargement d'une page Web. 
 * ***Remplir automatiquement les champs d'identifiants lors du chargement*** (désactivé par défaut) : Les champs d'identifiants sont automatiquement remplis lors du chargement d'une page Web. Cela ne fonctionne que s'il n'y a qu'une seule entrée d'identifiants pour un site Web donné.  
-![Actions – Retrouver et remplir automatiquement les identifiants lors du chargement](/img/fr/rdm/mac/RDMMac2038.png) 
+![Actions – Retrouver et remplir automatiquement les identifiants lors du chargement](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2038.png) 
 {% snippet icon.badgeInfo %} 
 Si l'option ***Soumettre automatiquement le formulaire après la saisie*** est activée, les identifiants seront automatiquement soumis lorsque les champs sont remplis. Son activation est facultative, car il ne s'agit pas d'une pratique recommandée. 
 {% endsnippet %}
@@ -54,9 +54,9 @@ Vos identifiants peuvent être récupérés de {{ fr.RDM }} pour Mac automatique
 
 1. Aller à la page de connexion du site Web. Cette page sera différente pour chaque site Web; cette section utilisera le site Web d'Atlassian comme exemple. L'un des deux scénarios suivants peut se produire : 
     1. S'il n'y a qu'une seule entrée d'identifiants pour ce site Web, les champs de connexion devraient déjà être remplis avec les identifiants. Si c'est le cas, suivre le processus de connexion du site Web jusqu'à la connexion au compte. L'étape suivante peut alors être sautée.  
-    ![Champs d'identifiants remplis automatiquement](/img/fr/rdm/mac/RDMMac2040.png) 
+    ![Champs d'identifiants remplis automatiquement](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2040.png) 
     1. S'il y a plusieurs entrées d'identifiants disponibles ou si vos identifiants ne sont pas remplis dans les champs, cliquer sur l'icône de {{ fr.DWL }} dans le champ d'identifiant et sélectionner l'entrée qui contient les identifiants pour ce site Web. Si plusieurs entrées sont disponibles, il est possible de faire une recherche en utilisant la barre de ***Filtre*** . Suivre le reste du processus de connexion du site Web jusqu'à la connexion au compte.  
-    ![Filtrer et sélectionner les entrées](/img/fr/rdm/mac/RDMMac2043.png) 
+    ![Filtrer et sélectionner les entrées](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2043.png) 
 
 ### Récupérer les identifiants manuellement 
 
@@ -65,6 +65,6 @@ Selon les options que vous avez activées/désactivées, il est possible que vou
 1. Aller à la page de connexion du site Web. Cette page sera différente pour chaque site Web; cette section utilisera le site Web d'Atlassian comme exemple. 
 1. Cliquer sur l'extension {{ fr.DWL }} dans la barre d'outils de votre navigateur. Les entrées de site Web qui sont liées à ce site Web apparaitront. 
 1. Cliquer sur l'entrée de site Web qui contient les identifiants recherchés pour ce site Web. Si plusieurs entrées sont disponibles, il est possible de faire une recherche en utilisant la barre de ***Filtre*** .  
-![Sélection de l'entrée](/img/fr/rdm/mac/RDMMac2042.png) 
+![Sélection de l'entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2042.png) 
 1. Les identifiants seront transférés dans les champs d'identifiants du site Web. Suivre le reste du processus de connexion du site Web jusqu'à la connexion au compte.  
-![Tranfert des identifiants dans les champs correspondants](/img/fr/rdm/mac/RDMMac2041.png) 
+![Tranfert des identifiants dans les champs correspondants](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2041.png) 

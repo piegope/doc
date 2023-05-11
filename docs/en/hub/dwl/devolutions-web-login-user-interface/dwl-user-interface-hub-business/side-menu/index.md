@@ -16,7 +16,7 @@ The extension opens on the ***Matching*** tab. This is where you will see the li
 For methods of retrieving your credentials, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/retrieve-credentials-hub-business/) . 
 {% endsnippet %}
  
-![Matching Tab](/img/en/hub/Hub2110.png) 
+![Matching Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2110.png) 
 
 At the top, you can use the ***Search*** bar to filter through all your credentials, not just those applicable to the website. You can also use the ***Refresh*** button next to it to update the search results.  
 
@@ -33,7 +33,7 @@ When accessing the ***Vaults*** tab for the first time, you need to select the {
 {% endsnippet %}
  
 The ***Vaults*** tab allows you to browse through all your synchronized vaults for your entries.  
-![Vaults Tab](/img/en/hub/Hub2119.png) 
+![Vaults Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2119.png) 
 
 At the top, you can use the ***Filter*** bar to search through all your vaults for entries.  
 
@@ -44,7 +44,7 @@ When navigating in the folders, the [***Add Website***](/hub/dwl/devolutions-web
 ### User vault tab 
 
 The ***User vault*** tab works the same way as the ***Vaults*** tab, except that you navigate through your ***User vault*** instead of your other vaults. You also do not have to select vaults to synchronize as the only vault available in this tab is your own ***User vault*** .  
-![User Vault Tab](/img/en/hub/Hub2120.png) 
+![User Vault Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2120.png) 
 
 At the top, you can use the ***Filter*** bar to search through all your folders and entries.  
 
@@ -55,15 +55,15 @@ When navigating in the folders, the [***Add Website***](/hub/dwl/devolutions-web
 ### Password Generator tab 
 
 The ***Password Generator*** tab assists you in creating a strong and secure password adapted to your needs and to website requirements for your new account.  
-![Password Generator Tab](/img/en/hub/Hub2111.png) 
+![Password Generator Tab](https://webdevolutions.azureedge.net/docs/en/hub/Hub2111.png) 
 
 Your custom password is generated at the top of the ***Content Area*** with a strenght indicator below it. You can copy it or generate a new one using the ***Copy to Clipboard*** and ***Generate Password*** buttons respectively. The ***Password lenght*** , which is set to 12 by default, can also be adjusted.  
 
 In the ***General*** drop-down section, you are able to select the types of characters that your password must contain as well as the minimum number of characters of each type that must be included.  
-![General Section](/img/en/hub/Hub2114.png) 
+![General Section](https://webdevolutions.azureedge.net/docs/en/hub/Hub2114.png) 
 
 In the ***Advanced*** drop-down section, you are able to further customize your password by entering characters you want included in your password, followed by the minimum number of times they must appear. In the second field, you can also enter characters you want excluded from your password.  
-![Advanced Section](/img/en/hub/Hub2115.png) 
+![Advanced Section](https://webdevolutions.azureedge.net/docs/en/hub/Hub2115.png) 
 
 {% snippet icon.badgeInfo %} 
 To learn how to use the ***Password Generator*** when creating an account on a website, visit [this topic](/hub/dwl/using-devolutions-web-login/using-dwl-with-hub-business/create-account-website-hub-business/) . 
@@ -72,7 +72,7 @@ To learn how to use the ***Password Generator*** when creating an account on a w
 ### Entry functionalities 
 
 No matter what tab you are in (except the ***Password Generator*** tab), when hovering over an entry, three new options appear: the ***Copy Username***, ***Copy Password***, and ***View*** buttons.  
-![Copy Username, Copy Password, and View options](/img/en/hub/Hub2116.png) 
+![Copy Username, Copy Password, and View options](https://webdevolutions.azureedge.net/docs/en/hub/Hub2116.png) 
 
 The ***Copy Username*** and ***Copy Password*** buttons copy the username/password of the entry to your clipboard.  
 
@@ -83,6 +83,6 @@ The ***View*** button gives you an overview of the entry as well as additional f
 * See when the entry was last modified and created under the ***Last Modified On*** and ***Created on*** sections respectively.  
 
 Other information and functionalities will depend on what you provided when creating the entry (username, password, tags, description, etc.).  
-![Entry Overview](/img/en/hub/Hub2118.png) 
+![Entry Overview](https://webdevolutions.azureedge.net/docs/en/hub/Hub2118.png) 
 
 

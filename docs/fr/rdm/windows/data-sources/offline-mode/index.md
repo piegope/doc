@@ -40,7 +40,7 @@ La disponibilité du mode hors ligne repose sur plusieurs paramètres:
 Le paramètre le plus bas (en termes de sécurité) prévaut sur les autres, ce qui peut vous empêcher d'utiliser le mode hors ligne. Si le bouton ***Mettre hors-ligne*** n'est pas disponible, veuillez consulter votre administrateur.  
 
 Dans ***Fichier – Informations sur la source de données*** , le ***Mode hors ligne*** affiche la taille du fichier hors ligne ainsi que le mode effectif (désactivé, en lecture seule ou accessible en écriture).  
-![Fichier – Informations de la source de données – Mode hors ligne](/img/fr/rdm/windows/clip11278.png) 
+![Fichier – Informations de la source de données – Mode hors ligne](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11278.png) 
 
 ### Mode de la cache 
 
@@ -50,7 +50,7 @@ Le mode de mise en cache doit être défini sur ***En mémoire*** ou ***Fichier*
 Cette étape ne peut pas être modifiée à distance une fois que vous avez exporté vos paramètres de source de données. Vous devriez prendre un moment et réfléchir aux besoins de votre source de données et sélectionner ce qui est approprié avant de passer à l'exportation. 
 {% endsnippet %}
  
-![Mode de la cache](/img/fr/rdm/windows/clip3581.png) 
+![Mode de la cache](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3581.png) 
 
 <table>
 	<tr>

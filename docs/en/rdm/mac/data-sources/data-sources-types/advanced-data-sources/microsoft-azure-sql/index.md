@@ -5,7 +5,7 @@ title: Microsoft SQL Azure
 	<tr>
 		<td>
 
-![!!DataSourceAzureLarge.png](/img/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 With a Microsoft Azure SQL data source, {{ en.RDM }} for Mac uses the Microsoft cloud platform to save and manage entries.  
@@ -50,7 +50,7 @@ Consult the [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advan
 
 ### General 
 
-![!!RDMMac4027.png](/img/en/rdm/mac/RdmMac4027.png) 
+![!!RDMMac4027.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4027.png) 
 
 <table>
 	<tr>
@@ -138,7 +138,7 @@ Test the connection with the database to validate if the proper information has 
 
 ### Settings 
 
-![!!RDMMac4028.png](/img/en/rdm/mac/RdmMac4028.png) 
+![!!RDMMac4028.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4028.png) 
 
 <table>
 	<tr>
@@ -181,7 +181,7 @@ Use the data source in offline mode when the ping method does not respond.
 
 ### {{ en.PVLT }} 
 
-![!!RDMMac4030.png](/img/en/rdm/mac/RdmMac4030.png) 
+![!!RDMMac4030.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4030.png) 
 
 <table>
 	<tr>
@@ -209,7 +209,7 @@ Select the type of {{ en.PVLT }} to use. Select between:
 
 ### Upgrade 
 
-![!!RDMMac4029.png](/img/en/rdm/mac/RdmMac4029.png) 
+![!!RDMMac4029.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4029.png) 
 
 <table>
 	<tr>
@@ -257,11 +257,11 @@ Send your schema to the Devolutions Support team.
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database.  
-![!!RDMMac4031.png](/img/en/rdm/mac/RdmMac4031.png) 
+![!!RDMMac4031.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4031.png) 
 
 ### Advanced 
 
-![!!RDMMac4032.png](/img/en/rdm/mac/RdmMac4032.png) 
+![!!RDMMac4032.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4032.png) 
 
 <table>
 	<tr>

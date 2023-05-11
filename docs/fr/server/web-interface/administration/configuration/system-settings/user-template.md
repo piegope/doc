@@ -2,7 +2,7 @@
 title: Modèle utilisateur
 ---
 Cette section définira le modèle d'utilisateur pour la fonction de création automatique d'utilisateurs.  
-![Administration – Paramètres du système – Modèle utilisateur](/img/fr/server/ServerOp8033.png) 
+![Administration – Paramètres du système – Modèle utilisateur](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8033.png) 
 
 <table>
 	<tr>

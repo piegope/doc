@@ -2,7 +2,7 @@
 title: Advanced Options
 ---
 Use File – Preferences – Advanced to control the behavior of the application with respect to the lower level settings.  
-![File – Preferences – Advanced](/img/en/rdm/mac/clip10443.png) 
+![File – Preferences – Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10443.png) 
 
 ## Settings 
 <table>

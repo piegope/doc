@@ -32,9 +32,9 @@ L'application d'un nouveau fournisseur de sécurité traite toute la base de don
 {% endsnippet %}
  
 1. Cliquer sur ***Modifier les paramètres de sécurité*** pour changer le fournisseur de sécurité.  
-![Fourniseur de sécurité](/img/fr/rdm/windows/clip10284.png) 
+![Fourniseur de sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10284.png) 
 1. Sélectionner votre nouveau ***Type de sécurité*** dans le menu déroulant.  
-![Type de sécurité](/img/fr/rdm/windows/clip10285.png) 
+![Type de sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10285.png) 
 
 <table>
 	<tr>
@@ -77,7 +77,7 @@ Configurer un certificat pour le fournisseur de sécurité.
 Si la phrase secrète est perdue, rien ne peut être fait pour récupérer les données. Copiez-le toujours dans un endroit sûr lors de sa création. 
 {% endsnippet %}
  
-![Fournisseur de sécurité - Phrase secrète](/img/fr/rdm/windows/clip3436.png) 
+![Fournisseur de sécurité - Phrase secrète](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3436.png) 
 
 Toutes les données de configuration des entrées sont cryptées avec un mélange de clés stockées dans {{ fr.RDM }} et la phrase secrète que vous avez entrée. La phrase secrète est requise que lors de la configuration de la source de données.  
 
@@ -86,7 +86,7 @@ Une stratégie peut être activée pour toujours demander la phrase secrète lor
 ## Certificate 
 
 Si vous avez choisi le ***Certificate*** comme fournisseur de sécurité, il cryptera les données de configuration d'entrée avec un mélange de clés stockées dans {{ fr.RDM }} et la clé privée contenue dans le certificat.  
-![Fournisseur de certificat de sécurité](/img/fr/rdm/windows/clip10286.png) 
+![Fournisseur de certificat de sécurité](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10286.png) 
 
 <table>
 	<tr>
@@ -139,7 +139,7 @@ Sélectionner un certificat RSA qui existe déjà pour l'utiliser dans le chiffr
 ### Créer un certificat 
 
 Il est possible de créer un certificat auto-signé en cliquant sur ***Créer le certificat*** .  
-![Certificat d'auto-signature](/img/fr/rdm/windows/clip10288.png) 
+![Certificat d'auto-signature](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10288.png) 
 
 <table>
 	<tr>

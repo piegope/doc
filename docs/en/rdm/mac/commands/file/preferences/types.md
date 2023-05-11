@@ -5,7 +5,7 @@ Use File - Preferences - Types to control settings applied to Session entries.
 
 ## Settings 
 
-![Preferences - Types](/img/en/rdm/mac/clip10319.png) 
+![Preferences - Types](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10319.png) 
 
 ### Session Type 
 

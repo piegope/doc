@@ -19,6 +19,6 @@ The feature for using ***Documentation*** in offline mode is available for docum
 Enable the ***Synchronize document to offline*** in the ***Security Settings*** . This property is set to be inherited by default. 
 {% endsnippet %}
  
-![!!clip3488.png](/img/en/rdm/windows/clip3488.png) 
+![!!clip3488.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3488.png) 
 
 

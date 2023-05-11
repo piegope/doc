@@ -10,7 +10,7 @@ There are three types of tools:
 * Build in tools 
 * Add-on session tools 
 * Session script tools  
-![Dashboard tabs - Macros/Scripts/Tools](/img/en/rdm/mac/clip6060.png) 
+![Dashboard tabs - Macros/Scripts/Tools](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6060.png) 
 
 ### Built-in Tools 
 

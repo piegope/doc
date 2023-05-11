@@ -2,7 +2,7 @@
 title: Layout
 ---
 The ***Layout*** section located in the ***View*** tab includes several options for changing the display of {{ en.RDM }} . It is possible to enable/disable certain windows and tabs to customize your experience.  
-![Layout Section](/img/en/rdm/windows/RDMWin2026.png) 
+![Layout Section](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2026.png) 
 
 Most tabbed windows can be moved and docked as you wish. This applies to the default styles ( ***Ribbon*** or ***Menu*** ). To learn more about this feature, see our [Docking](/rdm/windows/user-interface/customization/docking/) topic. The table below lists each option available in this section and provides a brief description of each. 
 

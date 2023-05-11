@@ -19,7 +19,7 @@ Use the servers defined Azure Active Directory Admin to create your first {{ en.
 
 ## Settings 
 
-![!!RdmWin4055.png](/img/en/rdm/windows/RdmWin4055.png)  
+![!!RdmWin4055.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4055.png)  
 
 1. Select ***Active Directory Interactive (with MFA Support)*** from the ***Login mode*** drop-down menu. 
 1. You can specify how you want {{ en.RDM }} to interact with Azure AD during the authentication. 
@@ -64,7 +64,7 @@ On first connect, the username must be the Active Directory Admin as defined in 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-![!!RdmWin4034.png](/img/en/rdm/windows/RdmWin4034.png) 
+![!!RdmWin4034.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4034.png) 
 If you get this message error: Unable to connect to the database! Login failed for user '<token-identified principal>' it is because you are not using the ***Active Directory admin*** email you created in the Microsoft Azure SQL databases. 
 {% endsnippet %}
  
@@ -75,6 +75,6 @@ When you receive this error: ***AADSTS70001 - Application with Identifier was no
 Validate that your ***Application ID*** in {{ en.RDM }} is identical to the ***App Registration's Application (client) ID*** (step 11 of [Create an Azure Active Directory App Registration](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/) ). 
 {% endsnippet %}
  
-![App Registration](/img/en/rdm/windows/clip5010.png) 
+![App Registration](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5010.png) 
 5. Configure the database to authenticate in the ***Database*** field. 
 

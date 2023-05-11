@@ -16,7 +16,7 @@ Vous pouvez également utiliser le menu contextuel pour créer et modifier votre
 ### Utiliser le gestionnaire de listes d'exécution 
 
 Vous pouvez y accéder en sélectionnant ***Gestionnaire de la liste d'exécution*** dans le ruban ***Modifier*** .  
-![Gestionnaire de listes d'exécution](/img/fr/rdm/windows/clip10253.png) 
+![Gestionnaire de listes d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10253.png) 
 
 Les Listes d'exécution peuvent être enregistrées de trois manières différentes: 
 
@@ -60,9 +60,9 @@ La Liste d'exécution est enregistrée dans votre {{ fr.PVLT }} et n'est accessi
 ### Créer une liste d'exécution en fonction de l'état et de la sélection des entrées 
 
 1. Si vous souhaitez prédéterminer une liste d'entrées, sélectionner-les pour votre liste d'exécution dans le volet de navigation.  
-![Sélection d'entrées dans le volet de navigation](/img/fr/rdm/windows/clip10902.png) 
+![Sélection d'entrées dans le volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10902.png) 
 1. Dans le menu du ruban ***Modifier*** , cliquer sur ***Liste d'exécution*** , puis sélectionner le paramètre que vous préférez.  
-![Modifier - Liste d'exécution - Nouveau](/img/fr/rdm/windows/clip10792.png) 
+![Modifier - Liste d'exécution - Nouveau](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10792.png) 
 
 <table>
 	<tr>
@@ -100,9 +100,9 @@ Ouvre le Gestionnaire de listes d'exécution avec les dernières connexions ouve
 </table>
 
 3. Choisir si vous souhaitez enregistrer votre Liste d'exécution localement, dans un coffre partagé ou dans votre {{ fr.PVLT }} . L'enregistrer localement ouvrira une fenêtre différente. Cette fenêtre contiendra tout le nécessaire pour une Liste d'exécution local.  
-![Enregistrer la Liste d'exécution](/img/fr/rdm/windows/clip10255.png) 
+![Enregistrer la Liste d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10255.png) 
 1. La fenêtre suivante vous permet de choisir comment vous voulez que votre sélection actuelle ou les sessions ouvertes affectent votre Liste d'exécution.  
-![Selection des entrées dans le volet de navigation](/img/fr/rdm/windows/clip10256.png) 
+![Selection des entrées dans le volet de navigation](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10256.png) 
 
 <table>
 	<tr>
@@ -143,14 +143,14 @@ Aucune sélection prédéterminée ne sera prise en compte, créez votre Liste d
 	a. Saisir un nom pour votre liste d'exécution.  
 	b. Vous pouvez consulter, ajouter ou supprimer des entrées de la liste d'exécution sur l'onglet ***Connexions*** .  
 	c. Dans ***Avancée*** , vous pouvez définir la façon dont les entrées s'ouvrent.  
-	![Éditeur de liste d'exécution](/img/fr/rdm/windows/clip10787.png) 
+	![Éditeur de liste d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10787.png) 
 
 ### Modifier une liste d'exécution existante 
 
 1. Dans ***Modifier*** , cliquer sur ***Gestionnaire de listes d'exécution*** .  
-![Modifier - Gestionnaire de listes d'exécution](/img/fr/rdm/windows/clip11490.png) 
+![Modifier - Gestionnaire de listes d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11490.png) 
 1. Sélectionner la liste d'exécution que vous souhaitez modifier et cliquer sur ***Modifier*** .  
-![Gestionnaire de listes d'exécution](/img/fr/rdm/windows/clip10259.png) 
+![Gestionnaire de listes d'exécution](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10259.png) 
 
 {% snippet icon.badgeInfo %} 
 Si la liste d'exécution est partagée ou enregistrée dans votre {{ fr.PVLT }} , vous pouvez également cliquer avec le bouton droit sur l'entrée et cliquer sur Propriétés pour y accéder. 

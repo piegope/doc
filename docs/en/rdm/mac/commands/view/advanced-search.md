@@ -2,10 +2,10 @@
 title: Advanced Search
 ---
 The Advanced Search allows you to search for entries and folders based on multiple criteria in one vault at a time. To search multiple vaults simultaneously, please refer to the [***Multi Vault Search***](/rdm/mac/commands/view/multi-vault-search/) topic.  
-![Advanced Search](/img/en/rdm/mac/RDMMac0027.png) 
+![Advanced Search](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac0027.png) 
 
 It is possible to select multiple entries at once by shift-clicking or all of them with the Cmd+A shortcut. Right-clicking one or more entries shows the same menu and options as in the ***{{ en.NPANE }}*** .  
-![Advanced Search Window](/img/en/rdm/mac/clip10358.png) 
+![Advanced Search Window](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10358.png) 
 
 ### Search tab 
 

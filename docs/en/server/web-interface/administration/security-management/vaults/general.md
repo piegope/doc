@@ -1,7 +1,7 @@
 ---
 title: General
 ---
-![Vaults - General](/img/en/server/ServerOp8062.png)
+![Vaults - General](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8062.png)
 
 <table>
 	<tr>

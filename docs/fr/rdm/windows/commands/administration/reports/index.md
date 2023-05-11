@@ -7,7 +7,7 @@ La section ***Rapports*** génère automatiquement des rapports concernant vos i
 Consulter la rubrique [Tableau de bord de la sécurité {{ fr.RDM }}](/fr/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/) pour en savoir plus sur le rapport ***Sécurité des applications et des sources de données*** . 
 {% endsnippet %}
  
-![Générer le rapport](/img/fr/rdm/windows/clip10335.png) 
+![Générer le rapport](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10335.png) 
 
 Dans cette fenêtre, vous pouvez parcourir et sélectionner une grande variété de types de rapports.  
 

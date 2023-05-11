@@ -8,7 +8,7 @@ Après l’installation de {{ fr.RDM }} , il faut configurer vos entrées. Il ex
 ## Créer une entrée à partir du menu contextuel 
 
 Dans la fenêtre principale de l’application, cliquer avec le bouton droit sur le nom de la source de données et sélectionner ***Ajouter*** . Pour initialiser une nouvelle session, vous pouvez spécifier soit le type de session ou choisir un modèle. Vous pourrez personnaliser vos paramètres dans la fenêtre des propriétés de la session.  
-![!!clip11224.png](/img/fr/rdm/windows/clip11224.png) 
+![!!clip11224.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11224.png) 
 
 ## Créer une entrée à l’aide de glisser-déposer 
 

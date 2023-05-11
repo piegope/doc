@@ -29,7 +29,7 @@ The command output will be formatted in JSON format.
 
 **Examples:**
 
-![Devolutions Server CLI examples](/img/en/kb/KB8006.png) 
+![Devolutions Server CLI examples](https://webdevolutions.azureedge.net/docs/en/kb/KB8006.png) 
 
 ## Get 
 
@@ -39,7 +39,7 @@ Returns the credentials of an entry based on its id.
 
 The entry's id can be found in its advance property or in the last part of its URL.  
 
-![Entry ID](/img/en/kb/KB4351.png) 
+![Entry ID](https://webdevolutions.azureedge.net/docs/en/kb/KB4351.png) 
 
 **Options:**
 
@@ -79,7 +79,7 @@ DPS> get 4574725f-0d24-4cbc-a116-a5270179e251 -p
 12345
 ```
 
-![GET Command Line Interface examples](/img/en/kb/KB4352.png) 
+![GET Command Line Interface examples](https://webdevolutions.azureedge.net/docs/en/kb/KB4352.png) 
 
 ## Login 
 
@@ -88,11 +88,11 @@ DPS> get 4574725f-0d24-4cbc-a116-a5270179e251 -p
 First parameter: the username (the key, if the user is of the type application)  
 Second parameter: the password (the secret, if the user is of the type application)  
 
-![Application – General](/img/en/kb/KB4353.png) 
+![Application – General](https://webdevolutions.azureedge.net/docs/en/kb/KB4353.png) 
 
 The user/application must have the right to use the CLI  
 
-![Edit user – Applications](/img/en/kb/KB4354.png) 
+![Edit user – Applications](https://webdevolutions.azureedge.net/docs/en/kb/KB4354.png) 
 
 **Options:**
 
@@ -104,13 +104,13 @@ The command output will be formatted in JSON format.
 
 `DPS> login dsavard 12345`
 
-![Command Line Interface examples](/img/en/kb/KB4355.png)
+![Command Line Interface examples](https://webdevolutions.azureedge.net/docs/en/kb/KB4355.png)
 
 ## Logout
 
 Logout the current user.
 
-![Command Line Interface examples](/img/en/kb/KB4356.png)
+![Command Line Interface examples](https://webdevolutions.azureedge.net/docs/en/kb/KB4356.png)
 
 ## Set
 
@@ -120,7 +120,7 @@ Update the credentials of an entry.
 
 The entry's id can be found in its advance property or in the last part of its URL.
 
-![Credentials – Username / Password – Advanced](/img/en/kb/KB4357.png) 
+![Credentials – Username / Password – Advanced](https://webdevolutions.azureedge.net/docs/en/kb/KB4357.png) 
 
 **Options:**
 
@@ -146,4 +146,4 @@ Update the password.
 
 Entry has been successfully updated
 
-![Command Line Interface examples](/img/en/kb/KB4358.png) 
+![Command Line Interface examples](https://webdevolutions.azureedge.net/docs/en/kb/KB4358.png) 

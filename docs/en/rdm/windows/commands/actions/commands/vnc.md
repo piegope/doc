@@ -5,7 +5,7 @@ The VNC Commands allow you to send remote commands to your host. You will also n
 
 ## Settings 
 
-![VNC Commands](/img/en/rdm/windows/clip11290.png) 
+![VNC Commands](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11290.png) 
 
 <table>
 	<tr>

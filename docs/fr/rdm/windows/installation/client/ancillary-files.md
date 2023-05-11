@@ -150,4 +150,4 @@ Aucun
 ### Option de la liste d'exécution locale et hors-ligne 
 
 Les options de la liste d'exécution hors-ligne et locale sont accessibles en accédant Fichiers – Options – Avancée. 
-![Options - Advancée](/img/fr/rdm/windows/clip11275.png)
+![Options - Advancée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11275.png)

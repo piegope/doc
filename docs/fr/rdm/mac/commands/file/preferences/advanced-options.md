@@ -2,7 +2,7 @@
 title: Options avancées
 ---
 Utilisez ***Fichier – Paramètres – Avancé*** pour contrôler le comportement de l'application en ce qui concerne les paramètres de niveau inférieur.  
-![Fichier – Préférences – Avancé](/img/fr/rdm/mac/clip4204.png) 
+![Fichier – Préférences – Avancé](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4204.png) 
 
 ## Paramètres 
 <table>

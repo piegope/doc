@@ -20,7 +20,7 @@ Sub-connections are not retained in the View Deleted window. To restore a sub-co
 ### Manage Deleted Entries 
 
 The ***Deleted Entries*** will generate a list containing all the entries previously deleted from your data source. You may resurrect an entry, meaning it will become an active entry again and will be shown in your data source. You may also chose to permanently delete your entries, once you have permanently deleted your entries you won't be able to resurrect them afterward.  
-![Deleted Entries](/img/en/rdm/windows/clip10308.png) 
+![Deleted Entries](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10308.png) 
 
 <table>
 	<tr>

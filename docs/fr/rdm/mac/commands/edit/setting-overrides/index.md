@@ -5,7 +5,7 @@ Les paramètres spécifiques sont utilisés pour remplacer les paramètres spéc
 
 ## Paramètres 
 
-![Modifier - Paramètres spécifiques](/img/fr/rdm/mac/clip4055.png) 
+![Modifier - Paramètres spécifiques](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4055.png) 
 
 <table>
 	<tr>

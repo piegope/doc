@@ -5,9 +5,9 @@ keywords:
 ---
 The ***Subscriptions*** are intended to send email according to activities on {{ en.RDMS }} . It could be activities on entries, user accounts, system settings, etc. 
 
-![Notifications - Subscriptions](/img/en/server/ServerOp8073.png)  
+![Notifications - Subscriptions](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8073.png)  
 
-![Subscription properties dialog](/img/en/server/ServerOp8158.png)  
+![Subscription properties dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8158.png)  
 
 <table>
 	<tr>

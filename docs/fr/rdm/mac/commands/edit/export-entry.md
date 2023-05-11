@@ -5,7 +5,7 @@ Utiliser les options d'exportation pour exporter les entrées sélectionnées de
 
 ## Paramètres 
 
-![Modifier - Exporter](/img/fr/rdm/mac/clip4078.png) 
+![Modifier - Exporter](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4078.png) 
 
 <table>
 	<tr>

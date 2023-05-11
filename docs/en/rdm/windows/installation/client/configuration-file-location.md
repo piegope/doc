@@ -10,7 +10,7 @@ keywords:
 You can retrieve the installation folder of {{ en.RDM }} by clicking File – Options – Advanced . A hyperlink displays the installation folder. 
 {% endsnippet %}
  
-![Options - Advanced](/img/en/rdm/windows/clip10436.png) 
+![Options - Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10436.png) 
 
 The configuration file can be located in different folders depending on certain conditions: 
 

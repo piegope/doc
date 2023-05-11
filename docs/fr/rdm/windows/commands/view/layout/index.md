@@ -2,7 +2,7 @@
 title: Disposition
 ---
 La section ***Disposition*** , qui se situe dans l'onglet ***Affichage*** , comprend plusieurs options pour modifier l'affichage de {{ fr.RDM }} . Il est possible d'y activer/désactiver certaines fenêtres et certains onglets pour personnaliser votre expérience.  
-![Section Disposition](/img/fr/rdm/windows/RDMWin2027.png) 
+![Section Disposition](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2027.png) 
 
 La plupart des fenêtres à onglets peuvent être déplacées et ancrées à votre guise. Cela s'applique aux styles par défaut ( ***Ruban*** ou ***Menu*** ). Pour en apprendre davantage sur cette fonction, consultez notre rubrique [Ancrage](/fr/rdm/windows/user-interface/customization/docking/) . Le tableau ci-dessous énumère chaque option disponible dans cette section et fournit une brève description de chacune. 
 

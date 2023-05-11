@@ -19,7 +19,7 @@ Utiliser les serveurs définis par l'admin Azure Active Directory pour créer vo
 
 ## Paramètres 
 
-![!!RdmWin4111.png](/img/fr/rdm/windows/RdmWin4111.png) 
+![!!RdmWin4111.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4111.png) 
 
 1. Sélectionner Active Directory Interactive (avec MFA pris en charge) dans le menu déroulant Mode de connexion . 
 1. Vous pouvez spécifier la manière dont vous souhaitez que RDM interagisse avec Azure AD pendant l'authentification. 
@@ -68,7 +68,7 @@ Lors de la première connexion, le nom d'utilisateur doit être l'administrateur
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-![!!RdmWin4032.png](/img/fr/rdm/windows/RdmWin4032.png) 
+![!!RdmWin4032.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4032.png) 
 
 Si vous obtenez ce message d'erreur: Unable to connect to the database! Login failed for user '<token-identified principal>' c'est parce que vous n'utilisez pas le courriel d' ***Active Directory admin*** que vous avez créé dans Microsoft Azure SQL databases. 
 {% endsnippet %}
@@ -82,6 +82,6 @@ Lorsque vous recevez cette erreur: ***AADSTS70001 - Application with Identifier 
 Vérifier que votre ***ID d'application*** dans RDM est identique à l' ***App Registration's Application (client) ID*** (étape 11 de [Créer une inscription d'application Azure Active Directory](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/create-app-registration/) ) 
 {% endsnippet %}
  
-![Inscription d'application](/img/fr/rdm/windows/clip5010.png) 
+![Inscription d'application](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip5010.png) 
 5. Configurer la base de données pour vous authentifier dans le champ ***Base de données*** . 
 

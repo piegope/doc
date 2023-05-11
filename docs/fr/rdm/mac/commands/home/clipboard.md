@@ -14,7 +14,7 @@ Lors de l'utilisation d'une [Sources de données avancées](/fr/rdm/mac/data-sou
 
 ## Paramètres 
 
-![Accueil - Presse-papiers](/img/fr/rdm/mac/clip4042.png) 
+![Accueil - Presse-papiers](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4042.png) 
 
 ### Copier le nom d'utilisateur 
 

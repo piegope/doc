@@ -14,7 +14,7 @@ Use the servers defined Azure Active Directory Admin to create your first RDM ad
 
 ## Settings 
 
-![Azure with MFA](/img/en/rdm/windows/clip5009.png) 
+![Azure with MFA](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5009.png) 
 
 1. Select ***Active Directory Interactive (with MFA Support)*** from the ***Login mode*** dropdown menu. 
 1. In the ***Username*** field, paste the ***Active Directory admin*** email you created in the Microsoft Azure SQL databases. 
@@ -23,7 +23,7 @@ On first connect, the username must be the Active Directory Admin as defined in 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-![!!RdmWin4034.png](/img/en/rdm/windows/RdmWin4034.png) 
+![!!RdmWin4034.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4034.png) 
 If you get this message error: Unable to connect to the database! Login failed for user '<token-identified principal>' double check the username for spelling errors. 
 {% endsnippet %}
  

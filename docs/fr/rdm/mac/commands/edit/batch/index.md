@@ -2,7 +2,7 @@
 title: Modifier le lot
 ---
 Utiliser l'option ***Modifier - Modifier le lot*** dans le menu contextuel ou le ruban pour modifier les paramètres de plusieurs sessions en une seule opération. Il peut être utilisé par exemple pour supprimer ou mettre à jour tous les identifiants d'un groupe de sessions.  
-![Modifier - Modifier le lot](/img/fr/rdm/mac/clip4068.png) 
+![Modifier - Modifier le lot](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4068.png) 
 
 Vous pouvez également modifier:  
 
@@ -17,7 +17,7 @@ Vous pouvez également modifier:
 ## Recherche avancée 
 
 Vous pouvez sélectionner plusieurs entrées dans le volet de navigation. Pour une méthode avec un peu plus de puissance, utiliser notre boîte de dialogue [Recheche avancée](/fr/rdm/mac/commands/view/advanced-search/) , accessible depuis ***Affichage - Recherche avancée*** . La recherche avancée vous permet de sélectionner plusieurs critères à la fois.  
-![Recherche avancée](/img/fr/rdm/mac/clip5068.png) 
+![Recherche avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip5068.png) 
 
 Après avoir modifié vos critères pour obtenir les résultats souhaités, appuyer sur ***Sélectionner dans le volet de navigation*** , puis sur ***Modifier - Modier par lot*** . 
 
@@ -25,14 +25,14 @@ Après avoir modifié vos critères pour obtenir les résultats souhaités, appu
 
 ### Modifier le nom d'hôte enregistré 
 
-![Changer vos noms d'hôtes](/img/fr/rdm/mac/clip0094.png) 
+![Changer vos noms d'hôtes](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0094.png) 
 
 Vous pouvez modifier plusieurs noms d'hôte en même temps. 
 
 ### Modifier les identifiants sauvegardés 
 
 Vous pouvez modifier les identifiants configurés pour plusieurs sessions dans un lot.  
-![Modifier vos identifiants](/img/fr/rdm/mac/clip5069.png) 
+![Modifier vos identifiants](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip5069.png) 
 
 <table>
 	<tr>
@@ -103,7 +103,7 @@ Effacer tous les mots de passe existants pour les sessions sélectionnées.
 
 ### Modifier les entrées (paramètres généraux) 
 
-![Modifier les entrées (paramètres généraux)](/img/fr/rdm/mac/clip4070.png) 
+![Modifier les entrées (paramètres généraux)](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4070.png) 
 
 ***Modifier les entrées (paramètres généraux)*** vous permet de modifier simultanément les paramètres des sessions courantes. La session peut être de n'importe quel type, car un ensemble commun d'options est partagé entre les sessions. Les paramètres généraux communs suivants peuvent être modifiés:  
 
@@ -123,15 +123,15 @@ Effacer tous les mots de passe existants pour les sessions sélectionnées.
 ***Modifier les entrées (paramètres du type de session)*** est disponible que pour des types de sessions spécifiques comme RDP. 
 {% endsnippet %}
  
-![Modifier les entrées (paramètres du type de session)](/img/fr/rdm/mac/clip4069.png) 
+![Modifier les entrées (paramètres du type de session)](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4069.png) 
 
 ### Modifier les entrées (paramètres spécifiques de l'utilisateur) 
 
 Les ***Paramètres spécifiques à l'utilisateur*** peuvent être modifiés dans un lot s'ils sont pris en charge par le type de session.  
-![Modifier les entrées (paramètres spécifiques de l'utilisateur)](/img/fr/rdm/mac/clip4073.png) 
+![Modifier les entrées (paramètres spécifiques de l'utilisateur)](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4073.png) 
 
 ### Modifier les entrées (groupe de sécurité) 
 
 Utiliser l'option ***Modifier les entrées (groupe de sécurité)*** pour appliquer un nouveau groupe de sécurité sur plusieurs sessions. 
-![Modifier les entrées (groupe de sécurité)](/img/fr/rdm/mac/clip0100.png) 
+![Modifier les entrées (groupe de sécurité)](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0100.png) 
 

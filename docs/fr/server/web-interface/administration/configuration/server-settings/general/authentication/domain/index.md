@@ -4,7 +4,7 @@ order: 10
 ---
 Le domaine est utilisé pour authentifier l'utilisateur. C'est le plus sûr, le plus flexible et le plus simple à gérer . Pas besoin de synchroniser les utilisateurs entre le domaine et {{ fr.RDMS }} . Lors de la première utilisation de la source de données {{ fr.RDMS }} , l'utilisateur sera créé et se verra attribuer des droits d'accès en fonction de son rôle dans l'organisation tel que défini sur le domaine. Vous devez accorder les autorisations appropriées à vos groupes d'utilisateurs dans {{ fr.RDMS }} . Lors de l'authentification, nous validerons les groupes AD auxquels appartient l'utilisateur et pour tous ceux qui ont un groupe correspondant, nous accorderons les permissions à l'utilisateur. 
 
-![Authentification de domaine](/img/fr/server/AuthenticationDomain.png) 
+![Authentification de domaine](https://webdevolutions.azureedge.net/docs/fr/server/AuthenticationDomain.png) 
 
 ## Paramètres 
 

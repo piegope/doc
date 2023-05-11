@@ -5,7 +5,7 @@ Use File - Preferences - User Interface to configure options related to the user
 
 ## Settings 
 
-![Preferences - User Interface](/img/en/rdm/mac/clip10318.png) 
+![Preferences - User Interface](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10318.png) 
 
 ### Context Menu 
 

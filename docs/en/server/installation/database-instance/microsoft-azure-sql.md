@@ -5,4 +5,4 @@ Create an empty SQL database on your Microsoft Azure SQL portal. Provide enough 
 
 Once all fields are properly configured in ***Server – Edit – Database*** , click on the ***Update Database*** button to update the database schema. 
 
-![Devolutions Server Console - Database](/img/en/server/ServerOp8132.png) 
+![Devolutions Server Console - Database](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8132.png) 

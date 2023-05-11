@@ -4,7 +4,7 @@ title: Actions
 The ***Actions*** tab is only available when a session is open. Available actions differ depending on the action.  
 
 For our example we are running an RDP session. The ribbon will display the following tab when the session runs with the ***Embedded (tabbed)*** display mode.  
-![Ribbon - Actions](/img/en/rdm/windows/clip11288.png) 
+![Ribbon - Actions](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11288.png) 
 
 ### Connection 
 
@@ -241,6 +241,6 @@ Record your screen in an MP4 format. We recommend the use of a VLC player to vie
 </table>
 
 Alternatively, these actions are also available by right-clicking on the tab of an embedded session.  
-![Actions Context Menu of an Embedded Session](/img/en/rdm/windows/clip10184.png) 
+![Actions Context Menu of an Embedded Session](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10184.png) 
 
 

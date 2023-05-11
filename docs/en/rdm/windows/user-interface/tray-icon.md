@@ -6,7 +6,7 @@ title: Tray Icon
 ## Tray Icon Context Menu 
 
 Right-click on the Windows tray menu bar to access the context menu. You can launch sessions, change data source, use the ***Quick Connect*** feature, and more.  
-![Tray Icon Context Menu](/img/en/rdm/windows/clip11271.png) 
+![Tray Icon Context Menu](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11271.png) 
 
 <table>
 	<tr>

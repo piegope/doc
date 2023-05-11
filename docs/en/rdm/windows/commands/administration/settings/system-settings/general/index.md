@@ -7,7 +7,7 @@ The ***General*** section allows to manage the availability of different feature
 These settings applies to all users that have access to the data source. 
 {% endsnippet %}
  
-![System Settings - General](/img/en/rdm/windows/clip10720.png) 
+![System Settings - General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10720.png) 
 
 <table>
 	<tr>

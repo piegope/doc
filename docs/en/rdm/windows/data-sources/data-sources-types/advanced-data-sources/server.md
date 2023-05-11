@@ -5,7 +5,7 @@ title: Devolutions Server
 	<tr>
 		<td>
 
-![!!DataSourceDPSLarge.png](/img/common/DataSourceDPSLarge.png) 
+![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
 {{ en.RDMS }} (DVLS) allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the product's web site [here](https://devolutions.net/server/) . 
@@ -39,7 +39,7 @@ Export the data source, then import the file in your client workstations as desc
 
 ### General 
 
-![Devolutions Server - General](/img/en/rdm/windows/clip11355.png) 
+![Devolutions Server - General](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11355.png) 
 
 <table>
 	<tr>
@@ -133,7 +133,7 @@ Test the connection with {{ en.RDMS }} to validate the credentials.
 
 ### Settings 
 
-![Devolutions Server - Settings](/img/en/rdm/windows/clip11356.png) 
+![Devolutions Server - Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11356.png) 
 
 <table>
 	<tr>
@@ -165,7 +165,7 @@ Manage the data source cache. On large data sources caching is a must and will i
 
 ### {{ en.PVLT }} 
 
-![Devolutions Server – User Vault](/img/en/rdm/windows/clip3603.png) 
+![Devolutions Server – User Vault](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3603.png) 
 
 <table>
 	<tr>
@@ -194,11 +194,11 @@ Select the type of [{{ en.PVLT }}](/rdm/windows/data-sources/data-sources-types/
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.RDMS }} .  
-![Devolutions Server - VPN](/img/en/rdm/windows/DPSVPN.png) 
+![Devolutions Server - VPN](https://webdevolutions.azureedge.net/docs/en/rdm/windows/DPSVPN.png) 
 
 ### Advanced 
 
-![Devolutions Server - Avanced](/img/en/rdm/windows/clip10815.png) 
+![Devolutions Server - Avanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10815.png) 
 
 <table>
 	<tr>

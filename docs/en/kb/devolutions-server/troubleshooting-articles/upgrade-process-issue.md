@@ -8,7 +8,7 @@ The reason of these errors are related to an SQL database or web application fil
 ## Solution
 
 First, verify that the {{ en.DPS }} Console corresponds to the version of the {{ en.DPS }} web application.  
-![Devolutions Server Console](/img/en/kb/KB8004.png) 
+![Devolutions Server Console](https://webdevolutions.azureedge.net/docs/en/kb/KB8004.png) 
 
 If the console version is older than the web application version, please go on the {{ en.DPS }} [download page](https://server.devolutions.net/home/download) to download the right console version and install it.
 

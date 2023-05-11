@@ -11,7 +11,7 @@ If you experience slow startup times, there are a few things to try in order to 
 1. In {{ en.RDM }}, go to ***File – Options – Advanced***.
 1. Set ***Hardware acceleration*** to ***DirectX*** and ***Optimize UI performance*** to ***Yes***.
 
-![DirectX Hardware Acceleration and Optimized UI Performance](/img/en/kb/KB2184.png)
+![DirectX Hardware Acceleration and Optimized UI Performance](https://webdevolutions.azureedge.net/docs/en/kb/KB2184.png)
 
 3. Click ***OK*** to save your changes, then restart {{ en.RDM }} to apply them.
 
@@ -42,7 +42,7 @@ Add the line `<DisableAnalytics>true</DisableAnalytics>` to your [RemoteDesktopM
 
 You can find the configuration file using ***File – Options – Advanced*** and click on the blue hyperlink at the bottom.  
 
-![!!KB4090.png](/img/en/kb/KB4090.png)
+![!!KB4090.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4090.png)
 ## Problem 4
 Native image generation.
 ## Solution 4

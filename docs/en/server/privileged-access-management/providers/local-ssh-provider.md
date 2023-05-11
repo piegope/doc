@@ -2,7 +2,7 @@
 title: Local SSH Provider
 ---
 The SSH Provider allows {{ en.RDMS }} to store the SSH local account credentials to be used for SSH accounts discovery or to achieve password rotation.  
-![SSH Provider dialog](/img/en/server/ServerOp8142.png) 
+![SSH Provider dialog](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8142.png) 
 
 ### General 
 

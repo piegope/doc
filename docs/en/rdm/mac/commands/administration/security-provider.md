@@ -26,9 +26,9 @@ Applying a new security provider does process the whole database, therefore we a
 {% endsnippet %}
  
 1. Click on Change security settings to change the security provider.  
-![Security Provider - Change security settings](/img/en/rdm/mac/clip10378.png) 
+![Security Provider - Change security settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10378.png) 
 1. Select your new security type from the drop down menu.  
-![Security Provider - Security type](/img/en/rdm/mac/clip10379.png) 
+![Security Provider - Security type](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10379.png) 
 
 <table>
 	<tr>
@@ -92,7 +92,7 @@ All of the entries configuration data is encrypted with a mix of key stored in {
 ## Certificate 
 
 If you have chosen Certificate as your Security Provider,  it will encrypt the entry configuration data with a mix of key stored in Remote Desktop Manager and the private key contained in the certificate.  
-![Certificate Security Provider](/img/en/rdm/mac/clip10380.png) 
+![Certificate Security Provider](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10380.png) 
 
 <table>
 	<tr>

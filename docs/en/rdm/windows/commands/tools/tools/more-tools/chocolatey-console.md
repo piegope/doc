@@ -9,7 +9,7 @@ The Chocolatey Console is available in the Tools – More Tools – Chocolatey C
 
 ## Settings 
 
-![Chocolatey Console](/img/en/rdm/windows/clip10371.png) 
+![Chocolatey Console](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10371.png) 
 
 <table>
 	<tr>
@@ -23,7 +23,7 @@ DESCRIPTION
 	<tr>
 		<td>
 
-![!!clip10859.png](/img/en/rdm/windows/clip10859.png) 
+![!!clip10859.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10859.png) 
 		</td>
 		<td>
 Install the selected application. 
@@ -31,7 +31,7 @@ Install the selected application.
 	</tr>
 	<tr>
 		<td>
-![!!clip10860.png](/img/en/rdm/windows/clip10860.png) 
+![!!clip10860.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10860.png) 
 		</td>
 		<td>
 Update the selected application. 
@@ -39,7 +39,7 @@ Update the selected application.
 	</tr>
 	<tr>
 		<td>
-![!!clip10861.png](/img/en/rdm/windows/clip10861.png) 
+![!!clip10861.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10861.png) 
 		</td>
 		<td>
 Uninstall the selected application. 
@@ -47,7 +47,7 @@ Uninstall the selected application.
 	</tr>
 	<tr>
 		<td>
-![!!clip10862.png](/img/en/rdm/windows/clip10862.png) 
+![!!clip10862.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10862.png) 
 		</td>
 		<td>
 Refresh the Chocolatey details list. 
@@ -58,7 +58,7 @@ Refresh the Chocolatey details list.
 ## Usage 
 
 During the installation, you will see the following window.  
-![Installation window](/img/en/rdm/windows/clip10372.png) 
+![Installation window](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10372.png) 
 
 When the installation is completed you will see a check mark in the ***Installed*** column.  
-![Installation Complete](/img/en/rdm/windows/clip10405.png) 
+![Installation Complete](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10405.png) 

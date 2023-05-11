@@ -5,7 +5,7 @@ title: Devolutions Server
 	<tr>
 		<td>
 
-![!!dvls-90X90.png](/img/en/rdm/mac/dvls-90X90.png) 
+![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
 {{ en.RDMS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the product's web site [here](https://devolutions.net/server) . 
@@ -41,7 +41,7 @@ Alternatively, you can export the data source information and then import the fi
 
 ### Connection 
 
-![Devolutions Server Connection tab](/img/en/rdm/mac/clip6023.png) 
+![Devolutions Server Connection tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6023.png) 
 
 <table>
 	<tr>
@@ -112,11 +112,11 @@ Always ask for the password when connecting to the data source.
 
 ### Settings 
 
-![Devolutions Server - Settings tab](/img/en/rdm/mac/clip6024.png) 
+![Devolutions Server - Settings tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6024.png) 
 
 ### Advanced 
 
-![Devolutions Server - Advanced tab](/img/en/rdm/mac/clip6025.png) 
+![Devolutions Server - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6025.png) 
 
 <table>
 	<tr>
@@ -194,7 +194,7 @@ Manage your cache on your computer to analyse, vacuum, repair or delete it. This
 
 ### {{ en.PVLT }} 
 
-![Devolutions Server - User Vault](/img/en/rdm/mac/clip6026.png) 
+![Devolutions Server - User Vault](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6026.png) 
 
 <table>
 	<tr>

@@ -5,7 +5,7 @@ title: Microsoft SQL Server
 	<tr>
 		<td>
 
-![!!DataSourceSQLServerLarge.png](/img/common/DataSourceSQLServerLarge.png) 
+![!!DataSourceSQLServerLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
 		</td>
 		<td>
 
@@ -63,7 +63,7 @@ Consult the [Configure SQL Server](/rdm/mac/data-sources/data-sources-types/adva
 
 ### Connection 
 
-![SQL Server - Connection tab](/img/en/rdm/mac/clip6034.png) 
+![SQL Server - Connection tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6034.png) 
 
 <table>
 	<tr>
@@ -178,7 +178,7 @@ Test the connection with the database to validate if the proper information has 
 
 ### Settings 
 
-![SQL Server - Settings tab](/img/en/rdm/mac/clip6035.png) 
+![SQL Server - Settings tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6035.png) 
 
 <table>
 	<tr>
@@ -237,7 +237,7 @@ Disable the option to lock the data source directly. You can still lock the appl
 
 ### Advanced 
 
-![SQL Server - Advanced tab](/img/en/rdm/mac/clip6036.png) 
+![SQL Server - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6036.png) 
 
 <table>
 	<tr>
@@ -329,7 +329,7 @@ Edit the connection string values directly.
 
 ### Upgrade 
 
-![SQL Server - Upgrade tab](/img/en/rdm/mac/clip6040.png) 
+![SQL Server - Upgrade tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6040.png) 
 
 <table>
 	<tr>
@@ -384,7 +384,7 @@ If you wish to to process Database upgrade by hand instead of automatically you 
 
 ### {{ en.PVLT }} 
 
-![SQL Server - User Vault](/img/en/rdm/mac/clip6041.png) 
+![SQL Server - User Vault](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip6041.png) 
 
 <table>
 	<tr>

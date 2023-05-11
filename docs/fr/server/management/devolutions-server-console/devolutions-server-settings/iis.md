@@ -4,7 +4,7 @@ order: 30
 ---
 Les paramètres ***IIS*** font partie des prérequis au niveau de l'installation. La plupart de ce qui se trouve dans cet onglet est automatiquement rempli par les informations fournies lors de la configuration de votre serveur {{ fr.RDMS }} , l'onglet ***IIS*** est davantage utilisé comme source d'information que comme configuration.  
 
-![Paramètres Serveur - IIS](/img/fr/server/ServerOp8010.png) 
+![Paramètres Serveur - IIS](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8010.png) 
 
 ## Paramètres 
 

@@ -9,7 +9,7 @@ It is also possible to allow administrators to grant administrative permissions 
 
 The user groups based permissions system can give a very accurate control of the security. Here is an overview of the permissions window:  
 
-![Permissions Panel](/img/en/server/clip8046.png) 
+![Permissions Panel](https://webdevolutions.azureedge.net/docs/en/server/clip8046.png) 
 
 <table>
 	<tr>
@@ -66,7 +66,7 @@ Displays the granted permission for the current entry.
 
 ### General 
 
-![Permissions - General](/img/en/server/clip8047.png) 
+![Permissions - General](https://webdevolutions.azureedge.net/docs/en/server/clip8047.png) 
 
 <table>
 	<tr>
@@ -137,7 +137,7 @@ Allow users/user groups to open entries.
 
 ### Security 
 
-![Permissions - Security](/img/en/server/clip8048.png) 
+![Permissions - Security](https://webdevolutions.azureedge.net/docs/en/server/clip8048.png) 
 
 <table>
 	<tr>
@@ -176,7 +176,7 @@ Allow users/user groups to view the Password History .
 
 ### More 
 
-![Permissions - More](/img/en/server/clip8049.png) 
+![Permissions - More](https://webdevolutions.azureedge.net/docs/en/server/clip8049.png) 
 
 <table>
 	<tr>
@@ -207,7 +207,7 @@ Allow users/user groups to use the Inventory Report tool.
 
 ### Attachments 
 
-![Permissions - Attachment](/img/en/server/clip8050.png) 
+![Permissions - Attachment](https://webdevolutions.azureedge.net/docs/en/server/clip8050.png) 
 
 <table>
 	<tr>
@@ -238,7 +238,7 @@ Allow users/user groups to add/edit/delete attachments.
 
 ### Documentation 
 
-![Permissions - Documentation](/img/en/server/clip8051.png) 
+![Permissions - Documentation](https://webdevolutions.azureedge.net/docs/en/server/clip8051.png) 
 
 <table>
 	<tr>

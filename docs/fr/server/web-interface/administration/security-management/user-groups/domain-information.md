@@ -2,7 +2,7 @@
 title: Information sur le domaine
 ---
 Permet d'afficher l'information sur le groupe d'utilisateurs de type domaine.  
-![Groupe d'utilisateurs - Information sur le domaine](/img/fr/server/ServerOp8043.png) 
+![Groupe d'utilisateurs - Information sur le domaine](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8043.png) 
 
 <table>
 	<tr>
@@ -34,5 +34,5 @@ Identifiant de sécurité du groupe d'utilisateurs du domaine.
 ### Chercher sur le domaine 
 
 Affiche l'information détaillée du groupe d'utilisateurs de type domaine.  
-![!!ServerOp8052.png](/img/fr/server/ServerOp8052.png) 
+![!!ServerOp8052.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8052.png) 
 

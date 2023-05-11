@@ -6,7 +6,7 @@ Selon le style d'interface utilisateur que vous avez choisi, les commandes sont 
 ### Ruban 
 
 Le ***Ruban*** est composé de plusieurs onglets, qui contient des commandes, classées en sections.  
-![Ruban](/img/fr/rdm/mac/clip4408.png) 
+![Ruban](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4408.png) 
 
 Pour plus d'informations sur les onglets du menu, veuillez consulter:  
 

@@ -9,7 +9,7 @@ Please note that if your Windows profile is corrupted, {{ en.AGENT }} and {{ en.
 The {{ en.RDMA }} can run commands on remote hosts, but what is really useful is that it can send commands to multiple hosts at the same time. Since {{ en.RDM }} uses a secure RDP channel to communicate with the {{ en.RDMA }} , it can only operate against Windows-based hosts.  
 
 It supports both environment and {{ en.RDM }} variables. {{ en.RDM }} variables (i.e. $HOST$, basically all the ones surrounded by dollar signs) are resolved on the client against the running session, while environment variables (i.e. %windir%, basically all the ones surrounded by percent signs) will be resolved on the remote host at execution time. You can use {{ en.RDM }} variables while running file based scripts (.ps1) within the command. The file based script variables (.ps1) will be resolved prior to sending the script to the destination host.  
-![RDM Agent](/img/en/rdm/windows/clip11234.png) 
+![RDM Agent](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11234.png) 
 
 ## Scenarios 
 
@@ -30,7 +30,7 @@ The {{ en.RDMA }} must be configured to automatically start when a Windows sessi
 1. Download {{ en.RDMA }} from [https://devolutions.net/remote-desktop-manager/home/download](https://devolutions.net/remote-desktop-manager/home/download) , and install the agent on the remote computer. 
 1. Copy the files Devolutions.Utils.dll, Devolutions.Windows.Utils.dll and RDMAgent.exe from the installation folder of the {{ en.RDM }} version that is used by your team, or download the zip file containing those files at [https://devolutions.net/remote-desktop-manager/home/download](https://devolutions.net/remote-desktop-manager/home/download) and deploy them on the remote host in the folder of your choice. 
 4. Via Chocolatey at [https://community.chocolatey.org/packages/rdmagent](https://community.chocolatey.org/packages/rdmagent) .  
-![Chocolatey command line](/img/en/rdm/windows/clip11583.png) 
+![Chocolatey command line](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11583.png) 
 
 Many new users using this technology wonder why a full installation of {{ en.RDM }} is required. There are three factors that make this a good solution:  
 

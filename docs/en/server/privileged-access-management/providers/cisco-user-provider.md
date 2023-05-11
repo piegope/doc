@@ -2,7 +2,7 @@
 title: Cisco User Provider
 ---
 The Cisco Provider allows {{ en.RDMS }} to store the Cisco account credentials to be used to achieve password rotation.  
-![Cisco User Provider](/img/en/server/ServerOp8093.png) 
+![Cisco User Provider](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8093.png) 
 
 ### General 
 

@@ -7,7 +7,7 @@ The ***Reports*** section automatically generates reports detailing {{ en.RDM }}
 View the [{{ en.RDM }} Security Dashboard](/kb/remote-desktop-manager/knowledge-base/rdm-security-dashboard/) topic to learn more on the ***Application & Data Source Security*** report. 
 {% endsnippet %}
  
-![Generate Report](/img/en/rdm/windows/clip10335.png) 
+![Generate Report](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10335.png) 
 
 From this window, you can browse and select a wide variety of Report Types. Explore to your heart's content.  
 

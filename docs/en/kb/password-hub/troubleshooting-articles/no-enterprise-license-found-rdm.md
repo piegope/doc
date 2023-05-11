@@ -17,12 +17,12 @@ Only ***Administrators*** and users with permissions in the ***System Permission
 
 1. In {{ en.RDM }}, click ***Administration – License*** to be redirected to the {{ en.PHUB }} web interface.
 1. Click the ***Add*** button.  
-![Administration – Licenses.png](/img/en/kb/KB5024.png)  
+![Administration – Licenses.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5024.png)  
 1. Paste the {{ en.RDM }}   ***License*** and click ***Add***  
-![Product License.png](/img/en/kb/KB5023.png)  
+![Product License.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5023.png)  
 1. Assign the {{ en.RDM }} product license by clicking the ***Edit*** button.  
-![Administration – Licenses – Edit.png](/img/en/kb/KB5025.png)
+![Administration – Licenses – Edit.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5025.png)
 1. Click ***Assigned To*** and manage your users license access.  
-![Product License – Assigned To.png](/img/en/kb/KB5026.png)
+![Product License – Assigned To.png](https://webdevolutions.azureedge.net/docs/en/kb/KB5026.png)
 1. Click ***Update*** to save.
 1. Restart {{ en.RDM }}.

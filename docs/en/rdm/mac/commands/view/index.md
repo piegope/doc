@@ -2,7 +2,7 @@
 title: View
 ---
 The View tab is used to control different features regarding the panels, views, logs, and layout of {{ en.RDM }} for Mac.  
-![View Tab](/img/en/rdm/mac/clip10354.png) 
+![View Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10354.png) 
 
 ### Topics 
 

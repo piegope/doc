@@ -5,7 +5,7 @@ title: XML
 	<tr>
 		<td>
 
-![!!DataSourceXMLLarge.png](/img/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 {{ fr.RDM }} enregistre les paramètres directement dans un fichier au format XML. 
@@ -30,7 +30,7 @@ Il est impossible de récupérer les données si la clé maîtresse est perdue. 
 
 ### Général 
 
-![XML - Général](/img/fr/rdm/windows/clip10788.png) 
+![XML - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10788.png) 
 
 <table>
 	<tr>
@@ -77,7 +77,7 @@ Toujours demander la clé maîtresse lors de la connexion à la source de donné
 
 ### Copie de sauvegarde 
 
-![XML - Copie de sauvegarde](/img/fr/rdm/windows/clip10789.png) 
+![XML - Copie de sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10789.png) 
 
 <table>
 	<tr>
@@ -114,11 +114,11 @@ Spécifier le nom de sauvegarde qui vous permettra d'enregistrer automatiquement
 ### VPN  
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à XML .  
-![XML - VPN](/img/fr/rdm/windows/XMLVPN.png) 
+![XML - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/XMLVPN.png) 
 
 ### Avancée 
 
-![XML - Avancée](/img/fr/rdm/windows/clip10790.png) 
+![XML - Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10790.png) 
 
 <table>
 	<tr>

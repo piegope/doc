@@ -14,7 +14,7 @@ Default ***Templates*** create default settings for new entries. Every entry typ
 * Synchronizer 
 * Macros/Scripts/Tools 
 
-![File - Templates - Default settings](/img/en/rdm/windows/clip10168.png) 
+![File - Templates - Default settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10168.png) 
 
 ## Settings 
 
@@ -27,4 +27,4 @@ Please note that a [No default] notice is displayed below each type that does no
 All entry types without the [No default] notice have a default template. You can double-click on the type to edit the template or press the edit button.  
 
 If you want to remove the default settings template, press the delete  button.  
-![Default Type Template Management](/img/en/rdm/windows/clip10169.png) 
+![Default Type Template Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10169.png) 

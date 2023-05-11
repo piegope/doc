@@ -12,7 +12,7 @@ L'affichage des ***Informations sur la source de données*** peut être différe
 
 ### Général 
 
-![Informations de la source de données - Général](/img/fr/rdm/mac/clip4017.png) 
+![Informations de la source de données - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4017.png) 
 
 L'onglet ***Général*** affiche des informations sur la source de données telles que:  
 
@@ -24,7 +24,7 @@ L'onglet ***Général*** affiche des informations sur la source de données tell
 
 ### Entrées 
 
-![Informations de la source de données - Entrées](/img/fr/rdm/mac/clip4018.png) 
+![Informations de la source de données - Entrées](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4018.png) 
 
 L'onglet ***Entrées*** affichera les droits d'utilisateur sur les sessions tels que:  
 
@@ -40,9 +40,9 @@ L'onglet ***Entrées*** affichera les droits d'utilisateur sur les sessions tels
 ### Groupes de sécurité (Ancien) 
 
 L'onglet ***Groupes de sécurité (Ancien)*** affiche les droits de l'utilisateur sur quels groupes de sécurité.  
-![Informations de la source de données - Groupes de sécurité (Ancien)](/img/fr/rdm/mac/clip4019.png) 
+![Informations de la source de données - Groupes de sécurité (Ancien)](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4019.png) 
 
 ### Rôles 
 L'onglet ***Rôles*** affiche les rôles dont l'utilisateur est membre et les droits associés à ces rôles.  
-![Informations de la source de données - Rôles](/img/fr/rdm/mac/clip4020.png) 
+![Informations de la source de données - Rôles](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4020.png) 
 

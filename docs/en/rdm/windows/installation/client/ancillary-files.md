@@ -150,5 +150,5 @@ None
 ### Offline and Local Play list option 
 
 Offline and local play list options can be accessed by navigating to File - Options - Advanced .  
-![Options - Advanced](/img/en/rdm/windows/clip11275.png) 
+![Options - Advanced](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11275.png) 
 

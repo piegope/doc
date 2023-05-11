@@ -19,11 +19,11 @@ Go to the section that corresponds to you data source type:
 1. In {{ en.RDM }} , go to the data source for which you want to configure the MFA. 
 1. Go to ***File – My Account Settings*** . 
 1. Click on ***Data Source MFA*** .  
-![File – My Account Settings – Data Source MFA](/img/en/rdm/windows/RDMWin2146.png) 
+![File – My Account Settings – Data Source MFA](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2146.png) 
 1. In the ***Multi-Factor Configuration*** window, click ***Change*** .  
-![Change the Multi-Factor Configuration](/img/en/rdm/windows/clip11098.png) 
+![Change the Multi-Factor Configuration](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11098.png) 
 1. Select your MFA ***Type*** in the drop-down list.  
-![Multi-Factor Authentication Type](/img/en/rdm/windows/clip11099.png) 
+![Multi-Factor Authentication Type](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11099.png) 
 1. Follow one of the links below depending on the choice made in the previous step: 
     * [Authenticator (TOTP)](/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/) 
     * [Yubikey](/rdm/windows/data-sources/multi-factor-authentication/yubikey/) 
@@ -34,13 +34,13 @@ Go to the section that corresponds to you data source type:
 1. In {{ en.RDM }} , go to the data source for which you want to configure the MFA. 
 1. Go to ***File – Data Sources*** . 
 1. Click on the ***Edit Data Source*** button.  
-![File – Data Sources – Edit Data Source](/img/en/rdm/windows/RDMWin2149.png) 
+![File – Data Sources – Edit Data Source](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2149.png) 
 1. Next to the ***Multi-factor*** option, click ***None*** .  
-![Multi-factor Option](/img/en/rdm/windows/RDMWin2150.png) 
+![Multi-factor Option](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2150.png) 
 1. In the ***Multi-Factor Configuration*** window, click ***Change*** .  
-![Change the Multi-Factor Configuration](/img/en/rdm/windows/clip11098.png) 
+![Change the Multi-Factor Configuration](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11098.png) 
 1. Select your MFA ***Type*** in the drop-down list.  
-![Multi-Factor Authentication Type](/img/en/rdm/windows/clip11099.png) 
+![Multi-Factor Authentication Type](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11099.png) 
 1. Follow one of the links below depending on the choice made in the previous step: 
     * [Authenticator (TOTP)](/rdm/windows/data-sources/multi-factor-authentication/authenticator-totp/) 
     * [Yubikey](/rdm/windows/data-sources/multi-factor-authentication/yubikey/) 

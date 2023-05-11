@@ -6,24 +6,24 @@ Le ***Générateur de mots de passe*** vous permet de créer des mots de passe a
 Vous pouvez également créer des modèles de générateur de mots de passe pour générer plus rapidement vos mots de passe. Après avoir sélectionné votre mode et vos paramètres, vous pouvez créer votre modèle.  
 
 Le ***Générateur de mots de passe*** est disponible dans Outils - Générateur de mots de passe .  
-![Outils - Générateur de mots de passe](/img/fr/rdm/mac/clip4221.png) 
+![Outils - Générateur de mots de passe](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4221.png) 
 
 ## Paramètres 
 
 ### Paramètres avancés 
 
 Choisir tous les types de caractères que vous désirez et générer un mot de passe.  
-![Générateur de mot de passe - Paramètres avancés](/img/fr/rdm/mac/clip0107.png) 
+![Générateur de mot de passe - Paramètres avancés](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0107.png) 
 
 ### Mot de passe lisible 
 
 Chaque mot de passe généré sera lisible, mais ne sera pas un mot dans le dictionnaire.  
-![Générateur de mot de passe - Mot de passe lisible](/img/fr/rdm/mac/clip0108.png) 
+![Générateur de mot de passe - Mot de passe lisible](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0108.png) 
 
 ### Utiliser un modèle 
 
 Appuyer sur le bouton et sélectionner le modèle dont vous avez besoin pour créer vos mots de passe. Une liste des modèles utilisés les plus récents sera également créée.  
-![Générateur de mot de passe - Utiliser un modèle](/img/fr/rdm/mac/clip0109.png) 
+![Générateur de mot de passe - Utiliser un modèle](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0109.png) 
 
 Voici les modèles pris en charge:  
 
@@ -297,14 +297,14 @@ Définir une séquence de caractères personnalisée
 ### Mot de passe prononçable 
 
 L'application générera un mot de passe prononçable.  
-![Générateur de mot de passe - Mot de passe prononçable](/img/fr/rdm/mac/clip0153.png) 
+![Générateur de mot de passe - Mot de passe prononçable](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0153.png) 
 
 ### Mot de passe fort 
 
 L'application générera un mot de passe de 8 caractères avec des alphanumériques à casse mixte et des caractères spéciaux.  
-![Générateur de mot de passe - Mot de passe fort](/img/fr/rdm/mac/clip0154.png) 
+![Générateur de mot de passe - Mot de passe fort](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0154.png) 
 
 ### Mots de passe interdits 
 
 Vous pouvez générer votre propre liste de mots de passe interdits dans l'application. 
-![Mots de passe interdits](/img/fr/rdm/mac/clip0164.png) 
+![Mots de passe interdits](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip0164.png) 

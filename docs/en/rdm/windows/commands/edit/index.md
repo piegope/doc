@@ -2,7 +2,7 @@
 title: Edit
 ---
 The ***Edit*** tab contains operations to quickly ***Add*** , ***Edit*** , ***Override*** , ***Batch Edit*** , or ***Export*** entries.  
-![Ribbon - Edit](/img/en/rdm/windows/clip10207.png) 
+![Ribbon - Edit](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10207.png) 
 
 ### Add 
 
@@ -56,7 +56,7 @@ For example, it is possible to:
 * Assign different access to the same entry. 
 * Create a favorite folder with everything centralized. 
 * Reuse a document for different scenarios.  
-![These two entries are the exactly the same](/img/en/rdm/windows/clip10209.png) 
+![These two entries are the exactly the same](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10209.png) 
 
 Entries reiterated this way also have both folder paths indicated in their Folder field in their properties, the paths are separated by a semi-colon. 
 
@@ -154,7 +154,7 @@ Override properties of the selected entry with settings specific to the local ma
 
 {% snippet icon.badgeInfo %} 
 A Specific Settings column can be added in the {{ en.NPANE }} . Right-click on the column   ***Name*** in the {{ en.NPANE }} and select   ***Column Chooser*** . Double-Click on ***Specific Settings*** to add the column. Now, if there is a specific setting applied to an entry, it will be displayed next to the entry name.  
-![Navigation Pane - Column Chooser](/img/en/rdm/windows/SpecificSettingsColumnChooser.png) 
+![Navigation Pane - Column Chooser](https://webdevolutions.azureedge.net/docs/en/rdm/windows/SpecificSettingsColumnChooser.png) 
 {% endsnippet %}
  
 ### Batch 

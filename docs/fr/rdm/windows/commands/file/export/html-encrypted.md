@@ -20,7 +20,7 @@ Lors de l'exportation de plusieurs entrées qui sont toutes contenues dans le m�
 ### AES-256 
 
 Nous utilisons AES-256 pour chiffrer/déchiffrer vos données sensibles. Étant donné que le décryptage se fait entièrement dans le navigateur, vous n'avez pas besoin d'outils externes, de téléchargements ou d'installations.  
-![Valeur cryptée](/img/fr/rdm/windows/clip10883.png) 
+![Valeur cryptée](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10883.png) 
 
 ### Sauvegarde virtuelle sûre et intelligente 
 

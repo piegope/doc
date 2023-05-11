@@ -9,7 +9,7 @@ The import feature is only active if the import [Permission](/rdm/mac/commands/a
  
 ## Settings 
 
-![File - Import](/img/en/rdm/mac/clip10313.png) 
+![File - Import](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10313.png) 
 
 ### Import Entries 
 

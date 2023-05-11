@@ -8,7 +8,7 @@ Le ***{{ fr.PVLT }}*** est un coffre personnalisé pour l'utilisateur pour les e
 Le {{ fr.PVLT }} est disponible pour toutes les [Sources de données avancées](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) . 
 {% endsnippet %}
  
-![Mon Coffre de l'utilisateur](/img/fr/rdm/windows/clip11205.png) 
+![Mon Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11205.png) 
 
 ### Une note sur les identifiants 
 

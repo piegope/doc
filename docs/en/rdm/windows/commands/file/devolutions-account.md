@@ -2,7 +2,7 @@
 title: Devolutions Account
 ---
 In File – Devolutions Account create and connect your {{ en.RDM }} to your {{ en.DA }} . The {{ en.DA }} is free for customers and includes access to the ***Custom Installer Manager*** .  
-![Devolutions Account](/img/en/rdm/windows/clip10026.png) 
+![Devolutions Account](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10026.png) 
 
 ### Devolutions Account 
 

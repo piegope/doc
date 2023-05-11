@@ -5,7 +5,7 @@ The Add options lets you quickly create new entries, duplicate them, create shor
 
 ## Settings 
 
-![Add options](/img/en/rdm/mac/clip10333.png) 
+![Add options](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10333.png) 
 
 <table>
 	<tr>

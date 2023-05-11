@@ -17,7 +17,7 @@ Les options de gestion de la cache doivent être utilisées que sur demande de n
 L'option ***Gérer la cache*** sera disponible que lors de l'utilisation d'un cache SQLite. 
 {% endsnippet %}
  
-![Gérer la cache](/img/fr/rdm/mac/clip4271.png) 
+![Gérer la cache](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4271.png) 
 
 <table>
 	<tr>

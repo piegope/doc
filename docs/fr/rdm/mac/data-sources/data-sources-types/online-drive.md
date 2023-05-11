@@ -11,7 +11,7 @@ Veuillez consulter la rubrique [Devolutions Online Drive](/fr/cloud/rdm-online-s
 
 ### Général 
 
-![Devolutions Online Drive - Général](/img/fr/rdm/mac/clip4266.png) 
+![Devolutions Online Drive - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4266.png) 
 
 <table>
 	<tr>
@@ -100,7 +100,7 @@ Toujours demander la clé maîtresse lors de la connexion à la source de donné
 ### Sauvegarde 
 
 Veuillez consulter la rubrique [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) pour plus d'informations sur ce service.  
-![Devolutions Online Drive - Sauvegarde](/img/fr/rdm/mac/clip4267.png) 
+![Devolutions Online Drive - Sauvegarde](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4267.png) 
 
 <table>
 	<tr>
@@ -137,11 +137,11 @@ Spécifier le nom de sauvegarde qui vous permettra d'enregistrer automatiquement
 ### VPN 
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à Devolutions Online Drive .  
-![!!RDMMac4045.png](/img/fr/rdm/mac/RdmMac4045.png) 
+![!!RDMMac4045.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4045.png) 
 
 ### Avancée 
 
-![Devolutions Online Drive - Avancée](/img/fr/rdm/mac/clip4268.png) 
+![Devolutions Online Drive - Avancée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4268.png) 
 
 <table>
 	<tr>

@@ -12,10 +12,10 @@ L'utilisateur effectuant la mise à jour doit disposer de privilèges administra
 ## Paramètres 
 
 Sélectionner la source de données pour laquelle vous souhaitez procéder à une mise à niveau et cliquer sur ***Modifier*** .  
-![Modifier la source de données](/img/fr/rdm/mac/clip4011.png) 
+![Modifier la source de données](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4011.png) 
 
 Cliquer sur l'onglet ***Mise à niveau*** .  
-![Onglet Mise à niveau](/img/fr/rdm/mac/clip4012.png) 
+![Onglet Mise à niveau](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4012.png) 
 
 <table>
 	<tr>

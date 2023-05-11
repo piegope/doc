@@ -5,7 +5,7 @@ Use ***File – My Account Settings*** to configure accounts that connect to dif
 
 ## Settings 
 
-![My Account Settings](/img/en/rdm/windows/clip10203.png) 
+![My Account Settings](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10203.png) 
 
 ### Information 
 

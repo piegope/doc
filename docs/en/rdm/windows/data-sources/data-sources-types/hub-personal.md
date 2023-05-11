@@ -9,7 +9,7 @@ Please consult our [website](https://devolutions.net/password-hub/personal) for 
 
 ### General 
 
-![!!RdmWin4040.png](/img/en/rdm/windows/RdmWin4040.png) 
+![!!RdmWin4040.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4040.png) 
 
 <table>
 	<tr>
@@ -42,10 +42,10 @@ Your [{{ en.DA }}](https://portal.devolutions.com/) Devolutions Account email ad
 ### VPN 
 
 Open a ***VPN*** to access your data prior to connecting to your {{ en.HUB }} .  
-![!!RdmWin4041.png](/img/en/rdm/windows/RdmWin4041.png) 
+![!!RdmWin4041.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4041.png) 
 
 ### Advanced 
 
 This is the ***Server*** address.  
-![!!RdmWin4042.png](/img/en/rdm/windows/RdmWin4042.png) 
+![!!RdmWin4042.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4042.png) 
 

@@ -4,7 +4,7 @@ order: 10
 ---
 La section ***Authentification*** permet à l'administrateur de sélectionner les types d'authentification à utiliser. 
 
-![Administration - Paramètres de {{ fr.DVLS }} - Authentification](/img/fr/server/PSSettingsAuthentication.png) 
+![Administration - Paramètres de {{ fr.DVLS }} - Authentification](https://webdevolutions.azureedge.net/docs/fr/server/PSSettingsAuthentication.png) 
 
 ## Paramètres 
 

@@ -10,11 +10,11 @@ It is possible to [request a trial](/rdm/windows/installation/client/registratio
 With the license stored in an [Advanced Data Source](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/) , there is no need to register {{ en.RDM }} as the license serial is retrieved directly from it. When launching the application for the first time, add the data source containing the serial.  
 
 1. To add a license serial, navigate to ***Administration – Licenses*** .  
-![Administration – Licenses](/img/en/rdm/windows/clip3417.png) 
+![Administration – Licenses](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3417.png) 
 1. Click ***Add License*** .  
-![User and Security Mangement – Licenses](/img/en/rdm/windows/RdmWin4060.png) 
+![User and Security Mangement – Licenses](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4060.png) 
 1. Enter the license serial.  
-![License](/img/en/rdm/windows/RdmWin4063.png) 
+![License](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4063.png) 
 1. Optional: Check the ***Auto assign*** option to automatically provide the {{ en.RDM }} serial to all newly created users. 
 1. Click ***OK*** to save. 
 

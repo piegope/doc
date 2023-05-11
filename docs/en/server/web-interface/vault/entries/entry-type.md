@@ -3,7 +3,7 @@ title: Entry Type
 ---
 ***Entries*** come in various types, all serving different purposes for your convenience. 
 
-![New Entry](/img/en/server/clip10074.png) 
+![New Entry](https://webdevolutions.azureedge.net/docs/en/server/clip10074.png) 
 
 <table>
 	<tr>

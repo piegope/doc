@@ -12,29 +12,29 @@ If you already have an account for a website, visit our [Add a Website Entry wit
 Follow the steps below to learn how to create a website account with {{ en.DWL }} and save your credentials in {{ en.RDM }} for Mac.  
 
 1. On the website for which you want to create your account, go to the registration/account creation page. This page will be different for each website; this topic will use the Atlassian website as an example.  
-![Registration Page](/img/en/rdm/mac/RDMMac2008.png) 
+![Registration Page](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2008.png) 
 1. Follow the website's registration process until you get to the password field. 
 1. Click on the {{ en.DWL }} icon in your browser toolbar, then select the Password Generator in the ***Side Menu*** of the extension.  
-![Password Generator Tab](/img/en/rdm/mac/RDMMac2009.png) 
+![Password Generator Tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2009.png) 
 1. You can now customize the password generation settings, but this is optional since the default settings already generate very strong passwords. That being said, it may be necessary to adjust the settings to meet the specific requirements of some websites. If you do not wish to customize the generation settings, you can skip to <a href="#5">step 5</a>. 
     1. Select a ***Password length*** . The default value is set to 12.  
-    ![Password length](/img/en/rdm/mac/RDMMac2010.png) 
+    ![Password length](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2010.png) 
     1. In the ***General*** settings, select the types of characters that your password must contain. The default is set to include uppercase letters, lowercase letters, and numbers, but there is also the option to include special characters in your password.  
-    ![General Settings](/img/en/rdm/mac/RDMMac2011.png) 
+    ![General Settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2011.png) 
     1. In the same section next to the character types, select the minimum number of characters of each type that must be included in your password. The default values are set to 0. 
     1. In the ***Advanced*** settings, you can even further customize your password if desired. In the first field, enter characters you want included in your password, followed in the field to the right by the minimum number of times they must appear. In the second field, enter characters you want excluded from your password.  
-    ![Advanced Settings](/img/en/rdm/mac/RDMMac2012.png)  
+    ![Advanced Settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2012.png)  
 
 Your password settings are now configured.  
 
 5. <a name="5"></a> If desired, to change the current password, click on the ***Generate Password*** button until you are satisfied with the result.  
-![Generate Password](/img/en/rdm/mac/RDMMac2013.png) 
+![Generate Password](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2013.png) 
 1. Click on the ***Copy to Clipboard*** button to copy the password.  
-![Copy to Clipboard](/img/en/rdm/mac/RDMMac2014.png) 
+![Copy to Clipboard](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2014.png) 
 1. Paste your password in the website's corresponding field.  .
-![Paste Password](/img/en/rdm/mac/RDMMac2015.png) 
+![Paste Password](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2015.png) 
 1. Follow the rest of the website’s registration steps until the {{ en.DWL }}   ***Add Website*** window pops up in the corner of your web browser.  
-![Add Website](/img/en/rdm/mac/RDMMac2016.png) 
+![Add Website](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2016.png) 
 1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed. 
 1. Provide a ***Destination folder*** in which to save your website entry. If you leave this field empty, the entry will be saved at the root of the vault. If the folder you specify does not exist, it will be created at the same time as your entry. 
 1. Select if you want to save your entry in your ***User vault*** or in a ***Vault*** . Note that to create your entry in the vault of your choice, the corresponding vault must currently be opened in {{ en.RDM }} for Mac. 

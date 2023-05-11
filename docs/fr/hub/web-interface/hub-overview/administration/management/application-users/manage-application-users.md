@@ -6,11 +6,11 @@ Voici les étapes pour créer et attribuer des ***Utilisateurs d'application*** 
 ### Créer un utilisateur d'application 
 
 1. Dans ***Administration – Utilisateurs d'application*** , cliquer sur ***Ajouter un utilisateur d'application*** dans le coin supérieur droit.  
-![Ajouter un utilisateur d'application](/img/fr/hub/Hub2062.png) 
+![Ajouter un utilisateur d'application](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2062.png) 
 1. Nommer l' ***Utilisateur d'application*** et cliquer sur ***Ajouter*** .  
-![Nom de l'utilisateur d'application](/img/fr/hub/Hub2052.png) 
+![Nom de l'utilisateur d'application](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2052.png) 
 1. Copier la ***Clé secrète d'application*** et la ***Clé de l'application*** ou télécharger le fichier PDF fourni pour l'enregistrer dans un endroit sécuritaire.  
-![Nom de l'utilisateur d'application](/img/fr/hub/Hub2053.png) 
+![Nom de l'utilisateur d'application](https://webdevolutions.azureedge.net/docs/fr/hub/Hub2053.png) 
 {% snippet icon.badgeCaution %} 
 Conservez sécuritairement les informations nouvellement créées de l' ***Utilisateur d'application*** . 
 {% endsnippet %}

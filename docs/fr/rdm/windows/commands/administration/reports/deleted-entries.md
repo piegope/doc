@@ -19,7 +19,7 @@ Les sous-connexions ne sont pas conservées dans la fenêtre ***Entrées supprim
 ### Gérer les entrées supprimées 
 
 La vue des ***Entrées supprimées*** générera une liste contenant toutes les entrées précédemment supprimées de votre source de données. Vous pouvez ressusciter une entrée, ce qui signifie qu'elle redeviendra une entrée active et sera affichée dans votre source de données. Vous pouvez également choisir de supprimer définitivement vos entrées, une fois que vous aurez définitivement supprimé vos entrées, vous ne pourrez plus les ressusciter par la suite.  
-![Entrées supprimées](/img/fr/rdm/windows/clip10308.png) 
+![Entrées supprimées](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10308.png) 
 
 <table>
 	<tr>

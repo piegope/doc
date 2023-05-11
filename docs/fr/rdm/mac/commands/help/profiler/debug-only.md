@@ -12,9 +12,9 @@ Tout niveau de débogage autre que zéro ralentit l'application et écrit de nom
 Utiliser la méthode de débogage chaque fois que vous devez diagnostiquer le démarrage ou la connexion initiale.  
 
 1. Cliquer sur ***Aide - Profileur*** et ensuite sur l'onglet ***Débogage seulement*** .  
-![Profilage des performances - Débogage seulement](/img/fr/rdm/mac/clip4234.png) 
+![Profilage des performances - Débogage seulement](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4234.png) 
 1. Cliquer sur le bouton de réglage et activer les catégories de débogage appropriées et sur ***OK*** pour confirmer.  
-![Niveau de débogage](/img/fr/rdm/mac/clip4237.png) 
+![Niveau de débogage](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4237.png) 
 1. Cliquer ensuite sur ***Envoyez la trace au soutien*** . Dans la boîte de dialogue suivante, assurez-vous de spécifier suffisamment d'informations pour lier le rapport au ticket approprié, si le processus a été lancé à partir du forum, inclure votre nom d'utilisateur de forum.  
-![Envoyez la trace au soutien](/img/fr/rdm/mac/clip42340.png) 
+![Envoyez la trace au soutien](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip42340.png) 
 

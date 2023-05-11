@@ -3,7 +3,7 @@ title: Groups d'utilisateurs
 order: 20
 ---
 ***Groupe d'utilisateurs*** est l'endroit où vous pouvez créer, importer et gérer des groupes d'utilisateurs. Pour accéder à la gestion des groupes d'utilisateurs, naviguer dans le menu ***Administration – Groupes d'utilisateurs*** . Cliquer sur un groupe d'utilisateur pour configurer des paramètres et des autorisations spécifiques.  
-![Groupes d'utilisateurs](/img/fr/server/ServerOp8017.png) 
+![Groupes d'utilisateurs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8017.png) 
 
 ### Options général 
 
@@ -19,7 +19,7 @@ Description
 	<tr>
 		<td>
 
-![AddSmallGrey.png](/img/fr/server/Icons/AddSmallGrey.png) 
+![AddSmallGrey.png](https://webdevolutions.azureedge.net/docs/fr/server/Icons/AddSmallGrey.png) 
 		</td>
 		<td>
 Ajouter un groupe d'utilisateur. 
@@ -27,7 +27,7 @@ Ajouter un groupe d'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![NavImportSmall.png](/img/common/NavImportSmall.png) 
+![NavImportSmall.png](https://webdevolutions.azureedge.net/docs/common/NavImportSmall.png) 
 		</td>
 		<td>
 Importer des groupes d'utilisateurs depuis LDAP ou Azure. 
@@ -35,7 +35,7 @@ Importer des groupes d'utilisateurs depuis LDAP ou Azure.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonRefreshGraySmall.png](/img/common/RibbonRefreshGraySmall.png) 
+![!!RibbonRefreshGraySmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonRefreshGraySmall.png) 
 		</td>
 		<td>
 Actualiser la liste des groupes d'utilisateurs. 
@@ -71,7 +71,7 @@ Assigner un coffre au groupe d'utilisateur.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonEditSmall.png](/img/common/RibbonEditSmall.png) 
+![!!RibbonEditSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonEditSmall.png) 
 		</td>
 		<td>
 Modifier les paramètres du groupe d'utilisateurs. 
@@ -79,7 +79,7 @@ Modifier les paramètres du groupe d'utilisateurs.
 	</tr>
 	<tr>
 		<td>
-![!!RibbonTrashSmall.png](/img/common/RibbonTrashSmall.png) 
+![!!RibbonTrashSmall.png](https://webdevolutions.azureedge.net/docs/common/RibbonTrashSmall.png) 
 		</td>
 		<td>
 Supprimer le groupe d'utilisateur. 

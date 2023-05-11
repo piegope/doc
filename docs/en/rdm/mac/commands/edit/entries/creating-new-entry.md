@@ -6,11 +6,11 @@ When getting started with {{ en.RDM }} for Mac , you must first configure your e
 ## Creating a New Entry from the New Entry Menu 
 
 1. The simplest way to create a new entry is through the Edit Ribbon menu and New Entry .  
-![Add a New Entry](/img/en/rdm/mac/clip11000.png) 
+![Add a New Entry](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip11000.png) 
 1. Select the type of entry or template you wish to create.  
-![Entry type](/img/en/rdm/mac/clip11001.png) 
+![Entry type](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip11001.png) 
 1. You will be prompted to customize your settings in the session property window.  
-![Session settings](/img/en/rdm/mac/clip10295.png) 
+![Session settings](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10295.png) 
 
 ## Creating a Session via Import menu 
 

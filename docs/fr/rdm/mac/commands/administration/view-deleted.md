@@ -2,7 +2,7 @@
 title: Entrées supprimées
 ---
 L'option ***Administration - Entrées supprimées*** vous permet d'afficher les entrées supprimées ainsi que de les restaurer.  
-![Administration - Entrées supprimées](/img/fr/rdm/mac/clip4208.png) 
+![Administration - Entrées supprimées](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4208.png) 
 
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité nécessite une [Source de données avancées](/fr/rdm/mac/data-sources/data-sources-types/advanced-data-sources/) . 
@@ -22,7 +22,7 @@ Les entrées supprimées peuvent être restaurées tant qu'elles n'ont pas été
 ### Gérer les entrées supprimées 
 
 La vue des entrées supprimée générera une liste contenant toutes les entrées précédemment supprimées de votre source de données. Vous pouvez ressusciter une entrée, ce qui signifie qu'elle redeviendra une entrée active et sera affichée dans votre source de données. Vous pouvez également choisir de supprimer définitivement vos entrées, une fois que vous aurez définitivement supprimé vos entrées, vous ne pourrez plus les ressusciter par la suite.  
-![Historique de l'entrée](/img/fr/rdm/mac/2015-09-22_09-58-08.png) 
+![Historique de l'entrée](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/2015-09-22_09-58-08.png) 
 
 <table>
 	<tr>

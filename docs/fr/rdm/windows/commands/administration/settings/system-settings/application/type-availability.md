@@ -1,7 +1,7 @@
 ---
 title: Disponibilité de type
 ---
-![Paramètres du système - Disponibilité de type](/img/fr/rdm/windows/clip10330.png) 
+![Paramètres du système - Disponibilité de type](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10330.png) 
 
 <table>
 	<tr>

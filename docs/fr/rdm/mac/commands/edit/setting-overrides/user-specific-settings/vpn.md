@@ -12,5 +12,5 @@ La substitution d'identifiants du Coffre personnel n'est disponible que dans les
 1. Le coffre personnel est disponible pour votre source de données. 
 1. Vous susbtituez au niveau du dossier. 
 1. Vous remplacez une session qui est elle-même dans le coffre personnel.  
-![Paramètres spécifiques de l'usager - VPN](/img/fr/rdm/mac/clip4066.png) 
+![Paramètres spécifiques de l'usager - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4066.png) 
 

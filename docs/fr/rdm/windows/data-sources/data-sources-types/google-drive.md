@@ -5,7 +5,7 @@ title: Google Drive
 	<tr>
 		<td>
 
-![!!DataSourceFtpLarge.png](/img/common/DataSourceFtpLarge.png) 
+![!!DataSourceFtpLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceFtpLarge.png) 
 		</td>
 		<td>
 {{ fr.RDM }} télécharge et téléverse les paramètres de session directement à partir d'un fichier situé sur un site FTP. 
@@ -15,7 +15,7 @@ title: Google Drive
 
 ### Général 
 
-![Google Drive - Général](/img/fr/rdm/windows/clip3622.png) 
+![Google Drive - Général](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3622.png) 
 
 <table>
 	<tr>
@@ -103,5 +103,5 @@ Indique le nom de fichier utilisé pour stocker les données sur la source de do
 ### VPN 
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à Google Drive .  
-![Google Drive - VPN](/img/fr/rdm/windows/GoogleDriveVPN.png) 
+![Google Drive - VPN](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/GoogleDriveVPN.png) 
 

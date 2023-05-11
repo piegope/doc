@@ -3,7 +3,7 @@ title: User Template
 ---
 This section will set the user template for the [Automatic User Creation](/server/web-interface/administration/configuration/server-settings/general/authentication/domain/) feature. 
 
-![Administration – System Settings – User Template](/img/en/server/ServerOp8033.png)
+![Administration – System Settings – User Template](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8033.png)
 
 <table>
 	<tr>
