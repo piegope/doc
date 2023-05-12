@@ -83,7 +83,7 @@ Description
 	</tr>
 	<tr>
 		<td>
-<img src="/img/en/kb/Icons/fullscreen.png" alt="!!fullscreen.png">
+<img src="https://webdevolutions.azureedge.net/docs/en/kb/Icons/fullscreen.png" alt="!!fullscreen.png">
 		</td>
 		<td>
 Full screen 
@@ -94,7 +94,7 @@ Displays the content of the session making sure to always occupy the maximum spa
 	</tr>
 	<tr>
 		<td>
-<img src="/img/en/kb/Icons/smallscreen.png" alt="!!smallscreen.png">
+<img src="https://webdevolutions.azureedge.net/docs/en/kb/Icons/smallscreen.png" alt="!!smallscreen.png">
 		</td>
 		<td>
 Fit to screen (default) 
@@ -105,7 +105,7 @@ Adapts the size to best fit the available space so that the entire session is al
 	</tr>
 	<tr>
 		<td>
-<img src="/img/en/kb/Icons/screen.png" alt="!!screen.png">
+<img src="https://webdevolutions.azureedge.net/docs/en/kb/Icons/screen.png" alt="!!screen.png">
 		</td>
 		<td>
 Real size 
@@ -116,7 +116,7 @@ Conforms to the resolution of the target host.
 	</tr>
 	<tr>
 		<td>
-<img src="/img/en/kb/Icons/windows.png" alt="!!windows.png">
+<img src="https://webdevolutions.azureedge.net/docs/en/kb/Icons/windows.png" alt="!!windows.png">
 		</td>
 		<td>
 Windows key 
@@ -127,7 +127,7 @@ Sends the signal of the Windows key (however, the key must also work).
 	</tr>
 	<tr>
 		<td>
-<img src="/img/en/kb/Icons/gear.png" alt="!!gear.png">
+<img src="https://webdevolutions.azureedge.net/docs/en/kb/Icons/gear.png" alt="!!gear.png">
 		</td>
 		<td>
 Ctrl+Alt+Del 
