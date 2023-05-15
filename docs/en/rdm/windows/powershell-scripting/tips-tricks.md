@@ -1,5 +1,10 @@
 ---
 title: PowerShell Scripting - Tips and tricks
+keywords:
+- PowerShell
+- GUID
+- Permissions
+- Inherited
 ---
 We are always asked for a full list of property names and sadly it is extremely hard to provide for multiple reasons. The best way is still to look at the xml structure of an entry of the proper type to identify the field names.  
 
