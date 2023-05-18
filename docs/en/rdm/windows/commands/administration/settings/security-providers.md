@@ -24,7 +24,7 @@ By using a security provider, you ensure that nobody can read entries configurat
 {% endsnippet %}
  
 {% snippet icon.shieldCaution %} 
-Prior to applying a new or changing an existing security provider, make sure that every users are disconnected from the data source. If you are changing an existing Shared Passphrase or Certificate, please note that users will get back access to the data source when they the new Shared Passphrase or Certificate on their computer. 
+Prior to applying a new or changing an existing security provider, make sure that every users are disconnected from the data source. If you are changing an existing Shared Passphrase or Certificate, please note that users will get back access to the data source when they enter the new Shared Passphrase or Certificate on their computer. 
 {% endsnippet %}
  
 ## Settings 
