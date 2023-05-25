@@ -16,23 +16,28 @@ layout: 'layouts/base.njk'
     <p>{{ description }}</p>
 
     <nav class="grid-list">
-      {% for doc in docs %}
+      {%- for doc in docs -%}
         <{{ "div" if doc.links else "a href=" + locale[lang].projects[doc.name].url }}>
+          {%- if doc.links -%}
+            <a href="{{ locale[lang].projects[doc.name].url }}">
+          {%- endif -%}
+
           <img src="{{ locale[lang].projects[doc.name].icon }}">
           <span>{{ locale[lang].projects[doc.name].formattedName | safe }}</span>
 
-          {% if doc.links %}
+          {%- if doc.links -%}
+            </a>
             <nav>
-              {% for link in doc.links %}
+              {%- for link in doc.links -%}
                 <a href="{{ link.url }}">
                   {{ link.name }}
                   {{ icons.arrowRight | safe }}
                 </a>
-              {% endfor %}
+              {%- endfor -%}
             </nav>
-          {% endif %}
+          {%- endif -%}
         </{{ "div" if doc.links else "a" }}>
-      {% endfor %}
+      {%- endfor -%}
     </nav>
   </div>
 </div>
