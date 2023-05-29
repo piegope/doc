@@ -19,8 +19,10 @@ Elle est structurée selon nos produits, ainsi qu’en quelques sous-catégories
 
 &nbsp; &nbsp;[{{ fr.DPS }}](/fr/kb/devolutions-server/)  
 
-&nbsp; &nbsp;[{{ fr.PHUB }}](/fr/kb/hub-business/)  
+&nbsp; &nbsp;[Devolutions {{ fr.HUBB }}](/fr/kb/hub-business/)  
+
+&nbsp; &nbsp;[Devolutions {{ fr.HUBP }}](/fr/kb/hub-personal/)  
+
+&nbsp; &nbsp;[{{ fr.PS }}](/fr/kb/devolutions-powershell/)  
 
 &nbsp; &nbsp;[{{ fr.DWL }}](/fr/kb/devolutions-web-login/)  
-
-&nbsp; &nbsp;[{{ fr.PS }}](/fr/kb/devolutions-powershell/)
