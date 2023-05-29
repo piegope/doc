@@ -19,8 +19,10 @@ It is divided by our different products, as well as a few subcategories.
 
 &nbsp; &nbsp;[{{ en.DPS }}](/kb/devolutions-server/)  
 
-&nbsp; &nbsp;[{{ en.PHUB }}](/kb/hub-business/)  
+&nbsp; &nbsp;[Devolutions {{ en.HUBB }}](/kb/hub-business/)  
+
+&nbsp; &nbsp;[Devolutions {{ en.HUBP }}](/kb/hub-personal/)  
+
+&nbsp; &nbsp;[{{ en.PS }}](/kb/devolutions-powershell/)  
 
 &nbsp; &nbsp;[{{ en.DWL }}](/kb/devolutions-web-login/)  
-
-&nbsp; &nbsp;[{{ en.PS }}](/kb/devolutions-powershell/)
