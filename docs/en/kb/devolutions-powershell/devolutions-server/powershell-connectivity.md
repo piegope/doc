@@ -42,7 +42,6 @@ $env:DS_PASSWORD = '{your password here}'
 ```
 3. The following sample script can be used to connect using an [Application Key and Application Secret](/server/web-interface/administration/security-management/applications/).  
 ```
-Import-Module -Name Devolutions.Server -Force  
 [string]$Username = $env:DS_USER  
 [string]$Password = $env:DS_PASSWORD  
 [string]$DVLSUrl = $env:DS_URL  
