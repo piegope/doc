@@ -21,7 +21,8 @@ $dsurl = "https<area>://your_dvls_url"
 $appkey = "your_appkey"  
 $appsecret = "your_appsecret"  
 
-$ds = New-RDMDataSource -DVLS -Name $dsname -Server $dsurl -ScriptingTenantID $appkey -ScriptingApplicationPassword $appsecret -SetDatasource -WarningAction SilentlyContinue Set-RDMDataSource $d
+$ds = New-RDMDataSource -DVLS -Name $dsname -Server $dsurl -ScriptingTenantID $appkey -ScriptingApplicationPassword $appsecret -SetDatasource -WarningAction SilentlyContinue
+Set-RDMDataSource $ds
 ```
 3. To connect to the data source, use these lines in all your scripts.  
 ```
