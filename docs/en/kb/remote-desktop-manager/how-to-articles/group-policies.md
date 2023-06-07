@@ -29,7 +29,7 @@ For now, the additional support is exclusively for the policies that require a n
 1. Copy the Devolutions.admx file.
 1. Go to C:\Windows\PolicyDefinitions.
 1. Paste the Devolutions.admx file in the root of C:\Windows\PolicyDefinitions.
-1. Go to C:\Program Files (x86)\Devolutions\Remote Desktop Manager\Policies\en-US.
+1. Go to C:\Program Files\Devolutions\Remote Desktop Manager\Policies\en-US.
 1. Copy the Devolutions.adml file.
 1. Paste the Devolutions.adml file in C:\Windows\PolicyDefinitions\en-US.
 1. Open your Group Policy Editor and go to ***Computer Configuration – Administrative Templates – Devolutions – Remote Desktop Manager – Sessions***.
