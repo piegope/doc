@@ -8,7 +8,7 @@ Displaying the Profiler window might slow down the operations on the data source
 {% endsnippet %}
  
 {% snippet icon.badgeNotice %} 
-To diagnose startup issues, you can enable the profiler from the command line as described in [Command Line Arguments](/kb/remote-desktop-manager/how-to-articles/command-line-arguments/#usage-remotedesktopmanagerexe-parameters) 
+To diagnose startup issues, you can enable the profiler from the command line as described in [Command Line Arguments](/kb/remote-desktop-manager/how-to-articles/command-line-arguments/#usage-remotedesktopmanagerexe-parameters). 
 {% endsnippet %}
  
 ## Procedure 
