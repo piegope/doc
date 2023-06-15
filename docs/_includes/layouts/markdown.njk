@@ -39,7 +39,7 @@ eleventyImport:
 
   {%- if tree and page.url -%}
     <nav class="navigation">
-      {%- for item in collections.eleventyNavigationTree | filterTree('en', tree) | sortTree -%}
+      {%- for item in collections.eleventyNavigationTree | filterTree(lang, tree) | sortTree -%}
         {{- nav(item, 1) -}}
       {%- endfor -%}
     </nav>
