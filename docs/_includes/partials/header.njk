@@ -14,7 +14,7 @@
           <div class="dwd-header-submenu" data-dwd-modal-target="Open language selection" data-dwd-modal-group="dwd-header">
             {% for l, item in locale %}
               {% if l !== lang %}
-                <a class="dwd-header-submenu-item" href="{{ l | localized }}/">
+                <a class="dwd-header-submenu-item" href="{{ page.filePathStem | localizedUrl(l, lang, collections.all) }}">
                   {{ l }}
                 </a>
               {% endif %}
