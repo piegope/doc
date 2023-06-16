@@ -16,14 +16,18 @@ eleventyImport:
       {%- endif -%}
       {%- if item.children.length > 0 -%}
         {%- if not item.hasData -%}
-          {% if item.redirect %}
-            <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" href="{{ item.redirect }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+          {% set firstChildrenUrl = item | findFirstChildrenUrlTree %}
+          {% if item.redirect or firstChildrenUrl != item.url %}
+            <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" href="{{ item.redirect if item.redirect else firstChildrenUrl }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
               {{- item.title -}}
               {{- icon['expandMore'] | safe -}}
             </a>
           {% else %}
             <button class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
               {{- item.title -}}
+              {% if page.url == "/hub/overview/" and item.url == "/hub/overview/" %}
+                {{- item | findFirstChildrenUrlTree -}}
+              {% endif %}
               {{- icon['expandMore'] | safe -}}
             </button>
           {% endif %}
