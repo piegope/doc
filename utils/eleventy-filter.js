@@ -21,6 +21,22 @@ module.exports = (config) => {
 
   config.addFilter('toc', toc);
 
+  config.addFilter('findFirstChildrenUrlTree', function (array) {
+    function findUrl(a) {
+      if (a[0].hasData) {
+        return a[0].url;
+      } else {
+        if (a[0].children.length > 0) {
+          return findUrl(a[0].children);
+        }
+
+        return array.url;
+      }
+    };
+
+    return findUrl(array.children);
+  });
+
   config.addFilter('filterTree', function (array, lang, tree) {
     const trees = tree.split('/');
 
