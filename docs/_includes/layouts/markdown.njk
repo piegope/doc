@@ -25,9 +25,6 @@ eleventyImport:
           {% else %}
             <button class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
               {{- item.title -}}
-              {% if page.url == "/hub/overview/" and item.url == "/hub/overview/" %}
-                {{- item | findFirstChildrenUrlTree -}}
-              {% endif %}
               {{- icon['expandMore'] | safe -}}
             </button>
           {% endif %}
