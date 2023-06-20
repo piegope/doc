@@ -125,7 +125,7 @@
   text-align: center;
 }
 
-.aa-ItemLink {
+.aa-ItemLink, .aa-ItemWrapper {
   padding: 4px 12px;
   transition: none;
 }
@@ -192,4 +192,37 @@
 
 .aa-DetachedSearchButtonIcon {
   color: var(--background-text);
+}
+
+[data-autocomplete-source-id=tagsPlugin] {
+  .aa-Item {
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    color: #616161;
+    padding: 6px 10px 6px 12px;
+
+    &[aria-selected=true] {
+      background-color: #F5F5F5;
+      color: #616161;
+    }
+  }
+
+  .aa-TagsPlugin-TagLabel {
+    font-size: 11px;
+  }
+
+  .aa-TagsPlugin-RemoveButton {
+    margin-left: 2px;
+  }
+
+  .aa-TagsPlugin-Tag {
+    padding-left: 0;
+  }
+
+  .aa-TagsPlugin-RemoveButton svg {
+    color: #BDBDBD;
+    margin: 0;
+    height: 10px;
+    width: 10px;
+  }
 }

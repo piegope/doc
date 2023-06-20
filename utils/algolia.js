@@ -21,6 +21,8 @@ module.exports = function (results) {
         let doc = result.url.split('/')[2];
         let os = result.url.split('/')[3];
 
+        let docLabel = doc;
+
         if (!localeRe.test(locale)) {
           locale = defaultLocale;
           doc = result.url.split('/')[1];
@@ -30,18 +32,23 @@ module.exports = function (results) {
         switch (doc) {
           case 'cloud':
             icon = "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-icon-shadow.svg";
+            docLabel = "Cloud Services";
             break;
           case 'hub':
             icon = "https://webdevolutions.azureedge.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg";
+            docLabel = "Devolutions Hub";
             break;
           case 'kb':
             icon = "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg";
+            docLabel = "Knowledge Base";
             break;
           case 'rdm':
             icon = "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg";
+            docLabel = "Remote Desktop Manager";
             break;
           case 'server':
             icon = "https://webdevolutions.azureedge.net/images/projects/server/logos/server-icon-shadow.svg";
+            docLabel = "Devolutions Server";
             break;
         }
 
@@ -77,7 +84,7 @@ module.exports = function (results) {
           if (found) {
             found.content = content;
           } else {
-            objects.push({ doc, icon, title, url, content });
+            objects.push({ doc: docLabel, icon, title, url, content });
           }
         }
 
@@ -93,7 +100,7 @@ module.exports = function (results) {
 
       index.setSettings({
         searchableAttributes: ['title', 'content'],
-        attributesForFaceting: ['doc'],
+        attributesForFaceting: ['searchable(doc)'],
         distinct: 1,
         attributeForDistinct: 'url'
       }).then();
