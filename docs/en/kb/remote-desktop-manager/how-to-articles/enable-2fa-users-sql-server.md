@@ -8,7 +8,7 @@ These features are only available when using an [Advanced Data Source](/rdm/wind
 {% endsnippet %}  
 
 {% snippet icon.badgeCaution %}
-You cannot configure 2FA for users. Once activated, each user will need to configure it manually in ***File - DataSources*** For more information about configuration consult this topic: [2-Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/)
+You cannot configure 2FA for users. Once activated, each user will need to configure it manually in ***File - Data Sources*** For more information about configuration consult this topic: [2-Factor Authentication](/rdm/windows/data-sources/multi-factor-authentication/)
 {% endsnippet %}
 
 ### Force application security with Windows credentials
@@ -23,6 +23,10 @@ Under ***Administration - System Settings - Applications - Security - Force appl
 ### Force data source 2-factor configuration
 Under ***Administration - System Settings - Security Settings - Security - Force data source 2-factor configuration***  
 ![!!KB4908.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4908.png)
+
+### Prompt MFA before going offline / Offline Mode
+Under ***Administration - System Settings - Cache/Offline - Prompt for MFA before going offline***  
+
 
 ### Force with Group Policies (GPO)
 We also have GPOs that could help you achieve your goal. An example in this case is the ***Force multiple-factor authentication on the application login***  
