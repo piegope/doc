@@ -4,16 +4,44 @@
   <div class="dwd-sub-header-container">
     <div class="dwd-sub-header">
       <div class="dwd-sub-header-wrapper">
-        {% if project.logo %}
-          <img class="logo" src="{{ project.logo }}">
-        {% endif %}
-        <div class="dwd-sub-header-center">
-          <div id="algolia-autocomplete"
-               data-index="docs-{{ lang }}"
-               data-tags='{{ searchTags | dump }}'
-               data-placeholder=""></div>
+        <div class="dwd-dropdown-menu">
+         <div class="dropdown">
+          {% if project.logo %}
+           <button class="dropbtn"><img src="{{ project.logo }}"><span>{{ icons.arrowDownMedium | safe }}</span></button>
+          {% endif %}
+          <div class="dropdown-content">
+            {% for subKey, subProject in locale[lang].projects %}
+              {% if subProject.isTopic == true %}
+               <div class="icon-container">
+                <a class="main-links" href="{{ subProject.url }}"><img src="{{ subProject.logo }}">
+                </a>
+                
+                  {% for iconKey, iconProject in locale[lang].projects %}
+                    {% if iconProject.isTopic == false %}
+                      {% if subKey in iconKey %}
+                        
+                       {% if iconProject.os != null %} <a class="icons" href="{{ iconProject.url }}">{{ icons[iconProject.os] | safe }}</a>
+
+                        {% endif %}
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
+                
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="dwd-sub-header-center">
+        <div id="algolia-autocomplete"
+              data-index="docs-{{ lang }}"
+              data-tags='{{ searchTags | dump }}'
+              data-placeholder=""></div>
         </div>
       </div>
     </div>
   </div>
+
+  
 {% endif %}
