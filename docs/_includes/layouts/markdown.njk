@@ -39,7 +39,7 @@ eleventyImport:
   {%- endmacro -%}
 
   {%- if tree and page.url -%}
-    <nav class="navigation">
+    <nav class="navigation" data-dwd-modal-group="mobile-menu" data-dwd-modal-target="all">
       {%- for item in collections.eleventyNavigationTree | filterTree(lang, tree) | sortTree -%}
         {{- nav(item, 1) -}}
       {%- endfor -%}
