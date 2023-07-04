@@ -12,9 +12,10 @@
           <div class="dropdown-content">
             {% for subKey, subProject in locale[lang].projects %}
               {% if subProject.isTopic == true %}
-               <div class="icon-container">
+               
                 <a class="main-links" href="{{ subProject.url }}"><img src="{{ subProject.logo }}">
                 </a>
+                <div class="icon-container">
                 
                   {% for iconKey, iconProject in locale[lang].projects %}
                     {% if iconProject.isTopic == false %}
