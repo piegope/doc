@@ -8,14 +8,13 @@ eleventyImport:
     <div class="nav-item-container">
       {%- if item.hasData -%}
         <div class="nav-item-sub-container">
-        <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }} {{ 'current' if page.url === item.url }}" href="{{ item.url }}" {{ ['data-dwd-tab data-dwd-tab-group=', item.url,' data-dwd-tab-target=', item.url] | join if item.children.length > 0 }}>
-          {{- item.title -}}
-        </a>
-         {%- if item.children.length > 0 -%}
-         <span class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
-            {{- icon['expandMore'] | safe -}}
-          </span>
-        
+          <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }} {{ 'current' if page.url === item.url }}" href="{{ item.url }}" {{ ['data-dwd-tab data-dwd-tab-group=', item.url,' data-dwd-tab-target=', item.url] | join if item.children.length > 0 }}>
+            {{- item.title -}}
+          </a>
+          {%- if item.children.length > 0 -%}
+          <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+              {{- icon['expandMore'] | safe -}}
+          </div>
           {%- endif -%}
         </div>
       {%- endif -%}
@@ -23,23 +22,23 @@ eleventyImport:
         {%- if not item.hasData -%}
           {% set firstChildrenUrl = item | findFirstChildrenUrlTree %}
           {% if item.redirect or firstChildrenUrl != item.url %}
-           <div class="nav-item-sub-container">
+          <div class="nav-item-sub-container">
             <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" href="{{ item.redirect if item.redirect else firstChildrenUrl }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
               {{- item.title -}}
             </a>
-             <span class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
-                {{- icon['expandMore'] | safe -}}
-             </span>
+            <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+              {{- icon['expandMore'] | safe -}}
+            </div>
           </div>
           {% else %}
           <div class="nav-item-sub-container">
             <button class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
               {{- item.title -}}
             </button>
-              <span class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
-                {{- icon['expandMore'] | safe -}}
-              </span>
+            <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+              {{- icon['expandMore'] | safe -}}
             </div>
+          </div>
           {% endif %}
         {%- endif -%}
         <div class="nav-item-items {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
