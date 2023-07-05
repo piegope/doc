@@ -4,7 +4,7 @@
       "isTopic": true,
       "icon": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg",
       "logo": "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg",
-      "url": "/fr/rdm/",
+      "url": "/fr/rdm/windows/overview/what-is-rdm/",
       "formattedName": "<b>Remote Desktop</b> Manager"
     },
     "rdm/windows": {
