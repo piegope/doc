@@ -22,6 +22,16 @@
     }
   }
 
+  .nav-item-sub-container {
+    display: flex;
+    align-items: center; 
+    
+    .expand-more {
+      
+      cursor: pointer;
+    }
+  }
+
   .nav-item {
     align-items: center;
     background-color: transparent;
@@ -36,7 +46,11 @@
 
     &:hover {
       background-color: #f5f5f5;
+      & + .expand-more { 
+        background-color: #f5f5f5;
+      }
     }
+    
 
     @for $i from 2 through 8 {
       &.level-#{$i} {
@@ -46,23 +60,34 @@
 
     &.active {
       background-color: #f5f5f5;
-
+      & + .expand-more { 
+        background-color: #f5f5f5;
+      }
       &.current {
         color: #ffffff;
         background-color: #0068c3;
+        & + .expand-more { 
+          color: #ffffff;
+          background-color: #0068c3;
+        }
       }
-
-      svg {
-        transform: rotate(0deg);
+       
+      & + .expand-more {
+        svg {
+          transform: rotate(0deg);
+        }
       }
     }
-
-    svg {
-      height: 18px;
-      margin-left: auto;
-      min-width: 18px;
-      transform: rotate(-90deg);
-      width: 18px;
+ 
+   
+    & + .expand-more { 
+     svg {
+        height: 18px;
+        margin-left: auto;
+        min-width: 18px;
+        transform: rotate(-90deg);
+        width: 18px;
+      }
     }
   }
 
@@ -75,4 +100,6 @@
       height: auto;
     }
   }
+
+
 }
