@@ -15,6 +15,9 @@
 
     &.active {
       transform: translateX(0);
+      top: calc((var(--header-height)));
+      height: calc(100% - (var(--header-height)));
+      z-index: 1000;
       
     }
   }
