@@ -4,7 +4,7 @@ eleventyComputed:
   order: 50
 ---
 {% snippet icon.badgeInfo %} 
-Veuillez installer la Console {{ fr.DVLS }} selon la version souhaité disponible sur la [page de téléchargement](https://server.devolutions.net/fr/home/download) avant de mettre à jour l'instance web de {{ fr.DVLS }} . 
+Veuillez installer la Console {{ fr.DVLS }} selon la version souhaité disponible sur la [page de téléchargement](https://devolutions.net/fr/server/home/download/) avant de mettre à jour l'instance web de {{ fr.DVLS }} . 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
