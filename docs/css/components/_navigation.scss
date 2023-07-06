@@ -27,7 +27,9 @@
     align-items: center; 
     
     .expand-more {
-      
+      display: flex;
+      align-self: stretch;
+      align-items: center; 
       cursor: pointer;
     }
   }
