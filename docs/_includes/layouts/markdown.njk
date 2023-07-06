@@ -54,10 +54,15 @@ eleventyImport:
       </a>
     </div>
 
+
     {{- content | toc('Index') | safe -}}
 
     <main class="markdown">
       {{- content | safe -}}
+      <div class="popup">
+        <span class="popuptext" id="myPopup">Copied to clipboard</span>
+      </div>
     </main>
+  
   </div>
 </div>
