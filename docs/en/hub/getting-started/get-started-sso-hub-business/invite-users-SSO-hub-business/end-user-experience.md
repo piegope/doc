@@ -34,7 +34,7 @@ This is why the user needs to store this ***Private Key*** on the mobile applica
 1. Download on a mobile device the ***Devolutions Workspace*** application. 
 1. Click ***Continue***.  
 ![Download Devolutions Workspace](https://webdevolutions.azureedge.net/docs/en/hub/Hub4150.png) 
-3. In the ***Devolutions Workspace*** application, access the ***Authenticarot*** space, then click ***Add***. 
+3. In the ***Devolutions Workspace*** application, access the ***Authenticator*** space, then click ***Add***. 
 1. Back on the browser page, click on ***Mobile App***. 
 1. Scan the QR code in ***Devolutions Workspace***.  
 ![Scan this QR code in Devolutions Workspace](https://webdevolutions.azureedge.net/docs/en/hub/Hub4151.png) 
