@@ -5,9 +5,15 @@ const dwdCopyAnchor = {
             Array.from(elements).forEach(item => {
                 item.addEventListener('click', event => {               
                     navigator.clipboard.writeText(item.href);
-                    var popup = document.getElementById("myPopup");
-                    popup.classList.toggle("show");
-                    myTimeout = setTimeout(function() { popup.classList.toggle("show") }, 3000);
+                    
+                    const para = document.createElement("div");
+                    para.className = "copied-div";
+                    para.appendChild(document.createTextNode("Copied !"));
+
+                    item.parentElement.append(para);
+                        
+                    myTimeout = setTimeout(function() { para.remove()  }, 3000);
+                          
                  });
             });
     
