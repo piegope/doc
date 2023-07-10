@@ -12,7 +12,8 @@ const dwdCopyAnchor = {
 
                     item.parentElement.append(para);
                         
-                    myTimeout = setTimeout(function() { para.remove()  }, 3000);
+                    myTimeout = setTimeout(function() { para.remove() }, 2000);
+                    
                           
                  });
             });
@@ -24,4 +25,3 @@ const dwdCopyAnchor = {
 (function () {
   dwdCopyAnchor.init();
 })();
-
