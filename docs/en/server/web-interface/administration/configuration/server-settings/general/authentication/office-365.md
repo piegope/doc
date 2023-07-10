@@ -1,184 +1,158 @@
 ---
-title: Office365
-keywords:
-- Roles
+eleventyComputed:
+  title: Microsoft Authentication with {{ en.DVLS }}
+  keywords:
+  - Roles
 ---
-{% snippet icon.badgeInfo %} 
-Microsoft Azure Active Directory subscription is required to configure Office365 authentication in {{ en.DVLS }} . You need to create three new app registrations in Microsoft Azure Active Directory before completing the authentication settings. For more information about the app registrations, see [Azure portal configuration guide for Microsoft authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/). 
+{% snippet icon.badgeInfo %}
+Microsoft Azure Active Directory subscription is required to configure Office365 authentication in {{ en.DVLS }}. One new app registration is required in Microsoft Azure Active Directory before completing the authentication settings. For more information about the app registrations, see [Azure portal configuration guide for Microsoft Authentication](/kb/devolutions-server/how-to-articles/azure-portal-configuration-guide-microsoft-authentication/).
 {% endsnippet %}  
 
- 
-The Office365 tab allows {{ en.DVLS }} to authenticate users using Office365 authentication . All fields are mandatory except the Automatic User Creation section. 
+The ***Microsoft Authentication*** tab allows {{ en.DVLS }} to authenticate users using Office365 authentication. The ***Display name***, ***Tenant ID***, ***Client ID*** and ***Secret value*** fields are mandatory.
 
-![Authentication - Configure Office365](https://webdevolutions.azureedge.net/docs/en/server/AuthenticationOffice365.png)
+![Authentication - Configure Microsoft Authentication](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0022.png)  
 
-## Settings 
-### Office365 Parameters 
+## Settings
+### Parameters
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Tenant ID 
+Display name
 		</td>
 		<td>
-The TenantID is the Directory ID of the Azure Active Directory. 
+The name displayed for this configuration
 		</td>
 	</tr>
-</table>
+	<tr>
+		<td>
+Tenant ID
+		</td>
+		<td>
+The TenantID is the Directory ID of the Azure Active Directory
+		</td>
+	</tr>
+	<tr>
+		<td>
+Client ID
+		</td>
+		<td>
+Application ID of the Azure AD application
+		</td>
+	</tr>
+	<tr>
+		<td>
+Use specific client ID for users and user groups cache
+		</td>
+		<td>
+Only use this if the secret is in another Azure application
+		</td>
+	</tr>
+	<tr>
+		<td>
+Secret value
+		</td>
+		<td>
+Secret generated in Azure
+		</td>
+	</tr>
+	<tr>
+		<td>
+Type of user interaction on login
+		</td>
+		<td>
+<b><i>Automatic</b></i>: Choose the most appropriate method for the context
+<br>
+<b><i>Select account</b></i>: Always display account selection
+<br>
+<b><i>None</b></i>: Silent connection only, the user must be connected through another application of the provider
+<br>
+<b><i>Login</b></i>: Forces the user to the provider every time
+		</td>
+	</tr>
+	<tr>
+		<td>
+Test connection
+		</td>
+		<td>
+Test the connection given the current parameters
+		</td>
+	</tr>
+</table>  
 
-### Native Application (RDM) 
+### Automatic User Creation
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Client ID 
+Auto create on first login
 		</td>
 		<td>
-Application ID of the Azure AD application. 
+Creates a user with the first login
 		</td>
 	</tr>
 	<tr>
 		<td>
-Resources ID 
+User type
 		</td>
 		<td>
-resourceAppid from the Manifest of the Azure AD application. 
+Choose between <b><i>User</b></i> and <b><i>Read-only user</b></i> (only available when <b><i>Auto create on first login</b></i> is enabled)
 		</td>
 	</tr>
 	<tr>
 		<td>
-Redirect URI 
+Only from this group
 		</td>
 		<td>
-Redirect URI from the Azure AD application. 
+Only users from this group will be created on first login (only available when <b><i>Auto create on first login</b></i> is enabled)
 		</td>
 	</tr>
-</table>
+</table>  
 
-### Web Application 
+### Microsoft Authentication Users and User Group Cache
+{% snippet icon.badgeInfo %}
+It is recommended to disable the cache feature, as the hybrid mode is more efficient. By default the option is already disabled.
+{% endsnippet %}  
+
 <table>
 	<tr>
 		<th>
-Option 
+Option
 		</th>
 		<th>
-Description 
+Description
 		</th>
 	</tr>
 	<tr>
 		<td>
-Client ID 
+Enable cache feature
 		</td>
 		<td>
-Application ID from the web app section of the Azure AD application. 
+If enabled: Puts the users, groups and links between them in the database<br>
+If disabled: Hybrid mode
+		</td>
+	</tr>
+	<tr>
+		<td>
+Recurrence
+		</td>
+		<td>
+<b><i>Interval</b></i>: Updates the users and user groups data at timed intervals (hours and minutes)<br>
+<b><i>Daily</b></i>: Updates the users and user groups data every day at the set time
 		</td>
 	</tr>
 </table>
-
-### Users and User Groups Cache 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Client ID 
-		</td>
-		<td>
-Application ID of the Azure AD application. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Redirect URI 
-		</td>
-		<td>
-Redirect URI from the Azure AD application. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Secret Key 
-		</td>
-		<td>
-Key from the Password generated in Settings – Keys of the Azure AD application. 
-		</td>
-	</tr>
-</table>
-
-### Automatic User Creation 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Auto create domain users in database 
-		</td>
-		<td>
-Automatically create the Office365 user account in the database on the first login attempt. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Create read-only user 
-		</td>
-		<td>
-Set the user account as a read-only account. 
-		</td>
-	</tr>
-	<tr>
-		<td>
-Default Vault 
-		</td>
-		<td>
-Will give access to that {{ en.VLT }} to the user. 
-		</td>
-	</tr>
-</table>
-
-### Office365 Users and User Groups Cache 
-<table>
-	<tr>
-		<th>
-Option 
-		</th>
-		<th>
-Description 
-		</th>
-	</tr>
-	<tr>
-		<td>
-Update users and groups data every: 
-		</td>
-		<td>
-Set the hours and minutes period that the Office365 Users and User Groups Cache will be refreshed. Default value is set to 30 minutes. 
-		</td>
-	</tr>
-</table>
-
-

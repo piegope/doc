@@ -1,9 +1,7 @@
 ---
 eleventyComputed:
-  title: Link accounts in {{ en.RDM }} Windows
+  title: Link accounts in {{ en.RDM }} for Mac
   description: The Linked Account feature allows users to associate another account under the same user profile.
-  keywords:
-  - Linked
 ---
 The ***Linked Account*** feature allows users to associate another account under the same user profile. This feature is particularly beneficial when a user needs to manage different accounts simultaneously. For instance, a user may have an account with the email address "bob@windjammer.co" and another account with the email address "_bob@windjammer.co", which serves as an elevated or privileged account.  
 {% snippet icon.badgeInfo %}
@@ -17,14 +15,14 @@ Only one license is needed for each ***Linked Account*** pair.
 
 ## Steps
 1. In a ***Small team*** or ***Enterprise*** data source, log in with an administrator.
-1. In the ***Ribbon***, go to ***Administration*** – ***Management*** – ***Users***.  
-![Administration tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0073.png)  
-1. Select one of the users you want to pair, then click on ***Edit User***.  
-![Edit User](https://webdevolutions.azureedge.net/docs/en/kb/KB0074.png)  
+1. In the ***Ribbon***, go to ***Administration*** – ***Users***.  
+![Administration tab](https://webdevolutions.azureedge.net/docs/en/kb/KB0120.png)  
+1. Select one of the users you want to pair, then click on ***Edit User...***.  
+![Edit User](https://webdevolutions.azureedge.net/docs/en/kb/KB0121.png)  
 1. Go to the ***Linked Account*** tab.
 1. Select the other account from the dropdown.  
-![Linked Account](https://webdevolutions.azureedge.net/docs/en/kb/KB0075.png)  
-1. Click ***OK*** to save the changes and close the window, then click ***Close***.
+![Linked Account](https://webdevolutions.azureedge.net/docs/en/kb/KB0122.png)  
+1. Click ***OK*** to save the changes and close the window, then click on ***Close***.
 
 The accounts are now linked. It is possible to check which accounts are linked by going back to the ***User and Security Management*** window, which is under the ***Users*** button, and scrolling until the ***Linked Account*** column.
 {% snippet icon.badgeInfo %}

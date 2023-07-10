@@ -7,8 +7,7 @@ eleventyComputed:
   - VPN
   - Listener
 ---
-
-Ce sujet décrit comment configurer {{ fr.DVLS }} pour se connecter avec {{ fr.DGW }}. Il y a deux façons d'installer un {{ fr.DGW }} : <a href="#étapes-pour-l'installation-côte-à-côte">l'installation côte à côte</a> et <a href="#étapes-pour-l'installation-autonome">l'installation autonome</a>.
+Ce sujet décrit comment configurer {{ fr.DVLS }} pour se connecter avec {{ fr.DGW }}. Il y a deux façons d'installer un {{ fr.DGW }} : <a href="#etapes-pour-linstallation-cote-a-cote">l'installation côte à côte</a> et <a href="#etapes-pour-linstallation-autonome">l'installation autonome</a>.
 
 ## Étapes pour l'installation côte à côte
 {% snippet icon.badgeInfo %}
@@ -17,7 +16,7 @@ Pour mettre en place un {{ fr.DGW }} gratuit, il faut le configurer en utilisant
 
 Cette méthode permet également de gérer davantage de sessions si une ou plusieurs licences {{ fr.DGW }} sont disponibles. Cette procédure d'installation est la plus simple des deux. Cependant, cette méthode est recommandée pour les mises en page de réseau plus simples, et une seule installation ***côte à côte*** peut être effectuée par machine.
 1. Depuis la {{ fr.DVLSCONSOLE }}, cliquer sur l'onglet ***Compagnons***.  
-![Onglet Compagnons](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0003.png)
+![Onglet Compagnons](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2053.png)
 1. Dans la section {{ fr.DGW }}, cliquer sur ***Installer***.
 1. Choisir ***Installation côte à côte***.  
 ![Installation côte à côte](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0004.png)
@@ -50,7 +49,8 @@ Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/ga
 
 5. Cliquer sur ***Suivant***.  
 ![Bouton Suivant](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0009.png)
-1. Saisir le champ d'information ***URI d'accès***, par exemple https://gateway.exemple.com.
+1. Saisir le champ d'information ***URI d'accès***, par exemple https://gateway.exemple.com.  
+![Écouteurs](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0018.png)  
 1. Choisir les ports ***Écouteurs*** pour {{ fr.DGW }} (par défaut ils sont 7171 et 8181).
     1. Si HTTPS est choisi au lieu de HTTP dans l'étape ci-dessus, la ***Configuration du certificat*** sera nécessaire.
     1. ***Fichier du certificat***: Il doit s'agir d'un certificat de chaîne complète (.pfx, .p12, .pem, .crt).
@@ -60,8 +60,7 @@ Il est possible de télécharger un fichier [.msi](https://devolutions.net/fr/ga
 Ne partager pas la clé privée avec d'autres utilisateurs, car elle peut être utilisée pour décrypter la communication entre un utilisateur et un {{ fr.DGW }}. Seule la clé publique doit être partagée.
 {% endsnippet %}  
 
-8. Cliquer sur ***Suivant***.  
-![Suivant](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp0010.png)
+8. Cliquer sur ***Suivant***.
 1. Choisir entre :
     * ***Utiliser la clé publique de l'instance DVLS 'Devolutions Server'*** : cette option est utilisée si {{ fr.DGW }} installé est sur le même serveur que le {{ fr.DVLS }} ;  
     * ***À partir du fichier*** : Si l'installation de {{ fr.DGW }} se fait sur un autre ordinateur, télécharger la clé publique du {{ fr.DVLS }} que qui doit être couplé avec ce {{ fr.DGW }}.  
