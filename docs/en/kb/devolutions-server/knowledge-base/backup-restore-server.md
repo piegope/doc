@@ -35,7 +35,7 @@ Ensure that all prerequisites are installed on the machine where the {{ en.DVLS 
 {% endsnippet %}
 
 {% snippet icon.badgeHelp %}
-If the {{ en.DVLS }} deployment is hosted in a Load Balancing or High Availability topology, please see [Manage Encryption Keys](/kb/devolutions-server/how-to-articles/manage-encryption-keys.md).
+If the {{ en.DVLS }} deployment is hosted in a Load Balancing or High Availability topology, please see [Manage Encryption Keys](/kb/devolutions-server/how-to-articles/manage-encryption-keys/).
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
