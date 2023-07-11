@@ -158,7 +158,7 @@ public sealed partial class RepositoryTranslator
         foreach (string targetLanguageCode in this.targetLanguageCodes)
         {
             string directoryPath = Path.Combine(repositoryPath, "docs", $"{targetLanguageCode}.generated");
-            string? glossaryID = this.options.GetGlossaryID(sourceLanguage.Code, targetLanguageCode);
+            string? glossaryID = this.options.GetGlossaryID(sourceLanguage.Code, targetLanguageCode)?.Trim().NullIfEmpty();
             string cacheFilePath = Path.Combine(repositoryPath, ".translation-tool", glossaryID != null ?
                 $"{sourceLanguage.Code}-{targetLanguageCode}-{glossaryID}-cache.json" : $"{sourceLanguage.Code}-{targetLanguageCode}-cache.json");
             TargetLanguage targetLanguage = new(sourceLanguage, targetLanguageCode, directoryPath, glossaryID, cacheFilePath);
@@ -175,8 +175,10 @@ public sealed partial class RepositoryTranslator
         foreach (SourceFile sourceFile in sourceLanguage.Files)
         {
             string targetFilePath = sourceFile.FilePath.Replace(sourceFile.Language.DirectoryPath, targetLanguage.DirectoryPath, StringComparison.OrdinalIgnoreCase);
-            string? latestCommitFromFileHeader = await this.GetLatestCommitFromFileHeader(targetFilePath).ConfigureAwait(false);
-            if (latestCommitFromFileHeader == null || !string.Equals(sourceFile.LatestCommit, latestCommitFromFileHeader, StringComparison.Ordinal))
+            (string? latestCommitFromFileHeader, string? glossaryIDFromFileHeader) = await this.ReadTargetFileHeader(targetFilePath).ConfigureAwait(false);
+            if (latestCommitFromFileHeader == null ||
+                !string.Equals(sourceFile.LatestCommit, latestCommitFromFileHeader, StringComparison.Ordinal) ||
+                this.options.Force && !string.Equals(targetLanguage.GlossaryID, glossaryIDFromFileHeader, StringComparison.Ordinal))
             {
                 result.Add(new TargetFile(sourceFile, targetLanguage, targetFilePath));
             }
@@ -185,18 +187,24 @@ public sealed partial class RepositoryTranslator
         return result.ToArray();
     }
 
-    private async Task<string?> GetLatestCommitFromFileHeader(string filePath)
+    private async Task<(string? latestCommit, string? glossaryID)> ReadTargetFileHeader(string filePath)
     {
         if (!File.Exists(filePath))
         {
-            return null;
+            return (null, null);
         }
 
         string content = await File.ReadAllTextAsync(filePath, this.targetEncoding).ConfigureAwait(false);
-        Match match = GetLatestCommitRegex().Match(content);
-        return match.Success ? match.Groups[1].Value : null;
+        Match latestCommitMatch = LatestCommitRegex().Match(content);
+        string? latestCommit = latestCommitMatch.Success ? latestCommitMatch.Groups[1].Value : null;
+        Match glossaryIDMatch = GlossaryIDRegex().Match(content);
+        string? glossaryID = glossaryIDMatch.Success ? glossaryIDMatch.Groups[1].Value : null;
+        return (latestCommit, glossaryID);
     }
 
     [GeneratedRegex(@"^latestCommit: *(\S+)", RegexOptions.CultureInvariant | RegexOptions.Multiline)]
-    private static partial Regex GetLatestCommitRegex();
+    private static partial Regex LatestCommitRegex();
+
+    [GeneratedRegex(@"^glossaryID: *(\S+)", RegexOptions.CultureInvariant | RegexOptions.Multiline)]
+    private static partial Regex GlossaryIDRegex();
 }

@@ -24,6 +24,9 @@ public sealed class ProgramOptions
     [Option('m', "max", Required = false, Default = int.MaxValue, HelpText = "Maximum translated file count")]
     public int MaxTranslatedFileCount { get; set; }
 
+    [Option('f', "force", Required = false, Default = false, HelpText = "Translates files that were translated using a different Glossary ID even if they have not been modified")]
+    public bool Force { get; set; }
+
     public string? GetGlossaryID(string sourceLanguageCode, string targetLanguageCode) =>
         string.Equals(sourceLanguageCode, LanguageCode.English, StringComparison.OrdinalIgnoreCase) ?
             string.Equals(targetLanguageCode, LanguageCode.French, StringComparison.OrdinalIgnoreCase) ? this.EnFrGlossaryID :

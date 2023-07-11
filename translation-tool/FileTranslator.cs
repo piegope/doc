@@ -78,6 +78,8 @@ internal sealed partial class FileTranslator
         this.translations = new Dictionary<string, DeeplTranslation>(TranslationsInitialCapacity, StringComparer.Ordinal);
         this.substitutions = new Dictionary<int, ISubstitution>(SubstitutionsInitialCapacity);
         string latestCommitHeaderLine = $"latestCommit: {this.targetFile.SourceFile.LatestCommit}{this.sourceFileEOL}";
+        string glossaryIDHeaderLine = this.targetFile.Language.GlossaryID != null ?
+            $"glossaryID: {this.targetFile.Language.GlossaryID}{this.sourceFileEOL}" : string.Empty;
         Match headerMatch = GetHeaderRegex().Match(this.sourceFileContent);
         if (headerMatch.Success)
         {
@@ -90,13 +92,13 @@ internal sealed partial class FileTranslator
             targetFileHeaderPart1 = DescriptionLineRegex().Replace(targetFileHeaderPart1, this.ReplaceDescriptionLineRegex, 1);
             targetFileHeaderPart1 = KeywordsLinesRegex().Replace(targetFileHeaderPart1, this.ReplaceKeywordsLinesRegex, 1);
             targetFileHeaderPart1 = LatestCommitLineRegex().Replace(targetFileHeaderPart1, this.sourceFileEOL, 1);
-
-            this.targetFileHeader = $"{targetFileHeaderPart1}{latestCommitHeaderLine}{sourceFileHeaderPart2}";
+            targetFileHeaderPart1 = GlossaryIDRegex().Replace(targetFileHeaderPart1, this.sourceFileEOL, 1);
+            this.targetFileHeader = $"{targetFileHeaderPart1}{latestCommitHeaderLine}{glossaryIDHeaderLine}{sourceFileHeaderPart2}";
         }
         else
         {
             this.sourceFileContentWithoutHeader = this.sourceFileContent;
-            this.targetFileHeader = $"---{this.sourceFileEOL}{latestCommitHeaderLine}---{this.sourceFileEOL}";
+            this.targetFileHeader = $"---{this.sourceFileEOL}{latestCommitHeaderLine}{glossaryIDHeaderLine}---{this.sourceFileEOL}";
         }
     }
 
@@ -165,6 +167,9 @@ internal sealed partial class FileTranslator
 
     [GeneratedRegex(@"(?:\r?\n|\r) *latestCommit:[^\r\n]*(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex LatestCommitLineRegex();
+
+    [GeneratedRegex(@"(?:\r?\n|\r) *glossaryID:[^\r\n]*(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    private static partial Regex GlossaryIDRegex();
 
     private async Task ParseSourceFile()
     {
