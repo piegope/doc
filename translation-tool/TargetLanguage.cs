@@ -2,11 +2,13 @@
 
 internal sealed class TargetLanguage
 {
-    public TargetLanguage(SourceLanguage sourceLanguage, string code, string directoryPath, string cacheFilePath)
+    public TargetLanguage(SourceLanguage sourceLanguage, string code, string directoryPath,
+        string? glossaryID, string cacheFilePath)
     {
         this.SourceLanguage = sourceLanguage ?? throw new ArgumentNullException(nameof(sourceLanguage));
         this.Code = code ?? throw new ArgumentNullException(nameof(code));
         this.DirectoryPath = directoryPath ?? throw new ArgumentNullException(nameof(directoryPath));
+        this.GlossaryID = glossaryID;
         this.CacheFilePath = cacheFilePath ?? throw new ArgumentNullException(nameof(cacheFilePath));
     }
 
@@ -15,6 +17,8 @@ internal sealed class TargetLanguage
     public string Code { get; }
 
     public string DirectoryPath { get; }
+
+    public string? GlossaryID { get; }
 
     public string CacheFilePath { get; }
 

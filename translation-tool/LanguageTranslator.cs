@@ -17,7 +17,6 @@ internal sealed class LanguageTranslator
     private readonly Translator deeplTranslator;
     private readonly TranslatedFileCounter translatedFileCounter;
 
-    // TODO Set GlossaryId here
     private readonly TextTranslateOptions deeplTextTranslateOptions = new()
     {
         Formality = Formality.PreferMore,
@@ -34,6 +33,7 @@ internal sealed class LanguageTranslator
         this.markdownPipeline = markdownPipeline ?? throw new ArgumentNullException(nameof(markdownPipeline));
         this.deeplTranslator = deeplTranslator ?? throw new ArgumentNullException(nameof(deeplTranslator));
         this.translatedFileCounter = translatedFileCounter ?? throw new ArgumentNullException(nameof(translatedFileCounter));
+        this.deeplTextTranslateOptions.GlossaryId = targetLanguage.GlossaryID;
     }
 
     public async Task Execute()
