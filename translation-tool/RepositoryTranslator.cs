@@ -12,6 +12,7 @@ using Markdig;
 
 public sealed partial class RepositoryTranslator
 {
+    private readonly ProgramOptions options;
     private readonly string deeplAuthenticationKey;
     private readonly string sourceLanguageCode;
     private readonly string[] targetLanguageCodes;
@@ -26,17 +27,18 @@ public sealed partial class RepositoryTranslator
         sendPlatformInfo = true
     };
 
-    public RepositoryTranslator(string deeplAuthenticationKey, string sourceLanguageCode, string[] targetLanguageCodes, int maxTranslatedFileCount = int.MaxValue)
+    public RepositoryTranslator(ProgramOptions options)
     {
-        if (maxTranslatedFileCount < 1)
+        this.options = options ?? throw new ArgumentNullException(nameof(options));
+        if (options.MaxTranslatedFileCount < 1)
         {
-            throw new ArgumentOutOfRangeException(nameof(maxTranslatedFileCount));
+            throw new ArgumentOutOfRangeException($"{nameof(options)}.{nameof(options.MaxTranslatedFileCount)}");
         }
 
-        this.deeplAuthenticationKey = deeplAuthenticationKey ?? throw new ArgumentNullException(nameof(deeplAuthenticationKey));
-        this.sourceLanguageCode = sourceLanguageCode ?? throw new ArgumentNullException(nameof(sourceLanguageCode));
-        this.targetLanguageCodes = targetLanguageCodes ?? throw new ArgumentNullException(nameof(targetLanguageCodes));
-        this.maxTranslatedFileCount = maxTranslatedFileCount;
+        this.deeplAuthenticationKey = options.DeeplAuthenticationKey ?? throw new ArgumentNullException($"{nameof(options)}.{nameof(options.DeeplAuthenticationKey)}");
+        this.sourceLanguageCode = options.SourceLanguageCode ?? throw new ArgumentNullException($"{nameof(options)}.{nameof(options.SourceLanguageCode)}");
+        this.targetLanguageCodes = (options.TargetLanguageCodes ?? throw new ArgumentNullException($"{nameof(options)}.{nameof(options.TargetLanguageCodes)}")).ToArray();
+        this.maxTranslatedFileCount = options.MaxTranslatedFileCount;
     }
 
     public async Task Execute()
@@ -156,8 +158,10 @@ public sealed partial class RepositoryTranslator
         foreach (string targetLanguageCode in this.targetLanguageCodes)
         {
             string directoryPath = Path.Combine(repositoryPath, "docs", $"{targetLanguageCode}.generated");
-            string cacheFilePath = Path.Combine(repositoryPath, ".translation-tool", $"{sourceLanguage.Code}-{targetLanguageCode}-cache.json");
-            TargetLanguage targetLanguage = new(sourceLanguage, targetLanguageCode, directoryPath, cacheFilePath);
+            string? glossaryID = this.options.GetGlossaryID(sourceLanguage.Code, targetLanguageCode);
+            string cacheFilePath = Path.Combine(repositoryPath, ".translation-tool", glossaryID != null ?
+                $"{sourceLanguage.Code}-{targetLanguageCode}-{glossaryID}-cache.json" : $"{sourceLanguage.Code}-{targetLanguageCode}-cache.json");
+            TargetLanguage targetLanguage = new(sourceLanguage, targetLanguageCode, directoryPath, glossaryID, cacheFilePath);
             targetLanguage.Files = await this.GetTargetFiles(sourceLanguage, targetLanguage).ConfigureAwait(false);
             result.Add(targetLanguage);
         }
