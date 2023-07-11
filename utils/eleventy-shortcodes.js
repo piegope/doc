@@ -25,7 +25,7 @@ module.exports = (config) => {
           break;
       }
     }
-
-    return `<div class="snippet ${className}">${icon ?? ''}<div>${md.render(content)}</div></div>`;
+  
+    return `<div class="snippet ${className}">${icon ?? ''}<div>${md.render(content).replace('\n', '')}</div></div>`;
   });
 }
