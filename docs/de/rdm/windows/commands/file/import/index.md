@@ -3,9 +3,9 @@ title: Importieren
 ---
 {% youtube 'ditrtJE1KlU' %}  
 
-***Datei – Importieren*** ermöglicht ea Ihnen Einträge in den {{ de.RDM }} zu importieren. Sie können verschiedenartige Einträge aus mehreren Quellen importieren.
+***Datei – Importieren*** ermöglicht Einträge in {{ de.RDM }} zu importieren. Sie können verschiedene Einträge aus mehreren Quellen importieren.
 
-Unterstützt werden eine Vielzahl von auf dem Markt befindlicher Tools. Für den Fall, dass wir das entsprechende Format oder das eines Drittanbieters nicht unterstützen, bieten wir einen Assistenten zum Importieren aus einer CSV-Datei.
+Unterstützt werden eine Vielzahl von unterschiedlichen Formaten. Für den Fall, dass wir das entsprechende Format oder das eines Drittanbieters nicht unterstützen, bieten wir einen Assistenten zum Importieren aus einer CSV-Datei.
 
 {% snippet icon.badgeInfo %} 
 Die Importfunktion ist nur aktiv, wenn der Benutzer über die erforderlichen ***Berechtigungen*** zum Importieren verfügt. (Administration - System Berechtigungen)
