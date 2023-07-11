@@ -158,7 +158,7 @@ public sealed partial class RepositoryTranslator
         foreach (string targetLanguageCode in this.targetLanguageCodes)
         {
             string directoryPath = Path.Combine(repositoryPath, "docs", $"{targetLanguageCode}.generated");
-            string? glossaryID = this.options.GetGlossaryID(sourceLanguage.Code, targetLanguageCode)?.Trim().NullIfEmpty();
+            string? glossaryID = this.options.GetGlossaryID(sourceLanguage.Code, targetLanguageCode)?.Trim().NullIfEmpty()?.ToLowerInvariant();
             string cacheFilePath = Path.Combine(repositoryPath, ".translation-tool", glossaryID != null ?
                 $"{sourceLanguage.Code}-{targetLanguageCode}-{glossaryID}-cache.json" : $"{sourceLanguage.Code}-{targetLanguageCode}-cache.json");
             TargetLanguage targetLanguage = new(sourceLanguage, targetLanguageCode, directoryPath, glossaryID, cacheFilePath);
@@ -178,7 +178,7 @@ public sealed partial class RepositoryTranslator
             (string? latestCommitFromFileHeader, string? glossaryIDFromFileHeader) = await this.ReadTargetFileHeader(targetFilePath).ConfigureAwait(false);
             if (latestCommitFromFileHeader == null ||
                 !string.Equals(sourceFile.LatestCommit, latestCommitFromFileHeader, StringComparison.Ordinal) ||
-                this.options.Force && !string.Equals(targetLanguage.GlossaryID, glossaryIDFromFileHeader, StringComparison.Ordinal))
+                this.options.Force && !string.Equals(targetLanguage.GlossaryID, glossaryIDFromFileHeader, StringComparison.OrdinalIgnoreCase))
             {
                 result.Add(new TargetFile(sourceFile, targetLanguage, targetFilePath));
             }
