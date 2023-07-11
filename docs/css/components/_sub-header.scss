@@ -50,14 +50,22 @@
           display: flex; 
           border: none;
           outline: none;
-          background-color: white;
-          padding: 12px 55px;
+          background-color: #F9F9F9;
+          padding: 12px 15px;
           align-items: center; 
+          justify-content: space-between;
+          width: 100%;
+          cursor: pointer; 
+
           @media (max-width: 1023px) {
-            padding: 3px 45px;
+            padding: 3px 15px;
           }
+          &:active {
+            background-color: #F9F9F9; 
+          }
+         
         }
-        &:hover .dropdown-content {
+        .dropdown-content.active {
           display: flex;
           flex-direction: column; 
         }
@@ -70,26 +78,32 @@
         position: absolute;
         background-color: white;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
-        .main-links {
-          float: none;
-          color: black;
-          padding: 12px 60px;
-          text-decoration: none; 
+        .topics-container {
           display: flex;
-          text-align: left; 
           border-top: 3px solid #f9f9f9;
-        
           &:hover {
             background-color: #f9f9f9;
           }
+          
+        }
+        .main-links {
+          float: none;
+          color: black;
+          padding: 12px 26px;
+          text-decoration: none; 
+          display: flex;
+          text-align: left; 
+          width: 100%;
+          
+        
+         
         }
         .icon-container {
           display: flex;
           align-items: center; 
           justify-content: center; 
           
-          flex-direction: row;
+          
           a.icons {
           
             padding: 0 10px;
