@@ -3,7 +3,7 @@ title: Vorlagen
 ---
 Vorlagen sind nützlich, um beim Erstellen eines Eintrags vordefinierte Werte zu setzen und vorzugeben. Mit Vorlagen können Sie:  
 
-* [Vorkonfigurierte Einträge hinzufügen](#einen-neuen-eintrag-erstellen). 
+* [Einträge hinzufügen](#einträge-hinzufügen).
 * [Schnellverbindungen starten](#schnellverbindung-starten). 
 * Einträge als Vorlage öffnen.
 * Vorlagen für Passwörter erstellen.
@@ -30,7 +30,7 @@ Bei der Erstellung einer Vorlage kann deren Verfügbarkeit in den ***Vorlagenein
 
 Vorlagen können in den folgenden Fällen verwendet werden: 
 
-### Beim Erstellen eines neuen Eintrags
+### Einträge hinzufügen
 
 Standardmäßig wird der Benutzer beim Erstellen eines Eintrags, für den es eine Vorlagen gibt, dazu aufgefordert eine Vorlage zu verwenden. Dieses Verhalten kann in den ***Systemeinstellungen*** geändert werden.  
 ![!!clip3584.png](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3584.png) 
