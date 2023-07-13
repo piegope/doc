@@ -178,7 +178,7 @@ public sealed partial class RepositoryTranslator
             (string? latestCommitFromFileHeader, string? glossaryIDFromFileHeader) = await this.ReadTargetFileHeader(targetFilePath).ConfigureAwait(false);
             if (latestCommitFromFileHeader == null ||
                 !string.Equals(sourceFile.LatestCommit, latestCommitFromFileHeader, StringComparison.Ordinal) ||
-                this.options.Force && !string.Equals(targetLanguage.GlossaryID, glossaryIDFromFileHeader, StringComparison.Ordinal))
+                this.options.Force && !string.Equals(targetLanguage.GlossaryID, glossaryIDFromFileHeader, StringComparison.OrdinalIgnoreCase))
             {
                 result.Add(new TargetFile(sourceFile, targetLanguage, targetFilePath));
             }
