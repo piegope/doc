@@ -158,7 +158,7 @@ public sealed partial class RepositoryTranslator
         foreach (string targetLanguageCode in this.targetLanguageCodes)
         {
             string directoryPath = Path.Combine(repositoryPath, "docs", $"{targetLanguageCode}.generated");
-            string? glossaryID = this.options.GetGlossaryID(sourceLanguage.Code, targetLanguageCode)?.Trim().NullIfEmpty()?.ToLowerInvariant();
+            string? glossaryID = this.options.GetGlossaryID(sourceLanguage.Code, targetLanguageCode)?.Trim().NullIfEmpty();
             string cacheFilePath = Path.Combine(repositoryPath, ".translation-tool", glossaryID != null ?
                 $"{sourceLanguage.Code}-{targetLanguageCode}-{glossaryID}-cache.json" : $"{sourceLanguage.Code}-{targetLanguageCode}-cache.json");
             TargetLanguage targetLanguage = new(sourceLanguage, targetLanguageCode, directoryPath, glossaryID, cacheFilePath);
