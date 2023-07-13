@@ -211,7 +211,7 @@ internal sealed partial class FileTranslator
         string link = match.Groups[2].Value;
         if (link.StartsWith("!!", StringComparison.Ordinal))
         {
-            // This is a filename, do not translate
+            // A link name starting with !! will not be rendered, do not translate it
             return this.AddTextSubstitution(match.Value);
         }
 
