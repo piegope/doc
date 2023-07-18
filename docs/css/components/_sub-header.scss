@@ -20,7 +20,7 @@
     column-gap: 24px;
     display: grid;
     grid-template-areas: "left center right";
-    grid-auto-columns: minmax(280px, 280px) minmax(0px, auto) minmax(280px, 280px);
+    grid-auto-columns: minmax(300px, 300px) minmax(0px, auto) minmax(300px, 300px);
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -29,67 +29,67 @@
 
     @media (max-width: 1199px) {
       grid-template-areas: "left center";
-      grid-auto-columns: minmax(280px, 280px) minmax(0px, auto);
+      grid-auto-columns: minmax(300px, 300px) minmax(0px, auto);
     }
 
     .dwd-dropdown-menu {
       display: flex;
       flex-direction: column;
-      background-color: white; 
-      box-shadow: 0px 12px 50px #00000029; 
-      
+
       img {
         height: 48px;
       }
-      justify-content: space-between; 
+
+      justify-content: space-between;
 
       .dropdown {
-        float: left;
-        overflow: hidden;
         .dropbtn {
-          display: flex; 
+          display: flex;
           border: none;
           outline: none;
-          background-color: #F9F9F9;
+          background-color: transparent;
           padding: 12px 15px;
           align-items: center; 
           justify-content: space-between;
           width: 100%;
-          cursor: pointer; 
+          cursor: pointer;
 
           @media (max-width: 1023px) {
             padding: 3px 15px;
           }
-          &:active {
-            background-color: #F9F9F9; 
+
+          &.active,
+          &:hover {
+            background-color: #ffffff;
+            box-shadow: 0px 12px 50px #00000029;
           }
-         
         }
+
         .dropdown-content.active {
           display: flex;
           flex-direction: column; 
         }
-      }
-      .dropbtn:hover {
-        background-color: #F9F9F9;
       }
       .dropdown-content {
         display: none;
         position: absolute;
         background-color: white;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        width: 300px;
+
         .topics-container {
           display: flex;
           border-top: 3px solid #f9f9f9;
+
           &:hover {
             background-color: #f9f9f9;
           }
-          
         }
+
         .main-links {
           float: none;
           color: black;
-          padding: 12px 26px;
+          padding: 12px 15px;
           text-decoration: none; 
           display: flex;
           text-align: left; 
