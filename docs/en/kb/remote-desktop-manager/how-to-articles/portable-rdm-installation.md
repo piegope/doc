@@ -9,7 +9,6 @@ To do so, you will need to perform the following steps:
 1. Create a new folder on your ***Desktop***.
 1. Extract the content of the ***ZIP*** file into the folder created at step 2.
 1. Go in this folder once the ***ZIP*** file has been extracted and run ***RemoteDesktopManager.exe***
-5. Enter your current serial.  
 
 If the issue is resolved, you can use the portable {{ en.RDM }} application has is. That being said, we would recommend that you use it as your main installation.  
 
