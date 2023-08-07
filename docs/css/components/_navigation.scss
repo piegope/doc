@@ -32,7 +32,7 @@
 
     @for $i from 2 through 8 {
       &.level-#{$i} {
-        padding-left: (20 + $i * 8) + px;
+        padding-left: (20 - 12 + $i * 12) + px;
       }
     }
 
