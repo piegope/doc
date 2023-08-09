@@ -2,7 +2,7 @@
 title: System Berechtigungen
 order: 30
 ---
-Die ***System Berechtigungen*** ermöglichen es, Standardnutzern einige administrative Rechte zu gewähren, ohne sie zu Administratoren zu machen. Die ***Standarde***instellung erbt die für den Nutzer oder die Nutzergruppen festgelegten Berechtigungen. Diese werden so gehandhabt, wie Sie es in einem Eintrag erlauben würden..  
+Die ***System Berechtigungen*** ermöglichen es, Standardbenutzer einige administrative Berechtigungen zuzuweisen, ohne sie zu Administratoren zu öndern. Die ***Standardeinstellung*** erbt die für den Benutzer oder die Gruppe konfigurierte Berechtigung. Diese werden wie Berechtigungen direkt im Eintrag behandelt.
 
 ![Verwaltung – System Berechtigungen](https://webdevolutions.azureedge.net/docs/de/server/clip8052.png) 
 
