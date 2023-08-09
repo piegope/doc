@@ -1,5 +1,7 @@
 ---
-title: Portable Remote Desktop Manager Installation
+eleventyComputed:
+  title: Portable {{ en.RDM }} installation
+  description: The Devolutions support staff might request you to try a portable {{ en.RDM }} installation to isolate the application from a potential issue tied to a local file, configuration, or specific setting corruption.
 ---
 The Devolutions support staff might request you to try a portable {{ en.RDM }} installation to isolate the application from a potential issue tied to a local file, configuration, or specific setting corruption.
 
@@ -8,8 +10,7 @@ To do so, you will need to perform the following steps:
 1. Download the [Free](https://devolutions.net/remote-desktop-manager/home/downloadfree) or [Team](https://devolutions.net/remote-desktop-manager/home/downloadenterprise) {{ en.RDM }} ***ZIP*** file.
 1. Create a new folder on your ***Desktop***.
 1. Extract the content of the ***ZIP*** file into the folder created at step 2.
-1. Go in this folder once the ***ZIP*** file has been extracted and run ***RemoteDesktopManager.exe***
-5. Enter your current serial.  
+1. Go in this folder once the ***ZIP*** file has been extracted and run ***RemoteDesktopManager.exe***.
 
 If the issue is resolved, you can use the portable {{ en.RDM }} application has is. That being said, we would recommend that you use it as your main installation.  
 
