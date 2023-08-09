@@ -9,7 +9,7 @@ title: Microsoft SQL Server
 		</td>
 		<td>
 
-{{ en.RDM }} for Mac uses the power of Microsoft SQL Server to save and manage all sessions. 
+{{ en.RDMMAC }} uses the power of Microsoft SQL Server to save and manage all sessions. 
 
 Supported Microsoft SQL Server:  
 
@@ -40,7 +40,7 @@ A proper database backup strategy should be implemented to minimize possible dat
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Active directory in a SQL Server data source is no longer supported in {{ en.RDM }} for macOS. 
+Active directory in a SQL Server data source is no longer supported in {{ en.RDMMAC }}OS. 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -147,7 +147,7 @@ Password used to access the SQL server.
 Database 
 		</td>
 		<td>
-Name of the database on the SQL server for the utilization of {{ en.RDM }} for Mac . 
+Name of the database on the SQL server for the utilization of {{ en.RDMMAC }} . 
 		</td>
 	</tr>
 	<tr>
@@ -306,7 +306,7 @@ Waiting time before a command timeout.
 Allow beta database upgrade 
 		</td>
 		<td>
-Allow beta upgrade of the database (when using a beta version of Remote Desktop Manager). 
+Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}). 
 		</td>
 	</tr>
 	<tr>
@@ -353,7 +353,7 @@ Test the connection with the server to validate if the proper information has be
 Create Database 
 		</td>
 		<td>
-Create the database on the SQL server to use Remote Desktop Manager. 
+Create the database on the SQL server to use {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>
@@ -361,7 +361,7 @@ Create the database on the SQL server to use Remote Desktop Manager.
 Update Database 
 		</td>
 		<td>
-Update the database on the SQL server, if required to use Remote Desktop Manager. 
+Update the database on the SQL server, if required to use {{ en.RDM }}. 
 		</td>
 	</tr>
 	<tr>

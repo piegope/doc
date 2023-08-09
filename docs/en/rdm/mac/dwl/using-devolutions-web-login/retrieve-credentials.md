@@ -6,9 +6,9 @@ eleventyComputed:
 You need website entries in {{ en.RDM }} to be able to retrieve their credentials. If that is not the case, start by [adding a website entry with {{ en.DWL }}](/rdm/mac/dwl/using-devolutions-web-login/add-website-entry-with-dwl/) . 
 {% endsnippet %}
  
-{{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.RDM }} for Mac website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
+{{ en.DWL }} facilitates access to your credentials by automatically matching websites to saved credentials in {{ en.RDMMAC }} website entries. It is also possible to filter through your entries via {{ en.DWL }} to manually find your credentials.  
 
-After the [installation](/rdm/mac/dwl/installation/) of {{ en.DWL }} and its [pairing](/rdm/mac/dwl/first-login-devolutions-web-login/) with {{ en.RDM }} for Mac, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials) .  
+After the [installation](/rdm/mac/dwl/installation/) of {{ en.DWL }} and its [pairing](/rdm/mac/dwl/first-login-devolutions-web-login/) with {{ en.RDMMAC }}, you can immediately use the extension to retrieve your credentials. However, you may want to modify some of the settings to customize your experience. We recommend that you follow the steps in the [Settings](#settings) section first: they will guide you through setting up {{ en.DWL }} by suggesting best practices for retrieving credentials. You can also skip the configuration and go straight to [Retrieving credentials](#retrieving-credentials) .  
 
 ## Settings 
 
@@ -23,9 +23,9 @@ With this option enabled, a {{ en.DWL }} icon is displayed in every credential f
  
 ![General – Show icon in fields](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2028.png) 
 
-4. Click ***Save*** . 
+4. Click ***Save***. 
 1. Click on ***{{ en.RDM }}*** in the ***Data sources*** section.  
-![Settings – Data sources – Remote Desktop Manager](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2029.png) 
+![Settings – Data sources – {{ en.RDM }}](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RDMMac2029.png) 
 1. In the ***Actions*** tab, enable the ***Automatically retrieve credentials on page load*** and ***Automatically fill in credentials on load*** options by checking the boxes next to them. Below is a description of each setting:  
 
 * ***Automatically retrieve credentials on page load*** (enabled by default): Allows {{ en.DWL }} to automatically search for available credentials when loading a web page. 
@@ -36,7 +36,7 @@ With this option enabled, a {{ en.DWL }} icon is displayed in every credential f
 If the ***Automatically submit the form after filling*** setting is enabled, the credentials are automatically submitted when the fields are filled. Enabling it is optional as it is not a best practice. 
 {% endsnippet %}
  
-7. Click ***Save*** .  
+7. Click ***Save***.  
 
 You can now continue to the [next section](#retrieving-credentials) to learn how to retrieve your website entry credentials. 
 

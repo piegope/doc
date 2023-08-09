@@ -22,7 +22,7 @@ Suivez les étapes ci-dessous pour savoir comment faire une demande d'accès tem
 1. Dans le ***{{ fr.NPANE }}*** de {{ fr.RDM }}, ouvrir l'entrée à laquelle accéder en double cliquant dessus. 
 1. Un message s'affichera demandant si vous voulez envoyer une demande d'accès temporaire. Cliquer sur ***Oui***.  
 ![Envoyer une demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2120.png) 
-1. Dans la fenêtre ***Demande d'accès temporaire***, sélectionner la ***Durée d'accès***. Vous pouvez aussi cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'un accès pour une durée déterminée.
+1. Dans la fenêtre ***Demande d'accès temporaire***, sélectionner la ***Durée de l'accès***. Vous pouvez aussi cliquer sur ***Définir une période de temps personnalisée*** si vous avez besoin d'un accès pour une durée déterminée.
 1. Choisir l'approbateur à qui envoyer la demande.  
 ![Demande d'accès temporaire](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin6004.png) 
 1. Rédiger un court ***Message*** à l'intention de l'approbateur expliquant les raisons de cette demande d'accès. Ce message est facultatif, mais vivement recommandé, car il permet à l'approbateur de prendre une décision plus éclairée. Lorsque terminé, cliquer sur ***Envoyer une demande***. 

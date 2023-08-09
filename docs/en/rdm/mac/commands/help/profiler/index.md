@@ -1,7 +1,7 @@
 ---
 title: Profiler
 ---
-{{ en.RDM }} for Mac has a built-in profiler to diagnose connectivity issues with a data source.  
+{{ en.RDMMAC }} has a built-in profiler to diagnose connectivity issues with a data source.  
 
 {% snippet icon.badgeInfo %} 
 Too many custom images could dramatically increase the size of the data source and cause load time issue. 
@@ -10,8 +10,8 @@ Too many custom images could dramatically increase the size of the data source a
 ## Procedure 
 
 1. Select Help - Profiler .  
-![Help - Profiler](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10470.png) 
-1. Move the window to the side in order to display the Remote Desktop Manager main window and refresh the data source by using the refresh button or by using File - Refresh . 
+![Help – Profiler](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10470.png) 
+1. Move the window to the side in order to display the {{ en.RDM }} main window and refresh the data source by using the refresh button or by using ***File – Refresh***. 
 {% snippet icon.badgeInfo %} 
 Holding the CTRL key while performing the refresh will force a full reload of the data source, thereby ignoring the cache. 
 {% endsnippet %}
@@ -25,6 +25,6 @@ Holding the CTRL key while performing the refresh will force a full reload of th
 
 ### Debug only 
 
-To learn more about the debug option please see [Debug only](/rdm/mac/commands/help/profiler/debug-only/) . 
+To learn more about the debug option please see [Debug only](/rdm/mac/commands/help/profiler/debug-only/). 
 
 

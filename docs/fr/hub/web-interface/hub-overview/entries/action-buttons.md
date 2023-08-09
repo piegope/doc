@@ -81,7 +81,7 @@ Modifier les propriétés de l'entrée sélectionnée
 Ouvrir dans {{ fr.LAUNCHER }} 
 		</td>
 		<td>
-Lancer une session dans l'outil connexe {{ fr.DEVL }}. 
+Lancer une session dans l'outil connexe {{ fr.DLAUNCHER }}. 
 		</td>
 	</tr>
 	<tr>
@@ -89,7 +89,7 @@ Lancer une session dans l'outil connexe {{ fr.DEVL }}.
 ![!!logo-rdm.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/logo-rdm.png) 
 		</td>
 		<td>
-Ouvrir dans RDM 
+Ouvrir dans Remote Desktop Manager 
 		</td>
 		<td>
 Lancer une session dans {{ fr.RDM }}. 

@@ -1,9 +1,9 @@
 ---
-title: Services en ligne de RDM
+title: Services en ligne de Remote Desktop Manager
 order: 110
 ---
-Depuis les ***Services en ligne de RDM***, vous pouvez télécharger votre ***Installateur personnalisé***, consulter et gérer votre ***{{ fr.OD }}*** et vos fichiers de ***Sauvegarde en ligne***. 
+Depuis les ***{{ fr.RDMOS }}***, vous pouvez télécharger votre ***{{ fr.CI }}***, consulter et gérer votre ***{{ fr.OD }}*** et vos fichiers de ***Sauvegarde en ligne***. 
 
-* [Installateur personnalisé](/fr/cloud/rdm-online-services/custom-installer/) 
+* [{{ fr.CI }}](/fr/cloud/rdm-online-services/custom-installer/) 
 * [{{ fr.DOD }}](/fr/cloud/rdm-online-services/online-drive/) 
 * [Sauvegarde en ligne](/fr/cloud/rdm-online-services/online-backup/) 

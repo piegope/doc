@@ -1,4 +1,5 @@
 ---
-title: macOS Remote Desktop Manager
-order: 10
+eleventyComputed:
+  title: Remote Desktop Manager {{ de.MAC }}
+  order: 10
 ---

@@ -5,9 +5,9 @@ eleventyComputed:
 ---
 ![!!{{ en.RDM }} logo](https://webdevolutions.blob.core.windows.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-color-shadow.svg)
 
-{{ en.RDM }} for Mac is an application that integrates a comprehensive set of tools and managers to meet the needs of any IT team. It is designed to centralize remote connection technologies, credentials, and secure the access to these resources. Most connections are established using either an external library or third-party software.  
+{{ en.RDMMAC }} is an application that integrates a comprehensive set of tools and managers to meet the needs of any IT team. It is designed to centralize remote connection technologies, credentials, and secure the access to these resources. Most connections are established using either an external library or third-party software.  
 
-{{ en.RDM }} for Mac is compatible with several relevant tools and technologies, including Apple Remote Desktop, Citrix, Dameware, FTP, Hyper-V, LogMeIn, Radmin, RDP (Microsoft Remote Desktop), SSH Port Forward, SSH Shell, TeamViewer, Telnet, Remote Desktop Services, VMware, VNC, SCP, X Windows, and more! 
+{{ en.RDMMAC }} is compatible with several relevant tools and technologies, including Apple Remote Desktop, Citrix, Dameware, FTP, Hyper-V, LogMeIn, Radmin, RDP (Microsoft Remote Desktop), SSH Port Forward, SSH Shell, TeamViewer, Telnet, Remote Desktop Services, VMware, VNC, SCP, X Windows, and more! 
 
 ## The {{ en.RDM }} ecosystem 
 
@@ -27,7 +27,7 @@ For individuals only, no information can be shared with colleagues. The most pop
 Team 
 		</td>
 		<td>
-Used by teams, this edition offers permissions, security groups, advanced logging, etc. RDM uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for either Cloud-Based storage or to get full Active Directory Integration. 
+Used by teams, this edition offers permissions, security groups, advanced logging, etc. Remote Desktop Manager uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for either Cloud-Based storage or to get full Active Directory Integration. 
 		</td>
 	</tr>
 </table>

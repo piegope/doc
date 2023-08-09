@@ -1,21 +1,21 @@
 ---
 eleventyComputed:
-  title: Enregistrer une Licence {{ fr.DVLS }} Free
+  title: Enregistrer une licence {{ fr.DVLS }} Free
   order: 20
+  description: Enregistrez votre licence {{ fr.DVLS }} Free avec la {{ fr.DVLSCONSOLE }} ou via l'interface Web de {{ fr.DVLS }}.
 ---
+Il existe deux méthodes pour enregistrer votre licence {{ fr.DVLS }} Free : avec la [{{ fr.DVLSCONSOLE }}](#console-de-devolutions-server) ou via l'[interface Web de {{ fr.DVLS }}](#interface-web-de-devolutions-server).  
 
-Il existe deux méthodes pour enregistrer votre licence {{ fr.DVLS }} Free, avec la [console {{ fr.DVLS }}](#console-devolutions-server) ou via l' [interface Web {{ fr.DVLS }}](#interface-web-devolutions-server) .  
+Trouvez votre licence {{ fr.DVLS }} Free dans la section ***Clés de licence*** de votre [{{ fr.DPORTAL }}](https://portal.devolutions.com/serials).  
+![Licence de {{ fr.DVLS }} Free](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4035.png) 
 
-Trouver votre licence {{ fr.DVLS }} Free dans la section ***Clés de licence*** de votre [Compte Devolutions](https://portal.devolutions.com/serials) .  
-![!!ServerOp4035.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4035.png) 
+## {{ fr.DVLSCONSOLE }} 
 
-### Console {{ fr.DVLS }} 
+Dans la {{ fr.DVLSCONSOLE }}, enregistrer la licence {{ fr.DVLS }} dans ***Serveur – Modifier – Général – Licence***.  
+![Licence {{ fr.DVLS }} dans la console](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2054.png) 
 
-Enregistrer la licence {{ fr.DVLS }} Free dans ***Serveur – Modifier – Général – Licence*** .  
-![!!ServerOp4036.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4036.png) 
+## Interface Web de {{ fr.DVLS }} 
 
-### Interface WEB {{ fr.DVLS }} 
-
-Enregistrer la licence {{ fr.DVLS }} Free   dans ***Administration – Paramètres Serveur – Général – Série*** .  
-![!!ServerOp4037.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4037.png) 
+Dans l'interface Web de {{ fr.DVLS }}, enregistrer la licence {{ fr.DVLS }} dans ***Administration – Paramètres Serveur – Général – Série***.  
+![Licence {{ fr.DVLS }} dans l'interface Web](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp2055.png) 
 

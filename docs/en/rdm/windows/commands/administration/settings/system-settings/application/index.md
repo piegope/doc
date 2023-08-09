@@ -67,10 +67,10 @@ Disable the Quick Connect feature for all users of the data source.
 	</tr>
 	<tr>
 		<td>
-Disable RDM Agent and Jump 
+Disable Remote Desktop Manager Agent and Jump 
 		</td>
 		<td>
-Disable the option to activate a session as an RDM Agent or Jump. 
+Disable the option to activate a session as a {{ en.RDMA }} or Jump. 
 		</td>
 	</tr>
 	<tr>
@@ -78,7 +78,7 @@ Disable the option to activate a session as an RDM Agent or Jump.
 Disable stack trace 
 		</td>
 		<td>
-Disable the stack trace details when an error occurs in {{ en.RDM }} . This is a security feature. 
+Disable the stack trace details when an error occurs in {{ en.RDM }}. This is a security feature. 
 		</td>
 	</tr>
 </table>
@@ -181,7 +181,7 @@ Set the application to lock:
 Go into offline mode if available when disconnecting 
 		</td>
 		<td>
-Will switch RDM from online to offline mode if available when disconnecting. 
+Will switch Remote Desktop Manager from online to offline mode if available when disconnecting. 
 		</td>
 	</tr>
 	<tr>

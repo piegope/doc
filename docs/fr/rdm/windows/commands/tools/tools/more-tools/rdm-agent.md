@@ -1,15 +1,15 @@
 ---
-title: Agent RDM
+title: Agent Remote Desktop Manager
 ---
 L' {{ fr.RDMA }} est un outil très puissant qui permet d'exécuter des commandes sur plusieurs machines.  
-![Outils - Plus d'outils - Agent RDM](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11234.png) 
+![Outils - Plus d'outils - Agent Remote Desktop Manager](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11234.png) 
 
 ## Paramètres 
 
-Pour lancer un script via l'Agent RDM , vous devez d'abord ouvrir une connexion RDP sur toutes les machines sur lesquelles vous souhaitez exécuter le script. Une fois ouverte, sélectionner toutes les sessions ouvertes dans le volet de navigation, cliquer dessus avec le bouton droit et sélectionner ***Exécuter le script par Agent*** .  
+Pour lancer un script via l'{{ fr.RDMA }}, vous devez d'abord ouvrir une connexion RDP sur toutes les machines sur lesquelles vous souhaitez exécuter le script. Une fois ouverte, sélectionner toutes les sessions ouvertes dans le volet de navigation, cliquer dessus avec le bouton droit et sélectionner ***Exécuter le script par Agent*** .  
 
 {% snippet icon.badgeInfo %} 
-L'exécution du script via l'Agent a besoin seulement de l'Agent RDM que lorsque le script est exécuté à partir de l'onglet Quick Script. RDM doit être entièrement installé sur l'ordinateur distant lorsque le script est exécuté à partir de l'onglet Outils/Scripts/Macros. 
+L'exécution du script via l'Agent a besoin seulement de l'{{ fr.RDMA }} que lorsque le script est exécuté à partir de l'onglet Quick Script. Remote Desktop Manager doit être entièrement installé sur l'ordinateur distant lorsque le script est exécuté à partir de l'onglet Outils/Scripts/Macros. 
 {% endsnippet %}
  
 ![Exécuter le script par Agent](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip11244.png) 
@@ -205,7 +205,7 @@ Sélectionner un script ou un outil de session que vous avez déjà créé dans 
 
 ![Scripts/Outils](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10411.png) 
 
-Rechercher un script ou un outil que vous souhaitez exécuter via l'agent RDM. 
+Rechercher un script ou un outil que vous souhaitez exécuter via l'{{ fr.RDMA }}. 
 
 ### Paramètres 
 
@@ -238,6 +238,6 @@ Entrer le délai entre l'ouverture de chaque session sélectionnée.
 
 ### État de l'Agent 
 
-Ouvrir une session RDP, cliquer avec le bouton droit sur cette session unique et sélectionner ***État de l'Agent*** . L'État de l'agent vous montrera que {{ fr.RDM }} est installé sur l'ordinateur distant ou non, que l'Agent {{ fr.RDM }} est actif ou non et combien de sessions {{ fr.RDM }} Jump sont ouvertes.  
+Ouvrir une session RDP, cliquer avec le bouton droit sur cette session unique et sélectionner ***État de l'Agent***. L'État de l'agent vous montrera que {{ fr.RDM }} est installé sur l'ordinateur distant ou non, que l'{{ fr.RDMA }} est actif ou non et combien de sessions {{ fr.RDMJ }} sont ouvertes.  
 ![État de l'Agent](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10413.png) 
 

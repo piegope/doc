@@ -1,13 +1,13 @@
 ---
 title: Compte Devolutions
 ---
-Dans ***Fichier - Compte Devolutions*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }} . Le {{ fr.DA }} est gratuit pour les clients et comprend l'accès au ***Gestionnaire de paquets d'installation personnalisés*** .  
+Dans ***Fichier - {{ fr.DA }}*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }} . Le {{ fr.DA }} est gratuit pour les clients et comprend l'accès au ***{{ fr.CIM }}*** .  
 
 ## Paramètres 
 
-![Compte Devolutions](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10026.png) 
+![{{ fr.DA }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10026.png) 
 
-### Compte Devolutions 
+### {{ fr.DA }}
 
 <table>
 	<tr>
@@ -28,7 +28,7 @@ Connectez ou déconnectez-vous avec votre {{ fr.DA }} .
 	</tr>
 	<tr>
 		<td>
-Créer un compte Devolutions 
+Créer un {{ fr.DA }}
 		</td>
 		<td>
 Créer un nouveau {{ fr.DA }} . 
@@ -36,7 +36,7 @@ Créer un nouveau {{ fr.DA }} .
 	</tr>
 	<tr>
 		<td>
-Modifier mon compte Devolutions 
+Modifier mon {{ fr.DA }}
 		</td>
 		<td>
 Modifier votre {{ fr.DA }} . 
@@ -103,10 +103,10 @@ Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter la rubrique [Gé
 	</tr>
 	<tr>
 		<td>
-Gestionnaire de paquets d'installation personnalisés 
+{{ fr.CIM }} 
 		</td>
 		<td>
-Consulter la rubrique [Service d'installateur personnalisé](/fr/rdm/windows/installation/client/custom-installer-service/) . 
+Consulter la rubrique [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/) . 
 		</td>
 	</tr>
 </table>

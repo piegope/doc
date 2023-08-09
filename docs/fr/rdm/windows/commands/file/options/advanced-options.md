@@ -133,10 +133,10 @@ Autoriser le mode d'identifiants intégrés dans les entrées. Ce mode est obsol
 	</tr>
 	<tr>
 		<td>
-Autoriser les sous-connexions 
+Autoriser les sous entrées 
 		</td>
 		<td>
-Autoriser la création de sous-entrées. 
+Autoriser la création de sous entrées. 
 		</td>
 	</tr>
 	<tr>
@@ -411,10 +411,10 @@ Permet à plusieurs instances de {{ fr.RDM }} de s'exécuter simultanément. Ce 
 	</tr>
 	<tr>
 		<td>
-Prompt Onboarding on startup 
+Lancer l'assistant de prise en main au démarrage 
 		</td>
 		<td>
-Activer pour lancer la fenêtre d'accueil ( Onboarding ) au démarrage. 
+Activer pour lancer l'assistant de prise en main au démarrage. 
 		</td>
 	</tr>
 	<tr>

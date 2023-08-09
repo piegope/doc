@@ -2,9 +2,10 @@
 eleventyComputed:
   title: Migration from security groups to user groups
   description: In {{ en.RDM }} the access to your objects can be secured and managed using the User Groups Based Access Control.
+  status: Topic available in German language
 ---
 {% snippet icon.badgeInfo %}
-Security groups are deprecated as of version 2023.3 of RDM.
+Security groups are deprecated as of version 2023.3 of Remote Desktop Manager.
 {% endsnippet %}
 
 In {{ en.RDM }} the access to your objects can be secured and managed using the ***User Groups Based Access Control***. This type of security gives you a more granular control over your security.  

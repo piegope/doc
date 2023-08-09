@@ -2,9 +2,9 @@
 eleventyComputed:
   title: Devolutions {{ en.OD }}
 ---
-The {{ en.OD }} stores and synchronizes your remote connections and credentials data in our Cloud services. You can access your sessions from anywhere via an Internet connection.  
+The {{ en.OD }} stores and synchronizes your remote connections and credentials data in our cloud services. You can access your sessions from anywhere via an Internet connection.  
 
-It is an online file storage service dedicated to a single file type, Remote Desktop Manager’s connection list. {{ en.OD }} is completely free and has no limitations as to how many sessions you might have, it is for single users as it cannot share files.  
+It is an online file storage service dedicated to a single file type, {{ en.RDM }}’s connection list. {{ en.OD }} is completely free and has no limitations as to how many sessions you might have, it is for single users as it cannot share files.  
 
 Please consult topic [{{ en.OD }}](/cloud/rdm-online-services/online-drive/) for information on this service. 
 
@@ -20,7 +20,7 @@ Even though this is a cloud service, you MUST use our {{ en.OBACK }} service to 
 
 ### General 
 
-![{{ en.OD }} - General tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10499.png) 
+![{{ en.OD }} – General tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10499.png) 
 
 <table>
 	<tr>
@@ -45,7 +45,7 @@ Enter the name of the data source.
 Create an account for free 
 		</td>
 		<td>
-Create a new Devolutions Account. 
+Create a new {{ en.DA }}. 
 		</td>
 	</tr>
 	<tr>
@@ -109,7 +109,7 @@ Ask for the master key every time a connection to the {{ en.DOD }} is attempted.
 ### Backup 
 
 Please consult the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) topic for more information on this service.  
-![{{ en.OD }} - Backup](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10500.png) 
+![{{ en.OD }} – Backup](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10500.png) 
 
 <table>
 	<tr>
@@ -150,7 +150,7 @@ Open a VPN to access your data prior to connecting to your {{ en.DOD }}.
 
 ### Advanced 
 
-![{{ en.OD }} - Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10501.png) 
+![{{ en.OD }} – Advanced tab](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10501.png) 
 
 <table>
 	<tr>
@@ -202,5 +202,3 @@ Clear the offline cache on your computer. This can be very helpful when encounte
 		</td>
 	</tr>
 </table>
-
-

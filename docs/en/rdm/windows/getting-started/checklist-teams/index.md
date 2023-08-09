@@ -1,16 +1,17 @@
 ---
-title: Checklist for Teams
+eleventyComputed:
+  title: Checklist for enterprises
+  order: 40
+  description: Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} for the first time when working in an enterprise environment using a {{ en.DVLS }} or {{ en.DHUBB }} data source.
 ---
-Here's a checklist to help you get started with {{ en.RDM }} when working in a team environment.  
+Here is a checklist designed to help IT administrators install and configure {{ en.RDM }} for the first time when working in an enterprise environment using a {{ en.DVLS }} or {{ en.DHUBB }} data source.  
+
+First [download](https://devolutions.net/remote-desktop-manager/home/download/) and install {{ en.RDM }} before proceeding.  
 
 <table>
 	<tr>
 		<th>
-
-![!!RdmWin4035.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4035.png) 
-		</th>
-		<th>
-CHECKLIST FOR TEAMS 
+CHECKLIST FOR ENTERPRISES 
 		</th>
 		<th>
 DESCRIPTION 
@@ -18,123 +19,98 @@ DESCRIPTION
 	</tr>
 	<tr>
 		<td>
+Step 1 - Register your license  
 
+* [Team registration](/rdm/windows/installation/client/registration/team-edition/)  
+* [Trial request](/rdm/windows/installation/client/registration/trial-request/)  
 		</td>
 		<td>
-Step 1 - Register your license:  
-
-* [Team Registration](/rdm/windows/installation/client/registration/team-edition/) 
-* [Trial Registration](/rdm/windows/installation/client/registration/trial-request/) 
-		</td>
-		<td>
-{{ en.RDM }} Team Edition grants you a 30-day trial. If you decide not to register by the end of the trial, your data will not be altered or erased, and you will have full access to it once you provide a license key. 
+[Add your license](/rdm/windows/installation/client/registration/team-edition/) to the data source. A {{ en.RDM }} Team Edition [30-day trial](/rdm/windows/installation/client/registration/trial-request/) is available upon request.  
 		</td>
 	</tr>
 	<tr>
 		<td>
+Step 2 - Add your data source
 
 		</td>
 		<td>
-Step 2 - Add your [Data Source](/rdm/windows/data-sources/create-new-data-source/) (for teams). 
-		</td>
-		<td>
-Warning: When choosing any data source type that is not on-premises, you need to think about the safety of the data at rest and during transport. We strongly recommend that you further encrypt your data by applying a master key for file-based solutions or a [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) for [Advanced Data Sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). This ensures only you can read the data.  
+Warning: When choosing any [data source](/rdm/windows/data-sources/create-new-data-source/) type that is not on-premises, you must consider the security of the data at rest and in transit. We strongly recommend that you further encrypt your data using a master key for file-based solutions or a [security provider](/rdm/windows/commands/administration/settings/security-providers/) for [advanced data sources](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). This ensures that only you can read the data.  
 
-Upon first launch, {{ en.RDM }} uses a local SQLite data source. The different data sources are explained in the [Data Sources](/rdm/windows/data-sources/) section. For help selecting a data source tailored to your needs, please see [Choosing your data source (Teams)](/rdm/windows/getting-started/checklist-teams/select-data-source-type/). 
+Upon first launch, {{ en.RDM }} uses a local SQLite data source. The different data sources are explained in [Data Sources](/rdm/windows/data-sources/). For help selecting a data source tailored to your needs, please see [Select a data source type - Enterprises](/rdm/windows/getting-started/checklist-teams/select-data-source-type/).  
 		</td>
 	</tr>
 	<tr>
 		<td>
+Step 3 - Select your security provider
 
 		</td>
 		<td>
-Step 3 - Select your [Security Provider](/rdm/windows/commands/administration/settings/security-providers/). 
-		</td>
-		<td>
-Select your [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) before importing or creating any data in your database so nobody can read your entry configuration data, even when people have a direct access to your database. 
+Select your [Security Provider](/rdm/windows/commands/administration/settings/security-providers/) before importing or creating any data in your database so nobody can read your entry configuration data, even when people have a direct access to your database.  
 		</td>
 	</tr>
 	<tr>
 		<td>
+Step 4 - Create your folder structure
 
-		</td>
-		<td>
-Step 4 - Create your folder structure. 
 		</td>
 		<td>
 Top level folders are at the foundation of a solid security structure. Your folder structure (folder entries) should represent your company structure. For example, you can create a folder for your Production team, one for your Staging team and one for your Testing team.  
 
-{% youtube '__xK92eTdgU' %}
+{% youtube '__xK92eTdgU' %}  
 		</td>
 	</tr>
 	<tr>
 		<td>
+Step 5 - Create your default settings
 
 		</td>
 		<td>
-Step 5 - Create your [Default Settings](/rdm/windows/commands/file/templates/default-settings/). 
-		</td>
-		<td>
-In ***File – Options***, you can set options for {{ en.RDM }} and create default settings Templates. Each entry type is supported and can have a default template defined to fit your requirements. After you configure the options, use the [Custom Installer](/rdm/windows/installation/client/custom-installer-service/) to share the pre-configured version with your team. 
+In ***File – Options***, you can set options for {{ en.RDM }} and create [default settings templates](/rdm/windows/commands/file/templates/default-settings/). Each entry type is supported and can have a default template defined to fit your requirements. After you configure the options, use the [{{ en.CI }}](/rdm/windows/installation/client/custom-installer-service/) to share the pre-configured version with your team.  
 		</td>
 	</tr>
 	<tr>
 		<td>
+Step 6 - Create users
 
 		</td>
 		<td>
-Step 6 - Create [Users](/rdm/windows/commands/administration/management/user-management/). 
-		</td>
-		<td>
-{{ en.RDM }} supports advanced User Management. User accounts must be created manually by an administrator of the database. 
+{{ en.RDM }} supports advanced [user management](/rdm/windows/commands/administration/management/user-management/). User accounts must be created manually by an administrator of the database.  
 		</td>
 	</tr>
 	<tr>
 		<td>
+Step 7 - Create user groups
 
 		</td>
 		<td>
-Step 7 - Create [User Groups](/rdm/windows/commands/administration/management/user-groups-management/). 
-		</td>
-		<td>
-Create [User Groups](/rdm/windows/commands/administration/management/user-groups-management/) to manage your security system. You can then assign users to User Groups, making it easy to grant permissions to a set of users instead of having to manage permissions individually. 
+Create [User Groups](/rdm/windows/commands/administration/management/user-groups-management/) to manage your security system. You can then assign users to user groups, making it easy to grant permissions to a set of users instead of having to manage permissions individually.  
 		</td>
 	</tr>
 	<tr>
 		<td>
+Step 8 - Create entries
 
 		</td>
 		<td>
-Step 8 - Create [Entries](/rdm/windows/commands/edit/entries/creating-new-entry/). 
-		</td>
-		<td>
-An entry is how you save information about your sessions (e.g. RDP, SSH connections), credentials, websites, VPNs, synchronizers and documents. 
+An [entry](/rdm/windows/commands/edit/entries/creating-new-entry/) is how you save information about your sessions (e.g., RDP, SSH), credentials, websites, VPNs, synchronizers, and documents.  
 		</td>
 	</tr>
 	<tr>
 		<td>
+Step 9 - Grant permissions
 
 		</td>
 		<td>
-Step 9 - Grant [Permissions](/rdm/windows/user-groups-based-access-control/permissions/). 
-		</td>
-		<td>
-Once your users are created, you can then grant [Permissions](/rdm/windows/user-groups-based-access-control/permissions/) for user group-based access control. The permissions granted on the folder can be inherited by each entry set under that folder. 
+Once your users are created, you can then grant [Permissions](/rdm/windows/user-groups-based-access-control/permissions/) for user group-based access control. The permissions granted on the folder can be inherited by each entry set under that folder.  
 		</td>
 	</tr>
 	<tr>
 		<td>
+Step 10 - Import your data
 
 		</td>
 		<td>
-Step 10 - [Import your Data](/rdm/windows/commands/file/import/). 
-		</td>
-		<td>
-The final step is to import all of your data into {{ en.RDM }}. You can import your sessions, logins and contacts in a few steps. 
+The final step is to [import your data](/rdm/windows/commands/file/import/) into {{ en.RDM }}. You can import your sessions, logins, and contacts in a few steps.  
 		</td>
 	</tr>
 </table>
-
-
-
-

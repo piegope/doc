@@ -12,7 +12,7 @@ Voici la liste des adresses que {{ fr.RDM }} pourrait utiliser durant les activi
 {% endsnippet %}  
 
 {% snippet icon.shieldNotice %}
-Dans le cadre d'une visite standard d'un site Web utilisant le protocole HTTPS, le certificat utilisé par le site distant est validé à l'aide des meilleures pratiques de l'industrie. Un certificat contient plusieurs URL auxquelles on accède pour effectuer la validation. Les URL varient non seulement pour chaque site, mais aussi au fil du temps, chaque fois qu'ils sont renouvelés. Apprenez-en plus sur la [Validation d'un certificat](/kb/remote-desktop-manager/knowledge-base/certificate-validation).
+Dans le cadre d'une visite standard d'un site Web utilisant le protocole HTTPS, le certificat utilisé par le site distant est validé à l'aide des meilleures pratiques de l'industrie. Un certificat contient plusieurs URL auxquelles on accède pour effectuer la validation. Les URL varient non seulement pour chaque site, mais aussi au fil du temps, chaque fois qu'ils sont renouvelés. Apprenez-en plus sur la [Validation d'un certificat](/kb/remote-desktop-manager/knowledge-base/certificate-validation) (EN).
 {% endsnippet %}  
 
 ## Liste des points de terminaison
@@ -31,7 +31,7 @@ Paramètre(s) / Action associé(s)
 	</tr>
 	<tr>
 		<td>
-Vérifier les mises à jour RDM
+Vérifier les mises à jour Remote Desktop Manager
 		</td>
 		<td>
 https<area>://devolutions.net
@@ -42,7 +42,7 @@ Fichier – Options – Démarrage de l'application – Activer la vérification
 	</tr>
 	<tr>
 		<td>
-Mise à jour RDM - téléchargement des paquets
+Mise à jour Remote Desktop Manager - téléchargement des paquets
 		</td>
 		<td>
 https<area>://cdn.devolutions.net
@@ -59,23 +59,23 @@ Devolutions Cloud - nos services en ligne
 https<area>://cloud.devolutions.net
 		</td>
 		<td>
-Fichier – Compte Devolutions
+Fichier – {{ fr.DA }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Connexion au compte Devolutions
+Connexion au {{ fr.DA }}
 		</td>
 		<td>
 https<area>://login.devolutions.com
 		</td>
 		<td>
-Fichier – Compte Devolutions
+Fichier – {{ fr.DA }}
 		</td>
 	</tr>
 	<tr>
 		<td>
-Boutique Devolutions - Mise à niveau/achat pour RDM
+Boutique Devolutions - Mise à niveau/achat pour Remote Desktop Manager
 		</td>
 		<td>
 https<area>://store.devolutions.net

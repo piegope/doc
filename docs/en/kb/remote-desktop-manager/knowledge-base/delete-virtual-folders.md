@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: Delete virtual folders in {{ en.RDM }}
-  description: This topic describes how to delete virtual folders in Remote Desktop Manager.
+  description: This topic describes how to delete virtual folders in {{ en.RDM }}.
 ---
 
 ## Manual method 
@@ -31,7 +31,7 @@ Delete duplicate folders before running the PowerShell script from the new entry
 1. Add the following script:  
 
 ```powershell
-#check if RDM PS module is installed
+#check if Remote Desktop Manager PS module is installed
 if(-not (Get-Module Devolutions.PowerShell -ListAvailable)){
     Install-Module Devolutions.PowerShell -Scope CurrentUser
 }

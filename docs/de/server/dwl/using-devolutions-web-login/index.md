@@ -1,4 +1,5 @@
 ---
-title: Using Devolutions Web Login
-order: 50
+eleventyComputed:
+  title: Devolutions Web Login verwenden
+  order: 50
 ---

@@ -1,9 +1,8 @@
 ---
 eleventyComputed:
   title: Deploy {{ en.DWL }} in Chrome using GPO
-keywords:
-- DWL
-- GPO
+  keywords:
+  - GPO
 ---
 
 {% snippet icon.badgeInfo %}
@@ -61,14 +60,14 @@ All attributes can have their value changed or their key removed.
     "autoRetrieveCredentials": true,
     "autoSubmitFormOnFill": false,
     "autofillBasicAuthentication": false,
-    "destinationGroup": "Devolutions Web Login",
+    "destinationGroup": "{{ en.DWL }}",
     "disableAnalytics": false,
     "dvlsActivated": false,
     "dvlsAutoFillEntryOnLoad": false,
     "dvlsAutoRetrieveCredentials": true,
     "dvlsAutoSubmitFormOnFill": false,
     "dvlsAutofillBasicAuthentication": false,
-    "dvlsDestinationFolder": "Devolutions Web Login",
+    "dvlsDestinationFolder": "{{ en.DWL }}",
     "dvlsMatchDetectionType": 2,
     "dvlsShouldIncludePrivate": true,
     "dvlsShowFavicon": false,
@@ -104,7 +103,7 @@ All attributes can have their value changed or their key removed.
     "rdmAutofillBasicAuthentication": false,
     "rdmDefaultDestinationVaultIsPrivate": true,
     "rdmDefaultPortUsage": true,
-    "rdmDestinationFolder": "Devolutions Web Login",
+    "rdmDestinationFolder": "{{ en.DWL }}",
     "rdmEnableNativeMessaging": false,
     "rdmPort": 19443,
     "rdmShowFavicon": false,

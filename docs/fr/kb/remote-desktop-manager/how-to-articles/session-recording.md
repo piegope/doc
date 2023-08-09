@@ -1,8 +1,9 @@
 ---
-title: Enregistrement de la session
-description: L’enregistrement de la session permet d’enregistrer les actions d’un utilisateur pendant qu’une session à distance de Remote Desktop Manager.
-keywords:
-- Enregistrement
+eleventyComputed:
+  title: Enregistrement de la session
+  description: L’enregistrement de la session permet d’enregistrer les actions d’un utilisateur pendant qu’une session à distance de {{ fr.RDM }}.
+  keywords:
+  - Enregistrement
 ---
 L'enregistrement de la session permet d'enregistrer les actions d'un utilisateur pendant qu'une session à distance de {{ fr.RDM }} est ouverte sur son poste. Un fichier vidéo d’une image par seconde est créé en format webm. 
 {% snippet icon.badgeInfo %} 
@@ -55,7 +56,7 @@ Il est conseillé de choisir une extension de fichier personnalisé. Par exemple
  
 * ***Hérité*** : Le paramètre est hérité du fichier parent. 
 * ***Personnalisé*** : Colle le chemin de destination du fichier dans la boîte ***Destination***. 
-* ***Racine (Par défaut)*** : S'enregistre dans le dossier des applications locales ou de la source de données si vous utilisez un fichier .zip de RDM. 
+* ***Racine (Par défaut)*** : S'enregistre dans le dossier des applications locales ou de la source de données si vous utilisez un fichier .zip de Remote Desktop Manager. 
 6. Choisir un ***Nom de fichier*** ou ***Toujours demander le nom*** lorsque l'utilisateur commence à enregistrer : 
 * ***Hérité*** : Le paramètre est hérité du fichier parent. 
 * ***ID du journal de connexions*** : Utilise un numéro d'identification comptant plusieurs lettres et chiffres. 

@@ -1,8 +1,9 @@
 ---
-title: Session Recording
-description: Session recording provides a record of what a user did while a remote connection was opened in Remote Desktop Manager.
-keywords:
-- Session Recording
+eleventyComputed:
+  title: Session recording
+  description: Session recording provides a record of what a user did while a remote connection was opened in {{ en.RDM }}.
+  keywords:
+  - Session recording
 ---
 Session recording provides a record of what a user did while a remote connection was opened in {{ en.RDM }}. It records one frame per second and creates a video in webm format.
 
@@ -60,7 +61,7 @@ We recommend choosing a custom file extension, for example on a shared network.
  
 * ***Inherited***: Setting is inherited from parent folder. 
 * ***Custom***: Paste the file destination path in the ***Destination*** box. 
-* ***Root (Default)***: Saves in Local App Data or in the data source folder if you are using a zip file of RDM. 
+* ***Root (Default)***: Saves in Local App Data or in the data source folder if you are using a zip file of Remote Desktop Manager. 
 6. Choose a ***Filename template*** or ***Prompt for name*** when user starts recording. 
 * ***Inherited***: Setting is inherited from parent folder. 
 * ***Connection Log ID***: Uses a multi-digit and letter identification number. 
