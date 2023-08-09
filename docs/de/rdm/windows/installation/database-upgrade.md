@@ -1,38 +1,37 @@
 ---
 title: Aktualisierung der Datenbank
 ---
-Dieser Artikel bezieht sich auf Installationen mit Datenquellen, die eine Datenbank als Datenspeicher verwenden.  
+Dieser Artikel bezieht sich auf Installationen, die eine Datenbank als Datenquelle verwenden.  
 
-Bei einigen Versionen von {{ de.RDM }} muss die Struktur der Datenbank geändert werden. Diese Änderungen werden automatisch durchgeführt, aber es ist ratsam, vorher ein Backup Ihrer Datenquelle zu erstellen. Wenn Sie in einem Teamumfeld arbeiten, müssen Sie außerdem der einzige Nutzer sein, der während der Aktualisierung mit der Datenbank verbunden ist.  
+Bei einigen {{ de.RDM }} Versionen muss die Struktur der Datenbank geändert werden. Diese Änderungen werden automatisch durchgeführt, aber es ist ratsam, vorher eine Sicherung Ihrer Datenquelle zu erstellen. Wenn Sie im Team arbeiten, dürfen keine weiteren Benutzer während der Aktualisierung mit der Datenbank verbunden sein.  
 
 {% snippet icon.badgeWarning %} 
-Der Nutzer, der die Aktualisierung durchführt, muss über administrative Rechte für die zugrunde liegende Datenbank verfügen. (SYSDBA oder DB_OWNER). 
+Der Benutzer, der die Aktualisierung durchführt, muss über administrative Rechte für die Datenbank verfügen. (SYSDBA oder DB_OWNER). 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Führen Sie ein Back-up der Datenbank durch und stellen Sie sicher, dass Sie bei Bedarf schnell eine Wiederherstellung durchführen können. 
+Erstellen Sie eine Sicherung der Datenbank und stellen Sie sicher, dass Sie diese bei Bedarf schnell wiederherstellen können. 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
-Wenn Ihr Unternehmen einen Lese-/Schreib-Offline-Cache zulässt, stellen Sie sicher, dass alle Ihre Nutzer ihre Offline-Bearbeitungen zusammengeführt haben. 
+Wenn Lese-/Schreibzugriff für den Offline-Cache konfiguriert ist, stellen Sie sicher, dass alle Benutzer ihre Offline Änderungen synchronisiert haben. 
 {% endsnippet %}
  
 ## Schritte 
 
-Zur erfolgreichen Aktualisierung Ihrer Version befolgen Sie bitte diese Schritte:  
+Für eine erfolgreichen Aktualisierung befolgen Sie bitte folgende Schritte:  
 
-1. Stellen Sie sicher, dass Sie während der Aktualisierung der einzige Nutzer der Datenbank sind. Wenn Ihre Umgebung eine Offline-Nutzung zulässt, lassen Sie Ihr Team in den Offline-Modus oder zu einer anderen Datenquelle wechseln. 
-1. Erstellen Sie mit den Datenbank-Tools eine Sicherungskopie Ihrer Datenbank. 
-1. Installieren Sie die gewünschte Version von {{ de.RDM }}. Wenn Sie dies auf Ihrem eigenen Rechner tun, kann die Verwendung des [Portable (USB)](/rdm/windows/installation/client/portable-usb/)-Bereitstellungsmodells wünschenswert sein. 
-1. Öffnen Sie {{ de.RDM }}, während Sie als Nutzer mit Administratorrechten angemeldet sind. Sie müssen auch SYSDBA oder DB_OWNER sein. 
-1. Möglicherweise erhalten Sie beim Zugriff auf Ihre Datenquelle eine Aktualisierungs-Meldung. Akzeptieren Sie in diesem Fall die Aktualisierung.  
+1. Stellen Sie sicher, dass Sie während der Aktualisierung der einzige Benutzer sind, der die Datenbank verwendet. Wenn der Offline Modus aktiviert ist, weisen  Sie Ihr Team an in den Offline Modus- oder zu einer anderen Datenquelle zu wechseln. 
+1. Erstellen Sie eine Sicherung Ihrer Datenbank. 
+1. Installieren Sie die gewünschte {{ de.RDM }} Version. Wenn Sie den Vorgang auf Ihrem eigenen Rechner durchführen, kann auch die [Portable (USB)](/rdm/windows/installation/client/portable-usb/) Version verwendet werden. 
+1. Öffnen Sie {{ de.RDM }}, mit einem administrativen Konto, der zudem auch über SYSDBA oder DB_OWNER Rechte auf der Datenbank verfügt. 
+1. Möglicherweise erhalten Sie beim Zugriff auf Ihre Datenquelle eine Aufforderung zur Aktualisierung - diese Sie bestätigen können.  
 oder  
-lokalisieren Sie über ***Datei – Datenquellen*** Ihre zu aktualisierende Datenquelle und öffnen deren Eigenschaftsfenster. Wechseln Sie auf die Registerkarte ***Upgrade*** und klicken Sie dann auf ***Datenbank aktualisieren***.  
+Wählen Sie über ***Datei – Datenquellen*** Ihre zu aktualisierende Datenquelle und öffnen deren Eigenschaften. Wechseln Sie auf die Registerkarte ***Upgrade*** und klicken Sie auf ***Datenbank aktualisieren***.  
 
 6. Warten Sie auf eine Bestätigungsmeldung. 
 1. Schließen Sie das Dialogfeld. 
-1. Vergewissern Sie sich, dass Ihr {{ de.RDM }} aktuell diese Datenquelle verwendet. 
+1. Vergewissern Sie sich, dass {{ de.RDM }} die gerade aktualisierte Datenquelle verwendet. 
 1. Drücken Sie Strg+F5, um eine vollständige Aktualisierung zu erzwingen. 
-1. Prüfen Sie den Inhalt und die Technologien, die in Ihrer Umgebung von entscheidender Bedeutung sind. 
-1. Aktualisieren Sie die Kundensoftware auf allen Rechnern. 
-
+1. Überpüfen Sie den Inhalt und die Technologien (VPN etc.), die in Ihrer Umgebung einen hohen Stellenwert haben.
+1. Aktualisieren Sie die {{ de.RDM }} auf allen anderen Rechnern. 
