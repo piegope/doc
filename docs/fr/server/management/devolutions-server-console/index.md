@@ -1,21 +1,23 @@
 ---
-title: Console de Devolutions Server
+eleventyComputed:
+  title: Console de {{ fr.DVLS }}
+  description: Étant donné que {{ fr.DVLS }} est en fait une application Web, l'interface de gestion est fournie par la {{ fr.DVLSCONSOLE }}.
 ---
-Étant donné que {{ fr.DVLS }} est en fait une application Web, l'interface de gestion est fournie par la console de {{ fr.DVLS }} .  
+Étant donné que {{ fr.DVLS }} est en fait une application Web, l'interface de gestion est fournie par la {{ fr.DVLSCONSOLE }}.  
 
 ## Usage 
 
 {% snippet icon.badgeInfo %} 
-La Console de {{ fr.DVLS }} est désormais proposée en tant qu'application autonome. Elle est maintenant disponible sur la [page de téléchargement](https://server.devolutions.net/fr/home/download) . 
+La {{ fr.DVLSCONSOLE }} est désormais proposée en tant qu'application autonome. Elle est maintenant disponible sur la [page de téléchargement](https://server.devolutions.net/fr/home/download). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
 Depuis {{ fr.DVLS }} 2019.x, de nombreuses fonctionnalités peuvent seulement être gérées à partir de l'interface Web. Veuillez consulter [Administration - Paramètres Serveur](/fr/server/web-interface/administration/configuration/server-settings/) . 
 {% endsnippet %}
  
-La Console de {{ fr.DVLS }} gère la métabase IIS, elle doit être démarrée avec des privilèges élevés lorsque la console doit être utilisée. Des privilèges élevés sont accordés lorsque vous utilisez ***exécuter en tant qu'administrateur*** pour lancer l'application. Vous pouvez modifier le raccourci pour toujours démarrer de cette manière.  
+La {{ fr.DVLSCONSOLE }} gère la métabase IIS, elle doit être démarrée avec des privilèges élevés lorsque la {{ fr.DVLSCONSOLE }} doit être utilisée. Des privilèges élevés sont accordés lorsque vous utilisez ***exécuter en tant qu'administrateur*** pour lancer l'application. Vous pouvez modifier le raccourci pour toujours démarrer de cette manière.  
 
-## Console 
+## {{ fr.DVLSCONSOLE }}
 
 ![{{ fr.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8005.png) 
 
@@ -39,7 +41,7 @@ Description
 Actualiser 
 		</td>
 		<td>
-Actualiser la liste des instances de {{ fr.DVLS }} dans la console {{ fr.DVLS }} . 
+Actualiser la liste des instances de {{ fr.DVLS }} dans la {{ fr.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>
@@ -219,7 +221,7 @@ Parcourir le dossier dans lequel les fichiers d'enregistrement sont stockés.
 <table>
 	<tr>
 		<td>
-Devolutions Gateway 
+{{ fr.DGW }} 
 		</td>
 		<td>
 Description 
@@ -230,7 +232,7 @@ Description
 Installer 
 		</td>
 		<td>
-Installer le Devolutions Gateway. 
+Installer le {{ fr.DGW }}. 
 		</td>
 	</tr>
 	<tr>
@@ -238,7 +240,7 @@ Installer le Devolutions Gateway.
 Modifier 
 		</td>
 		<td>
-Modifier la configuration du Devolutions Gateway. 
+Modifier la configuration du {{ fr.DGW }}. 
 		</td>
 	</tr>
 	<tr>
@@ -246,7 +248,7 @@ Modifier la configuration du Devolutions Gateway.
 Mettre à jour 
 		</td>
 		<td>
-Mettre à jour le Devolutions Gateway. 
+Mettre à jour le {{ fr.DGW }}. 
 		</td>
 	</tr>
 	<tr>
@@ -254,7 +256,7 @@ Mettre à jour le Devolutions Gateway.
 Désinstaller 
 		</td>
 		<td>
-Désinstaller le Devolutions Gateway. 
+Désinstaller le {{ fr.DGW }}. 
 		</td>
 	</tr>
 </table>
@@ -419,7 +421,7 @@ Description
 Journaux de l'application 
 		</td>
 		<td>
-Ouvrir la boîte de dialogue des Journaux de l'application de la console {{ fr.DVLS }} . 
+Ouvrir la boîte de dialogue des Journaux de l'application de la {{ fr.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>
@@ -451,7 +453,7 @@ Exécuter le Diagnostic d'IIS.
 Vérifier les mises à jour 
 		</td>
 		<td>
-Vérifier les mises à jour disponibles pour la console {{ fr.DVLS }} . 
+Vérifier les mises à jour disponibles pour la {{ fr.DVLSCONSOLE }}. 
 		</td>
 	</tr>
 	<tr>
@@ -463,6 +465,3 @@ Régler les paramètres de la langue et les options de type de mise à jour.
 		</td>
 	</tr>
 </table>
-
-
-

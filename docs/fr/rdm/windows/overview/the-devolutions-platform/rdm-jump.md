@@ -85,7 +85,7 @@ Le ***Démarrage automatique*** doit être seulement activé pour {{ fr.RDMA }} 
 {% endsnippet %}
  
     a. Aller dans ***Outils – Plus d'outils***.  
-    b. Sélectionner ***Agent Remote Desktop Manager***.  
+    b. Sélectionner ***{{ fr.RDMA }}***.  
     c. Cliquer ***OK***.  
     d. Cliquer ***Oui***.  
     ![!!RdmWin4115.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4115.png) 
@@ -94,7 +94,7 @@ Le ***Démarrage automatique*** doit être seulement activé pour {{ fr.RDMA }} 
     a. Cocher ***Démarrage automatique***.  
 1. Ajuster l'interface utilisateur de l'***Hôte Jump*** pour maximiser la zone d'affichage des sessions à distance.  
     * Mettre l'application en plein écran. 
-    * Masquer le ***Volet de navigation*** dans l'onglet ***Affichage***. 
+    * Masquer le ***{{ fr.NPANE }}*** dans l'onglet ***Affichage***. 
     * Masquer le ***Ruban*** dans l'onglet ***Affichage***. 
         * Pour afficher à nouveau le ***Ruban***, cliquer sur l'icône {{ fr.RDM }} dans le coin supérieur gauche.  
 
@@ -107,7 +107,7 @@ L'***Hôte Jump*** est prêt à être utilisé.
 ### Configurer une session pour utiliser avec un Hôte Jump 
 
 1. Créer une entrée ***RDP*** sur l'instance locale de {{ fr.RDM }}. 
-1. Définir l'***Hôte Jump*** en cliquant sur le bouton ***Paramètres Remote Desktop Manager Jump***. 
+1. Définir l'***Hôte Jump*** en cliquant sur le bouton ***Paramètres {{ fr.RDMJ }}***. 
     * L'***Hôte Jump*** peut être ***Hérité*** s'il est défini dans le dossier parent.  
 
     ou  
@@ -133,6 +133,6 @@ Tout devrait fonctionner correctement. Si l'une des étapes échoue, c'est là q
 
 ### Conseils de pro 
 
-* Pour gagner plus d'espace dans le tableau de bord, dans l'onglet ***Affichage***, masquer le ***Ruban*** et le ***Volet de navigation*** puisque les menus ne sont pas nécessaires. 
+* Pour gagner plus d'espace dans le tableau de bord, dans l'onglet ***Affichage***, masquer le ***Ruban*** et le ***{{ fr.NPANE }}*** puisque les menus ne sont pas nécessaires. 
 * Utiliser la même licence {{ fr.RDM }} sur les instances locales et distantes. L'Hôte Jump agit comme un relais entre les systèmes locaux et distants, permettant d'utiliser la licence {{ fr.RDM }} qui a été utilisée sur le poste de travail local pour enregistrer l'application sur l'Hôte Jump. 
 * Il n'est pas nécessaire de créer une source de données sur le ***Hôte Jump***. {{ fr.RDM }} s'ouvrira pour la première fois avec une ***Source de données locale SQLite*** par défaut. Cela est suffisant, car l'application sur le ***Hôte Jump*** agit uniquement comme intermédiaire entre les hôtes locaux et distants. 

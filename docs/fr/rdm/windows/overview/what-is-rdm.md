@@ -18,7 +18,7 @@ status: Topic available in German language
 |      |     |
 | ---- | --- |
 | Free | Pour une utilisation individuelle seulement, aucune information ne peut être partagée entre les collègues. Les technologies d’accès à distance les plus populaires sont prises en charge et les mots de passe sont stockés de façon sécurisée. |
-| Team | Utilisée par les équipes, cette édition permet de gérer les permissions des utilisateurs, les groupes d'utilisateurs, les options avancées de journalisation, etc. Remote Desktop Manager utilise un système de gestion de base de données (DBMS) pour stocker les données et les partager selon vos exigences en matière de sécurité. Devolutions offre également deux services spécialisés pour du stockage infonuagique et pour une intégration complète d’Active Directory. |
+| Team | Utilisée par les équipes, cette édition permet de gérer les permissions des utilisateurs, les groupes d'utilisateurs, les options avancées de journalisation, etc. {{ fr.RDM }} utilise un système de gestion de base de données (DBMS) pour stocker les données et les partager selon vos exigences en matière de sécurité. Devolutions offre également deux services spécialisés pour du stockage infonuagique et pour une intégration complète d’Active Directory. |
 
 {{ fr.RDM }} est aussi disponible sur plusieurs plateformes listées ci-dessous.  
 
@@ -33,7 +33,7 @@ Vous devez utiliser une application Bureau pour créer une source de données de
 | Plateforme | Édition Free                  | Édition Team                  |
 | ---------- | ----------------------------- | ----------------------------- |
 | Windows    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| macOS      | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| {{ fr.MAC }}      | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Linux      | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | iOS        | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Android    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |

@@ -18,7 +18,7 @@ status: Topic available in German language
 |      |     |
 | ---- | --- |
 | Free | For individuals only, no information can be shared with colleagues. The most popular remote access technologies are supported and passwords can be stored securely. |
-| Team | Used by teams, this edition offers user permissions, user groups, advanced logging, etc. Remote Desktop Manager uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for Cloud-Based storage or to get full Active Directory Integration. |
+| Team | Used by teams, this edition offers user permissions, user groups, advanced logging, etc. {{ en.RDM }} uses a Database Management System (DBMS) for storing the information and sharing it according to your security requirements. Devolutions also offers two specialized services for Cloud-Based storage or to get full Active Directory Integration. |
 
 {{ en.RDM }} is also offered on multiple platforms, as seen below.
 
@@ -33,7 +33,7 @@ You must use a desktop application to create a team data source. This explains w
 | PLATFORM | FREE EDITION                  | TEAM EDITION                  |
 | -------- | ----------------------------- | ----------------------------- |
 | Windows  | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
-| macOS    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
+| {{ en.MAC }}    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Linux    | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | iOS      | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |
 | Android  | {{ icon.badgeNotice | safe }} | {{ icon.badgeNotice | safe }} |

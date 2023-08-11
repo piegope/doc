@@ -15,14 +15,14 @@ In der folgenden Tabelle sind die empfohlenen Mindestanforderungen an die Hardwa
 
 |Basis-implementierung {width=200px} |Mittlere implementierung {width=250px} |Umfassende implementierung    |
 |:--------------------------: |:------------------------: |:---------------------: |
-|(1-20 Nutzer gleichzeitig)<br>mit eigenständigem SQL Server<br>4-Kern-Prozessoren<br>8 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|(21-75 Nutzer gleichzeitig)<br>Wmit eigenständigem SQL Server <br>4-Kern-Prozessoren<br>8 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|(75+ Nutzer gleichzeitig) <br>Wir empfehlen den Einsatz von mehreren Devolutions Servern in einer ausbalancierten Anordnung mit einen SQL-Server mit hoher Verfügbarkeit.|
+|(1-20 Nutzer gleichzeitig)<br>mit eigenständigem SQL Server<br>4-Kern-Prozessoren<br>8 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|(21-75 Nutzer gleichzeitig)<br>Wmit eigenständigem SQL Server <br>4-Kern-Prozessoren<br>8 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|(75+ Nutzer gleichzeitig) <br>Wir empfehlen den Einsatz von mehreren {{ de.DVLS }} in einer ausbalancierten Anordnung mit einen SQL-Server mit hoher Verfügbarkeit.|
 |Mit auf demselben Rechner installierten SQL-Server.<br>4-Kern-Prozessoren<br>16 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|Mit auf demselben Rechner installierten SQL-Server.<br>4-Kern-Prozessoren<br>16 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>||
 
 ## Software-Abhängigkeiten
 
 * Microsoft SQL Server 2012/2014/2016/[2017](https://www.microsoft.com/de-de/sql-server/sql-server-2017)/[2019](https://www.microsoft.com/de-de/sql-server/sql-server-2019)/[2022](https://www.microsoft.com/de-de/sql-server/sql-server-2022) (einschließlich Express-Editionen). 
 * Azure SQL-Datenbank wird nur mit SQL-Anmeldekonten unterstützt. Azure Active Directory-Konten werden nicht unterstützt. 
-* Windows 10, Windows 11, Windows Server 2012R2 (nicht kompatibel mit Devolutions Gateway), 2016, 2019 und 2022. 
+* Windows 10, Windows 11, Windows Server 2012R2 (nicht kompatibel mit {{ de.DGW }}), 2016, 2019 und 2022. 
 * Funktionsebene von Domain und Gesamtstruktur mindestens Windows Server 2012R2 oder höher. 
 * Microsoft .NET Framework 4.8 (Bitte beachten Sie die [Voraussetzungen für das .NET Framework](https://learn.microsoft.com/de-de/dotnet/framework/get-started/system-requirements) für Betriebssysteme). 
 * Microsoft .NET 6.0 (ASP.NET Core Runtime 6.0.19). 
