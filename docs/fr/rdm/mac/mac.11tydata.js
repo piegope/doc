@@ -4,8 +4,7 @@ module.exports = function() {
     trees: ['rdm/mac'],
     tree: 'rdm/mac',
     searchTags: [
-      { 'label': 'Remote Desktop Manager', 'facet': 'doc' },
-      { 'label': 'mac', 'facet': 'os' }
+      { 'label': 'Remote Desktop Manager (mac)', 'facet': 'doc' }
     ]
   }
 }
