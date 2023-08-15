@@ -8,7 +8,6 @@ if (autocompleteElement) {
     'Y81ZZ0W234',
     'e43f72905982e90be2a181639398d89e'
   );
-
   const tagsPlugin = createTagsPlugin({
     initialTags: autocompleteElement.dataset.tags ? JSON.parse(autocompleteElement.dataset.tags) : [],
     getTagsSubscribers() {
@@ -19,6 +18,12 @@ if (autocompleteElement) {
             return item;
           },
         },
+        {
+          sourceId: 'os',
+          getTag({ item }) {
+            return item;
+          }
+        }
       ];
     }
   });
@@ -104,6 +109,71 @@ if (autocompleteElement) {
             header({ html }) {
               return html`<span class="aa-SourceHeaderTitle">
                   Documentation
+                </span>
+                <div class="aa-SourceHeaderLine" />`;
+            },
+            item({ item, components, html }) {
+              return html`<div class="aa-ItemWrapper">
+                <div class="aa-ItemContent">
+                  <div class="aa-ItemContentBody">
+                    <div class="aa-ItemContentTitle">
+                      ${components.Highlight({ hit: item, attribute: 'label' })}
+                    </div>
+                  </div>
+                </div>
+                <div class="aa-ItemActions">
+                  <button
+                    class="aa-ItemActionButton aa-DesktopOnly aa-ActiveOnly"
+                    type="button"
+                    title="Filter"
+                  >
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>`;
+            }
+          }
+        },
+        {
+          sourceId: 'os',
+          onSelect({ item, setQuery }) {
+            if (item.label.toLowerCase().includes(query.toLowerCase())) {
+              setQuery('')
+            }
+          },
+          getItems({ query }) {
+            return getAlgoliaFacets({
+              searchClient,
+              queries: [
+                {
+                  indexName: autocompleteElement.dataset.index,
+                  facet: 'os',
+                  params: {
+                    facetQuery: query,
+                    maxFacetHits: 5,
+                    filters: mapToAlgoliaNegativeFilters(
+                      state.context.tagsPlugin.tags,
+                      ['os']
+                    )
+                  }
+                }
+              ],
+              transformResponse({ facetHits }) {
+                return facetHits[0].map((hit) => ({ ...hit, facet: 'os' }));
+              }
+            });
+          },
+          templates: {
+            header({ html }) {
+              return html`<span class="aa-SourceHeaderTitle">
+                  OS
                 </span>
                 <div class="aa-SourceHeaderLine" />`;
             },

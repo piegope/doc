@@ -33,14 +33,17 @@ module.exports = function (results) {
           case 'cloud':
             icon = "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-icon-shadow.svg";
             docLabel = "Cloud Services";
+            os = "";
             break;
           case 'hub':
             icon = "https://webdevolutions.azureedge.net/images/projects/password-hub/logos/password-hub-icon-shadow.svg";
             docLabel = "Devolutions Hub";
+            os = "";
             break;
           case 'kb':
             icon = "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg";
             docLabel = "Knowledge Base";
+            os = "";
             break;
           case 'rdm':
             icon = "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg";
@@ -49,6 +52,7 @@ module.exports = function (results) {
           case 'server':
             icon = "https://webdevolutions.azureedge.net/images/projects/server/logos/server-icon-shadow.svg";
             docLabel = "Devolutions Server";
+            os = "";
             break;
         }
         if (!result.content.includes("<main class=\"markdown\"></main>")) {  
@@ -103,7 +107,7 @@ module.exports = function (results) {
 
       index.setSettings({
         searchableAttributes: ['title', 'content'],
-        attributesForFaceting: ['searchable(doc)'],
+        attributesForFaceting: ['searchable(doc)', 'searchable(os)'],
         distinct: 1,
         attributeForDistinct: 'url'
       }).then();
