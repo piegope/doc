@@ -17,12 +17,6 @@ if (autocompleteElement) {
           getTag({ item }) {
             return item;
           },
-        },
-        {
-          sourceId: 'os',
-          getTag({ item }) {
-            return item;
-          }
         }
       ];
     }
@@ -117,7 +111,7 @@ if (autocompleteElement) {
                 <div class="aa-ItemContent">
                   <div class="aa-ItemContentBody">
                     <div class="aa-ItemContentTitle">
-                      ${components.Highlight({ hit: item, attribute: 'label' })}
+                      ${components.Highlight({ hit: item, attribute: 'label' })}               
                     </div>
                   </div>
                 </div>
