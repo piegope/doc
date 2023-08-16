@@ -5,8 +5,8 @@ if (autocompleteElement) {
   const { createTagsPlugin } = window['@algolia/autocomplete-plugin-tags'];
 
   const searchClient = algoliasearch(
-    'Y81ZZ0W234',
-    'e43f72905982e90be2a181639398d89e'
+    'LNWCTDWZS0',
+    'e51799c9709067fc3bcab5ec439fa770'
   );
 
   const tagsPlugin = createTagsPlugin({
