@@ -77,7 +77,7 @@ module.exports = function (results) {
             if (content.length > 512) {
               content = `${content.substring(0, 509)}...`
             }
-          }
+          } 
 
           const found = objects.find(o => o.title === title && o.url === url && !o.content);
 
