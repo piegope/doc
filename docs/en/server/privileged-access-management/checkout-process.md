@@ -1,25 +1,35 @@
 ---
-title: Checkout process
+title: Checkout Process
+description: This topic will cover both the PAM checkout process and the PAM checkout using a custom time frame
 ---
-1. To check out an entry requiring approbation, the user needs to go to the ***Privileged Access*** section on the {{ en.DVLS }}'s webpage. 
-1. The user then clicks on the ***Accounts*** panel.  
-![Privileged Access](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6001.png) 
+{% snippet icon.badgeNotice %} 
+A license is required to enable the Privileged Access Management (PAM) module. Please contact our [sales department](mailto:sales@devolutions.net) for more information about the license. 
+{% endsnippet %}  
 
-The user then locates the account they want to check out for temporary use and clicks the ***Check Out*** button on the entry.  
-![PAM Account Selection](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6002.png) 
+This topic will cover both the [PAM checkout process](#checkout) and the [PAM checkout using a custom time frame](#checkout-with-custom-time). The latter option is especially useful for planned maintenance outside of normal work hours, when approvers aren't available.
 
-A pop-up will appear requesting information on the checkout request to be sent to an administrator for approval.  
-![Checkout Request](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6003.png) 
+## Checkout
+1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
+1. Go to the ***Privileged Access*** tab and select the desired vault.
+1. Click on an entry and then click ***Check Out***.  
+![Check Out](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0033.png)
+1. Set the desired time of the ***Check-out Request*** by either selecting from the ***Access duration*** dropdown or by manually setting a custom time with the ***Hours*** and ***minutes*** fields.  
+![Check-out Request](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0034.png)
+   {% snippet icon.badgeInfo %}
+   The minimum checkout time is 10 minutes.
+   {% endsnippet %}  
+1. Click the ***Check Out*** button to confirm and close this dialog box.
 
-Once the request is sent, the selected Approver will have the request in the ***Checkout*** field of his ***Privileged Access*** window.  
-![Checkout Request](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6004.png) 
+## Checkout with custom time
+{% snippet icon.badgeInfo %}
+Making a ***Checkout*** request in advance is only available in PAM vaults.
+{% endsnippet %}  
 
-The approver gets the following pop-up when clicking on the request where it's possible to either ***Approve*** or ***Deny*** the request and leave an optional message.  
-![Approve/Deny Window](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6005.png) 
-
-If the request is denied, the user will see that their request on the account is no longer pending and was denied in the recent activity field of the main ***Privileged Access*** page. If approved, they will be able to access the account by clicking on the same button they used to submit the request. They'll now get this ***Active Checkout*** window instead of the request one:  
-![Checkout Active](https://webdevolutions.azureedge.net/docs/en/server/ServerUs6006.png) 
-
-Once done with the account, they can use the ***CheckIn*** button on the last window to release their hold on the checkout.  
-
-Privileged accounts' passwords are automatically changed on check-in if the corresponding option is enabled. 
+1. In the web interface for {{ en.DVLS }}, make sure you are connected to the right data source.
+1. Go to the ***Privileged Access*** tab and select the desired vault.
+1. Click on an entry and then click ***Check Out***.  
+![Check Out](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0033.png)
+1. Enable ***Set custom time frame***.  
+![PAM checkout with custom time frame](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0035.png)
+1. Choose the ***Start time*** and ***End time***.
+1. Click the ***Check Out*** button to confirm and close this dialog box.
