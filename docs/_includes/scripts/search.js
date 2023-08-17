@@ -8,6 +8,7 @@ if (autocompleteElement) {
     'Y81ZZ0W234',
     'e43f72905982e90be2a181639398d89e'
   );
+
   const tagsPlugin = createTagsPlugin({
     initialTags: autocompleteElement.dataset.tags ? JSON.parse(autocompleteElement.dataset.tags) : [],
     getTagsSubscribers() {
@@ -57,6 +58,8 @@ if (autocompleteElement) {
       .join(` ${operator} `)
   }
 
+  
+
   autocomplete({
     container: '#algolia-autocomplete',
     placeholder: autocompleteElement.dataset.placeholder,
@@ -67,7 +70,9 @@ if (autocompleteElement) {
       const tagsByFacet = groupBy(
         state.context.tagsPlugin.tags,
         (tag) => tag.facet
+        
       );
+      
 
       return [
         {
@@ -95,7 +100,17 @@ if (autocompleteElement) {
                 }
               ],
               transformResponse({ facetHits }) {
-                return facetHits[0].map((hit) => ({ ...hit, facet: 'doc' }));
+                const order = ['Remote Desktop Manager (windows)', 'Remote Desktop Manager (mac)', 'Devolutions Server', 'Devolutions Hub', 'Knowledge Base', 'Cloud Services'];
+                const map = new Map();
+                order.forEach((x, i) => map.set(x, i));
+                return facetHits[0].map((hit) => ({ ...hit, facet: 'doc' })).sort((x, y) => {
+                  if (map.get(x.label) !== undefined && map.get(y.label) !== undefined) {
+                    return map.get(x.label) - map.get(y.label); 
+                  } else if (map.get(x.label) !== undefined) {
+                    return -1;
+                  }
+                  return 0;
+                });
               }
             });
           },
@@ -135,74 +150,10 @@ if (autocompleteElement) {
             }
           }
         },
-        // {
-        //   sourceId: 'os',
-        //   onSelect({ item, setQuery }) {
-        //     if (item.label.toLowerCase().includes(query.toLowerCase())) {
-        //       setQuery('')
-        //     }
-        //   },
-        //   getItems({ query }) {
-        //     return getAlgoliaFacets({
-        //       searchClient,
-        //       queries: [
-        //         {
-        //           indexName: autocompleteElement.dataset.index,
-        //           facet: 'os',
-        //           params: {
-        //             facetQuery: query,
-        //             maxFacetHits: 5,
-        //             filters: mapToAlgoliaNegativeFilters(
-        //               state.context.tagsPlugin.tags,
-        //               ['os']
-        //             )
-        //           }
-        //         }
-        //       ],
-        //       transformResponse({ facetHits }) {
-        //         return facetHits[0].map((hit) => ({ ...hit, facet: 'os' }));
-        //       }
-        //     });
-        //   },
-        //   templates: {
-        //     header({ html }) {
-        //       return html`<span class="aa-SourceHeaderTitle">
-        //           OS
-        //         </span>
-        //         <div class="aa-SourceHeaderLine" />`;
-        //     },
-        //     item({ item, components, html }) {
-        //       return html`<div class="aa-ItemWrapper">
-        //         <div class="aa-ItemContent">
-        //           <div class="aa-ItemContentBody">
-        //             <div class="aa-ItemContentTitle">
-        //               ${components.Highlight({ hit: item, attribute: 'label' })}
-        //             </div>
-        //           </div>
-        //         </div>
-        //         <div class="aa-ItemActions">
-        //           <button
-        //             class="aa-ItemActionButton aa-DesktopOnly aa-ActiveOnly"
-        //             type="button"
-        //             title="Filter"
-        //           >
-        //             <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        //               <path
-        //                 stroke-linecap="round"
-        //                 stroke-linejoin="round"
-        //                 stroke-width="2"
-        //                 d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"
-        //               />
-        //             </svg>
-        //           </button>
-        //         </div>
-        //       </div>`;
-        //     }
-        //   }
-        // },
         {
           sourceId: 'hits',
           getItems({ query }) {
+          
             if (query != "" || state.context.tagsPlugin.tags.length > 0) {
               return getAlgoliaResults({
                 searchClient,

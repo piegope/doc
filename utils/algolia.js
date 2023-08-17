@@ -113,20 +113,7 @@ module.exports = function (results) {
         searchableAttributes: ['title', 'content'],
         attributesForFaceting: ['searchable(doc)'],
         distinct: 1,
-        attributeForDistinct: 'url',
-        renderingContent: {
-          facetOrdering: {
-            facets: {
-              order: ['doc']
-            },
-            values: {
-              doc: {
-                order: ['Remote Desktop Manager (mac)'],
-                sortRemainingBy: 'hidden'
-              }
-            }
-          }
-        }
+        attributeForDistinct: 'url'
       }).then();
 
       index.replaceAllObjects(value, {
