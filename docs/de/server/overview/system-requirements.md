@@ -15,8 +15,8 @@ In der folgenden Tabelle sind die empfohlenen Mindestanforderungen für {{ de.DV
 
 |Klein {width=241px} |Mittel {width=253px} |Groß|
 |:--------------------------: |:------------------------: |:---------------------: |
-|(1-20 gleichzeitige Benutzer)<br>dedizierter SQL-Server<br>4-Kern-Prozessoren<br>8 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|(21-75 gleichzeitige Benutzer)<br>dedizierter SQL-Server <br>4-Kern-Prozessoren<br>8 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|(75+ gleichzeitige Benutzer) <br>Empfehlung; {{ de.DVLS }} in einer Load-Balancer Konfiguration in Verbindung mit einer hoch verfügbaren SQL-Server.|
-|SQL-Server auf demselben Host<br>4-Kern-Prozessoren<br>16 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|SQL-Server auf demselben Host<br>4-Kern-Prozessoren<br>16 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|Siehe [Hochverfügbarkeits-Topologie (EN)](/server/overview/topologies/).|
+|(1-20 gleichzeitige Benutzer)<br>dedizierter SQL Server<br>4-Kern-Prozessoren<br>8 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|(21-75 gleichzeitige Benutzer)<br>dedizierter SQL Server <br>4-Kern-Prozessoren<br>8 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|(75+ gleichzeitige Benutzer) <br>Empfehlung; {{ de.DVLS }} in einer Load-Balancer Konfiguration in Verbindung mit einer hoch verfügbaren SQL Server.|
+|SQL Server auf demselben Host<br>4-Kern-Prozessoren<br>16 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|SQL Server auf demselben Host<br>4-Kern-Prozessoren<br>16 GB Arbeitsspeicher<br>Netzwerkkarte (1 GB)<br>|Siehe [Hochverfügbarkeits-Topologie (EN)](/server/overview/topologies/).|
 
 ## Software-Abhängigkeiten
 

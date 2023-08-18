@@ -1,20 +1,20 @@
 ---
 title: Installationsanforderungen
 ---
-Im Folgenden wird beschrieben, was Sie vor der Installation von {{ de.DVLS }} installieren müssen.  
+Im Folgenden wird beschrieben, welche Voraussetzungen vor der Installation von {{ de.DVLS }} erfüllt sein müssen.  
 
-Bitte kontaktieren Sie uns unter [service@devolutions.net](mailto:service@devolutions.net), um eine Sitzung zu buchen, in der wir Ihnen helfen, {{ de.DVLS }} zu installieren.  
+Bitte kontaktieren Sie uns unter [service@devolutions.net](mailto:service@devolutions.net), um eine Sitzung zu buchen, in der wir Ihnen helfen, {{ de.DVLS }} zu installieren.
 
 ## Schritte
 
-1. SQL Server ist bereits verfügbar (Express Edition wird unterstützt). Die unterstützten SQL Server-Versionen finden Sie unter [Systemanforderungen](/de/server/overview/system-requirements/). 
-1. Falls nicht, installieren Sie SQL Server und SQL Server Management Studio. 
-1. IIS Manager ist bereits auf dem Server installiert, auf dem {{ de.DVLS }} gehostet wird. Die unterstützten SQL IIS Manager-Versionen finden Sie unter [Systemanforderungen](/de/server/overview/system-requirements/). 
-1. Die {{ de.DVLSCONSOLE }} kann [hier](https://devolutions.net/de/server/home/download/) heruntergeladen werden. 
-1. Die [Voraussetzungen für {{ de.DVLS }}](/de/server/installation/installing-web-server-prerequisites/) sind bereits installiert. 
-1. Devolutions kann mehrere Konten verwenden, um für die verschiedenen Komponenten eine Verbindung zur Datenbank herzustellen. Diese Konten können Domain-Dienstkonten (integrierte Sicherheit) oder SQL-Konten sein. In dem Artikel [Kontoauswahl vor der Einrichtung](/de/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) erfahren Sie mehr über die Konten. 
+1. Verfügbarer SQL Server (oder Express Edition). Die unterstützten SQL Server-Versionen finden Sie unter [Systemanforderungen](/de/server/overview/system-requirements/).
+1. Falls noch keine SQL Server vorhanden ist, installieren Sie vorab die gewünschte SQL Server Version und [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/de-de/sql/ssms/download-sql-server-management-studio-ssms). 
+1. IIS auf dem Server installieren, auf dem später {{ de.DVLS }} installiert wird. Die unterstützten IIS Versionen finden Sie unter [Systemanforderungen](/de/server/overview/system-requirements/). 
+1. [{{ de.DVLSCONSOLE }}](https://devolutions.net/de/server/home/download/) herunterladen. 
+1. IIS und Software [Voraussetzungen für {{ de.DVLS }}](/de/server/installation/installing-web-server-prerequisites/) installieren. 
+1. {{ de.DVLS }} kann mehrere Konten verwenden, um für die verschiedenen Komponenten die Verbindung zur Datenbank herzustellen. Diese Konten können Domänen- (integrierte Sicherheit) oder SQL-Konten sein. Der Artikel [Kontoauswahl vor der Einrichtung](/de/kb/devolutions-server/knowledge-base/pre-deployment-account-survey/) enthält weiterführende Informationen darüber.
 1. Folgen Sie den Schritten in [Eine {{ de.DVLS }}-Instanz erstellen.](/server/installation/create-server-instance/). 
 
 {% snippet icon.shieldInfo %}
-Stelle Sie sicher, dass die Schlüssel zur Verschlüsselung am Ende des Installationsprozesses exportiert und an einem sicheren Ort gespeichert werden. 
+Stellen Sie sicher, dass die Schlüssel zur Verschlüsselung am Ende des Installationsprozesses exportiert und an einem sicheren Ort gespeichert werden. 
 {% endsnippet %}
