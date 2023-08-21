@@ -100,7 +100,7 @@ if (autocompleteElement) {
                 }
               ],
               transformResponse({ facetHits }) {
-                const order = ['Remote Desktop Manager (windows)', 'Remote Desktop Manager (mac)', 'Devolutions Server', 'Devolutions Hub', 'Knowledge Base', 'Cloud Services'];
+                const order = ['Remote Desktop Manager (Windows)', 'Remote Desktop Manager (macOS)', 'Devolutions Server', 'Devolutions Hub', 'Knowledge Base', 'Cloud Services'];
                 const map = new Map();
                 order.forEach((x, i) => map.set(x, i));
                 return facetHits[0].map((hit) => ({ ...hit, facet: 'doc' })).sort((x, y) => {
