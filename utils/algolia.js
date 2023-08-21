@@ -48,9 +48,9 @@ module.exports = function (results) {
           case 'rdm':
             icon = "https://webdevolutions.azureedge.net/images/projects/remote-desktop-manager/logos/remote-desktop-manager-icon-shadow.svg";
             if (os == 'windows') {
-              docLabel = "Remote Desktop Manager (windows)";
+              docLabel = "Remote Desktop Manager (Windows)";
             } else if (os == 'mac') {
-              docLabel = "Remote Desktop Manager (mac)";
+              docLabel = "Remote Desktop Manager (macOS)";
             }
             break;
           case 'server':
