@@ -90,3 +90,11 @@ b, strong, th {
     padding-right: 16px;
   }
 }
+
+kbd {
+  border: 2px solid gray;
+  border-bottom: 4px solid gray;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 12px; 
+}
