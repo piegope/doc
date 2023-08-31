@@ -26,6 +26,6 @@ module.exports = (config) => {
       }
     }
   
-    return `<div class="snippet ${className}">${icon ?? ''}<div>${md.render(content).replace('\n', '')}</div></div>`;
+    return `<div class="snippet ${className}">${icon ?? ''}<div>${md.render(content).replace(/\n/g, '')}</div></div>`;
   });
 }
