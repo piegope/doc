@@ -1,5 +1,6 @@
 ---
-title: Remote Desktop Manager iOS in Offline Mode
+eleventyComputed:
+  title: '{{ en.RDMIOS }} in Offline Mode'
 ---
 The offline mode allows you to connect to a read only copy of the data source when the live data source is unavailable.  
 
@@ -15,7 +16,7 @@ Please note that there is no Read/Write level permission for the Offline Mode on
 
 ## Offline Mode
 
-![!!KB4158.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4158.png)  
+![!!KB4158](https://webdevolutions.azureedge.net/docs/en/kb/KB4158.png)  
 
 ***Disabled***: Prevents an offline cache from being used.  
 

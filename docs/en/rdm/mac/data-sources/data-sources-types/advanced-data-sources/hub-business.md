@@ -1,18 +1,19 @@
 ---
-title: Devolutions Hub Business
+eleventyComputed:
+  title: '{{ en.DHUBB }}'
 ---
 {{ en.DHUBB }} is for businesses who need to share passwords and credentials within their organization. 
 Please consult our [website](https://devolutions.net/password-hub/) for more information on this service. 
 
 {% snippet icon.badgeInfo %} 
-To start your free {{ en.DHUBB }} trial today, click [here](https://devolutions.net/password-hub/business/sign-up). 
+Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/business/sign-up) today!
 {% endsnippet %}
  
 ## Settings 
 
 ### General 
 
-![!!RDMMac4020.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4020.png) 
+![!!RDMMac4020](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4020.png) 
 
 <table>
 	<tr>
@@ -53,10 +54,10 @@ Copy in the ***Host*** your {{ en.DHUBB }} URL (ex: https<area>://windjammer.dev
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.DHUB }}.  
-![!!RDMMac4021.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4021.png) 
+![!!RDMMac4021](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4021.png) 
 
 ### Advanced 
 
 Set the interval for the automatic refresh.  
-![!!RDMMac4022.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4022.png) 
+![!!RDMMac4022](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4022.png) 
 

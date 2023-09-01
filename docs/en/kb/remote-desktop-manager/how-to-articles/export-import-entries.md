@@ -5,7 +5,7 @@ title: Export and import entries
 
 It is possible to export and import entries from one type of data source to another. There are many ways of exporting entries with {{ en.RDM }}.  
 {% snippet icon.badgeCaution %}
-If you have users who override entry properties with ***User Specific Settings***, they will be required to export and import their ***User Specific Settings List***. See our topic on how to [Export and Import User Specific Settings](/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/).
+If you have users who override entry properties with ***User Specific Settings***, they will be required to export and import their ***User Specific Settings List***. See [Export and Import User Specific Settings](/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/).
 {% endsnippet %}
 
 The first method is done directly <a href="#Export/Import Through {{ en.RDM }}">in {{ en.RDM }}</a>, while the second one uses a <a href="#Export/Import Using PowerShell">PowerShell script</a>.
@@ -15,7 +15,7 @@ The first method is done directly <a href="#Export/Import Through {{ en.RDM }}">
 1. In {{ en.RDM }}, select your data source in the ***{{ en.NPANE }}***.
 
    {% snippet icon.badgeNotice %}
-   To export the entire vault, go to ***File – Export – Export Vault (.rdm)*** and skip to <a href="#step4">step 4</a>
+   To export the entire {{ en.VLT }}, go to ***File – Export – Export {{ en.VLT }} (.rdm)*** and skip to <a href="#step4">step 4</a>
    {% endsnippet %}
 
 1. Select the entries and/or folders you wish to export. Use the Ctrl+click shortcut to select multiple items at once.
@@ -34,11 +34,11 @@ The first method is done directly <a href="#Export/Import Through {{ en.RDM }}">
 
 1. Click ***OK***.
 1. Save the **.rdm** file on your computer.
-1. In the ***{{ en.NPANE }}***, select the data source and vault in which to import the entries.
+1. In the ***{{ en.NPANE }}***, select the data source and {{ en.VLT }} in which to import the entries.
 1. Right-click on the folder and select ***Import – Import (.rdm)***.
 ![Import (.rdm)](https://webdevolutions.azureedge.net/docs/en/kb/KB4999.png)
    {% snippet icon.badgeNotice %}
-   You can import the entire vault in ***File – Import – Import (.rdm)***.
+   You can import the entire {{ en.VLT }} in ***File – Import – Import (.rdm)***.
    {% endsnippet %}  
 
 1. Locate the **.rdm** file saved on your computer and click ***Open***.

@@ -1,5 +1,6 @@
 ---
-title: Devolutions Cloud Services
+eleventyComputed:
+  title: '{{ en.DCS }}'
 ---
 ![!!{{ en.DCS }} logo]({{ locale.en.projects.cloud.logo }})
 
@@ -22,4 +23,4 @@ The common feature between all of these services is that they only require the p
 
 Access all the {{ en.DCS }} through the menu icon.
 
-![!!Cloud4017.png](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4017.png)
+![!!Cloud4017](https://webdevolutions.azureedge.net/docs/en/cloud/Cloud4017.png)

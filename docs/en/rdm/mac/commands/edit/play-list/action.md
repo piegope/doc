@@ -19,13 +19,12 @@ Local Play List is saved on the local computer and is not available to other use
 
 The Shared Play List is saved in the database and can be used by all users. The Shared Play List can be launched from the ***{{ en.NPANE }}*** as well as from the menu ***View - Play List***.  
 
-Please consult the Play List Entry topic for more information on the Shared Play List session.  
 ![Play List Management - Shared Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10361.png) 
 
 ### {{ en.UVLT }} Play List 
 
 The {{ en.UVLT }} Play List is saved inside your {{ en.UVLT }} which is a user centric repository, it allows each user to create Play List that only them can access.  
-![Play List Management - User Vault Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10362.png) 
+![Play List Management - {{ en.UVLT }} Play List](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10362.png) 
 
 ## Actions 
 

@@ -7,7 +7,7 @@ eleventyComputed:
 	<tr>
 		<td>
 
-![!!DataSourceSQLServerLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
+![!!DataSourceSQLServerLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
 		</td>
 		<td>
 With the Microsoft SQL Server data source, {{ en.RDM }} uses the power of Microsoft SQL Server to save and manage entries. 
@@ -37,7 +37,7 @@ The following features are also supported:
 * Supports {{ en.VLT }} s to organize thousands of entries. 
 
 {% snippet icon.badgeWarning %} 
-A proper database backup strategy should be implemented to prevent possible data loss. Please refer to the Backups topic. 
+A proper database backup strategy should be implemented to prevent possible data loss. 
 {% endsnippet %}
  
 {% snippet icon.badgeWarning %} 
@@ -49,12 +49,12 @@ Using either Database Login or Integrated Security is inherently less secure bec
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Creating Contained Database Users as mentioned in this [article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/contained-databases?view=sql-server-ver15#benefit-of-contained-database-users-with-always-on) is the supported method with SQL Always On availability group. 
+Creating Contained Database Users as mentioned in Microsoft's [Contained Databases](https://learn.microsoft.com/en-us/sql/relational-databases/databases/contained-databases) is the supported method with SQL Always On availability group. 
 {% endsnippet %}
  
 ## Configuration 
 
-Consult the [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure/) topic for more information on the configuration. 
+Consult [Configure SQL Server](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/configure/) for more information on the configuration. 
 
 ## Settings 
 
@@ -221,7 +221,7 @@ Disable the option to lock the data source directly. You can still lock the appl
 
 ### {{ en.UVLT }} 
 
-![Microsoft SQL Server – User Vault tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3413.png) 
+![Microsoft SQL Server – {{ en.UVLT }} tab](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3413.png) 
 
 <table>
 	<tr>
@@ -326,7 +326,7 @@ DESCRIPTION
 Caching mode 
 		</td>
 		<td>
-Determines how the entries will be reloaded in the data source. For more information, please consult the [Caching](/rdm/windows/data-sources/caching/) topic. 
+Determines how the entries will be reloaded in the data source. For more information, please consult [Caching](/rdm/windows/data-sources/caching/). 
 		</td>
 	</tr>
 	<tr>
@@ -374,7 +374,7 @@ Allow beta upgrade of the database (when using a beta version of {{ en.RDM }}).
 Manage Cache 
 		</td>
 		<td>
-Manage the data source cache. On large data sources caching is a must and will increase performance significantly. For more information, please consult the [Manage Cache](/rdm/windows/data-sources/manage-cache/) topic. 
+Manage the data source cache. On large data sources caching is a must and will increase performance significantly. For more information, please consult [Manage Cache](/rdm/windows/data-sources/manage-cache/). 
 		</td>
 	</tr>
 	<tr>

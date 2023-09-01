@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Online Drive
+  title: '{{ en.DOD }}'
 ---
 The {{ en.DOD }} stores and synchronizes your remote connections and credentials data in our cloud services. You can access your sessions from anywhere via an Internet connection.  
 
@@ -108,7 +108,7 @@ Ask for the master key every time a connection to the {{ en.DOD }} is attempted.
 
 ### Backup 
 
-Please consult the [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) topic for more information on this service.  
+Please consult [{{ en.OBACK }}](/cloud/rdm-online-services/online-backup/) for more information on this service.  
 ![{{ en.DOD }} – Backup](https://webdevolutions.azureedge.net/docs/en/rdm/mac/clip10500.png) 
 
 <table>
@@ -146,7 +146,7 @@ Specify the backup name that will allow you to automatically save your sessions 
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.DOD }}.  
-![!!RDMMac4040.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4040.png) 
+![!!RDMMac4040](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4040.png) 
 
 ### Advanced 
 

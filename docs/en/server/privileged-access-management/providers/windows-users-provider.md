@@ -2,7 +2,7 @@
 title: Windows users provider
 ---
 The Windows Users Provider allows {{ en.DVLS }} to store the Windows account credentials to be used for Windows local accounts discovery or to achieve password rotation. See the [Create Windows users provider](/kb/devolutions-server/how-to-articles/create-windows-users-provider/) knowledge base article for more information on its configuration.  
-![!!ServerOp8089.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8089.png) 
+![!!ServerOp8089](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8089.png) 
 
 ### General 
 
@@ -117,10 +117,10 @@ Description
 	</tr>
 	<tr>
 		<td>
-Add PAM Vault 
+Add PAM {{ en.VLT }} 
 		</td>
 		<td>
-Will create a PAM Vault with the provider's name if enabled. 
+Will create a PAM {{ en.VLT }} with the provider's name if enabled. 
 		</td>
 	</tr>
 	<tr>

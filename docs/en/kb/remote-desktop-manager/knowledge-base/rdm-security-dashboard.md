@@ -1,11 +1,12 @@
 ---
-title: Remote Desktop Manager Security Dashboard
+eleventyComputed:
+  title: '{{ en.RDM }} Security Dashboard'
 ---
 The Security dashboard is a tool to offer guidance on how to improve the security of the {{ en.RDM }} platform and also tips on reducing the workload for administrators. Some tips are common infosec best practices, others are a consensus between our owns teams.  
 
 The scores are admittedly open to question and we do not pretend each topic has the same relative value for all of our community members. Achieving 100% is surely not an end goal in itself, we simply aim to raise awareness and provide ideas for your own security hardening.  
 
-![!!KB4707.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4707.png)
+![!!KB4707](https://webdevolutions.azureedge.net/docs/en/kb/KB4707.png)
 
 ## Improvement actions items
 
@@ -144,7 +145,7 @@ Legacy security has been deprecated and will be completely removed starting with
 Mitigation
 		</td>
 		<td>
-In <i><b>Administration – System Settings – Vault Management – Security Settings – Security</b></i>, disable <i><b>Use legacy security</b></i>.See <a href="/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/" target="_blank">Migrate from legacy security to permissions in {{ en.RDM }}</a>.
+In <i><b>Administration – System Settings – {{ en.VLT }} Management – Security Settings – Security</b></i>, disable <i><b>Use legacy security</b></i>.See <a href="/kb/remote-desktop-manager/how-to-articles/migrate-legacy-security-permissions/" target="_blank">Migrate from legacy security to permissions in {{ en.RDM }}</a>.
 		</td>
 	</tr>
 </table>
@@ -335,7 +336,7 @@ Transparent Data Encryption encrypts the database data at-rest, which mitigates 
 	</tr>
 </table>
 
-### User vault activity should be logged
+### {{ en.UVLT }} activity should be logged
 
 <table>
 	<tr>
@@ -343,7 +344,7 @@ Transparent Data Encryption encrypts the database data at-rest, which mitigates 
 Description
 		</td>
 		<td>
-Activity logs on user vaults can provide additional information during incident response.
+Activity logs on {{ en.UVLT }} can provide additional information during incident response.
 		</td>
 	</tr>
 	<tr>
@@ -351,12 +352,12 @@ Activity logs on user vaults can provide additional information during incident 
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - User Vault, check Log user vault activities
+In Administration - System Settings - {{ en.UVLT }}, check Log {{ en.UVLT }} activities
 		</td>
 	</tr>
 </table>
 
-### Vaults should be created with restricted permissions by default
+### {{ en.VLT }}s should be created with restricted permissions by default
 
 <table>
 	<tr>
@@ -364,7 +365,7 @@ In Administration - System Settings - User Vault, check Log user vault activitie
 Description
 		</td>
 		<td>
-It is preferable to provide rights to users as needed. When enabling this option, vaults will be created with a more limited set of permissions.
+It is preferable to provide rights to users as needed. When enabling this option, {{ en.VLT }}s will be created with a more limited set of permissions.
 		</td>
 	</tr>
 	<tr>
@@ -372,7 +373,7 @@ It is preferable to provide rights to users as needed. When enabling this option
 Mitigation
 		</td>
 		<td>
-In Administration - System Settings - Security, check Create vaults with restricted access by default
+In Administration - System Settings - Security, check Create {{ en.VLT }}s with restricted access by default
 		</td>
 	</tr>
 </table>

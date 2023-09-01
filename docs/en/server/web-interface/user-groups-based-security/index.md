@@ -1,7 +1,8 @@
 ---
-title: User groups based security
-order: 50
-description: Devolutions Server user groups based security allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system.  
+eleventyComputed:
+  title: User groups based security
+  order: 50
+  description: '{{ en.DVLS }} user groups based security allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system.'  
 ---
 {{ en.DVLS }} user groups based security allows to create a granular protection system that is quite flexible. However, flexibility comes at a price and sometimes making the wrong choices could increase the time involved in managing the system.  
 
@@ -38,7 +39,7 @@ To create users, navigate to ***Administration – Users***, then click ***Add U
 
 A user can be assigned to multiple user groups at once by checking the ***Is Member*** box of the respective user groups in the ***User Group***s section of the ***User Management***. As part of the Active Directory integration, there is no need to assign users to those user groups as it is automatically managed by {{ en.DVLS }}. 
 
-![!!ServerOp4010.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4010.png) 
+![!!ServerOp4010](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4010.png) 
 
 ### Administrators 
 Administrators can do everything, regardless of the security. These users are usually the chief officers and senior management. 
@@ -70,7 +71,7 @@ To set permissions on an entry, edit any entry, then navigate to the ***Security
 
 ![Entry's Permissions](https://webdevolutions.azureedge.net/docs/en/server/clip8042.png) 
 
-Permissions are usually set on folders, and apply to all child entries. A best practice is to set all the permissions of the vault folder to Never. As a result, all permissions of all entries are denied by default.  
+Permissions are usually set on folders, and apply to all child entries. A best practice is to set all the permissions of the {{ en.VLT }} folder to Never. As a result, all permissions of all entries are denied by default.  
 
 ![Root Permissions](https://webdevolutions.azureedge.net/docs/en/server/clip8043.png) 
 
@@ -82,7 +83,7 @@ Consider the following structure:
 
 ![Sample Structure](https://webdevolutions.azureedge.net/docs/en/server/clip8044.png) 
 
-There are three levels of folders: the Vault, Telemark, and child items of Telemark.  
+There are three levels of folders: the {{ en.VLT }}, Telemark, and child items of Telemark.  
 
 Suppose that a user, such as a consultant, must have access to the Montreal folder only. The consultant must be granted the View permission on the Telemark folder as well. However, granting the View access to the Telemark folder gives to the consultant the permissions to view all child items of Telemark. To deny the View permissions for the consultant on specific child items, the View permissions of these items must be expressly set for other users.  
 

@@ -1,14 +1,15 @@
 ---
-title: Devolutions Server
+eleventyComputed:
+  title: '{{ fr.DVLS }}'
 ---
 <table>
 	<tr>
 		<td>
 
-![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/dvls-90X90.png) 
+![!!dvls-90X90](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
-{{ fr.DVLS }} est un coffre autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur le site Web du produit [ici](https://devolutions.net/server/fr). 
+{{ fr.DVLS }} est un {{ fr.VLT }} autohébergé pour stocker et partager vos connexions et identifiants à distance. Vous pouvez trouver plus d'informations sur la [page Web de {{ fr.DVLS }}](https://devolutions.net/server/fr). 
 		</td>
 	</tr>
 </table>
@@ -35,7 +36,7 @@ Pour plus d'informations, veuillez consulter ces rubriques :
 
 Entrer le nom de la source de données et l'URL du serveur. Assurez-vous d'utiliser le bon protocole si SSL est requis par le serveur (HTTPS).  
 
-Vous pouvez également exporter les informations sur la source de données, puis importer le fichier dans vos postes de travail clients, comme décrit dans la rubrique [Importer/Exporter](/fr/rdm/mac/data-sources/import-export/) la source de données. 
+Vous pouvez également exporter les informations sur la source de données, puis importer le fichier dans vos postes de travail clients, comme décrit dans [Importer/Exporter](/fr/rdm/mac/data-sources/import-export/) la source de données. 
 
 ## Paramètres 
 
@@ -112,7 +113,7 @@ Toujours demander le mot de passe lors de la connexion à la source de données.
 
 ### {{ fr.UVLT }} 
 
-![Devolutions Password Server - Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4262.png) 
+![Devolutions Password Server - {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/clip4262.png) 
 
 <table>
 	<tr>
@@ -128,7 +129,7 @@ Description
 Type de connexion 
 		</td>
 		<td>
-Si vous utilisez des {{ fr.UVLT }}, cliquer sur les flèches pour sélectionner votre Coffre.
+Si vous utilisez des {{ fr.UVLT }}, cliquer sur les flèches pour sélectionner votre {{ fr.VLT }}.
 		</td>
 	</tr>
 </table>
@@ -160,7 +161,7 @@ Mode de la cache
 		</td>
 		<td>
 
-Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
+Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

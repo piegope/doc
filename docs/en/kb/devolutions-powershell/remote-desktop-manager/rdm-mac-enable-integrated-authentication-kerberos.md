@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} – Enable integrated authentication with Kerberos
+  title: '{{ en.RDMMAC }} – Enable integrated authentication with Kerberos'
 ---
 To use Integrated Authentication (Windows Authentication) on {{ en.MAC }}, you will need to setup a ***Kerberos ticket*** linking your current user to a Windows domain account. A summary of key steps are included below.  
 
@@ -93,6 +93,6 @@ krbtgt/DOMAIN.COMPANY.COM@ DOMAIN.COMPANY.COM.
 1. Select the “ ***Integrated Security (Active Directory) - Experimental*** ” mode.
 1. Select the database.
 1. Save the data source.  
-![!!KB4792.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4792.png)  
+![!!KB4792](https://webdevolutions.azureedge.net/docs/en/kb/KB4792.png)  
 
 If you have followed all the steps above, you should be able to connect successfully to the data source.

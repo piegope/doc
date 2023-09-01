@@ -1,5 +1,6 @@
 ---
-title: Companion Tools Access
+eleventyComputed:
+  title: '{{ en.CTOOLS }} access'
 ---
 As an administrator to your {{ en.DHUBB }}, you can disable or enable the use of {{ en.CTOOLS }} for specific users that are not administrators.  
 
@@ -10,4 +11,4 @@ To reduce the number of inquiries from your users, we recommend that you inform 
 These settings can be configured in ***Administration – Users*** when [creating and inviting a user](/hub/web-interface/hub-overview/administration/management/users/create-invite-users/) or after the fact by editing the user. This only affects the user for whom the settings have been changed.  
 
 Access to {{ en.CTOOLS }} can be configured separately for {{ en.DWL }} and {{ en.DWS }}. The settings are enabled by default.  
-![!!Hub4105.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4105.png) 
+![!!Hub4105](https://webdevolutions.azureedge.net/docs/en/hub/Hub4105.png) 

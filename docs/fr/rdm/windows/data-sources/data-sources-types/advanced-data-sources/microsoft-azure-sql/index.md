@@ -5,7 +5,7 @@ title: Microsoft SQL Azure
 	<tr>
 		<td>
 
-![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 Avec une source de données Microsoft Azure SQL, {{ fr.RDM }} utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions.  
@@ -40,7 +40,7 @@ Une stratégie de sauvegarde de base de données appropriée doit être mise en 
  
 ## Configuration 
 
-Pour configurer une source de données Azure SQL, veuillez lire la rubrique [Configurer Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/). 
+Pour configurer une source de données Azure SQL, veuillez lire [Configurer Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure/). 
 
 ## Paramètres 
 
@@ -192,7 +192,7 @@ Si la méthode ping en ligne ne fonctionne pas, elle se mettra automatiquement h
 
 ### {{ fr.UVLT }} 
 
-![Microsoft Azure SQL - Coffre de l'utilisateur](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3416.png) 
+![Microsoft Azure SQL - {{ fr.UVLT }}](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip3416.png) 
 
 <table>
 	<tr>
@@ -297,7 +297,7 @@ DESCRIPTION
 Mode de la cache 
 		</td>
 		<td>
-Détermine comment les entrées seront rechargées dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/windows/data-sources/caching/) pour plus d'informations. 
+Détermine comment les entrées seront rechargées dans la source de données. Voir [Mode de la cache](/fr/rdm/windows/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

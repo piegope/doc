@@ -3,7 +3,7 @@ eleventyComputed:
   title: Ajouter une entrée de site Web avec {{ fr.DWL }}
 ---
 {% snippet icon.badgeInfo %} 
-Cette rubrique explique comment créer une entrée à partir de vos identifiants de site Web existants. Si vous n'avez pas encore créé de compte pour le site Web, consultez plutôt notre rubrique sur la façon de [Créer un compte de site Web avec {{ fr.DWL }}](/fr/rdm/mac/dwl/using-devolutions-web-login/create-account-website/). 
+Cette rubrique explique comment créer une entrée à partir de vos identifiants de site Web existants. Si vous n'avez pas encore créé de compte pour le site Web, consultez plutôt [Créer un compte de site Web avec {{ fr.DWL }}](/fr/rdm/mac/dwl/using-devolutions-web-login/create-account-website/). 
 {% endsnippet %}
  
 Des entrées de site Web peuvent être créées avec {{ fr.DWL }} dans {{ fr.RDMMAC }}. Ce type d'entrée est utile pour enregistrer vos identifiants de connexion afin que vous n'ayez plus à les mémoriser. Ces entrées sont également utilisées par {{ fr.DWL }} pour reconnaître un site Web et [récupérer vos identifiants](/fr/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/).  
@@ -24,8 +24,8 @@ Suivez les instructions dans les sections ci-dessous pour apprendre à ajouter u
 1. Une fenêtre ***Ajouter un site Web*** de {{ fr.DWL }} apparaîtra dans le coin du navigateur Web.  
 ![Ajouter un site Web](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RDMMac2030.png) 
 1. Saisir un ***Nom*** pour l'entrée. Le nom par défaut peut être gardé ou modifié, mais il est recommandé qu'il reflète le contenu de l'entrée pour la retrouver plus facilement au besoin. 
-1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l'entrée de site Web. Si ce champ reste vide, l'entrée sera sauvegardée à la racine du coffre. Si le dossier spécifié n'existe pas, il sera créé en même temps que l'entrée. 
-1. Spécifier si vous souhaitez enregistrer votre entrée dans votre ***Coffre d'utilisateur*** ou dans un ***Coffre***. Notez que pour créer votre entrée dans le coffre de votre choix, le coffre correspondant doit être actuellement ouvert dans {{ fr.RDMMAC }}. 
+1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l'entrée de site Web. Si ce champ reste vide, l'entrée sera sauvegardée à la racine du {{ fr.VLT }}. Si le dossier spécifié n'existe pas, il sera créé en même temps que l'entrée. 
+1. Spécifier si vous souhaitez enregistrer votre entrée dans votre ***{{ fr.UVLT }}*** ou dans un ***{{ fr.VLT }}***. Notez que pour créer votre entrée dans le {{ fr.VLT }} de votre choix, le {{ fr.VLT }} correspondant doit être actuellement ouvert dans {{ fr.RDMMAC }}. 
 1. Cliquer sur ***Enregistrer***. 
 
 Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.RDMMAC }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/). 
@@ -41,9 +41,8 @@ Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle ent
 1. Saisir un ***Nom*** pour l'entrée. Le nom par défaut peut être gardé ou modifié, mais il est recommandé qu'il reflète le contenu de l'entrée pour la retrouver plus facilement au besoin. 
 1. Le champ ***URL*** est automatiquement rempli avec l'URL de la page de connexion de l'<a href="#1">étape 1</a>. 
 1. Saisir le ***Nom d'utilisateur*** et le ***Mot de passe*** qui sont utilisés pour se connecter à ce site Web. Dépendamment du site Web, le nom d'utilisateur pourrait être une adresse courriel. 
-1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l'entrée de site Web. Si ce champ reste vide, l'entrée sera sauvegardée à la racine du coffre. Si le dossier spécifié n'existe pas, il sera créé en même temps que l'entrée. 
-1. Spécifier si vous souhaitez enregistrer votre entrée dans votre ***Coffre d'utilisateur*** ou dans un ***Coffre***. Notez que pour créer votre entrée dans le coffre de votre choix, le coffre correspondant doit être actuellement ouvert dans {{ fr.RDMMAC }}. 
+1. Saisir un ***Dossier de destination*** dans lequel sauvegarder l'entrée de site Web. Si ce champ reste vide, l'entrée sera sauvegardée à la racine du {{ fr.VLT }}. Si le dossier spécifié n'existe pas, il sera créé en même temps que l'entrée. 
+1. Spécifier si vous souhaitez enregistrer votre entrée dans votre ***{{ fr.UVLT }}*** ou dans un ***{{ fr.VLT }}***. Notez que pour créer votre entrée dans le {{ fr.VLT }} de votre choix, le {{ fr.VLT }} correspondant doit être actuellement ouvert dans {{ fr.RDMMAC }}. 
 1. Cliquer sur ***Enregistrer***. 
 
-Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.RDMMAC }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/). 
-
+Vos identifiants sont maintenant stockés sécuritairement dans une nouvelle entrée de site Web dans {{ fr.RDMMAC }}. La prochaine fois que vous vous connecterez à ce compte, {{ fr.DWL }} le détectera et récupérera vos identifiants. Suivez nos instructions étape par étape pour [récupérer vos identifiants](/fr/rdm/mac/dwl/using-devolutions-web-login/retrieve-credentials/).

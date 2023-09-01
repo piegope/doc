@@ -6,17 +6,17 @@ eleventyComputed:
 Create and invite users to your {{ en.DHUBB }} with their email address.  
 
 {% snippet icon.badgeCaution %} 
-If your {{ en.DHUBB }} is configured with SSO Authentication Azure AD Office 365 credentials, follow the specific process for inviting sers in [this topic](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/). 
+If your {{ en.DHUBB }} is configured with SSO Authentication Azure AD Office 365 credentials, follow the specific process for inviting users in [Invite users for SSO in {{ en.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/invite-users-SSO-hub-business/). 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-We strongly recommend that you invite at least one other administrator. Learn how in [this topic](/hub/web-interface/hub-overview/administration/management/users/administrator-invite/). 
+We strongly recommend that you invite at least one other administrator. Learn how in [Administrator invite](/hub/web-interface/hub-overview/administration/management/users/administrator-invite/). 
 {% endsnippet %}
  
 ### Invite users 
 1. Go to ***Administration – Users***. 
 1. Click ***Add Users***.  
-![!!Hub4181.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4181.png) 
+![!!Hub4181](https://webdevolutions.azureedge.net/docs/en/hub/Hub4181.png) 
 1. Type the user's email address. 
 {% snippet icon.badgeInfo %} 
 It is possible to paste a list of email addresses of ***Users*** that will be part of the same [User Groups](/hub/web-interface/hub-overview/administration/management/user-groups/). Each email address is required to be separated by a semicolon (;) or a comma (,). 
@@ -31,11 +31,11 @@ This step will validate if the user has a {{ en.DA }}.
 {% endsnippet %}
  
 
-![!!Hub4182.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4182.png)  
+![!!Hub4182](https://webdevolutions.azureedge.net/docs/en/hub/Hub4182.png)  
 
 5. Click ***Next***. 
 1. Select additional ***Options***.  
-![!!Hub4183.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4183.png) 
+![!!Hub4183](https://webdevolutions.azureedge.net/docs/en/hub/Hub4183.png) 
 
 {% snippet icon.badgeInfo %}
 To set a usage profile for a user, you will need to create and invite them first. Then, in ***Administration – Users***, the option will be available when editing said user.
@@ -48,7 +48,7 @@ To set a usage profile for a user, you will need to create and invite them first
 {% endsnippet %}
  
 
-![!!Hub4184.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4184.png)  
+![!!Hub4184](https://webdevolutions.azureedge.net/docs/en/hub/Hub4184.png)  
 
 9. Click ***Send Invite***.  
 

@@ -1,14 +1,15 @@
 ---
-title: Devolutions Server
+eleventyComputed:
+  title: '{{ en.DVLS }}'
 ---
 <table>
 	<tr>
 		<td>
 
-![!!dvls-90X90.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/dvls-90X90.png) 
+![!!dvls-90X90](https://webdevolutions.azureedge.net/docs/en/rdm/mac/dvls-90X90.png) 
 		</td>
 		<td>
-{{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the product's web site [here](https://devolutions.net/server). 
+{{ en.DVLS }} is a self-hosted repository for storing and sharing your remote connections and credentials. You can find more information on the [{{ en.DVLS }} web page](https://devolutions.net/server). 
 		</td>
 	</tr>
 </table>
@@ -26,7 +27,7 @@ title: Devolutions Server
 {{ en.DVLS }} supports only SQL Server as a data store at this time. 
 {% endsnippet %}
  
-For more information, please consult these topics  
+For more information, please consult:  
 
 * [{{ en.DVLS }} installation instructions](/server/installation/) 
 * [{{ en.DVLS }} Security Checklist](/server/getting-started/security-checklist/) 
@@ -149,7 +150,7 @@ Caching mode
 		</td>
 		<td>
 
-Determine how the entries will be reload in the data source. See [Caching Mode](/rdm/mac/data-sources/caching/) topic for more information. 
+Determine how the entries will be reload in the data source. See [Caching Mode](/rdm/mac/data-sources/caching/) for more information. 
 		</td>
 	</tr>
 	<tr>

@@ -24,14 +24,14 @@ Notice the middle part is the ***Name ID*** entered previously. Depending on you
 7. Enter your credentials to save in the browser.  
 ![Enter your credentials](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6075.png)  
 {{ en.RDM }} will now process your credentials.  
-![Remote Desktop Manager will now process your credentials](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6074.png)  
+![{{ en.RDM }} will now process your credentials](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6074.png)  
 
 ## Open a session using the Credential Redirection entry
 
 1. Create a new entry, we will use an RDP entry for this example.  
 ![Create a new entry](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6078.png)  
 1. Enter a ***Name*** and choose a ***Folder***.  
-1. For ***Credentials***, select ***Linked (Vault)*** and then your newly created ***Credential Redirection entry***.  
+1. For ***Credentials***, select ***Linked ({{ en.VLT }})*** and then your newly created ***Credential Redirection entry***.  
 ![Credentials section](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6077.png) 
 1. Select your session then launch it. {{ en.RDM }} will display this informative dialog.  
 ![Informative dialog](https://webdevolutions.blob.core.windows.net/docs/en/kb/KB6079.png)   

@@ -1,10 +1,10 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} RDP failed to connect to the host
+  title: '{{ en.RDMMAC }} RDP failed to connect to the host'
 ---
 Error silent: failed to connect to the host (131084) for {{ en.MAC }}  
 
-![!!KB4066.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4066.png)
+![!!KB4066](https://webdevolutions.azureedge.net/docs/en/kb/KB4066.png)
 ## Solution
 Usually, this error occurs because of a failure in the pre-authentication "handshake".  
 

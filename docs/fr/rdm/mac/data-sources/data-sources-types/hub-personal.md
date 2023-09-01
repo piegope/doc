@@ -1,7 +1,8 @@
 ---
-title: Devolutions Hub Personal
+eleventyComputed:
+  title: '{{ fr.DHUBP }}'
 ---
-{{ fr.DHUBP }}, pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un coffre.  
+{{ fr.DHUBP }}, pour les utilisateurs individuels qui souhaitent sécuriser gratuitement leurs mots de passe personnels dans un {{ fr.VLT }}.  
 
 Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr/personal) pour plus d'informations sur ce service.  
 
@@ -9,7 +10,7 @@ Veuillez consulter notre site [Web](https://devolutions.net/password-hub/fr/pers
 
 ### Général 
 
-![!!RDMMac4026.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4026.png) 
+![!!RDMMac4026](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4026.png) 
 
 <table>
 	<tr>
@@ -42,10 +43,10 @@ L'adresse courriel de votre [{{ fr.DA }}](https://portal.devolutions.com/). Vous
 ### VPN 
 
 Ouvrir un ***VPN*** pour accéder à vos données avant de vous connecter à votre {{ fr.DHUBP }}.  
-![!!RDMMac4027.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4027.png) 
+![!!RDMMac4027](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4027.png) 
 
 ### Avancée 
 
 Il s'agit de l'adresse du serveur.  
-![!!RDMMac4028.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4028.png) 
+![!!RDMMac4028](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4028.png) 
 

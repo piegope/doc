@@ -4,7 +4,7 @@ title: Affichage
 L'onglet ***Affichage*** est utilisé pour contrôler différentes fonctionnalités concernant les panneaux, l'affichage, les journaux et la disposition de {{ fr.RDM }}.  
 ![Onglet Affichage](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/clip10768.png) 
 
-Reportez-vous aux rubriques suivantes pour plus d'informations :  
+Reportez-vous aux sections suivantes pour plus d'informations :  
 
 * [***Panneaux***](#panneaux) 
 * [***Affichage***](#affichage) 
@@ -28,7 +28,7 @@ DESCRIPTION
 {{ fr.VLT }} 
 		</td>
 		<td>
-Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le [coffre](/fr/rdm/windows/commands/view/panels/vault/) actuel. 
+Accéder au mode d'affichage du ***{{ fr.NPANE }}*** pour le [{{ fr.VLT }}](/fr/rdm/windows/commands/view/panels/vault/) actuel. 
 		</td>
 	</tr>
 	<tr>

@@ -31,7 +31,7 @@ AVANTAGES ET INCONVÉNIENTS
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDODLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
+![!!DataSourceDODLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
 		</td>
 		<td>
 {{ fr.DOD }} 
@@ -56,14 +56,14 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
+![!!DataSourceDPSLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
 {{ fr.DVLS }} 
 		</td>
 		<td>
 {{ fr.RDM }} utilise {{ fr.DVLS }} pour stocker les informations de session. 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/). 
+Pour plus d'informations, veuillez consulter [{{ fr.DVLS }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/). 
 
 		</td>
 		<td>
@@ -82,14 +82,14 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDropBoxLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
+![!!DataSourceDropBoxLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
 		</td>
 		<td>
 Dropbox 
 		</td>
 		<td>
-{{ fr.RDM }} utilise l'API Dropbox pour récupérer le fichier XML à partir du coffre configuré. 
-Pour plus d'informations, veuillez consulter notre rubrique [Dropbox](/fr/rdm/windows/data-sources/data-sources-types/dropbox/). 
+{{ fr.RDM }} utilise l'API Dropbox pour récupérer le fichier XML à partir du {{ fr.VLT }} configuré. 
+Pour plus d'informations, veuillez consulter [Dropbox](/fr/rdm/windows/data-sources/data-sources-types/dropbox/). 
 
 		</td>
 		<td>
@@ -109,14 +109,14 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 Microsoft Azure SQL 
 		</td>
 		<td>
 {{ fr.RDM }} utilise la plateforme infonuagique de Microsoft pour enregistrer et gérer toutes les sessions. 
-Pour plus d'informations, veuillez consulter notre rubrique [Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/). 
+Pour plus d'informations, veuillez consulter [Azure SQL](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/). 
 
 		</td>
 		<td>
@@ -134,14 +134,14 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLServerLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
+![!!DataSourceSQLServerLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
 		</td>
 		<td>
 Microsoft SQL Server 
 		</td>
 		<td>
 {{ fr.RDM }} utilise SQL Server pour enregistrer et gérer toutes les sessions. Il s'agit de l'une des sources de données disponibles pour un environnement multi-utilisateur. 
-Pour plus d'informations, consultez notre rubrique [Microsoft SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/). 
+Pour plus d'informations, consultez [Microsoft SQL Server](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/). 
 
 		</td>
 		<td>
@@ -160,15 +160,15 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!ApplicationHubLarge.png](https://webdevolutions.azureedge.net/docs/common/ApplicationHubLarge.png) 
+![!!ApplicationHubLarge](https://webdevolutions.azureedge.net/docs/common/ApplicationHubLarge.png) 
 		</td>
 		<td>
 {{ fr.DHUBB }} 
 		</td>
 		<td>
-{{ fr.RDM }} se connecte au coffre {{ fr.DHUBB }}. 
+{{ fr.RDM }} se connecte au {{ fr.VLT }} {{ fr.DHUBB }}. 
 Notez qu'il existe différents niveaux d'abonnement pour ce produit. 
-Pour plus d'informations, veuillez consulter les [fonctionnalités](https://devolutions.net/password-hub/fr) ou notre rubrique [{{ fr.DHUBB }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
+Pour plus d'informations, veuillez consulter les [fonctionnalités](https://devolutions.net/password-hub/fr) ou [{{ fr.DHUBB }}](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
 		</td>
 		<td>
 Avantages : 
@@ -186,14 +186,14 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!hub-personal-32x32.png](https://webdevolutions.azureedge.net/docs/common/hub-personal-32x32.png) 
+![!!hub-personal-32x32](https://webdevolutions.azureedge.net/docs/common/hub-personal-32x32.png) 
 		</td>
 		<td>
 {{ fr.DHUBP }} 
 		</td>
 		<td>
 {{ fr.RDM }} utilise {{ fr.DHUBP }} pour stocker et synchroniser vos sessions. Accédez à vos sessions où que vous soyez en utilisant une connexion Internet. 
-Pour plus d'informations, veuillez consulter notre rubrique [{{ fr.DdHUBP }}](/fr/rdm/windows/data-sources/data-sources-types/hub-personal/). 
+Pour plus d'informations, veuillez consulter [{{ fr.DdHUBP }}](/fr/rdm/windows/data-sources/data-sources-types/hub-personal/). 
 
 		</td>
 		<td>
@@ -211,14 +211,14 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 SQLite 
 		</td>
 		<td>
 {{ fr.RDM }} utilise une base de données SQLite pour stocker les informations de session. 
-Pour plus d'informations, veuillez consulter notre rubrique [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/). 
+Pour plus d'informations, veuillez consulter [SQLite](/fr/rdm/windows/data-sources/data-sources-types/sqlite/). 
 
 		</td>
 		<td>
@@ -237,14 +237,14 @@ Inconvénients :
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 XML 
 		</td>
 		<td>
 {{ fr.RDM }} enregistre les paramètres directement dans un fichier au format XML. 
-Pour plus d'informations, veuillez consulter notre rubrique [XML](/fr/rdm/windows/data-sources/data-sources-types/xml/). 
+Pour plus d'informations, veuillez consulter [XML](/fr/rdm/windows/data-sources/data-sources-types/xml/). 
 		</td>
 		<td>
 Avantages : 

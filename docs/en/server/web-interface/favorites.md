@@ -1,11 +1,11 @@
 ---
 title: Favorites
 ---
-The ***Favorites*** section contains entries flagged as favorite, by the current user, from all the vaults this user has access. ***Favorites*** are not shared and they roam with the user profile.  
+The ***Favorites*** section contains entries flagged as favorite, by the current user, from all the {{ en.VLT }}s this user has access. ***Favorites*** are not shared and they roam with the user profile.  
 
 This is useful when the number of managed entries becomes too great or when a strict directory structure must be maintained.  
 
-![!!ServerOp4053.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4053.png)  
+![!!ServerOp4053](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4053.png)  
 
 Favorite an entry in two ways:  
 
@@ -17,4 +17,4 @@ To organize your favorite entries, click ***Add Folder***, in the ***Favorites**
 
 When a ***Favorites*** structure exists and you favorite a new entry, just select the folder in the list to save it within.  
 
-![!!ServerOp4054.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4054.png) 
+![!!ServerOp4054](https://webdevolutions.azureedge.net/docs/en/server/ServerOp4054.png) 

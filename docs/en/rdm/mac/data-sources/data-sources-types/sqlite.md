@@ -5,7 +5,7 @@ title: SQLite
 	<tr>
 		<td>
 
-![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 {{ en.RDMMAC }} SQLite data source is ideal for single user in a stand alone situations. More powerful and more flexible than the XML file format, it also supports a few of the advanced data source options like Logs and Attachments. 
@@ -178,7 +178,7 @@ Disable caching
 		</td>
 		<td>
 		
-Entries will be reload in Simple mode in the data source. See [Caching Mode](/rdm/mac/data-sources/caching/) topic for more information. 
+Entries will be reload in Simple mode in the data source. See [Caching Mode](/rdm/mac/data-sources/caching/) for more information. 
 		</td>
 	</tr>
 	<tr>

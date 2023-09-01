@@ -1,14 +1,14 @@
 ---
 eleventyComputed:
-  title: Devolutions Hub
+  title: '{{ fr.DHUB }}'
   order: 10
-  description: Devolutions Hub est un gestionnaire de mots de passe d'équipe hautement sécurisé qui fait partie des {{ fr.DCS }}. Il a été conçu pour que les administrateurs TI ainsi que les utilisateurs finaux puissent stocker et partager des informations dans toute l'organisation, quelle que soit sa taille.
+  description: "{{ fr.DHUB }} est un gestionnaire de mots de passe d'équipe hautement sécurisé qui fait partie des {{ fr.DCS }}. Il a été conçu pour que les administrateurs TI ainsi que les utilisateurs finaux puissent stocker et partager des informations dans toute l'organisation, quelle que soit sa taille."
 ---
 ![!!{{ fr.DHUB }} Logo](https://webdevolutions.blob.core.windows.net/images/projects/devolutions-hub/devolutions-hub-color-shadow.svg)
 
 {{ fr.DHUB }} est un gestionnaire de mots de passe d'équipe hautement sécurisé qui fait partie des {{ fr.DCS }}. Il a été conçu pour que les administrateurs TI ainsi que les utilisateurs finaux puissent stocker et partager des informations dans toute l'organisation, quelle que soit sa taille. Vous pouvez accéder aux informations sensibles et les gérer de n'importe où et avec n'importe quel navigateur Web pris en charge.  
 
-Vos informations sont stockées dans des entrées de différents types qui sont organisées en coffres. Les entrées sont gérées directement depuis l'interface Web et aucune application client n'est nécessaire.  
+Vos informations sont stockées dans des entrées de différents types qui sont organisées en {{ fr.VLT }}s. Les entrées sont gérées directement depuis l'interface Web et aucune application client n'est nécessaire.  
 
 La sécurité est au coeur de {{ fr.DHUB }} puisque l'application est hébergée par [Microsoft Azure](/fr/kb/hub-business/knowledge-base/hosting-region-password-hub/), un fournisseur de services infonuagiques hautement sécurisés, et chiffrée avec la norme de chiffrement la plus solide : AES-256.  
 
@@ -22,21 +22,21 @@ La sécurité est au coeur de {{ fr.DHUB }} puisque l'application est hébergée
 	<tr>
 		<td>
 
-![!!web-login-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/web-login-icon-shadow.png)  
+![!!web-login-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/web-login-icon-shadow.png)  
 
 ## {{ fr.DWL }}  
 
 Connexion automatique 
 		</td>
 		<td>
-![!!launcher-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/launcher-icon-shadow.png)  
+![!!launcher-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/launcher-icon-shadow.png)  
 
 ## {{ fr.DLAUNCHER }}  
 
 Technologie d'accès à distance  
 		</td>
 		<td>
-![!!password-hub-importer-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/password-hub-importer-icon-shadow.png)  
+![!!password-hub-importer-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/password-hub-importer-icon-shadow.png)  
 
 ## {{ fr.DHUBI }}  
 
@@ -45,7 +45,7 @@ Importateur de données
 	</tr>
 	<tr>
 		<td>
-[{{ fr.DWL }}](/fr/hub/dwl/overview/) est un module d'extension de navigateur gratuit à utiliser avec {{ fr.DHUB }}. Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs coffres afin de se connecter à leurs sites Web. 
+[{{ fr.DWL }}](/fr/hub/dwl/overview/) est un module d'extension de navigateur gratuit à utiliser avec {{ fr.DHUB }}. Il permet aux utilisateurs d’injecter sécuritairement les mots de passe stockés dans leurs {{ fr.VLT }}s afin de se connecter à leurs sites Web. 
 		</td>
 		<td>
 L’application permet aux utilisateurs de lancer facilement des connexions à distance à partir de l'interace Web de {{ fr.DHUB }}. 
@@ -60,14 +60,14 @@ Cet outil incontournable est conçu pour importer facilement et rapidement des i
 	<tr>
 		<td>
 
-![!!devolutions-workspace-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/workspace-icon-shadow.png)  
+![!!devolutions-workspace-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/workspace-icon-shadow.png)  
 
 ## {{ fr.DWS }}  
 
 Environnement centralisé basé sur le nuage  
 		</td>
 		<td>
-![!!remote-desktop-manager-icon-shadow.png](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/remote-desktop-manager-icon-shadow.png)  
+![!!remote-desktop-manager-icon-shadow](https://webdevolutions.azureedge.net/docs/fr/hub/Icons/remote-desktop-manager-icon-shadow.png)  
 
 ## {{ fr.RDM }}  
 

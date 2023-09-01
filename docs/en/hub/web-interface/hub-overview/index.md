@@ -1,8 +1,9 @@
 ---
-title: Devolutions Hub overview
+eleventyComputed:
+  title: '{{ en.DHUB }} overview'
 ---
 Navigate and explore the menus through the different sections of {{ en.DHUBB }} and manage your data.  
-![!!Hub4093.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4093.png) 
+![!!Hub4093](https://webdevolutions.azureedge.net/docs/en/hub/Hub4093.png) 
 
 <table>
 	<tr>
@@ -19,15 +20,15 @@ Side bar menu
 		</td>
 		<td>
         
-Click on the menu icon to navigate the ***Search, Vault, User Vault, Reports, Administration***, and ***Tools*** sections. 
+Click on the menu icon to navigate the ***Search, {{ en.VLT }}, {{ en.UVLT }}, Reports, Administration***, and ***Tools*** sections. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Vault Selector 
+{{ en.VLT }} Selector 
 		</td>
 		<td>
-Click the vault selector, at the top middle section of your browser, to switch between all your vaults and access your {{ en.UVLT }}. 
+Click the {{ en.VLT }} selector, at the top middle section of your browser, to switch between all your {{ en.VLT }}s and access your {{ en.UVLT }}. 
 		</td>
 	</tr>
 	<tr>
@@ -51,15 +52,15 @@ Click on your avatar to edit your {{ en.DA }} settings and lock or log off your 
 ***{{ en.NPANE }}*** 
 		</td>
 		<td>
-View the entries available in the selected vault. 
+View the entries available in the selected {{ en.VLT }}. 
 		</td>
 	</tr>
 	<tr>
 		<td>
-Vault Interactions 
+{{ en.VLT }} Interactions 
 		</td>
 		<td>
-Select the vault in the ***{{ en.NPANE }}*** to view the vault interactions. 
+Select the {{ en.VLT }} in the ***{{ en.NPANE }}*** to view the {{ en.VLT }} interactions. 
 		</td>
 	</tr>
 	<tr>

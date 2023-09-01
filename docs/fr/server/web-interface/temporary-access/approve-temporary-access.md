@@ -27,7 +27,7 @@ Il est également possible d'afficher uniquement certaines demandes en utilisant
 L'icône en forme d'œil vous permet de visualiser le ***Message de la demande*** et le ***Message d'autorisation*** d'une demande spécifique.
 ![Messages de la demande](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6012.png) 
 
-Enfin, en cliquant sur ***Approuver*** ou ***Refuser***, vous ouvrez la fenêtre ***Réponse à la demande d'accès temporaire*** qui est décrite dans la [section suivante](#approvedeny-temporary-access-requests). 
+Enfin, en cliquant sur ***Approuver*** ou ***Refuser***, vous ouvrez la fenêtre ***Réponse à la demande d'accès temporaire*** qui est décrite dans la section suivante. 
 
 ## Approuver/refuser les demandes d'accès temporaire 
 
@@ -41,11 +41,11 @@ La première option consiste à utiliser la boîte ***Demandes d'accès en atten
 ![Demandes d'accès en attente](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6013.png) 
 
 La deuxième option vous demande de passer par la boîte ***Demandes d'accès en attente*** décrite dans la [section précédente](#view-temporary-access-requests). Quelle que soit la façon dont vous choisissez d'accéder à la fenêtre de réponse, le résultat sera le même.
-![ Réponse à la demande d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6014.png) 
+![Réponse à la demande d'accès temporaire](https://webdevolutions.blob.core.windows.net/docs/fr/server/ServerOp6014.png) 
 
 Cette vue est divisée en deux sections :
 
-* La section ***Demander des infos*** contient les informations à propos de la demande de l'utilisateur. Puisque cela a été fait du côté de l'utilisateur, les champs de cette section ne peuvent pas être modifiés. Vous pouvez voir les ***Dépendances de l'entrée***, notamment les identifiants liés et les VPN. À noter que les entrées liées doivent se trouver dans le même coffre. Les identifiants PAM liés à des coffres courants ne sont pas pris en compte.
+* La section ***Demander des infos*** contient les informations à propos de la demande de l'utilisateur. Puisque cela a été fait du côté de l'utilisateur, les champs de cette section ne peuvent pas être modifiés. Vous pouvez voir les ***Dépendances de l'entrée***, notamment les identifiants liés et les VPN. À noter que les entrées liées doivent se trouver dans le même {{ fr.VLT }}. Les identifiants PAM liés à des {{ fr.VLT }}s courants ne sont pas pris en compte.
 
 * La section ***Paramètres de la réponse*** vous permet de modifier la durée de l'accès temporaire spécifiée par l'utilisateur. Il est également possible de rédiger un court message à l'intention de l'utilisateur pour leur expliquer votre décision, mais cela reste facultatif.
 

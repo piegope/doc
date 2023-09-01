@@ -1,14 +1,15 @@
 ---
-title: Devolutions Server
+eleventyComputed:
+  title: '{{ en.DVLS }}'
 ---
 <table>
 	<tr>
 		<td>
 
-![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
+![!!DataSourceDPSLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
-{{ en.DVLS }} (DVLS) allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the product's web site [here](https://devolutions.net/server/). 
+{{ en.DVLS }} (DVLS) allows to control access to privileged accounts and manage sessions through a secure solution. For more information, consult the [{{ en.DVLS }} web page](https://devolutions.net/server/). 
 		</td>
 	</tr>
 </table>
@@ -158,7 +159,7 @@ Select whether the Remote Tools will be accessed locally or through the host.
 Manage Cache 
 		</td>
 		<td>
-Manage the data source cache. On large data sources caching is a must and will increase performance significantly. For more information, please consult the [Manage Cache](/rdm/windows/data-sources/manage-cache/) topic. 
+Manage the data source cache. On large data sources caching is a must and will increase performance significantly. For more information, please consult [Manage Cache](/rdm/windows/data-sources/manage-cache/). 
 		</td>
 	</tr>
 </table>
@@ -215,7 +216,7 @@ DESCRIPTION
 Caching mode 
 		</td>
 		<td>
-Determines how the entries will be reloaded in the data source. For more information, please consult the [Caching](/rdm/windows/data-sources/caching/) topic. 
+Determines how the entries will be reloaded in the data source. For more information, please consult [Caching](/rdm/windows/data-sources/caching/). 
 		</td>
 	</tr>
 	<tr>

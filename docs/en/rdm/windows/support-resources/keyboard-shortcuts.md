@@ -13,7 +13,7 @@ Both the ***Disable All*** and ***Reset Default*** buttons will erase your custo
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Visit our topic about [shortcut customization](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/). 
+Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/). 
 {% endsnippet %}
  
 ![Keyboard Shortcuts](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2101.png) 
@@ -540,7 +540,7 @@ Ctrl+Shift+9
 	</tr>
 	<tr>
 		<td>
-Switch Vault 
+Switch {{ en.VLT }} 
 		</td>
 		<td>
 Ctrl+Shift+R 
@@ -601,7 +601,7 @@ Alt+Shift+F6
 	</tr>
 	<tr>
 		<td>
-Multi Vault Search... 
+Multi {{ en.VLT }} Search... 
 		</td>
 		<td>
 F12 
@@ -609,7 +609,7 @@ F12
 	</tr>
 	<tr>
 		<td>
-My User Vault 
+My {{ en.UVLT }} 
 		</td>
 		<td>
 F7 
@@ -681,7 +681,7 @@ Alt+F11
 	</tr>
 	<tr>
 		<td>
-Vault 
+{{ en.VLT }} 
 		</td>
 		<td>
 F6 

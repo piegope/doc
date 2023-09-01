@@ -30,7 +30,7 @@ PROS AND CONS
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDODLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
+![!!DataSourceDODLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDODLarge.png) 
 		</td>
 		<td>
 {{ en.DOD }} 
@@ -55,17 +55,17 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!ApplicationHubLarge.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/ApplicationHubLarge.png) 
+![!!ApplicationHubLarge](https://webdevolutions.azureedge.net/docs/en/rdm/windows/ApplicationHubLarge.png) 
 		</td>
 		<td>
 {{ en.DHUBB }} 
 		</td>
 		<td>
-{{ en.RDM }} connects to the {{ en.DHUBB }} vault.  
+{{ en.RDM }} connects to the {{ en.DHUBB }} {{ en.VLT }}.  
 
 Note that there are different subscription levels for this product.  
 
-For more information, please see the [products features and highlights](https://devolutions.net/password-hub/) and consult our [{{ en.DHUBB }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/) topic. 
+For more information, please see the [products features and highlights](https://devolutions.net/password-hub/) and consult [{{ en.DHUBB }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/hub-business/). 
 		</td>
 		<td>
 Pros: 
@@ -83,7 +83,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!hub-personal-32x32.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/hub-personal-32x32.png) 
+![!!hub-personal-32x32](https://webdevolutions.azureedge.net/docs/en/rdm/windows/hub-personal-32x32.png) 
 		</td>
 		<td>
 {{ en.DHUBP }} 
@@ -91,7 +91,7 @@ Cons:
 		<td>
 {{ en.RDM }} uses {{ en.DHUBP }} to store and synchronize your sessions. Access your sessions from anywhere using an Internet connection.  
 
-For more information, please consult our [{{ en.DHUBP }}](/rdm/windows/data-sources/data-sources-types/hub-personal/) topic. 
+For more information, please consult [{{ en.DHUBP }}](/rdm/windows/data-sources/data-sources-types/hub-personal/). 
 		</td>
 		<td>
 Pros: 
@@ -108,7 +108,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDPSLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
+![!!DataSourceDPSLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDPSLarge.png) 
 		</td>
 		<td>
 {{ en.DVLS }} 
@@ -116,7 +116,7 @@ Cons:
 		<td>
 {{ en.RDM }} uses {{ en.DVLS }} to store session information.  
 
-For more information, please consult our [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/) topic. 
+For more information, please consult [{{ en.DVLS }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/server/). 
 		</td>
 		<td>
 Pros: 
@@ -134,7 +134,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceDropBoxLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
+![!!DataSourceDropBoxLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceDropBoxLarge.png) 
 		</td>
 		<td>
 Dropbox 
@@ -142,7 +142,7 @@ Dropbox
 		<td>
 {{ en.RDM }} uses the Dropbox API to retrieve the XML file from the configured repository.  
 
-For more information, please consult our [Dropbox](/rdm/mac/data-sources/data-sources-types/dropbox/) topic. 
+For more information, please consult [Dropbox](/rdm/mac/data-sources/data-sources-types/dropbox/). 
 		</td>
 		<td>
 Pros: 
@@ -161,7 +161,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 Microsoft Azure SQL 
@@ -169,7 +169,7 @@ Microsoft Azure SQL
 		<td>
 {{ en.RDM }} uses the Microsoft cloud platform to save and manage all sessions.  
 
-For more information, please consult our [Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) topic. 
+For more information, please consult [Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/). 
 		</td>
 		<td>
 Pros: 
@@ -186,7 +186,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLServerLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
+![!!DataSourceSQLServerLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLServerLarge.png) 
 		</td>
 		<td>
 Microsoft SQL Server 
@@ -194,7 +194,7 @@ Microsoft SQL Server
 		<td>
 {{ en.RDM }} uses SQLServer to save and manage all sessions. This is one of the available data source for a multi-user environment.  
 
-For more information, please consult our [SQL Server (MSSQL)](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/) topic. 
+For more information, please consult [SQL Server (MSSQL)](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-sql-server/). 
 		</td>
 		<td>
 Pros: 
@@ -212,7 +212,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 SQLite 
@@ -220,7 +220,7 @@ SQLite
 		<td>
 {{ en.RDM }} uses a SQLite database to store session information.  
 
-For more information, please consult our [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/) topic. 
+For more information, please consult [SQLite](/rdm/mac/data-sources/data-sources-types/sqlite/). 
 		</td>
 		<td>
 Pros: 
@@ -238,7 +238,7 @@ Cons:
 	</tr>
 	<tr>
 		<td>
-![!!DataSourceXMLLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
+![!!DataSourceXMLLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceXMLLarge.png) 
 		</td>
 		<td>
 XML 
@@ -246,7 +246,7 @@ XML
 		<td>
 {{ en.RDM }} saves the settings directly in a file with the XML format.  
 
-For more information, please consult our [XML](/rdm/mac/data-sources/data-sources-types/xml/) topic. 
+For more information, please consult [XML](/rdm/mac/data-sources/data-sources-types/xml/). 
 		</td>
 		<td>
 Pros: 

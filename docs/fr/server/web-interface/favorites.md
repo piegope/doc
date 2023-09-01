@@ -1,11 +1,11 @@
 ---
 title: Favoris
 ---
-La section ***Favoris*** contient les entrées marquées comme favorites, par l'utilisateur actuel, de tous les coffres auxquels cet utilisateur a accès. Les ***Favoris*** ne sont pas partagés et ils se déplacent avec le profil de l'utilisateur.  
+La section ***Favoris*** contient les entrées marquées comme favorites, par l'utilisateur actuel, de tous les {{ fr.VLT }}s auxquels cet utilisateur a accès. Les ***Favoris*** ne sont pas partagés et ils se déplacent avec le profil de l'utilisateur.  
 
 Ceci est utile lorsque le nombre d'entrées gérées devient trop important ou lorsqu'une structure stricte de répertoire doit être maintenue. 
 
-![!!ServerOp4045.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4045.png) 
+![!!ServerOp4045](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4045.png) 
 
 Favoriser une entrée de deux manières :  
 
@@ -18,5 +18,5 @@ Pour organiser vos entrées favorites, cliquer sur ***Ajouter un dossier***, dan
 
 Lorsqu'une structure de ***Favoris*** existe et que vous favorisez une nouvelle entrée, il suffit de sélectionner le dossier dans la liste pour l'y enregistrer. 
 
-![!!ServerOp4046.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4046.png) 
+![!!ServerOp4046](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4046.png) 
 

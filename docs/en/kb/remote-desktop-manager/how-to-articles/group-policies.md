@@ -53,7 +53,7 @@ REGISTRY KEY
 	</tr>
 	<tr>
 		<td>
-Disable export vault menus in export menus
+Disable export {{ en.VLT }} menus in export menus
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableExportVaultMenus
@@ -109,7 +109,7 @@ Disable the telemetry data collection
 	</tr>
 	<tr>
 		<td>
-Disable the system Contacts, Macros and VPNs in the user vault
+Disable the system Contacts, Macros and VPNs in the {{ en.UVLT }}
 		</td>
 		<td>
 %Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableGlobalVaultInUserVault

@@ -36,7 +36,7 @@ Si vous avez défini le [Fournisseur de sécurité](/fr/rdm/windows/commands/adm
 {% endsnippet %}
  
 {% snippet icon.shieldNotice %} 
-Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant toute opération susceptible de modifier les informations de la base de données ou avant la mise à niveau de {{ fr.DVLS }}. Protéger la clé de chiffrement dans un coffre pour éviter la perte de données si {{ fr.DVLS }} doit être restauré. 
+Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant toute opération susceptible de modifier les informations de la base de données ou avant la mise à niveau de {{ fr.DVLS }}. Protéger la clé de chiffrement dans un {{ fr.VLT }} pour éviter la perte de données si {{ fr.DVLS }} doit être restauré. 
 {% endsnippet %}
  
 ### Phase de préparation 
@@ -63,7 +63,7 @@ Nous vous recommandons de faire une sauvegarde des Clés de chiffrement avant to
 ![{{ fr.DVLS }} Upgrade Wizard](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp8066.png)  
 1. Appuyer sur ***Suivant***. 
 1. Consulter le résumé et appuyer sur ***Mettre à niveau*** si vous êtes satisfait.  
-![!!ServerOp4016.png](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4016.png) 
+![!!ServerOp4016](https://webdevolutions.azureedge.net/docs/fr/server/ServerOp4016.png) 
 
 ### Phase finale 
 

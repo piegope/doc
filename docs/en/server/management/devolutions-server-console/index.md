@@ -1,5 +1,6 @@
 ---
-title: Devolutions Server Console
+eleventyComputed:
+  title: '{{ en.DVLSCONSOLE }}'
 ---
 Because {{ en.DVLS }} is in fact a web application, the management interface is provided by the {{ en.DVLSCONSOLE }}.  
 ![{{ en.DVLSCONSOLE }}](https://webdevolutions.azureedge.net/docs/en/server/ServerOp0043.png)
@@ -380,10 +381,10 @@ Will open the <a href="/server/web-interface/administration/security-management/
 	</tr>
 	<tr>
 		<td>
-Vaults
+{{ en.VLT }}s
 		</td>
 		<td>
-Will open the <a href="/server/web-interface/administration/security-management/vaults/">Vaults management</a> page on the {{ en.DVLS }} web interface.
+Will open the <a href="/server/web-interface/administration/security-management/vaults/">{{ en.VLT }}s management</a> page on the {{ en.DVLS }} web interface.
 		</td>
 	</tr>
 	<tr>

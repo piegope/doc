@@ -48,7 +48,7 @@ We recommend doing a backup of the Encryption Keys before any operation that cou
 
 * Perform a full backup of the database, take precautions against that backup file being deleted by a maintenance plan. 
 * Archive the content of the web application folder containing the {{ en.DVLS }} instance, move to a safe place. 
-* Install the proper version of {{ en.DVLSCONSOLE }}. In each of the sub-topics related to a specific version of {{ en.DVLS }} you will find the version of the client that you need. 
+* Install the proper version of {{ en.DVLSCONSOLE }}. In each of the sub-topics related to a specific version of {{ en.DVLS }}, you will find the version of the client that you need. 
 * {{ en.DVLSCONSOLE }} must be run with elevated privileges.  
 
 ### Phase 2 
@@ -62,7 +62,7 @@ We recommend doing a backup of the Encryption Keys before any operation that cou
 ![{{ en.DVLS }} Upgrade Wizard](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8066.png)  
 1. Press ***Next***. 
 1. BREAKING CHANGE: If you upgrade from version 2021.2.14 or older to version 2022.1 or higher, you will have to provide the [Access URI](/kb/devolutions-server/knowledge-base/access-uri/) to reach the {{ en.DVLS }} web page. 
-![!!ServerOp8099.png](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8099.png) 
+![!!ServerOp8099](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8099.png) 
 1. Review the summary and press ***Upgrade*** if you are satisfied.  
 ![Upgrade completed](https://webdevolutions.azureedge.net/docs/en/server/ServerOp8067.png) 
 

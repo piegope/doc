@@ -1,16 +1,16 @@
 ---
 eleventyComputed:
-  title: Devolutions Hub
+  title: '{{ en.DHUB }}'
   order: 10
-  description: Devolutions Hub is a highly secure team-based password manager that is part of the {{ en.DCS }}. It has been designed for both IT administrators and end users to store and share information across the whole organization, no matter the size.
-  keywords:
+  description: '{{ en.DHUB }} is a highly secure team-based password manager that is part of the {{ en.DCS }}. It has been designed for both IT administrators and end users to store and share information across the whole organization, no matter the size.'
+  keywords: 
   - cloud
 ---
 ![!!{{ en.DHUB }} Logo](https://webdevolutions.blob.core.windows.net/images/projects/devolutions-hub/devolutions-hub-color-shadow.svg)
 
 {{ en.DHUB }} is a highly secure team-based password manager that is part of the {{ en.DCS }}. It has been designed for both IT administrators and end users to store and share information across the whole organization, no matter the size. You can access and manage sensitive information from anywhere and with any supported web browser.  
 
-Your information is stored in entries of different types which are organized into vaults. Entries are managed directly from the web interface and no client application is required.  
+Your information is stored in entries of different types which are organized into {{ en.VLT }}s. Entries are managed directly from the web interface and no client application is required.  
 
 Security is at the core of {{ en.DHUB }} since it is hosted by [Microsoft Azure](/kb/hub-business/knowledge-base/hosting-region-password-hub/), a highly trusted cloud services provider, and encrypted with the strongest encryption standard: AES-256.  
 
@@ -24,21 +24,21 @@ Security is at the core of {{ en.DHUB }} since it is hosted by [Microsoft Azure]
 	<tr>
 		<td>
 
-![!!ApplicationDWL64x64.png](https://webdevolutions.azureedge.net/docs/common/ApplicationDWL64x64.png)  
+![!!ApplicationDWL64x64](https://webdevolutions.azureedge.net/docs/common/ApplicationDWL64x64.png)  
 
 ## {{ en.DWL }}  
 
 Automatically fill and save credentials 
 		</td>
 		<td>
-![!!launcher-icon-shadow.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/launcher-icon-shadow.png)  
+![!!launcher-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/launcher-icon-shadow.png)  
 
 ## {{ en.DLAUNCHER }}  
 
 Remote Access Technology  
 		</td>
 		<td>
-![!!password-hub-importer-icon-shadow.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/password-hub-importer-icon-shadow.png)  
+![!!password-hub-importer-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/password-hub-importer-icon-shadow.png)  
 
 ## {{ en.DHUBI }}  
 
@@ -47,7 +47,7 @@ Data Importer
 	</tr>
 	<tr>
 		<td>
-[{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their vaults. 
+[{{ en.DWL }}](/hub/dwl/overview/) is a free browser plugin used in conjunction with {{ en.DHUB }}, which allows users to securely inject passwords into websites using credentials stored in their {{ en.VLT }}s. 
 		</td>
 		<td>
 The application provides users with a simple method of launching remote sessions from the {{ en.DHUB }} web interface. 
@@ -62,14 +62,14 @@ The essential tool designed to easily and quickly import credentials into your h
 	<tr>
 		<td>
 
-![!!devolutions-workspace-icon-shadow.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/workspace-icon-shadow.png)  
+![!!devolutions-workspace-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/workspace-icon-shadow.png)  
 
 ## {{ en.DWS }}  
 
 Centralized Cloud-Based Environment  
 		</td>
 		<td>
-![!!remote-desktop-manager-icon-shadow.png](https://webdevolutions.azureedge.net/docs/en/hub/Icons/remote-desktop-manager-icon-shadow.png)  
+![!!remote-desktop-manager-icon-shadow](https://webdevolutions.azureedge.net/docs/en/hub/Icons/remote-desktop-manager-icon-shadow.png)  
 
 ## {{ en.RDM }}  
 

@@ -1,5 +1,6 @@
 ---
-title: Compte Devolutions
+eleventyComputed:
+  title: '{{ fr.DA }}'
 ---
 Dans ***Fichier - {{ fr.DA }}*** vous pouvez créer et connecter {{ fr.RDM }} à votre {{ fr.DA }}. Le {{ fr.DA }} est gratuit pour les clients et comprend l'accès au ***{{ fr.CIM }}***.  
 
@@ -98,7 +99,7 @@ DESCRIPTION
 Générateur de fichier de configuration 
 		</td>
 		<td>
-Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter la rubrique [Générateur de fichiers d'installation](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
+Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter [Générateur de fichiers d'installation](/fr/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
 		</td>
 	</tr>
 	<tr>
@@ -106,7 +107,7 @@ Créer un fichier d'installation {{ fr.RDM }} (.rdi). Consulter la rubrique [Gé
 {{ fr.CIM }} 
 		</td>
 		<td>
-Consulter la rubrique [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/). 
+Consulter [{{ fr.CIS }}](/fr/rdm/windows/installation/client/custom-installer-service/). 
 		</td>
 	</tr>
 </table>

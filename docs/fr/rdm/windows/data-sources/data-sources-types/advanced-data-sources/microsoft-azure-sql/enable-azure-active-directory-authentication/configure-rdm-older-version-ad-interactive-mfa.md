@@ -3,7 +3,7 @@ eleventyComputed:
   title: Configurer une anciennce version de {{ fr.RDM }} AD Interactive (avec MFA)
 ---
 {% snippet icon.badgeInfo %} 
-Cette rubrique est pour les versions de {{ fr.RDM }} inférieures à 2022.1. Si vous utilisez une version plus récente, veuillez suivre ce [lien](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/) à la place. 
+Cette rubrique est pour les versions de {{ fr.RDM }} inférieures à 2022.1. Si vous utilisez une version plus récente, veuillez plutôt consulter [Configurer {{ fr.RDM }} Active Directory Interactive (avec MFA pris en charge)](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-ad-interactive-mfa/).
 {% endsnippet %}
  
 Active Directory Interactive (avec MFA pris en charge) vous permet de vous authentifier sur votre source de données Microsoft Azure SQL à l'aide de votre compte Office365 + MFA. 
@@ -20,7 +20,7 @@ Utiliser les serveurs définis par l'admin Azure Active Directory pour créer vo
 
 ## Paramètres 
 
-![!!RdmWin4111.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4111.png) 
+![!!RdmWin4111](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4111.png) 
 
 1. Sélectionner Active Directory Interactive (avec MFA pris en charge) dans le menu déroulant Mode de connexion. 
 1. Vous pouvez spécifier la manière dont vous souhaitez que {{ fr.RDM }} interagisse avec Azure AD pendant l'authentification. 
@@ -69,7 +69,7 @@ Lors de la première connexion, le nom d'utilisateur doit être l'administrateur
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
-![!!RdmWin4032.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4032.png) 
+![!!RdmWin4032](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4032.png) 
 
 Si vous obtenez ce message d'erreur : Unable to connect to the database! Login failed for user '<token-identified principal>' c'est parce que vous n'utilisez pas le courriel d'***Active Directory admin*** que vous avez créé dans Microsoft Azure SQL databases. 
 {% endsnippet %}

@@ -4,7 +4,7 @@ eleventyComputed:
   description: Active Directory Interactive (with MFA support) allows you to authenticate on your Microsoft Azure SQL data source using your Office365 account and MFA.
 ---
 {% snippet icon.badgeInfo %} 
-This topic covers {{ en.RDM }} versions 2022.1 and later. If you are using an earlier version, please see [Configure an older Remote Desktop Manager version AD Interactive (with MFA support)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-older-version-ad-interactive-mfa/) instead. 
+This topic covers {{ en.RDM }} versions 2022.1 and later. If you are using an earlier version, please see [Configure an older {{ en.RDM }} version AD Interactive (with MFA support)](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-rdm-older-version-ad-interactive-mfa/) instead. 
 {% endsnippet %}  
 
 Active Directory Interactive (with MFA support) allows you to authenticate on your [Microsoft Azure SQL](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/) data source using your Office365 account and MFA.  
@@ -28,7 +28,7 @@ Use the servers defined Azure Active Directory administrator to create your firs
    On first connect, the username must be the Active Directory administrator as defined in [Configure the Azure Active Directory administrator](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/enable-azure-active-directory-authentication/configure-admin/). Once you add other AD users in {{ en.RDM }}, they will be able to connect. 
    {% endsnippet %}
    {% snippet icon.badgeCaution %} 
-   ![!!RdmWin4034.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4034.png) If you get the error message ***Unable to connect to the database! Login failed for user '&lt;token-identified principal&gt;'.***, double-check the username for spelling errors. 
+   ![!!RdmWin4034](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4034.png) If you get the error message ***Unable to connect to the database! Login failed for user '&lt;token-identified principal&gt;'.***, double-check the username for spelling errors. 
    {% endsnippet %}  
 1. Enter the ***Database*** to authenticate to.
 1. Click ***OK***.  

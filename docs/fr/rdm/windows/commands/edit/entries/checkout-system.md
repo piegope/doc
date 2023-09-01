@@ -5,14 +5,14 @@ Le ***Mode réservation*** verrouille une entrée pendant qu'elle est utilisée 
 
 Le ***Mode réservation*** peut être activé pour des entrées de type ***Sessions***, ***Documents***, ***Identifiants*** et d'***Informations***.  
 
-Vous pouvez définir le ***Mode réservation*** au niveau du coffre, du dossier ou de l'entrée. 
+Vous pouvez définir le ***Mode réservation*** au niveau du {{ fr.VLT }}, du dossier ou de l'entrée. 
 
 {% snippet icon.badgeInfo %} 
 Cette fonctionnalité est seulement disponible avec une source de données telles que Microsoft SQL Server ou {{ fr.DVLS }}. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Les administrateurs peuvent définir la ***Restitution automatique après*** un certain nombre de minutes dans ***Administration - Paramètres du système - Coffre***. 
+Les administrateurs peuvent définir la ***Restitution automatique après*** un certain nombre de minutes dans ***Administration - Paramètres du système - {{ fr.VLT }}***. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -22,12 +22,12 @@ Les administrateurs peuvent forcer la restitution des entrées qui sont réserv�
 ### Les paramètres de sécurité 
 
 Pour accéder au ***Mode réservation***, modifier une entrée qui prend en charge la réservation et accéder à la section ***Paramètres de sécurité***.  
-![!!RdmWin4052.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4052.png) 
+![!!RdmWin4052](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4052.png) 
 
 ### Réservation 
 
 Le Mode réservation active ou désactive le système de réservation. Il décide également du fonctionnement du mode de réservation.  
-![!!RdmWin4053.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4053.png) 
+![!!RdmWin4053](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4053.png) 
 
 <table>
 	<tr>
@@ -91,7 +91,7 @@ Offre la possibilité de réserver une entrée manuellement ou d'utiliser (ouvri
 ### Invite de réservation 
 
 L'invite de réservation définit si un utilisateur doit saisir un commentaire lorsqu'il réserve l'entrée. Les administrateurs peuvent surveiller les commentaires via les journaux disponibles sur l'entrée ou les journaux d'activité.  
-![!!RdmWin4054.png](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4054.png) 
+![!!RdmWin4054](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RdmWin4054.png) 
 
 <table>
 	<tr>

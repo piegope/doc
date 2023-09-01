@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} sound issues
+  title: '{{ en.RDMMAC }} sound issues'
 ---
 When launching an RDP entry, who is set up with approval for sound, {{ en.RDMMAC }} users cannot hear on the remote even though Windows detects remote audio.
 ## Solution
@@ -15,4 +15,4 @@ A computer policy setting in Windows needs to be changed.
 The ***Force Allow*** setting will not work.
 {% endsnippet %}  
 
-![!!KB4941.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4941.png)
+![!!KB4941](https://webdevolutions.azureedge.net/docs/en/kb/KB4941.png)

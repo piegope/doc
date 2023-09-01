@@ -1,5 +1,6 @@
 ---
-title: Devolutions Hub Business
+eleventyComputed:
+  title: '{{ en.DHUBB }}'
 ---
 {% youtube 'wI4Jn3zLC8U' %}  
 
@@ -8,14 +9,14 @@ title: Devolutions Hub Business
 Please consult our [website](https://devolutions.net/password-hub/) for more information on this service. 
 
 {% snippet icon.badgeInfo %} 
-To start your free {{ en.DHUBB }} trial today, click [here](https://devolutions.net/password-hub/business/sign-up). 
+Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/business/sign-up) today!
 {% endsnippet %}
  
 ## Settings 
 
 ### General 
 
-![!!RdmWin4038.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4038.png) 
+![!!RdmWin4038](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4038.png) 
 
 <table>
 	<tr>
@@ -56,10 +57,10 @@ Copy in the ***Host*** your {{ en.DHUBB }} URL (ex: https<area>://windjammer.dev
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your {{ en.DHUB }}.  
-![!!RdmWin7068.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin7068.png) 
+![!!RdmWin7068](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin7068.png) 
 
 ### Advanced 
 
 Set the interval for the automatic refresh.  
-![!!RdmWin4039.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4039.png) 
+![!!RdmWin4039](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4039.png) 
 

@@ -1,8 +1,9 @@
 ---
-title: Manage encryption keys
-description: Encryption keys are used to encrypt data entries (connections, private vaults, documentation, and attachments). They are generated and stored in the encryption.config file on the server only.
+eleventyComputed:
+  title: Manage encryption keys
+  description: Encryption keys are used to encrypt data entries (connections, {{ en.UVLT }}, documentation, and attachments). They are generated and stored in the encryption.config file on the server only.
 ---
-Encryption keys are used to encrypt data entries (connections, private vaults, documentation, and attachments). They are generated and stored in the **encryption.config** file on the server only. To encrypt the data stored in the database, we use our [open-source cryptography library](https://github.com/Devolutions/devolutions-crypto).
+Encryption keys are used to encrypt data entries (connections, {{ en.UVLT }}, documentation, and attachments). They are generated and stored in the **encryption.config** file on the server only. To encrypt the data stored in the database, we use our [open-source cryptography library](https://github.com/Devolutions/devolutions-crypto).
 
 {% snippet icon.shieldNotice %}
 We recommend to do a backup of the SQL database before any operation that could modify the information it contains (***Import*** or ***Regenerate***). During this operation, all users must be in offline mode or disconnected from the {{ en.DVLS }} data source to avoid data loss.
@@ -23,7 +24,7 @@ Encryption keys must be the same as each {{ en.DVLS }} instance of your High Ava
 ![Tools – Export](https://webdevolutions.azureedge.net/docs/en/kb/KB2252.png)
 1. Enter a destination ***Filename*** and path, then set a password to protect the file.  
    {% snippet icon.shieldCaution %}
-   We strongly recommend storing the encryption keys file in a secure storage outside of {{ en.DVLS }} such as {{ en.DHUBB }}, Azure Key Vault, or AWS Key Management Service.
+   We strongly recommend storing the encryption keys file in a secure storage outside of {{ en.DVLS }} such as {{ en.DHUBB }}, Azure Key {{ en.VLT }}, or AWS Key Management Service.
    {% endsnippet %}  
 
    ![File name and password](https://webdevolutions.azureedge.net/docs/en/kb/KB2253.png)  
@@ -60,7 +61,7 @@ There may be scenarios where you need to regenerate the encryption keys, such as
 
 1. Enter a destination ***Filename*** and path, then set a password to protect the file.  
    {% snippet icon.shieldCaution %}
-   We strongly recommend storing the encryption keys file in a secure storage outside of {{ en.DVLS }} such as {{ en.DHUBB }}, Azure Key Vault, or AWS Key Management Service.
+   We strongly recommend storing the encryption keys file in a secure storage outside of {{ en.DVLS }} such as {{ en.DHUBB }}, Azure Key {{ en.VLT }}, or AWS Key Management Service.
    {% endsnippet %}  
 
    ![Backup file name and password](https://webdevolutions.azureedge.net/docs/en/kb/KB2259.png)

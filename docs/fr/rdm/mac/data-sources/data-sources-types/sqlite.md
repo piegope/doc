@@ -5,7 +5,7 @@ title: SQLite
 	<tr>
 		<td>
 
-![!!DataSourceSQLiteLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
+![!!DataSourceSQLiteLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceSQLiteLarge.png) 
 		</td>
 		<td>
 La source de données SQLite de {{ fr.RDM }} est idéale pour un seul utilisateur dans des situations autonomes. Plus puissant et plus flexible que le format de fichier XML, il prend également en charge quelques-unes des options avancées de source de données comme les journaux et les pièces jointes. 
@@ -170,7 +170,7 @@ Désactiver la mise en cache
 		</td>
 		<td>
 
-Les entrées seront rechargées en mode simple dans la source de données. Voir la rubrique [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
+Les entrées seront rechargées en mode simple dans la source de données. Voir [Mode de la cache](/fr/rdm/mac/data-sources/caching/) pour plus d'informations. 
 		</td>
 	</tr>
 	<tr>

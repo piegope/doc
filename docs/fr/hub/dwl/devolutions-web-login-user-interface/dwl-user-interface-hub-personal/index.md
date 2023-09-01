@@ -36,10 +36,10 @@ En utilisant les onglets du ***Menu latéral***, vous pouvez accéder à diverse
 Chaque onglet affiche une vue différente dans la ***Zone de contenu***. Les onglets disponibles lors de l'utilisation de {{ fr.DWL }} avec {{ fr.DHUBP }} sont :  
 
 * l'onglet ***Corresponsant***, où vous pouvez trouver les identifiants disponibles pour un site Web spécifique;  
-* l'onglet ***Toute les entrées***, où vous pouvez trouver toutes les entrées de votre {{ fr.DUBP }} réparties dans vos différents coffres et dossiers;  
+* l'onglet ***Toute les entrées***, où vous pouvez trouver toutes les entrées de votre {{ fr.DUBP }} réparties dans vos différents {{ fr.VLT }}s et dossiers;  
 * l'onglet ***Favoris***, où vous pouvez trouver une liste de vos entrées favorites;  
 * l'onglet ***Récent***, où vous pouvez trouver une liste des entrées que vous avez récemment utilisées;  
 * l'onglet ***Corbeille***, où vous pouvez ***Supprimer*** des entrées et dossiers ou ***Restaurer*** ceux qui ont été précédemment supprimés;  
 * l'onglet ***Générateur de mots de passe***, où vous pouvez créer un mot de passe fort et sécurisé pour un nouveau compte.  
 
-Consultez notre rubrique [Menu latéral](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 
+Consultez [Menu latéral](/fr/hub/dwl/devolutions-web-login-user-interface/dwl-user-interface-hub-personal/side-menu/) pour obtenir davantage d'informations sur chacun des onglets. 

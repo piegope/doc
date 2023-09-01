@@ -1,4 +1,5 @@
 ---
-title: Devolutions Gateway PowerShell
-order: 30
+eleventyComputed:
+  title: '{{ de.DGW }} PowerShell'
+  order: 30
 ---

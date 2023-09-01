@@ -1,11 +1,12 @@
 ---
-title: Devolutions Launcher Settings
-order: 20
+eleventyComputed:
+  title: '{{ en.DLAUNCHER }} settings'
+  order: 20
 ---
 ### General 
 
 In the ***General*** section, you can personalize the color ***Theme*** and ***Language*** of {{ en.DLAUNCHER }}. You will need to close the application to activate the new settings.  
-![!!Hub4016.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4016.png) 
+![!!Hub4016](https://webdevolutions.azureedge.net/docs/en/hub/Hub4016.png) 
 
 ### Data Sources 
 
@@ -18,7 +19,7 @@ Add a personal credential to your {{ en.DLAUNCHER }} from the ***Credential Entr
 ### Logs 
 
 The information in the ***Logs*** section is primarily for administrators and application developers. You can locate the log file by clicking the ***Open*** button or following the link provided at the bottom of the ***Local Connection Logs*** window.  
-![!!Hub4017.png](https://webdevolutions.azureedge.net/docs/en/hub/Hub4017.png) 
+![!!Hub4017](https://webdevolutions.azureedge.net/docs/en/hub/Hub4017.png) 
 
 ### Diagnostics 
 

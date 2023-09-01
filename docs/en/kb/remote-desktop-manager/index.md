@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager
+  title: '{{ en.RDM }}'
   order: 10
   description: You can consult topics for the following categories about {{ en.RDM }}':' How-To Articles, Troubleshooting Articles and Knowledge Base
   status: Topic available in German language
@@ -9,6 +9,6 @@ eleventyComputed:
 
 You can consult topics for the following categories about {{ en.RDM }}:
 
-- How-To Articles
-- Troubleshooting Articles
-- Knowledge Base
+* How-To Articles
+* Troubleshooting Articles
+* Knowledge Base

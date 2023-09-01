@@ -6,7 +6,7 @@ Since version 2022.2.12 of {{ en.RDM }}, the ***Web Browser*** session entry typ
 Follow the steps below to learn how to convert your ***Website (legacy)*** entry to a ***Website*** entry type in {{ en.RDM }} using ***Special Actions***.
 
 {% snippet icon.badgeInfo %} 
-To convert several entries at once, you can perform a batch conversion by searching by ***Connection type*** with the ***Advanced Search*** feature. If your entries are in different vaults, you can use the ***Multi Vault Search*** to get the same results. First make sure your vault(s) contain ***Website (legacy)*** entries, otherwise the entry type will not appear in the search options. Visit our [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/) topic for more information. 
+To convert several entries at once, you can perform a batch conversion by searching by ***Connection type*** with the ***Advanced Search*** feature. If your entries are in different {{ en.VLT }}s, you can use the ***Multi {{ en.VLT }} Search*** to get the same results. First make sure your {{ en.VLT }}(s) contain ***Website (legacy)*** entries, otherwise the entry type will not appear in the search options. Visit [Batch Edit](/rdm/windows/commands/edit/batch/batch-edit/) for more information. 
 {% endsnippet %}
  
 1. Select the entry you want to convert in the ***{{ en.NPANE }}***. It is possible to select multiple entries at once, provided they are of the same type. 
@@ -19,6 +19,6 @@ Note that it is also possible to convert a ***Website*** entry back to a ***Webs
 {% endsnippet %}
  
 4. Click ***OK*** in the ***Batch Action Result*** window. 
-![Batch Action Result Window.png](https://webdevolutions.azureedge.net/docs/en/kb/KB2078.png)  
+![Batch Action Result Window](https://webdevolutions.azureedge.net/docs/en/kb/KB2078.png)  
 
 Your entry has now been converted.

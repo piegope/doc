@@ -1,7 +1,8 @@
 ---
-title: Custom Installer Service
+eleventyComputed:
+  title: '{{ en.CIS }}'
 ---
-![!!CustomInstallerServiceIcon.png](https://webdevolutions.blob.core.windows.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg) 
+![!!CustomInstallerServiceIcon](https://webdevolutions.blob.core.windows.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg) 
 
 * Generate and download custom installation packages for {{ en.RDM }}. 
 * Include preconfigured data sources in the package for quick enterprise wide deployment. 
@@ -14,7 +15,7 @@ The {{ en.CIS }} uploads a configuration file to our online services. You should
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-You must create an installer file using {{ en.RDM }} before creating the installer on the Web portal. This is described in the [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/) topic. 
+You must create an installer file using {{ en.RDM }} before creating the installer on the Web portal. This is described in [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 

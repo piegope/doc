@@ -10,7 +10,7 @@ Follow the steps below to configure an Azure AD user in {{ en.RDM }}.
 ![Administration – Users – Add User](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2151.png) 
 1. In the ***Authentication type*** drop-down list, select ***Microsoft***. 
 {% snippet icon.badgeCaution %} 
-If ***Microsoft*** is not available in the ***Authentication type*** drop-down list, verify that all steps in [this topic](/kb/remote-desktop-manager/how-to-articles/enable-sql-azure-ad-mfa/) have been completed. 
+If ***Microsoft*** is not available in the ***Authentication type*** drop-down list, verify that all steps in [Enable SQL Azure with Azure Active Directory with MFA](/kb/remote-desktop-manager/how-to-articles/enable-sql-azure-ad-mfa/) have been completed. 
 {% endsnippet %}
  
 ![Microsoft Authentication type](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11580.png) 
@@ -23,7 +23,7 @@ The option ***Is guest/federated user*** next to the ***Domain*** field should o
 5. Click ***OK*** when done. 
 {% snippet icon.badgeCaution %} 
 If you do not receive the MFA prompt, please verify your Azure logs in ***Authentications Details – Result detail***. We currently have no way to force an MFA prompt on registered devices. If ***MFA requirement was skipped due to registered device*** appears, that is why in that case you are not getting the MFA prompt.  
-![!!RdmWin4036.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4036.png) 
+![!!RdmWin4036](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4036.png) 
 {% endsnippet %}
  
 

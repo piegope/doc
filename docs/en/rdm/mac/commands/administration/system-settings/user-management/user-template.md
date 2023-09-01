@@ -50,18 +50,18 @@ Defines the [usage profile](/rdm/mac/user-interface/customization/usage-profiles
 	</tr>
 	<tr>
 		<td>
-User default vault
+User default {{ en.VLT }}
 		</td>
 		<td>
-Defines the default vault(s) for users. Select them from a vault list.
+Defines the default {{ en.VLT }}(s) for users. Select them from a {{ en.VLT }} list.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Disable user vault
+Disable {{ en.UVLT }}
 		</td>
 		<td>
-Defines if the user vault is disabled or not by default when creating a new user.
+Defines if the {{ en.UVLT }} is disabled or not by default when creating a new user.
 		</td>
 	</tr>
 </table>

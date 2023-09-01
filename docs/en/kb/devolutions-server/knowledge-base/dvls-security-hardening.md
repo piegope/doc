@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions Server security hardening
+  title: '{{ en.DVLS }} security hardening'
   description: Security hardening consists of implementing various security measures to protect against cyber threats and ensure the confidentiality, integrity, and availability of the system.
   keywords:
   - security hardening
@@ -52,7 +52,7 @@ To ensure that the communication between the {{ en.DVLS }} instance and the SQL 
 
 When using SQL Server Login accounts, encrypting the **web.config** and **appsettings.json** files is of the utmost importance, as sensitive information is stored in them. Visit [Encrypting the web.config File](/kb/devolutions-server/how-to-articles/encrypting-web-config-file/) for more information and recommendations.
 
-The encryption key is used to encrypt data entries (connections, private vaults, documentation, and attachments). The encryption keys are generated and stored in the **encryption.config** file on the server only. Learn how to export, import, and regenerate them in [Manage Encryption Keys](/kb/devolutions-server/how-to-articles/manage-encryption-keys/).
+The encryption key is used to encrypt data entries (connections, {{ en.UVLT }}, documentation, and attachments). The encryption keys are generated and stored in the **encryption.config** file on the server only. Learn how to export, import, and regenerate them in [Manage Encryption Keys](/kb/devolutions-server/how-to-articles/manage-encryption-keys/).
 
 ![Encryption Keys Management](https://webdevolutions.azureedge.net/docs/en/kb/KB2213.png)
 

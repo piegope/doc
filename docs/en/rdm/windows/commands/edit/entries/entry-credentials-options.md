@@ -24,10 +24,10 @@ This option allows to enter custom credentials in the ***General*** section of t
 	</tr>
 	<tr>
 		<td>
-Linked (Vault)
+Linked ({{ en.VLT }})
 		</td>
 		<td>
-Link an entry to use an existing ***Credential*** entry in the same vault
+Link an entry to use an existing ***Credential*** entry in the same {{ en.VLT }}
 		</td>
 	</tr>
 	<tr>
@@ -56,10 +56,10 @@ No credentials will be allowed to be saved or linked to this entry
 	</tr>
 	<tr>
 		<td>
-Find by name (User Vault)
+Find by name ({{ en.UVLT }})
 		</td>
 		<td>
-Will search the ***User Vault*** for the name specified. If the box is left empty, when launch, a ***Credential list*** will open with all available ***Credentials*** entry from the ***User Vault***.
+Will search the ***{{ en.UVLT }}*** for the name specified. If the box is left empty, when launch, a ***Credential list*** will open with all available ***Credentials*** entry from the ***{{ en.UVLT }}***.
 		</td>
 	</tr>
 	<tr>

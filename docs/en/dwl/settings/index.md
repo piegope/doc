@@ -2,16 +2,14 @@
 title: Settings
 order: 20
 status: Topic available in German language
-keywords:
-- Private vault
 ---
 The {{ en.DWL }} settings can be accessed via the ***Settings*** button in the browser extension window regardless of which Devolutions application you are using with {{ en.DWL }}.  
 
-![{{ en.DWL }} Settings Button.png](https://webdevolutions.azureedge.net/docs/en/dwl/Dwl2000.png)  
+![{{ en.DWL }} Settings Button](https://webdevolutions.azureedge.net/docs/en/dwl/Dwl2000.png)  
 
 The ***Settings*** are separated in two categories: <a href="#configuration">***Configuration***</a> and <a href="#source">***Data sources***</a>.  
 
-![{{ en.DWL }} Settings.png](https://webdevolutions.azureedge.net/docs/en/dwl/Dwl4027.png)
+![{{ en.DWL }} Settings](https://webdevolutions.azureedge.net/docs/en/dwl/Dwl4027.png)
 
 ### Configuration <a name="configuration"></a>
 
@@ -71,7 +69,7 @@ Communicate with the default port 19443 between the application.
 	</tr>
 	<tr>
 		<td>
-Add entry in user vault by default 
+Add entry in {{ en.UVLT }} by default 
 		</td>
 		<td>
 Save new entries in the {{ en.UVLT }}. 
@@ -254,7 +252,7 @@ Set a default comparing option type between <b><i>Base domain</b></i>, <b><i>Hos
 	</tr>
 	<tr>
 		<td>
-Sync all available vaults 
+Sync all available {{ en.VLT }}s 
 		</td>
 		<td>
 Enable to synchronize all the available {{ en.VLT }}s from {{ en.DVLS }}. 
@@ -369,7 +367,7 @@ Set a default comparing option type between <b><i>Base domain</b></i>, <b><i>Hos
 	</tr>
 	<tr>
 		<td>
-Sync all available vaults (available with {{ en.DHUBB }} only) 
+Sync all available {{ en.VLT }}s (available with {{ en.DHUBB }} only) 
 		</td>
 		<td>
 Enable to synchronize all the available {{ en.VLT }}s from {{ en.DHUBB }}. 

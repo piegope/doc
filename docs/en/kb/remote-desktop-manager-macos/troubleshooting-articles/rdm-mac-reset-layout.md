@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Remote Desktop Manager {{ en.MAC }} reset layout
+  title: '{{ en.RDMMAC }} reset layout'
 ---
 To resolve effectively most of your display issues, in {{ en.RDMMAC }}, click on ***Window – Reset Layout***.  
-![!!KB4943.png](https://webdevolutions.azureedge.net/docs/en/kb/KB4943.png)  
+![!!KB4943](https://webdevolutions.azureedge.net/docs/en/kb/KB4943.png)  
 
 In the case it did not resolve your interface error, close the application and delete the layout files (*.lyt).  
 
@@ -14,4 +14,4 @@ In the case it did not resolve your interface error, close the application and d
 1. Open the folder: **com.devolutions.remotedesktopmanager** or **com.devolutions.remotedesktopmanager.free**.
 1. Locate and delete the RemoteDesktopManager.lyt or RemoteDesktopManagerFree.lyt file.  
 
-Launch {{ en.RDMMAC }} 
+Launch {{ en.RDMMAC }}. 

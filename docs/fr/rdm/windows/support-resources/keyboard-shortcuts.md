@@ -13,7 +13,7 @@ Les boutons ***Désactiver tout*** et ***Réinitialiser par défaut*** effacent 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Consultez notre rubrique sur la [personnalisation de vos raccourcis (EN)](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/). 
+Consultez [Keyboard shortcuts customization in {{ fr.RDMWIN }} (EN)](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/). 
 {% endsnippet %}
  
 ![Raccourcis clavier](https://webdevolutions.azureedge.net/docs/fr/rdm/windows/RDMWin2061.png) 
@@ -158,7 +158,7 @@ Maj+F3
 	</tr>
 	<tr>
 		<td>
-Coffre 
+{{ fr.VLT }} 
 		</td>
 		<td>
 F6 
@@ -182,7 +182,7 @@ Ctrl+G
 	</tr>
 	<tr>
 		<td>
-Mon coffre d'utilisateur 
+Mon {{ fr.UVLT }} 
 		</td>
 		<td>
 F7 
@@ -206,7 +206,7 @@ F11
 	</tr>
 	<tr>
 		<td>		
-Recherche multi-coffres... 
+Recherche multi-{{ fr.VLT }}s... 
 		</td>
 		<td>
 F12 
@@ -554,7 +554,7 @@ Ctrl+9
 	</tr>
 	<tr>
 		<td>
-Changer de coffre 
+Changer de {{ fr.VLT }} 
 		</td>
 		<td>
 Ctrl+Maj+R 

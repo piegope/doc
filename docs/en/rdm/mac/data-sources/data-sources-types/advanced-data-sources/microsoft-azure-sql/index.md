@@ -5,7 +5,7 @@ title: Microsoft SQL Azure
 	<tr>
 		<td>
 
-![!!DataSourceAzureLarge.png](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
+![!!DataSourceAzureLarge](https://webdevolutions.azureedge.net/docs/common/DataSourceAzureLarge.png) 
 		</td>
 		<td>
 With a Microsoft Azure SQL data source, {{ en.RDMMAC }} uses the Microsoft cloud platform to save and manage entries.  
@@ -44,13 +44,13 @@ AD Azure is not supported in {{ en.RDMMAC }}. This feature is not yet implemente
  
 ## Configuration 
 
-Consult the [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure-azure-sql/) topic for more information on the configuration. 
+Consult [Configure Azure SQL](/rdm/mac/data-sources/data-sources-types/advanced-data-sources/microsoft-azure-sql/configure-azure-sql/) for more information on the configuration. 
 
 ## Settings 
 
 ### General 
 
-![!!RDMMac4027.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4027.png) 
+![!!RDMMac4027](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4027.png) 
 
 <table>
 	<tr>
@@ -138,7 +138,7 @@ Test the connection with the database to validate if the proper information has 
 
 ### Settings 
 
-![!!RDMMac4028.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4028.png) 
+![!!RDMMac4028](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4028.png) 
 
 <table>
 	<tr>
@@ -181,7 +181,7 @@ Use the data source in offline mode when the ping method does not respond.
 
 ### {{ en.UVLT }} 
 
-![!!RDMMac4030.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4030.png) 
+![!!RDMMac4030](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4030.png) 
 
 <table>
 	<tr>
@@ -209,7 +209,7 @@ Select the type of {{ en.UVLT }} to use. Select between:
 
 ### Upgrade 
 
-![!!RDMMac4029.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4029.png) 
+![!!RDMMac4029](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4029.png) 
 
 <table>
 	<tr>
@@ -257,11 +257,11 @@ Send your schema to our support team.
 ### VPN 
 
 Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database.  
-![!!RDMMac4031.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4031.png) 
+![!!RDMMac4031](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4031.png) 
 
 ### Advanced 
 
-![!!RDMMac4032.png](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4032.png) 
+![!!RDMMac4032](https://webdevolutions.azureedge.net/docs/en/rdm/mac/RdmMac4032.png) 
 
 <table>
 	<tr>
@@ -278,7 +278,7 @@ Caching mode
 		</td>
 		<td>
 
-Determines how the entries will be reloaded in the data source. For more information, please consult the [Caching](/rdm/mac/data-sources/caching/) topic. 
+Determines how the entries will be reloaded in the data source. For more information, please consult [Caching](/rdm/mac/data-sources/caching/). 
 		</td>
 	</tr>
 	<tr>

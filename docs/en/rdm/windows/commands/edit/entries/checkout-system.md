@@ -14,7 +14,7 @@ This feature is only available when using [SQL Server](/rdm/windows/data-sources
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
-Administrators can set ***Automatic check in after*** a number of minutes in ***Administration – System Settings – Vault***. 
+Administrators can set ***Automatic check in after*** a number of minutes in ***Administration – System Settings – {{ en.VLT }}***. 
 {% endsnippet %}
  
 {% snippet icon.badgeInfo %} 
@@ -24,12 +24,12 @@ Administrators can force ***Check In*** entries that are ***Check Out*** by othe
 ### Security Settings 
 
 To access the check out settings, go into the ***Properties*** of an entry, folder or of the root folder. Navigate to the ***Security Settings*** section.  
-![!!RdmWin4054.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4054.png) 
+![!!RdmWin4054](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RdmWin4054.png) 
 
 ### Checkout mode 
 
 ***Checkout mode*** enables or disables the checkout system. It also decides how the checkout mode functions.  
-![!!clip3519.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3519.png) 
+![!!clip3519](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3519.png) 
 
 <table>
 	<tr>
@@ -93,7 +93,7 @@ Offers the option to check out an entry manually or use (open and edit) the entr
 ### Checkout prompt 
 
 ***Checkout prompt*** sets if a user must enter a comment when they check out the entry. Administrators can monitor the comments through the logs available on the entry or the ***Activity Logs***.  
-![!!clip3522.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3522.png) 
+![!!clip3522](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3522.png) 
 
 <table>
 	<tr>

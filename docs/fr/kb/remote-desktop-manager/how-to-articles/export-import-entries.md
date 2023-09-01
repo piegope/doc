@@ -3,7 +3,7 @@ title: Exporter et importer des entrées
 ---
 Vous pouvez exporter et importer des entrées d'un type de source de données à un autre. Il existe plusieurs façons d'exporter des entrées avec {{ fr.RDM }}. 
 {% snippet icon.badgeCaution %} 
-Si vous avez des utilisateurs qui remplacent les propriétés des entrées avec les ***Paramètres spécifiques de l'utilisateur***, ceux-ci devront exporter et importer leur ***Liste des paramètres spécifiques de l'utilisateur***. Consultez notre rubrique sur la façon d'[exporter et importer les paramètres spécifiques de l'utilisateur](/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/) (EN).
+Si vous avez des utilisateurs qui remplacent les propriétés des entrées avec les ***Paramètres spécifiques de l'utilisateur***, ceux-ci devront exporter et importer leur ***Liste des paramètres spécifiques de l'utilisateur***. Consultez [Exporter et importer les paramètres spécifiques de l'utilisateur](/kb/remote-desktop-manager/how-to-articles/export-import-user-specific-settings/) (EN).
 {% endsnippet %}  
 
 La première méthode est effectuée directement <a href="#Exportation/Importation via {{ fr.RDM }}">dans {{ fr.RDM }}</a>, tandis que la seconde utilise un <a href="#Exportation/Importation à l'aide de PowerShell">script PowerShell</a>.
@@ -12,7 +12,7 @@ La première méthode est effectuée directement <a href="#Exportation/Importati
 
 1. Dans {{ fr.RDM }}, sélectionner la source de données contenant les éléments à exporter dans le ***{{ fr.NPANE }}***.
 {% snippet icon.badgeNotice %} 
-Pour exporter l'ensemble du coffre, cliquer sur ***Fichier – Exporter – Exporter le coffre (.rdm)***, puis passer à l'<a href="#etape4">étape 4</a>. 
+Pour exporter l'ensemble du {{ fr.VLT }}, cliquer sur ***Fichier – Exporter – Exporter le {{ fr.VLT }} (.rdm)***, puis passer à l'<a href="#etape4">étape 4</a>. 
 {% endsnippet %}
  
 2. Sélectionner les entrées et/ou les dossiers à exporter. 
@@ -31,11 +31,11 @@ La saisie d’une clé maîtresse permet de chiffrer tout le contenu du fichier 
 
 5. Cliquer sur ***OK***. 
 1. Enregistrer le fichier **.rdm** sur l'ordinateur. 
-1. Dans le ***{{ fr.NPANE }}***, sélectionner la source de données et le coffre dans lesquels importer les entrées. 
+1. Dans le ***{{ fr.NPANE }}***, sélectionner la source de données et le {{ fr.VLT }} dans lesquels importer les entrées. 
 1. Faire un clic droit sur la sélection et sélectionner ***Importer – Importer (.rdm)***.  
 ![Importer (.rdm)](https://webdevolutions.azureedge.net/docs/fr/kb/KB2008.png)
 {% snippet icon.badgeNotice %} 
-Il est possible d'importer tout le coffre à partir de ***Fichier – Importer – Importer (.rdm)***. 
+Il est possible d'importer tout le {{ fr.VLT }} à partir de ***Fichier – Importer – Importer (.rdm)***. 
 {% endsnippet %}
  
 9. Repérer le fichier **.rdm** enregistré sur votre ordinateur et cliquer sur ***Ouvrir***. 

@@ -1,5 +1,6 @@
 ---
-title: Devolutions Account
+eleventyCompupted:
+  title: '{{ en.DA }}'
 ---
 In ***File – {{ en.DA }}*** create and connect your {{ en.RDM }} to your {{ en.DA }}. The {{ en.DA }} is free for customers and includes access to the ***{{ en.CIM }}***.  
 ![{{ en.DA }}](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip10026.png) 
@@ -96,7 +97,7 @@ DESCRIPTION
 Installer File Generator 
 		</td>
 		<td>
-Create a {{ en.RDM }} Installer File (.rdi). Consult topic [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
+Create a {{ en.RDM }} Installer File (.rdi). Consult [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
 		</td>
 	</tr>
 	<tr>
@@ -104,7 +105,7 @@ Create a {{ en.RDM }} Installer File (.rdi). Consult topic [Installer File Gener
 {{ en.CIM }}
 		</td>
 		<td>
-Consult topic [{{ en.CIM }}](/rdm/windows/installation/client/custom-installer-service/). 
+Consult [{{ en.CIM }}](/rdm/windows/installation/client/custom-installer-service/). 
 		</td>
 	</tr>
 </table>

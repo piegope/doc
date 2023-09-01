@@ -16,19 +16,18 @@ Create tasks to keep track of the work that needs to be done per entry. You can 
 
 ### Creation of tasks 
 
-![!!RDMWin2038.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2038.png) 
+![!!RDMWin2038](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2038.png) 
 
-For more information on how to create a task, see the Creating a Task section of the ***Task List*** topic. 
+For more information on how to create a task, see [***Task List***](/rdm/windows/commands/view/panels/task-list/#creating-a-task). 
 
 ### Task Filter 
 
-![!!RDMWin2039.png](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2039.png) 
+![!!RDMWin2039](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2039.png) 
 
 Clicking on the ***Filter*** icon opens a window that allows you to filter the tasks in the entry by ***Due Date***, ***Status*** or ***Username***.  
 ![Task Filter](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2040.png) 
 
 ## Tasks 
 
-The information available is as follows: ***Name***, ***Status***, ***Priority***, ***Due Date***, ***Creation Date*** and ***Assigned To***. For more details about this information, please refer to the ***Task List*** topic.  
-![Tasks](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2037.png) 
-
+The information available is as follows: ***Name***, ***Status***, ***Priority***, ***Due Date***, ***Creation Date*** and ***Assigned To***. For more details about this information, please refer to [***Task List***](/rdm/windows/commands/view/panels/task-list/#creating-a-task).  
+![Tasks](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2037.png)

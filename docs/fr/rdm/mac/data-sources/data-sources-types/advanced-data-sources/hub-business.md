@@ -1,5 +1,6 @@
 ---
-title: Devolutions Hub Business
+eleventyComputed:
+  title: '{{ fr.DHUBB }}'
 ---
 {{ fr.DHUBB }} est pour les entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation  
 
@@ -13,7 +14,7 @@ Pour commencer dès aujourd'hui votre essai gratuit de {{ fr.DHUBB }}, [cliquez 
 
 ### Général 
 
-![!!RDMMac4023.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4023.png) 
+![!!RDMMac4023](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4023.png) 
 
 <table>
 	<tr>
@@ -54,10 +55,9 @@ Copier dans ***Hôte*** votre URL {{ fr.DHUBB }} (p. ex. https<area>://windjamme
 ### VPN 
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DHUBB }}.  
-![!!RDMMac4024.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4024.png) 
+![!!RDMMac4024](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4024.png) 
 
 ### Avancé 
 
 Définir l'intervalle d'actualisation automatique.  
-![!!RDMMac4025.png](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4025.png) 
-
+![!!RDMMac4025](https://webdevolutions.azureedge.net/docs/fr/rdm/mac/RdmMac4025.png)
