@@ -3,6 +3,7 @@ layout: 'layouts/base.njk'
 eleventyImport:
   collections: ["eleventyNavigationTree"]
 ---
+
 <div class="dwd-doc-container">
   {%- macro nav(item, index) -%}
     <div class="nav-item-container">
@@ -71,7 +72,17 @@ eleventyImport:
     <main class="markdown">
 
       {{- content | safe -}}
-       <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20docs.devolutions.net%20%E2%9E%9F%20GitHub%20issue%20linking.%0A*%20Content%3A%20%5B{{- title -}}%5D(https://docs.devolutions.net{{- page.url -}})">
+    
+      {% set productName = "" %}
+      {% for index, name in productNames %}
+        {% if tree == index %}
+          {% set productName = name %}
+        {% endif %}
+      {% endfor %}
+      
+       <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="{{[ "https://github.com/Devolutions/doc/issues/new?title=&amp;body=\n\n[Enter feedback here]\n\n\n---\n Document Details\n\n⚠ *Do not edit this section. It is required for docs.devolutions.net ➟ GitHub issue linking.*\n\n* Content: [", title, "](https://docs.devolutions.net", page.url, ")\n* Content Source: [", page.filePathStem, ".md](https://github.com/Devolutions/doc/tree/master/docs", page.filePathStem, ".md)\n* Service: **", productName, "**"] | join | encodeURIFilter }}"> 
+
+      
 				<span class="icon" aria-hidden="true">
 					{{ icons.github | safe }}
 				</span>

@@ -53,4 +53,8 @@ module.exports = (config) => {
       return bHas - aHas || (aHas === true && a.order - b.order) || (aTitleHas === true && a.title.localeCompare(b.title)) || a.name.localeCompare(b.name)
     })
   });
+
+  config.addFilter('encodeURIFilter', function (string) {
+      return encodeURI(string);
+  });
 }
