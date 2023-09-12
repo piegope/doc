@@ -1,6 +1,6 @@
 {   
     "rdm/windows": "Remote Desktop Manager (Windows)",
-    "rdm/mac": "Remote Desktop Manager (MacOS)",
+    "rdm/mac": "Remote Desktop Manager (macOS)",
     "kb": "Devolutions Knowledge Base",
     "server": "Devolutions Server",
     "hub": "Devolutions Hub",
