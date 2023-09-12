@@ -54,7 +54,21 @@ module.exports = (config) => {
     })
   });
 
-  config.addFilter('encodeURIFilter', function (string) {
-      return encodeURI(string);
+  config.addFilter('encodeURIFilter', function (string, params) {
+      let urlParams = "";
+      let i = 0; 
+      for (key in params) {
+        i++;      
+     
+        urlParams += `${ key }=${ encodeURIComponent(params[key]) }`
+
+        if (Object.keys(params).length > i) {
+          
+          urlParams += "&";
+
+        }
+      }
+  
+      return `${encodeURI(string)}${urlParams}`;
   });
 }
