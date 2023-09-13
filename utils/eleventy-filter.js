@@ -62,13 +62,10 @@ module.exports = (config) => {
      
         urlParams += `${ key }=${ encodeURIComponent(params[key]) }`
 
-        if (Object.keys(params).length > i) {
-          
+        if (Object.keys(params).length > i) {      
           urlParams += "&";
-
         }
       }
-  
       return `${encodeURI(string)}${urlParams}`;
   });
 }

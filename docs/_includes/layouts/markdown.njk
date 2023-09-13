@@ -79,13 +79,13 @@ eleventyImport:
           {% set productName = name %}
         {% endif %}
       {% endfor %}
-      
+     
        <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="{{ "https://github.com/Devolutions/doc/issues/new?" | encodeURIFilter({ title: "", body: ["\n\n[Enter feedback here]\n\n\n---\n#### Document Details\n\n⚠ *Do not edit this section. It is required for docs.devolutions.net ➟ GitHub issue linking.*\n\n* Content: [", title, "](https://docs.devolutions.net", page.url, ")\n* Content Source: [", page.filePathStem, ".md](https://github.com/Devolutions/doc/tree/master/docs", page.filePathStem, ".md)\n* Service: **", productName, "**" ] | join }) }}"> 
       
 				<span class="icon" aria-hidden="true">
 					{{ icons.github | safe }}
 				</span>
-				<span class="text">This page</span>
+				<span class="text">{{ locale[lang].labelFeedbackButton }}</span>
 			</a>
     </main>
   </div>
