@@ -1,8 +1,9 @@
 ---
 eleventyComputed:
   title: Create an Azure AD PAM provider
+  description: The following guide provides steps to create an Azure AD user PAM provider for {{ en.DHUBB }}.
 ---
-The following guide provides steps to create an Azure AD user PAM provider for {{ en.DVLS }}.
+The following guide provides steps to create an Azure AD user PAM provider for {{ en.DHUBB }}.
 
 ## Create an Azure AD PAM provider
 
@@ -12,11 +13,13 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 ![Azure Active Directory Service](https://webdevolutions.azureedge.net/docs/en/kb/KB2132.png)
 1. In ***App registrations***, click on ***New registration***.
 ![App registrations – New registration](https://webdevolutions.azureedge.net/docs/en/kb/KB2133.png)
-1. Set the ***Name*** of your application.
-![Register an application](https://webdevolutions.azureedge.net/docs/en/kb/KB2291.png)
+1. Set the ***Name*** and the ***Redirect URI*** and platform. The ***Redirect URI*** must be your hub URL (for example, windjammer.devolutions.app).
+IMAGE
 1. Click ***Register*** at the bottom when done.
 
-**In {{ en.DVLS }}**
+**In {{ en.DHUBB }}**
+
+----- RENDU ICI
 
 6. Connect to your {{ en.DVLS }}.
 1. Go to ***Administration – Privileged Access – Providers***, then click on ***Add***.
