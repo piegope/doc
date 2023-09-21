@@ -60,6 +60,14 @@ Disable the auto update notification message. Use this to manually update the ap
 	</tr>
 	<tr>
 		<td>
+Show custom minimal/maximal version message for administrators
+		</td>
+		<td>
+A prompt is displayed offering to update {{ en.RDM }} if the version is lower than the minimum version. This also applies to data sources.
+</td>
+	</tr>
+	<tr>
+		<td>		
 Download URL 
 		</td>
 		<td>
