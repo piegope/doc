@@ -9,21 +9,20 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 
 **In Azure AD Portal**
 1. In a browser page, open the [Microsoft Azure AD Portal](https://azure.microsoft.com) and sign in to your account.
-1. Select ***Azure Active Directory*** in the ***Azure Services*** section. If you do not see it, click on ***More services*** to make other services appear.
-![Azure Active Directory Service](https://webdevolutions.azureedge.net/docs/en/kb/KB2132.png)
+1. Select ***Microsoft Entra ID*** (formerly Azure Active Directory) in the ***Azure Services*** section. If you do not see it, click on ***More services*** to make other services appear.
+![Microsoft Entra ID Service](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. In ***App registrations***, click on ***New registration***.
-![App registrations – New registration](https://webdevolutions.azureedge.net/docs/en/kb/KB2133.png)
+![App registrations – New registration](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. Set the ***Name*** and the ***Redirect URI*** and platform. The ***Redirect URI*** must be your hub URL (for example, windjammer.devolutions.app).
-IMAGE
+![Name and Redirect URI](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. Click ***Register*** at the bottom when done.
 
 **In {{ en.DHUBB }}**
 
------ RENDU ICI
-
-6. Connect to your {{ en.DVLS }}.
-1. Go to ***Administration – Privileged Access – Providers***, then click on ***Add***.
-![Administration – Privileged Access – Providers – Add](https://webdevolutions.azureedge.net/docs/en/kb/KB2134.png)
+6. Connect to your hub.
+1. Go to ***Administration – Privileged Access – Providers***.
+1. Click on ***Add Provider***.
+![Administration – Privileged Access – Providers – Add Provider](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. Select ***Azure AD User*** as the new PAM provider, then click ***Continue***.
 ![Add New PAM Provider – Azure AD User](https://webdevolutions.azureedge.net/docs/en/kb/KB8065.png)
 1. In the ***Provider*** window, enter a ***Name*** (mandatory) and a ***Description*** (optional) for your new Azure AD User PAM Provider. If need be, select a ***Password template*** in the drop-down list.
