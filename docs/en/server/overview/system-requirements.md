@@ -1,6 +1,7 @@
 ---
-title: System requirements
-status: Topic available in German language
+eleventyComputed:
+  title: System requirements
+  status: Topic available in German language
 ---
 ## Minimum requirements
 

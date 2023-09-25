@@ -1,6 +1,7 @@
 ---
-title: Installation
-order: 20
+eleventyComputed:
+  title: Installation
+  order: 20
 ---
 ## Topology 
 {% snippet icon.badgeInfo %} 

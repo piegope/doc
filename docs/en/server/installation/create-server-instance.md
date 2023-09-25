@@ -3,10 +3,9 @@ eleventyComputed:
   title: Create a {{ en.DVLS }} instance
   order: 30
   status: Topic available in German language
-keywords:
-- Roles
+  keywords:
+  - Roles
 ---
-
 {% snippet icon.badgeInfo %}
 If you have recently received your serial license keys, please refer to [Getting started](/server/getting-started/). 
 {% endsnippet %}

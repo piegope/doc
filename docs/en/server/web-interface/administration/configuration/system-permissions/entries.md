@@ -1,5 +1,6 @@
 ---
-title: Entries
+eleventyComputed:
+  title: Entries
 ---
 ![Administration - System Permissions](https://webdevolutions.azureedge.net/docs/en/server/clip8052.png) 
 

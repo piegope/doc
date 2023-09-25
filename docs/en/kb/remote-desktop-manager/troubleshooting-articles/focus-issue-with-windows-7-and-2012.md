@@ -1,5 +1,6 @@
 ---
-title: Focus issue with Windows 7 and 2012
+eleventyComputed:
+  title: Focus issue with Windows 7 and 2012
 ---
 {{ en.RDM }} is having focus issues with Windows 7 and/or Windows 2012 operating systems.
 ## Solution

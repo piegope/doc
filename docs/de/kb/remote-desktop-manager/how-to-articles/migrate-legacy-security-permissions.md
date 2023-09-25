@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Schritte zum Deaktivieren des veralteten Sicherheitskonzept in {{ de.RDM }}
+  title: Deaktivieren des veralteten Sicherheitskonzept in {{ de.RDM }}
 ---
 {% snippet icon.badgeWarning %}
 Sicherheitsgruppen sind seit {{ de.RDM }} Version 2023.3 veraltet. 

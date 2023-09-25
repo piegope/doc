@@ -1,5 +1,6 @@
 ---
-title: RDP
+eleventyComputed:
+  title: RDP
 ---
 The commands for an RDP session allow you to send remote commands to your host. 
 

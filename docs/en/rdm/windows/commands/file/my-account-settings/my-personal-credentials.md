@@ -1,7 +1,8 @@
 ---
-title: My Personal Credentials
-keywords:
-- Terminal Service
+eleventyComputed:
+  title: My Personal Credentials
+  keywords:
+  - Terminal Service
 ---
 The ***My Personal Credentials*** feature is a single credential entry which is locally stored on your computer in your Windows profile.  
 

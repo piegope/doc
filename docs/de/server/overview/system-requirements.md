@@ -1,5 +1,6 @@
 ---
-title: Systemanforderungen
+eleventyComputed:
+  title: Systemanforderungen
 ---
 ## Mindestanforderungen
 

@@ -1,5 +1,6 @@
 ---
-title: Deleted entries
+eleventyComputed:
+  title: Deleted entries
 ---
 The ***Administration – Deleted Entries*** option allows you to view the deleted entries as well as restoring them.  
 

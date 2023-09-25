@@ -1,5 +1,6 @@
 ---
-title: Versionsverwaltung
+eleventyComputed:
+  title: Versionsverwaltung
 ---
 Die ***Versionsverwaltung*** ermöglichte es Administratoren, den Zugriff auf die Datenquelle auf bestimmte {{ de.RDM }} Versionen einzuschränken. 
 

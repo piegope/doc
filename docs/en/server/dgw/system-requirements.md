@@ -1,6 +1,7 @@
 ---
-title: System Requirements
-order: 20
+eleventyComputed:
+  title: System Requirements
+  order: 20
 ---
 {{ en.DGW }} requires the following:  
 
