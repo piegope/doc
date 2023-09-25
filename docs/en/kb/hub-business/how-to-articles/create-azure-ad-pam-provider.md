@@ -9,12 +9,12 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 
 **In the Azure Portal**
 
-1. In a browser page, open the [Microsoft Azure AD Portal](https://azure.microsoft.com) and sign in to your account.
+1. In a browser page, open the [Microsoft Azure Portal](https://azure.microsoft.com) and sign in to your account.
 1. Select ***Microsoft Entra ID*** ([formerly Azure Active Directory](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/new-name)) in the ***Azure Services*** section. If you do not see it, click on ***More services*** to make other services appear.
-![Microsoft Entra ID Service](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+![Microsoft Entra ID service](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. In ***App registrations***, click on ***New registration***.
 ![App registrations – New registration](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
-1. Set the ***Name*** and the ***Redirect URI*** and platform. The ***Redirect URI*** must be your hub URL (for example, windjammer.devolutions.app).
+1. Set the ***Name*** and the ***Redirect URI*** and platform. The ***Redirect URI*** must be your hub URL (for example, https&#58;//windjammer.devolutions.app/).
 ![Name and Redirect URI](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. Click ***Register*** at the bottom when done. You will be presented with an overview of your application. 
 1. Locate the ***Application (client) ID*** and ***Directory (tenant) ID***. You will need this information in later steps, so do not close this window.
@@ -31,17 +31,15 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 1. Enter the ***Tenant ID*** and ***Client ID*** that you previously located in the ***Overview*** page of the enterprise application in your Azure Portal.
 ![Tenant ID and Client ID](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 
-{% snippet icon.badgeInfo %}
-Do not close the provider settings window as you still need to enter the ***Secret key***. Follow the steps below to create a client secret.
-{% endsnippet %}  
+   {% snippet icon.badgeInfo %}
+   Do not close the provider settings window as you still need to enter the ***Secret key***. Follow the steps below to create a client secret.
+   {% endsnippet %}  
 
 ## Create a client secret
 
 **In the Azure Portal**
 
-1. From the ***Overview*** page of your enterprise application, go to ***Certificates & secrets*** in the left menu.
-![Certificates & secrets](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
-1. Select ***Client secrets***, then click on ***New client secret***.
+1. In ***Certificates & secrets***, select ***Client secrets***, then click on ***New client secret***.
 ![New client secret](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. Enter a ***Description*** and set an expiry date (or use the recommended one).
 ![Client secret setup](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
@@ -61,9 +59,7 @@ Your new provider has now been added to the list of ***Providers***.
 
 **In the Azure Portal**
 
-1. In your recently created application page, go to ***API permissions*** in the left menu.
-![API permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
-1. Click on ***Add a permission***.
+1. In ***API permissions***, click on ***Add a permission***.
 ![Add a permission](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. Select ***Microsoft Graph***.
 ![Microsoft Graph](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
