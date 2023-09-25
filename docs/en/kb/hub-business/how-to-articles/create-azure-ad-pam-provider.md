@@ -7,107 +7,99 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 
 ## Create an Azure AD PAM provider
 
-**In Azure AD Portal**
+**In the Azure Portal**
+
 1. In a browser page, open the [Microsoft Azure AD Portal](https://azure.microsoft.com) and sign in to your account.
-1. Select ***Microsoft Entra ID*** (formerly Azure Active Directory) in the ***Azure Services*** section. If you do not see it, click on ***More services*** to make other services appear.
+1. Select ***Microsoft Entra ID*** ([formerly Azure Active Directory](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/new-name)) in the ***Azure Services*** section. If you do not see it, click on ***More services*** to make other services appear.
 ![Microsoft Entra ID Service](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. In ***App registrations***, click on ***New registration***.
 ![App registrations – New registration](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. Set the ***Name*** and the ***Redirect URI*** and platform. The ***Redirect URI*** must be your hub URL (for example, windjammer.devolutions.app).
 ![Name and Redirect URI](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
-1. Click ***Register*** at the bottom when done.
+1. Click ***Register*** at the bottom when done. You will be presented with an overview of your application. 
+1. Locate the ***Application (client) ID*** and ***Directory (tenant) ID***. You will need this information in later steps, so do not close this window.
+![Application (client) ID and Directory (tenant) ID](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 
 **In {{ en.DHUBB }}**
 
 6. Connect to your hub.
 1. Go to ***Administration – Privileged Access – Providers***.
-1. Click on ***Add Provider***.
+1. Click on ***Add Provider (+)***.
 ![Administration – Privileged Access – Providers – Add Provider](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
-1. Select ***Azure AD User*** as the new PAM provider, then click ***Continue***.
-![Add New PAM Provider – Azure AD User](https://webdevolutions.azureedge.net/docs/en/kb/KB8065.png)
-1. In the ***Provider*** window, enter a ***Name*** (mandatory) and a ***Description*** (optional) for your new Azure AD User PAM Provider. If need be, select a ***Password template*** in the drop-down list.
-![Name, Description, and Password template](https://webdevolutions.azureedge.net/docs/en/kb/KB2135.png)
-
-**In Azure AD Portal**
-
-10. In the ***Overview*** of your new app registration, copy the ***Directory (tenant) ID***.
-![Copy the Directory (tenant) ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2136.png)
-
-**In {{ en.DVLS }}**
-
-11. Paste the ID copied in the previous step in the ***Tenant ID*** field.
-![Tenant ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2138.png)
-
-**In Azure AD Portal**
-
-12. Still in the ***Overview*** of your new app registration, copy the ***Application (client) ID***.
-![Copy the Application (client) ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2137.png)
-
-**In {{ en.DVLS }}**
-
-13. Paste the ID copied in the previous step in the ***Client ID*** field.
-![Client ID](https://webdevolutions.azureedge.net/docs/en/kb/KB2139.png)
-
-**In Azure AD Portal**
-
-14. In ***Certificates & secrets***, click on ***Client secrets***, then on ***New client secret***.
-![New client secret](https://webdevolutions.azureedge.net/docs/en/kb/KB8064.png)
-1. In the ***Add a client secret*** window, enter a ***Description*** and select an expiration date for this client secret, as per your best internal security practices.
-![Add a client secret](https://webdevolutions.azureedge.net/docs/en/kb/KB2140.png)
-1. Click ***Add***.
-1. Copy the ***Value*** of this new client secret by clicking on the ***Copy to clipboard*** icon next to it.
-![Copy the Client Secret Value](https://webdevolutions.azureedge.net/docs/en/kb/KB8067.png)
-
-**In {{ en.DVLS }}**
-
-18. Paste the value copied in the previous step in the ***Secret key*** field.
-![Secret key](https://webdevolutions.azureedge.net/docs/en/kb/KB8068.png)
-1. <a name="Step19"></a>Test the connection to see if it works, then click ***Save***. The ***Scan Configuration*** window will appear: keep it open as it will be filled in a later step.
-
-**In Azure AD Portal**
-
-{% snippet icon.badgeCaution %}
-Assigning API permissions as described in steps 20 to 26 is only useful if you want to perform Azure accounts discovery (scan). If this is not the case, to avoid assigning unnecessary permissions to the application, skip to <a href="#Step27">step 27</a>.
-{% endsnippet %}
-
-20. In ***API permissions***, click ***Add a permission***.
-![API permissions – Add a permission](https://webdevolutions.azureedge.net/docs/en/kb/KB2141.png)
-1. In the ***Resquest API permissions*** window, select ***Microsoft Graph***.
-![Microsoft Graph](https://webdevolutions.azureedge.net/docs/en/kb/KB2142.png)
-1. Click ***Application permissions***, then check the boxes next to the following Microsoft Graph API permissions to select them:
-
-* ***Group.Read.All***
-* ***RoleManagement.Read.Directory***
-* ***User.Read.All***
-![Select API permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB2143.png)
+1. Enter a ***Name*** (mandatory) for your provider. Optionally, enter a ***Description*** and select a ***Password template***.
+![Name, Description, and Password template](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Enter the ***Tenant ID*** and ***Client ID*** that you previously located in the ***Overview*** page of the enterprise application in your Azure Portal.
+![Tenant ID and Client ID](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 
 {% snippet icon.badgeInfo %}
-Use the filter bar above the permissions list to find the ones you are looking for.
-{% endsnippet %}
+Do not close the provider settings window as you still need to enter the ***Secret key***. Follow the steps below to create a client secret.
+{% endsnippet %}  
 
-23. When all the above permissions have been selected, click ***Add permissions*** at the bottom.
-1. The list of permissions will be updated to include those just selected. Remove any other unnecessary permissions using the ellipsis button next to them.
-![Remove Unnecessary Permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB8069.png)
-1. The permissions require admin consent. Click on the ***Grant admin consent for < Your Organization >*** button, then click ***Yes*** to confirm.
-![Grant admin consent for your organization](https://webdevolutions.azureedge.net/docs/en/kb/KB8070.png)
-1. To confirm that the admin consent has been granted, check the ***Status*** of your permissions.
-![Granted Status](https://webdevolutions.azureedge.net/docs/en/kb/KB8071.png)
-1. <a name="Step27"></a>To grant the application the ability to rotate passwords, leave the ***App registrations*** to go back to Azure Active Directory, then select ***Roles and administrators*** in the left menu.
-1. In ***All roles***, click on the ***Helpdesk Administrator*** role. If the accounts managed by the PAM module are members of any administrator roles or group, then the application needs the ***Privileged Authentication Administrator*** role.
-![All roles – Helpdesk Administrator](https://webdevolutions.azureedge.net/docs/en/kb/KB8072.png)
-1. In ***Assignments***, click on the ***Add assignments*** button.
-![Helpdesk Administrator – Add assignments](https://webdevolutions.azureedge.net/docs/en/kb/KB8073.png)
-1. Filter the list to find the Azure application previously created, select it, then click ***Add***.
-![Add assignments](https://webdevolutions.azureedge.net/docs/en/kb/KB8074.png)
-Your new assignment should now be displayed in ***Assignments***.
+## Create a client secret
 
-**In {{ en.DVLS }}**
+**In the Azure Portal**
 
-31. The last steps are dedicated to configuring a scan for this provider. In the ***Scan Configuration*** window that appeared when you saved your provider configuration in <a href="#Step19">step 19</a>, under ***General***, enter a ***Name*** for this configuration.
-![Scan Configuration Name](https://webdevolutions.azureedge.net/docs/en/kb/KB2144.png)
-1. Under ***Configuration***, select ***Groups*** or ***Roles*** in the ***Search mode*** drop-down list. You can filter the ***Search mode*** for specific Azure AD groups or roles by clicking on the ***Edit*** button next to the drop-down list.
-![Scan Configuration Search mode](https://webdevolutions.azureedge.net/docs/en/kb/KB8077.png)
-1. Click ***OK*** when the configuration is done.
-1. In {{ en.DVLS }}, go to ***Administration – Privileged Access – Scan Configurations***. If the ***Start Scan on Save*** option was left enabled during the scan configuration, the scan should have started by itself. During the process, the ***Status*** column displays an hourglass icon next to the scan entry.
-![Administration – Privileged Access – Scan Configurations](https://webdevolutions.azureedge.net/docs/en/kb/KB2145.png)
-1. When the process is complete, the hourglass icon changes to a green check mark. At that point, select accounts and import them into the privileged accounts like any other type of privileged account.
+1. From the ***Overview*** page of your enterprise application, go to ***Certificates & secrets*** in the left menu.
+![Certificates & secrets](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Select ***Client secrets***, then click on ***New client secret***.
+![New client secret](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Enter a ***Description*** and set an expiry date (or use the recommended one).
+![Client secret setup](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Click ***Add***.
+1. Copy the ***Value*** of your new client secret (not the ***Secret ID***).
+![Client secret value](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+
+**In {{ en.DHUBB }}**
+
+6. Paste the client secret ***Value*** in the ***Secret key*** field.
+![Secret key](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Click ***Add***.  
+
+Your new provider has now been added to the list of ***Providers***.
+
+## Set API permissions
+
+**In the Azure Portal**
+
+1. In your recently created application page, go to ***API permissions*** in the left menu.
+![API permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Click on ***Add a permission***.
+![Add a permission](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Select ***Microsoft Graph***.
+![Microsoft Graph](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Select ***Application permissions***.
+![Application permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Locate and check the boxes next to the following Microsoft Graph API permissions: 
+   * ***Group.Read.All***
+   * ***RoleManagement.Read.Directory***
+   * ***User.Read.All***
+1. Click on ***Add permissions***.
+1. Click on ***Grant admin consent for [your organization]***, then confirm by clicking ***Yes***.
+![Grant admin consent](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+
+## Enable the application to rotate passwords
+
+**In the Azure Portal**
+
+1. Go back to Microsoft Entra ID, then go to ***Roles and administrators*** in the left menu.
+
+   {% snippet icon.badgeCaution %}
+   Make sure to go back to the main overview of Microsoft Entra ID. If you go to ***Roles and administrators*** while in the overview of your app registration or enterprise application, for example, you will only have access to administratice roles available for that section.
+   {% endsnippet %}  
+
+   ![Roles and administrators](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+
+1. Search for the ***Helpdesk Administrator*** role. If the accounts managed by the PAM module are members of any administrator roles or groups, then also search for the ***Privileged Authentication Administrator*** role and complete the next steps for both roles.
+![Roles and administrators](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Click on the name of the role (do not check the box).
+1. Click on ***Add assignments***.
+![Add assignments](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Click on ***No member selected***.
+![No member selected](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Search through the list to find the application.
+1. Check the box next to the application, then click ***Select***.
+![Select the application](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Click ***Next***.
+![Next](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Enter a justification for the assignment, then click ***Assign***.  
+   Your application has now been added to the list.
