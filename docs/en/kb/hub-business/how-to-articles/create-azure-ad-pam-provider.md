@@ -59,7 +59,7 @@ Your new provider has now been added to the list of ***Providers***.
 
 **In the Azure Portal**
 
-1. In ***API permissions***, click on ***Add a permission***.
+1. In your recently created application page, go to ***API permissions*** and click on ***Add a permission***.
 ![Add a permission](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. Select ***Microsoft Graph***.
 ![Microsoft Graph](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
@@ -69,9 +69,12 @@ Your new provider has now been added to the list of ***Providers***.
    * ***Group.Read.All***
    * ***RoleManagement.Read.Directory***
    * ***User.Read.All***
-1. Click on ***Add permissions***.
+![Select permissions](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+1. Click on ***Add permissions*** at the bottom.
 1. Click on ***Grant admin consent for [your organization]***, then confirm by clicking ***Yes***.
-![Grant admin consent](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
+![Grant admin consent](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)  
+
+   The ***Status*** next to each permission should now be updated.
 
 ## Enable the application to rotate passwords
 
@@ -80,12 +83,10 @@ Your new provider has now been added to the list of ***Providers***.
 1. Go back to Microsoft Entra ID, then go to ***Roles and administrators*** in the left menu.
 
    {% snippet icon.badgeCaution %}
-   Make sure to go back to the main overview of Microsoft Entra ID. If you go to ***Roles and administrators*** while in the overview of your app registration or enterprise application, for example, you will only have access to administratice roles available for that section.
-   {% endsnippet %}  
+   Make sure to go back to the main overview of Microsoft Entra ID. If you go to ***Roles and administrators*** while in the overview of your app registration or enterprise application, for example, you will only have access to administrative roles that are available for that section.
+   {% endsnippet %}
 
-   ![Roles and administrators](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
-
-1. Search for the ***Helpdesk Administrator*** role. If the accounts managed by the PAM module are members of any administrator roles or groups, then also search for the ***Privileged Authentication Administrator*** role and complete the next steps for both roles.
+1. In ***All roles***, search for the ***Helpdesk Administrator*** role. If the accounts managed by the PAM module are members of any administrator roles or groups, then also search for the ***Privileged Authentication Administrator*** role and complete the next steps for both roles.
 ![Roles and administrators](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. Click on the name of the role (do not check the box).
 1. Click on ***Add assignments***.
@@ -96,6 +97,5 @@ Your new provider has now been added to the list of ***Providers***.
 1. Check the box next to the application, then click ***Select***.
 ![Select the application](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. Click ***Next***.
-![Next](https://webdevolutions.azureedge.net/docs/en/kb/KB.png)
 1. Enter a justification for the assignment, then click ***Assign***.  
-   Your application has now been added to the list.
+   Your application has now been added to the list. 
