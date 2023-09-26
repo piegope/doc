@@ -12,8 +12,8 @@ The following guide provides steps to create an Azure AD user PAM provider for {
 ![Azure Active Directory Service](https://webdevolutions.azureedge.net/docs/en/kb/KB2132.png)
 1. In ***App registrations***, click on ***New registration***.
 ![App registrations – New registration](https://webdevolutions.azureedge.net/docs/en/kb/KB2133.png)
-1. Set the ***Name*** and the ***Redirect URI*** and platform. The ***Redirect URI*** must be the same value as the URL used to connect to {{ en.DVLS }}.
-![Register an application](https://webdevolutions.azureedge.net/docs/en/kb/KB8063.png)
+1. Set the ***Name*** of your application.
+![Register an application](https://webdevolutions.azureedge.net/docs/en/kb/KB2291.png)
 1. Click ***Register*** at the bottom when done.
 
 **In {{ en.DVLS }}**
