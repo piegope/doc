@@ -1,13 +1,14 @@
 ---
 eleventyComputed:
   title: Version Management
+  description: The Version Management allows the administrators to manage the data source availability in other versions of {{ en.RDM }}.
   status: Topic available in German language
 ---
 The ***Version Management*** allows the administrators to manage the data source availability in other versions of {{ en.RDM }}. 
 
-## Windows and {{ en.MAC }} 
+## Windows, {{ en.MAC }}, and Linux 
 
-![Version Management](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip5008.png) 
+![Version Management](https://webdevolutions.blob.core.windows.net/docs/en/rdm/windows/RDMWin6180_2023_3.png) 
 
 <table>
 	<tr>
@@ -23,7 +24,7 @@ DESCRIPTION
 Minimal version 
 		</td>
 		<td>
-Forces users of the data source to use a minimal version of {{ en.RDM }}. Enter the entire version number (2019.1.0.0) to force a specific version. Use this to disable connecting to the data source with an older version. 
+Forces users of the data source to use a minimal version of {{ en.RDM }}. Enter the entire version number (e.g. 2023.2.0.0) to force a specific version. A prompt is displayed offering to update {{ en.RDM }} if the version is higher than the minimum version.
 		</td>
 	</tr>
 	<tr>
@@ -39,7 +40,7 @@ Enter a custom message for the minimal version notification.
 Maximal version 
 		</td>
 		<td>
-Forces users of the data source to use a maximal version. Enter the entire version number (2019.1.0.0) to force a specific version. Use this to disable connecting to the data source with a newer version. 
+Forces users of the data source to use a maximal version. Enter the entire version number (e.g. 2023.2.0.0) to force a specific version. A prompt is displayed offering to update {{ en.RDM }} if the version is lower than the maximal version.
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +52,7 @@ Enter a custom message for the maximal version notification.
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td>	
 Disable checks for updates 
 		</td>
 		<td>
@@ -63,11 +64,11 @@ Disable the auto update notification message. Use this to manually update the ap
 Show custom minimal/maximal version message for administrators
 		</td>
 		<td>
-A prompt is displayed offering to update {{ en.RDM }} if the version is lower than the minimum version. This also applies to data sources.
+Show the custom minimal/maximal version message to administrators.
 </td>
 	</tr>
 	<tr>
-		<td>		
+		<td>
 Download URL 
 		</td>
 		<td>
