@@ -19,7 +19,7 @@ Beschreibung
 Aktivitätsprotokolle
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, die Aktivitätsprotokolle einzusehen.
+Ermöglicht die Aktivitätsprotokolle einzusehen.
 		</td>
 	</tr>
 	<tr>
@@ -27,7 +27,7 @@ Erlaubt Nutzern/Nutzergruppen, die Aktivitätsprotokolle einzusehen.
 Berichte
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, Berichte zu erstellen und einzusehen.
+Ermöglicht Berichte zu erstellen und einzusehen.
 		</td>
 	</tr>
 	<tr>
@@ -35,7 +35,7 @@ Erlaubt Nutzern/Nutzergruppen, Berichte zu erstellen und einzusehen.
 Gelöschte Einträge
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, gelöschte Einträge einzusehen und wiederherzustellen.
+Ermöglicht gelöschte Einträge einzusehen und wiederherzustellen.
 		</td>
 	</tr>
 	<tr>
@@ -43,39 +43,39 @@ Erlaubt Nutzern/Nutzergruppen, gelöschte Einträge einzusehen und wiederherzust
 Datenquellenprotokolle
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, die Datenquellenprotokolle einzusehen.
+Ermöglicht die Datenquellenprotokolle einzusehen.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Administrationsprotokolle
+Verwaltungsprotokolle
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, die Administrationsprotokolle einzusehen.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Einchecken (erzwungen)
-		</td>
-		<td>
-Erlaubt Nutzern/Nutzergruppen, Einträge einzuchecken.
+Ermöglicht die Verwaltungsprotokolle einzusehen.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Flag as closed
+Einchecken (Erzwingen)
 		</td>
 		<td>
-Allow users/user groups to close an open session by flagging it as closed (RDM specific permission).
+Ermöglicht Einträge einzuchecken.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Entry security analyzer
+Als geschlossen markieren
 		</td>
 		<td>
-Allow users/user groups to check the ***Reports*** – ***Entries*** – ***Entry Security Analyzer*** report.
+Ermöglicht Einträge als geschlossen zu setzen (RDM spezifische Berechtigung).
+		</td>
+	</tr>
+	<tr>
+		<td>
+Eintrag-Sicherheitsanalyse
+		</td>
+		<td>
+Ermöglicht den Zugriff auf den ***Berichte*** – ***Einträge*** – ***Sicherheitsanalyse*** Bericht.
 		</td>
 	</tr>
 </table>
