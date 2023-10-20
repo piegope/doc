@@ -15,42 +15,42 @@ Beschreibung
 	</tr>
 	<tr>
 		<td>
-Integrierte Tools (Wake-on-LAN, NetStat, Ping...)
+Integrierte Werkzeuge (Wake On Lan, NetStat, Ping, ...)
 		</td>
 		<td>
-Erlauben Nutzern/Nutzergruppen die Verwendung von sitzungsrelevanten Tools.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Eintrag Makro/Skript/Tool
-		</td>
-		<td>
-Erlaubt Nutzern/Nutzergruppen die Verwendung von Makro-/Skript-/Tool-Einträgen.
+Ermöglicht die Verwendung von sitzungsrelevanten Werkzeugen.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Remote-Tools
+Makro / Skript / Werkzeug Eintrag
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen die Verwendung von Remote-Tools.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Web-Management-Tools
-		</td>
-		<td>
-Erlaubt Nutzern/Nutzergruppen die Verwendung von Web-Management-Tools.
+Ermöglicht die Verwendung von Makro- / Skript- / Werkzeug-Einträgen.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Tools zur Konsolenverwaltung
+Remotewerkzeuge
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen die Verwendung von Tools zur Konsolenverwaltung.
+Ermöglicht die Verwendung von Remotewerkzeugen.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Web-Verwaltungswerkzeuge
+		</td>
+		<td>
+Ermöglicht die Verwendung von Web-Verwaltungswerkzeugen.
+		</td>
+	</tr>
+	<tr>
+		<td>
+Konsolen-Verwaltungswerkzeuge
+		</td>
+		<td>
+Ermöglicht die Verwendung von Konsolen-Verwaltungswerkzeugen.
 		</td>
 	</tr>
 </table>
