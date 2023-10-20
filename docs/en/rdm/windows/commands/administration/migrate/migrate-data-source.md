@@ -11,7 +11,7 @@ eleventyComputed:
    {% snippet icon.badgeInfo %}
 The supported data sources are:
 * ***SQL Server*** to ***SQL Server*** 
-* ***MySQL*** to ***SQL Server*** ({{ en.RDM }} 2023.2 only)
+* ***MySQL*** to ***SQL Server*** ({{ en.RDM }} 2023.2 and prior)
    {% endsnippet %} 
 
 1. Choose the ***data source*** to migrate.
