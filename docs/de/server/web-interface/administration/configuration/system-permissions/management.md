@@ -16,26 +16,26 @@ Beschreibung
 	</tr>
 	<tr>
 		<td>
-Nutzer
+Benutzer
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen den Zugriff auf die Nutzerverwaltung.
-		</td>
-	</tr>
-	<tr>
-		<td>
-Nutzergruppen
-		</td>
-		<td>
-Erlaubt Nutzern/Nutzergruppen den Zugriff auf die Verwaltung der Nutzergruppen.
+Ermöglicht den Zugriff auf die Benutzerverwaltung.
 		</td>
 	</tr>
 	<tr>
 		<td>
-Licenses
+Sicherheitsgruppen (veraltet)
 		</td>
 		<td>
-Allow users/user groups to manage the licenses.
+Ermöglicht den Zugriff auf die Verwaltung der Sicherheitsgruppen (veraltet).
+		</td>
+	</tr>
+	<tr>
+		<td>
+Lizenzen
+		</td>
+		<td>
+Ermöglicht den Zugriff auf die Lizenzverwaltung.
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,7 @@ Allow users/user groups to manage the licenses.
 {{ de.VLT }}
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen den Zugriff auf die {{ de.VLT }} verwaltung.
+Ermöglicht den Zugriff auf die {{ de.VLT }}verwaltung.
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ Erlaubt Nutzern/Nutzergruppen den Zugriff auf die {{ de.VLT }} verwaltung.
 Systemeinstellungen
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen den Zugriff auf die ***Systemeinstellungen***.
+Ermöglicht den Zugriff auf die ***Systemeinstellungen***.
 		</td>
 	</tr>
 	<tr>
@@ -59,7 +59,7 @@ Erlaubt Nutzern/Nutzergruppen den Zugriff auf die ***Systemeinstellungen***.
 Vorlagen
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, Vorlagen zu erstellen und zu verwalten.
+Ermöglicht Vorlagen zu erstellen und zu verwalten.
 		</td>
 	</tr>
 	<tr>
@@ -67,15 +67,15 @@ Erlaubt Nutzern/Nutzergruppen, Vorlagen zu erstellen und zu verwalten.
 Passwortvorlagen
 		</td>
 		<td>
-Erlaubt Nutzern/Nutzergruppen, Passwort-Vorlagen zu erstellen und zu verwalten.
+Ermöglicht Passwortvorlagen zu erstellen und zu verwalten.
 		</td>
 	</tr>
 	<tr>
 		<td>
-System images
+Globale Bilder
 		</td>
 		<td>
-Allow users/user groups to create and manage system images.
+Ermöglicht Globale Bilder zu erstellen und zu verwalten.
 		</td>
 	</tr>
 </table>
