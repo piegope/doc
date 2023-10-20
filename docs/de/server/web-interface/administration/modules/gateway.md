@@ -8,11 +8,11 @@ Informationen zur Installation von {{ de.DGW }} finden Sie unter [Konfiguration 
 
 ![Administration – Gateway](https://webdevolutions.azureedge.net/docs/de/server/ServerOp0069.png)  
 
-Die folgenden Tools stehen zur Überwachung jedes {{ de.DGW }} über das erweiterte Menü zur Verfügung.
+Die folgenden Optionen stehen zur Überwachung jedes {{ de.DGW }} über das erweiterte Menü zur Verfügung.
 ![Erweitertes Menü](https://webdevolutions.azureedge.net/docs/de/server/ServerOp0070.png)
 
 ## Protokolle
-Zeigt die Protokolle des ausgewählten {{ de.DGW }} an. Mit der Schaltfläche „Herunterladen“ können Sie die Protokolle herunterladen und in einer .log-Textdatei speichern.
+Zeigt die Protokolle des ausgewählten {{ de.DGW }} an. Mit der Schaltfläche „Herunterladen“ können Sie die Protokolle herunterladen und in einer Textdatei speichern.
 ![{{ de.DGW }} Protokolle](https://webdevolutions.azureedge.net/docs/de/server/ServerOp0071.png)
 
 ## Sitzungen
