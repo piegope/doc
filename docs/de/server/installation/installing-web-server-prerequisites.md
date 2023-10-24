@@ -30,7 +30,7 @@ Nachfolgend beide Methoden zur Installation der Voraussetzungen:
     1. ***Voraussetzungen installieren*** auswählen, um das PowerShell-Skript auszuführen.  
 
    {% snippet icon.badgeInfo %} 
-   Dieses Fenster wird nur angezeigt, wenn bei einer Neuinstallation oder einer Aktualisierung eine Voraussetzung fehlt.. 
+   Dieses Fenster wird nur angezeigt, wenn bei einer Neuinstallation oder einer Aktualisierung eine Voraussetzung fehlt. 
    {% endsnippet %}
  
    ![!!ServerOp8171](https://webdevolutions.azureedge.net/docs/de/server/ServerOp8171.png)  
