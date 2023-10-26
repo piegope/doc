@@ -5,8 +5,8 @@ if (autocompleteElement) {
   const { createTagsPlugin } = window['@algolia/autocomplete-plugin-tags'];
 
   const searchClient = algoliasearch(
-    'LNWCTDWZS0',
-    'e51799c9709067fc3bcab5ec439fa770'
+    'Y81ZZ0W234',
+    'e43f72905982e90be2a181639398d89e'
   );
 
   const tagsPlugin = createTagsPlugin({
@@ -195,11 +195,17 @@ if (autocompleteElement) {
                         attribute: 'title',
                       })}
                       
-                    </div>
+                    </div>              
                     <div class="aa-ItemContentContent">
                       ${components.Highlight({
                         hit: item,
                         attribute: 'content',
+                      })}
+                    </div>
+                    <div class="aa-ItemContentLink">
+                      ${components.Highlight({
+                        hit: item,
+                        attribute: 'url',
                       })}
                     </div>
                   </div>
