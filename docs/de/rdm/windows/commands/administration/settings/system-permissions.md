@@ -12,7 +12,7 @@ Weitere Informationen über Berechtigungen finden Sie unter [Vereinfachte Sicher
  
 ### Einträge 
 
-![System Berechtigungen - Einträge](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3432.png) 
+![System Berechtigungen - Einträge](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6158.png) 
 
 <table>
 	<tr>
@@ -59,7 +59,7 @@ Ermöglicht den Zugriff auf die {{ de.VLT }} Einstellungen.
 
 ### Sonstige
 
-![System Berechtigungen - Sonstiges](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3434.png) 
+![System Berechtigungen - Sonstiges](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6155.png) 
 
 <table>
 	<tr>
@@ -137,7 +137,7 @@ Ermöglicht den Zugriff auf den <b><i>Berichte</b></i> – <b><i>Einträge</b></
 
 ### Werkzeuge 
 
-![System Berechtigungen - Werkzeuge](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3621.png) 
+![System Berechtigungen - Werkzeuge](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6156.png) 
 
 <table>
 	<tr>
@@ -192,6 +192,8 @@ Ermöglicht die Verwendung von Web-Verwaltungswerkzeugen.
 
 ### Vorlagen 
 
+![System Berechtigungen - Verwaltung](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6157.png)
+
 <table>
 	<tr>
 		<th>
@@ -222,7 +224,7 @@ Ermöglicht die Konfiguration von Passwortvorlagen.
 
 ### Verwaltung 
 
-![System Berechtigungen - Verwaltung](https://webdevolutions.azureedge.net/docs/de/rdm/windows/clip3433.png) 
+![System Berechtigungen - Verwaltung](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6153.png) 
 
 <table>
 	<tr>
