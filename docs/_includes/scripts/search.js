@@ -183,6 +183,16 @@ if (autocompleteElement) {
                 <div class="aa-SourceHeaderLine" />`;
             },
             item({ item, components, html }) {
+              let urlBreadcrumb = components.Highlight({
+                hit: item,
+                attribute: 'url',
+              });
+           
+              urlBreadcrumb = urlBreadcrumb.props.children[0].replaceAll("/", " > ");
+           
+              if (urlBreadcrumb.substring(urlBreadcrumb.length - 3, urlBreadcrumb.length) == " > ") {
+                urlBreadcrumb = urlBreadcrumb.substring(0, urlBreadcrumb.length - 3);
+              }
               return html`<a class="aa-ItemLink" href="${item.url}">
                 <div class="aa-ItemContent">
                   <div className="aa-ItemIcon">
@@ -207,6 +217,9 @@ if (autocompleteElement) {
                         hit: item,
                         attribute: 'url',
                       })}
+                    </div>
+                    <div class="aa-ItemContentLink">
+                      ${ urlBreadcrumb }
                     </div>
                   </div>
                 </div>
