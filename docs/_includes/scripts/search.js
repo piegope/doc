@@ -214,12 +214,6 @@ if (autocompleteElement) {
                       })}
                     </div>
                     <div class="aa-ItemContentLink">
-                      ${components.Highlight({
-                        hit: item,
-                        attribute: 'url',
-                      })}
-                    </div>
-                    <div class="aa-ItemContentLink">
                       ${ urlBreadcrumb }
                     </div>
                   </div>
