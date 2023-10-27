@@ -188,11 +188,12 @@ if (autocompleteElement) {
                 attribute: 'url',
               });
            
-              urlBreadcrumb = urlBreadcrumb.props.children[0].replaceAll("/", " > ");
-           
+              urlBreadcrumb = urlBreadcrumb.props.children[0].replaceAll("/", " > ").substring(3, urlBreadcrumb.length);
+              
               if (urlBreadcrumb.substring(urlBreadcrumb.length - 3, urlBreadcrumb.length) == " > ") {
                 urlBreadcrumb = urlBreadcrumb.substring(0, urlBreadcrumb.length - 3);
               }
+
               return html`<a class="aa-ItemLink" href="${item.url}">
                 <div class="aa-ItemContent">
                   <div className="aa-ItemIcon">
