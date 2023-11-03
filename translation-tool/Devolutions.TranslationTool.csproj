@@ -16,7 +16,7 @@
     <PackageReference Include="CommandLineParser" Version="2.9.1" />
     <PackageReference Include="DeepL.net" Version="1.7.1" />
     <PackageReference Include="LibGit2Sharp" Version="0.27.2" />
-    <PackageReference Include="Markdig" Version="0.31.0" />
+    <PackageReference Include="Markdig" Version="0.33.0" />
   </ItemGroup>
 
 </Project>

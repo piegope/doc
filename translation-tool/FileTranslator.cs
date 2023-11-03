@@ -79,8 +79,8 @@ internal sealed partial class FileTranslator
         this.translations = new Dictionary<string, DeeplTranslation>(TranslationsInitialCapacity, StringComparer.Ordinal);
         this.substitutions = new Dictionary<int, ISubstitution>(SubstitutionsInitialCapacity);
         string latestCommitHeaderLine = $"latestCommit: {this.targetFile.SourceFile.LatestCommit}{this.sourceFileEOL}";
-        string glossaryIDHeaderLine = this.targetFile.Language.GlossaryID != null ?
-            $"glossaryID: {this.targetFile.Language.GlossaryID}{this.sourceFileEOL}" : string.Empty;
+        string glossaryLatestCommitHeaderLine = this.targetFile.Language.GlossaryLatestCommit != null ?
+            $"glossaryLatestCommit: {this.targetFile.Language.GlossaryLatestCommit}{this.sourceFileEOL}" : string.Empty;
         Match headerMatch = GetHeaderRegex().Match(this.sourceFileContent);
         if (headerMatch.Success)
         {
@@ -93,13 +93,13 @@ internal sealed partial class FileTranslator
             targetFileHeaderPart1 = DescriptionLineRegex().Replace(targetFileHeaderPart1, this.ReplaceDescriptionLineRegex, 1);
             targetFileHeaderPart1 = KeywordLinesRegex().Replace(targetFileHeaderPart1, this.ReplaceKeywordLinesRegex, 1);
             targetFileHeaderPart1 = LatestCommitLineRegex().Replace(targetFileHeaderPart1, this.sourceFileEOL, 1);
-            targetFileHeaderPart1 = GlossaryIDRegex().Replace(targetFileHeaderPart1, this.sourceFileEOL, 1);
-            this.targetFileHeader = $"{targetFileHeaderPart1}{latestCommitHeaderLine}{glossaryIDHeaderLine}{sourceFileHeaderPart2}";
+            targetFileHeaderPart1 = GlossaryLatestCommitRegex().Replace(targetFileHeaderPart1, this.sourceFileEOL, 1);
+            this.targetFileHeader = $"{targetFileHeaderPart1}{latestCommitHeaderLine}{glossaryLatestCommitHeaderLine}{sourceFileHeaderPart2}";
         }
         else
         {
             this.sourceFileContentWithoutHeader = this.sourceFileContent;
-            this.targetFileHeader = $"---{this.sourceFileEOL}{latestCommitHeaderLine}{glossaryIDHeaderLine}---{this.sourceFileEOL}";
+            this.targetFileHeader = $"---{this.sourceFileEOL}{latestCommitHeaderLine}{glossaryLatestCommitHeaderLine}---{this.sourceFileEOL}";
         }
     }
 
@@ -174,8 +174,8 @@ internal sealed partial class FileTranslator
     [GeneratedRegex(@"(?:\r?\n|\r)latestCommit:[^\r\n]*(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex LatestCommitLineRegex();
 
-    [GeneratedRegex(@"(?:\r?\n|\r)glossaryID:[^\r\n]*(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
-    private static partial Regex GlossaryIDRegex();
+    [GeneratedRegex(@"(?:\r?\n|\r)glossaryLatestCommit:[^\r\n]*(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    private static partial Regex GlossaryLatestCommitRegex();
 
     private void ApplyHighLevelSubstitutions()
     {
@@ -321,7 +321,7 @@ internal sealed partial class FileTranslator
                 textToTranslate = ConsecutiveSubstitutionsRegex().Replace(textToTranslate, this.CombineConsecutiveSubstitutions);
 
                 // If the text to translate has substitutions, normalizing it (by changing indexes in ignore tags to 0, 1, 2, 3, etc.)
-                // which will drastically improves the likelihood of reusing that translation elsewhere
+                // will drastically improves the likelihood of reusing that translation elsewhere
                 List<int> substitutionIndexes = new();
                 string normalizedTextToTranslate = DeeplIgnoreTag.GetSubstitutionRegex().Replace(textToTranslate, match =>
                 {

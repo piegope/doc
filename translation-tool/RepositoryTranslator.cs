@@ -45,8 +45,20 @@ public sealed partial class RepositoryTranslator
     {
         string repositoryPath = GetRepositoryPath();
         string contentDirectoryName = GetContentDirectoryName(repositoryPath);
-        SourceLanguage sourceLanguage = await this.GetSourceLanguage(repositoryPath, contentDirectoryName).ConfigureAwait(false);
-        TargetLanguage[] targetLanguages = await this.GetTargetLanguages(repositoryPath, contentDirectoryName, sourceLanguage).ConfigureAwait(false);
+
+        TargetLanguage[] targetLanguages;
+        using (Repository repository = new(repositoryPath))
+        {
+            Commit repositoryHeadTip = repository.Head.Tip;
+            SourceLanguage sourceLanguage = await this.GetSourceLanguage(repositoryPath, repositoryHeadTip, contentDirectoryName).ConfigureAwait(false);
+            targetLanguages = await this.GetTargetLanguages(repositoryPath, repositoryHeadTip, contentDirectoryName, sourceLanguage).ConfigureAwait(false);
+        }
+
+        if (targetLanguages.Length == 0)
+        {
+            return;
+        }
+
         MarkdownPipeline markdownPipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
         using Translator deeplTranslator = new(this.deeplAuthenticationKey, this.deeplTranslatorOptions);
         TranslatedFileCounter translatedFileCounter = new(this.maxTranslatedFileCount);
@@ -87,24 +99,21 @@ public sealed partial class RepositoryTranslator
     private static string? GetContentDirectoryName(string repositoryPath, string contentDirectoryName) =>
         Directory.Exists(Path.Combine(repositoryPath, contentDirectoryName)) ? contentDirectoryName : null;
 
-    private async Task<SourceLanguage> GetSourceLanguage(string repositoryPath, string contentDirectoryName)
+    private async Task<SourceLanguage> GetSourceLanguage(string repositoryPath, Commit repositoryHeadTip, string contentDirectoryName)
     {
         SourceLanguage sourceLanguage = new(this.sourceLanguageCode, Path.Combine(repositoryPath, contentDirectoryName, this.sourceLanguageCode));
-        sourceLanguage.Files = await GetSourceFiles(repositoryPath, sourceLanguage).ConfigureAwait(false);
+        sourceLanguage.Files = await GetSourceFiles(repositoryPath, repositoryHeadTip, sourceLanguage).ConfigureAwait(false);
         return sourceLanguage;
     }
 
-    private static async Task<SourceFile[]> GetSourceFiles(string repositoryPath, SourceLanguage sourceLanguage)
+    private static async Task<SourceFile[]> GetSourceFiles(string repositoryPath, Commit repositoryHeadTip, SourceLanguage sourceLanguage)
     {
         string[] sourceFilePaths = Directory.GetFiles(sourceLanguage.DirectoryPath, "*.md", SearchOption.AllDirectories);
-
-        using Repository repository = new(repositoryPath);
-        Commit latestCommit = repository.Head.Tip;
 
         List<SourceFile> result = new(sourceFilePaths.Length);
         foreach (string sourceFilePath in sourceFilePaths)
         {
-            string? latestCommitFromGit = GetLatestCommitFromGit(repositoryPath, latestCommit, sourceFilePath);
+            string? latestCommitFromGit = GetLatestCommitFromGit(repositoryPath, repositoryHeadTip, sourceFilePath);
             if (latestCommitFromGit != null && !(await IsSourceFileExcluded(sourceFilePath).ConfigureAwait(false)))
             {
                 result.Add(new SourceFile(sourceLanguage, sourceFilePath, latestCommitFromGit));
@@ -114,12 +123,12 @@ public sealed partial class RepositoryTranslator
         return result.ToArray();
     }
 
-    private static string? GetLatestCommitFromGit(string repositoryPath, Commit latestCommit, string filePath)
+    private static string? GetLatestCommitFromGit(string repositoryPath, Commit repositoryHeadTip, string filePath)
     {
         string relativeFilePath = filePath.Replace(repositoryPath, string.Empty, StringComparison.OrdinalIgnoreCase)
             .Replace('\\', '/').TrimStart('/');
 
-        Commit commit = latestCommit;
+        Commit commit = repositoryHeadTip;
         GitObject? gitObject = commit[relativeFilePath]?.Target;
         if (gitObject == null)
         {
@@ -170,21 +179,39 @@ public sealed partial class RepositoryTranslator
     [GeneratedRegex(@"^ *noDeepL:", RegexOptions.CultureInvariant | RegexOptions.IgnoreCase | RegexOptions.Multiline)]
     private static partial Regex NoDeepLRegex();
 
-    private async Task<TargetLanguage[]> GetTargetLanguages(string repositoryPath, string contentDirectoryName, SourceLanguage sourceLanguage)
+    private async Task<TargetLanguage[]> GetTargetLanguages(string repositoryPath, Commit repositoryHeadTip, string contentDirectoryName, SourceLanguage sourceLanguage)
     {
         List<TargetLanguage> result = new(this.targetLanguageCodes.Length);
         foreach (string targetLanguageCode in this.targetLanguageCodes)
         {
             string directoryPath = Path.Combine(repositoryPath, contentDirectoryName, $"{targetLanguageCode}.generated");
-            string? glossaryID = this.options.GetGlossaryID(sourceLanguage.Code, targetLanguageCode)?.Trim().NullIfEmpty();
-            string cacheFilePath = Path.Combine(repositoryPath, ".translation-tool", glossaryID != null ?
-                $"{sourceLanguage.Code}-{targetLanguageCode}-{glossaryID}-cache.json" : $"{sourceLanguage.Code}-{targetLanguageCode}-cache.json");
-            TargetLanguage targetLanguage = new(sourceLanguage, targetLanguageCode, directoryPath, glossaryID, cacheFilePath);
+            (string? glossaryFilePath, string? glossaryLatestCommit) = FindGlossary(repositoryPath, repositoryHeadTip, sourceLanguage, targetLanguageCode);
+            string cacheFilePath = Path.Combine(repositoryPath, ".translation-tool", glossaryLatestCommit != null ?
+                $"{sourceLanguage.Code}-{targetLanguageCode}-{glossaryLatestCommit}-cache.json" : $"{sourceLanguage.Code}-{targetLanguageCode}-cache.json");
+            TargetLanguage targetLanguage = new(sourceLanguage, targetLanguageCode, directoryPath, glossaryFilePath, glossaryLatestCommit, cacheFilePath);
             targetLanguage.Files = await this.GetTargetFiles(sourceLanguage, targetLanguage).ConfigureAwait(false);
-            result.Add(targetLanguage);
+            if (targetLanguage.Files.Length > 0)
+            {
+                result.Add(targetLanguage);
+            }
         }
 
         return result.ToArray();
+    }
+
+    private static (string? glossaryFilePath, string? glossaryLatestCommit) FindGlossary(string repositoryPath, Commit repositoryHeadTip, SourceLanguage sourceLanguage, string targetLanguageCode)
+    {
+        string glossaryFilePath = Path.Combine(repositoryPath, "glossaries", $"{sourceLanguage.Code}-{targetLanguageCode}.csv");
+        if (File.Exists(glossaryFilePath))
+        {
+            string? glossaryLatestCommit = GetLatestCommitFromGit(repositoryPath, repositoryHeadTip, glossaryFilePath);
+            if (glossaryLatestCommit != null)
+            {
+                return (glossaryFilePath, glossaryLatestCommit);
+            }
+        }
+
+        return (null, null);
     }
 
     private async Task<TargetFile[]> GetTargetFiles(SourceLanguage sourceLanguage, TargetLanguage targetLanguage)
@@ -193,10 +220,16 @@ public sealed partial class RepositoryTranslator
         foreach (SourceFile sourceFile in sourceLanguage.Files)
         {
             string targetFilePath = sourceFile.FilePath.Replace(sourceFile.Language.DirectoryPath, targetLanguage.DirectoryPath, StringComparison.OrdinalIgnoreCase);
-            (string? latestCommitFromFileHeader, string? glossaryIDFromFileHeader) = await this.ReadTargetFileHeader(targetFilePath).ConfigureAwait(false);
+            if (this.options.Force)
+            {
+                result.Add(new TargetFile(sourceFile, targetLanguage, targetFilePath));
+                continue;
+            }
+
+            (string? latestCommitFromFileHeader, string? glossaryLatestCommitFromFileHeader) = await this.ReadTargetFileHeader(targetFilePath).ConfigureAwait(false);
             if (latestCommitFromFileHeader == null ||
                 !string.Equals(sourceFile.LatestCommit, latestCommitFromFileHeader, StringComparison.Ordinal) ||
-                this.options.Force && !string.Equals(targetLanguage.GlossaryID, glossaryIDFromFileHeader, StringComparison.OrdinalIgnoreCase))
+                !string.Equals(targetLanguage.GlossaryLatestCommit, glossaryLatestCommitFromFileHeader, StringComparison.OrdinalIgnoreCase))
             {
                 result.Add(new TargetFile(sourceFile, targetLanguage, targetFilePath));
             }
@@ -205,7 +238,7 @@ public sealed partial class RepositoryTranslator
         return result.ToArray();
     }
 
-    private async Task<(string? latestCommit, string? glossaryID)> ReadTargetFileHeader(string filePath)
+    private async Task<(string? latestCommit, string? glossaryLatestCommit)> ReadTargetFileHeader(string filePath)
     {
         if (!File.Exists(filePath))
         {
@@ -215,14 +248,14 @@ public sealed partial class RepositoryTranslator
         string content = await File.ReadAllTextAsync(filePath, this.targetEncoding).ConfigureAwait(false);
         Match latestCommitMatch = LatestCommitRegex().Match(content);
         string? latestCommit = latestCommitMatch.Success ? latestCommitMatch.Groups[1].Value : null;
-        Match glossaryIDMatch = GlossaryIDRegex().Match(content);
-        string? glossaryID = glossaryIDMatch.Success ? glossaryIDMatch.Groups[1].Value : null;
-        return (latestCommit, glossaryID);
+        Match glossaryLatestCommitMatch = GlossaryLatestCommitRegex().Match(content);
+        string? glossaryLatestCommit = glossaryLatestCommitMatch.Success ? glossaryLatestCommitMatch.Groups[1].Value : null;
+        return (latestCommit, glossaryLatestCommit);
     }
 
     [GeneratedRegex(@"^latestCommit: *(\S+)", RegexOptions.CultureInvariant | RegexOptions.Multiline)]
     private static partial Regex LatestCommitRegex();
 
-    [GeneratedRegex(@"^glossaryID: *(\S+)", RegexOptions.CultureInvariant | RegexOptions.Multiline)]
-    private static partial Regex GlossaryIDRegex();
+    [GeneratedRegex(@"^glossaryLatestCommit: *(\S+)", RegexOptions.CultureInvariant | RegexOptions.Multiline)]
+    private static partial Regex GlossaryLatestCommitRegex();
 }
