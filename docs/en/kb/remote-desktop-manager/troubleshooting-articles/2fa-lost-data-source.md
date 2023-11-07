@@ -20,6 +20,7 @@ Please refer to [2FA set and lost on {{ en.DA }} or ({{ en.DOD }})](/kb/remote-d
     * RemoteDesktopManager.enc  
 {% snippet icon.badgeInfo %}
 If the application was installed by default, you can locate the file:
-For the Team Edition: **%localappdata%\Devolutions\RemoteDesktopManager**
-For the Free Edition: **%localappdata%\Devolutions\RemoteDesktopManager\Free**
+
+For the Team Edition: **%localappdata%\Devolutions\RemoteDesktopManager**  
+For the Free Edition: **%localappdata%\Devolutions\RemoteDesktopManager\Free**  
 {% endsnippet %}
