@@ -4,7 +4,7 @@ using System.Text;
 using System.Text.Json;
 
 using DeepL;
-
+using DeepL.Model;
 using Markdig;
 
 internal sealed class LanguageTranslator
@@ -33,11 +33,11 @@ internal sealed class LanguageTranslator
         this.markdownPipeline = markdownPipeline ?? throw new ArgumentNullException(nameof(markdownPipeline));
         this.deeplTranslator = deeplTranslator ?? throw new ArgumentNullException(nameof(deeplTranslator));
         this.translatedFileCounter = translatedFileCounter ?? throw new ArgumentNullException(nameof(translatedFileCounter));
-        this.deeplTextTranslateOptions.GlossaryId = targetLanguage.GlossaryID;
     }
 
     public async Task Execute()
     {
+        await this.UploadGlossaryIfMissingAndSetGlossaryID().ConfigureAwait(false);
         Dictionary<string, string> completedTranslations = await this.LoadCache().ConfigureAwait(false);
         try
         {
@@ -56,6 +56,29 @@ internal sealed class LanguageTranslator
         finally
         {
             await this.SaveCache(completedTranslations).ConfigureAwait(false);
+        }
+    }
+
+    private async Task UploadGlossaryIfMissingAndSetGlossaryID()
+    {
+        if (this.targetLanguage.GlossaryLatestCommit == null)
+        {
+            return;
+        }
+
+        string name = $"{this.targetLanguage.SourceLanguage.Code}-{this.targetLanguage.Code}-{this.targetLanguage.GlossaryLatestCommit}";
+        GlossaryInfo? existingGlossary = (await this.deeplTranslator.ListGlossariesAsync().ConfigureAwait(false))
+            .FirstOrDefault(glossary => string.Equals(glossary.Name, name, StringComparison.OrdinalIgnoreCase));
+        if (existingGlossary != null)
+        {
+            this.deeplTextTranslateOptions.GlossaryId = existingGlossary.GlossaryId;
+        }
+
+        FileStream fileStream = File.OpenRead(this.targetLanguage.GlossaryFilePath!);
+        await using (fileStream.ConfigureAwait(false))
+        {
+            GlossaryInfo newGlossary = await this.deeplTranslator.CreateGlossaryFromCsvAsync(name, this.targetLanguage.SourceLanguage.Code, this.targetLanguage.Code, fileStream).ConfigureAwait(false);
+            this.deeplTextTranslateOptions.GlossaryId = newGlossary.GlossaryId;
         }
     }
 

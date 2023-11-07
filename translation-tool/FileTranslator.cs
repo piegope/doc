@@ -49,6 +49,7 @@ internal sealed partial class FileTranslator
         await this.ReadSourceFile().ConfigureAwait(false);
         this.FindSourceFileEOL();
         this.ExtractHeaderFromSourceFile();
+        this.ApplyHighLevelSubstitutions();
         await this.ParseSourceFile().ConfigureAwait(false);
         await this.Translate().ConfigureAwait(false);
         this.AssembleTargetFile();
@@ -78,8 +79,8 @@ internal sealed partial class FileTranslator
         this.translations = new Dictionary<string, DeeplTranslation>(TranslationsInitialCapacity, StringComparer.Ordinal);
         this.substitutions = new Dictionary<int, ISubstitution>(SubstitutionsInitialCapacity);
         string latestCommitHeaderLine = $"latestCommit: {this.targetFile.SourceFile.LatestCommit}{this.sourceFileEOL}";
-        string glossaryIDHeaderLine = this.targetFile.Language.GlossaryID != null ?
-            $"glossaryID: {this.targetFile.Language.GlossaryID}{this.sourceFileEOL}" : string.Empty;
+        string glossaryLatestCommitHeaderLine = this.targetFile.Language.GlossaryLatestCommit != null ?
+            $"glossaryLatestCommit: {this.targetFile.Language.GlossaryLatestCommit}{this.sourceFileEOL}" : string.Empty;
         Match headerMatch = GetHeaderRegex().Match(this.sourceFileContent);
         if (headerMatch.Success)
         {
@@ -90,86 +91,104 @@ internal sealed partial class FileTranslator
 
             string targetFileHeaderPart1 = TitleLineRegex().Replace(sourceFileHeaderPart1, this.ReplaceTitleLineRegex, 1);
             targetFileHeaderPart1 = DescriptionLineRegex().Replace(targetFileHeaderPart1, this.ReplaceDescriptionLineRegex, 1);
-            targetFileHeaderPart1 = KeywordsLinesRegex().Replace(targetFileHeaderPart1, this.ReplaceKeywordsLinesRegex, 1);
+            targetFileHeaderPart1 = KeywordLinesRegex().Replace(targetFileHeaderPart1, this.ReplaceKeywordLinesRegex, 1);
             targetFileHeaderPart1 = LatestCommitLineRegex().Replace(targetFileHeaderPart1, this.sourceFileEOL, 1);
-            targetFileHeaderPart1 = GlossaryIDRegex().Replace(targetFileHeaderPart1, this.sourceFileEOL, 1);
-            this.targetFileHeader = $"{targetFileHeaderPart1}{latestCommitHeaderLine}{glossaryIDHeaderLine}{sourceFileHeaderPart2}";
+            targetFileHeaderPart1 = GlossaryLatestCommitRegex().Replace(targetFileHeaderPart1, this.sourceFileEOL, 1);
+            this.targetFileHeader = $"{targetFileHeaderPart1}{latestCommitHeaderLine}{glossaryLatestCommitHeaderLine}{sourceFileHeaderPart2}";
         }
         else
         {
             this.sourceFileContentWithoutHeader = this.sourceFileContent;
-            this.targetFileHeader = $"---{this.sourceFileEOL}{latestCommitHeaderLine}{glossaryIDHeaderLine}---{this.sourceFileEOL}";
+            this.targetFileHeader = $"---{this.sourceFileEOL}{latestCommitHeaderLine}{glossaryLatestCommitHeaderLine}---{this.sourceFileEOL}";
         }
     }
 
-    [GeneratedRegex(@"^(---(?:\r?\n|\r).*?(?:\r?\n|\r))(---(?:\r?\n|\r)+)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    [GeneratedRegex(@"^(---(?:\r?\n|\r).*?(?:\r?\n|\r))(---(?:(?:\r?\n|\r)+|$))", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex GetHeaderRegex();
 
-    [GeneratedRegex(@"(?:\r?\n|\r) *title:([^\r\n]*)(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    [GeneratedRegex(@"(?:\r?\n|\r)( *title:)([^\r\n]*)(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex TitleLineRegex();
 
     private string ReplaceTitleLineRegex(Match match)
     {
-        string title = match.Groups[1].Value.Trim();
+        string title = match.Groups[2].Value.Trim();
         if (string.IsNullOrEmpty(title))
         {
             return this.sourceFileEOL;
         }
 
+        string label = match.Groups[1].Value;
         title = this.ProcessSourceFileText(title);
-        return $"{this.sourceFileEOL}title: {title}{this.sourceFileEOL}";
+        return $"{this.sourceFileEOL}{label} {title}{this.sourceFileEOL}";
     }
 
-    [GeneratedRegex(@"(?:\r?\n|\r) *description:([^\r\n]*)(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    [GeneratedRegex(@"(?:\r?\n|\r)( *description:)([^\r\n]*)(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex DescriptionLineRegex();
 
     private string ReplaceDescriptionLineRegex(Match match)
     {
-        string description = match.Groups[1].Value.Trim();
+        string description = match.Groups[2].Value.Trim();
         if (string.IsNullOrEmpty(description))
         {
             return this.sourceFileEOL;
         }
 
+        string label = match.Groups[1].Value;
         description = this.ProcessSourceFileText(description);
-        return $"{this.sourceFileEOL}description: {description}{this.sourceFileEOL}";
+        return $"{this.sourceFileEOL}{label} {description}{this.sourceFileEOL}";
     }
 
-    [GeneratedRegex(@"(?:\r?\n|\r) *keywords:[^\r\n]*(?:\r?\n|\r)(?: *-([^\r\n]*)(?:\r?\n|\r))*", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
-    private static partial Regex KeywordsLinesRegex();
+    [GeneratedRegex(@"(?:\r?\n|\r)( *keywords:)[^\r\n]*(?:\r?\n|\r)(?:( *-)([^\r\n]*)(?:\r?\n|\r))*", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    private static partial Regex KeywordLinesRegex();
 
-    private string ReplaceKeywordsLinesRegex(Match match)
+    private string ReplaceKeywordLinesRegex(Match match)
     {
-        CaptureCollection captures = match.Groups[1].Captures;
-        if (captures.Count == 0)
+        CaptureCollection keywordCaptures = match.Groups[3].Captures;
+        if (keywordCaptures.Count == 0)
         {
             return this.sourceFileEOL;
         }
 
         bool atLeastOneKeyword = false;
-        StringBuilder keywordsLinesBuilder = new(512);
-        keywordsLinesBuilder.Append($"{this.sourceFileEOL}keywords:{this.sourceFileEOL}");
-        foreach (Capture capture in (IEnumerable<Capture>)captures)
+        StringBuilder keywordLinesBuilder = new(512);
+        string label = match.Groups[1].Value;
+        CaptureCollection bulletCaptures = match.Groups[2].Captures;
+        keywordLinesBuilder.Append($"{this.sourceFileEOL}{label}{this.sourceFileEOL}");
+        for (int index = 0; index < keywordCaptures.Count; index++)
         {
-            string keyword = capture.Value.Trim();
+            string keyword = keywordCaptures[index].Value.Trim();
             if (string.IsNullOrEmpty(keyword))
             {
                 continue;
             }
 
+            string bullet = bulletCaptures[index].Value;
             keyword = this.ProcessSourceFileText(keyword);
-            keywordsLinesBuilder.Append($"- {keyword}{this.sourceFileEOL}");
+            keywordLinesBuilder.Append($"{bullet} {keyword}{this.sourceFileEOL}");
             atLeastOneKeyword = true;
         }
 
-        return atLeastOneKeyword ? keywordsLinesBuilder.ToString() : this.sourceFileEOL;
+        return atLeastOneKeyword ? keywordLinesBuilder.ToString() : this.sourceFileEOL;
     }
 
-    [GeneratedRegex(@"(?:\r?\n|\r) *latestCommit:[^\r\n]*(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    [GeneratedRegex(@"(?:\r?\n|\r)latestCommit:[^\r\n]*(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex LatestCommitLineRegex();
 
-    [GeneratedRegex(@"(?:\r?\n|\r) *glossaryID:[^\r\n]*(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
-    private static partial Regex GlossaryIDRegex();
+    [GeneratedRegex(@"(?:\r?\n|\r)glossaryLatestCommit:[^\r\n]*(?:\r?\n|\r)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    private static partial Regex GlossaryLatestCommitRegex();
+
+    private void ApplyHighLevelSubstitutions()
+    {
+        // Some Regex must be applied before parsing the Markdown
+        // Substitutions, if any, will not affect the upcoming parsing
+        this.sourceFileContentWithoutHeader = CodeBlockRegex().Replace(this.sourceFileContentWithoutHeader, this.ReplaceCodeBlock);
+    }
+
+    [GeneratedRegex(@"(?:^|\r?\n|\r)(`{3,})(?:\r?\n|\r).*?(?:\r?\n|\r)\1(?:\r?\n|\r|$)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    private static partial Regex CodeBlockRegex();
+
+    private string ReplaceCodeBlock(Match match) =>
+        this.AddTextSubstitution(this.ProcessSourceFileTextVariablesOnly(match.Value));
 
     private async Task ParseSourceFile()
     {
@@ -187,21 +206,38 @@ internal sealed partial class FileTranslator
         }
     }
 
-    private string ProcessSourceFileText(string sourceFileText)
+    private string ProcessSourceFileText(string? text)
     {
-        if (string.IsNullOrEmpty(sourceFileText))
+        if (string.IsNullOrEmpty(text))
         {
             return string.Empty;
         }
 
-        string text = sourceFileText;
+        text = InlineCodeRegex().Replace(text, this.ReplaceInlineCode);
         text = LinkRegex().Replace(text, this.ReplaceLink);
         text = EmphasisRegex().Replace(text, this.ReplaceEmphasis);
         text = SnippetRegex().Replace(text, this.ReplaceSnippet);
         text = VariableRegex().Replace(text, this.ReplaceVariable);
-
-        return this.QueueTranslation(text);
+        text = this.QueueTranslation(text);
+        return text;
     }
+
+    private string ProcessSourceFileTextVariablesOnly(string? text)
+    {
+        if (string.IsNullOrEmpty(text))
+        {
+            return string.Empty;
+        }
+
+        text = VariableRegex().Replace(text, this.ReplaceVariable);
+        return text;
+    }
+
+    [GeneratedRegex(@"(?<!`)(`+)(?:[^`\r\n][^\r\n]*?[^`\r\n]|[^`\r\n])\1(?!`)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
+    private static partial Regex InlineCodeRegex();
+
+    private string ReplaceInlineCode(Match match) =>
+        this.AddTextSubstitution(this.ProcessSourceFileTextVariablesOnly(match.Value));
 
     [GeneratedRegex(@"(!?\[ *)([^\r\n\]]*?)( *\]\([^\r\n\)]*\))", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex LinkRegex();
@@ -218,7 +254,7 @@ internal sealed partial class FileTranslator
         string part1 = this.AddTextSubstitution(match.Groups[1].Value);
         string part2 = this.ProcessSourceFileText(link);
         string part3 = this.AddTextSubstitution(match.Groups[3].Value);
-        return $"{part1}{part2}{part3}";
+        return this.AddTextSubstitution($"{part1}{part2}{part3}");
     }
 
     [GeneratedRegex(@"(\*\*\* *)([^\r\n\*]*?)( *\*\*\*)", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
@@ -229,19 +265,25 @@ internal sealed partial class FileTranslator
         string part1 = this.AddTextSubstitution(match.Groups[1].Value);
         string part2 = this.ProcessSourceFileText(match.Groups[2].Value);
         string part3 = this.AddTextSubstitution(match.Groups[3].Value);
-        return $"{part1}{part2}{part3}";
+        return this.AddTextSubstitution($"{part1}{part2}{part3}");
     }
 
     [GeneratedRegex(@"\{% *(?i:snippet|endsnippet)[^\r\n%]*%\}", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex SnippetRegex();
 
-    private string ReplaceSnippet(Match match) => this.AddTextSubstitution(match.Value);
+    private string ReplaceSnippet(Match match) =>
+        this.AddTextSubstitution(match.Value);
 
     [GeneratedRegex($@"(\{{\{{ *)(?i:{LanguageCode.English}|{LanguageCode.French}|{LanguageCode.German})(\.[^\r\n\}}]*\}}\}})", RegexOptions.CultureInvariant | RegexOptions.Singleline)]
     private static partial Regex VariableRegex();
 
-    private string ReplaceVariable(Match match) =>
-        this.AddTextSubstitution($"{match.Groups[1].Value}{this.targetFile.Language.Code}{match.Groups[2].Value}");
+    private string ReplaceVariable(Match match)
+    {
+        string part1 = match.Groups[1].Value;
+        string part2 = this.targetFile.Language.Code;
+        string part3 = match.Groups[2].Value;
+        return this.AddTextSubstitution($"{part1}{part2}{part3}");
+    }
 
     private string QueueTranslation(string text)
     {
@@ -279,7 +321,7 @@ internal sealed partial class FileTranslator
                 textToTranslate = ConsecutiveSubstitutionsRegex().Replace(textToTranslate, this.CombineConsecutiveSubstitutions);
 
                 // If the text to translate has substitutions, normalizing it (by changing indexes in ignore tags to 0, 1, 2, 3, etc.)
-                // drastically improves the likelihood of reusing that translation elsewhere
+                // will drastically improves the likelihood of reusing that translation elsewhere
                 List<int> substitutionIndexes = new();
                 string normalizedTextToTranslate = DeeplIgnoreTag.GetSubstitutionRegex().Replace(textToTranslate, match =>
                 {
