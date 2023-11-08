@@ -1,0 +1,35 @@
+{%- if item.url -%}
+  {%- assign url = item.url -%}
+
+  {%- if lang != "en" -%}
+    {%- capture url -%}/{{- lang -}}{{- item.url -}}{%- endcapture -%}
+  {%- endif -%}
+  {%- assign itemData = contents | where: "url", url | first -%}
+{%- endif -%}
+
+{%- if item.label -%}
+  {%- assign label = locale[lang].label[item.label] | if: locale[lang].label[item.label], item.label -%}
+{%- endif -%}
+
+<div class="nav-item-container">
+  <div class="nav-item-sub-container">
+    <a class="nav-item level-{{ index }} {{- page.url | startsWith: url | if: 'active' -}} {{ page.url == url | if: 'current' }}" href="{{ url }}" data-dwd-tab data-dwd-tab-group="{{- label | if: label, item.url -}}" data-dwd-tab-target="{{- label | if: label, item.url -}}">
+      {{- label | if: label, itemData.data.title -}}
+    </a>
+
+    {%- if item.items.size > 0 -%}
+      <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{- label | if: label, item.url -}}" data-dwd-tab-target="{{- label | if: label, item.url -}}">
+        {{- icons.expandMore -}}
+      </div>
+    {%- endif -%}
+  </div>
+
+  {%- if item.items.size > 0 -%}
+    <div class="nav-item-items" data-dwd-tab-group="{{- label | if: label, item.url -}}" data-dwd-tab-target="{{- label | if: label, item.url -}}">
+      {%- for subItem in item.items -%}
+        {%- assign subIndex = index | plus: 1 -%}
+        {%- render 'partials/sidebar-item', item: subItem, icons: icons, index: subIndex, contents: contents, lang: lang, locale: locale, page: page-%}
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+</div>

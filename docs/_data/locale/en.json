@@ -49,9 +49,16 @@
       "icon": "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-icon-shadow.svg",
       "logo": "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-color-shadow.svg",
       "url": "/cloud/getting-started/devolutions-cloud-services/",
-      "formattedName": "<b>Devolutions</b> Cloud Services"
+      "formattedName": "<b>Devolutions</b> Cloud Services",
+      "searchTags": [
+        { "label": "Cloud Services", "facet": "doc" }
+      ]
     }
   },
   "placeholderSearch": "What are you looking for?",
-  "labelFeedbackButton": "Feedback"
+  "labelFeedbackButton": "Feedback",
+  "label": {
+    "gettingStarted": "Getting started",
+    "supportResources": "Support/Resources"
+  }
 }

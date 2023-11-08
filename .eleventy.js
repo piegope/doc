@@ -2,6 +2,7 @@ const eleventyFilter = require('./utils/eleventy-filter');
 const eleventyNavigationTree = require('./utils/eleventy-navigation-tree');
 const eleventySass = require('./utils/eleventy-sass');
 const eleventyShortcodes = require('./utils/eleventy-shortcodes');
+const eleventyColections = require('./utils/eleventy-collections');
 const markdown = require('./utils/markdown');
 const algolia = require('./utils/algolia');
 
@@ -12,6 +13,7 @@ module.exports = function (config) {
   config.addPlugin(eleventyFilter);
   config.addPlugin(eleventyShortcodes);
   config.addPlugin(eleventyNavigationTree);
+  config.addPlugin(eleventyColections);
   config.setQuietMode(true);
 
   config.addPassthroughCopy({

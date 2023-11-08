@@ -1,0 +1,8 @@
+{
+  "layout": "layouts/markdown.liquid",
+  "permalink": "/test{{- page.filePathStem | docLink(slug) -}}/",
+  "eleventyComputed": {
+    "project": "{{- page.filePathStem | getProjectFromFilePathStem -}}",
+    "lang": "{{- page.filePathStem | getLangFromFilePathStem -}}"
+  }
+}

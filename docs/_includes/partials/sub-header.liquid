@@ -1,0 +1,59 @@
+{%- assign project = projects[project] -%}
+
+{%- if project -%}
+  <div class="dwd-sub-header-container">
+    <div class="dwd-sub-header">
+      <div class="dwd-sub-header-wrapper">
+        <div class="dwd-dropdown-menu">
+          <div class="dropdown">
+            {%- if project.logo -%}
+              <button class="dropbtn" data-dwd-modal data-dwd-modal-group="topics" data-dwd-modal-target="all">
+                <img src="{{ project.logo }}">
+                <span>{{- icons.arrowDownMedium -}}</span>
+              </button>
+            {%- endif -%}
+
+            <div class="dropdown-content" data-dwd-modal-group="topics" data-dwd-modal-target="all">
+              {%- for subProject in projects -%}
+                {%- if subProject[1].isTopic == true -%}
+                  <div class="topics-container">
+                    <a class="main-links" href="{{- subProject[1].url -}}">
+                      <img src="{{- subProject[1].logo -}}">
+                    </a>
+                    <div class="icon-container">
+                      {%- for iconProject in projects -%}
+                        {%- if iconProject[1].isTopic == false -%}
+                          {%- if iconProject[0] contains subProject[0] -%}
+                            {%- if iconProject[1].os != null -%}
+                              <a class="icons" href="{{- iconProject[1].url -}}">
+                                {{- icons[iconProject[1].os] -}}
+                              </a>
+                            {%- endif -%}
+                          {%- endif -%}
+                        {%- endif -%}
+                      {%- endfor -%}
+                    </div>
+                  </div>
+                {%- endif -%}
+              {%- endfor -%}
+            </div>
+          </div>
+        </div>
+
+        <div class="dwd-sub-header-center">
+          <div class="dwd-rdm-icons">
+            {%- for iconProject in projects -%}
+              {%- if iconProject[1].os != null and project.formattedName == "<b>Remote Desktop</b> Manager" -%}
+                <a class="sub-header-icons {{- project.os == iconProject[1].os | if :'active' -}}" href="{{- iconProject[1].url -}}">
+                  {{- icons[iconProject.os] -}}
+                </a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+
+          <div id="algolia-autocomplete" data-index="docs-{{- lang -}}" data-tags='{{- project.searchTags | json -}}' data-placeholder=""></div>
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endif -%}

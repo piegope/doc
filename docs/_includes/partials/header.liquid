@@ -1,0 +1,29 @@
+<div class="dwd-header-container">
+  <div class="dwd-header">
+    <div class="dwd-header-wrapper">
+      <div class="dwd-header-left">
+        <div class="burger-menu-logo" data-dwd-modal data-dwd-modal-group="mobile-menu" data-dwd-modal-target="all" >{{- icons.menu -}}</div>
+        <a class="dwd-header-item" href="https://devolutions.net{{- lang | localized -}}/" aria-label="Devolutions">
+          {{- icons.logoDevolutionsText -}}
+        </a>
+
+      </div>
+      <div class="dwd-header-right">
+        <div class="dwd-header-submenu-container">
+          <button class="dwd-header-item" aria-label="Open language selection" data-dwd-modal data-dwd-modal-target="Open language selection" data-dwd-modal-group="dwd-header">
+            {{- lang -}}
+          </button>
+          <div class="dwd-header-submenu" data-dwd-modal-target="Open language selection" data-dwd-modal-group="dwd-header">
+            {%- for item in locale -%}
+              {%- if item[0] != lang and page.url -%}
+                <a class="dwd-header-submenu-item" href="{{- page.url | localizedUrl: item[0], lang -}}">
+                  {{- item[0] -}}
+                </a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
