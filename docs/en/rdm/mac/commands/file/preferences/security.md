@@ -86,7 +86,7 @@ If you wish to use a different {{ en.DWS }} or Google Authenticator account than
 Require Duo authentication 
 		</td>
 		<td>
-Check this option to authenticate in your Remote Desktop Manager application using <b><i>Duo authentication</b></i>. Set it up using the Configure button below this option. Select the Duo automatic action by choosing None,Push, Phone or SMS.
+Check this option to authenticate in your Remote Desktop Manager application using <b><i>Duo authentication</b></i>. Set it up using the Configure button below this option. Select the <b><i>Duo automatic action</b></i> by choosing None, Push, Phone or SMS.
 		</td>
 	</tr>
 </table>
