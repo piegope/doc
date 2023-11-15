@@ -20,6 +20,7 @@ As part of a standard visit to a website using the HTTPS protocol, the certifica
 | Description                    | URL                                                                            | Related setting(s) / action |
 | ------------------------------ | ------------------------------------------------------------------------------ | ------------------------- |
 | RDM update check               | https<area>://devolutions.net                                                  | File – Options – Application Startup – Enable check for updates |
+| License validation             | https<area>://api.devolutions.com/license/generate                             | Administration – Licenses |
 | RDM update - package download  | https<area>://cdn.devolutions.net                                              | User action in the upgrade available dialog |
 | {{ en.DC }} - our online services        | https<area>://cloud.devolutions.net                                  | File – {{ en.DA }} |
 | {{ en.DA }} Login              | https<area>://login.devolutions.com                                            | File – {{ en.DA }} |
