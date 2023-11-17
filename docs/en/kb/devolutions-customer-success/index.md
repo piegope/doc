@@ -7,7 +7,7 @@ eleventyComputed:
   keywords:
   - Knowledge base
 ---
-![!!Devolutions Knowledge Base Logo](https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)
+![!!{{ en.DKB }} Logo](https://webdevolutions.blob.core.windows.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg)
 
 The Devolutions User Experience team is proud to publish this knowledge base for our community of over 800k users!
 
@@ -37,6 +37,6 @@ It is structured around our various products, as well as a few sub-categories.
 
 &nbsp; &nbsp;[{{ en.PS }}](/kb/devolutions-powershell/)
 
-&nbsp; &nbsp;[{{ en.DWL }}](/kb/devolutions-web-login/)
+&nbsp; &nbsp;[{{ en.WBEX }}](/kb/devolutions-web-login/)
 
-&nbsp; &nbsp;[{{ en.DWS }}](/kb/devolutions-workspace/)
+&nbsp; &nbsp;[{{ en.WAPPS }}](/kb/devolutions-workspace/)

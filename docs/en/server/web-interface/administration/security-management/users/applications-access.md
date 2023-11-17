@@ -26,10 +26,10 @@ Allow user to access {{ en.DVLS }} through {{ en.RDM }}.
 	<tr>
 		<td> 
 
-[{{ en.DWL }}](/server/dwl/overview/) 
+[{{ en.WBEX }}](/server/dwl/overview/) 
 		</td>
 		<td>
-Allow user to auto fill username and passwords on websites with {{ en.DWL }}. 
+Allow user to auto fill username and passwords on websites with the {{ en.WBEX }}. 
 		</td>
 	</tr>
 	<tr>
@@ -66,10 +66,10 @@ Allow user to connect through [{{ en.PS }} module](https://www.powershellgallery
 	</tr>
 	<tr>
 		<td>
-{{ en.DWS }} 
+{{ en.WS }} 
 		</td>
 		<td>
-Allow users to use the {{ en.DWSMOBILE }} application. 
+Allow users to use the {{ en.WMAPP }}. 
 		</td>
 	</tr>
 </table>
