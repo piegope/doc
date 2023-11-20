@@ -3,7 +3,6 @@
     "items": [
       {
         "label": "gettingStarted",
-        "url": "/cloud/getting-started/devolutions-cloud-services/",
         "items": [
           {
             "url": "/cloud/getting-started/devolutions-cloud-services/"
@@ -100,7 +99,6 @@
       },
       {
         "label": "supportResources",
-        "url": "/cloud/support-resources/knowledge-base/",
         "items": [
           {
             "url": "/cloud/support-resources/knowledge-base/"

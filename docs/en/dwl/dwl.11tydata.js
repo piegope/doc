@@ -5,6 +5,7 @@ module.exports = () => ({
     size: 1,
     alias: 'tree'
   },
+  templateEngineOverride: "njk,md",
   permalink: '{{ (page.filePathStem.replace("dwl/", tree + "/dwl/") if tree !== "dwl" else page.filePathStem) | localized }}/',
   trees: [
     'hub',

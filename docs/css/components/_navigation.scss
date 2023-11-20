@@ -90,11 +90,21 @@
           color: #ffffff;
         }
       }
-       
+
       & + .expand-more {
         svg {
           transform: rotate(0deg);
         }
+      }
+    }
+
+    &.current {
+      background-color: #0068c3;
+      color: #ffffff;
+
+      + .expand-more {
+        background-color: #0068c3;
+        color: #ffffff;
       }
     }
 
