@@ -1,0 +1,63 @@
+---
+layout: 'layouts/base.liquid'
+---
+{%- assign contents = collections.all | where: 'data.lang', lang -%}
+{%- assign productName = projects[project].formattedName -%}
+{%- capture feedbackBody -%}
+[Enter feedback here]
+
+
+ ---
+#### Document Details
+
+⚠ *Do not edit this section. It is required for docs.devolutions.net ➟ GitHub issue linking.*
+
+* Content: [{{- title -}}](https://docs.devolutions.net{{page.url}})
+* Content Source: [{{- page.filePathStem -}}.md](https://github.com/Devolutions/doc/tree/master/docs{{- page.filePathStem -}}.md)
+* Service: **{{ productName }}**
+{%- endcapture -%}
+
+<div class="dwd-doc-container">
+  {%- if sidebars[project] -%}
+    <nav class="navigation" data-dwd-modal-group="mobile-menu" data-dwd-modal-target="all">
+      {%- for group in sidebars[project] -%}
+        <div class="nav-group">
+          {%- if group.items.size > 0 -%}
+            {%- for item in group.items -%}
+              {%- render 'partials/sidebar-item', item: item, icons: icons, index: 1, contents: contents, lang: lang, locale: locale, page: page -%}
+            {%- endfor -%}
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </nav>
+  {%- endif -%}
+
+  <div class="markdown-container">
+    <div class="title">
+      <h1>{{- title -}}</h1>
+      <a href="{{ config.githubEdit }}{{ page.inputPath }}" target="_blank">
+        {{- icon['edit'] -}}
+      </a>
+    </div>
+
+    {{- content | toc: 'Index' -}}
+
+    <main class="markdown">
+      {{- content -}}
+
+      {%- comment -%} {%- assign productName = "" -%}
+      {%- for index, name in productNames -%}
+        {%- if tree == index -%}
+          {%- set productName = name -%}
+        {%- endif -%}
+      {%- endfor -%} {%- endcomment -%}
+
+      <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="https://github.com/Devolutions/doc/issues/new?title=&body={{- feedbackBody | encodeURIComponent -}}">
+        <span class="icon" aria-hidden="true">
+          {{- icons.github -}}
+        </span>
+        <span class="text">{{- locale[lang].labelFeedbackButton -}}</span>
+      </a>
+    </main>
+  </div>
+</div>
