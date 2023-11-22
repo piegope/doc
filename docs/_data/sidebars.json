@@ -115,9 +115,11 @@
   "_inputs": {
     "$": {
       "type": "object",
-      "entries": {
+      "options": {
         "subtype": "mutable",
-        "structures": "_structures.sidebarItem"
+        "entries": {
+          "structures": "_structures.sidebarItem"
+        }
       }
     },
     "items": {
