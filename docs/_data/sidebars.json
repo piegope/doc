@@ -112,14 +112,14 @@
       ]
     }
   ],
+  "kb": [
+
+  ],
   "_inputs": {
-    "$.[*]": {
+    "$": {
       "type": "object",
       "options": {
-        "subtype": "mutable",
-        "entries": {
-          "structures": "_structures.sidebarItem"
-        }
+        "structures": "_structures.sidebarGroup"
       }
     },
     "items": {
@@ -130,6 +130,17 @@
     }
   },
   "_structures": {
+    "style": "modal",
+    "sidebarGroup": {
+      "values": [
+        {
+          "value": {
+            "label": null,
+            "items": null
+          }
+        }
+      ]
+    },
     "sidebarItem": {
       "values": [
         {
