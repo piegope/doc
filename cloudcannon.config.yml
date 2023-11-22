@@ -1,0 +1,5 @@
+collections_config:
+  data:
+    path: _data
+
+collections_config_override: true
