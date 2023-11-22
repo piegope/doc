@@ -115,7 +115,7 @@
   "_inputs": {
     "$": {
       "type": "object",
-      "options": {
+      "entries": {
         "subtype": "mutable",
         "structures": "_structures.sidebarItem"
       }
