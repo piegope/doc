@@ -113,6 +113,13 @@
     }
   ],
   "_inputs": {
+    "$": {
+      "type": "object",
+      "options": {
+        "subtype": "mutable",
+        "structures": "_structures.sidebarItem"
+      }
+    },
     "items": {
       "type": "array",
       "options": {
