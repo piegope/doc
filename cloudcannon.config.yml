@@ -1,5 +1,10 @@
 collections_config:
   data:
     path: _data
+    schemas:
+      doc:
+        path: src/_schemas/data/doc.json
+        create:
+          path: [relative_path]/docs/{slug}.json
 
 collections_config_override: true

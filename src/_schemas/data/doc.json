@@ -1,27 +1,27 @@
 {
-  "cloud": [
-
-  ],
-  "kb": [
-
-  ],
+  "isTopic": "",
+  "icon": "",
+  "logo": "",
+  "url": "",
+  "formattedName": "",
+  "searchTags": [],
+  "sidebars": [],
   "_inputs": {
-    "$": {
-      "type": "object",
+    "sidebars": {
+      "type": "array",
       "options": {
-        "structures": "_structures.sidebarGroup"
+        "structures": "_structures.sidebarsGroup"
       }
     },
     "items": {
       "type": "array",
       "options": {
-        "structures": "_structures.sidebarItem"
+        "structures": "_structures.sidebarsItem"
       }
     }
   },
   "_structures": {
-    "style": "modal",
-    "sidebarGroup": {
+    "sidebarsGroup": {
       "values": [
         {
           "value": {
@@ -31,7 +31,7 @@
         }
       ]
     },
-    "sidebarItem": {
+    "sidebarsItem": {
       "values": [
         {
           "value": {
