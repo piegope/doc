@@ -6,28 +6,32 @@ collections_config:
         path: src/_schemas/data/doc.json
         create:
           path: '[relative_base_path]/{slug}.json'
+          _inputs:
+            sidebars:
+              type: array
+              options:
+                structures: _structures.sidebarsGroup
+            items:
+              type: array
+              options:
+                structures: _structures.sidebarsItem
+            items.url:
+              type: select
+              options:
+                values: collections.all
+                value_key: url
+          _structures:
+            sidebarsGroup:
+              values:
+                - value:
+                    label:
+                    items:
+            sidebarsItem:
+              values:
+                - value:
+                    label:
+                    url:
+                    items:
 
 collections_config_override: true
 
-_inputs:
-  sidebars:
-    type: array
-    options:
-      structures: _structures.sidebarsGroup
-  items:
-    type: array
-    options:
-      structures: _structures.sidebarsItem
-
-_structures:
-  sidebarsGroup:
-    values:
-      - value:
-          label:
-          items:
-  sidebarsItem:
-    values:
-      - value:
-          label:
-          url:
-          items:
