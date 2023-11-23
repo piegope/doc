@@ -5,42 +5,5 @@
   "url": "",
   "formattedName": "",
   "searchTags": [],
-  "sidebars": [],
-  "_inputs": {
-    "sidebars": {
-      "type": "array",
-      "options": {
-        "structures": "_structures.sidebarsGroup"
-      }
-    },
-    "items": {
-      "type": "array",
-      "options": {
-        "structures": "_structures.sidebarsItem"
-      }
-    }
-  },
-  "_structures": {
-    "sidebarsGroup": {
-      "values": [
-        {
-          "value": {
-            "label": null,
-            "items": null
-          }
-        }
-      ]
-    },
-    "sidebarsItem": {
-      "values": [
-        {
-          "value": {
-            "label": null,
-            "url": null,
-            "items": null
-          }
-        }
-      ]
-    }
-  }
+  "sidebars": []
 }
