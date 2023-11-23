@@ -15,7 +15,7 @@ collections_config:
               type: array
               options:
                 structures: _structures.sidebarsItem
-            items.url:
+            items[*].url:
               type: select
               options:
                 values: collections.all
