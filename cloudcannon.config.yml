@@ -5,7 +5,7 @@ collections_config:
       doc:
         path: src/_schemas/data/doc.json
         create:
-          path: '[full_slug].json'
+          path: '[relative_base_path]/{slug}.json'
 
 collections_config_override: true
 
