@@ -18,9 +18,9 @@ layout: 'layouts/base.liquid'
 {%- endcapture -%}
 
 <div class="dwd-doc-container">
-  {%- if sidebars[project] -%}
+  {%- if docs[project].sidebars -%}
     <nav class="navigation" data-dwd-modal-group="mobile-menu" data-dwd-modal-target="all">
-      {%- for group in sidebars[project] -%}
+      {%- for group in docs[project].sidebars -%}
         <div class="nav-group">
           {%- if group.items.size > 0 -%}
             {%- for item in group.items -%}
