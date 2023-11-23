@@ -9,9 +9,6 @@ collections_config:
 
 collections_config_override: true
 
-data_config:
-  all: true
-
 _inputs:
   sidebars:
     type: array
@@ -21,11 +18,6 @@ _inputs:
     type: array
     options:
       structures: _structures.sidebarsItem
-  items[*].url:
-    type: select
-    options:
-      values: collections.all
-      value_key: url
 
 _structures:
   sidebarsGroup:
