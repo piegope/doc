@@ -9,6 +9,9 @@ collections_config:
 
 collections_config_override: true
 
+data_config:
+  all: true
+
 _inputs:
   sidebars:
     type: array
