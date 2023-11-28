@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: '{{ en.CIS }}'
-  description: The {{ en.CIS }} offered through our Devolutions Customer Portal services replicates the configuration from a {{ en.RDM }} instance. 
+  description: The {{ en.CIS }} offered through our Devolutions Customer Portal services replicates the configuration from a {{ en.RDM }} instance.
 ---
 ![!!CustomInstallerServiceIcon](https://webdevolutions.blob.core.windows.net/images/projects/custom-installer/logos/custom-installer-white-shadow.svg) 
  
@@ -12,20 +12,15 @@ eleventyComputed:
 The {{ en.CIS }} offered through our Devolutions Customer Portal services replicates the configuration from a {{ en.RDM }} instance. This configuration is used to create an installer file (*.rdi), which will be used to create the installation package intended for distribution. The configuration can contain data sources, credentials, database templates, and more. It is best practice to have a {{ en.RDM }} installation used specifically to create the installation package.  
 
 {% snippet icon.shieldWarning %} 
-The {{ en.CIS }} uploads a configuration file to our online services. You should not use the service to redistribute passwords for data sources. 
-{% endsnippet %}
- 
-{% snippet icon.badgeInfo %}
 The ***No Internet connection*** option in {{ en.RDM }} (***File*** – ***Option*** – ***Tools*** – ***Advanced***) must be disabled for {{ en.CI }} to work.
-{% endsnippet %} 
+{% endsnippet %}
 
-{% snippet icon.badgeInfo %} 
-You must create an installer file using {{ en.RDM }} before creating the installer on the Web portal. This is described in [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
-{% endsnippet %}
+{% snippet icon.shieldInfo %} 
+The {{ en.CIS }} uploads a configuration file to our online services. You should not use the service to redistribute passwords for data sources. 
+
+You **must create an installer file** using {{ en.RDM }} before creating the installer on the Web portal. This is described in [Installer File Generator](/rdm/windows/installation/client/custom-installer-service/installer-file-generator/). 
  
-{% snippet icon.badgeInfo %} 
 You can store and create up to six ***{{ en.CI }}*** configuration file packages in your {{ en.DA }}. 
-{% endsnippet %}
  
 The {{ en.CIS }} can be found in with the {{ en.DA }} tools, located in ***File – {{ en.DA }} – Tools***. You must be signed in to access it.  
 ![File – {{ en.DA }} – Tools](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip11245.png) 
