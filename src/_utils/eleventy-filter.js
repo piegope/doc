@@ -1,5 +1,6 @@
 const inspect = require('util').inspect;
-const { toc } = require('../docs/_filters/toc');
+const Terser = require('terser');
+const { toc } = require('./filters/toc');
 
 module.exports = (config) => {
   config.addLiquidFilter('if', (condition, trueOutput, falseOutput = '') => condition ? trueOutput : falseOutput);
@@ -127,5 +128,16 @@ module.exports = (config) => {
         }
       }
       return `${encodeURI(string)}${urlParams}`;
+  });
+
+  config.addNunjucksAsyncFilter('jsmin', async function(code, callback) {
+    try {
+      let result = await Terser.minify(code, { sourceMap: true });
+      callback(null, result.code);
+    } catch(e) {
+      console.log('Terser error: ', e);
+    }
+
+    callback(null, code);
   });
 }

@@ -8,7 +8,7 @@ const sidebarActive = {
 
       if (activeNode) {
         activeNode.classList.add('current');
-        currentEl = activeNode;
+        const currentEl = activeNode;
 
         while (activeNode && !activeNode.parentElement.hasAttribute('data-page')) {
           activeNode = activeNode.parentElement;
