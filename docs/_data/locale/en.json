@@ -55,7 +55,7 @@
       ]
     }
   },
-  "placeholderSearch": "What are you looking for?",
+  "placeholderSearch": "What can we help you with?",
   "labelFeedbackButton": "Feedback",
   "label": {
     "configureAnSMTPServer": "Configure an SMTP server",

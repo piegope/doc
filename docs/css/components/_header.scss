@@ -23,7 +23,7 @@
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1600px;
+    max-width: 1920px;
     width: 100%;
   }
 
@@ -39,15 +39,15 @@
     }
     .burger-menu-logo {
       display: flex;
-      align-items: center; 
+      align-items: center;
       cursor: pointer;
-      margin-right: 10px; 
+      margin-right: 10px;
       color: rgba(255,255,255,.8);
       &:hover {
-        color: white; 
+        color: white;
       }
       @media (min-width: 1200px) {
-        display: none; 
+        display: none;
       }
     }
   }
@@ -380,5 +380,5 @@
     z-index: 999;
   }
 
- 
+
 }

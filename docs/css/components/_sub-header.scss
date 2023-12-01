@@ -9,7 +9,7 @@
   background-color: #f9f9f9;
   display: flex;
   height: var(--header-height);
-  padding: 0 20px;
+  padding: 0;
   position: fixed;
   top: var(--header-height);
   width: 100%;
@@ -20,16 +20,16 @@
     column-gap: 24px;
     display: grid;
     grid-template-areas: "left center right";
-    grid-auto-columns: minmax(300px, 300px) minmax(0px, auto) minmax(300px, 300px);
+    grid-auto-columns: minmax(328px, 328px) minmax(0px, auto) minmax(328px, 328px);
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1600px;
+    max-width: 1920px;
     width: 100%;
 
     @media (max-width: 1199px) {
       grid-template-areas: "left center";
-      grid-auto-columns: minmax(300px, 300px) minmax(0px, auto);
+      grid-auto-columns: minmax(328px, 328px) minmax(0px, auto);
     }
 
     .dwd-dropdown-menu {
@@ -49,7 +49,7 @@
           outline: none;
           background-color: transparent;
           padding: 12px 15px;
-          align-items: center; 
+          align-items: center;
           justify-content: space-between;
           width: 100%;
           cursor: pointer;
@@ -67,7 +67,7 @@
 
         .dropdown-content.active {
           display: flex;
-          flex-direction: column; 
+          flex-direction: column;
         }
       }
       .dropdown-content {
@@ -75,7 +75,7 @@
         position: absolute;
         background-color: white;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        width: 300px;
+        width: 328px;
 
         .topics-container {
           display: flex;
@@ -90,22 +90,22 @@
           float: none;
           color: black;
           padding: 12px 15px;
-          text-decoration: none; 
+          text-decoration: none;
           display: flex;
-          text-align: left; 
+          text-align: left;
           width: 100%;
-          
-        
-         
+
+
+
         }
         .icon-container {
           display: flex;
-          align-items: center; 
-          justify-content: center; 
-          
-          
+          align-items: center;
+          justify-content: center;
+
+
           a.icons {
-          
+
             padding: 0 10px;
 
             &:hover {
@@ -128,12 +128,12 @@
 
   .dwd-sub-header-center {
     display: flex;
-    align-items: center; 
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    max-width: 720px;
+    max-width: 1076px;
     width: 100%;
-    
+
 
     @media (max-width: 1199px) {
       max-width: none;
@@ -141,7 +141,7 @@
     .dwd-rdm-icons {
       flex-shrink: 0;
       .sub-header-icons {
-        padding: 5px; 
+        padding: 5px;
         svg {
           fill: #000;
 
@@ -154,13 +154,13 @@
       }
     }
     #algolia-autocomplete {
-     
+
       margin-left: auto;
-      width: 300px; 
+      width: 300px;
       max-width: 300px;
     }
   }
 
-  
- 
+
+
 }

@@ -1,4 +1,4 @@
-const eleventyFilter = require('./utils/eleventy-filter');
+const eleventyFilter = require('./src/_utils/eleventy-filter');
 const eleventyNavigationTree = require('./utils/eleventy-navigation-tree');
 const eleventySass = require('./utils/eleventy-sass');
 const eleventyShortcodes = require('./utils/eleventy-shortcodes');

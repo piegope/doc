@@ -7,15 +7,18 @@
     "serve": "npx @11ty/eleventy --serve --incremental"
   },
   "author": "Devolutions Team",
-  "devDependencies": {
+  "dependencies": {
     "@11ty/eleventy": "2.0.0",
     "@11ty/eleventy-fetch": "4.0.0",
     "algoliasearch": "^4.14.3",
-    "dotenv": "^16.0.3",
     "highlight.js": "11.7.0",
     "markdown-it": "13.0.1",
     "markdown-it-anchor": "8.6.7",
     "markdown-it-attrs": "4.1.6",
-    "sass": "1.58.2"
+    "sass": "1.58.2",
+    "terser": "^5.24.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
   }
 }
