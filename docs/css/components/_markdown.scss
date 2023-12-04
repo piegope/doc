@@ -26,23 +26,6 @@
       font-size: 30px;
       line-height: 1.2;
     }
-
-    a {
-      align-items: center;
-      color: var(--background-text);
-      display: inline-flex;
-      margin-top: 0;
-      margin-left: auto;
-
-      &:hover {
-        color: var(--primary);
-      }
-
-      svg {
-        height: 18px;
-        width: 18px;
-      }
-    }
   }
 }
 

@@ -2,7 +2,7 @@ const headingRe = /<(h[23])(|\s.*?)>([\s\S]*?)<\/h[23]>/gm;
 const idRe = /\bid="(.+?)"/;
 
 const renderEl = el => {
-  const title = `<a href="#${el.id}">${el.title}</a>`;
+  const title = `<a class="dwd-toc__item ${el.hType === 'h3' ? 'dwd-toc__item--level-2' : 'dwd-toc__item--level-1'}" href="#${el.id}">${el.title}</a>`;
 
   const children = el?.children?.length ? renderListEl(el.children) : '';
 
@@ -36,10 +36,10 @@ const toc = (raw, tocName) => {
     const id = idMatch ? idMatch[1] : undefined;
 
     if (hType === 'h2') {
-      current = { title: contents, id, children: [] };
+      current = { title: contents, id, hType, children: [] };
       tableOfContents.push(current);
     } else if (hType === 'h3') {
-      current?.children?.push({ title: contents, id });
+      current?.children?.push({ title: contents, id, hType });
     }
   }
 
@@ -47,7 +47,7 @@ const toc = (raw, tocName) => {
     return '';
   }
 
-  return `<div class="dwd-toc-container"><div class="dwd-toc"><span>${tocName}</span>${renderListEl(tableOfContents)}</div></div>`;
+  return `<span class="dwd-toc__title">${tocName}</span>${renderListEl(tableOfContents)}`;
 };
 
 module.exports = {toc};

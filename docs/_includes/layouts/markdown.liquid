@@ -28,12 +28,33 @@ layout: 'layouts/base.liquid'
   <div class="markdown-container">
     <div class="title">
       <h1>{{- title -}}</h1>
-      <a href="{{ config.githubEdit }}{{ page.inputPath }}" target="_blank">
-        {{- icon['edit'] -}}
-      </a>
     </div>
 
-    {{- content | toc: 'Index' -}}
+    <div class="dwd-toc__container">
+      <div class="dwd-toc">
+        <div class="dwd-toc__group">
+          {{- content | toc: 'On this page' -}}
+        </div>
+
+        <div class="dwd-toc__group">
+          <span class="dwd-toc__title">Contribute</span>
+          <ul>
+            <li>
+              <a class="dwd-toc__item" href="{{ config.githubEdit }}contribute/how-to-contribute.md" target="_blank">
+                {{ icons.book }}
+                Contributor Guides
+              </a>
+            </li>
+            <li>
+              <a class="dwd-toc__item" href="{{ config.githubEdit }}{{ page.inputPath }}" target="_blank">
+                {{ icons.github }}
+                Edit this page
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <main class="markdown">
       {{- content -}}
