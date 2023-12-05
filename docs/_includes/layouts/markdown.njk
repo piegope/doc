@@ -62,26 +62,46 @@ eleventyImport:
   <div class="markdown-container">
     <div class="title">
       <h1>{{- title -}}</h1>
-      <a href="{{ config.githubEdit }}{{ page.inputPath }}" target="_blank">
-        {{ icon['edit'] | safe }}
-      </a>
     </div>
 
-    {{- content | toc('Index') | safe -}}
+    <div class="dwd-toc__container">
+      <div class="dwd-toc">
+        <div class="dwd-toc__group">
+          {{- content | toc('On this page') | safe -}}
+        </div>
+
+        <div class="dwd-toc__group">
+          <span class="dwd-toc__title">Contribute</span>
+          <ul>
+            <li>
+              <a class="dwd-toc__item" href="{{ config.githubEdit }}contribute/how-to-contribute.md" target="_blank">
+                {{ icons.book | safe }}
+                Contributor Guides
+              </a>
+            </li>
+            <li>
+              <a class="dwd-toc__item" href="{{ config.githubEdit }}{{ page.inputPath }}" target="_blank">
+                {{ icons.github | safe }}
+                Edit this page
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <main class="markdown">
-
       {{- content | safe -}}
-    
+
       {% set productName = "" %}
       {% for index, name in productNames %}
         {% if tree == index %}
           {% set productName = name %}
         {% endif %}
       {% endfor %}
-     
-       <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="{{ "https://github.com/Devolutions/doc/issues/new?" | encodeURIFilter({ title: "", body: ["\n\n[Enter feedback here]\n\n\n---\n#### Document Details\n\n⚠ *Do not edit this section. It is required for docs.devolutions.net ➟ GitHub issue linking.*\n\n* Content: [", title, "](https://docs.devolutions.net", page.url, ")\n* Content Source: [", page.filePathStem, ".md](https://github.com/Devolutions/doc/tree/master/docs", page.filePathStem, ".md)\n* Service: **", productName, "**" ] | join }) }}"> 
-      
+
+       <a class="button feedback-type-product github-link" aria-label="Send feedback about this page" data-bi-name="create-issue-on-github" href="{{ "https://github.com/Devolutions/doc/issues/new?" | encodeURIFilter({ title: "", body: ["\n\n[Enter feedback here]\n\n\n---\n#### Document Details\n\n⚠ *Do not edit this section. It is required for docs.devolutions.net ➟ GitHub issue linking.*\n\n* Content: [", title, "](https://docs.devolutions.net", page.url, ")\n* Content Source: [", page.filePathStem, ".md](https://github.com/Devolutions/doc/tree/master/docs", page.filePathStem, ".md)\n* Service: **", productName, "**" ] | join }) }}">
+
 				<span class="icon" aria-hidden="true">
 					{{ icons.github | safe }}
 				</span>
