@@ -31,3 +31,6 @@ It is possible to disconnect the old machine from your domain and rename the new
 {% snippet icon.badgeInfo %}
 If you plan to migrate the SQL database on a new server, this could be completed once the {{ en.DVLS }} migration is completed. Once done, update the database configuration from the {{ en.DVLSCONSOLE }}.
 {% endsnippet %}
+{% snippet icon.badgeInfo %}
+If you plan to move the {{ en.DVLS }} to a new identity provider you can also use the [Authentication Migration Tool](https://docs.devolutions.net/kb/devolutions-server/how-to-articles/authentication-migration/) to migrate you users and user groups to the new identity provider.
+{% endsnippet %}
