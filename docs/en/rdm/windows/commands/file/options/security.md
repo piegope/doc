@@ -3,11 +3,10 @@ eleventyComputed:
   title: Security
   description: Use File – Options – Security to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.
 ---
-Use ***File – Options – Security*** to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.  
-![File – Options – Security](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2152.png)
+Use ***File – Options – Security*** to configure security settings related to local application security, multi-factor authentication, locking, offline security, certificate security, and more.
+![File – Options – Security](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2152.png) 
 
 ## Settings
-
 ### Application Security (Local)
 | OPTION                                       | DESCRIPTION |
 |----------------------------------------------|-------------|
@@ -43,13 +42,15 @@ Use ***File – Options – Security*** to configure security settings related t
 | New password / Confirm password | This is only available with enhanced offline security. Enter an offline password in the **New password** field, then enter it again in the **Confirm password** field. |
 | Prompt for offline access       | This is only available with enhanced offline security. If enabled, {{ en.RDM }} will ask if you want to access the application offline on startup. |
 
-### Certificate Security
-| OPTION                                | DESCRIPTION |
-|---------------------------------------|-------------|
+### Certificate Security 
+
+| OPTION                      | DESCRIPTION                                                                                     |
+|-----------------------------|-------------------------------------------------------------------------------------------------|
 | Ignore application certificate errors | Check this option to disable the application certificate validation. This is not recommended, as it would compromise confidentiality and integrity of communications between the client and the server and could expose the application to potential threats. |
-| Enforce certificate revocation check  | Check this option to enable the validation that the certificate has not been revoked. This is necessary if any of the URLs for certificate validation are unavailable for any reason. |
+| Enforce certificate revocation check | Check this option to enable the validation that the certificate has not been revoked. This is necessary if any of the URLs for certificate validation are unavailable for any reason.                                      |
 
 ### Other
+
 | OPTION                                   | DESCRIPTION                                                            |
 |------------------------------------------|------------------------------------------------------------------------|
 | Enable secure desktop                    | If enabled, secure desktop opens password dialogs on another desktop to add an extra level of security and prevent keyloggers from logging what you write. |
