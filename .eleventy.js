@@ -22,7 +22,7 @@ module.exports = function (config) {
 
   config.amendLibrary('md', markdown);
 
-  config.addJavaScriptFunction('algoliaInitIndex', function(name, data, settings) {
+  config.addJavaScriptFunction('algoliaInitIndex', async function(name, data, settings) {
     if (process.env.ALGOLIA_ADMIN_KEY && process.env.ALGOLIA_APP_ID) {
       const client = algoliaSearch(process.env.ALGOLIA_APP_ID, process.env.ALGOLIA_ADMIN_KEY);
 
@@ -32,9 +32,15 @@ module.exports = function (config) {
         index.setSettings(settings).then();
       }
 
-      index.replaceAllObjects(data, {
-        autoGenerateObjectIDIfNotExist: true
-      });
+      await index.clearObjects().then();
+
+      const batchSize = 1000;
+      for (let i = 0; i < data.length; i += batchSize) {
+        const batch = data.slice(i, i + batchSize);
+        await index.saveObjects(batch, {
+          autoGenerateObjectIDIfNotExist: true
+        });
+      }
     }
   });
 

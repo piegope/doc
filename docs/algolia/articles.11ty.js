@@ -16,7 +16,7 @@ module.exports = {
       permalink: false
     }
   },
-  render(data) {
+  async render(data) {
     for (l in locales) {
       let articles = []
 
@@ -114,7 +114,7 @@ module.exports = {
           articles = articles.concat(objects);
         });
 
-      this.algoliaInitIndex(`docs-${locales[l]}`, articles, algoliaSettings);
+      await this.algoliaInitIndex(`docs-${locales[l]}`, articles, algoliaSettings);
     }
   }
 }
