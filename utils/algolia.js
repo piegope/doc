@@ -59,12 +59,12 @@ module.exports = function (results) {
             os = "";
             break;
         }
-        if (!result.content.includes("<main class=\"markdown\"></main>")) {  
-        
+        if (!result.content.includes("<main class=\"markdown\"></main>")) {
+
           for (;;) {
             const headingContentMatch = headingContentRe.exec(result.content.replace(/\r?\n|\r/g, ""));
             let content;
-            
+
             if (!headingContentMatch) {
               break;
             }
@@ -86,7 +86,7 @@ module.exports = function (results) {
               if (content.length > 512) {
                 content = `${content.substring(0, 509)}...`
               }
-            } 
+            }
 
             const found = objects.find(o => o.title === title && o.url === url && !o.content);
 
