@@ -4,7 +4,7 @@ const eleventySass = require('./utils/eleventy-sass');
 const eleventyShortcodes = require('./utils/eleventy-shortcodes');
 const eleventyColections = require('./utils/eleventy-collections');
 const markdown = require('./utils/markdown');
-// const algolia = require('./utils/algolia');
+const algoliaSearch = require('algoliasearch');
 
 require('dotenv').config();
 
@@ -22,9 +22,27 @@ module.exports = function (config) {
 
   config.amendLibrary('md', markdown);
 
-  // config.on('eleventy.after', async ({ results }) => {
-  //   algolia(results);
-  // });
+  config.addJavaScriptFunction('algoliaInitIndex', async function(name, data, settings) {
+    if (process.env.ALGOLIA_ADMIN_KEY && process.env.ALGOLIA_APP_ID) {
+      const client = algoliaSearch(process.env.ALGOLIA_APP_ID, process.env.ALGOLIA_ADMIN_KEY);
+
+      const index = client.initIndex(name);
+
+      if (settings) {
+        index.setSettings(settings).then();
+      }
+
+      await index.clearObjects().then();
+
+      const batchSize = 1000;
+      for (let i = 0; i < data.length; i += batchSize) {
+        const batch = data.slice(i, i + batchSize);
+        await index.saveObjects(batch, {
+          autoGenerateObjectIDIfNotExist: true
+        });
+      }
+    }
+  });
 
   return {
     markdownTemplateEngine: 'njk',
