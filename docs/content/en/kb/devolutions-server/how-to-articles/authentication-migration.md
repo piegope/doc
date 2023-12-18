@@ -3,10 +3,14 @@ eleventyComputed:
   title: Authentication migration tool
   status: Topic available in German language
 ---
-These instructions explain how to migrate the user accounts and user groups from one authentication provider to another. Or to migrate the Active Directory or Azure Active Directory domain to another one. The tool can be found in three locations on the web interface of your {{ en.DVLS }} instance:
+These instructions explain how to migrate the user accounts and user groups from one authentication provider to another. The tool can be found in three locations on the web interface of your {{ en.DVLS }} instance:
 * ***Administration*** – ***Server Settings*** – ***Authentication***
 * ***Administration*** – ***Users***
 * ***Administration*** – ***User Groups***
+
+{% snippet icon.badgeInfo %}
+To migrate users and user groups to the same Identity provider (for example: Active Directory to another Active Directory), the information under ***Administration*** – ***Server Settings*** – ***Authentication*** must be changed to the new domain before using the Authentication Migration Tool.
+{% endsnippet %}
 
 ## Migration
 1. As mentioned in the ***Introduction***, important operations are required before going through this process. Click ***Next***.
