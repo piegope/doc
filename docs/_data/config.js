@@ -1,3 +1,3 @@
 module.exports = {
-  githubEdit: 'https://github.com/Devolutions/doc/blob/master/'
+  githubEdit: 'https://github.com/Devolutions/doc/edit/master/'
 }

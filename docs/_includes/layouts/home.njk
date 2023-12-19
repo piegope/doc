@@ -18,7 +18,7 @@ layout: 'layouts/base.njk'
     <nav class="grid-list">
       {%- for card in cards -%}
         <{{ "div" if card.links else "a href=" + locale[lang].projects[card.name].url }}>
-          {%- if card.links -%}
+          {%- if locale[lang].projects[card.name].url -%}
             <a href="{{ locale[lang].projects[card.name].url }}">
           {%- endif -%}
 
@@ -31,8 +31,11 @@ layout: 'layouts/base.njk'
             </div>
           {%- endif -%}
 
-          {%- if card.links -%}
+          {%- if locale[lang].projects[card.name].url -%}
             </a>
+          {%- endif -%}
+
+          {%- if card.links -%}
             <nav>
               {%- for link in card.links -%}
                 <a href="{{ link.url }}">
