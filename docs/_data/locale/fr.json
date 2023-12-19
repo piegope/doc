@@ -23,6 +23,12 @@
       "formattedName": "<b>Remote Desktop</b> Manager",
       "os": "apple"
     },
+    "gateway": {
+      "isTopic": false,
+      "icon": "https://webdevolutions.azureedge.net/images/projects/gateway/logos/gateway-icon-shadow.svg",
+      "logo": "https://webdevolutions.azureedge.net/images/projects/gateway/logos/gateway-color-shadow.svg",
+      "formattedName": "<b>Devolutions</b> Gateway"
+    },
     "kb": {
       "isTopic": true,
       "icon": "https://webdevolutions.azureedge.net/images/projects/base-de-connaissances/logos/base-de-connaissances-icon-shadow.svg",
