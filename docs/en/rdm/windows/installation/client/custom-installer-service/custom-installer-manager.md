@@ -7,11 +7,6 @@ eleventyComputed:
 For stability reasons, in large installation bases, the latest official release is not available to the {{ en.CIS }} for an undetermined period while we ensure that no major issues are present. We recommend using this time with your organization to perform integration tests on a few workstations before upgrading your entire team. 
 {% endsnippet %}
 
-{% snippet icon.badgeInfo %} 
-Ensure that you have read and understood the content of [{{ en.CIS }}](/rdm/windows/installation/client/custom-installer-service/) prior to subscribing to the service.  
-
-You can store and create up to six ***{{ en.CI }}*** configuration file packages in your {{ en.DA }}.  
-
 The ***No Internet connection*** option in {{ en.RDM }} (***File*** – ***Option*** – ***Tools*** – ***Advanced***) must be disabled for the {{ en.CI }} to work.
 {% endsnippet %}
 
