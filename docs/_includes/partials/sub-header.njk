@@ -16,11 +16,11 @@
                 <a class="main-links" href="{{ subProject.url }}"><img src="{{ subProject.logo }}">
                 </a>
                 <div class="icon-container">
-                
+
                   {% for iconKey, iconProject in locale[lang].projects %}
                     {% if iconProject.isTopic == false %}
                       {% if subKey in iconKey %}
-                        
+
                        {% if iconProject.os != null %} <a class="icons" href="{{ iconProject.url }}">{{ icons[iconProject.os] | safe }}</a>
 
                         {% endif %}
@@ -28,29 +28,24 @@
                     {% endif %}
                   {% endfor %}
                 </div>
-               </div> 
+               </div>
               {% endif %}
             {% endfor %}
           </div>
         </div>
-        
+
       </div>
-      
+
       <div class="dwd-sub-header-center">
-      <div class="dwd-rdm-icons">
-        {% for iconKey, iconProject in locale[lang].projects %}
- 
-          {% if iconProject.os != null and project.formattedName == "<b>Remote Desktop</b> Manager" %} <a class="sub-header-icons {{ 'active' if project.os == iconProject.os }}" href="{{ iconProject.url }}">{{ icons[iconProject.os] | safe }}</a>{% endif %}
-        {% endfor %}
-      </div>
-        <div id="algolia-autocomplete"
-              data-index="docs-{{ lang }}"
-              data-tags='{{ searchTags | dump }}'
-              data-placeholder=""></div>
+        <div class="dwd-rdm-icons">
+          {% for iconKey, iconProject in locale[lang].projects %}
+
+            {% if iconProject.os != null and project.formattedName == "<b>Remote Desktop</b> Manager" %} <a class="sub-header-icons {{ 'active' if project.os == iconProject.os }}" href="{{ iconProject.url }}">{{ icons[iconProject.os] | safe }}</a>{% endif %}
+          {% endfor %}
         </div>
-      </div>
+        </div>
     </div>
   </div>
 
-  
+
 {% endif %}

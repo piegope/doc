@@ -1,10 +1,14 @@
 ---
 layout: 'layouts/base.njk'
+hideSearch: true
 ---
 <div class="dwd-header-media">
   <div class="dwd-header-media-content">
     <div class="web-site-width">
-      <div id="algolia-autocomplete" data-index="docs-{{ lang }}" data-placeholder="{{ locale[lang].placeholderSearch }}"></div>
+      <button class="dwd-search-button">
+        {{ icons.search | safe }}
+        {{ locale[lang].placeholderSearchHome }}
+      </button>
     </div>
   </div>
   <div class="dwd-photo-parallax bg-support"></div>

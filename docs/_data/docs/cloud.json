@@ -5,12 +5,6 @@
   "logo": "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-color-shadow.svg",
   "url": "/cloud/getting-started/devolutions-cloud-services/",
   "formattedName": "<b>Devolutions</b> Cloud Services",
-  "searchTags": [
-    {
-      "label": "Cloud Services",
-      "facet": "doc"
-    }
-  ],
   "sidebars": [
     {
       "items": [

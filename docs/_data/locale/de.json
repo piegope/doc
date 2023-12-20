@@ -52,6 +52,7 @@
       "formattedName": "<b>Devolutions</b> Cloud Services"
     }
   },
-  "placeholderSearch": "Wie können wir helfen?",
+  "placeholderSearch": "Search all Resources",
+  "placeholderSearchHome": "Wie können wir helfen?",
   "labelFeedbackButton": "Feedback"
 }

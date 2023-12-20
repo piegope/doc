@@ -58,7 +58,8 @@
       "formattedName": "Services en ligne de <b>Devolutions</b>"
     }
   },
-  "placeholderSearch": "Comment pouvons-nous vous aider?",
+  "placeholderSearch": "Rechercher dans toutes les ressources",
+  "placeholderSearchHome": "Comment pouvons-nous vous aider?",
   "labelFeedbackButton": "Commentaires",
   "label": {
     "configureAnSMTPServer": "Configurer un serveur SMTP",
