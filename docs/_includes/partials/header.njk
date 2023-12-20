@@ -6,9 +6,20 @@
         <a class="dwd-header-item" href="https://devolutions.net{{ lang | localized }}/" aria-label="Devolutions">
           {{ icons.logoDevolutionsText | safe }}
         </a>
-        
+
       </div>
       <div class="dwd-header-right">
+        {%- if not hideSearch -%}
+          <button class="dwd-search-button">
+            {{ icons.search | safe }}
+            <span>
+              {{ locale[lang].placeholderSearch }}
+            </span>
+          </button>
+          <button class="dwd-search-button-icon">
+            {{ icons.search | safe }}
+          </button>
+        {%- endif -%}
         <div class="dwd-header-submenu-container">
           <button class="dwd-header-item" aria-label="Open language selection" data-dwd-modal data-dwd-modal-target="Open language selection" data-dwd-modal-group="dwd-header">
             {{ lang }}

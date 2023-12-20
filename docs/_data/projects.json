@@ -27,13 +27,7 @@
     "icon": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-icon-shadow.svg",
     "logo": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg",
     "url": "/kb/devolutions-customer-success/",
-    "formattedName": "<b>Devolutions</b> Knowledge Base",
-    "searchTags": [
-      {
-        "label": "Knowledge Base",
-        "facet": "doc"
-      }
-    ]
+    "formattedName": "<b>Devolutions</b> Knowledge Base"
   },
   "server": {
     "isTopic": true,
@@ -54,12 +48,6 @@
     "icon": "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-icon-shadow.svg",
     "logo": "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-color-shadow.svg",
     "url": "/cloud/getting-started/devolutions-cloud-services/",
-    "formattedName": "<b>Devolutions</b> Cloud Services",
-    "searchTags": [
-      {
-        "label": "Cloud Services",
-        "facet": "doc"
-      }
-    ]
+    "formattedName": "<b>Devolutions</b> Cloud Services"
   }
 }

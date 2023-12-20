@@ -55,13 +55,11 @@
       "icon": "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-icon-shadow.svg",
       "logo": "https://webdevolutions.azureedge.net/images/projects/cloud/logos/cloud-color-shadow.svg",
       "url": "/cloud/getting-started/devolutions-cloud-services/",
-      "formattedName": "<b>Devolutions</b> Cloud Services",
-      "searchTags": [
-        { "label": "Cloud Services", "facet": "doc" }
-      ]
+      "formattedName": "<b>Devolutions</b> Cloud Services"
     }
   },
-  "placeholderSearch": "What can we help you with?",
+  "placeholderSearch": "Search all Resources",
+  "placeholderSearchHome": "What can we help you with?",
   "labelFeedbackButton": "Feedback",
   "label": {
     "configureAnSMTPServer": "Configure an SMTP server",

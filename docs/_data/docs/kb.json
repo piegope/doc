@@ -5,12 +5,6 @@
   "logo": "https://webdevolutions.azureedge.net/images/projects/knowledge-base/logos/knowledge-base-color-shadow.svg",
   "url": "/kb/devolutions-customer-success/",
   "formattedName": "<b>Devolutions</b> Knowledge Base",
-  "searchTags": [
-    {
-      "label": "Knowledge Base",
-      "facet": "doc"
-    }
-  ],
   "sidebars": [
     {
       "items": [
