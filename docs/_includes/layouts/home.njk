@@ -22,8 +22,7 @@ layout: 'layouts/base.njk'
             <a href="{{ locale[lang].projects[card.name].url }}">
           {%- endif -%}
 
-          <img src="{{ locale[lang].projects[card.name].icon }}">
-          <span class="font-product">{{ locale[lang].projects[card.name].formattedName | safe }}</span>
+          <img src="{{ locale[lang].projects[card.name].logo }}">
 
           {%- if locale[lang].projects[card.name].os -%}
             <div class="grid-list-os">
@@ -39,8 +38,8 @@ layout: 'layouts/base.njk'
             <nav>
               {%- for link in card.links -%}
                 <a href="{{ link.url }}">
-                  {{ link.name }}
                   {{ icons.pushPin | safe }}
+                  {{ link.name }}
                 </a>
               {%- endfor -%}
             </nav>
