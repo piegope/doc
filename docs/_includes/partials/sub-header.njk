@@ -44,7 +44,7 @@
           <div class="dwd-rdm-icons">
             {%- for iconKey, iconProject in locale[lang].projects -%}
               {%- if iconProject.os != null and project.formattedName == "<b>Remote Desktop</b> Manager" -%}
-                <a class="sub-header-icons {{- 'active' if project.os == iconProject.os -}}" href="{{- iconProject.url -}}">
+                <a class="sub-header-icons {{ 'active' if project.os == iconProject.os }}" href="{{- iconProject.url -}}">
                   {{- icons[iconProject.os] | safe -}}
                 </a>
               {%- endif -%}
