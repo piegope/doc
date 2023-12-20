@@ -80,13 +80,13 @@ b, strong, th {
 .web-site-width {
   margin-left: auto;
   margin-right: auto;
-  max-width: calc(1200px + 48px);
+  max-width: calc(1076px + 48px);
   padding-left: 24px;
   padding-right: 24px;
   width: 100%;
 
   @media (max-width: 719px) {
-    max-width: calc(1200px + 32px);
+    max-width: calc(1076px + 32px);
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -97,5 +97,5 @@ kbd {
   border-bottom: 4px solid gray;
   border-radius: 5px;
   padding: 2px;
-  font-size: 12px; 
+  font-size: 12px;
 }
