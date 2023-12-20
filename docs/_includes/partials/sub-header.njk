@@ -1,51 +1,57 @@
-{% set project = locale[lang].projects[tree] %}
+{%- set project = locale[lang].projects[tree] -%}
 
-{% if project %}
+{%- if project -%}
   <div class="dwd-sub-header-container">
     <div class="dwd-sub-header">
       <div class="dwd-sub-header-wrapper">
         <div class="dwd-dropdown-menu">
-         <div class="dropdown">
-          {% if project.logo %}
-           <button class="dropbtn" data-dwd-modal data-dwd-modal-group="topics" data-dwd-modal-target="all"><img src="{{ project.logo }}"><span>{{ icons.arrowDownMedium | safe }}</span></button>
-          {% endif %}
-          <div class="dropdown-content" data-dwd-modal-group="topics" data-dwd-modal-target="all">
-            {% for subKey, subProject in locale[lang].projects %}
-              {% if subProject.isTopic == true %}
-              <div class="topics-container">
-                <a class="main-links" href="{{ subProject.url }}"><img src="{{ subProject.logo }}">
-                </a>
-                <div class="icon-container">
+          <div class="dropdown">
+            {%- if project.logo -%}
+              <button class="dropbtn" data-dwd-modal data-dwd-modal-group="topics" data-dwd-modal-target="all">
+                <img src="{{- project.logo -}}">
+                <span>{{- icons.arrowDownMedium | safe -}}</span>
+              </button>
+            {%- endif -%}
 
-                  {% for iconKey, iconProject in locale[lang].projects %}
-                    {% if iconProject.isTopic == false %}
-                      {% if subKey in iconKey %}
-
-                       {% if iconProject.os != null %} <a class="icons" href="{{ iconProject.url }}">{{ icons[iconProject.os] | safe }}</a>
-
-                        {% endif %}
-                      {% endif %}
-                    {% endif %}
-                  {% endfor %}
-                </div>
-               </div>
-              {% endif %}
-            {% endfor %}
+            <div class="dropdown-content" data-dwd-modal-group="topics" data-dwd-modal-target="all">
+              {%- for subKey, subProject in locale[lang].projects -%}
+                {%- if subProject.isTopic == true -%}
+                  <div class="topics-container">
+                    <a class="main-links" href="{{- subProject.url -}}">
+                      <img src="{{- subProject.logo -}}">
+                    </a>
+                    <div class="icon-container">
+                      {%- for iconKey, iconProject in locale[lang].projects -%}
+                        {%- if iconProject.isTopic == false -%}
+                          {%- if subKey in iconKey -%}
+                            {%- if iconProject.os != null -%}
+                              <a class="icons" href="{{- iconProject.url -}}">
+                                {{- icons[iconProject.os] | safe -}}
+                              </a>
+                            {%- endif -%}
+                          {%- endif -%}
+                        {%- endif -%}
+                      {%- endfor -%}
+                    </div>
+                  </div>
+                {%- endif -%}
+              {%- endfor -%}
+            </div>
           </div>
         </div>
 
+        <div class="dwd-sub-header-center">
+          <div class="dwd-rdm-icons">
+            {%- for iconKey, iconProject in locale[lang].projects -%}
+              {%- if iconProject.os != null and project.formattedName == "<b>Remote Desktop</b> Manager" -%}
+                <a class="sub-header-icons {{ 'active' if project.os == iconProject.os }}" href="{{- iconProject.url -}}">
+                  {{- icons[iconProject.os] | safe -}}
+                </a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </div>
       </div>
-
-      <div class="dwd-sub-header-center">
-        <div class="dwd-rdm-icons">
-          {% for iconKey, iconProject in locale[lang].projects %}
-
-            {% if iconProject.os != null and project.formattedName == "<b>Remote Desktop</b> Manager" %} <a class="sub-header-icons {{ 'active' if project.os == iconProject.os }}" href="{{ iconProject.url }}">{{ icons[iconProject.os] | safe }}</a>{% endif %}
-          {% endfor %}
-        </div>
-        </div>
     </div>
   </div>
-
-
-{% endif %}
+{%- endif -%}
