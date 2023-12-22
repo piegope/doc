@@ -6,7 +6,6 @@ In {{ en.DHUBB }}, you can export your data in the Json or Csv format using a [P
 ![Export with PowerShell](https://webdevolutions.azureedge.net/docs/en/kb/KB2079.png)
 
 ## Steps
-
 Before exporting your data, if not already done, [create an application user](/hub/web-interface/administration/management/application-users/manage-application-users/) and assign it the ***Manager*** role to the {{ en.VLT }} wanted.
 
 {% snippet icon.badgeCaution %}
@@ -19,8 +18,6 @@ Go to the section that corresponds to your needs:
 * [Manually fill in the information](#manual)
 
 ### Automatically fill in the information
-<a name="automatic"></a>
-
 1. In ***Tools – Export with PowerShell***, select the ***Automatic*** tab.  
 ![Automatic Export](https://webdevolutions.azureedge.net/docs/en/kb/KB2080.png)
 1. Enter your application user's ***Application Secret*** and ***Application key*** in the corresponding fields.
@@ -31,18 +28,16 @@ Go to the section that corresponds to your needs:
 
 Your data has been exported to the destination folder you specified in step 3.
 ### Manually fill in the information
-<a name="manual"></a>
-
 1. In ***Tools – Export with PowerShell***, select the ***Manual*** tab.  
 ![Manual Export](https://webdevolutions.azureedge.net/docs/en/kb/KB2081.png)
 1. Choose to export in ***Json*** or ***Csv*** format.
 1. Copy and paste the script in a PowerShell file (.ps1).
 1. In your copied script, change the variables with the appropriate information. See the table below.  
-   | Variable                | Description |
-   | ----------------------- | ----------- |
+   | Variable                | Description                                                                       |
+   |-------------------------|-----------------------------------------------------------------------------------|
    | `$url`                  | Enter your {{ en.DHUBB }} URL. This variable is automatically filled in, but it is still possible to change it. |
-   | `$appSecret`            | Enter the application user's ***Application Secret***. |
-   | `$appKey`               | Enter the application user's ***Application key***. |
+   | `$appSecret`            | Enter the application user's ***Application Secret***.                            |
+   | `$appKey`               | Enter the application user's ***Application key***.                               |
    | `$pathToExportedFolder` | Enter the ***Destination folder path*** This is where your data will be exported. |
 
    ![Variables in PowerShell](https://webdevolutions.azureedge.net/docs/en/kb/KB2082.png)
