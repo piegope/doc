@@ -1,0 +1,13 @@
+---
+const response = await fetch('https://cdndevolutions.blob.core.windows.net/devolutions-icons/3.4.1/inline-svg/devolutions-icons.json');
+const icons = await response.json();
+
+const { name, size } = Astro.props;
+let icon = icons[name];
+
+if (size) {
+  icon = icon.replace(/"24"/g, `"${size}"`);
+}
+---
+
+<Fragment set:html={icon} />

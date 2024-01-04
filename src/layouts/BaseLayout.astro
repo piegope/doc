@@ -1,0 +1,27 @@
+---
+import Header from "~/components/layouts/Header.astro";
+import OpenSans from "@fontsource-variable/open-sans/files/open-sans-latin-wght-normal.woff2";
+import "@fontsource-variable/open-sans";
+import "~/styles/tailwind.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Description" />
+    <meta name="keywors" content="Keywords" />
+
+    <title>Devolutions Documentation</title>
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <link rel="preload" href={OpenSans} as="font" type="font/woff2" crossorigin />
+  </head>
+  <body class="overflow-y-scroll">
+    <Header />
+
+    <slot />
+  </body>
+</html>

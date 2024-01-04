@@ -1,0 +1,24 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import Icon from "~/components/Icon.astro";
+
+const { frontmatter } = Astro.props;
+---
+<BaseLayout>
+  <main>
+    {frontmatter.isHome && (
+      <div class="relative flex justify-center items-center h-80 bg-support bg-cover bg-no-repeat bg-[center_20%]">
+        <button class="flex gap-2 absolute bg-white py-2 px-2.5 rounded-md h-18 items-center max-w-2xl w-full text-lg text-black/60 border hover:text-black hover:border-black">
+          <Icon name="search" size="32" />
+          What can we help you with?
+        </button>
+      </div>
+      <h1>{frontmatter.title}</h1>
+    )}
+    {!frontmatter.isHome && (
+      <h1>{frontmatter.title}</h1>
+    )}
+
+    <slot />
+  </main>
+</BaseLayout>

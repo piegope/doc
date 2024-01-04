@@ -1,0 +1,28 @@
+---
+import { getLangFromUrl, useTranslatedPath } from '~/i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+---
+
+<header class="grid grid-cols-layout gap-x-4 h-18 bg-black text-white/90">
+  <nav class="flex items-center pl-5">
+    <a href={translatePath('/')} class="hover:text-white">
+      Home
+    </a>
+  </nav>
+  <nav class="flex items-center justify-center gap-x-8">
+    <a href={translatePath('/kb/')} class="hover:text-white">
+      Knowledge Base
+    </a>
+    <a href="https://forum.devolutions.net" target="_blank" class="hover:text-white">
+      Forum
+    </a>
+    <a href="https://blog.devolutions.net" target="_blank" class="hover:text-white">
+      Blog
+    </a>
+  </nav>
+  <nav class="flex items-center justify-end pr-5">
+    Right
+  </nav>
+</header>

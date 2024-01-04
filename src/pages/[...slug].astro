@@ -1,0 +1,26 @@
+---
+import { getCollection } from "astro:content";
+import DocLayout from "~/layouts/DocLayout.astro";
+
+export async function getStaticPaths() {
+  const pages = await getCollection('docs');
+
+  return pages.map(page => {
+    const lang = page.slug.split('/')[0];
+
+    return {
+      params: {
+        slug: page.slug.replace(/^(en\/|en$)/, '') || undefined
+      },
+      props: { page, lang }
+    }
+  });
+};
+
+const { page } = Astro.props;
+const { Content } = await page.render();
+---
+
+<DocLayout frontmatter={page.data}>
+  <Content />
+</DocLayout>
