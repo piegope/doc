@@ -53,7 +53,7 @@ To assign users to the user group, click the user group button, then check the *
 ![Assign a user to the User Groups](https://webdevolutions.azureedge.net/docs/en/rdm/windows/clip3474.png)
 
 ## User configuration
-It is possible to change the default user template. To do so, navigate to ***File*** – ***Options*** – ***Security*** – ***User Template***. These settings control the default settings of a new user. The best practice is to disable all privileges.  
+It is possible to change the default user template. To do so, navigate to ***Administration*** – ***System Settings*** – ***User Management*** – ***User Template***. These settings control the default settings of a new user. 
 
 ### Create the user
 To create users, navigate to ***Administration*** – ***Users***, then click ***Add User***. Enter a ***Login*** and ***Password*** for the user and select the ***User type***.  
@@ -79,7 +79,8 @@ When creating users, some key points must be taken into consideration. Ask yours
 
 * Should they be able to access any resource without restriction? These are your ***Administrators***.
 * Should they be able to add, edit, or delete entries? A ***User*** would have all of these. Alternatively, you can select specific rights with ***Restricted User***.
-* Should they be able to see sensitive information, or import and export entries? ***Read-Only*** users are best used for those who should very limited access.
+* Should they be able to see sensitive information, or import and export entries? 
+If not, ***Read-Only*** users are best used for those who should very limited access.
 
 ## Entry configuration
 Access is granted or denied to users by setting permission on entries. ***Permissions*** can be set to users or user groups. The best practice is to grant permissions to user groups to control access for multiple users at once.  
