@@ -26,6 +26,31 @@ Dynamic ports can be used with all three listener types. If the value is 0, it w
 ### Allow Rules
 The ***HTTP*** and ***SOCKS5*** listeners will also make use of the ***Allow Rules*** to specify authorized destinations, anything not on the allow list will be denied.
 
-{% snippet icon.badgeInfo %}
-The host in the allow list may be specified as in a wildcard certificate.
-{% endsnippet %}  
+***Target filters*** can be specified using IP addresses or hostnames. Both can contain wildcards. Each ***Target filter*** must explicitly specify a destination port. Leaving the default port as '0' will result in an error when attempting to save the filter.
+
+#### Examples of valid ***Target filters***
+
+* `devolutions.net:80`    &rarr; Allows HTTP traffic to the hostname devolutions.net
+* `*.devolutions.net:443` &rarr; Allows HTTPS traffic to any subdomain of devolutions.net but not to devolutions.net directly
+* `192.168.0.*:22`        &rarr; Allows SSH traffic to any IP address between 192.168.0.0 to 192.168.0.255
+* `*:3389`                &rarr; Allows RDP traffic to any endpoint reachable by the {{ en.DGW }}
+
+You can add multiple ***Target filters*** to your entry, tailored to your intended use of the tunnel. For example, you might add the same hostname several times but with different ports, like 80 and 443, to permit both HTTP and HTTPS traffic.
+
+
+### Using the ***{{ en.DGW }} Tunnel*** oustide of Remote Desktop Manager
+
+Once opened, it is possible to use a ***{{ en.DGW }} Tunnel*** from an applicaton that is external to Remote Desktop Manager. You could, for instance, use it with a web browser or any other application that supports the type of proxying (TCP, HTTP or SOCKS5) that you specified in the connection.
+
+#### Example: Using the tunnel with the cURL command-line tool
+
+```sh
+# You can add you proxy endpoint along with the port specified or generated 
+# by the ***{{ en.DGW }} Tunnel*** entry with the -x argument.
+
+curl -x socks5h://127.0.0.1:65535 devolutions.net
+```
+
+{% snippet icon.badgeCaution %}
+If you have set your ***Target filters*** using hostnames, it's important to ensure that your application does not resolve the hostname before sending it to the tunnel; otherwise, the traffic will be denied. Applications typically have settings to enable or disable this behavior. For example, in the web browser Firefox, you need to enable the ***Proxy DNS when using SOCKS v5*** option in the proxy configuration panel for this scenario to function correctly.
+{% endsnippet %}
