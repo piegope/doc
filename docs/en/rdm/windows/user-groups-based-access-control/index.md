@@ -80,7 +80,7 @@ When creating users, some key points must be taken into consideration. Ask yours
 * Should they be able to access any resource without restriction? These are your ***Administrators***.
 * Should they be able to add, edit, or delete entries? A ***User*** would have all of these. Alternatively, you can select specific rights with ***Restricted User***.
 * Should they be able to see sensitive information, or import and export entries? 
-If not, ***Read-Only*** users are best used for those who should very limited access.
+If not, ***Read-Only*** users are best used for those who should only have very limited access.
 
 ## Entry configuration
 Access is granted or denied to users by setting permission on entries. ***Permissions*** can be set to users or user groups. The best practice is to grant permissions to user groups to control access for multiple users at once.  
