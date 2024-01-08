@@ -1,28 +1,41 @@
 ---
 import { getLangFromUrl, useTranslatedPath } from '~/i18n/utils';
+import Icon from '~/components/Icon.astro';
 
 const lang = getLangFromUrl(Astro.url);
 const translatePath = useTranslatedPath(lang);
 ---
-
-<header class="grid grid-cols-layout gap-x-4 h-18 bg-black text-white/90">
-  <nav class="flex items-center pl-5">
-    <a href={translatePath('/')} class="hover:text-white">
-      Home
-    </a>
-  </nav>
-  <nav class="flex items-center justify-center gap-x-8">
-    <a href={translatePath('/kb/')} class="hover:text-white">
-      Knowledge Base
-    </a>
-    <a href="https://forum.devolutions.net" target="_blank" class="hover:text-white">
-      Forum
-    </a>
-    <a href="https://blog.devolutions.net" target="_blank" class="hover:text-white">
-      Blog
-    </a>
-  </nav>
-  <nav class="flex items-center justify-end pr-5">
-    Right
-  </nav>
+<header class="h-13 lg:h-18 bg-black">
+  <div class="grid grid-flow-col lg:grid-cols-layout gap-x-4 h-13 lg:h-18 bg-black text-white/90 text-sm lg:text-base fixed w-full">
+    <nav class="flex items-center pl-5 gap-4">
+      <a href="https://devolutions.net/" target="_blank" class="hover:text-white svg:size-8 lg:svg:size-10" aria-label="Devolutions">
+        <Icon name="logoDevolutions" />
+      </a>
+      <hr class="w-px h-6 lg:h-8 bg-white/30 border-none" />
+      <a href={translatePath('/')} class="dvl-logo lg:dvl-logo-18 hover:text-white">
+        <b>Devolutions</b> Documentation
+      </a>
+    </nav>
+    <nav class="hidden lg:flex items-center justify-center gap-x-8">
+      <a href={translatePath('/kb/')} class="hover:text-white">
+        Knowledge Base
+      </a>
+      <a href="https://forum.devolutions.net" target="_blank" class="hover:text-white">
+        Forum
+      </a>
+      <a href="https://blog.devolutions.net" target="_blank" class="hover:text-white">
+        Blog
+      </a>
+    </nav>
+    <nav class="flex items-center gap-4 justify-end pr-5">
+      <button>
+        <Icon name="search" />
+      </button>
+      <div>
+        <button>
+          EN
+        </button>
+      </div>
+    </nav>
+  </div>
 </header>

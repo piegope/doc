@@ -1,0 +1,11 @@
+---
+import { defaultLocale } from '~/i18n/ui';
+import { getLangFromUrl } from '~/i18n/utils';
+import { GLOSSARY } from '~/config';
+
+const lang = getLangFromUrl(Astro.url);
+const { name } = Astro.props;
+const value = GLOSSARY[name] && (GLOSSARY[name][lang] || GLOSSARY[name][defaultLocale]) || 'undefined';
+---
+
+{ value }

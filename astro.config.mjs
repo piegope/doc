@@ -2,6 +2,8 @@ import { defineConfig } from 'astro/config';
 import { defaultLocale } from './src/i18n/ui';
 import tailwind from "@astrojs/tailwind";
 
+import mdx from "@astrojs/mdx";
+
 // https://astro.build/config
 export default defineConfig({
   i18n: {
@@ -12,5 +14,10 @@ export default defineConfig({
       de: "en"
     }
   },
-  integrations: [tailwind()]
+  integrations: [
+    tailwind({
+      applyBaseStyles: false
+    }),
+    mdx()
+  ]
 });

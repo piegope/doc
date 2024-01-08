@@ -1,0 +1,33 @@
+@layer components {
+  .prose {
+    @apply flex flex-col gap-6;
+  }
+
+  .prose a {
+    @apply text-primary hover:underline;
+  }
+
+  .prose h2 {
+    @apply flex text-2xl font-semibold;
+  }
+
+  .prose h3 {
+    @apply flex text-xl font-semibold;
+  }
+
+  .prose ul {
+    @apply list-outside list-disc pl-8
+  }
+
+  .prose ol {
+    @apply list-outside list-decimal pl-8
+  }
+
+  .prose li {
+    @apply m-0;
+  }
+
+  .prose li + li {
+    @apply mt-4;
+  }
+}
