@@ -9,7 +9,6 @@ Importing/exporting entries (such as sessions, logins, contacts, and credentials
 * [Export and import entries](/kb/remote-desktop-manager/how-to-articles/export-import-entries/)  
 * [Export](/rdm/windows/commands/file/export/)  
 * [Import](/rdm/windows/commands/file/import/)  
-* [Keyboard shortcuts customization in {{ en.RDMWIN }}](/kb/remote-desktop-manager/how-to-articles/keyboard-shortcuts-customization-rdm-windows/#create-shortcut-macros)  
 
 ### See also  
 * [Step 6: Import your Data - Getting Started with {{ en.RDM}} for Individuals](https://youtu.be/x4NLsBvF2tU?si=fssLciYOuY_7EExH)
