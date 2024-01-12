@@ -3,7 +3,7 @@ eleventyComputed:
   title: Password management
   description: "{{ en.RDM }} uses its powerful capabilities to store and manage all passwords, credentials and privileged accounts in a safe and secure password {{ en.VLT }}, providing incomparable control and visibility over your IT environment."
 ---
-{{ en.RDM }} provides powerful capabilities to store and manage passwords, credentials, and privileged accounts in a single interface, giving you unique control and visibility over your IT environment. Link to session and save time with one-click updates across entries, and with secure credential injection, avoid exposing passwords to users at all.
+{{ en.RDM }} provides powerful capabilities to store and manage passwords, credentials, and privileged accounts in a single interface, giving you unique control and visibility over your IT environment. Link to existing sessions and save time with one-click updates across entries. With secure credential injection, avoid exposing passwords to users at all.
 
 ### Related topics  
 * [Create an entry](/rdm/windows/commands/edit/entries/creating-new-entry/)
