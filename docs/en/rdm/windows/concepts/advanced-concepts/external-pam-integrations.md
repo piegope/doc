@@ -11,6 +11,7 @@ Combine an external privileged access management (PAM) integration with {{ en.RD
 * [BeyondTrust configuration](/kb/remote-desktop-manager/how-to-articles/beyondtrust-configuration/)  
 * [Going password-less with {{ en.RDM }} and CyberArk](/kb/remote-desktop-manager/knowledge-base/going-password-less-rdm-cyberark/#cyberark-application-access-manager-aam-configuration)  
 * [CyberArk integration – Acces denied for certain technologies](/kb/remote-desktop-manager/knowledge-base/cyberark-integration-access-denied/)
+* [CyberArk Dashboard Configuration And Use](https://docs.devolutions.net/kb/remote-desktop-manager/how-to-articles/cyberark-dashboard-configuration/)
 * [Secret Server entry configuration](/kb/remote-desktop-manager/how-to-articles/secret-server-entry-configuration/)  
 
 ### See also  
