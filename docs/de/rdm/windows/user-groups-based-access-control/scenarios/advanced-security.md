@@ -192,3 +192,4 @@ Die Berechtigungen sind nun korrekt festgelegt. Bitte beachten Sie, dass jeder E
 >>>>>>> Stashed changes
 
 Sie können die Berechtigungen weiter anpassen, indem Sie beim Bearbeiten von Einträgen den Bereich ***Sicherheit*** verwenden. Wie immer muss bei der Vergabe von Berechtigungen große Sorgfalt gewahrt werden.
+![Sicherheit](https://webdevolutions.azureedge.net/docs/en/rdm/windows/RDMWin2258.png)
