@@ -23,8 +23,8 @@ Hier ist ein Beispiel für die Benutzerkonfiguration. Um Benutzer zu erstellen, 
 
 Hier wählen wir den Benutzertyp aus, um die grundlegenden Berechtigungen zu konfigurieren (***Hinzufügen***, ***Bearbeiten*** und ***Löschen***).  
 
-***ServiceDesk***-Benutzer sind ***Eingeschränkte Benutzer***. Sie haben die Berechtigungen ***Hinzufügen*** und ***Bearbeiten***. Sie können jedoch keine Einträge in den Ordner {{ de.VLT }} hinzufügen.  
-![Nutzerverwaltung – ServiceDesk – Eingeschränkte Benutzer](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6126.png)
+***ServiceDesk***-Benutzer sind ***Eingeschränkte Benutzer***. Diese erhalten die Berechtigungen ***Hinzufügen*** und ***Bearbeiten***. Sie können jedoch keine Einträge auf {{ de.VLT }}-Ebene hinzufügen.  
+![Benutzerverwaltung – ServiceDesk – Eingeschränkte Benutzer](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6126.png)
 
 ***HelpDesk***-Benutzer sind ebenfalls ***Eingeschränkte Benutzer***. Sie erhalten nur die Berechtigung ***Hinzufügen***. Sie können jedoch keine Einträge auf {{ de.VLT }}-Ebene hinzufügen.  
 ![Benutzerverwaltung – HelpDesk – Eingeschränkte Benutzer](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6127.png)
@@ -51,8 +51,8 @@ Jetzt ist alles bereit, um den Zugriff auf die Gruppen zu gewähren oder zu verw
 * HelpDesk hat die Berechtigung, nur Einträge in den Gruppen/Ordnern der Kunden zu sehen und zu öffnen, kann sie aber nicht bearbeiten.
 * Consultants haben die Berechtigung, nur die Einträge im Montreal-Ordner zu sehen und zu öffnen, können aber weder diesen noch seine untergeordneten Elemente bearbeiten.
 
-**{{ de.VLT }} Einstellungen**
-Wie bereits erwähnt, sind die Berechtigungen für ALLE Einstellungen des {{ de.VLT }} auf ***Niemand*** gesetzt. Dadurch wird der standardmäßige Zugriff für alle Benutzer verweigert.  
+**{{ de.VLT }} Einstellungen** -
+wie bereits erwähnt, sind die Berechtigungen für ALLE Einstellungen des {{ de.VLT }} auf ***Niemand*** gesetzt. Dadurch wird der standardmäßige Zugriff für alle Benutzer verweigert.  
 ![{{ de.VLT }} Einstellungen – Berechtigungen](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6089.png)
 
 **Windjammer, Downhill Pro und Telemark, die Gruppen/Ordner auf der Tresorebene**
@@ -68,7 +68,7 @@ Die Berechtigung zur Einsicht des Ordners „Windjammer“ wird nur für den Ser
 * ***Vertrauliche Informationen anzeigen: Vererbt***; Niemand vom {{ de.VLT }} geerbt. Nur Administratoren können vertrauliche Informationen einsehen.
 * ***Verbinden (Ausführen): Vererbt***; Niemand vom {{ de.VLT }} geerbt. Nur Administratoren können verbinden (ausführen).
 
-Für Downhill Pro erteilen wir Berechtigungen für ServiceDesk und HelpDesk.  
+Für Downhill Pro erteilen wir Berechtigungen für  ServiceDesk und HelpDesk.  
 ![Downhill Pro – Berechtigungen](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6091.png)
 
 * ***Anzeigen: Benutzerdefiniert***; HelpDesk, ServiceDesk.
@@ -106,6 +106,7 @@ Die Berechtigungen ***Hinzufügen*** und ***Bearbeiten*** sind auf ***Niemand***
 * ***Vertrauliche Informationen anzeigen***: Vererbt; Niemand vom {{ de.VLT }} geerbt. Nur Administratoren können vertrauliche Informationen einsehen.
 * ***Verbinden (Ausführen): Vererbt***; Niemand vom {{ de.VLT }} geerbt. Nur Administratoren können verbinden (ausführen).
 
+
 Wir möchten, dass der ServiceDesk auch die Anmeldeinformationen des ***Domain-Admin*** verwenden kann, aber nicht der HelpDesk. Dazu müssen wir dem ServiceDesk die Berechtigung ***Anzeigen*** erteilen. Der ServiceDesk kann dann immer noch die Anmeldeinformation verwenden, wird aber niemals das Passwort sehen.  
 ![Telemark / Anmeldeinformationen / Admin – Berechtigungen](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6133.png)
 
@@ -118,34 +119,8 @@ Wir möchten, dass der ServiceDesk auch die Anmeldeinformationen des ***Domain-A
 * ***Vertrauliche Informationen anzeigen: Vererbt***; Niemand vom {{ de.VLT }} geerbt. Nur Administratoren können vertrauliche Informationen einsehen.
 * ***Verbinden (Ausführen): Vererbt***; Niemand vom {{ de.VLT }} geerbt. Nur Administratoren können verbinden (ausführen).
 
+
 Der letzte Schritt für die untergeordneten Elemente des Ordners „Telemark“ besteht darin, die Berechtigung ***Anzeigen*** für den ServiceDesk und den HelpDesk auf den Ordner „Boston“ zu setzen und alle anderen Berechtigungen dieses Ordners auf ***Vererbt*** zu belassen. Dadurch wird den Consultants die Einsicht in den Ordner „Boston“ verweigert. Nun können die Consultants nur Einträge im Ordner „Montreal“ einsehen und öffnen.  
-![Telemark/Boston – Berechtigungen](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6134.png)
-
-![Telemark/Anmeldeinformationen – Berechtigungen](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6132.png)
-
-* ***Ansicht: Nutzerdefiniert***; HelpDesk, ServiceDesk.
-* ***Hinzufügen: Nie***; nur Administratoren können Anmeldeinformationen hinzufügen.
-* ***Bearbeiten: Nie***; nur der Administrator kann Einträge bearbeiten.
-* ***Löschen: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können Einträge löschen.
-* ***Verschieben: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können Einträge verschieben.
-* ***Passwort anzeigen: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können das Passwort einsehen.
-* ***Vertrauliche Informationen anzeigen***: Vererbt; nie vom {{ de.VLT }} geerbt. Nur Administratoren können vertrauliche Informationen einsehen.
-* ***Verbinden (Ausführen): Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können verbinden (ausführen).
-
-
-Wir möchten, dass der ServiceDesk auch die Anmeldeeingaben des ***Domain-Administrators*** verwenden kann, aber nicht der HelpDesk. Dazu müssen wir dem ServiceDesk die Berechtigung zur ***Ansicht*** erteilen. Der ServiceDesk kann dann immer noch die Anmeldeeingaben verwenden, wird aber niemals das Passwort sehen.  
-![Telemark/Anmeldeinformationen/Admin – Berechtigungen](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6133.png)
-
-* ***Ansicht: Nutzerdefiniert***; ServiceDesk.
-* ***Hinzufügen: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können Anmeldeinformationen hinzufügen.
-* ***Bearbeiten: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können Anmeldeinformationen bearbeiten.
-* ***Löschen: Vererbt***; nie von Telemark\Anmeldeiformationen geerbt. Nur Administratoren können Anmeldeinformationen löschen.
-* ***Verschieben: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können Einträge verschieben.
-* ***Passwort anzeigen: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können das Passwort einsehen.
-* ***Vertrauliche Informationen anzeigen: Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können vertrauliche Informationen einsehen.
-* ***Verbinden (Ausführen): Vererbt***; nie vom {{ de.VLT }} geerbt. Nur Administratoren können verbinden (ausführen).
-
-Der letzte Schritt für die untergeordneten Elemente des Ordners „Telemark“ besteht darin, die Berechtigung ***Ansicht*** für den ServiceDesk und den HelpDesk auf den Ordner „Boston“ zu setzen und alle anderen Berechtigungen dieses Ordners auf ***Vererbt*** zu belassen. Dadurch wird den Beratern die Einsicht in den Ordner „Boston“ verweigert. Nun können die Berater nur Einträge im Ordner „Montreal“ einsehen und öffnen.  
 ![Telemark/Boston – Berechtigungen](https://webdevolutions.azureedge.net/docs/de/rdm/windows/RDMWin6134.png)
 
 * ***Anzeigen: Benutzerdefiniert***; HelpDesk, ServiceDesk.
