@@ -29,3 +29,7 @@ The ***Add*** created a persistent rule to always ignore clipboard request from 
 ![!!KB8044](https://webdevolutions.azureedge.net/docs/en/kb/KB8044.png)  
 
 There is a ***Send*** button at the bottom of the form that will send our support team the ***Clipboard Diagnostic Report***. It is essentially everything you see on both tabs. From there we can advise you on how to configure your {{ en.RDM }}.
+
+## Suggested Blocklisted applications
+
+1. ***[PhoneExperienceHost (The Phone Link app)](https://forum.devolutions.net/topics/39461/paste-once-and-teamviewer#186637)***
