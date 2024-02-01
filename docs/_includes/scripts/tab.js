@@ -42,6 +42,10 @@ const dwdTab = {
             }, 100);
           }
         }
+      } else {
+        if (target.classList.contains('active') && target.classList.contains('nav-item-sub-container') && target.children.length === 1) {
+          target.classList.remove('active');
+        }
       }
     }
   },

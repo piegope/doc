@@ -21,11 +21,11 @@ eleventyImport:
     <div class="nav-item-container">
       {%- if item.hasData -%}
         <div class="nav-item-sub-container">
-          <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }} {{ 'current' if page.url === item.url }}" href="{{ item.url }}" {{ ['data-dwd-tab data-dwd-tab-group=', item.url,' data-dwd-tab-target=', item.url] | join if item.children.length > 0 }}>
+          <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }} {{ 'current' if page.url === item.url }}" href="{{ item.url }}" {{ ['data-dwd-tab data-dwd-tab-group=sidebar data-dwd-tab-target=', item.url] | join if item.children.length > 0 }}>
             {{- item.title -}}
           </a>
           {%- if item.children.length > 0 -%}
-          <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+          <div class="expand-more" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="{{ item.url }}">
               {{- icons['arrowRight'] | safe -}}
           </div>
           {%- endif -%}
@@ -36,25 +36,25 @@ eleventyImport:
           {% set firstChildrenUrl = item | findFirstChildrenUrlTree %}
           {% if item.redirect or firstChildrenUrl != item.url %}
           <div class="nav-item-sub-container">
-            <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" href="{{ item.redirect if item.redirect else firstChildrenUrl }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+            <a class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" href="{{ item.redirect if item.redirect else firstChildrenUrl }}" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="{{ item.url }}">
               {{- item.title -}}
             </a>
-            <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+            <div class="expand-more" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="{{ item.url }}">
               {{- icons['arrowRight'] | safe -}}
             </div>
           </div>
           {% else %}
           <div class="nav-item-sub-container">
-            <button class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+            <button class="nav-item level-{{ index }} {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="{{ item.url }}">
               {{- item.title -}}
             </button>
-            <div class="expand-more" data-dwd-tab data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+            <div class="expand-more" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="{{ item.url }}">
               {{- icons['arrowRight'] | safe -}}
             </div>
           </div>
           {% endif %}
         {%- endif -%}
-        <div class="nav-item-items {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab-group="{{ item.url }}" data-dwd-tab-target="{{ item.url }}">
+        <div class="nav-item-items {{ 'active' if page.url.startsWith(item.url) }}" data-dwd-tab-group="sidebar" data-dwd-tab-target="{{ item.url }}">
           {%- for subItem in item.children | sortTree -%}
             {{- nav(subItem, index + 1) -}}
           {%- endfor -%}
