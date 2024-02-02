@@ -59,9 +59,7 @@ The ***X.509 Certificate*** entry can be used to import said certificate and exp
 
 #### Using the Windows certutil utility
 Use the built-in Windows `certutil` utility to combine a certificate (`.crt` or `.cer`) file and its private key (`.key`). Both files need to have the same name.
-```
-certutil -MergePFX file.crt file.pfx
-```
+`certutil -MergePFX file.crt file.pfx`
 
 ### Importing the certificate
 After acquiring the certificate and certificate private key file, import it into Windows.
