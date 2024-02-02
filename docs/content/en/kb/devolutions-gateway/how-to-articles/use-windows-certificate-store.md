@@ -16,20 +16,15 @@ With the new functionality, a [few additional parameters](https://github.com/Dev
 If you have a previously defined `TlsCertificateFile` and/or `TlsPrivateKeyFile` configuration (as is typical), removal is unnecessary as `TlsCertificateSource` tells {{ en.DGW }} where to search for the certificate.
 {% endsnippet %}
 
-* `TlsCertificateSource` (string): Source for the TLS certificate.
-
-Possible values:
-* `External` (default): Retrieve a certificate stored on the file system. See the options TlsCertificateFile, TlsPrivateKeyFile, and TlsPrivateKeyPassword.
-* `System`: Retrieve the certificate managed by the system certificate store. See the options `TlsCertificateSubjectName`, `TlsCertificateStoreName`, and `TlsCertificateStoreLocation`.
-
+* `TlsCertificateSource` (string): Source for the TLS certificate, possible values shown below.
+    * `External` (default): Retrieve a certificate stored on the file system. See the options TlsCertificateFile, TlsPrivateKeyFile, and TlsPrivateKeyPassword.
+    * `System`: Retrieve the certificate managed by the system certificate store. See the options `TlsCertificateSubjectName`, `TlsCertificateStoreName`, and `TlsCertificateStoreLocation`.
 * `TlsCertificateSubjectName` (string): Subject name of the certificate for TLS when using System source.
 * `TlsCertificateStoreName` (string): Name of the System Certificate Store to use for TLS (default is My).
-* `TlsCertificateStoreLocation` (string): Location of the System Certificate Store to use for TLS.
-
-Possible values:
-* `CurrentUser` (default)
-* `CurrentService`
-* `LocalMachine`
+* `TlsCertificateStoreLocation` (string): Location of the System Certificate Store to use for TLS, possible values shown below.
+    * `CurrentUser` (default)
+    * `CurrentService`
+    * `LocalMachine`
 
 ## Importing the certificate into the Windows certificate store
 First, import your certificate into the Windows certificate store. Windows supports the following certificate formats:
@@ -49,48 +44,58 @@ If using the `External` method via `TlsCertificateSource`, then {{ en.DGW }} onl
 #### Using {{ en.RDM }}
 The ***X.509 Certificate*** entry can be used to import said certificate and export it in several different formats, including PFX.
 1. In {{ en.RDM }} click on ***New Entry*** – ***Credential Management*** – ***General*** – ***X.509 Certificate***.
-1. Select the certificate and click ***Open***.
-1. Click ***Next***.
-1. Click on the ellipsis and select the ***Private key***, then click on ***Open***.
+2. Select the certificate and click ***Open***.
+3. Click ***Next***.
+4. Click on the ellipsis and select the ***Private key***, then click on ***Open***.
    {% snippet icon.badgeInfo %}
    The ***Private key*** must be in the `.key` extension.
    {% endsnippet %}
-1. Click ***Finish***.
-1. Fill in the information, then click ***Add***.
-1. Select the entry and click ***Save Certificate As***.
-1. In the ***Export Format*** field choose ***Personal Information Exchange (pfx)***.
-1. Choose where the file will be saved by clicking on the ellipsis.
-1. Enter a strong password, then click ***Export***.
+5. Click ***Finish***.
+6. Fill in the information, then click ***Add***.
+7. Select the entry and click ***Save Certificate As***.
+8. In the ***Export Format*** field choose ***Personal Information Exchange (pfx)***.
+9. Choose where the file will be saved by clicking on the ellipsis.
+10. Enter a strong password, then click ***Export***.
 
 #### Using the Windows certutil utility
-Use the `certutil` utility to combine a certificate (`.crt` or `.cer`) file and its private key (`.key`). Both files need to have the same name.
-`certutil -MergePFX file.crt file.pfx`
+Use the built-in Windows `certutil` utility to combine a certificate (`.crt` or `.cer`) file and its private key (`.key`). Both files need to have the same name.
+```
+certutil -MergePFX file.crt file.pfx
+```
 
 ### Importing the certificate
 After acquiring the certificate and certificate private key file, import it into Windows.
 1. Install the certificate:
-  * If Windows auto-detects the certificate, double-click it and choose ***Install Certificate...***; or
-  * Open `certmgr.msc` to the intended store location (`LocalMachine` or `CurrentUser`), right-click on the wanted location (ex: ***Personal/Certificates***) and choose ***All Tasks*** – ***Import***.
-1. Pick one of the following options and click ***Next***:
-  * ***Automatically select the certificate store based on the type of certificate***; or
-  * ***Place all certificates in the following store*** and click ***Browse...*** to pick a folder.
-1. Complete the import by clicking on ***Finish***.
+    * If Windows auto-detects the certificate, double-click it and choose ***Install Certificate...***; or
+    * Open `certmgr.msc` to the intended store location (`LocalMachine` or `CurrentUser`), right-click on the wanted location (ex: ***Personal/Certificates***) and choose ***All Tasks*** – ***Import***.
+2. Pick one of the following options and click ***Next***:
+    * ***Automatically select the certificate store based on the type of certificate***; or
+    * ***Place all certificates in the following store*** and click ***Browse...*** to pick a folder.
+3. Complete the import by clicking on ***Finish***.
 
 ## Configuring Windows certificate store via gateway.json
-The default location of the `gateway.json` file is in the **C:\%ProgramData%\Devolutions\Gateway** directory.
+The default location of the `gateway.json` file is in the **%ProgramData%\Devolutions\Gateway** directory.
 {% snippet icon.badgeInfo %}
 Make sure the file is a valid `.json` by testing it with:
 ```powershell
-Try { Get-Content -Path ("{0}\Devolutions\Gateway\gateway.json" -F $env:ProgramData) | ConvertFrom-JSON -ErrorAction 'Stop' } Catch { $PSItem[0].Exception.Message }
+$Config = ("{0}\Devolutions\Gateway\gateway.json" -F $Env:ProgramData)
+
+Try {
+  Get-Content -Path $Config | ConvertFrom-JSON -ErrorAction 'Stop'
+} Catch {
+  $PSItem[0].Exception.Message
+}
 ```
-This works with PowerShell 5.1, PowerShell 6 and later versions.
+This works with PowerShell 5.1 and later versions (the recommended version to use is PowerShell 7.x).
 {% endsnippet %}  
 
-A typical configuration is shown below. Your values may differ, especially the ***Subject Name***, as that will reflect the domain name {{ en.DGW }} responds to:
+A typical configuration is shown below. Your values may differ, especially the ***Subject Name***, as that will reflect the domain name {{ en.DGW }} responds to. The important values to change are:
 * `TlsCertificateSource` - `System`
 * `TlsCertificateSubjectName` - `gateway.ad.it-help.ninja`
 * `TlsCertificateStoreName` - `My`
 * `TlsCertificateStoreLocation` - `LocalMachine`
+
+An example of the entire configuration file:
 ```json
 {
   "Id": "c912b379-8c34-449d-8ff3-3aa20a9cc3e4",
@@ -116,29 +121,22 @@ A typical configuration is shown below. Your values may differ, especially the *
 ```
 
 1. Run the above script.
-1. Open `services.msc`.
-1. Right-click on ***{{ en.DGW }} Service*** and select ***Restart***.
-1. Verify if {{ en.DGW }} is running correctly by navigating to `https://{FQDN}:7171/jet/health` with a web browser.
+2. Open `services.msc`.
+3. Right-click on ***{{ en.DGW }} Service*** and select ***Restart***.
+4. Verify if {{ en.DGW }} is running correctly by navigating to `https://{FQDN}:7171/jet/health` (replacing `{FQDN}` with your Gateway DNS address) with a web browser.
 
 ## Configuring Windows certificate store via PowerShell
-The {{ en.DGW }} can also be configured through PowerShell commands. The [{{ en.DGW }} PowerShell module](https://www.powershellgallery.com/packages/DevolutionsGateway/2023.3.0) exposes many commands to configure it. By default, an install of {{ en.DGW }} includes the module in the installation directory. The module can be imported using the following:
-```powershell
-# Import the Module
-Import-Module -Name "C:\Program Files\Devolutions\Gateway\PowerShell\Modules\DevolutionsGateway"
-# View the imported Modules
-Get-Module
-```
+The {{ en.DGW }} can also be configured through PowerShell commands. The [{{ en.DGW }} PowerShell module](https://www.powershellgallery.com/packages/DevolutionsGateway/) exposes many commands to configure it. By default, an install of {{ en.DGW }} includes the module in the installation directory.
 
 Another method to make the module easily accessible is to install it via the following:
 ```powershell
-# Install the Module
+# Install the DevolutionsGateway module
 Install-Module -Name 'DevolutionsGateway'
-# Update the Module if installed via the above method (will not update the bundled version)
-# Will not do anything if the latest version is installed.
+# Update the module if installed via the above method (will not update the bundled version installed with Gateway)
 Update-Module -Name 'DevolutionsGateway'
 # Import the Module
 Import-Module -Name 'DevolutionsGateway'
-# View the imported Modules
+# View the imported modules to verify the DevolutionsGateway module is available
 Get-Module
 ```
 Once imported, you can see the current configuration via the following command:
@@ -148,7 +146,8 @@ Get-DGatewayConfig
 To tell {{ en.DGW }} to use the Windows Store, use the following command:
 ```powershell
 # Update the configuration; this will not remove any existing parameters, only configure those defined.
-Set-DGatewayConfig -TlsCertificateSource "System" -TlsCertificateSubjectName "gateway.ad.it-help.ninja" -TlsCertificateStoreLocation "LocalMachine" -TlsCertificateStoreName "My"
+# Replace the '{FQDN}` example with the fully-qualified DNS name of the Gateway address
+Set-DGatewayConfig -TlsCertificateSource "System" -TlsCertificateSubjectName "{FQDN}" -TlsCertificateStoreLocation "LocalMachine" -TlsCertificateStoreName "My"
 # Display the updated configuration
 Get-DGatewayConfig
 ```
