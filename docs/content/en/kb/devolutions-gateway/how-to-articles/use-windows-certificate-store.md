@@ -66,10 +66,10 @@ After acquiring the certificate and certificate private key file, import it into
 1. Install the certificate:
     * If Windows auto-detects the certificate, double-click it and choose ***Install Certificate...***; or
     * Open `certmgr.msc` to the intended store location (`LocalMachine` or `CurrentUser`), right-click on the wanted location (ex: ***Personal/Certificates***) and choose ***All Tasks*** – ***Import***.
-2. Pick one of the following options and click ***Next***:
+1. Pick one of the following options and click ***Next***:
     * ***Automatically select the certificate store based on the type of certificate***; or
     * ***Place all certificates in the following store*** and click ***Browse...*** to pick a folder.
-3. Complete the import by clicking on ***Finish***.
+1. Complete the import by clicking on ***Finish***.
 
 ## Configuring Windows certificate store via gateway.json
 The default location of the `gateway.json` file is in the **%ProgramData%\Devolutions\Gateway** directory.
