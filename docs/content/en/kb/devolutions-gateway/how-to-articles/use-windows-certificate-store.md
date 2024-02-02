@@ -13,7 +13,7 @@ It is possible to use the Windows certificate store as a TLS certificate source.
 With the new functionality, a [few additional parameters](https://github.com/Devolutions/devolutions-gateway#configuration) are available to configure the source of the certificate.
 
 {% snippet icon.badgeInfo %}
-If you have a previously defined `TlsCertificateFile` and/or `TlsPrivateKeyFile` configuration (as is typical), removal is unnecessary as `TlsCertificateSource` tells {{ en.DGW }} where to search for the certificate.
+If you have a previously defined `TlsCertificateFile` and/or `TlsPrivateKeyFile` configuration, removal is unnecessary as `TlsCertificateSource` tells {{ en.DGW }} where to search for the certificate.
 {% endsnippet %}
 
 * `TlsCertificateSource` (string): Source for the TLS certificate, possible values shown below.
