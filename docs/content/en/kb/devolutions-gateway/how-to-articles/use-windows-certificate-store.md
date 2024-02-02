@@ -44,18 +44,18 @@ If using the `External` method via `TlsCertificateSource`, then {{ en.DGW }} onl
 #### Using {{ en.RDM }}
 The ***X.509 Certificate*** entry can be used to import said certificate and export it in several different formats, including PFX.
 1. In {{ en.RDM }} click on ***New Entry*** – ***Credential Management*** – ***General*** – ***X.509 Certificate***.
-2. Select the certificate and click ***Open***.
-3. Click ***Next***.
-4. Click on the ellipsis and select the ***Private key***, then click on ***Open***.
+1. Select the certificate and click ***Open***.
+1. Click ***Next***.
+1. Click on the ellipsis and select the ***Private key***, then click on ***Open***.
    {% snippet icon.badgeInfo %}
    The ***Private key*** must be in the `.key` extension.
    {% endsnippet %}
-5. Click ***Finish***.
-6. Fill in the information, then click ***Add***.
-7. Select the entry and click ***Save Certificate As***.
-8. In the ***Export Format*** field choose ***Personal Information Exchange (pfx)***.
-9. Choose where the file will be saved by clicking on the ellipsis.
-10. Enter a strong password, then click ***Export***.
+1. Click ***Finish***.
+1. Fill in the information, then click ***Add***.
+1. Select the entry and click ***Save Certificate As***.
+1. In the ***Export Format*** field choose ***Personal Information Exchange (pfx)***.
+1. Choose where the file will be saved by clicking on the ellipsis.
+1. Enter a strong password, then click ***Export***.
 
 #### Using the Windows certutil utility
 Use the built-in Windows `certutil` utility to combine a certificate (`.crt` or `.cer`) file and its private key (`.key`). Both files need to have the same name.
