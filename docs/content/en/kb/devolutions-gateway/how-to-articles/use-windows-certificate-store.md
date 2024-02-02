@@ -17,7 +17,7 @@ If you have a previously defined `TlsCertificateFile` and/or `TlsPrivateKeyFile`
 {% endsnippet %}
 
 * `TlsCertificateSource` (string): Source for the TLS certificate, possible values shown below.
-    * `External` (default): Retrieve a certificate stored on the file system. See the options TlsCertificateFile, TlsPrivateKeyFile, and TlsPrivateKeyPassword.
+    * `External` (default): Retrieve a certificate stored on the file system. See the options `TlsCertificateFile`, `TlsPrivateKeyFile`, and `TlsPrivateKeyPassword`.
     * `System`: Retrieve the certificate managed by the system certificate store. See the options `TlsCertificateSubjectName`, `TlsCertificateStoreName`, and `TlsCertificateStoreLocation`.
 * `TlsCertificateSubjectName` (string): Subject name of the certificate for TLS when using System source.
 * `TlsCertificateStoreName` (string): Name of the System Certificate Store to use for TLS (default is My).
