@@ -119,9 +119,9 @@ An example of the entire configuration file:
 ```
 
 1. Run the above script.
-2. Open `services.msc`.
-3. Right-click on ***{{ en.DGW }} Service*** and select ***Restart***.
-4. Verify if {{ en.DGW }} is running correctly by navigating to `https://{FQDN}:7171/jet/health` (replacing `{FQDN}` with your Gateway DNS address) with a web browser.
+1. Open `services.msc`.
+1. Right-click on ***{{ en.DGW }} Service*** and select ***Restart***.
+1. Verify if {{ en.DGW }} is running correctly by navigating to `https://{FQDN}:7171/jet/health` (replacing `{FQDN}` with your Gateway DNS address) with a web browser.
 
 ## Configuring Windows certificate store via PowerShell
 The {{ en.DGW }} can also be configured through PowerShell commands. The [{{ en.DGW }} PowerShell module](https://www.powershellgallery.com/packages/DevolutionsGateway/) exposes many commands to configure it. By default, an install of {{ en.DGW }} includes the module in the installation directory.
