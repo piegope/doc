@@ -15,7 +15,7 @@ function sidebarItem(item, index, ctx, contents, page, icons) {
   const itemData = url ? contents.find((content) => content.url === url) : null;
 
   return `<div class="nav-item-container">
-    <div class="nav-item-sub-container" data-dwd-tab data-dwd-tab-group="${url ?? label}" data-dwd-tab-target="${url ?? label}">
+    <div class="nav-item-sub-container" data-dwd-tab data-dwd-tab-group="sidebar" data-dwd-tab-target="${url ?? label}">
       ${url ?
         `<a class="nav-item level-${index}" href="${url}">
           ${label ?? itemData?.data.title}
@@ -32,7 +32,7 @@ function sidebarItem(item, index, ctx, contents, page, icons) {
       }
     </div>
     ${item.items?.length > 0 ? (
-      `<div class="nav-item-items" data-dwd-tab-group="${url ?? label}" data-dwd-tab-target="${url ?? label}">
+      `<div class="nav-item-items" data-dwd-tab-group="sidebar" data-dwd-tab-target="${url ?? label}">
         ${item.items.map(subItem => sidebarItem(subItem, index + 1, ctx, contents, page, icons)).join('')}
       </div>`) :
       ''

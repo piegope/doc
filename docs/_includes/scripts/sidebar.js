@@ -1,3 +1,51 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const markdownContainer = document.querySelectorAll('.markdown-container')[0];
+  const navItems = document.querySelectorAll('.nav-item');
+
+  const updateContent = (url) => {
+    fetch(url)
+      .then(response => response.text())
+      .then(html => {
+          const tempDiv = document.createElement('div');
+          tempDiv.innerHTML = html;
+          const newContent = tempDiv.querySelectorAll('.markdown-container')[0];
+          const sidebar = document.querySelector('.navigation');
+
+          if (newContent) {
+            markdownContainer.innerHTML = newContent.innerHTML;
+            window.history.pushState({html: newContent.innerHTML, pageTitle: document.title, sidebar: sidebar.innerHTML}, '', url);
+            window.scrollTo(0, 0);
+          }
+      })
+      .catch(error => console.error('Error fetching content:', error));
+  };
+
+  navItems.forEach(link => {
+    if (link.hasAttribute('href') && link.getAttribute('href').startsWith('/')) {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+        if (!link.classList.contains('current')) {
+          const href = this.getAttribute('href');
+          updateContent(href);
+
+          document.querySelector('.nav-item.current').classList.remove('current');
+          link.classList.add('current');
+        }
+      });
+    }
+  });
+
+  window.addEventListener('popstate', function(event) {
+    if (event.state) {
+      markdownContainer.innerHTML = event.state.html;
+      document.title = event.state.pageTitle;
+      document.querySelector('.navigation').innerHTML = event.state.sidebar;
+
+      window.scrollTo(0, 0);
+    }
+  });
+});
+
 const sidebarActive = {
   init: function () {
     const elements = document.querySelectorAll('[data-page]');
