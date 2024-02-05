@@ -59,7 +59,10 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
 #### General
 9. The ***Auto refresh*** option is enabled by default. It maintains the connection to your CyberArk environment and removes the need to enter 2FA credentials on every connection. It is recommended to leave it enabled.  
 ![Advanced Tab – General](https://webdevolutions.azureedge.net/docs/en/kb/KB4930.png)
-1. Check ***Open sessions externally*** if you do not want your sessions to open in embedded mode in {{ en.RDM }}. This is mostly useful for applications that only support being open externally, such as PSMP (PSM-SSH) and PSM. It is required to connect to remote applications using PVWA connections.
+1. Check ***Open sessions externally*** if you do not want your sessions to open in embedded mode in {{ en.RDM }}. This is mostly useful for applications that only support being open externally, such as PSM-Putty (PSM-SSH) and many other PSM connection components. It is required to connect to remote applications using PVWA connections.  
+   {% snippet icon.badgeInfo %}
+   For most connection components requiring the opening of an application on PSM, the ***Open Externally*** option must be enabled. This is due to a limitation of the RDP ActiveX we use, which does not support RDP RemoteApp mode. However, this limitation can be mitigated by setting a connection component parameter in CyberArk. This parameter is called DisableRemoteApp and must be set to ***Yes****. For more information, see [CyberArk's documentation page](https://docs.cyberark.com/PrivCloud-SS/Latest/en/Content/Privilege%20Cloud/PrivCloud-psm-UX.htm) on the subject.
+   {% endsnippet %}  
 1. Check ***Allow connect to host*** if you want to allow a direct connection to the remote machine, meaning that the currently logged on user needs to have the right to view the password; it is therefore less secure and is not recommended by the CyberArk team.
 1. Check ***Ask for reason*** if you are required to have a reason to establish a connection.
 1. Check ***Ask for ticket number*** if you are required to provide a ticket number to establish a connection depending of your CyberArk configuration. The ***Ticketing system*** field that is paired with this option is a string value that makes sense in your environment. It is informative and we send it along with the number.
