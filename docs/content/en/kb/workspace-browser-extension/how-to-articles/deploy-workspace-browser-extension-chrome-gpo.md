@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Deploy the {{ en.WBEX }} in Google Chrome using GPOs
+  title: Deploy the {{ en.WBEX }} in Google Chrome or Edge using GPOs
   description: The settings deployed with the group policy object (GPO) are only enforced when the extension is used for the first time.
 ---
 {% snippet icon.badgeInfo %}
@@ -9,7 +9,7 @@ Important note for {{ en.WBEX }} **versions prior to 2021.2.3.0**.
 The settings deployed with the group policy object (GPO) are only enforced when the extension is used for the first time. This means that the settings will not be enforced and changed if you modify the settings in the GPO and the extension has already been used by a user at least once.
 {% endsnippet %}
 
-## Configuring extensions by policy on Windows 10 for Chrome
+## Configuring extensions by policy on Windows 10/11 for Chrome or Edge
 
 1. Open ***Group Policy Management*** (***Start – Run – GPMC.msc***).
 1. Right-click on the GPO list and select ***New***.
