@@ -8,10 +8,7 @@ With the Microsoft SQL Server data source, {{ en.RDM }} uses the power of Micros
 
 Supported Microsoft SQL Server:  
 
-* 2019 on Windows and Linux (all editions) 
-* 2017 on Windows and Linux (all editions) 
-* 2016 Service Pack 2 
-* 2014 Service Pack 3 
+* Microsoft SQL Server 2016/[2017](https://www.microsoft.com/en-ca/sql-server/sql-server-2017-editions)/[2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019)/[2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022) (including Express editions)
 
 The following features are also supported:  
 
