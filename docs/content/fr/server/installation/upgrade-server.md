@@ -11,7 +11,7 @@ Veuillez installer la {{ fr.DVLSCONSOLE }} selon la version souhaité disponible
 Depuis la version 2019.x de {{ fr.DVLS }}, la plupart fonctionnalités sont gérables seulement à partir de l'interface Web. Veuillez consulter la section [Paramètres de {{ fr.DVLS }}](/fr/server/web-interface/administration/configuration/server-settings/). 
 {% endsnippet %}
  
-Il est fortement recommandé, comme étant une méthode efficace, de déployer une nouvelle instance de {{ fr.DVLS }} dans un environnement de test afin de vérifier sa stabilité avant de déployer une nouvelle version dans votre environnement de production. Si vous ne possédez pas un tel environnement de test, alors nous recommandons un déploiement limité pour garantir une implémentation graduelle satisfaisante avant d'impacter entièrement votre organisation.  
+Il est fortement recommandé, comme étant une méthode efficace, de déployer une nouvelle instance de {{ fr.DVLS }} dans un [environnement de test](/kb/devolutions-server/how-to-articles/create-server-staging-instance/) afin de vérifier sa stabilité avant de déployer une nouvelle version dans votre environnement de production. Si vous ne possédez pas un tel environnement de test, alors nous recommandons un déploiement limité pour garantir une implémentation graduelle satisfaisante avant d'impacter entièrement votre organisation.  
 
 {% snippet icon.badgeNotice %} 
 Les étapes suivantes s'adressent à une installation simple ou la [topologie](/fr/server/overview/topologies/) de base. Si votre environnement diffère de ces topologies, veuillez nous contacter et nous vous guiderons sur comment mettre à {{ fr.DVLS }}. 
@@ -20,7 +20,7 @@ Les étapes suivantes s'adressent à une installation simple ou la [topologie](/
 ## Étapes 
 
 {% snippet icon.badgeCaution %} 
-Nous vous recommandons fortement de tester le processus de mise à niveau dans un environnement intermédiaire/de test avant de mettre à niveau votre instance de production. 
+Nous vous recommandons fortement de tester le processus de mise à niveau dans un [environnement intermédiaire/de test](/kb/devolutions-server/how-to-articles/create-server-staging-instance/) avant de mettre à niveau votre instance de production. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
@@ -79,6 +79,7 @@ Notre service d'assistance reçoit de plus en plus de demandes d'assistance urge
 Si vous avez sélectionné l'option Sécurité intégrée pour la communication vers la base de données dans l'onglet ***Base de données***, veuillez vous assurer que les comptes configurés dans le pool d'application IIS et le planificateur possèdent les droits requis sur la base de données suite à la mise à jour. 
 {% endsnippet %}
  
-* Demander à un utilisateur de mettre à niveau son poste de travail avec la version de {{ fr.RDM }} prise en charge par la version {{ fr.DVLS }} et de tester la connectivité avec l'instance de serveur.  
+* Demander à un utilisateur de mettre à niveau son poste de travail avec la version de {{ fr.RDM }} prise en charge par la version {{ fr.DVLS }} et de tester la connectivité avec l'instance de serveur.
+* Sur toutes les machines exécutant des scripts PowerShell qui se servent du module Devolutions.PowerShell, mettre à jour le module selon la version supporté par la version {{ fr.DVLS }}.
 * Lorsque vous êtes satisfait de vos tests, demander au reste du personnel de passer à la même version de {{ fr.RDM }}.  
 * Mettre à jour la version maximale/minimale de {{ fr.RDM }} dans ***Administration – Paramètres du système – Gestion de version***.  
