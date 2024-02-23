@@ -11,7 +11,7 @@ Install the proper version of {{ en.DVLSCONSOLE }} before upgrading the {{ en.DV
 Since {{ en.DVLS }} 2019.X, most administrative features can only be managed from the web interface. Please see ***Administration – {{ en.DVLS }} Settings***. 
 {% endsnippet %}
  
-It is highly recommended as a best practice to first deploy the new version of {{ en.DVLS }} to a staging instance and verify its stability before deploying it to your whole organization. If you do not have a staging instance we then recommend a limited roll-out to ensure the work flow is supported to your satisfaction prior to impacting your whole team.  
+It is highly recommended as a best practice to first deploy the new version of {{ en.DVLS }} to a [staging instance](/kb/devolutions-server/how-to-articles/create-server-staging-instance/) and verify its stability before deploying it to your whole organization. If you do not have a staging instance we then recommend a limited roll-out to ensure the work flow is supported to your satisfaction prior to impacting your whole team.  
 
 {% snippet icon.badgeNotice %} 
 These steps are intended to be achieved on a single server or a basic [topology](/server/overview/topologies/). If your environment differs from these topologies, please contact us and we will guide you on how to upgrade {{ en.DVLS }}. 
@@ -19,7 +19,7 @@ These steps are intended to be achieved on a single server or a basic [topology]
  
 ## Workflow 
 {% snippet icon.badgeCaution %} 
-We highly recommend to test the upgrade process in a staging/test environment before upgrading your production instance. 
+We highly recommend to test the upgrade process in a [staging/test environment](/kb/devolutions-server/how-to-articles/create-server-staging-instance/) before upgrading your production instance. 
 {% endsnippet %}
  
 {% snippet icon.badgeCaution %} 
@@ -80,6 +80,7 @@ Our support department gets more and more urgent requests for assistance because
 If you have elected to use the Integrated Security for connecting to the database in the [Database](/server/management/devolutions-server-console/devolutions-server-settings/database/) tab, ensure that the IIS Application Pool Identity and Scheduler accounts have enough privileges on the database. 
 {% endsnippet %}
  
-* Have a user upgrade his workstation with the version of {{ en.RDM }} supported by the {{ en.DVLS }} version and test connectivity with the server instance. 
+* Have a user upgrade his workstation with the version of {{ en.RDM }} supported by the {{ en.DVLS }} version and test connectivity with the server instance.
+* Have computers running PowerShell scripts to update the Devolutions.PowerShell module version supported by the {{ en.DVLS }} version and test the script results.
 * When you are satisfied with your tests, have the rest of the staff upgrade to the same version of {{ en.RDM }}. 
 * Update the Maximal/Minimal version of {{ en.RDM }} in ***Administration – System Settings – Version Management***. 
