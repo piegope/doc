@@ -3,8 +3,8 @@ eleventyComputed:
   title: Preferences
   description: In the Preferences section, modify the user web interface elements.
 ---
-In the ***Preferences*** section located in the account menu, modify the user web interface elements.  
-![Account preferences](https://webdevolutions.azureedge.net/docs/en/server/DVLS4002_2024_1.jpg)
+In the ***Preferences*** section located in the account menu, modify the user web interface elements.
+![Account preferences](https://cdnweb.devolutions.net/docs/en/server/DVLS4002_2024_1.jpg)
 ## General
 | Option                                  | Description                                                                                 |
 |-----------------------------------------|---------------------------------------------------------------------------------------------|
