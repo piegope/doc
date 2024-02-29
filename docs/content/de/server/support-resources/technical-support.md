@@ -19,4 +19,4 @@ Abonnenten eines bezahlten Supportplans erhalten eine Plan-ID. Geben Sie diese I
 
 Weitere Informationen finden Sie in unseren [Support-Richtlinien](https://cdn.devolutions.net/documents/legal/eula/support-level-addendum-de.pdf).
 
-![!!Support4001](https://webdevolutions.azureedge.net/docs/de/rdm/windows/Support4001.png)
+![!!Support4001](https://cdnweb.devolutions.net/docs/de/rdm/windows/Support4001.png)

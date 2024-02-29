@@ -20,4 +20,4 @@ Subscribers of a paid support plan have received a plan ID. You should send your
 
 Please consult our [Support Policy](https://cdn.devolutions.net/documents/legal/eula/support-level-addendum-en.pdf) for more information.
 
-![!!Support4001](https://webdevolutions.azureedge.net/docs/en/server/Support4001.png)
+![!!Support4001](https://cdnweb.devolutions.net/docs/en/server/Support4001.png)
