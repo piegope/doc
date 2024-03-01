@@ -4,7 +4,7 @@ eleventyComputed:
   description: In {{ en.RDM }}, click on File – {{ en.DA }} – Sign-in to connect to your {{ en.DA }} if you are not already signed in.
 ---
 {% snippet icon.badgeNotice %}
-For stability reasons, in large installation bases, the latest official release is not available to the {{ en.CIS }} for an undetermined period while we ensure that no major issues are present. We recommend using this time with your organization to perform integration tests on a few workstations before upgrading your entire team.
+For stability reasons, the latest version of RDM is made available with a small delay for custom installers to ensure that no major issues are present. We recommend using this time with your organization to perform integration tests on a few workstations before upgrading your entire team.
 {% endsnippet %}
 
 ## Create an installation package
