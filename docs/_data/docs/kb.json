@@ -1682,9 +1682,6 @@
                   "url": "/kb/hub-business/how-to-articles/creating-shared-one-time-password-entry/"
                 },
                 {
-                  "url": "/kb/hub-business/how-to-articles/export-data-hub-business-powershell/"
-                },
-                {
                   "url": "/kb/hub-business/how-to-articles/import-csv-files-pasword-hub-importer/"
                 },
                 {
@@ -1746,9 +1743,6 @@
             {
               "label": "howToArticles",
               "items": [
-                {
-                  "url": "/kb/hub-personal/how-to-articles/import-export-data-hub-personal/"
-                },
                 {
                   "url": "/kb/hub-personal/how-to-articles/integrate-hub-personal-rdm/"
                 },
