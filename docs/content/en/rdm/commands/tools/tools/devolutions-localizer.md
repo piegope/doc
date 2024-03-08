@@ -44,7 +44,7 @@ Download the [{{ en.DLOCALIZER }}](https://devolutions.net/localizer) translatio
 
 1. Type the translated text in the right box.
    {% snippet icon.badgeInfo %}
-   A ***Bing*** button is available to assist you in translating your text.
+   A ***Bing*** button is available to assist you in translating your text. The Bing API limits the number of calls per hour, if it fails, try again in an hour or so.
    {% endsnippet %}
 
    ![Translation](https://cdnweb.devolutions.net/docs/en/rdm/windows/clip11554.png)
