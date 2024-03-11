@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Android support limitation
+  title: Android life cycle policy
   description: Devolutions will ensure compatibility of {{ en.RDM }} with the current version of the Android operating system (OS) and up to three major versions that directly precede it.
 ---
 Devolutions will ensure compatibility of {{ en.RDM }} with the current version of the Android operating system (OS) and up to three major versions that directly precede it (e.g., from Android 14 to Android 11).
