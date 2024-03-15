@@ -1,8 +1,8 @@
 ---
 eleventyComputed:
-  title: No team license found in {{ en.RDM }} with {{ en.DHUBB }}
+  title: No Enterprise license found in {{ en.RDM }} with {{ en.DHUBB }}
 ---
-With a valid {{ en.RDM }} license, you get prompt with the error message ***No Team License Found*** in version 2022.3.X linked with a {{ en.DHUBB }} data source.
+With a valid {{ en.RDM }} license, you get prompt with the error message ***No Enterprise License Found*** in version 2022.3.X linked with a {{ en.DHUBB }} data source.
 
 {% snippet icon.badgeInfo %}
 To learn more about this major improvement, read our latest Devolutions blog [{{ en.RDM }} Free and Enterprise are now unified](https://blog.devolutions.net/2022/10/news-remote-desktop-manager-is-changing-for-the-better/).
