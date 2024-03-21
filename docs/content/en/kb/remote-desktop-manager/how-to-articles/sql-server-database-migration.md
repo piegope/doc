@@ -76,6 +76,11 @@ We strongly suggest you clean up your database prior to the move.
 1. Follow the wizard steps.
 1. You are now ready to create the new data source in [{{ en.RDM }}](#connect-to-remote-desktop-manager) or update the [{{ en.DVLSCONSOLE }}](#connect-to-devolutions-server).
 
+### PR FORMAT TO YOUR LIKING###
+(Optional) If you're migrating a Devolutions Server, you need to run this query after the import.
+UPDATE dbo.ConnectionHistory SET Version = 0x0000000000000000; UPDATE dbo.DatabaseInfo SET ConnectionCacheID = NEWID(), IntelligentCacheID = NEWID();
+
+
 ### Solution 3
 {% snippet icon.badgeCaution %}
 This solution is not supported for a local to local migration. Here is the error message from SSMS when trying to:
