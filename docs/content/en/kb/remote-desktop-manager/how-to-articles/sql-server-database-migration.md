@@ -75,6 +75,10 @@ We strongly suggest you clean up your database prior to the move.
 1. Right-click on the ***Databases (node) – Import Data-tier Application…***.
 1. Follow the wizard steps.
 1. You are now ready to create the new data source in [{{ en.RDM }}](#connect-to-remote-desktop-manager) or update the [{{ en.DVLSCONSOLE }}](#connect-to-devolutions-server).
+   {% snippet icon.badgeCaution %}
+   In the case of a SQL data source, automatic detection already exists when exporting and the query is launched automatically, but not in {{ en.DVLS }}. Therefore, if you are migrating a {{ en.DVLS }}, you also need to run this query after the import: 
+`UPDATE dbo.ConnectionHistory SET Version = 0x0000000000000000; UPDATE dbo.DatabaseInfo SET ConnectionCacheID = NEWID(), IntelligentCacheID = NEWID();`
+   {% endsnippet %}
 
 ### Solution 3
 {% snippet icon.badgeCaution %}
