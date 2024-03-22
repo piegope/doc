@@ -1,8 +1,9 @@
 ---
 eleventyComputed:
   title: Azure Portal configuration guide Microsoft Authentication
+  description: Configure Azure and {{ en.DVLS }} properly to use Microsoft authentication.
 ---
-The following topic contains the procedure to configure Azure and {{ en.DVLS }} properly to use Microsoft authentication.
+Configure Azure and {{ en.DVLS }} properly to use Microsoft authentication by following the instructions below.
 ## Requirements
 * {{ en.DVLS }} Scheduler installed and running.
 * A Microsoft Azure AD subscription.
@@ -25,13 +26,10 @@ The following topic contains the procedure to configure Azure and {{ en.DVLS }} 
 1. Create the application using the ***New registration*** button.
 ![New registration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4404.png)
 1. Enter a significant name for the application. This name will not be used outside of the Azure Portal.
-
 1. Set which ***Supported account types*** are allowed to connect. Usually, selecting ***Accounts in this organizational directory only*** is more than enough for your Azure AD authentication.
-
 1. Set the ***Redirect URI*** to ***Web*** and enter a valid URL, the URL to reach your {{ en.DVLS }} instance, with **/api/external-provider-response** at the end.
 ![Redirect URI](https://cdnweb.devolutions.net/docs/docs_en_kb_KB5010.png)
 1. Click on the ***Register*** button.
-
 1. Click on the ***Copy to clipboard*** button next to the ***Application (client) ID***.
 ![Copy the Application ID](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4407.png)
 1. Paste the ***Application (client) ID*** in the ***Client ID*** field of the web application section in the {{ en.DVLS }} ***Microsoft Authentication*** configuration page.
@@ -39,7 +37,6 @@ The following topic contains the procedure to configure Azure and {{ en.DVLS }} 
 1. Select the ***Authentication*** tab of the Azure Web application and enable the ***ID tokens*** under the ***Implicit grant and hybrid flows*** section.
 ![Enable ID tokens](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4418.png)
 1. Click ***Save***.
-
 1. Select the ***Certificates & secrets*** tab and click ***New client secret***.
 ![Certificates & secrets – New client secret](https://cdnweb.devolutions.net/docs/docs_en_kb_KB5011.png)
 1. Enter a description and set an expiry date. Then, click on the ***Add*** button.
@@ -61,7 +58,6 @@ The following topic contains the procedure to configure Azure and {{ en.DVLS }} 
 1. Select the ***User.Read*** permission and delete it using the ***Remove permission*** button.
 ![Remove the User.Read permission](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4432.png)
 1. Confirm the removal by clicking ***Yes, remove*** since this permission is not required for the sync application.
-
 1. If the ***Status*** of the ***User.Read.All*** and ***Group.Read.All*** permissions is ***Not granted***, an administrator must grant consent.
    {% snippet icon.shieldCaution %}
    It may be possible that the newly added permissions require an Azure administrator to consent. If the account used to create the application is already an administrator in Azure, click on ***Grant admin consent for &lt;your organization&gt;***.
@@ -69,8 +65,7 @@ The following topic contains the procedure to configure Azure and {{ en.DVLS }} 
 
    ![Grant admin consent for your organization](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8010.png)
 
-1. If you have configured your Entra ID application to use ID Tokens, make you enable the "Use only the TokenID for authentication" setting.
-
+1. If you have configured your Entra ID application to use ID tokens, enable the ***Use only the TokenID for authentication*** setting.
 1. Your configuration page should look similar to the screenshot below. Click ***Save***.
 ![Save your configuration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4981.png)
 
