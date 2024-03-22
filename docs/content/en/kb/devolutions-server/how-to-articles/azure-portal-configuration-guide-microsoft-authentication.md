@@ -68,6 +68,9 @@ The following topic contains the procedure to configure Azure and {{ en.DVLS }} 
    {% endsnippet %}
 
    ![Grant admin consent for your organization](https://cdnweb.devolutions.net/docs/docs_en_kb_KB8010.png)
+
+1. If you have configured your Entra ID application to use ID Tokens, make you enable the "Use only the TokenID for authentication" setting.
+
 1. Your configuration page should look similar to the screenshot below. Click ***Save***.
 ![Save your configuration](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4981.png)
 
