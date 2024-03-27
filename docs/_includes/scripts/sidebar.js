@@ -114,7 +114,16 @@ const dwdLogosDarkTheme = {
           }
         });
       }     
-    };
+    }
+    else {
+      if (images.length > 0 ) {
+        Array.from(images).forEach(item => {
+          if (item.src.includes("white-shadow")) {
+            item.src = item.src.replace("white-shadow", "color-shadow");
+          }
+        });
+      }     
+    }
   }
 };
 
