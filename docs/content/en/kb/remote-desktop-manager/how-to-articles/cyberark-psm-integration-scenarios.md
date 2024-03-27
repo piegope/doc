@@ -51,7 +51,7 @@ The fields are mapped like this:
 | Columns                              | Description                                  |
 |--------------------------------------|----------------------------------------------|
 | Name                                 | Name of the entry                            |
-| ConnectionType                       | Always “CyberarkPSM”                         |
+| ConnectionType                       | “CyberArk PSM Connection”                         |
 | CyberArkPSM\Component                | For RDP: PSM-RDP (several options available) |
 | CyberArkPSM\CyberArkJumpConnectionID | ID of the Cyberark PSM Server entry          |
 | CyberArkPSM\PrivilegedAccount        | Privileged account to use                    |
