@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
   const markdownContainer = document.querySelectorAll('.markdown-container')[0];
   const navItems = document.querySelectorAll('.nav-item');
@@ -17,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             globalTab.init();
             window.history.pushState({html: newContent.innerHTML, pageTitle: document.title, sidebar: sidebar.innerHTML}, '', url);
             window.scrollTo(0, 0);
+            dwdLogosDarkTheme.init();
           }
       })
       .catch(error => console.error('Error fetching content:', error));
@@ -101,6 +103,22 @@ const sidebarActive = {
   }
 };
 
+const dwdLogosDarkTheme = {
+  init: function () {
+    const images = document.querySelectorAll('img');
+    if (document.body.classList.contains('dark-theme')) {
+      if (images.length > 0 ) {
+        Array.from(images).forEach(item => {
+          if (item.src.includes("color-shadow")) {
+            item.src = item.src.replace("color-shadow", "white-shadow");
+          }
+        });
+      }     
+    };
+  }
+};
+
 (function () {
   sidebarActive.init();
+  dwdLogosDarkTheme.init();
 })();
