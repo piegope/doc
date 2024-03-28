@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             globalTab.init();
             window.history.pushState({html: newContent.innerHTML, pageTitle: document.title, sidebar: sidebar.innerHTML}, '', url);
             window.scrollTo(0, 0);
+            
             dwdLogosDarkTheme.init();
           }
       })
