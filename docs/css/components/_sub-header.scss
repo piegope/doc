@@ -142,10 +142,11 @@
     }
     .dwd-rdm-icons {
       flex-shrink: 0;
+      display: flex; 
       .sub-header-icons {
         padding: 5px;
         svg {
-          fill: #000;
+          fill: var(--primary-text);
 
         }
         &.active {
