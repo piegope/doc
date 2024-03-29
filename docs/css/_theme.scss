@@ -49,15 +49,15 @@ body {
   --primary-text-lighter: rgba(255,255,255,0.6);
   --primary-text-lighter-hover: rgba(255,255,255,0.87);
   --background-text: #ffffff;
-  --background-color: #000000; // Dark background
+  --background-color: #1A1A1A; // Dark background
   --background-light: #202020;
-  --background-shaded: #212121;
+  --background-shaded: #252525;
   --background-shadow: rgba(255,255,255,0.46);
   --background-darker-shadow: rgba(255,255,255,0.35);
   --border-color: #5f5f5f;
-  --bg-caution: #b59f3b;
-  --bg-info: #4d96ff;
-  --bg-notice: #6c8e5e;
-  --bg-warning: #d46a6a;
+  --bg-caution: #fbd10040;
+  --bg-info: #3aa3ff40;
+  --bg-notice: #6ab93440;
+  --bg-warning: #f2000040;
   // Add or adjust any other variables for dark theme
 }
