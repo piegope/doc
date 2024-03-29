@@ -35,7 +35,7 @@
           </div>  
         </div>
         <button id="theme-button" class="px-1.5 uppercase hover:text-white" aria-label="Switch theme">
-          {{ icons.dark | safe }}
+          <span id="dark-icon" style="display: none;">{{ icons.dark | safe }}</span><span id="light-icon" style="display: none;">{{ icons.light | safe }}</span>
         </button>
       </div>
     </div>
