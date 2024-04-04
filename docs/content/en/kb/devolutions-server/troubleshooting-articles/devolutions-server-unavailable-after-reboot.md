@@ -11,5 +11,7 @@ An exception occurred in the service when handling the control request."
 ### Solution
 Execute the commands below to configure the {{ en.DVLS }} scheduler service and W3SVC (integral for IIS functionality) to depend on SQL Server. This adjustment ensures they will initiate their startup process only after SQL Server has fully started.
 
-* {{ en.DVLS }} scheduler service: `sc config DevolutionsSchedulerServiceDVLS depend=MSSQLSERVER`
-* W3SVC: `sc config W3SVC depend=MSSQLSERVER`
+* {{ en.DVLS }} scheduler service: `sc config <Devolutions Scheduler Service Name> depend= "<your SQL Server Instance service>"`
+* W3SVC: `sc config W3SVC depend= "<your SQL Server Instance service>"`
+
+To clear dependencies of services: `sc config <service name> depend= ""`
