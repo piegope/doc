@@ -27,7 +27,7 @@ Here is a familiar scenario: your team has been using {{ en.RDM }} for months or
 ![Version management](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6164.png)
 
 {% snippet icon.badgeHelp %}
-For more information on license and version management, see [Licenses](/rdm/windows/commands/administration/management/licenses/) and [Version Management](/rdm/windows/commands/administration/settings/system-settings/application/version-management/) respectively.
+For more information on license and version management, see [Licenses](/rdm/windows/commands/administration/management/licenses/) respectively [Version Management](/rdm/commands/administration/settings/system-settings/version-management/).
 {% endsnippet %}
 
 ## System Settings
