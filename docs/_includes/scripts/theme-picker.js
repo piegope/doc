@@ -1,7 +1,7 @@
 document.getElementById('theme-button').addEventListener('click', () => {
-    document.body.classList.toggle('dark-theme');
-    if (document.body.classList.contains('dark-theme')) {
-      localStorage.setItem('theme', 'dark-theme');
+    document.body.classList.toggle('dark');
+    if (document.body.classList.contains('dark')) {
+      localStorage.setItem('theme', 'dark');
       document.getElementById('dark-icon').style.display = 'none';
       document.getElementById('light-icon').style.display = 'block';
     } else {

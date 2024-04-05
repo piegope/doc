@@ -107,7 +107,7 @@ const sidebarActive = {
 const dwdLogosDarkTheme = {
   init: function () {
     const images = document.querySelectorAll('img');
-    if (document.body.classList.contains('dark-theme')) {
+    if (document.body.classList.contains('dark')) {
       if (images.length > 0 ) {
         Array.from(images).forEach(item => {
           if (item.src.includes("color-shadow")) {
