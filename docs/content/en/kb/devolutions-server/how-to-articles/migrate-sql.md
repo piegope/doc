@@ -2,6 +2,9 @@
 eleventyComputed:
   title: Migrate SQL server to {{ en.DVLS }}
   description: "{{ en.DVLSCONSOLE }} includes a ***Migrate SQL Data Source*** wizard to ease transitions from Microsoft SQL Server (MSSQL), including Azure, to {{ en.DVLS }}."
+
+https://www.youtube.com/watch?v=JmoEOMkp-QY
+  
 ---
 {{ en.DVLSCONSOLE }} includes a ***Migrate SQL Data Source*** wizard to ease transitions from Microsoft SQL Server (MSSQL), including Azure, to {{ en.DVLS }}. When operating an {{ en.RDM }} SQL advanced data source, the recommendation is to use a security provider for additional encryption of data. {{ en.DVLS }} does not support security providers, but has equivalent protection via [encryption keys](/kb/devolutions-server/how-to-articles/manage-encryption-keys/) stored on the IIS web host for {{ en.DVLS }}.
 
