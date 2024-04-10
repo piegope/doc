@@ -8,8 +8,15 @@ Register your {{ en.DVLS }} license in the {{ en.DVLS }} web interface.
 
 1. In the {{ en.DVLS }} web interface, go to ***Administration – Licenses***.
 ![Administration – Licenses](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2101.png)
+
+***DOWNLOAD FOR NEW IMAGES: https://mega.nz/folder/t3xAQQCA#A6IpLKZt058gxSkIqiQGJw
+**** REPLACE WITH 1.PNG
+
 1. Select ***Add***.
 ![Administration – Licenses – Add](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2102.png)
+
+**** REPLACE WITH 2.PNG
+
 1. Enter the license or import the license file, then click ***Add***.
 
    {% snippet icon.badgeInfo %}
@@ -17,6 +24,8 @@ Register your {{ en.DVLS }} license in the {{ en.DVLS }} web interface.
    {% endsnippet %}
 
    ![License window](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2103.png)
+
+   **** REPLACE WITH 3.PNG
 
 ### Offline registration
 
