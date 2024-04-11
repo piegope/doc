@@ -3,7 +3,7 @@ eleventyComputed:
   title: SQL Server connection timeout
   description: Connection timouts with a SQL Server can take many forms.
 ---
-Connection timouts with a SQL Server can take many forms. Here are some of the most common:
+Connection timeouts with a SQL Server can take many forms. Here are some of the most common:
 
 `System.Data.SqlClient.SqlException : Timeout expired. The timeout period elapsed prior to completion of the operation or the server is not responding.`
 
