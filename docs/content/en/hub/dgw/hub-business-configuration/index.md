@@ -11,15 +11,14 @@ Every {{ en.DHUBB }} license comes with a free {{ en.DGW }} license that support
 {% endsnippet %}
 
 {% snippet icon.badgeCaution %}
-If your clients fail to connect with {{ en.DGW }}, ensure the certificate contains the entire chain. This certificate chain includes any intermediate certificates. For example:
-Root Certificate Authority – Secure Certificate Authority – Purchased XYZ Certificate
+If your clients fail to connect with {{ en.DGW }}, ensure the certificate contains the entire chain. This certificate chain includes any intermediate certificates. For example: Root Certificate Authority – Secure (Intermediate) Certificate Authority – Purchased XYZ Certificate
 {% endsnippet %}  
 
 ## Steps for installing manually
 The following instructions explain how to manually install {{ en.DGW }} through {{ en.DHUBB }}.
 
 {% snippet icon.badgeCaution %}
-This method only works for Windows.
+As the installer is an MSI file, this method only works on Windows.
 {% endsnippet %}
 
 1. Log in with an administrator {{ en.DHUBB }} account.
@@ -29,7 +28,7 @@ This method only works for Windows.
 ![{{ en.DGW }}](https://cdnweb.devolutions.net/docs/HUBB0006_2024_1.png)
 1. Click on the ***More*** button in the top right.  
 ![More button](https://cdnweb.devolutions.net/docs/HUBB0007_2024_1.png)
-1. Click on ***Download public key***. This key is unique to the {{ en.DHUBB }} account. It is automatically renamed to *provisioner.pem*.  
+1. Click on ***Download public key***. This key is unique to the {{ en.DHUBB }} account. It is automatically renamed to *provisioner.pem*. Keep track of where you saved this key, as you will need it later.
 ![Gateway public key](https://cdnweb.devolutions.net/docs/HUBB0009_2024_1.png)
 1. Select ***Download MSI*** from the dropdown.  
 ![Download MSI](https://cdnweb.devolutions.net/docs/HUBB0008_2024_1.png)
@@ -42,11 +41,14 @@ This method only works for Windows.
 1. Once the desired installation path is selected, click ***Next***.
 ![Destination Folder](https://cdnweb.devolutions.net/docs/HUBB0011_2024_1.png)
 1. Click ***Next***.
+   {% snippet icon.badgeInfo %}
+   The additional options are for the {{ en.DGW }} Standalone web interface and ngrok integration, both of which are not needed for {{ en.DHUB }}.
+   {% endsnippet %}
 ![Configure the Gateway installation](https://cdnweb.devolutions.net/docs/HUBB0012_2024_1.png)
-1. Change the ***Ports*** to the desired value and click ***Next***.  
+1. Change the ***Ports*** to the desired value and click ***Next***.
 ![Listeners](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png)
    {% snippet icon.badgeInfo %}
-   HTTP(S) and TCP default ports are 7171 and 8181 respectively, but can be changed. Additionally, if a reverse proxy is not used, the ***HTTP Listener*** should have the same port as the ***Access URI***.
+   HTTP(S) and TCP default ports are 7171 and 8181, respectively, but can be changed. Additionally, if a reverse proxy is not used, the ***HTTP Listener*** should have the same port as the ***Access URI***.
    {% endsnippet %}
 1. Input the {{ en.DHUBB }} access URI and click ***Next***.
 ![Access URI](https://cdnweb.devolutions.net/docs/HUBB0014_2024_1.png)
@@ -61,8 +63,11 @@ This method only works for Windows.
 1. Click ***Finish*** when the setup is complete.  
 ![Finish button](https://cdnweb.devolutions.net/docs/HUBB0019_2024_1.png)
 1. Go back to the ***Administration*** – ***{{ en.DGW }}*** page in {{ en.DHUBB }}.
-1. Input the correct information.  
+1. Input the correct information.
 ![Information fields](https://cdnweb.devolutions.net/docs/HUBB0020_2024_1.png)
+   {% snippet icon.badgeInfo %}
+   Once the {{ en.DGW }} URL is entered, click the ***Auto-Detect*** button next to the TCP Hostname to fill in the value automatically.
+   {% endsnippet %}
 1. By checking the ***Default*** box, this {{ en.DGW }} will be the one selected if none are specified or if ***Default*** is chosen when connecting.  
 ![Default option](https://cdnweb.devolutions.net/docs/HUBB0021_2024_1.png)
 1. Make certain the gateway can be reached by clicking ***Test Connection***.  
