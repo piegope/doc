@@ -36,11 +36,14 @@ As the installer is an MSI file, this method only works on Windows.
    {% snippet icon.badgeInfo %}
    The installer should be run on the server hosting {{ en.DGW }}.
    {% endsnippet %}
-1. Click ***Next*** on the Gateway Welcome screen.
+1. Click ***Next***.
 ![Setup Wizard](https://cdnweb.devolutions.net/docs/HUBB0010_2024_1.png)
 1. Once the desired installation path is selected, click ***Next***.
 ![Destination Folder](https://cdnweb.devolutions.net/docs/HUBB0011_2024_1.png)
-1. Click ***Next***, as the following additional options are for the Gateway Standalone web interface and ngrok integration, both of which are not needed for Hub. 
+1. Click ***Next***.
+   {% snippet icon.badgeInfo %}
+   The additional options are for the {{ en.DGW }} Standalone web interface and ngrok integration, both of which are not needed for {{ en.DHUB }}.
+   {% endsnippet %}
 ![Configure the Gateway installation](https://cdnweb.devolutions.net/docs/HUBB0012_2024_1.png)
 1. Change the ***Ports*** to the desired value and click ***Next***.
 ![Listeners](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png)
@@ -60,8 +63,11 @@ As the installer is an MSI file, this method only works on Windows.
 1. Click ***Finish*** when the setup is complete.  
 ![Finish button](https://cdnweb.devolutions.net/docs/HUBB0019_2024_1.png)
 1. Go back to the ***Administration*** – ***{{ en.DGW }}*** page in {{ en.DHUBB }}.
-1. Input the correct information. Once you enter the Devolutions Gateway URL, you can click the ***Auto-Detect*** button next to the TCP Hostname to fill in the value automatically.
+1. Input the correct information.
 ![Information fields](https://cdnweb.devolutions.net/docs/HUBB0020_2024_1.png)
+   {% snippet icon.badgeInfo %}
+   Once the {{ en.DGW }} URL is entered, click the ***Auto-Detect*** button next to the TCP Hostname to fill in the value automatically.
+   {% endsnippet %}
 1. By checking the ***Default*** box, this {{ en.DGW }} will be the one selected if none are specified or if ***Default*** is chosen when connecting.  
 ![Default option](https://cdnweb.devolutions.net/docs/HUBB0021_2024_1.png)
 1. Make certain the gateway can be reached by clicking ***Test Connection***.  
