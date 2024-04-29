@@ -23,8 +23,7 @@ Learn more about the [CyberArk MFA delimiter option](/kb/remote-desktop-manager/
    The following is what your ***Web services URL*** will be, depending on your CyberArk subscription:
    * ***SelfHosted***: Short URL
    * ***PrivilegeCloud***: Short URL if the URL does not end in "cyberark.cloud"
-   * ***PrivilegeCloud***: /PrivilegeCloud if the URL ends in "cyberark.cloud"
-   * ***PrivilegeCloud ISSPS***: /privilegecloud
+   * ***PrivilegeCloud***: /privilegecloud if the URL ends in "cyberark.cloud"
    {% endsnippet %}
 
 4. Enter a ***Virtual directory***. This field is either /privilegecloud or empty.
