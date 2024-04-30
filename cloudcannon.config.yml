@@ -28,6 +28,8 @@ _inputs:
     type: array
     options:
       structures: _structures.sidebarsItem
+  trimTopLeft:
+    hidden: true
 
 _structures:
   sidebarsGroup:
@@ -52,12 +54,14 @@ _snippets:
     inline: false
     preview:
       text: Snippet
+      subtext:
+        - content
     definitions:
       shortcode_name: snippet
-      content_key: inner_text
+      content_key: content
       positional_args:
         - editor_key: snippet_type
           type: string
     _inputs:
-      inner_text:
+      content:
         type: markdown
