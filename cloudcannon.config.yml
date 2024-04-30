@@ -1,4 +1,14 @@
 collections_config:
+  enTopics:
+    name: Topics EN
+    path: 'content/en'
+    schemas:
+      default:
+        path: src/_schemas/topic.md
+    _enabled_editors:
+      - content
+      - visual
+    output: true
   data:
     path: _data
     schemas:
