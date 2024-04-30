@@ -41,3 +41,6 @@ _structures:
           label:
           url:
           items:
+
+_snippets_imports:
+  eleventy_liquid: true
