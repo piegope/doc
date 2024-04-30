@@ -30,6 +30,8 @@ _inputs:
       structures: _structures.sidebarsItem
   trimTopLeft:
     hidden: true
+  trim_top_left:
+    hidden: true
 
 _structures:
   sidebarsGroup:
@@ -55,7 +57,7 @@ _snippets:
     preview:
       text: Snippet
       subtext:
-        - content
+        - key: content
     definitions:
       shortcode_name: snippet
       content_key: content
