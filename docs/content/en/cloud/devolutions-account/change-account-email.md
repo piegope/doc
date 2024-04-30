@@ -3,7 +3,7 @@ eleventyComputed:
   title: Change an account email
 ---
 {% snippet "icon.shieldWarning" %}
-Lorem Ipsum **dolor sit amet** {{ en.DA }}.
+Lorem Ipsum **dolor sit amet** {{ locale.en.label.blog }}.
 {% endsnippet %}
 
 {% snippet icon.shieldWarning %}
