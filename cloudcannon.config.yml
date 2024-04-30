@@ -28,9 +28,13 @@ _inputs:
     type: array
     options:
       structures: _structures.sidebarsItem
-  trimTopLeft:
-    hidden: true
   trim_top_left:
+    hidden: true
+  trim_top_right:
+    hidden: true
+  trim_bottom_left:
+    hidden: true
+  trim_bottom_right:
     hidden: true
 
 _structures:
