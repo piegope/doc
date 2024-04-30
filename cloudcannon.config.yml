@@ -49,12 +49,15 @@ _snippets_imports:
 _snippets:
   eleventy_snippet:
     template: eleventy_liquid_paired_shortcode_positional_args
+    inline: false
+    preview:
+      text: Snippet
     definitions:
       shortcode_name: snippet
       content_key: inner_text
       positional_args:
         - editor_key: snippet_type
           type: string
-      _inputs:
-        inner_text:
-          type: markdown
+    _inputs:
+      inner_text:
+        type: markdown
