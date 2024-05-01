@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
   title: RDP entry general properties
-  description: The following properties can be configured when creating or editing the RDP entry.
+  description: RDP entry general properties can be configured when creating or editing the RDP entry.
 ---
 
 {% snippet icon.badgeInfo %}
