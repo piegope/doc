@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Add a website entry with the {{ en.WBEX }}
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This topic explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, see [Create an Account for a Website with the {{ en.WBEX }}](/workspace/workspace-browser-extension/remote-desktop-manager/using-workspace-browser-extension/create-account-website/) instead.
 {% endsnippet %}
 

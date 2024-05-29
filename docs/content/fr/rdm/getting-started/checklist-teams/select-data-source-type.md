@@ -4,7 +4,7 @@ eleventyComputed:
 ---
 Cette section s'adresse aux équipes qui utilisent l'édition Team et ses fonctionnalités. 
 
-{% snippet icon.shieldWarning %} 
+{% snippet, "shieldWarning" %} 
 Lorsque vous choisissez une source de données qui n'est pas déployée sur site, il est important de penser à la protection des données au repos et en transit. Nous vous recommandons fortement de chiffrer vos données stockées dans des fichiers à l’aide d’une clé maîtresse ou d'utiliser un [Fournisseur de sécurité](/fr/rdm/windows/commands/administration/settings/security-providers/) pour les [Sources de données avancées](/fr/rdm/windows/data-sources/data-sources-types/advanced-data-sources/). Ainsi, vous serez la seule personne qui peut voir les données. 
 {% endsnippet %}
  
@@ -33,7 +33,7 @@ AZURE
 Base de données inaccessible aux utilisateurs finaux 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 Notes 1 et 2 
@@ -47,10 +47,10 @@ Note 1
 Comptes AD utilisés à des fins d’authentification 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
@@ -61,7 +61,7 @@ Comptes AD utilisés à des fins d’authentification
 Attribution des permissions selon l'appartenance à un groupe AD 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
@@ -75,10 +75,10 @@ Attribution des permissions selon l'appartenance à un groupe AD
 Stockage des données sur site 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
 
@@ -89,13 +89,13 @@ Stockage des données sur site
 Journaux d’activités 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 	</tr>
 	<tr>
@@ -109,7 +109,7 @@ Note 3
 Note 4 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 	</tr>
 	<tr>
@@ -117,13 +117,13 @@ Note 4
 Copie locale optionnelle des connexions 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 		<td>
-{{ icon.badgeNotice | safe }} 
+{{ icon.badgeNotice }} 
 		</td>
 	</tr>
 </table>

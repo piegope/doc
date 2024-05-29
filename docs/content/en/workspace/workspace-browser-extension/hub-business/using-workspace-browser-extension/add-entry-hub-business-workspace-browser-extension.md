@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Add a website entry in {{ en.DHUBB }} with the {{ en.WBEX }}
 ---
-{% snippet icon.badgeInfo %}
+{% snippet, "badgeInfo" %}
 This topic explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, follow the instructions in [Create an account for a website in {{ en.DHUBB }} with the {{ en.WBEX }}](/workspace/workspace-browser-extension/hub-business/using-workspace-browser-extension/create-account-website-hub-business/) instead.
 {% endsnippet %}
 
