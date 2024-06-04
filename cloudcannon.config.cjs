@@ -1,5 +1,4 @@
 module.exports = {
-  source: ".",
   _snippets_imports: {
     eleventy_liquid: {
       exclude: [
@@ -13,7 +12,7 @@ module.exports = {
   collections_config: {
     ...require("./.cloudcannon/collections/topics"),
     data: {
-      path: "docs/_data",
+      path: "_data",
       filter: {
         exclude: [
           "snippets.json"
@@ -36,6 +35,12 @@ module.exports = {
         "topicEn",
         "topicFr",
         "topicDe"
+      ]
+    },
+    {
+      heading: "Data",
+      collections: [
+        "data"
       ]
     }
   ],
@@ -106,7 +111,7 @@ module.exports = {
       type: "image",
       options: {
         paths: {
-          uploads: ".cloudcannon/previews"
+          uploads: "../.cloudcannon/previews"
         },
         accepts_mime_types: [
           "image/svg+xml"
