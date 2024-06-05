@@ -6,16 +6,11 @@ module.exports = {
       text: "Youtube",
       subtext: [
         {
-          key: "id"
+          template: "https://www.youtube.com/embed/{id}"
         }
       ],
       icon: "smart_display",
-      icon_color: "#ff0000",
-      image: [
-        {
-          template: "https://i.ytimg.com/vi_webp/{id}/maxresdefault.webp"
-        }
-      ]
+      icon_color: "#ff0000"
     },
     definitions: {
       shortcode_name: "youtube",
@@ -25,6 +20,12 @@ module.exports = {
           type: "string"
         }
       ]
+    },
+    _inputs: {
+      id: {
+        type: "string",
+        comment: "https://www.youtube.com/embed/{id} `-uz8dvo9tpE?start=75`"
+      }
     }
   }
 }
