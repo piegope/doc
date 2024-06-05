@@ -20,13 +20,18 @@ eleventyComputed:
 1. Changer les ***Ports*** à la valeur souhaitée et cliquer sur ***Suivant***.  
 ![Écouteurs](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png)
    {% snippet icon.badgeInfo %}
-   Les ports par défaut HTTP(S) et TCP sont 7171 et 8181, respectivement, mais peuvent être modifiés. De plus, si un proxy inverse n'est pas utilisé, l'***Écouteur HTTP*** devrait avoir le même port que l'***URI d'accès***.
+   Les ports par défaut HTTP(S) et TCP sont 7171 et 8181, respectivement, mais peuvent être modifiés.
    {% endsnippet %}
 1. Entrer l'***URL externe*** et cliquer sur ***Suivant***.  
 ![URI d'accès](https://cdnweb.devolutions.net/docs/HUBB0014_2024_1.png)
-1. Changer l'***Authentification*** de ***Aucune*** à ***Personnalisée***.
+* Si un certificat auto-signé ou l'option ngrok n'ont **pas** été choisis, vous serez présenté avec l'écran pour importer le certificat SSL. La ***Source du certificat*** peut être ***Externe*** (deux fichiers) ou ***Système*** (le [magasin de certificats Windows](/dgw/kb/use-windows-certificate-store/)).
+    * ***Externe*** : Les formats requis sont affichés dans la fenêtre de dialogue.
+    * ***Système*** : L'emplacement et la méthode (c'est-à-dire ***Recherche par empreinte digitale***) doivent être choisis.
+![Certificat externe](https://cdnweb.devolutions.net/docs/HUBB0015_2024_1.png)
+![Certificat système](https://cdnweb.devolutions.net/docs/DGW0010_2024_1.png)
+8. Changer l'***Authentification*** de ***Aucune*** à ***Personnalisée***.
    {% snippet icon.shieldCaution %}
-   Si un ***Utilisateur par défaut*** n'est pas créé, la page web de {{ fr.DGW_STANDALONE }} sera accessible anonymement.
+   Si un ***Utilisateur par défaut*** n'est pas créé, la page web {{ fr.DGW_STANDALONE }} sera accessible anonymement.
    {% endsnippet %}
 1. Entrer les identifiants pour l'***Utilisateur par défaut*** et cliquer sur ***Suivant***.  
 ![Utilisateur par défaut](https://cdnweb.devolutions.net/docs/DGW0008_2024_1.png)
@@ -37,7 +42,7 @@ eleventyComputed:
 1. Cliquer sur ***Terminer*** lorsque l'installation est complète.  
 ![Bouton Terminer](https://cdnweb.devolutions.net/docs/HUBB0019_2024_1.png)
    {% snippet icon.badgeInfo %}
-   Une fois installé, la page web de {{ fr.DGW_STANDALONE }} s'ouvrira automatiquement (domaine statique ngrok ou FQDN). Lire plus à ce sujet dans la section [page web](#devolutions-gateway-standalone-web-page).
+   Une fois installé, la page web {{ fr.DGW_STANDALONE }} s'ouvrira automatiquement (domaine statique ngrok ou FQDN). Lire plus à ce sujet dans la section [page web](#devolutions-gateway-standalone-web-page).
    {% endsnippet %}
 
 ### Page web de {{ fr.DGW_STANDALONE }}
@@ -53,7 +58,7 @@ Ici, vous trouverez une liste de vos sessions sur le côté gauche, et au milieu
 
 ### ngrok
 {% snippet icon.badgeInfo %}
-Activer à la fois ngrok et l'interface web désactivera l'option de générer un certificat HTTPS auto-signé car elle utilisera le certificat SSL fourni par ngrok. De plus, l'installateur n'affichera pas les options pour configurer les ports.
+Activer à la fois ngrok et l'interface web, désactivera l'option de générer un certificat HTTPS auto-signé car il utilisera le certificat SSL fourni par ngrok. De plus, l'installateur n'affichera pas les options pour configurer les ports.
 {% endsnippet %}
 
   * Utiliser ngrok et l'accès client natif nécessite un abonnement ngrok. Utiliser la version gratuite donne toujours accès à l'interface web et aux connexions RDP, SSH ou Telnet vers des points d'extrémité distants.
