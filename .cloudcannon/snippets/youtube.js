@@ -23,8 +23,8 @@ module.exports = {
     },
     _inputs: {
       id: {
-        type: "string",
-        comment: "https://www.youtube.com/embed/{id} `-uz8dvo9tpE?start=75`"
+        type: "text",
+        comment: "ex: `-uz8dvo9tpE?start=75`"
       }
     }
   }
