@@ -25,7 +25,6 @@ Les étapes ci-dessous supposent que vous avez déjà une entrée de tableau de 
 1. Sélectionner ***{{ fr.GGW }}*** sous ***Type***.
 1. Cliquer sur ***Toujours connecter***.
 1. Cliquer sur ***Mettre à jour*** pour sauvegarder.
-![VPN/tunnel/gateway](https://cdnweb.devolutions.net/docs)
 
 ### Ouvrir dans le client Web
 

@@ -25,7 +25,6 @@ The steps below assume that you already have an Active Directory dashboard entry
 1. Select ***{{ en.GGW }}*** under ***Type***.
 1. Click ***Always connect***. 
 1. Click ***Update*** to save. 
-![VPN/tunnel/gateway](https://cdnweb.devolutions.net/docs)
 
 ### Open in Web Client
 
