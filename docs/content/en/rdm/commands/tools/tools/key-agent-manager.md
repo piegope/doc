@@ -27,7 +27,7 @@ The ***SSH Key Manager (local)*** is located under ***Tools*** in the ribbon of 
 
 When creating a new ***Private Key credential entry*** in {{ en.RDM }}, you have the option of loading them automatically in your ***SSH Key Agent Manager***.  
 
-1. Select ***Add New Entry – Credential Management – Pirate Key***.   
+1. Select ***Add New Entry – Credential Management – Private Key***.   
 ![New Credential Entry – Private Key](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6252.png) 
 1. In the ***Advanced*** tab of your ***Private Key entry***, activate the option ***Automatically load to key agent***.  
 ![Private Key – Advanced Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6253.png) 
