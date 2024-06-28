@@ -7,6 +7,6 @@ eleventyComputed:
 
 ### Related topics
 
-* [Advanced Search](/rdm/windows/commands/view/panels/search/advanced/#search-tab)
+* [Advanced Search](/rdm/commands/view/view/search/advanced/#search-tab)
 * [Embedded Sessions](/rdm/windows/user-interface/content-area/embedded-sessions/)
 * [Dashboard](/rdm/windows/user-interface/content-area/dashboards/)
