@@ -7,9 +7,7 @@ module.exports = {
     }
   },
   _snippets: {
-    ...require("./.cloudcannon/snippets/snippet"),
-    ...require("./.cloudcannon/snippets/tab"),
-    ...require("./.cloudcannon/snippets/youtube")
+    ...require("./.cloudcannon/snippets/index")
   },
   collections_config: {
     ...require("./.cloudcannon/collections/topics"),
@@ -17,7 +15,7 @@ module.exports = {
       path: "_data",
       filter: {
         exclude: [
-          "snippets.json"
+          "snippets.json",
         ]
       },
       schemas: {
@@ -49,7 +47,9 @@ module.exports = {
   collections_config_override: true,
   data_config: {
     locale: true,
-    snippets: true
+    variables: true,
+    snippets: true,
+    var: true,
   },
   _editables: {
     text: {
