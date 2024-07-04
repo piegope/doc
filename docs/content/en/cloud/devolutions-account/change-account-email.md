@@ -7,7 +7,7 @@ eleventyComputed:
 For security reasons, we are no longer performing change email requests for the {{ en.DA }}.
 {% endsnippet %}
 
-To change your {{ en.DA }} email, you would need to [Create a new account](/cloud/devolutions-account/create-devolutions-account/) and transfer the data that you would like to keep. Here is a list of some of the most common data that might need to be transferred:
+To change your {{ variables.DA.en }} email, you would need to [Create a new account](/cloud/devolutions-account/create-devolutions-account/) and transfer the data that you would like to keep. Here is a list of some of the most common data that might need to be transferred:
 
 * [Serials](/cloud/portal/serials/): Manually add your Devolutions products serials you have previously purchased to your new account.
 * [Invoices](/cloud/portal/invoices/): If some invoices need to be associated with the new account, contact our [sales department](mailto:sales@devolutions.net).
