@@ -18,7 +18,7 @@ Telnet, Remote Desktop Services, VMware, VNC, SCP, X Windows, and more!
 
 {% youtube '-uz8dvo9tpE' %}
 
-## The {{ en.RDM }} ecosystem {#custom-title}
+## The {{ en.RDM }} ecosystem {#the-remote-desktop-manager-ecosystem}
 
 {{ en.RDM }} is available in two editions:
 
