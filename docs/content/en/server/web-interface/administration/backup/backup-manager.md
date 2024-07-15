@@ -8,7 +8,7 @@ The ***Backup Manager*** section allows administrators to configure the paramete
 {% snippet, "badgeInfo" %}
 * Scheduled backups are performed by the scheduler service account.
 * Manually initiated backups are executed by the application pool identity.
-* Database backups are always handled by the SQL service account. Initially, a **.zip** file is created, which is then deleted by the account that initiated the backup (either the application pool identity or the scheduler service account), leaving only the **.bak** file.
+* Database backups are always handled by the SQL service account. Initially, a **.bak** file is created, which is then deleted by the account that initiated the backup (either the application pool identity or the scheduler service account), leaving only the **.zip** file.
 {% endsnippet %}
 
 ![Administration – Backup Manager](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp2084.png)
