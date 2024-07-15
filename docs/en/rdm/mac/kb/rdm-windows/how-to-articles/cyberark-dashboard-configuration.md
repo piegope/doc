@@ -29,7 +29,7 @@ Learn more about the [CyberArk MFA delimiter option](/rdm/mac/kb/rdm-windows/kno
 4. Enter a ***Virtual directory***. This field is either /privilegecloud or empty.
 5. Select a ***Version*** in the drop-down list. This refers to the CyberArk PVWA version seen on the CyberArk authentication page.
    {% snippet, "badgeInfo" %}
-   Please note that we only support the CyberArk V12 API for now and that CyberArk version 12.1 is required.
+   Please note that we only support the CyberArk V12 API (or higher) for now and that CyberArk version 12.1 (or higher) is required.
    {% endsnippet %}
 
 6. Select the ***Authentication mode*** used to connect to the CyberArk instance (***CyberArk***, ***Windows***, ***LDAP***, ***RADIUS***, or ***SAML***).
