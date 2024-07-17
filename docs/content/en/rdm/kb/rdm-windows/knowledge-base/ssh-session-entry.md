@@ -22,7 +22,7 @@ The following properties can be configured when creating or editing the entry.
 ## General tab
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Host***        |  |
+| ***Host***        | The field contains the host name. Clicking on the ellipsis button opens the ***Computer list*** menu. Clicking on ***Default*** opens the ***Port*** menu. The ***Port generator...*** button  |
 
 ![]()
 
