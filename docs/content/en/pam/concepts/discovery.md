@@ -3,7 +3,7 @@ eleventyComputed:
   title: Discovery
   description: Discovery in Devolutions PAM refers to the capability of connecting to identity providers to list existing accounts.
 ---
-***Discovery*** in Devolutions PAM refers to the capability of connecting to identity providers to list existing accounts. An advanced feature of discovery is analyzing assigned permissions to identify if an account is considered "Privileged". Alerts are raised when new accounts are detected.
+***Discovery*** in Devolutions PAM refers to connecting an identity provider, a source of accounts, to list and import privileged accounts for management.
 
 ### Related topics
 * [Scan configurations in {{ en.DVLS }}](/pam/server/scan-configurations/)
