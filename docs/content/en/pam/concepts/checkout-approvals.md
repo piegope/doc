@@ -3,7 +3,7 @@ eleventyComputed:
   title: Check-out approvals
   description: Check-out approvals in Devolutions PAM require that another person approves the checkout of a privileged account.
 ---
-***Check-out approvals*** in Devolutions PAM require that another person approves the checkout of a privileged account. Typically, this approver is a manager; however, at Devolutions, the OpSec team performs these approvals.
+***Check-out approvals*** in Devolutions PAM require another person to approve the check-out of a privileged account. Often, this may be a manager, a team lead, or a dedicated security team that performs these approvals.
 
 ### Aliases
 * CyberArk: Dual control
