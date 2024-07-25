@@ -3,11 +3,11 @@ eleventyComputed:
   title: Check-out/Check-in
   description: In the context of privileged accounts (PAs), check-out and check-in refer to reserving a PA for a user's exclusive usage for a finite period.
 ---
-In the context of privileged accounts (PAs), ***check-out*** and ***check-in*** refer to reserving a PA for a user's exclusive usage for a finite period. It is expected that a password rotation occurs upon check-in, releasing the exclusive lock. This process can happen:
+***Check-out*** and ***check-in*** refer to reserving, or locking, a privileged account for a user's exclusive usage for a finite period. Typically, a password rotation occurs upon check-in, releasing the exclusive lock. This process can happen:
 * At the end of the checkout duration
 * Manually
-* When the session is closed in {{ en.RDM }} / {{ en.DGW }}
-In the context of Just-In-Time (JIT) access, the permissions and memberships of accounts are modified upon checkout and restored to their initial state upon check-in.
+* When the session is closed in {{ en.RDM }}
+With just-in-time (JIT) access, the group or role memberships of privileged accounts are modified upon check-out and restored to their initial state upon check-in.
 
 ### Aliases
 * CyberArk: Account retrieval
