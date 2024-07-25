@@ -6,7 +6,7 @@ eleventyComputed:
 ***Check-out*** and ***check-in*** refer to reserving, or locking, a privileged account for a user's exclusive usage for a finite period. Typically, a password rotation occurs upon check-in, releasing the exclusive lock. This process can happen:
 * At the end of the checkout duration
 * Manually
-* When the session is closed in Remote Desktop Manager
+* When the session is closed in {{ en.RDM }}
 With just-in-time (JIT) access, the group or role memberships of privileged accounts are modified upon check-out and restored to their initial state upon check-in.
 
 ### Aliases
