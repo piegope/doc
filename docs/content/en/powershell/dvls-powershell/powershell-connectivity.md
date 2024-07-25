@@ -32,11 +32,11 @@ Set-RDMCurrentDataSource $ds
 
 ## Method 2: Using {{ en.DVLS }} Cmdlets
 1. Follow the instructions in [{{ en.PS }} Core Module](/powershell/rdm-powershell/rdm-powershell-core-module/) to properly install the module.
-1. The script expects that your {{ en.DVLS }} credentials and URL be defined in environment variables. Since storing credentials in scripts is frowned upon, adapt a local file for running your own tests.  
+1. The script expects an [Application Key and Application Secret](/server/web-interface/administration/security-management/applications/) and URL to be defined in environment variables. Since storing credentials in scripts is frowned upon, adapt a local file for running your own tests.  
 ```powershell
 $env:DS_URL= "http<area>://localhost/dvls"
-$env:DS_USER = "your_user"
-$env:DS_PASSWORD = "your_password"
+$env:DS_USER = "your_appkey"
+$env:DS_PASSWORD = "your_appsecret"
 ```
 3. The following sample script can be used to connect using an [Application Key and Application Secret](/server/web-interface/administration/security-management/applications/).  
 ```powershell
