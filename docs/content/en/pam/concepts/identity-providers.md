@@ -4,9 +4,9 @@ eleventyComputed:
   description: Identity providers in Devolutions PAM refer to any source of accounts.
 ---
 ***Identity providers (IdP)*** in Devolutions PAM refer to any source of accounts. In the context of PAM, these are usually:
-* **Directories**: Such as Microsoft Active Directory, OpenLDAP.
-* **SaaS identity services**: Such as Microsoft Entra ID (formerly Azure AD), Okta, Ping, etc.
-* **Lone servers**: Various operating systems and hardware, including network equipment, IoT, and OT (industrial devices).
+* **Directories**: Such as Microsoft Active Directory or OpenLDAP.
+* **SaaS identity services**: Such as Microsoft Entra ID (formerly Azure AD), Okta, Ping, and other cloud-hosted identity providers.
+* **Individual servers or appliances**: Various operating systems and hardware, including network equipment, IoT, and OT (industrial devices).
 * **Databases**: A database server or even a single database.
 
 ### Related topics
