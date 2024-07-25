@@ -3,7 +3,7 @@ eleventyComputed:
   title: Privileged account
   description: A privileged account (PA) in Devolutions PAM is an account used to perform high-privileged actions.
 ---
-A ***privileged account*** (PA) in Devolutions PAM is an account used to perform high-privileged actions. While most analyst firms focus on IT/OPS accounts due to their all-encompassing nature and significant impact if compromised, some non-IT users, such as those in legal and finance, are also considered highly privileged.
+A ***privileged account*** (PA) in Devolutions PAM is an account used to perform highly privileged actions. Due to their breadth of access, traditional targets are IT infrastructure, service, and administrator accounts. However, non-IT users with access to sensitive data or processes, such as those in legal and finance, are also considered highly privileged.
 
 ### Related topics
 * [Privileged accounts ({{ en.DVLS }})](/pam/server/accounts/)
