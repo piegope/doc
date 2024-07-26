@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Slowdowns or connection timeout message when connecting to a {{ en.DVLS }} data source with {{ en.RDM }}
+  title: Slowdowns or connection timeout message when connecting to a {{ en.DVLS }} data source
   description: Connecting to a {{ en.DVLS }} data source with {{ en.RDM }} can sometimes be slow. There are multiple ways to resolve this issue quickly.
 ---
 Connecting to a {{ en.DVLS }} data source with {{ en.RDM }} can sometimes be slow. There are multiple ways to resolve this issue. The error message related to this problem should look like this:
@@ -37,6 +37,7 @@ Use the {{ en.RDM }} ***Profiler*** to diagnose certificate validation length.
 ![Profiler](https://cdnweb.devolutions.net/docs/RDMW0014_2024_2.png)
 1. Set the ***Debug level*** to 4.
 1. Go to the ***Debug only*** tab and click the ellipsis button (***...***).
-1. Check the ***Stop Watch*** option.
+1. Check the ***Stop watch*** option.
 1. Lauch a remote connection and look for the `Certificate Validation – Chain.Build` line.
 ![Performance profiling](https://cdnweb.devolutions.net/docs/RDMW0015_2024_2.png)
+This will provide the time it took to connect in milliseconds (***ms***).
