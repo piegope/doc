@@ -1,11 +1,14 @@
 ---
 eleventyComputed:
   title: Just-in-time provisioning
-  description: JIT provisioning in Devolutions PAM offers the lowest exposure risk because high privileged accounts (HPAs) do not exist until needed.
+  description: JIT provisioning offers a lower exposure risk due to the lack of permanent high-privileged account permissions.
 ---
-***JIT (just-in-time) provisioning*** in Devolutions PAM offers the lowest exposure risk because high privileged accounts (HPAs) do not exist until needed. They are created on-the-fly and given appropriate memberships upon checkout. The accounts are deleted upon check-in.
 
-Accounts can be named anything, such as a variation of the username of the user performing the checkout, the checkout identifier, etc. This approach shifts the burden from monitoring many existing accounts to monitoring just a few permanent ones, but it increases the account creation activity.
+***JIT (just-in-time) provisioning*** offers a lower exposure risk due to the lack of permanent high-privileged account permissions. On checkout, an account is created with the appropriate memberships and deleted upon check-in. JIT provisioning shifts the burden from monitoring many existing accounts to monitoring fewer permanent ones.
+
+{% snippet, "badgeInfo" %}
+This feature is currently in development. Stay tuned for updates as we continue to enhance our product.
+{% endsnippet %}
 
 ### See also
 * [Just-in-time (JIT) elevation in {{ en.DVLS }}](/pam/server/just-in-time/)
