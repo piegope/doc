@@ -12,7 +12,7 @@ The Azure AD user provider allows {{ en.DHUBB }} to store the Azure AD applicati
 See [Create an Azure AD PAM provider](/hub/kb/hub-business/how-to-articles/create-azure-ad-pam-provider/) for more information on its configuration.
 {% endsnippet %}
 
-![Azure AD user provider](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2287.png)
+![Azure AD user provider](https://cdnweb.devolutions.net/docs/HUBB6017_2024_1.png)
 
 ## General
 
