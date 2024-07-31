@@ -74,7 +74,7 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
 2. Under ***Process Model***, click on the ellipsis button next to ***Identity***, choose ***Custom account***, set your VaultDBRunner information, and click ***OK***.
 3. Go to the {{ variables.DVLSCONSOLE.en }}, and then **Edit** – **Database** – **Advanced credentials**, click on **Apply least permissions**, and click on **OK**.
 
-### Import Certificate or Create Self-Signed Certificate
+### Import a certificate or create a self-signed certificate
 
 1. Go to the IIS manager to change the app's pool identity to VaultDBRunner. To do this, select the server node in the Tree View and double-click the ***Server Certificates*** feature in the ***List View***:
 
@@ -84,7 +84,7 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
 
    ![Import... in the Actions pane.](	https://cdnweb.devolutions.net/docs/docs_en_kb_KB4392.png "Import... in the Actions pane.")
 
-### Create a SSL Binding
+### Create a SSL binding
 
 1. Select the web site in the Tree View. Click ***Bindings...*** in the ***Actions*** pane. This brings up the binding editor that lets you create, edit, and delete bindings for your Web site. ![Edit Site – Bindings...](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4393.png "Edit Site – Bindings...")
 2. Click ***Add...*** to add your new SSL binding to the site. ![Add a new SSL binding](	https://cdnweb.devolutions.net/docs/docs_en_kb_KB4394.png "Add a new SSL binding")
