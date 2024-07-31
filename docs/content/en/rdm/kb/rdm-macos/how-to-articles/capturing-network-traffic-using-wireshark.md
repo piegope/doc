@@ -16,7 +16,7 @@ eleventyComputed:
 3. Install the capture driver as requested. To do this, click the Install **CHModBPF** link and run the package installer.
 4. Relaunch **WireShark** and double-click the network interface that is being used (e.g. ethernet, wifi).
 5. &nbsp;This will launch the packet capture for that interface. You can confirm that packets are being captured as they appear in the window.
-6. Reproduce the connection failure using {{ variables.RDM.en }}.
+6. Reproduce the connection failure using {{ variables.RDMMAC.en }}.
 7. End the capture using the red square in the top-left of the **WireShark** window.
 8. Choose **File - Save As**… and save the **.pcapng file**.
 9. To clean up, uninstall the capture driver by choosing **File - About WireShark**.
