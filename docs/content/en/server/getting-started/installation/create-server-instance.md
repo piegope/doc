@@ -20,8 +20,8 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
 
 1. Install {{ en.DVLSCONSOLE }} on the web server. It is available from the [Download](https://server.devolutions.net/home/download) page.
 2. Execute {{ en.DVLSCONSOLE }} with elevated privileges (run as administrator). This is performed by right-clicking on the application and selecting ***Run as administrator***. {% snippet, "shieldWarning" %}
-               All operations performed through the {{ en.DVLSCONSOLE }} are done with the credentials used to launch {{ en.DVLSCONSOLE }}. If you must use other credentials, you will need to launch another Windows session. The ***RunAs*** command does not offer the option of starting a process with elevated privileges. The Run as different user option can work only if the account is a member of the server's local administrator group.
-               {% endsnippet %}
+                                 All operations performed through the {{ en.DVLSCONSOLE }} are done with the credentials used to launch {{ en.DVLSCONSOLE }}. If you must use other credentials, you will need to launch another Windows session. The ***RunAs*** command does not offer the option of starting a process with elevated privileges. The Run as different user option can work only if the account is a member of the server's local administrator group.
+                                 {% endsnippet %}
 
    ![Run as administrator](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8175.png)
 
@@ -44,8 +44,8 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
 4. Under ***General***, enter a custom ***Name*** and ***Description***. If you did not buy any {{ en.DVLS }} license yet, you may [Request a 30-days trial](https://server.devolutions.net/trial) or continue without a license to use {{ en.DVLS }} Free for up to 10 users. You will be prompted on {{ en.DVLS }} first launch to ***Activate the Free Version***. ![General and registration dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8051.png)
 5. Under ***Installation Source***, select to either Download from the web (latest version) or Install from zip file available from the [Download](https://server.devolutions.net/home/download) page. ![Source dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8053.png)
 6. Under General, select the Website, Web Application Name and [Access URI](/server/kb/knowledge-base/access-uri/) required to reach the {{ en.DVLS }} web page, which should be the full FQDN of the server (ex. https://myservername.mydomain.loc/dvls). Under Installation Destination, set the Installation Folder where the instance's files will be located. The process to run Websites has been granted the proper permissions under **C:\\inetpub\\wwwroot**. We recommend to create a new folder beneath it and create the {{ en.DVLS }} instance within this folder. Under Application Pool, set the Application Pool Name. {% snippet, "badgeCaution" %}
-               We do not recommend to set the installation folder to **C:\Program Files**, **C:\Program Files (x86)**, or **C:\inetpub**. {{ en.DVLS }} is a web application and this could result in unwanted behavior and issues because IIS do not have enough permissions to run web applications that are located under those folders. If you want to set the web application folder in a location different than the default **C:\Inetpub\wwwroot** folder, the IIS_IUSRS built in local machine group will need Read and Read & Execute permissions on the entire {{ en.DVLS }} web application folder structure.
-               {% endsnippet %}
+                                 We do not recommend to set the installation folder to **C:\Program Files**, **C:\Program Files (x86)**, or **C:\inetpub**. {{ en.DVLS }} is a web application and this could result in unwanted behavior and issues because IIS do not have enough permissions to run web applications that are located under those folders. If you want to set the web application folder in a location different than the default **C:\Inetpub\wwwroot** folder, the IIS_IUSRS built in local machine group will need Read and Read & Execute permissions on the entire {{ en.DVLS }} web application folder structure.
+                                 {% endsnippet %}
 
    ![Destination dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8170.png)
 
@@ -58,9 +58,9 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
    {% snippet, "badgeHelp" %}If the installation fails to start, search the service for DevolutionsSchedulerService, go into **Properties** and re-enter the username and password. Usually changing the accounty during the installation process does not work, in which case{{ en.DVLS }} will still be installed with the NetworkService account but will not be able to start. Additionally, the VaultDBScheduler account should be granted read rights on the `encryption.config` file under `C:\inetpub\wwwroot\dvls\App_Data\`.{% endsnippet %}
 
 9. Choosing to not install the Scheduler, you will get the following warning message. ![Scheduler warning](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8056.png)
-10. Under [Recovery Kit](/server/management/recovery-kit/), select the destination folder and file name of the {{ en.DVLS }} recovery kit file. Set a password to protect the Encryption Keys. If the Include sensitive data option is enabled, the SQL authentication credentials will be included in the recovery kit.  <br>{% snippet, "shieldNotice" %}
-                   We recommend to protect the Recovery Kit file in a safe place to avoid data loss if {{ en.DVLS }} has to be restored.
-                   {% endsnippet %}
+10. Under [Recovery Kit](/server/management/recovery-kit/), select the destination folder and file name of the {{ en.DVLS }} recovery kit file. Set a password to protect the Encryption Keys. If the Include sensitive data option is enabled, the SQL authentication credentials will be included in the recovery kit. <br>{% snippet, "shieldNotice" %}
+                                           We recommend to protect the Recovery Kit file in a safe place to avoid data loss if {{ en.DVLS }} has to be restored.
+                                           {% endsnippet %}
 
     ![Backup the encryption keys](https://cdnweb.devolutions.net/docs/docs_en_server_clip10324.png){% snippet, "badgeCaution" %}Be sure to keep the recovery kit file and the password in a safe of {{ en.DVLS }}, as they can later be used to move or restore the Database.{% endsnippet %}
 
@@ -68,45 +68,32 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
 12. Under ***Summary***, validate the configuration and click ***Install***. ![Summary dialog](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8057.png)
 13. Once the installation is complete, a summary indicates if the {{ en.DVLS }} has been deployed correctly, click ***OK*** to close this window. ![Installation progress](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8059.png)
 
+### Change {{ variables.DVLS.en }} application pool's identity to VaultDBRunner
+
+1. Open IIS Manager, right-click on the dvls application, and click on ***Advanced settings...***.
+2. Under ***Process Model***, click on the ellipsis button next to ***Identity***, choose ***Custom account***, set your VaultDBRunner information, and click ***OK***.
+3. Go to the {{ variables.DVLSCONSOLE.en }}, and then **Edit** – **Database** – **Advanced credentials**, click on **Apply least permissions**, and click on **OK**.
+
+### Import Certificate or Create Self-Signed Certificate
+
+1. Go to the IIS manager to change the app's pool identity to VaultDBRunner. To do this, select the server node in the Tree View and double-click the ***Server Certificates*** feature in the ***List View***:
+
+   ![Server Certificates](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4391.png)
+
+2. Click **Import...** in the **Actions** pane.
+
+   ![Import... in the Actions pane.](	https://cdnweb.devolutions.net/docs/docs_en_kb_KB4392.png "Import... in the Actions pane.")
+
+### Create a SSL Binding
+
+1. Select the web site in the Tree View. Click ***Bindings...*** in the ***Actions*** pane. This brings up the binding editor that lets you create, edit, and delete bindings for your Web site. ![Edit Site – Bindings...](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4393.png "Edit Site – Bindings...")
+2. Click ***Add...*** to add your new SSL binding to the site. ![Add a new SSL binding](	https://cdnweb.devolutions.net/docs/docs_en_kb_KB4394.png "Add a new SSL binding")
+3. Select ***https*** in the ***Type*** drop-down list. Select the certificate you have imported or created from the ***SSL Certificate*** drop-down list and then click ***OK***. ![Select https and certificate previously created from the list](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4395.png "Select https and certificate previously created from the list")
+4. Now you have a new ***SSL*** binding on your site. ![New SSL binding](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4396.png "New SSL binding")
+
 ### Test the installation
 
-To test the server installation, navigate to it (e.g.: http://&lt;Machine\_Name&gt;/
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-<instancename>) with any web browser or click on the <em><strong>Navigate to Website</strong></em> button in the {{ en.DVLSCONSOLE }}.
-<img src="https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0043.png" alt="" />
-</instancename>
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+To test the server installation, navigate to it (e.g.: `\http://&lt;Machine\_Name&gt;/<instancename>`) with any web browser or click on the ***Navigate to Website*** button in the {{ en.DVLSCONSOLE }}. ![](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp0043.png)
 
 &nbsp;
 
