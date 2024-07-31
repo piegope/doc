@@ -485,11 +485,6 @@ If {{ en.RDM }} is open when you make this change, then you will need to restart
 
 ---
 
-#### Disable the {{ en.DVLSCONSOLE }} in the Tools menu
-`%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableToolsDevolutionsServerConsole`
-
----
-
 #### Disable the Error Report prompt
 `%Root%\SOFTWARE\Policies\Devolutions\RemoteDesktopManager\DisableSendErrorReportDialog`
 
