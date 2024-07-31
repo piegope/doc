@@ -71,16 +71,16 @@ Multiple {{ en.DVLS }} instances can be hosted on the same server. Each instance
 ### Change {{ variables.DVLS.en }} application pool's identity to VaultDBRunner
 
 1. Open IIS Manager, right-click on the dvls application, and click on ***Advanced settings...***.
-2. Under ***Process Model***, click on the ellipsis button next to ***Identity***, choose ***Custom account***, set your VaultDBRunner information, and click ***OK***.
+2. Under ***Process Model***, click on the ellipsis button next to ***Identity***, choose ***Custom account***, set your VaultDBRunner information, and click ***OK***.![Application pool's identity setting](https://cdnweb.devolutions.net/docs/INTERFACE4041.png "Application pool's identity setting")
 3. Go to the {{ variables.DVLSCONSOLE.en }}, and then **Edit** – **Database** – **Advanced credentials**, click on **Apply least permissions**, and click on **OK**.
 
 ### Import a certificate or create a self-signed certificate
 
-1. Go to the IIS manager to change the app's pool identity to VaultDBRunner. To do this, select the server node in the Tree View and double-click the ***Server Certificates*** feature in the ***List View***:
+1. Open IIS manager, select the server node in the Tree View and double-click the ***Server Certificates*** feature in the ***List View***.
 
    ![Server Certificates](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4391.png)
 
-2. Click **Import...** in the **Actions** pane.
+2. Click on ***Import...*** in the ***Actions*** pane, and fill in the required informations to import an already existing certificate. To create a self-signed certificate, click on ***Create Self-Signed Certificate...***, give it a name and leave the certificate store to ***Personal***.
 
    ![Import... in the Actions pane.](	https://cdnweb.devolutions.net/docs/docs_en_kb_KB4392.png "Import... in the Actions pane.")
 
