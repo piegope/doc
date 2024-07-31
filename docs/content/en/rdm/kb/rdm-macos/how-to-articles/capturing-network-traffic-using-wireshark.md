@@ -1,8 +1,8 @@
 ---
 _schema: default
 eleventyComputed:
-  title: ' Capturing network traffic using WireShark'
-  description: 'How to  capture network traffic using WireShark. '
+  title: ' Capturing network traffic using WireShark in {{ en.RDMMAC }}'
+  description: 'How to  capture network traffic using WireShark in {{ en.RDMMAC }}. '
   status:
   keywords:
 ---
@@ -16,9 +16,9 @@ eleventyComputed:
 3. Install the capture driver as requested. To do this, click the Install **CHModBPF** link and run the package installer.
 4. Relaunch **WireShark** and double-click the network interface that is being used (e.g. ethernet, wifi).
 5. &nbsp;This will launch the packet capture for that interface. You can confirm that packets are being captured as they appear in the window.
-6. Reproduce the connection failure using {{ variables.RDM.en }}.
+6. Reproduce the connection failure using {{ variables.RDMMAC.en }}.
 7. End the capture using the red square in the top-left of the **WireShark** window.
-8. Choose **File - Save As**… and save the **.pcapng file**.
+8. Choose **File - Save As**… and save the **.pcapng file**. If you need help troubleshooting, send it to [service@devolutions.net](service@devolutions.net).
 9. To clean up, uninstall the capture driver by choosing **File - About WireShark**.
 10. In **Folders**, double-click the link under **macOS Extras**. This will open a folder with various .pkg files
 11. Run the **Uninstall ChmodBPG.pkg** to remove the capture driver, and then close WireShark.
