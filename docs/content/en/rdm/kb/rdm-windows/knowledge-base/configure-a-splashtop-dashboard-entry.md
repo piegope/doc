@@ -8,7 +8,7 @@ eleventyComputed:
 ---
 The configuration for the Splashtop dashboard entry in {{ variables.RDM.en }} has a few requirements.
 
-1. Go to [Splashtop](https://my.splashtop.com/signin).
+1. Go to [Splashtop](https://my.splashtop.com/signin) and log in.
 2. Set the API token by clicking **Management - Settings**. ![Management - Settings](https://cdnweb.devolutions.net/docs/RDMW6052_2024_2.png)
 3. Go to **API - Create API token**. ![API - Create API token](https://cdnweb.devolutions.net/docs/RDMW6052_2024_2.png)
 4. Set a **Name** and click **Save**. The default setup can remain unchanged. ![Set a Name and click Save](https://cdnweb.devolutions.net/docs/RDMW6054_2024_2.png)
