@@ -17,4 +17,4 @@ The configuration for the Splashtop dashboard entry in {{ variables.RDM.en }} ha
 7. Click on **Copy Link** and paste it in the browser of the other computers you want to add. ![Copy Link](https://cdnweb.devolutions.net/docs/RDMW6056_2024_2.png)
 8. Download and install the **Splashtop\_Streamer** from the link. This should automatically add the computer in your Splashtop account.
 9. Open {{ variables.RDM.en }}
-10. Enter your **Account** and **API key**. ![Splashtop dashboard entry in](https://cdnweb.devolutions.net/docs/RDMW6051_2024_2.png)
+10. Enter your **Account** and **API key**. ![Account and API key](https://cdnweb.devolutions.net/docs/RDMW6051_2024_2.png)
