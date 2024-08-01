@@ -1,7 +1,7 @@
 ---
 _schema: .cloudcannon/schemas/homepage.html
 layout: layouts/home.liquid
-title: Devolutions Documentation Test
+title: Devolutions Documentation
 description: >-
   Need help? Here is the complete coverage for all Devolutions products,
   add-ons, and companion tools.
