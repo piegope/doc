@@ -12,10 +12,10 @@ The setup for the Splashtop dashboard entry in {{ variables.RDM.null }} has a fe
 2. Set the API token by clicking **Management - Settings**. ![Management - Settings](https://cdnweb.devolutions.net/docs/RDMW6052_2024_2.png)
 3. Go to **API - Create API token**. ![API - Create API token](https://cdnweb.devolutions.net/docs/RDMW6052_2024_2.png)
 4. Set a **Name** and click **Save**. The default setup can remain unchanged. ![Set a Name and click Save](https://cdnweb.devolutions.net/docs/RDMW6054_2024_2.png)
-5. Activate the API token.
-6. Go to **Computers - Add Computer**.
-![Computers - Add Computer](https://cdnweb.devolutions.net/docs/RDMW6055_2024_2.png)
+5. Activate the **API token**.
+6. Go to **Computers - Add Computer**. ![Computers - Add Computer](https://cdnweb.devolutions.net/docs/RDMW6055_2024_2.png)
 7. Click on **Copy Link** and paste it in the browser of the other computers you want to add.
+![Copy Link](https://cdnweb.devolutions.net/docs/RDMW6056_2024_2.png)
 8. Download and install the **Splashtop\_Streamer** from the link. This should automatically add the computer in your Splashtop account.
 9. Open {{ variables.RDM.null }}
 10. Enter your Account and API key ![Splashtop dashboard entry in](https://cdnweb.devolutions.net/docs/RDMW6051_2024_2.png)
