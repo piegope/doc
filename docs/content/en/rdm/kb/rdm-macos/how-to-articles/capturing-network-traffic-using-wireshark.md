@@ -1,7 +1,7 @@
 ---
 _schema: default
 eleventyComputed:
-  title: ' Capturing network traffic using WireShark in {{ en.RDMMAC }}'
+  title: ' Capture network traffic with WireShark in {{ en.RDMMAC }}'
   description: 'How to  capture network traffic using WireShark in {{ en.RDMMAC }}. '
   status:
   keywords:
