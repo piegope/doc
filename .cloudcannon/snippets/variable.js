@@ -71,7 +71,6 @@ module.exports = {
           values: "data.variables",
           preview: {
             text: [
-              { template: "{en} - ({key})" },
               { key: "en" }
             ]
           }
