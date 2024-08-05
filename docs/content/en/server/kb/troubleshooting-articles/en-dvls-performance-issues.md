@@ -6,7 +6,7 @@ eleventyComputed:
   status:
   keywords:
 ---
-[Devolutions support](mailto:service@devolutions.net)can help you with{{ variables.DVLS.en }} performance issues. To do so, the **Disk usage by Top Tables** **report** from **SQL Server Management Studio (SSMS)** must be generated to assess the number of records in specific database tables.
+[Devolutions support](mailto:service@devolutions.net) can help you with{{ variables.DVLS.en }} performance issues. To do so, the **Disk usage by Top Tables** **report** from **SQL Server Management Studio (SSMS)** must be generated to assess the number of records in specific database tables.
 
 1. Open **SQL Server Management Studio (SSMS)**.
 2. **Right click - Reports - Standard Reports - Disk Usage by Top Tables**.
