@@ -18,5 +18,7 @@ The configuration for the Splashtop dashboard entry in {{ variables.RDM.en }} ha
 8. Download and install the **Splashtop\_Streamer** from the link. This should automatically add the computer in your Splashtop account.
 9. Open {{ variables.RDM.en }}.
 10. Create an [entry](/rdm/commands/edit/entries/creating-new-entry/).
-11. Enter your **Account** and **API key**. ![Account and API key](https://cdnweb.devolutions.net/docs/RDMW6051_2024_2.png)
+11. Enter your **Account** and **API key**.
 12. Click **Add** to save the entry.
+
+    ![Account and API key](https://cdnweb.devolutions.net/docs/RDMW6051_2024_2.png)
