@@ -10,7 +10,7 @@ Send and receive ***Secure messages*** with users within your hub. Click the ***
 
 ## Send a secure message
 
-{% snippet, "badgeInfo" %}For this feature to be available, [sending messages must be enabled](/hub/web-interface/administration/management/users/#edit-a-user) under ***Administration – Users***.{% endsnippet %}
+{% snippet, "badgeInfo" %}To enable this feature, [sending messages must be enabled](/hub/web-interface/administration/management/users/#edit-a-user) under ***Administration – Users***.{% endsnippet %}
 
 1. Click the ***Messages*** icon next to your avatar.<br> ![Messages](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0015.png)
 2. Click on ***New message***.<br> ![New message](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub0014.png)
@@ -29,7 +29,7 @@ Send and receive ***Secure messages*** with users within your hub. Click the ***
 
 You can send a copy of one of your folders or entries to other users with secure messages. Sending a copy of a folder also sends a copy of the entries it contains. This also applies to entries containing sub entries. Copies of all the attachment(s) will be sent without history or logs.
 
-{% snippet, "badgeInfo" %}For this feature to be available, [attachments must be enabled](/hub/web-interface/administration/management/users/#edit-a-user) when sending messages under ***Administration – Users***.{% endsnippet %}
+{% snippet, "badgeInfo" %}To enable this feature, ensure that [attachments are allowed when sending messages](/hub/web-interface/administration/management/users/#edit-a-user) under ***Administration – Users***.{% endsnippet %}
 
 1. Select the folder/entry in your ***{{ en.NPANE }}***.
 2. Click ***More***, then select ***Send copy***.<br> ![More – Send copy](https://cdnweb.devolutions.net/docs/HUBB2372_2024_2.png)
@@ -42,7 +42,23 @@ You can send a copy of one of your folders or entries to other users with secure
 
 ## Receive a secure message
 
-A blue dot will appear on the message icon to signify you have unread messages.
+If the secure message was flagged as ***High priority***, it will appear directly in the web interface upon the user's next session start or promptly if they are already logged in. If not, a blue dot will appear on the message icon to signify the user has unread messages.
 
-1. Click on the ***Messages*** button.<br> ![Messages](https://cdnweb.devolutions.net/docs/HUBB0003_2024_1.png)
-2. Click on the message in the inbox.<br> ![Inbox](https://cdnweb.devolutions.net/docs/HUBB0004_2024_1.png)
+1. Click on the ***Messages*** button.<br> ![Messages](https://cdnweb.devolutions.net/docs/HUBB2376_2024_2.png)
+2. Click on the new message in the inbox. Unread messages have a blue tint.<br> ![New messages](https://cdnweb.devolutions.net/docs/HUBB2377_2024_2.png)
+
+![Message interface](https://cdnweb.devolutions.net/docs/HUBB2378_2024_2.png)
+
+When viewing a message, the recipient sees the following information:
+
+* The sender's name.
+* The subject and body text of the message.
+* The time the message was sent and, if applicable, its expiration time.
+* The name of any attachments.
+
+The user has access to the following actions:
+
+* ***Reply***: Opens a window to reply to the currently viewed message.
+* ***Close***: Closes the currently open message window without deleting it. The message will be marked as read.
+* ***Save in {{ variables.UVLT.en }}***: Automatically saves all attachments in the recipient's {{ variables.UVLT.en }}. This action is available only if the message includes attachments.
+* ***Save as***: Opens a window allowing the recipient to specify the location for saving the attachments within the {{ variables.DHUB.null }}. This action is available only if the message includes attachments.
