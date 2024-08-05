@@ -1,7 +1,7 @@
 ---
 _schema: default
 eleventyComputed:
-  title: Configure a Splashtop dashboard entry
+  title: Configure a Splashtop dashboard entry in {{ en.RDMMAC }}
   description:
   status:
   keywords:
