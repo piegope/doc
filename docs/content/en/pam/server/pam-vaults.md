@@ -6,7 +6,7 @@ eleventyComputed:
   status:
   keywords:
 ---
-PAM vaults are one of the key features of {{ variables.DVLS.en }} privileged access management module. They are secure vaults that allow admins to manage their different privileged accounts.
+PAM {{ en.VLT }}s are one of the key features of {{ variables.DVLS.en }} privileged access management module. They are secure vaults that allow admins to manage their different privileged accounts.
 
 The [security options of the folder](/pam/server/accounts/) thus created can be further customized if need be. The [approvers can also be customized directly on the folder](/pam/server/accounts/), which gives a list of its administrators.
 
