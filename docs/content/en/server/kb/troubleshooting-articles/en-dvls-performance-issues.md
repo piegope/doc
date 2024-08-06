@@ -2,7 +2,7 @@
 _schema: default
 eleventyComputed:
   title: '{{ en.DVLS }} performance issues '
-  description:
+  description: 'Devolutions support can help you with  performance issues. '
   status:
   keywords:
 ---
