@@ -42,6 +42,8 @@ Generate an 8 character passwords with alphanumeric and special characters. ![Pa
 
 Generate a passphrase with customized length, word separator, capitalize first letter, append number, and dictionary.
 
+![Password Generator -Passphrase](https://cdnweb.devolutions.net/docs/RDMW6065_2024_2.png)
+
 &nbsp;
 
 &nbsp;
