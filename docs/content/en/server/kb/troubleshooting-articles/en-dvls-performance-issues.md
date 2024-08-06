@@ -13,7 +13,7 @@ eleventyComputed:
 
 Here is an example of what the report looks like.
 
-![Disk usage by Top Tables report](https://cdnweb.devolutions.net/docs/DVLS6078_2024_2.png)
+![Disk usage by Top Tables report](https://cdnweb.devolutions.net/docs/DVLS6078_2024_2.png "Disk usage by Top Tables report")
 
 Here is the **SQL query** to get the same result if the database is hosted on **Azure**.
 
