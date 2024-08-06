@@ -37,3 +37,11 @@ Generate passwords that are pronounceable, but are not actual words. ![Password 
 ### Strong password
 
 Generate an 8 character passwords with alphanumeric and special characters. ![Password Generator - Strong password](https://cdnweb.devolutions.net/docs/RDMW6064_2024_2.png)
+
+### Passphrase
+
+Generate a passphrase with customized length, word separator, capitalized first letter, append number, and dictionary.
+
+&nbsp;
+
+&nbsp;
