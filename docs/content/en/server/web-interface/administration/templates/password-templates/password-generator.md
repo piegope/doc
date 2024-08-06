@@ -1,4 +1,5 @@
 ---
+_schema: default
 eleventyComputed:
   title: Password generator
 ---
@@ -13,34 +14,15 @@ You can create and force a [***Password Templates***](/server/web-interface/admi
 ### Generate passwords with the password generator
 
 1. Go to the ***General*** section in the ***Properties*** of an entry.
-1. Next to the ***Password*** field, click the three-dots menu to access the ***Password generator*** tool.
-1. Customize all the criteria you want your password to have, then click ***Generate***.
-1. In the proposed list, choose and click on a password.
-{% snippet, "badgeInfo" %}
-At the bottom of the list, you can review the strength and phonetics of the selected password.
-{% endsnippet %}
-
-1. Click on ***Select*** to close and autofill the ***Password*** entry field.
-{% snippet, "badgeNotice" %}
-You can also create a ***Password template*** from your ***Password Generator*** settings. Just customize the settings and click on ***Add template*** next to the ***Template*** drop-down list.
-{% endsnippet %}
+2. Next to the ***Password*** field, click the three-dots menu to access the ***Password generator*** tool.
+3. Customize all the criteria you want your password to have, then click ***Generate***.
+4. In the proposed list, choose and click on a password. {% snippet, "badgeInfo" %}
+      At the bottom of the list, you can review the strength and phonetics of the selected password.
+      {% endsnippet %}
+5. Click on ***Select*** to close and autofill the ***Password*** entry field. {% snippet, "badgeNotice" %}
+      You can also create a ***Password template*** from your ***Password Generator*** settings. Just customize the settings and click on ***Add template*** next to the ***Template*** drop-down list.
+      {% endsnippet %}
 
 ![Password generator](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4085.png)
 
-| Option                           | Description                                                                    |
-|----------------------------------|--------------------------------------------------------------------------------|
-| Template                         | Choose a ***Password Templates***.                                             |
-| Mode                             | Choose a ***Mode*** setting for the passwords.<ul><li>***Default***: Customize the length and the minimum number of characters per type you want the passwords to have.</li><li>***Advanced settings***: Select the length, type, and number of characters to include in the passwords. Include and exclude specific characters.</li><li>***Readable password***: Generate passwords that are readable but are not actual words.</li><li>[***Use a pattern***](/server/web-interface/administration/templates/password-templates/use-a-pattern-password/): Select any pattern you need to create the passwords. You can also exclude certain characters if desired. A list of the most recent used patterns is also created.</li><li>***Pronounceable password***: Generate passwords that are pronounceable, but are not actual words.</li></ul> |
-| Upper-case (A, B...)             | Include uppercase letters in passwords. generation.                            |
-| Underline ( _ )                  | Include the underline ( _ ) character in passwords. generation.                |
-| High ANSI characters             | Include characters from '-' to U255 (excluding U255) in passwords. generation. |
-| Minus ( - )                      | Include the minus ( - ) character in passwords. generation.                    |
-| Brackets ([], (), <>)         | Include bracket characters in passwords. generation.                           |
-| Digits (0, 1, 2...)              | Include digits in passwords. generation.                                       |
-| Special (!, $, %, &...)          | Include special characters in passwords. generation.                           |
-| Lower-case (a, b, c...)          | Include lowercase letters in passwords. generation.                            |
-| Space ( )                        | Include the space character in passwords. generation.                          |
-| XML Compliant                    | Generate XML compliant passwords. passwords.                                   |
-| Password count                   | Maximum number of passwords generated.                                         |
-| Include the following characters | Forcefully include characters inside the password.                             |
-| Exclude the following characters | Forcefully exclude characters from the password.                               |
+<table><thead><tr><th><p>Option</p></th><th><p>Description</p></th></tr></thead><tbody><tr><td><p>Template</p></td><td><p>Create or choose a <a href="/server/web-interface/administration/templates/password-templates/"><em><strong>Password Templates</strong></em></a>.</p></td></tr><tr><td><p>Mode</p></td><td><p>Choose a <em><strong>Mode</strong></em> setting for the passwords.</p><ul><li><p><em><strong>Default</strong></em>: Customize the length and the minimum number of characters per type you want the passwords to have.</p></li><li><p><em><strong>Advanced settings</strong></em>: Select the length, type, and number of characters to include in the passwords. Include and exclude specific characters.</p></li><li><p><em><strong>Readable password</strong></em>: Generate passwords that are readable but are not actual words.</p></li><li><p><a href="/server/web-interface/administration/templates/password-templates/use-a-pattern-password/"><em><strong>Use a pattern</strong></em></a>: Select any pattern you need to create the passwords. You can also exclude certain characters if desired. A list of the most recent used patterns is also created.</p></li><li><p><em><strong>Pronounceable password</strong></em>: Generate passwords that are pronounceable, but are not actual words.</p></li><li><p><em><strong>Strong password</strong></em>: Generate an 8 characters password with mixed case alphanumerics and special characters.</p></li><li><p><em><strong>Passphrase</strong></em>: Generate a customized <em><strong>Passphrase. </strong></em>Select the length, word separator, capitalize first letter, append number and dictionary to include in the <em><strong>Passphrase</strong></em>.</p></li></ul></td></tr><tr><td><p>Upper-case (A, B...)</p></td><td><p>Include uppercase letters in passwords. generation.</p></td></tr><tr><td><p>Underline ( _ )</p></td><td><p>Include the underline ( _ ) character in passwords. generation.</p></td></tr><tr><td><p>High ANSI characters</p></td><td><p>Include characters from '-' to U255 (excluding U255) in passwords. generation.</p></td></tr><tr><td><p>Minus ( - )</p></td><td><p>Include the minus ( - ) character in passwords. generation.</p></td></tr><tr><td><p>Brackets ([], (), &lt;&gt;)</p></td><td><p>Include bracket characters in passwords. generation.</p></td></tr><tr><td><p>Digits (0, 1, 2...)</p></td><td><p>Include digits in passwords. generation.</p></td></tr><tr><td><p>Special (!, $, %, &amp;...)</p></td><td><p>Include special characters in passwords. generation.</p></td></tr><tr><td><p>Lower-case (a, b, c...)</p></td><td><p>Include lowercase letters in passwords. generation.</p></td></tr><tr><td><p>Space ( )</p></td><td><p>Include the space character in passwords. generation.</p></td></tr><tr><td><p>XML Compliant</p></td><td><p>Generate XML compliant passwords. passwords.</p></td></tr><tr><td><p>Password count</p></td><td><p>Maximum number of passwords generated.</p></td></tr><tr><td><p>Include the following characters</p></td><td><p>Forcefully include characters inside the password.</p></td></tr><tr><td><p>Exclude the following characters</p></td><td><p>Forcefully exclude characters from the password.</p></td></tr></tbody></table>
