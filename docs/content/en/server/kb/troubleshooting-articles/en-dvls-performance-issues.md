@@ -10,6 +10,7 @@ eleventyComputed:
 
 1. Open ***SQL Server Management Studio (SSMS)***.
 2. ***Right click - Reports - Standard Reports - Disk Usage by Top Tables**.*
+3. Send the report to[service@devolutions.net](mailto:service@devolutions.net).
 
 Here is an example of what the report looks like.
 
