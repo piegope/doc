@@ -17,11 +17,11 @@ You can create and force a [***Password Templates***](/server/web-interface/admi
 2. Next to the ***Password*** field, click the three-dots menu to access the ***Password generator*** tool.
 3. Customize all the criteria you want your password to have, then click ***Generate***.
 4. In the proposed list, choose and click on a password. {% snippet, "badgeInfo" %}
-   At the bottom of the list, you can review the strength and phonetics of the selected password.
-   {% endsnippet %}
+      At the bottom of the list, you can review the strength and phonetics of the selected password.
+      {% endsnippet %}
 5. Click on ***Select*** to close and autofill the ***Password*** entry field. {% snippet, "badgeNotice" %}
-   You can also create a ***Password template*** from your ***Password Generator*** settings. Just customize the settings and click on ***Add template*** next to the ***Template*** drop-down list.
-   {% endsnippet %}
+      You can also create a ***Password template*** from your ***Password Generator*** settings. Just customize the settings and click on ***Add template*** next to the ***Template*** drop-down list.
+      {% endsnippet %}
 
 ![Password generator](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp4085.png)
 
