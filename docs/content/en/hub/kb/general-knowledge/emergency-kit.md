@@ -18,13 +18,13 @@ The ***Emergency Kit*** contains a ***key*** that will be required in case you l
 6. Go to your {{ en.DHUB }}.
 7. The ***emergency reset code page*** opens.
 8. Enter the ***emergency reset code version***.
-9. Click on the lock to access your {{ en.DHUB }}. ![Click on the lock to access your](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6200.png)
+9. Click on the lock to access your {{ en.DHUB }}. ![Click on the lock](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6200.png)
 
 Note: The ***Emergency Kit*** can be reset and downloaded again by going to ***Administration*** – ***Emergency Kit*** – ***Reset Emergency Kit*** in your {{ en.DHUB }}.
 
-![– Administration – Emergency Kit – Reset Emergency Kit](https://cdnweb.devolutions.net/docs/DVLS6079_2024_2.png)
+![Administration – Emergency Kit – Reset Emergency Kit](https://cdnweb.devolutions.net/docs/DVLS6079_2024_2.png)
 
-Here is what the ***{{ variables.DHUBP.null }} Emergency Kit*** file looks like when opened.
+Here is what the {{ variables.DHUBP.null }} Emergency Kit file looks like when opened.
 
 ![Emergency Kit file](https://cdnweb.devolutions.net/docs/DVLS6080_2024_2.png)
 
