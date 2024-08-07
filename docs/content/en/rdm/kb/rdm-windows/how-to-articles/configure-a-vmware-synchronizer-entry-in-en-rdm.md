@@ -23,7 +23,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***: ![Active Di
 
 ### General tab
 
-![General tab](https://cdnweb.devolutions.net/docs/RDMW6044_2024_2.png)
+&nbsp;
 
 * ***Mode***
   * ***Custom***: Choose which ***Domain machines*** and ***OU/Containers*** to get the information from
@@ -43,7 +43,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***: ![Active Di
 
 ### Log in tab
 
-![Login tab](https://cdnweb.devolutions.net/docs/RDMW6045_2024_2.png)
+&nbsp;
 
 * ***Username***: Username for the domain
 * ***Domain***: Domain for the Active Directory
@@ -61,7 +61,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***: ![Active Di
 
 ### Filters tab
 
-![Filters tab](https://cdnweb.devolutions.net/docs/RDMW6047_2024_2.png)
+&nbsp;
 
 * ***Type***: LDAP syntax filters can be used in many situations in Active Directory
   * ***All***: Default filter
@@ -71,7 +71,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***: ![Active Di
 
 ### Advanced tab
 
-![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW6048_2024_2.png)
+&nbsp;
 
 * ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals)
 * ***Verify folder on mismatch***: During synchronization, if enabled, verifies each connection and compares to already existing ones; ***Verify on folder mismatch*** will also check the path
@@ -90,7 +90,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***: ![Active Di
 
 ### Schedule tab
 
-![Schedule tab](https://cdnweb.devolutions.net/docs/RDMW6049_2024_2.png)
+&nbsp;
 
 * ***Enabled***: Schedule being on/off
   * ***Every (Days)***: Interval between when the synchronizer runs
