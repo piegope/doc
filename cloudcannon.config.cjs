@@ -32,9 +32,11 @@ module.exports = {
     schemas: {
       homepage: {
         path: ".cloudcannon/schemas/homepage.html",
-        _inputs: {
-          layout: {
-            hidden: true
+        create: {
+          _inputs: {
+            layout: {
+              hidden: true
+            }
           }
         }
       }
