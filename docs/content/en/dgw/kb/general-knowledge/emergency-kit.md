@@ -24,7 +24,7 @@ Note: The ***Emergency Kit*** can be reset and downloaded again by going to ***A
 
 ![– Administration – Emergency Kit – Reset Emergency Kit](https://cdnweb.devolutions.net/docs/HUBB6016_2024_1.png)
 
-Here is what the Emergency Kit file looks like when opened.
+Here is what the ***Emergency Kit file*** looks like when opened.
 
 ![Emergency Kit file](https://cdnweb.devolutions.net/docs/HUBB6000_2024_2.png)
 
