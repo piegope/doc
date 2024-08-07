@@ -10,8 +10,8 @@ The ***Emergency Kit*** contains a key that will be required in case you lose or
 
 1. Go to your {{ en.DA }}.
 2. Click ***Forgot Password*** to receive an ***access code*** via email. {% snippet, "badgeCaution" %}
-                           Make sure that you have your ***Emergency Kit*** at hand before clicking on ***Next***.
-                           {% endsnippet %}
+                                 Make sure that you have your ***Emergency Kit*** at hand before clicking on ***Next***.
+                                 {% endsnippet %}
 3. Select ***I understand and accept the risks*** and click ***Next***. ![– Forgot Password](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6197.png)
 4. Enter the ***access code*** received by email.
 5. Type your new password.
