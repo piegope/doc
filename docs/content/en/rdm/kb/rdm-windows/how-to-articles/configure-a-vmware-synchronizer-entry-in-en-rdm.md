@@ -27,34 +27,18 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 
 ![General tab](https://cdnweb.devolutions.net/docs/RDMW6067_2024_2.png "General tab")
 
-* ***Mode***
-  * ***Custom***: Choose which ***Domain machines*** and ***OU/Containers*** to get the information from
-  * ***LDAP***: To extract Active Directory computer information using LDAP query
-    * ***Path***: Read more about this option by clicking the ***Help*** button
-  * ***My domain***: Use the current domain
-  * ***Ping domain before synchronization***: Verifies if the domain is up before synchronization
-* ***Domain machine***: Set the domain machine by clicking on the ellipsis button
-* ***OU/Container DN***: Select the OUs or Containers by clicking on the ellipsis button
-* ***Test Connection***: Test the connection
-* ***Preview***: List of imported machines
-* ***Use LDAP over SSL*** If enabled, uses the secure LDAP protocol
-  * ***Default***: Default LDAPS port 636; click on ***Default*** to set a different port
-  * ***Port generator***: Generate a port
-* ***Destination folder***: Choose a destination folder.
-* ***Template***: Select a template.
-
-### Log in tab
-
-&nbsp;
-
-* ***Username***: Username for the domain
-* ***Domain***: Domain for the Active Directory
-* ***Password***: Password for the domain
-* ***Merge username and domain***: Merges username and domain
+* ***Host:***
+* ***Username:***
+* ***Password:***
+* ***Sync mode:***
+* ***Datacenter:***
+* ***Connection type:***
+* ***Console connection mode:***
+* ***API mode:***
 
 ### Fields tab
 
-![Fields](https://cdnweb.devolutions.net/docs/RDMW6046_2024_2.png) Choose which fields will always be synchronized, and which will not. For example, you could choose not to synchronize the description, because you want to edit it yourself.
+![Fields tab](https://cdnweb.devolutions.net/docs/RDMW6069_2024_2.png) Choose which fields will always be synchronized, and which will not. For example, you could choose not to synchronize the description, because you want to edit it yourself.
 
 * ***Field***: Select which fields will always be synchronized, and which will not
 * ***Session name***: Choose between ***Common name***, ***DNS host name (FQDN)***, and ***Host and description***.
