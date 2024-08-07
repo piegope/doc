@@ -32,7 +32,7 @@ module.exports = {
           create: {
             path: "[relative_base_path]/{slug}.html"
           },
-          name: "Homepage",
+          name: "homepage",
           _inputs: {
             layout: {
               hidden: true
