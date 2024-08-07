@@ -26,6 +26,21 @@ module.exports = {
           create: {
             path: "[relative_base_path]/{slug}.json"
           }
+        },
+        homepage: {
+          path: ".cloudcannon/schemas/homepage.html",
+          create: {
+            path: "[relative_base_path]/{slug}.html"
+          },
+          name: "Homepage",
+          fields: [
+            {
+              label: "Layout",
+              name: "layout",
+              type: "hidden",
+              default: "layouts/home.liquid"
+            }
+          ]
         }
       }
     }
