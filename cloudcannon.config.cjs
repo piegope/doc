@@ -28,6 +28,7 @@ module.exports = {
           }
         },
         homepage: {
+          path: ".cloudcannon/schemas/homepage.html",
           title: "homepage",
           name: "homepage"
         }
