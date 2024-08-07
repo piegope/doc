@@ -32,9 +32,20 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Password:*** The password of the provided username for authentication on the VMware server.
 * ***Sync mode: All datacenters, Specific datacenter***
 * ***Datacenter:*** The specific datacenter to synchronize with if ***Specific datacenter*** is selected as the ***Sync Mode***.
-* ***Connection type: Defaut:*** Use the default connection type configured ***VMware Remote Console, RDP***
-* ***Console connection mode: VMware PowerCLI, VMware VMRC 8.0***
-* ***API mode: Default, Experimental, Legacy***
+  * ***All datacenter:***
+  * ***Specific datacenter:***
+* ***Connection type:***
+* ***Console connection mode:***
+* * ***VMware PowerCLI***
+  * ***VMware VMRC 8.0***
+* ***API mode:***
+* * ***Default***
+  * ***Experimental***
+  * ***Legacy***
+
+  &nbsp;
+
+  &nbsp;
 
 ### Fields tab
 
