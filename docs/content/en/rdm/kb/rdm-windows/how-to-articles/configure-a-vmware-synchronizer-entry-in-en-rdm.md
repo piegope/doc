@@ -27,14 +27,14 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 
 ![General tab](https://cdnweb.devolutions.net/docs/RDMW6067_2024_2.png "General tab")
 
-* ***Host:***
-* ***Username:***
-* ***Password:***
-* ***Sync mode:***
-* ***Datacenter:***
-* ***Connection type:***
-* ***Console connection mode:***
-* ***API mode:***
+* ***Host:***  The IP address or hostname of the VMware server.
+* ***Username:*** The username required to authenticate and access the VMware server.
+* ***Password:*** The password of the provided username for authentication on the VMware server.
+* ***Sync mode: All datacenters, Specific datacenter***
+* ***Datacenter:*** The specific datacenter to synchronize with if ***Specific datacenter*** is selected as the ***Sync Mode***.
+* ***Connection type: Defaut, VMware Remote Console, RDP***
+* ***Console connection mode: VMware PowerCLI, VMware VMRC 8.0***
+* ***API mode: Default, Experimental, Legacy***
 
 ### Fields tab
 
@@ -66,3 +66,5 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Enabled***: Schedule being on/off
   * ***Every (Days)***: Interval between when the synchronizer runs
   * ***At***: Specific time to synchronize
+
+&nbsp;
