@@ -20,10 +20,10 @@ The ***Emergency Kit*** contains a ***key*** that will be required in case you l
 
 Note: The ***Emergency Kit*** can be reset and downloaded again by going to ***Administration*** – ***Emergency Kit*** – ***Reset Emergency Kit*** in your {{ en.DHUB }}.
 
-![Administration – Emergency Kit – Reset Emergency Kit](https://cdnweb.devolutions.net/docs/DVLS6079_2024_2.png)
+![Administration – Emergency Kit – Reset Emergency Kit](https://cdnweb.devolutions.net/docs/HUBB6016_2024_1.png)
 
 Here is what the {{ variables.DHUBP.null }} Emergency Kit file looks like when opened.
 
-![Emergency Kit file](https://cdnweb.devolutions.net/docs/DVLS6080_2024_2.png)
+![Emergency Kit file](https://cdnweb.devolutions.net/docs/HUBB6000_2024_2.png)
 
 &nbsp;
