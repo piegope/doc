@@ -30,14 +30,15 @@ module.exports = {
         homepage: {
           path: ".cloudcannon/schemas/homepage.html",
           create: {
-            path: "[relative_base_path]/{slug}.html"
-          },
-          name: "homepage",
-          _inputs: {
-            layout: {
-              hidden: true
+            path: "[relative_base_path]/{slug}.html",
+            _inputs: {
+              layout: {
+                hidden: true
+              }
             }
-          }
+          },
+          name: "homepage"
+         
         }
       }
     }
