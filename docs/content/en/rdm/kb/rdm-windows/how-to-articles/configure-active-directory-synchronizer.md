@@ -34,12 +34,7 @@ Choose which fields will always be synchronized, and which will not. For example
 
 ![Fields](https://cdnweb.devolutions.net/docs/RDMW4102_2024_2.png "Fields")
 
-&nbsp;
-
-* ***Field***: Select which fields will always be synchronized, and which will not
-* ***Session name***: Choose between ***Common name***, ***DNS host name (FQDN)***, and ***Host and description***.
-* ***Session name prefix***: A prefix for the entry that will be created through the synchronizer
-* ***Session name suffix***: A suffix for the entry that will be created through the synchronizer
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Field</strong></p></td><td><p>elect which fields will always be synchronized, and which will not.</p></td></tr><tr><td><p><strong>Session name</strong></p></td><td><p>Choose between <em><strong>Common name</strong></em>, <em><strong>DNS host name (FQDN)</strong></em>, and <em><strong>Host and description</strong></em>.</p></td></tr><tr><td><p><strong>Session name prefix</strong></p></td><td><p>A prefix for the entry that will be created through the synchronizer.</p></td></tr><tr><td><p><strong>Session name suffix</strong></p></td><td><p>A suffix for the entry that will be created through the synchronizer.</p></td></tr></tbody></table>
 
 ### Filters tab
 
