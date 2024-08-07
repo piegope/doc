@@ -14,7 +14,9 @@ Please note that the [***Schedule*** tab](#schedule) is only available in a {{ e
 
 ## Synchronizer
 
-The entry can be found under ***New Entry*** – ***Synchronizer***: ![Active Directory Synchronizer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0078.png) ![Active Directory Synchronizer entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0079.png)
+The entry can be found under ***New Entry*** – ***Synchronizer***:
+
+![New Entry – Synchronizer](https://cdnweb.devolutions.net/docs/RDMW6068_2024_2.png "New Entry – Synchronizer")
 
 * ***Name***: Entry name in {{ en.RDM }}
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in
@@ -23,7 +25,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***: ![Active Di
 
 ### General tab
 
-&nbsp;
+![General tab](https://cdnweb.devolutions.net/docs/RDMW6067_2024_2.png "General tab")
 
 * ***Mode***
   * ***Custom***: Choose which ***Domain machines*** and ***OU/Containers*** to get the information from
