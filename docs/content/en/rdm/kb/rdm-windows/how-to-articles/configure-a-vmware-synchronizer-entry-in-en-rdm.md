@@ -45,26 +45,11 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Session name prefix***: A prefix for the entry that will be created through the synchronizer
 * ***Session name suffix***: A suffix for the entry that will be created through the synchronizer
 
-### Filters tab
-
-&nbsp;
-
-* ***Type***: LDAP syntax filters can be used in many situations in Active Directory
-  * ***All***: Default filter
-  * ***Server***: Adds a filter to only include Windows Server
-* ***Other filter***: Read more about this option by clicking the ***Help*** button
-* ***Preview***: Preview of the applied filters
-
 ### Advanced tab
 
-&nbsp;
+![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW6070_2024_2.png "Advanced tab")
 
 * ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals)
-* ***Verify folder on mismatch***: During synchronization, if enabled, verifies each connection and compares to already existing ones; ***Verify on folder mismatch*** will also check the path
-* ***Create virtual folders***: Allow the creation of virtual folders.
-* ***Search scope***
-  * ***Subtree***: Searches the root
-  * ***One-Level***: Searches on the folder level only
 * ***Duplicate check*** will not import entries with the same type and host
   * ***Root***: Check for duplicates within the whole data source
   * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder
@@ -76,7 +61,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 
 ### Schedule tab
 
-&nbsp;
+![Schedule tab](https://cdnweb.devolutions.net/docs/RDMW6072_2024_2.png "Schedule tab")
 
 * ***Enabled***: Schedule being on/off
   * ***Every (Days)***: Interval between when the synchronizer runs
