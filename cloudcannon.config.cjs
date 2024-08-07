@@ -29,8 +29,14 @@ module.exports = {
         },
         homepage: {
           path: ".cloudcannon/schemas/homepage.html",
-          title: "homepage",
-          name: "homepage"
+          create: {
+            path: ".cloudcannon/schemas/homepage.html",
+            _inputs: {
+              layout: {
+                hidden: true
+              }
+            }
+          }
         }
       }
       
@@ -106,9 +112,6 @@ module.exports = {
     }
   },
   _inputs: {
-    // layout: {
-    //   hidden: true
-    // },
     trim_left: {
       hidden: true
     },
