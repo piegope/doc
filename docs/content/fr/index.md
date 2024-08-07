@@ -1,4 +1,5 @@
 ---
+_schema: .cloudcannon/schemas/homepage.html
 layout: 'layouts/home.liquid'
 title: Documentation Devolutions
 description: Besoin d'aide? Voici la couverture complète de tous les produits, modules et outils connexes de Devolutions.
