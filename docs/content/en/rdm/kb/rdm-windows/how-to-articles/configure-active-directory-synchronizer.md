@@ -38,13 +38,9 @@ Choose which fields will always be synchronized, and which will not. For example
 
 ### Filters tab
 
-![Filters tab](https://cdnweb.devolutions.net/docs/RDMW6047_2024_2.png)
+![Filters tab](https://cdnweb.devolutions.net/docs/RDMW4103_2024_2.png "Filters tab")
 
-* ***Type***: LDAP syntax filters can be used in many situations in Active Directory
-  * ***All***: Default filter
-  * ***Server***: Adds a filter to only include Windows Server
-* ***Other filter***: Read more about this option by clicking the ***Help*** button
-* ***Preview***: Preview of the applied filters
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Type</strong></p></td><td><p>LDAP syntax filters can be used in many situations in Active Directory:</p><ul><li><p><em><strong>All</strong></em>: Default filter.</p></li><li><p><em><strong>Server</strong></em>: Adds a filter to only include Windows Server.</p></li></ul></td></tr><tr><td><p><strong>Other filter</strong></p></td><td><p>Read more about this option by clicking the <em><strong>Help</strong></em> button.</p></td></tr><tr><td><p><strong>Preview</strong></p></td><td><p>Preview of the applied filters.</p></td></tr></tbody></table>
 
 ### Advanced tab
 
