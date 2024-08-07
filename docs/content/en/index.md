@@ -1,5 +1,5 @@
 ---
-_schema: .cloudcannon/schemas/homepage.html
+_schema: homepage
 layout: layouts/home.liquid
 title: Devolutions Documentation
 description: >-
