@@ -33,14 +33,11 @@ module.exports = {
             path: "[relative_base_path]/{slug}.html"
           },
           name: "Homepage",
-          fields: [
-            {
-              label: "Layout",
-              name: "layout",
-              type: "hidden",
-              default: "layouts/home.liquid"
+          _inputs: {
+            layout: {
+              hidden: "true"
             }
-          ]
+          }
         }
       }
     }
