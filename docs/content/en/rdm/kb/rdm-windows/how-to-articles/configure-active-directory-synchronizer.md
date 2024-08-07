@@ -20,20 +20,21 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 
 ![General tab](https://cdnweb.devolutions.net/docs/RDMW4100_2024_2.png "General tab")
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION </p></th></tr></thead><tbody><tr><td><p><strong>Mode</strong></p></td><td><ul><li><p><em><strong>Custom</strong></em>: Choose which <em><strong>Domain machines</strong></em> and <em><strong>OU/Containers</strong></em> to get the information from.</p></li><li><p><em><strong>LDAP</strong></em>: To extract Active Directory computer information using LDAP query. </p></li><li><p><em><strong>My domain</strong></em>: Use the current domain.</p></li></ul></td></tr><tr><td><p><strong>Ping domain before synchronization</strong></p></td><td><p>Verifies if the domain is up before synchronization</p></td></tr><tr><td><p><strong>Domain machine</strong></p></td><td><p>Set the domain machine by clicking on the ellipsis button</p></td></tr><tr><td><p><strong>OU/Container DN</strong></p></td><td><p>Select the OUs or Containers by clicking on the ellipsis button.</p></td></tr><tr><td><p><strong>Test connection</strong></p></td><td><p>Test sthe connection.</p></td></tr><tr><td><p><strong>Preview</strong></p></td><td><p>Lists all the imported machines</p></td></tr><tr><td><p>Use LDAP over SSL</p></td><td><p>If enabled, uses the secure LDAP protocol:</p><ul><li><p><em><strong>Default</strong></em>: Default LDAPS port 636; click on <em><strong>Default</strong></em> to set a different port.</p></li><li><p><em><strong>Port generator</strong></em>: Generate a port.</p></li></ul></td></tr><tr><td><p><strong>Destination folder</strong></p></td><td><p>Choose a destination folder.</p></td></tr><tr><td><p><strong>Template</strong></p></td><td><p>Select a template.</p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION </p></th></tr></thead><tbody><tr><td><p><strong>Mode</strong></p></td><td><ul><li><p><em><strong>Custom</strong></em>: Choose which <em><strong>Domain machines</strong></em> and <em><strong>OU/Containers</strong></em> to get the information from.</p></li><li><p><em><strong>LDAP</strong></em>: To extract Active Directory computer information using LDAP query. </p></li><li><p><em><strong>My domain</strong></em>: Use the current domain.</p></li></ul></td></tr><tr><td><p><strong>Ping domain before synchronization</strong></p></td><td><p>Verifies if the domain is up before synchronization</p></td></tr><tr><td><p><strong>Domain machine</strong></p></td><td><p>Set the domain machine by clicking on the ellipsis button</p></td></tr><tr><td><p><strong>OU/Container DN</strong></p></td><td><p>Select the OUs or Containers by clicking on the ellipsis button.</p></td></tr><tr><td><p><strong>Test connection</strong></p></td><td><p>Test sthe connection.</p></td></tr><tr><td><p><strong>Preview</strong></p></td><td><p>Lists all the imported machines</p></td></tr><tr><td><p><strong>Use LDAP over SSL</strong></p></td><td><p>If enabled, uses the secure LDAP protocol:</p><ul><li><p><em><strong>Default</strong></em>: Default LDAPS port 636; click on <em><strong>Default</strong></em> to set a different port.</p></li><li><p><em><strong>Port generator</strong></em>: Generate a port.</p></li></ul></td></tr><tr><td><p><strong>Destination folder</strong></p></td><td><p>Choose a destination folder.</p></td></tr><tr><td><p><strong>Template</strong></p></td><td><p>Select a template.</p></td></tr></tbody></table>
 
 ### Log in tab
 
-![Login tab](https://cdnweb.devolutions.net/docs/RDMW6045_2024_2.png)
+![Login tab](https://cdnweb.devolutions.net/docs/RDMW4101_2024_2.png "Login tab")
 
-* ***Username***: Username for the domain
-* ***Domain***: Domain for the Active Directory
-* ***Password***: Password for the domain
-* ***Merge username and domain***: Merges username and domain
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Username</strong></p></td><td><p>Username for the domain.</p></td></tr><tr><td><p><strong>Domain</strong></p></td><td><p>Domain for the Active Directory.</p></td></tr><tr><td><p><strong>Password</strong></p></td><td><p>Password for the domain.</p></td></tr><tr><td><p><strong>Merge username and domain</strong></p></td><td><p>Merges username and domain.</p></td></tr></tbody></table>
 
 ### Fields tab
 
-![Fields](https://cdnweb.devolutions.net/docs/RDMW6046_2024_2.png) Choose which fields will always be synchronized, and which will not. For example, you could choose not to synchronize the description, because you want to edit it yourself.
+Choose which fields will always be synchronized, and which will not. For example, the description could be left pruposely unsynchronized and later edited manually.
+
+![Fields](https://cdnweb.devolutions.net/docs/RDMW4102_2024_2.png "Fields")
+
+&nbsp;
 
 * ***Field***: Select which fields will always be synchronized, and which will not
 * ***Session name***: Choose between ***Common name***, ***DNS host name (FQDN)***, and ***Host and description***.
