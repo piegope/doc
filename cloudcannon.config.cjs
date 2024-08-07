@@ -35,7 +35,7 @@ module.exports = {
           name: "Homepage",
           _inputs: {
             layout: {
-              hidden: "true"
+              hidden: true
             }
           }
         }
