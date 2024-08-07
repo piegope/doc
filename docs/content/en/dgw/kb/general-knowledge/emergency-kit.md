@@ -10,8 +10,8 @@ The ***Emergency Kit*** contains a ***key*** that will be required in case you l
 
 1. Go to your {{ en.DA }}.
 2. Click ***Forgot Password*** to receive an access code via email. {% snippet, "badgeCaution" %}
-   Make sure that you have your ***Emergency Kit*** at hand before clicking on ***Next***.
-   {% endsnippet %}
+      Make sure that you have your ***Emergency Kit*** at hand before clicking on ***Next***.
+      {% endsnippet %}
 3. Select ***I understand and accept the risks*** and click ***Next***. ![– Forgot Password](https://cdnweb.devolutions.net/docs/docs_en_kb_KB6197.png)
 4. Enter the ***access code*** received by email.
 5. Type your new password.
@@ -24,7 +24,7 @@ Note: The ***Emergency Kit*** can be reset and downloaded again by going to ***A
 
 ![– Administration – Emergency Kit – Reset Emergency Kit](https://cdnweb.devolutions.net/docs/HUBB6016_2024_1.png)
 
-Here is what the ***Emergency Kit file*** looks like when opened.
+Here is what the {{ variables.DHUBP.en }} Emergency Kit file looks like when opened.
 
 ![Emergency Kit file](https://cdnweb.devolutions.net/docs/HUBB6000_2024_2.png)
 
