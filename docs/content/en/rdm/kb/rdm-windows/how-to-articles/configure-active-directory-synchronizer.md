@@ -4,7 +4,9 @@ eleventyComputed:
   title: Configure an Active directory synchronizer entry in {{ en.RDM }}
   description: This topic covers every option in the Active Directory Synchronizer entry.
 ---
-Every field from the ***Active Directory Synchronizer*** entry is described below. {% snippet, "badgeInfo" %}To learn more about creating and managing an Active Directory, consult the documentation on the official website.{% endsnippet %} {% snippet, "badgeInfo" %}Note that the [***Schedule*** tab](#schedule) is only available in a {{ en.DVLS }} data source, and that is requires the {{ en.DVLS }} ***Scheduler*** to be set up.{% endsnippet %}
+Every field from the ***Active Directory Synchronizer*** entry is described below.
+
+{% snippet, "badgeInfo" %}To learn more about creating and managing an Active Directory, consult the documentation on the official website.{% endsnippet %}
 
 ## Synchronizer
 
@@ -20,7 +22,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 
 ![General tab](https://cdnweb.devolutions.net/docs/RDMW4100_2024_2.png "General tab")
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION </p></th></tr></thead><tbody><tr><td><p><strong>Mode</strong></p></td><td><ul><li><p><em><strong>Custom</strong></em>: Choose which <em><strong>Domain machines</strong></em> and <em><strong>OU/Containers</strong></em> to get the information from.</p></li><li><p><em><strong>LDAP</strong></em>: To extract Active Directory computer information using LDAP query. </p></li><li><p><em><strong>My domain</strong></em>: Use the current domain.</p></li></ul></td></tr><tr><td><p><strong>Ping domain before synchronization</strong></p></td><td><p>Verifies if the domain is up before synchronization</p></td></tr><tr><td><p><strong>Domain machine</strong></p></td><td><p>Set the domain machine by clicking on the ellipsis button</p></td></tr><tr><td><p><strong>OU/Container DN</strong></p></td><td><p>Select the OUs or Containers by clicking on the ellipsis button.</p></td></tr><tr><td><p><strong>Test connection</strong></p></td><td><p>Test sthe connection.</p></td></tr><tr><td><p><strong>Preview</strong></p></td><td><p>Lists all the imported machines</p></td></tr><tr><td><p><strong>Use LDAP over SSL</strong></p></td><td><p>If enabled, uses the secure LDAP protocol:</p><ul><li><p><em><strong>Default</strong></em>: Default LDAPS port 636; click on <em><strong>Default</strong></em> to set a different port.</p></li><li><p><em><strong>Port generator</strong></em>: Generate a port.</p></li></ul></td></tr><tr><td><p><strong>Destination folder</strong></p></td><td><p>Choose a destination folder.</p></td></tr><tr><td><p><strong>Template</strong></p></td><td><p>Select a template.</p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION </p></th></tr></thead><tbody><tr><td><p><strong>Mode</strong></p></td><td><ul><li><p><em><strong>Custom</strong></em>: Choose which <em><strong>Domain machines</strong></em> and <em><strong>OU/Containers</strong></em> to get the information from.</p></li><li><p><em><strong>LDAP</strong></em>: To extract Active Directory computer information using LDAP query. </p></li><li><p><em><strong>My domain</strong></em>: Use the current domain.</p></li></ul></td></tr><tr><td><p><strong>Ping domain before synchronization</strong></p></td><td><p>Verifies if the domain is up before synchronization</p></td></tr><tr><td><p><strong>Domain machine</strong></p></td><td><p>Set the domain machine by clicking on the ellipsis button</p></td></tr><tr><td><p><strong>OU/Container DN</strong></p></td><td><p>Select the OUs or Containers by clicking on the ellipsis button.</p></td></tr><tr><td><p><strong>Test connection</strong></p></td><td><p>Tests the connection.</p></td></tr><tr><td><p><strong>Preview</strong></p></td><td><p>Lists all the imported machines</p></td></tr><tr><td><p><strong>Use LDAP over SSL</strong></p></td><td><p>If enabled, uses the secure LDAP protocol:</p><ul><li><p><em><strong>Default</strong></em>: Default LDAPS port 636; click on <em><strong>Default</strong></em> to set a different port.</p></li><li><p><em><strong>Port generator</strong></em>: Generate a port.</p></li></ul></td></tr><tr><td><p><strong>Destination folder</strong></p></td><td><p>Choose a destination folder.</p></td></tr><tr><td><p><strong>Template</strong></p></td><td><p>Select a template.</p></td></tr></tbody></table>
 
 ### Log in tab
 
@@ -30,11 +32,11 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 
 ### Fields tab
 
-Choose which fields will always be synchronized, and which will not. For example, the description could be left pruposely unsynchronized and later edited manually.
+Choose which fields will always be synchronized, and which will not. For example, the description could be left purposely unsynchronized and later edited manually.
 
 ![Fields](https://cdnweb.devolutions.net/docs/RDMW4102_2024_2.png "Fields")
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Field</strong></p></td><td><p>elect which fields will always be synchronized, and which will not.</p></td></tr><tr><td><p><strong>Session name</strong></p></td><td><p>Choose between <em><strong>Common name</strong></em>, <em><strong>DNS host name (FQDN)</strong></em>, and <em><strong>Host and description</strong></em>.</p></td></tr><tr><td><p><strong>Session name prefix</strong></p></td><td><p>A prefix for the entry that will be created through the synchronizer.</p></td></tr><tr><td><p><strong>Session name suffix</strong></p></td><td><p>A suffix for the entry that will be created through the synchronizer.</p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Field</strong></p></td><td><p>Select which fields will always be synchronized, and which will not.</p></td></tr><tr><td><p><strong>Session name</strong></p></td><td><p>Choose between <em><strong>Common name</strong></em>, <em><strong>DNS host name (FQDN)</strong></em>, and <em><strong>Host and description</strong></em>.</p></td></tr><tr><td><p><strong>Session name prefix</strong></p></td><td><p>A prefix for the entry that will be created through the synchronizer.</p></td></tr><tr><td><p><strong>Session name suffix</strong></p></td><td><p>A suffix for the entry that will be created through the synchronizer.</p></td></tr></tbody></table>
 
 ### Filters tab
 
@@ -55,3 +57,5 @@ Choose which fields will always be synchronized, and which will not. For example
 * ***Enabled***: Schedule being on/off
   * ***Every (Days)***: Interval between when the synchronizer runs
   * ***At***: Specific time to synchronize
+
+{% snippet, "badgeInfo" %}Note that the [***Schedule*** tab](#schedule) is only available in a {{ en.DVLS }} data source, and that is requires the {{ en.DVLS }} ***Scheduler*** to be set up.{% endsnippet %}t
