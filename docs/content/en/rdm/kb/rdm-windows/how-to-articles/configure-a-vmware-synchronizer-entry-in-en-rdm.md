@@ -34,18 +34,18 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Datacenter:*** The specific datacenter to synchronize with if ***Specific datacenter*** is selected as the ***Sync Mode***.
   * ***All datacenter:*** Synchronize ***all datacenters*** available.
   * ***Specific datacenter:*** Synchronize only the ***specified datacenter***.
-* ***Connection type:***
-* ***Console connection mode:***
-* * ***VMware PowerCLI:***
-  * ***VMware VMRC 8.0:***
+* ***Connection type***
+  * ***Default:*** Use the default connection type.
+  * ***VMware Remote Console:*** Connect using ***VMware's Remote Console***.
+  * ***RDP:*** Connect using ***Remote Desktop Protocol***.
+* ***Console connection mode***
+* * ***VMware PowerCLI:*** Use ***VMware PowerCLI*** for console connections.
+  * ***VMware Player:***  Use ***VMware Player*** for console connections.
+  * ***VMware VMRC 8.0:*** Use ***VMware VMRC 8.0*** for console connections.
 * ***API mode:***
-* * ***Default:***
-  * ***Experimental:***
-  * ***Legacy:***
-
-  &nbsp;
-
-  &nbsp;
+* * ***Default:*** Use the ***default API*** mode configured
+  * ***Experimental:*** Use the ***experimental API mode***
+  * ***Legacy:***  Use the ***legacy API mode*** for compatibility with older VMware server versions.
 
 ### Fields tab
 
