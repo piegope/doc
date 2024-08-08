@@ -44,26 +44,13 @@ Choose which fields will always be synchronized, and which will not. For example
 
 ### Advanced tab
 
-![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW6048_2024_2.png)
+![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW4104_2024_2.png "Advanced tab")
 
-* ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals)
-* ***Verify folder on mismatch***: During synchronization, if enabled, verifies each connection and compares to already existing ones; ***Verify on folder mismatch*** will also check the path
-* ***Create virtual folders***: Allow the creation of virtual folders.
-* ***Search scope***
-  * ***Subtree***: Searches the root
-  * ***One-Level***: Searches on the folder level only
-* ***Duplicate check*** will not import entries with the same type and host
-  * ***Root***: Check for duplicates within the whole data source
-  * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder
-* ***Action on entry mismatch***
-  * ***None***: Do nothing
-  * ***Delete***: Delete that entry
-  * ***Move to***: Move to selected ***destination folder***
-  * ***Make expired***: Mark that entry as expired (expiration message can be set up)
+<table><tbody><tr><td><p><strong>Silent mode</strong></p></td><td><p>This option disables error dialogs (useful when the synchronizer runs automatically at set intervals).</p></td></tr><tr><td><p><strong>Verify folder on mismatch</strong></p></td><td><p>During synchronization, if enabled, verifies each connection and compares to already existing ones; <em><strong>Verify on folder mismatch</strong></em> will also check the path.</p></td></tr><tr><td><p><strong>Create virtual folders</strong></p></td><td><p>Allow for the creation of virtual folders.</p></td></tr><tr><td><p><strong>Search scope</strong></p></td><td><ul><li><p><em><strong>Subtree</strong></em>: Searches the root.</p></li><li><p><em><strong>One-Level</strong></em>: Searches on the folder level only.</p></li></ul></td></tr><tr><td><p><strong>Duplicate check</strong></p></td><td><ul><li><p><em><strong>Root</strong></em>: Check for duplicates within the whole data source.</p></li><li><p><em><strong>Destination folder</strong></em>: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder.</p></li></ul><p><em><strong>Duplicate check</strong></em> will not import entries with the same type and host.</p></td></tr><tr><td><p><strong>Action on entry mismatch</strong></p></td><td><ul><li><p><em><strong>None</strong></em>: Do nothing.</p></li><li><p><em><strong>Delete</strong></em>: Delete that entry.</p></li><li><p><em><strong>Move to</strong></em>: Move to selected <em><strong>destination folder</strong></em>.</p></li><li><p><em><strong>Make expired</strong></em>: Mark that entry as expired (expiration message can be set up).</p></li></ul></td></tr></tbody></table>
 
 ### Schedule tab
 
-![Schedule tab](https://cdnweb.devolutions.net/docs/RDMW6049_2024_2.png)
+![Schedule tab](https://cdnweb.devolutions.net/docs/RDMW4105_2024_2.png "Schedule tab")
 
 * ***Enabled***: Schedule being on/off
   * ***Every (Days)***: Interval between when the synchronizer runs
