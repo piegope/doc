@@ -15,6 +15,10 @@ function topicConfig(name, code) {
         create: {
           path: "[relative_base_path]/{slug}.md",
         },
+        _enabled_editors: [
+          'visual',
+          'content'
+        ],
         _inputs: {
           layout: {
             hidden: true
