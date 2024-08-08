@@ -27,24 +27,9 @@ module.exports = {
             path: "[relative_base_path]/{slug}.json"
           }
         }
-      }  
-    },
-    topics: {
-      schemas: {
-        homepage: {
-          path: ".cloudcannon/schemas/homepage.html",
-          create: {
-            path: "[relative_base_path]/{slug}.html",
-            _inputs: {
-              layout: {
-                hidden: true
-              }
-            }        
-          },
-          name: "Homepage"  
-        }        
       }
-    }  
+
+    }
   },
   file_config,
   collection_groups: [
