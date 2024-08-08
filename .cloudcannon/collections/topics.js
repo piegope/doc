@@ -9,7 +9,20 @@ function topicConfig(name, code) {
     schemas: {
       default: {
         path: ".cloudcannon/schemas/topic.md"
+      },
+      homepage: {
+        path: ".cloudcannon/schemas/homepage.md",
+        create: {
+          path: "[relative_base_path]/{slug}.md",
+          _inputs: {
+            layout: {
+              hidden: true
+            }
+          }
+
+        }
       }
+
     },
     _enabled_editors: [
       "content",

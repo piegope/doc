@@ -26,22 +26,9 @@ module.exports = {
           create: {
             path: "[relative_base_path]/{slug}.json"
           }
-        },
-        homepage: {
-          path: ".cloudcannon/schemas/homepage.md",
-          create: {
-            path: "[relative_base_path]/{slug}.md",
-            _inputs: {
-              layout: {
-                hidden: true
-              }
-            }    
-               
-          },
-          name: "Homepage"
         }
       }
-      
+
     }
   },
   file_config,
