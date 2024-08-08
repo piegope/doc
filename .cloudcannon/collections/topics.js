@@ -14,15 +14,13 @@ function topicConfig(name, code) {
         path: ".cloudcannon/schemas/homepage.md",
         create: {
           path: "[relative_base_path]/{slug}.md",
-          _inputs: {
-            layout: {
-              hidden: true
-            }
+        },
+        _inputs: {
+          layout: {
+            hidden: true
           }
-
         }
       }
-
     },
     _enabled_editors: [
       "content",
