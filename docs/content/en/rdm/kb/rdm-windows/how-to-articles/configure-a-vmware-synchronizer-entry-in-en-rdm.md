@@ -49,31 +49,31 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 
 ![Fields tab](https://cdnweb.devolutions.net/docs/RDMW6069_2024_2.png) Choose which fields will always be synchronized, and which will not. For example, you could choose not to synchronize the description, because you want to edit it yourself.
 
-* ***Field***: Select which fields will always be synchronized, and which will not
-* ***Session name prefix***: A prefix for the entry that will be created through the synchronizer
-* ***Session name suffix***: A suffix for the entry that will be created through the synchronizer
+* ***Field***: Select which fields will always be synchronized, and which will not.
+* ***Session name prefix***: A prefix for the entry that will be created through the synchronizer.
+* ***Session name suffix***: A suffix for the entry that will be created through the synchronizer.
 
 ### Advanced tab
 
 ![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW6070_2024_2.png "Advanced tab")
 
-* ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals)
+* ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals).
 * ***Ignore entry type***: Ignore the entry type when performing certain actions.
-* ***Duplicate check*** will not import entries with the same type and host
-  * ***Root***: Check for duplicates within the whole data source
-  * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder
+* ***Duplicate check*** will not import entries with the same type and host.
+  * ***Root***: Check for duplicates within the whole data source.
+  * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder.
 * ***Action on entry mismatch***
-  * ***None***: Do nothing
-  * ***Delete***: Delete that entry
-  * ***Move to***: Move to selected ***destination folder***
-  * ***Make expired***: Mark that entry as expired (expiration message can be set up)
+  * ***None***: Do nothing.
+  * ***Delete***: Delete that entry.
+  * ***Move to***: Move to selected ***destination folder.***
+  * ***Make expired***: Mark that entry as expired (expiration message can be set up).
 
 ### Schedule tab
 
 ![Schedule tab](https://cdnweb.devolutions.net/docs/RDMW6072_2024_2.png "Schedule tab")
 
 * ***Enabled***: Schedule being on/off
-  * ***Every (Days)***: Interval between when the synchronizer runs
-  * ***At***: Specific time to synchronize
+  * ***Every (Days)***: Interval between when the synchronizer runs.
+  * ***At***: Specific time to synchronize.
 
 &nbsp;
