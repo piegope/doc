@@ -19,7 +19,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Name***: Entry name in {{ en.RDM }}.
 * ***Folder***: Which {{ en.RDM }} folder the entry will be in.
 * ***Credentials***: Read more on [***Credentials*** options](/rdm/windows/commands/edit/entries/entry-credentials-options/).
-* ***Synchronize automatically***: The {{ en.RDM }} entry will synchronize automatically with Active Directory.
+* ***Synchronize automatically***: The {{ en.RDM }} entry will synchronize automatically.
 
 ### General tab
 
