@@ -4,7 +4,9 @@ on:
   push:
     branches-ignore:
     - master
-      
+    paths:
+    - docs
+
 jobs:
   translate:
     environment: translations
@@ -45,10 +47,13 @@ jobs:
 
       - name: Get changed files in specific folder
         run: |
-          git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- docs/*/en/** > changed_files.txt
-          echo "Changed files in doc/docs/en:"
+          CURRENT_COMMIT=$(git rev-parse HEAD)
+          LAST_COMMIT=$(git rev-parse HEAD~1)
+
+          git diff --name-only $LAST_COMMIT $CURRENT_COMMIT -- docs/*/en/** > changed_files.txt
+          echo "Changed files in docs/en:"
           cat changed_files.txt
-          
+
       - name: Process each changed file
         run: |
           echo "Processing files listed in changed_files.txt"
@@ -57,10 +62,9 @@ jobs:
             # Run your command-line application here
             ${{ runner.temp }}/Devolutions.ChatGPT.Cli "$file" ${{ secrets.ASSISTANT_API_KEY }} ${{ secrets.ASSISTANT_ID }}
           done < changed_files.txt
-          
+
       - name: Commit translated files
         uses: ./.github/workflows/git-commit-and-push
         with:
-          commit_message: "Translations done by ChatGPT"
-          branch: ${{ steps.variables.outputs.tag }}
+          commit_message: Translations done by ChatGPT
           files: "docs/*/fr/**"

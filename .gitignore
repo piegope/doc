@@ -12,3 +12,6 @@
 .translation-tool
 dist/
 node_modules/
+
+# Visual Studio Code
+.vscode
