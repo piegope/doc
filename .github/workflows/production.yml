@@ -3,6 +3,8 @@ name: production
 on:
   push:
     branches: [master]
+    path-ignore:
+      - '.github/**'
   workflow_dispatch:
     inputs:
       ref:

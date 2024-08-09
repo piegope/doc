@@ -2,10 +2,9 @@ name: translation workflow
 
 on:
   push:
-    branches-ignore:
-    - master
+    branches-ignore: [master]
     paths:
-    - docs
+      - docs
 
 jobs:
   translate:
