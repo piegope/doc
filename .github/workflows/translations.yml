@@ -2,11 +2,11 @@ name: translation workflow
 
 on:
   push:
-      branches-ignore:
-      - master
+    branches-ignore:
+    - master
       
 jobs:
-  build:
+  translate:
     environment: translations
     runs-on: ubuntu-latest
     outputs:
@@ -43,15 +43,12 @@ jobs:
       - name: Add execute permission on Devolutions.ChatGPT.Cli
         run: chmod +x ${{ runner.temp }}/Devolutions.ChatGPT.Cli
 
-      # Get list of changed files in specific folder
       - name: Get changed files in specific folder
-        id: changed-files
         run: |
           git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- docs/*/en/** > changed_files.txt
           echo "Changed files in doc/docs/en:"
           cat changed_files.txt
           
-      # Process each changed file
       - name: Process each changed file
         run: |
           echo "Processing files listed in changed_files.txt"
@@ -61,10 +58,9 @@ jobs:
             ${{ runner.temp }}/Devolutions.ChatGPT.Cli "$file" ${{ secrets.ASSISTANT_API_KEY }} ${{ secrets.ASSISTANT_ID }}
           done < changed_files.txt
           
-      # Commit translated files
       - name: Commit translated files
         uses: ./.github/workflows/git-commit-and-push
         with:
-          commit_message: "[auto] Translations done by ChatGPT"
+          commit_message: "Translations done by ChatGPT"
           branch: ${{ steps.variables.outputs.tag }}
-          files: "docs/*/fr/**"       
+          files: "docs/*/fr/**"
