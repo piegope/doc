@@ -16,10 +16,10 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 
 ![New Entry – Synchronizer](https://cdnweb.devolutions.net/docs/RDMW6068_2024_2.png "New Entry – Synchronizer")
 
-* ***Name***: Entry name in {{ en.RDM }}
-* ***Folder***: Which {{ en.RDM }} folder the entry will be in
-* ***Credentials***: Read more on [***Credentials*** options](/rdm/windows/commands/edit/entries/entry-credentials-options/)
-* ***Synchronize automatically***: The {{ en.RDM }} entry will synchronize automatically with Active Directory
+* ***Name***: Entry name in {{ en.RDM }}.
+* ***Folder***: Which {{ en.RDM }} folder the entry will be in.
+* ***Credentials***: Read more on [***Credentials*** options](/rdm/windows/commands/edit/entries/entry-credentials-options/).
+* ***Synchronize automatically***: The {{ en.RDM }} entry will synchronize automatically with Active Directory.
 
 ### General tab
 
@@ -28,7 +28,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Host:*** The IP address or hostname of the VMware server.
 * ***Username:*** The username required to authenticate and access the VMware server.
 * ***Password:*** The password of the provided username for authentication on the VMware server.
-* ***Sync mode:***
+* ***Sync mode***
   * ***All datacenters:*** Synchronize ***all datacenters*** available.
   * ***Specific datacenter:*** Synchronize only the ***specified datacenter***.
 * ***Datacenter:*** The specific datacenter to synchronize with if ***Specific datacenter*** is selected as the ***Sync Mode***.
@@ -40,7 +40,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * * ***VMware PowerCLI:*** Use ***VMware PowerCLI*** for console connections.
   * ***VMware Player:*** Use ***VMware Player*** for console connections.
   * ***VMware VMRC 8.0:*** Use ***VMware VMRC 8.0*** for console connections.
-* ***API mode:***
+* ***API mode***
 * * ***Default:*** Use the ***default API*** mode configured.
   * ***Experimental:*** Use the ***experimental API mode.***
   * ***Legacy:*** Use the ***legacy API mode*** for compatibility with older VMware server versions.
