@@ -58,6 +58,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 ![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW6070_2024_2.png "Advanced tab")
 
 * ***Silent mode***: This option disables error dialogs (useful when the synchronizer runs automatically at set intervals)
+* ***Ignore entry type***: Ignore the entry type when performing certain actions.
 * ***Duplicate check*** will not import entries with the same type and host
   * ***Root***: Check for duplicates within the whole data source
   * ***Destination folder***: Check for duplicates only within the {{ en.RDM }} destination folder or subfolder
