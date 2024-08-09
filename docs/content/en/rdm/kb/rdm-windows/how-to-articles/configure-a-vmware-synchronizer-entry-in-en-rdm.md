@@ -8,9 +8,7 @@ eleventyComputed:
 ---
 Every field from the ***VMware synchronizer entry*** is described below.
 
-{% snippet, "badgeInfo" %}
-Please note that the [***Schedule*** tab](#schedule) is only available in a {{ en.DVLS }} data source. Also needs the {{ en.DVLS }} ***Scheduler*** to be set up.
-{% endsnippet %}
+{% snippet, "badgeInfo" %}Please note that the ***Schedule*** tab is only available in a {{ en.DVLS }} data source. Also needs the {{ en.DVLS }} ***Scheduler*** to be set up.{% endsnippet %}
 
 ## Synchronizer
 
