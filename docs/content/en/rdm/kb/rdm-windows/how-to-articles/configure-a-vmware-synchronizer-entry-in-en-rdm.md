@@ -47,7 +47,9 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 
 ### Fields tab
 
-![Fields tab](https://cdnweb.devolutions.net/docs/RDMW6069_2024_2.png) Choose which fields will always be synchronized, and which will not. For example, you could choose not to synchronize the description, because you want to edit it yourself.
+![Fields tab](https://cdnweb.devolutions.net/docs/RDMW6069_2024_2.png)
+
+Choose which fields will always be synchronized, and which will not. For example, you could choose not to synchronize the description, because you want to edit it yourself.
 
 * ***Field***: Select which fields will always be synchronized, and which will not.
 * ***Session name prefix***: A prefix for the entry that will be created through the synchronizer.
