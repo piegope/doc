@@ -55,6 +55,16 @@ Choose which fields will always be synchronized, and which will not. For example
 * ***Session name prefix***: A prefix for the entry that will be created through the synchronizer.
 * ***Session name suffix***: A suffix for the entry that will be created through the synchronizer.
 
+### Settings
+
+![Settings tab](https://cdnweb.devolutions.net/docs/RDMW6073_2024_2.png)
+
+* ***Template***:
+* ***Destination folder:***
+* ***Filter by group:***
+
+&nbsp;
+
 ### Advanced tab
 
 ![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW6070_2024_2.png "Advanced tab")
