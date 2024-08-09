@@ -6,7 +6,7 @@ eleventyComputed:
   status:
   keywords:
 ---
-Every field from the ***VMware synchronizer entry***  is described below.
+Every field from the ***VMware synchronizer entry*** is described below.
 
 {% snippet, "badgeInfo" %}
 Please note that the [***Schedule*** tab](#schedule) is only available in a {{ en.DVLS }} data source. Also needs the {{ en.DVLS }} ***Scheduler*** to be set up.
@@ -27,25 +27,25 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 
 ![General tab](https://cdnweb.devolutions.net/docs/RDMW6067_2024_2.png "General tab")
 
-* ***Host:***  The IP address or hostname of the VMware server.
+* ***Host:*** The IP address or hostname of the VMware server.
 * ***Username:*** The username required to authenticate and access the VMware server.
 * ***Password:*** The password of the provided username for authentication on the VMware server.
-* ***Sync mode: All datacenters, Specific datacenter***
-* ***Datacenter:*** The specific datacenter to synchronize with if ***Specific datacenter*** is selected as the ***Sync Mode***.
-  * ***All datacenter:*** Synchronize ***all datacenters*** available.
+* ***Sync mode:***
+  * ***All datacenters:*** Synchronize ***all datacenters*** available.
   * ***Specific datacenter:*** Synchronize only the ***specified datacenter***.
+* ***Datacenter:*** The specific datacenter to synchronize with if ***Specific datacenter*** is selected as the ***Sync Mode***.
 * ***Connection type***
   * ***Default:*** Use the default connection type.
   * ***VMware Remote Console:*** Connect using ***VMware's Remote Console***.
   * ***RDP:*** Connect using ***Remote Desktop Protocol***.
 * ***Console connection mode***
 * * ***VMware PowerCLI:*** Use ***VMware PowerCLI*** for console connections.
-  * ***VMware Player:***  Use ***VMware Player*** for console connections.
+  * ***VMware Player:*** Use ***VMware Player*** for console connections.
   * ***VMware VMRC 8.0:*** Use ***VMware VMRC 8.0*** for console connections.
 * ***API mode:***
-* * ***Default:*** Use the ***default API*** mode configured
-  * ***Experimental:*** Use the ***experimental API mode***
-  * ***Legacy:***  Use the ***legacy API mode*** for compatibility with older VMware server versions.
+* * ***Default:*** Use the ***default API*** mode configured.
+  * ***Experimental:*** Use the ***experimental API mode.***
+  * ***Legacy:*** Use the ***legacy API mode*** for compatibility with older VMware server versions.
 
 ### Fields tab
 
