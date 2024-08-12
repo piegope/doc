@@ -61,7 +61,7 @@ Choose which fields will always be synchronized, and which will not. For example
 
 * ***Template***: Templates created within {% var, "RDM" false %}.
 * ***Destination folder:*** Click the ellipsis button to set the folder path in the {% var, "RDM" false %} tree view (which can only be in the same vault).
-* ***Filter by group:*** Enter the VMWare VM path. For example, if the entered value is ***SiteA\\LocationB\\CustomerC***, {% var, "RDM" false %} will only synchronize the VMs that match that path (and sub-paths).
+* ***Filter by group:*** VMWare VMs have a path (group hierarchy). For example, if the entered value is ***SiteA\\LocationB\\CustomerC***, {% var, "RDM" false %} will only synchronize the VMs that match that path (and sub-paths).
 
 ### Advanced tab
 
