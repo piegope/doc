@@ -19,7 +19,7 @@ Here are the steps to install a portable version of {% var, "RDM" false %}:
 
 There is also a [PowerShell script](https://gist.github.com/thenextman/2061ada9461f1f7a217ec84ffc5e79d1) that automatically sets up a portable version of{% var, "RDM" false %}, provided that .NET Runtime and .NET Windows Desktop Runtime are in their proper respective directories.
 
-Here is an example set up:
+Here is an example:
 
 ```
 setup-environment.ps1 -DotNetRuntimeArchiveFilePath "c:\users\bobanderson\downloads\dotnet-runtime-8.0.7-win-x64.zip" -DotNetDesktopRuntimeArchiveFilePath "c:\users\bobanderson\downloads\windowsdesktop-runtime-8.0.7-win-x64.zip" -RemoteDesktopManagerArchiveFilePath "c:\users\bobanderson\downloads\Devolutions.RemoteDesktopManager.Bin.2024.1.28.0.zip" -PackageRootDirectory "c:\users\bobanderson\portable"
