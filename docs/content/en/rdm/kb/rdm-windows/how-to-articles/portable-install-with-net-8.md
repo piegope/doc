@@ -17,7 +17,7 @@ Here are the steps to install a portable version of {% var, "RDM" false %}:
 3. Set the environment variable `DOTNET\_ROOT` to point to the extracted .NET runtime directory.
 4. Launch **RemoteDesktopManager.exe** with that environment variable properly set (i.e. from the same terminal or prompt).
 
-There is also a [PowerShell script](https://gist.github.com/thenextman/2061ada9461f1f7a217ec84ffc5e79d1) that automatically sets up a portable version of{% var, "RDM" false %}, provided that the .NET Runtime and .NET Windows Desktop Runtime are correctly set up.
+There is also a [PowerShell script](https://gist.github.com/thenextman/2061ada9461f1f7a217ec84ffc5e79d1) that automatically sets up a portable version of{% var, "RDM" false %}, provided that .NET Runtime and .NET Windows Desktop Runtime are in their proper respective directories.
 
 Here is an example set up:
 
