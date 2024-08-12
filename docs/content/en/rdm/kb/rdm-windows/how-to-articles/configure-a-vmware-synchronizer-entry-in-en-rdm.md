@@ -2,7 +2,8 @@
 _schema: default
 eleventyComputed:
   title: Configure a VMware synchronizer entry  in {{ en.RDM }}
-  description:
+  description: |
+    How to configure a VMware synchronizer entry in {{ en.RDM }}.
   status:
   keywords:
 ---
