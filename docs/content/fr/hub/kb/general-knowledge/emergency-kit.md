@@ -1,4 +1,3 @@
-```yaml
 ---
 _schema: default
 eleventyComputed:
