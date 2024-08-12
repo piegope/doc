@@ -20,6 +20,14 @@ Here’s a list of actions available:
 
 ### **Create and delete users and groups**
 
-&nbsp;
+To create user, go to ***New user***
 
-&nbsp;
+***Invite user***
+
+### **View and edit user properties**
+
+### **Modify user group membership**
+
+### **Revoke user sessions**
+
+### **Reset user account passwords**
