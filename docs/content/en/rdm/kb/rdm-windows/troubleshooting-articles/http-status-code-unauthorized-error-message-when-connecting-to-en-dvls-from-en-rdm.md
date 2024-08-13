@@ -10,10 +10,14 @@ eleventyComputed:
 ---
 [Authenticate](/server/web-interface/administration/configuration/server-settings/general/authentication/)with Devolutions Server user<br><br>When the Basic Authentication option is enabled on the {% var, "DVLS" false %} website Authentication feature, {% var, "RDM" false %}displays the following error message:
 
-&nbsp;
-
 ![HTTPStatusCode: Unauthorized error message](https://cdnweb.devolutions.net/docs/RDMW6075_2024_2.png "HTTPStatusCode: Unauthorized error message")
 
-&nbsp;
+Here are the steps to solve this problem.
 
-&nbsp;
+1. Open ***IIS Manager***.
+2. Expand the tree in the ***left pane***.
+3. Select the {% var, "DVLS" false %} website or application.
+4. Open the ***Authentication feature***.
+5. Disable the ***Basic Authentication***.
+
+![Disable Basic Authentication in IIS Manager](https://cdnweb.devolutions.net/docs/RDMW6076_2024_2.png "Disable Basic Authentication in IIS Manager")
