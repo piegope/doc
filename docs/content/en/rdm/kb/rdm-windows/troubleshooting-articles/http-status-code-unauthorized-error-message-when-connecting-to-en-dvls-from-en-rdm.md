@@ -21,3 +21,5 @@ Here are the steps to solve this problem.
 5. Disable the ***Basic Authentication***.
 
 ![Disable Basic Authentication in IIS Manager](https://cdnweb.devolutions.net/docs/RDMW6076_2024_2.png "Disable Basic Authentication in IIS Manager")
+
+If any other sites on that machine don’t require the ***Basic Authentication***, you can uninstall it from the ***Server Roles*** in ***Server Manager***.
