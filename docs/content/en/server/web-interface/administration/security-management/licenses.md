@@ -4,7 +4,7 @@ eleventyComputed:
   description: Managing registration globally for all your users can be done with a license serial stored in Administration – Licenses.
 ---
 Managing registration globally for all your users can be done with a license serial stored in ***Administration – Licenses***.
-![Adding a license](https://cdnweb.devolutions.net/docs/DVLS2009_2024_1.png)
+![Adding a license](https://cdnweb.devolutions.net/docs/DVLS0015_2024_2.png)
 
 Here are the different license types that can be added in {{ en.DVLS }}:
 * {{ en.RDM }}
@@ -14,7 +14,7 @@ Here are the different license types that can be added in {{ en.DVLS }}:
 * Third party PAM integrations (CyberArk, Delinea Secret Server, BeyondTrust)
 * Client access license (user CAL)
 
-![Add a license – General](https://cdnweb.devolutions.net/docs/DVLS2020_2024_1.png)
+![General](https://cdnweb.devolutions.net/docs/DVLS0016_2024_2.png)
 
 ## General
 | Option      | Description                                                                                      |
@@ -24,7 +24,7 @@ Here are the different license types that can be added in {{ en.DVLS }}:
 | Auto assign | Automatically assign the license key to every new user account (not available for PAM licenses). |
 
 ## Assigned to
-![Add a license – Assigned to](https://cdnweb.devolutions.net/docs/DVLS2021_2024_1.png)
+![Assigned to](https://cdnweb.devolutions.net/docs/DVLS0017_2024_2.png)
 
 | Option         | Description                                                          |
 |----------------|----------------------------------------------------------------------|
