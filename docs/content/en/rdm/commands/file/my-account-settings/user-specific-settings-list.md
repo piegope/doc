@@ -1,14 +1,17 @@
 ---
 eleventyComputed:
   title: User specific settings list
-  description: The User Specific Settings List feature will provide all entries that are overridden with user Specific Settings.
+  description: The User specific settings list feature will provide all entries that are overridden with user Specific settings.
 ---
-The ***User Specific Settings List*** feature will provide all entries that are overridden with user ***Specific Settings***.
-![User Specific Settings List dialog](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2250.png)
+The ***User specific settings list*** feature will provide all entries that are overridden with user ***Specific settings***. ***User specific settings list*** becomes ***Local specific settings list*** in certain data sources.
+![User specific settings list dialog](https://cdnweb.devolutions.net/docs/RDMW0022_2024_2.png)
+{% snippet, "badgeInfo" %}
+This feature is only available on [Advanced data sources](/rdm/data-sources/data-sources-types/advanced-data-sources/).
+{% endsnippet %}
 
-| OPTION | DESCRIPTION                                                                                                    |
-|--------|----------------------------------------------------------------------------------------------------------------|
-| Edit   | Edit the selected [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/).   |
-| Delete | Delete the selected [User Specific Settings](/rdm/windows/commands/edit/setting-overrides/specific-settings/). |
+| OPTION | DESCRIPTION                                                                          |
+|--------|--------------------------------------------------------------------------------------|
+| Edit   | Edit the selected [User Specific Settings](/rdm/commands/edit/setting-overrides/).   |
+| Delete | Delete the selected [User Specific Settings](/rdm/commands/edit/setting-overrides/). |
 | Import | Import a list of user Specific Settings from a .rds file. As this file is encrypted using a mandatory password, you will have to provide the password to successfully import the content of the .rds file. |
-| Export | Export a list of user Specific Settings into a .rds file. A password is required to encrypt the .rds file. ![RDMWin2251](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2251.png) |
+| Export | Export a list of user Specific Settings into a .rds file. A password is required to encrypt the .rds file. ![Specific settings encryption](https://cdnweb.devolutions.net/docs/RDMW0023_2024_2.png) |
