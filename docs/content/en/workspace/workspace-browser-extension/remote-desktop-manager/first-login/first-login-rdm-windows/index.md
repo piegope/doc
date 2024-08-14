@@ -1,29 +1,21 @@
 ---
+_schema: default
 eleventyComputed:
   title: First login to {{ en.RDMWIN }} with the {{ en.WBEX }}
-  order: 10
 ---
-Follow these steps to connect {{ en.RDMWIN }} to the {{ en.WBEX }}. You will be prompted to pair the two applications.
+Follow these steps to connect {% var, "RDMWIN" false %} to the {% var, "WBEX" false %}:
 
-1. Click on the {{ en.WBEX }} at the top right corner of your browser.
-   {% snippet, "badgeCaution" %}
-   {{ en.RDM }} must be installed and running to continue.
-   {% endsnippet %}
+1. Open {% var, "RDM" false %} and keep it running, then click on the {% var, "WBEX" false %} icon in your browser.
+2. Choose {% var, "RDM" false %} in the list.
 
-1. Choose ***{{ en.RDM }}*** in the list, then click ***Save***.
-![First Login](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_Dwl4056.png)
-1. Enter a name for this association in the text box.
-![Association with {{ en.RDM }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_Dwl4057.png)
+   ![Application list](https://cdnweb.devolutions.net/docs/WEBX4004_2024_2.png "Application list")
 
-1. Click on ***Associate with {{ en.RDM }}***.
-   {% snippet, "badgeInfo" %}
-   A pop-up window will appear in {{ en.RDM }} to confirm that the request was really sent by you.
-   {% endsnippet %}
+3. Enter a name for this association in the text box.
 
-1. Click ***Yes*** in {{ en.RDM }} to accept the association request.
-![Association Request](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_Dwl4058.png)
-1. If you click on the icon in your web browser, you can validate that the {{ en.WBEX }} is now paired to your {{ en.RDM }}.
-![Successful Association of {{ en.RDM }} to the {{ en.WBEX }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_Dwl4059.png)
-   {% snippet, "badgeInfo" %}
-   Note that, while {{ en.RDM }} can handle multiple associations (e.g., multiple browsers), the {{ en.WBEX }} can only be paired to a single instance of {{ en.RDM }} at any time.
-   {% endsnippet %}
+   ![Association with Remote Desktop Manager](https://cdnweb.devolutions.net/docs/WEBX4005_2024_2.png "Association with Remote Desktop Manager")<br>
+
+4. Click on ***Associate with*** **{% var, "RDM" false %}**.
+5. Click ***Yes*** in **{% var, "RDM" false %}** to accept the association request. ![Association Request](https://cdnweb.devolutions.net/docs/WEBX4006_2024_2.png "Association Request")
+6. If you click on the icon in your web browser, you can validate that the {% var, "WBEX" false %} is now paired to your **{% var, "RDM" false %}**. ![Remote Desktop Manager successfully associated](https://cdnweb.devolutions.net/docs/WEBX4007_2024_2.png "Remote Desktop Manager successfully associated") {% snippet, "badgeInfo" %}
+      Note that, while {{ en.RDM }} can handle multiple associations (e.g., multiple browsers), the {{ en.WBEX }} can only be paired to a single instance of {{ en.RDM }} at any time.
+      {% endsnippet %}
