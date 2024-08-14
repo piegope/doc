@@ -31,7 +31,7 @@ Here is how it works:
 1. If there is a match, you receive a warning.
 
 ### Choose stronger passwords
-{{ en.RDM }} makes it easy to make strong passwords. The built-in [Password Generator](/rdm/windows/commands/tools/generators/password/) creates secure passwords, following your specifications for password length and complexity. The password generator is available on every entry next to the password fields.
+{{ en.RDM }} makes it easy to make strong passwords. The built-in [Password generator](/rdm/commands/tools/generators/password/) creates secure passwords, following your specifications for password length and complexity. The password generator is available on every entry next to the password fields.
 ![Password generator icon](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2326.png)
 ![Password generator](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2327.png)
 

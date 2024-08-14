@@ -21,8 +21,8 @@ By enabling the ***No Internet connection*** some security services will also st
 ## Disabling certificate revocation checks
 Disable ***Enforce certificate revocation check*** found under ***File*** – ***Settings*** – ***Security***. This prevents Windows from trying to reach the revocation servers configured in the certificate. In most cases, revocation servers should be allowed through the firewall unless they are also managed locally.
 ![Enforce certificate revocation check](https://cdnweb.devolutions.net/docs/RDMW0012_2024_2.png)
-In specific situations this can resolve the error message ***Unable to Connect to your Data source*** or ***DVLS server did not respond in time***.
-![Unable to Connect to your Data Source](https://cdnweb.devolutions.net/docs/RDMW0024_2024_2.png)
+In specific situations this can resolve the error message ***Unable to connect to your data source*** or ***DVLS server did not respond in time***.
+![Unable to connect to your data Source](https://cdnweb.devolutions.net/docs/RDMW0024_2024_2.png)
 
 {% snippet, "shieldInfo" %}
 The Windows online certificate revocation check will not use configured proxies on the host for security reasons.
