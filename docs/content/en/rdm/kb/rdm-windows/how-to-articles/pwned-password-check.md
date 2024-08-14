@@ -10,7 +10,6 @@ In the InfoSec world, a pwned password is a password that has been exposed in da
 Using a pwned password significantly increases the chances of being the victim of a data breach. Pwned Check leverages Troy Hunt’s Pnwed Passwords API and automatically checks to see if a password that you’re using (or are thinking of using) has been pwned by hackers. If it has, you will be notified and can be proactive and choose something else to stay out of harm’s way. There are over half a billion passwords in the Pwned Passwords database.
 
 ## Set up the pwned password check
-
 In existing databases, Pwned check is not turned on automatically.
 
 1. Go to ***Administration – System Settings – Password Validation***.
@@ -21,7 +20,6 @@ In existing databases, Pwned check is not turned on automatically.
 ![Change your password](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2325.png)
 
 ### The back end
-
 Rest assured {{ en.RDM }} does NOT send your passwords to Pwned Passwords.
 
 Here is how it works:
@@ -33,7 +31,6 @@ Here is how it works:
 1. If there is a match, you receive a warning.
 
 ### Choose stronger passwords
-
 {{ en.RDM }} makes it easy to make strong passwords. The built-in [Password Generator](/rdm/windows/commands/tools/generators/password/) creates secure passwords, following your specifications for password length and complexity. The password generator is available on every entry next to the password fields.
 ![Password generator icon](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2326.png)
 ![Password generator](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2327.png)

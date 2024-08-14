@@ -1,21 +1,13 @@
 ---
 eleventyComputed:
   title: Entry security analyzer
-  description: The Entry Security Analyzer follows a set of rules to determine the strength of the password with a score from 0 to 100. There are two categories of rules.
+  description: The Entry security analyzer follows a set of rules to determine the strength of the password with a score from 0 to 100. There are two categories of rules.
 ---
-{% snippet, "badgeInfo" %}
-The information in this topic is how the "Legacy" mode of password analysis works. The mode can be changed in the System Settings for ZXCVBN. The "Legacy" mode is not the default mode.
-{% endsnippet %}
-
-The ***Entry Security Analyzer*** evaluates the strength of passwords stored in the data source.
-
-A strength password control is also displayed under most password fields of entries.
-![!!clip3448](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3448.png)
-
-The ***Entry Security Analyzer*** follows a set of rules to determine the strength of the password with a score from 0 to 100. There are two categories of rules.
+The ***Entry security analyzer*** evaluates the strength of passwords stored in the data source. A strength password control is also displayed under most password fields of entries.
+![Password strength](https://cdnweb.devolutions.net/docs/RDMW0026_2024_2.png)
+The ***Entry security analyzer*** follows a set of rules to determine the strength of the password with a score from 0 to 100. There are two categories of rules.
 
 ### Reinforce
-
 These are the rules which make the passwords stronger:
 
 * The password length
@@ -33,7 +25,6 @@ The minimum requirements for a Strong password are:
 * The password contains digits
 
 ### Weakening
-
 These are the rules which make the passwords weaker:
 
 * The password contains only letters
@@ -46,15 +37,14 @@ These are the rules which make the passwords weaker:
 * The password has sequential digits (1234, 4321)
 
 ## Settings
+![Entry security analyzer](https://cdnweb.devolutions.net/docs/RDMW0025_2024_2.png)
 
-![!!clip11340](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11340.png)
-
-| OPTION         | DESCRIPTION                                   |
-|----------------|-----------------------------------------------|
-| Show all entries                 | Shows you all the entries in your session, including those without password.                                                            |
-| Show VPN analysis                | Add the VPN Host column.                                                                                                                |
-| Show compromised password (pwned)| Show if the password has been pwned. A [pwned password](/rdm/kb/rdm-windows/how-to-articles/pwned-password-check/) is a password that has been exposed in data breaches (i.e., they are owned/pwned by hackers). |
-| Edit                             | Open the current entry to edit it.                                                                                                      |
-| Forbidden Passwords              | Create a list of prohibited passwords.                                                                                                                                                                   |
-| Export Settings                  | Export the password analyzer settings.                                                                                                                                                                    |
+| OPTION                            | DESCRIPTION                                                                  |
+|-----------------------------------|------------------------------------------------------------------------------|
+| Show all entries                  | Shows you all the entries in your session, including those without password. |
+| Show VPN analysis                 | Add the VPN Host column.                                                     |
+| Show compromised password (pwned) | Show if the password has been pwned. A [pwned password](/rdm/kb/rdm-windows/how-to-articles/pwned-password-check/) is a password that has been exposed in data breaches (i.e., they are owned/pwned by hackers). |
+| Edit                              | Open the current entry to edit it.                                           |
+| Forbidden Passwords               | Create a list of prohibited passwords.                                       |
+| Export Settings                   | Export the password analyzer settings.                                       |
 
