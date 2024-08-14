@@ -1,0 +1,1 @@
+It appears that the search did not return any results. I will proceed with translating the provided front matter and any additional content you would like to translate. Please provide the text you want to be translated or confirm if you want me to translate the entire document.
