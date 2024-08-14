@@ -4,11 +4,13 @@ eleventyComputed:
   title: >-
     HTTP Status Code Unauthorized error message when connecting to {{ en.DVLS}}
     from {{ en.RDM }}
-  description:
+  description: >-
+    When the Basic Authentication option is enabled on the {{ en.DVLS}} website
+    Authentication feature, {{ en.RDM}} displays the following error message:
   status:
   keywords:
 ---
-<br>When the ***Basic Authentication option*** is enabled on the {% var, "DVLS" false %} website Authentication feature, {% var, "RDM" false %}displays the following error message:
+When the ***Basic Authentication option*** is enabled on the {% var, "DVLS" false %} website Authentication feature, {% var, "RDM" false %}displays the following error message:
 
 ![HTTPStatusCode: Unauthorized error message](https://cdnweb.devolutions.net/docs/RDMW6075_2024_2.png "HTTPStatusCode: Unauthorized error message")
 
