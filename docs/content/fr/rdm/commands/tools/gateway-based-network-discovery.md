@@ -18,6 +18,10 @@ Si vous souhaitez examiner chaque session une par une lors de leur importation, 
 
 &nbsp;
 
+### Désactiver l'analyse réseau
+
+&nbsp;
+
 https://docs.devolutions.net/rdm/kb/rdm-windows/how-to-articles/group-policies/#disable-network-scan
 
 &nbsp;
