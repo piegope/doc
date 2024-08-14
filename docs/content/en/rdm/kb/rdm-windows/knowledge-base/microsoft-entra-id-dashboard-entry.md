@@ -18,9 +18,12 @@ Here’s a list of actions available:
 * **Revoke user sessions**
 * **Reset user account passwords**
 
-### **Create and delete users and groups**
+## **Create and delete users and groups**
 
-To create a new user, go to ***New user***
+### Create users
+
+1. To create a new user, select ***Users*** on the left pane.
+2. Go to ***New user***.
 
 ***Invite user***
 
