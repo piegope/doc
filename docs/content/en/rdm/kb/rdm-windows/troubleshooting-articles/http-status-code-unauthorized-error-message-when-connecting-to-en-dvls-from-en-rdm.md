@@ -5,8 +5,8 @@ eleventyComputed:
     HTTP Status Code Unauthorized error message when connecting to {{ en.DVLS}}
     from {{ en.RDM }}
   description: >-
-    When the Basic Authentication option is enabled on the {{ en.DVLS}}  website
-    Authentication feature, displays the following error message:
+    When the Basic Authentication option is enabled on the {{ en.DVLS}} website
+    Authentication feature, {{ en.RDM}} displays the following error message:
   status:
   keywords:
 ---
