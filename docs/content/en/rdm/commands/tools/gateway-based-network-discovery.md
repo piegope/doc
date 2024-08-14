@@ -6,12 +6,20 @@ eleventyComputed:
   status:
   keywords:
 ---
-&nbsp;
+***Network Scan*** allows you to perform a network scan based on a predefined range of IP addresses to find sessions to import. It can be accessed via the ***File – Import*** menu or by right-clicking in the Navigation pane and selecting ***Import***.
 
-&nbsp;
+Specify a scan range, then, once the scan is completed, select the sessions you wish to import (by default, all sessions are selected) and click ***OK*** to import the sessions in your data source.
 
-&nbsp;
+If you wish to review every session one by one as they are imported, you can check the ***Edit imported entry*** option. However, this is not recommended for a large number of sessions.
+
+## **Scanning options**
+
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Resolve IP address</p></td><td><p>Attempts to resolve IP addresses from hostname or domain name.</p></td></tr><tr><td><p>Scan using ZeroConf</p></td><td><p>Sends a ping to every IP address before scanning, showing only those that respond. This should increase scanning speed.</p></td></tr><tr><td><p>Ignore existing sessions</p></td><td><p>Hides the sessions already present on the data source.</p></td></tr><tr><td><p>Scan Devolutions Gateway</p></td><td><p>Scans for Devolutions Gateways.</p></td></tr><tr><td><p>Edit imported entry</p></td><td><p>Opens the <em><strong>Edit</strong></em> window for each selected entry before importation.</p></td></tr></tbody></table>
 
 &nbsp;
 
 https://docs.devolutions.net/rdm/kb/rdm-windows/how-to-articles/group-policies/#disable-network-scan
+
+&nbsp;
+
+&nbsp;
