@@ -1,12 +1,12 @@
 ---
 _schema: default
 eleventyComputed:
-  title: ' Analyse réseau'
+  title: ' Network scan'
   description:
   status:
   keywords:
 ---
-***Analyse réseau*** permet d'effectuer une analyse réseau basée sur une plage d'adresses IP prédéfinie pour trouver des sessions à importer. Elle est accessible via le menu ***Fichier – Importer*** ou en cliquant avec le bouton droit dans le Volet de navigation et en sélectionnant ***Importer***.
+***Network Scan*** permet d'effectuer une analyse réseau basée sur une plage d'adresses IP prédéfinie pour trouver des sessions à importer. Il est accessible via le menu ***Fichier – Importer*** ou en cliquant avec le bouton droit dans le Volet de navigation et en sélectionnant ***Importer***.
 
 Spécifier une plage de balayage, puis, une fois le balayage terminé, sélectionner les sessions que vous souhaitez importer (par défaut, toutes les sessions sont sélectionnées) et cliquer sur ***OK*** pour importer les sessions dans votre source de données.
 
@@ -18,11 +18,9 @@ Si vous souhaitez examiner chaque session une par une lors de leur importation, 
 
 &nbsp;
 
-### Désactiver l'analyse réseau
+### Désactiver le balayage réseau
 
-&nbsp;
-
-https://docs.devolutions.net/rdm/kb/rdm-windows/how-to-articles/group-policies/#disable-network-scan
+Le balayage réseau peut être désactivé en utilisant des [objets stratégie de groupe](/rdm/kb/rdm-windows/how-to-articles/group-policies/#disable-network-scan).
 
 &nbsp;
 
