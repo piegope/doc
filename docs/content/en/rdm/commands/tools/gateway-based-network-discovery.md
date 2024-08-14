@@ -18,6 +18,10 @@ If you wish to review every session one by one as they are imported, you can che
 
 &nbsp;
 
+### Disable Network scan
+
+&nbsp;
+
 https://docs.devolutions.net/rdm/kb/rdm-windows/how-to-articles/group-policies/#disable-network-scan
 
 &nbsp;
