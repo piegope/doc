@@ -14,7 +14,7 @@ The only workaround is to restart {% var, "RDM" false %} when the crash occurs.
 
 ### Detailed analysis
 
-Applications such as {% var, "RDM" false %} may experience crashes during .NET runtime updates pushed via Windows Update. This occurs because the update process can remove the previous version of the runtime that the application is currently using. When the application tries to load a new assembly after the runtime has been updated in the background, it may fail because the required files have been removed.
+Applications such as {% var, "RDM" false %} may experience crashes during .NET runtime updates pushed via Windows Update. This occurs because the update process removes the previous version of the runtime that the application is currently using. When the application tries to load a new assembly after the runtime has been updated in the background, it fails because the required files have been removed.
 
 When updating the .NET runtime manually using the installer, the older version of the runtime is typically not deleted immediately. This prevents the issue of missing assemblies because the application can still access the necessary files from the previous version. However, when the update is performed via Windows Update, the older runtime version is removed, leading to potential crashes.
 
