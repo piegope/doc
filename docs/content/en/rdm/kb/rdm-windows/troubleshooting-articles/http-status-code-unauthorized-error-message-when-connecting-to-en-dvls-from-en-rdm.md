@@ -10,7 +10,7 @@ eleventyComputed:
   status:
   keywords:
 ---
-When the ***Basic Authentication option*** is enabled on the {% var, "DVLS" false %} website Authentication feature, {% var, "RDM" false %}displays the following error message:
+When the ***Basic Authentication option*** is enabled on the {% var, "DVLS" false %} website Authentication feature, {% var, "RDM" false %} displays the following error message:
 
 ![HTTPStatusCode: Unauthorized error message](https://cdnweb.devolutions.net/docs/RDMW6075_2024_2.png "HTTPStatusCode: Unauthorized error message")
 
