@@ -8,6 +8,6 @@ eleventyComputed:
   status:
   keywords:
 ---
-The Microsoft .NET runtime can be silently updated in the background while {% var, "RDM" false %} is running, which may cause the application to crash. This is a known issue with Microsoft, but as of this writing, no fix has been implemented. This issue typically arises after a minor security update to the .NET runtime, such as an upgrade from .NET 8.0.7 to .NET 8.0.8.
+The Microsoft .NET runtime can be silently updated in the background while {% var, "RDM" false %} is running, which may cause the application to crash ([DllNotFoundException after .NET 5 in-place update](https://github.com/dotnet/runtime/issues/60144)). This is a known issue with Microsoft, but as of this writing, no fix has been implemented. This issue typically arises after a minor security update to the .NET runtime, such as an upgrade from .NET 8.0.7 to .NET 8.0.8.
 
 The only workaround is to restart {% var, "RDM" false %} when the crash occurs.
