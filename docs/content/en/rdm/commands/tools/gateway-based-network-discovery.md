@@ -10,11 +10,9 @@ eleventyComputed:
 
 Specify a scan range, then, once the scan is completed, select the sessions you wish to Connect, [Import](/rdm/commands/file/import/network-scan/), or [Select in navigation pane](/rdm/user-interface/navigation-pane/).
 
-If you wish to review every session one by one as they are imported, you can check the ***Edit imported entry*** option. However, this is not recommended for a large number of sessions.
-
 ## **Scanning options**
 
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Resolve IP address</p></td><td><p>Attempts to resolve IP addresses from hostname or domain name.</p></td></tr><tr><td><p>Scan using ZeroConf</p></td><td><p>Sends a ping to every IP address before scanning, showing only those that respond. This should increase scanning speed.</p></td></tr><tr><td><p>Ignore existing sessions</p></td><td><p>Hides the sessions already present on the data source.</p></td></tr><tr><td><p>Scan Devolutions Gateway</p></td><td><p>Scans for Devolutions Gateways.</p></td></tr></tbody></table>
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Resolve IP address</p></td><td><p>Attempts to resolve IP addresses from hostname or domain name.</p></td></tr><tr><td><p>Scan using ZeroConf</p></td><td><p>Sends a ping to every IP address before scanning, showing only those that respond. This should increase scanning speed.</p></td></tr><tr><td><p>Ignore existing sessions</p></td><td><p>Hides the sessions already present on the data source.</p></td></tr><tr><td><p>Scan Devolutions Gateway</p></td><td><p>Scans using Devolutions Gateways, eliminating the need for VPN for remote network. </p></td></tr></tbody></table>
 
 ### Disable Network scan
 
