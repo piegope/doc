@@ -8,7 +8,7 @@ eleventyComputed:
 ---
 ***Network Scan*** allows you to perform a network scan based on a predefined range of IP addresses to find sessions. It can be accessed via the ***Tool-Network Scan*** menu.
 
-Specify a scan range, then, once the scan is completed, select the sessions you wish to import (by default, all sessions are selected) and click ***OK*** to import the sessions in your data source.
+Specify a scan range, then, once the scan is completed, select the sessions you wish to Connect, [Import](/rdm/commands/file/import/network-scan/), or [Select in navigation pane](/rdm/user-interface/navigation-pane/).
 
 If you wish to review every session one by one as they are imported, you can check the ***Edit imported entry*** option. However, this is not recommended for a large number of sessions.
 
