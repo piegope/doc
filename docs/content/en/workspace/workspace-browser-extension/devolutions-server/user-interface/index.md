@@ -17,7 +17,7 @@ If you use multiple Devolutions products with the extension, you can switch betw
 Using the tabs of the ***Side menu***, you can access various {{ en.WBEX }} features. ![Side menu tabs](https://cdnweb.devolutions.net/docs/WEBX4059_2024_2.png "Side menu tabs") Each tab will display a different view in the ***Content area***. The tabs available when using the {{ en.WBEX }} with {{ en.DVLS }} are:
 
 * the ***Matching*** tab, where you can find available credentials for a specific website.
-* the ***{{ en.VLT }}*** tab,  where you can find all the {{ en.DVLS }} entries you synchronized, divided into your different {{ en.VLT }}s and folders.
+* the ***{{ en.VLT }}s*** tab,  where you can find all the {{ en.DVLS }} entries you synchronized, divided into your different {{ en.VLT }}s and folders.
 * the ***Favorites*** tab, where you can find a list of your favorite entries.
 * the ***Recent*** tab, where you can find a list of the entries that you recently used.
 * the ***Password Generator*** tab, where you can create a strong and secure password for a new account.
