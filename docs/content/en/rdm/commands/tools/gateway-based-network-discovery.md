@@ -2,7 +2,9 @@
 _schema: default
 eleventyComputed:
   title: ' Network scan'
-  description:
+  description: >-
+    Network Scan allows you to perform a network scan based on a predefined
+    range of IP addresses to find sessions. 
   status:
   keywords:
 ---
