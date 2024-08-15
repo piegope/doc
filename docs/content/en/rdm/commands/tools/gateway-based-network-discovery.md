@@ -18,7 +18,7 @@ Specify a scan range, then, once the scan is completed, select the sessions you 
 
 ### Disable Network scan
 
-Network scan can be disabled by using [GPOs](/rdm/kb/rdm-windows/how-to-articles/group-policies/#disable-network-scan).
+Network scan can be disabled through [GPOs](/rdm/kb/rdm-windows/how-to-articles/group-policies/#disable-network-scan).
 
 &nbsp;
 
