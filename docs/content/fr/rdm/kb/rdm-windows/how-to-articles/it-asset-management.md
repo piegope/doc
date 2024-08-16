@@ -8,13 +8,15 @@ La fonctionnalité de gestion des actifs informatiques peut être utilisée pour
 
 ## Étapes
 
-1. Faire un clic droit sur une entrée et sélectionner ***Properties***.
-2. Aller à ***View*** – ***IT Asset Management***.
-3. Sélectionner un ***Service type*** dans la liste déroulante.
-4. Saisir l'URL d'un actif spécifique. ![IT Asset Management](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0058.png)
+1. Faire un clic droit sur une entrée et sélectionner ***Propriétés***.
+2. Aller à ***Vue*** – ***Gestion des actifs informatiques***.
+3. Sélectionner un ***Type de service*** dans la liste déroulante.
+4. Saisir l'URL vers un actif spécifique. ![Gestion des actifs informatiques](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0058.png)
 5. Cliquer sur ***OK*** pour enregistrer les modifications et fermer la fenêtre.
-6. Dans le ***Dashboard***, sélectionner l'onglet ***IT Asset Management***. {% snippet, "badgeInfo" %}
-   L'onglet sera nommé selon ce qui a été écrit dans le ***champ de titre de la gestion des actifs informatiques***. Si le champ est laissé vide, ***BlueTally*** s'affichera (si ce service a été choisi), ou s'affichera comme ***IT Asset Management***.
+6. Dans le ***Tableau de bord***, sélectionner l'onglet ***Gestion des actifs informatiques***. {% snippet, "badgeInfo" %}
+   L'onglet sera nommé selon ce qui a été écrit dans le ***champ de titre de la gestion des actifs informatiques***. Si le champ est laissé vide, ***BlueTally*** s'affichera (si ce service a été choisi), ou s'affichera comme ***Gestion des actifs informatiques***.
    {% endsnippet %}
 
-![IT Asset Management tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0059.png) 7. Se connecter à ce service.
+![Onglet Gestion des actifs informatiques](https://cdnweb.devolutions.net/docs/RDMW6080_2024_2.png "Onglet Gestion des actifs informatiques")
+
+7\. Se connecter à ce service.
