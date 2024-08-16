@@ -12,7 +12,7 @@ The IT Asset Management feature can be used to link an asset manager (e.g., Blue
 
 1. Right-click on an entry and select ***Properties***.
 2. Go to ***View*** – ***IT Asset Management***.
-3. Select a ***Service type*** in the dropdown.
+3. Select a ***Service type*** in the dropdown list.
 4. Input the URL to a specific asset. ![IT Asset Management](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0058.png)
 5. Click ***OK*** to save the changes and close the window.
 6. In the ***Dashboard***, select the ***IT Asset Management*** tab. {% snippet, "badgeInfo" %}
