@@ -17,4 +17,6 @@ The IT Asset Management feature can be used to link an asset manager (e.g., Blue
    The tab will be named according to what was written in the ***IT asset management title field***. If the field is left empty ***BlueTally*** will show (if this service was chosen), or show as ***IT Asset Management***.
    {% endsnippet %}
 
-![IT Asset Management tab](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0059.png) 7. Log in to that service.
+![IT Asset Management tab](https://cdnweb.devolutions.net/docs/RDMW6080_2024_2.png "IT Asset Management tab")
+
+7\. Log in to that service.
