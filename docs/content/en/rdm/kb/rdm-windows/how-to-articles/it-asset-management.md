@@ -4,6 +4,8 @@ eleventyComputed:
   title: IT asset management in {{ en.RDM }}
   description: How to use asset management in {{ en.RDM }}.
 ---
+Manage your IT inventory accurately by centralizing technical, software, hardware, and location information.
+
 The IT Asset Management feature can be used to link an asset manager (e.g., BlueTally, [Lansweeper](/rdm/kb/rdm-windows/how-to-articles/lansweeper/)) through an entry's properties. {% snippet, "badgeInfo" %}Only the ***Session***, ***Remote Management***, ***Miscellaneous***, ***VPN***, ***Synchronizer*** and ***Template*** entry types support this feature for now. The [***IT Asset Management entries***](https://docs.devolutions.net/rdm/kb/rdm-windows/knowledge-base/it-asset-entry/) work differently from the feature.{% endsnippet %}
 
 ## Steps
