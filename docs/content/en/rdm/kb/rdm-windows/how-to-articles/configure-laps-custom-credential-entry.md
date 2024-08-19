@@ -17,7 +17,11 @@ Windows LAPS is required and must be properly configured in your environment to 
 ![Set the drop-down menu to PowerShell](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2335.png)
 1. Add the following PowerShell script in the ***Command*** box.
    {% snippet, "badgeInfo" %}
-   Please note that the script uses the $HOST$ variable for the `-ComputerName` switch of the `Get-LapsADPassword` cmdlet and use the $PARAMETER1$ variable for the username (see step 6 below).
+   Please note that the script uses the $HOST$ variable for the `-ComputerName` switch of the `Get-LapsADPassword` cmdlet and uses the $PARAMETER1$ variable for the username (see step 6 below).
+   Also note that depending on your environment, the $PARAMETER$ could be related to the `-Identity`.
+   You can also configure the ***parameter 2*** to set the username you need and change the script value from %USERNAME% to $PARAMETER2$.
+
+   We recommend to launch {{ en.RDM }} as an administrator to gain elevated permissions.
    {% endsnippet %}
 
    ```powershell
