@@ -13,7 +13,7 @@ Every field from the ***VMware synchronizer entry*** is described below.
 
 ## Synchronizer
 
-The entry can be found under ***New Entry*** – ***Synchronizer***:
+The entry can be found under ***New Entry*** – ***Synchronizer.***
 
 ![New Entry – Synchronizer](https://cdnweb.devolutions.net/docs/RDMW6068_2024_2.png "New Entry – Synchronizer")
 
@@ -60,7 +60,7 @@ Choose which fields will always be synchronized, and which will not. For example
 
 ![Settings tab](https://cdnweb.devolutions.net/docs/RDMW6073_2024_2.png)
 
-* ***Template***: Templates created within {% var, "RDM" false %}.
+* ***Template***: [Templates](/rdm/concepts/intermediate-concepts/templates/)created within {% var, "RDM" false %}.
 * ***Destination folder:*** Click the ellipsis button to set the folder path in the {% var, "RDM" false %} tree view (which can only be in the same vault).
 * ***Filter by group:*** VMWare VMs have a path (group hierarchy). For example, if the entered value is ***SiteA\\LocationB\\CustomerC***, {% var, "RDM" false %} will only synchronize the VMs that match that path (and sub-paths).
 
