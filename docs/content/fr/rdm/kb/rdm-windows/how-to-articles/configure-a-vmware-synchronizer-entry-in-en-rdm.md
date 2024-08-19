@@ -13,18 +13,18 @@ Chaque champ de l'***entrée de synchroniseur VMware*** est décrit ci-dessous.
 
 ## Synchroniseur
 
-L'entrée se trouve sous ***Nouvelle entrée*** – ***Synchroniseur.***
+L'entrée peut être trouvée sous ***Nouvelle entrée*** – ***Synchroniseur.***
 
-![New Entry – Synchronizer](https://cdnweb.devolutions.net/docs/RDMW6068_2024_2.png "New Entry – Synchronizer")
+![Nouvelle entrée – Synchroniseur](https://cdnweb.devolutions.net/docs/RDMW6068_2024_2.png "Nouvelle entrée – Synchroniseur")
 
 * ***Nom***: Nom de l'entrée dans {{ fr.RDM }}.
 * ***Dossier***: Dans quel dossier {{ fr.RDM }} l'entrée sera.
-* ***Informations d'identification***: En savoir plus sur les options des [***informations d'identification***](/rdm/windows/commands/edit/entries/entry-credentials-options/).
+* ***Informations d'identification***: Lire plus sur les options [***Informations d'identification***](/rdm/windows/commands/edit/entries/entry-credentials-options/).
 * ***Synchroniser automatiquement***: L'entrée {{ fr.RDM }} se synchronisera automatiquement.
 
 ### Onglet Général
 
-![General tab](https://cdnweb.devolutions.net/docs/RDMW6067_2024_2.png "General tab")
+![Onglet Général](https://cdnweb.devolutions.net/docs/RDMW6067_2024_2.png "Onglet Général")
 
 * ***Hôte:*** L'adresse IP ou le nom d'hôte du serveur VMware.
 * ***Nom d'utilisateur:*** Le nom d'utilisateur requis pour s'authentifier et accéder au serveur VMware.
@@ -37,10 +37,10 @@ L'entrée se trouve sous ***Nouvelle entrée*** – ***Synchroniseur.***
   * ***Par défaut:*** Utiliser le type de connexion par défaut.
   * ***VMware Remote Console:*** Se connecter en utilisant ***VMware Remote Console***.
   * ***RDP:*** Se connecter en utilisant le ***protocole de Bureau à distance***.
-* ***Mode de connexion à la console***
-  * ***VMware PowerCLI:*** Utiliser ***VMware PowerCLI*** pour les connexions à la console.
-  * ***VMware Player:*** Utiliser ***VMware Player*** pour les connexions à la console.
-  * ***VMware VMRC 8.0:*** Utiliser ***VMware VMRC 8.0*** pour les connexions à la console.
+* ***Mode de connexion de la console***
+  * ***VMware PowerCLI:*** Utiliser ***VMware PowerCLI*** pour les connexions de console.
+  * ***VMware Player:*** Utiliser ***VMware Player*** pour les connexions de console.
+  * ***VMware VMRC 8.0:*** Utiliser ***VMware VMRC 8.0*** pour les connexions de console.
 * ***Mode API***
   * ***Par défaut:*** Utiliser le ***mode API par défaut*** configuré.
   * ***Expérimental:*** Utiliser le ***mode API expérimental.***
@@ -48,7 +48,7 @@ L'entrée se trouve sous ***Nouvelle entrée*** – ***Synchroniseur.***
 
 ### Onglet Champs
 
-![Fields tab](https://cdnweb.devolutions.net/docs/RDMW6069_2024_2.png)
+![Onglet Champs](https://cdnweb.devolutions.net/docs/RDMW6069_2024_2.png)
 
 Choisir quels champs seront toujours synchronisés, et lesquels ne le seront pas. Par exemple, vous pourriez choisir de ne pas synchroniser la description, car vous souhaitez la modifier vous-même.
 
@@ -58,7 +58,7 @@ Choisir quels champs seront toujours synchronisés, et lesquels ne le seront pas
 
 ### Paramètres
 
-![Settings tab](https://cdnweb.devolutions.net/docs/RDMW6073_2024_2.png)
+![Onglet Paramètres](https://cdnweb.devolutions.net/docs/RDMW6073_2024_2.png)
 
 * ***Modèle***: [Modèles](/rdm/concepts/intermediate-concepts/templates/) créés dans {% var, "RDM" false %}.
 * ***Dossier de destination:*** Cliquer sur le bouton des points de suspension pour définir le chemin du dossier dans l'arborescence {% var, "RDM" false %} (qui ne peut être que dans le même coffre).
@@ -66,7 +66,7 @@ Choisir quels champs seront toujours synchronisés, et lesquels ne le seront pas
 
 ### Onglet Avancé
 
-![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW6070_2024_2.png "Advanced tab")
+![Onglet Avancé](https://cdnweb.devolutions.net/docs/RDMW6070_2024_2.png "Onglet Avancé")
 
 * ***Mode silencieux***: Cette option désactive les dialogues d'erreur (utile lorsque le synchroniseur s'exécute automatiquement à des intervalles définis).
 * ***Ignorer le type d'entrée***: Ignorer le type d'entrée lors de l'exécution de certaines actions.
@@ -81,7 +81,7 @@ Choisir quels champs seront toujours synchronisés, et lesquels ne le seront pas
 
 ### Onglet Planification
 
-![Schedule tab](https://cdnweb.devolutions.net/docs/RDMW6072_2024_2.png "Schedule tab")
+![Onglet Planification](https://cdnweb.devolutions.net/docs/RDMW6072_2024_2.png "Onglet Planification")
 
 * ***Activé***: Planification activée/désactivée
   * ***Tous les (jours)***: Intervalle entre les exécutions du synchroniseur.
