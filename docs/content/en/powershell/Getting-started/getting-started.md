@@ -16,12 +16,15 @@ Although each Devolutions PowerShell script has specific dependencies related to
 
 There are two types of PowerShell: Windows PowerShell and just plain PowerShell. The former is installed by default on every version of Windows but the latter is not and therefore requires a separate installation. Since Devolutions' products only support PowerShell proper, it will need to be installed manually. Here is how:
 
-1. Go to [Microsoft's PowerShell GitHub repository releases page](https://github.com/PowerShell/PowerShell/releases).
-2. Scroll down the Assets section until you see the Windows \[...\] .msi package and download it.
-3. Open the installer and go through the wizard.
-4. Press Win+R and run `pwsh`. A PowerShell window should open.
+1\. Go to [Microsoft's PowerShell GitHub repository releases page](https://github.com/PowerShell/PowerShell/releases).
 
-   &nbsp;
+2\. Scroll down the Assets section until you see the Windows .msi package and download it.
+
+![Windows .msi package from the Assets list](https://cdnweb.devolutions.net/docs/INTERFACE4042.png "Windows .msi package from the Assets list")
+
+3\. Open the installer and go through the wizard.
+
+4\. Press Win+R and run `pwsh`. A PowerShell window should open.
 
 ### PowerShell user execution policy
 
