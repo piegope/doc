@@ -6,11 +6,11 @@ eleventyComputed:
   status:
   keywords:
 ---
-## Prerequisites
+## Requirements
 
-Although each Devolutions PowerShell script has specific dependencies related to the tasks it is meant to carry out, all must meet a global set of prerequisites in order to be executed. Luckily, these only need to be configured once per computer.
+Although each Devolutions PowerShell script has specific dependencies related to the tasks it is meant to carry out, all must meet certain minimum requirements in order to be executed at all. Luckily, these prerequisites only need to be configured once per machine.
 
-{% snippet, "badgeInfo" %}These requirements must be met on the computer on which the Devolutions product that you wish to interact with using PowerShell scripts is installed.{% endsnippet %}
+{% snippet, "badgeInfo" %}In order for the Devolutions.PowerShell scripts to work with the desired solutions, both need to be installed on the same machine.{% endsnippet %}
 
 ### Verifying PowerShell v7+ is installed
 
