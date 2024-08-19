@@ -8,9 +8,9 @@ eleventyComputed:
 ---
 {{ fr.RDM }} génère des fichiers auxiliaires sur votre poste de travail. Le tableau ci-dessous répertorie un exemple de fichiers auxiliaires et leurs emplacements.
 
-Comme décrit dans [Emplacement du fichier de configuration](/rdm/windows/installation/client/configuration-file-location/), le chemin par défaut de la plupart de ces fichiers est personnalisable. Pour cette raison, nous utilisons le jeton \[CONFIG\] dans cette documentation pour indiquer qu'un fichier est stocké dans un dossier de configuration qui peut être déplacé, ou le jeton \[PROFILE\] pour indiquer qu'ils sont stockés dans le profil local. Par défaut, ceux-ci pointent vers le même dossier exact. La seule méthode pour les séparer est d'utiliser une configuration personnalisée.
+Comme décrit dans [Emplacement du fichier de configuration](/rdm/windows/installation/client/configuration-file-location/), le chemin par défaut de la plupart de ces fichiers est personnalisable. Pour cette raison, nous utilisons le jeton \[CONFIG\] dans cette documentation pour indiquer lorsqu'un fichier est stocké dans un dossier de configuration qui peut être déplacé, ou le jeton \[PROFILE\] pour indiquer qu'ils sont stockés dans le profil local. Par défaut, ceux-ci pointent vers le même dossier exact. La seule méthode pour les séparer est d'utiliser une configuration personnalisée.
 
-Puisque vous pouvez également déployer sur un appareil portable, parfois connu sous le nom de modèle de déploiement XCOPY, nous utiliserons le jeton \[INSTALLDIR\] pour indiquer que le fichier se trouve au même endroit que {{ fr.RDM }}.
+Puisque vous pouvez également déployer sur un appareil portable, parfois connu sous le nom de modèle de déploiement XCOPY, nous utiliserons le jeton \[INSTALLDIR\] pour indiquer que le fichier se trouve au même emplacement que {{ fr.RDM }}.
 
 La colonne Source de remplacement indique si un mécanisme disponible peut déplacer les fichiers de cette catégorie ailleurs.
 
@@ -22,4 +22,4 @@ La colonne Source de remplacement indique si un mécanisme disponible peut dépl
 
 ### Option de liste de lecture hors ligne et locale
 
-Accéder aux options de liste de lecture hors ligne et locale en naviguant vers ***Fichier – Paramètres – Avancé***. ![File – Settings – Advanced](https://cdnweb.devolutions.net/docs/RDMW6081_2024_2.png "File – Settings – Advanced")
+Les options de liste de lecture hors ligne et locale peuvent être accessibles en naviguant vers ***Fichier – Paramètres – Avancé***. ![File – Settings – Advanced](https://cdnweb.devolutions.net/docs/RDMW6081_2024_2.png "File – Settings – Advanced")
