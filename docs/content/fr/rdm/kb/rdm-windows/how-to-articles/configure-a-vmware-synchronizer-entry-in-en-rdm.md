@@ -13,18 +13,18 @@ Chaque champ de l'***entrée de synchroniseur VMware*** est décrit ci-dessous.
 
 ## Synchroniseur
 
-L'entrée peut être trouvée sous ***Nouvelle entrée*** – ***Synchroniseur*** :
+L'entrée se trouve sous ***Nouvelle entrée*** – ***Synchroniseur.***
 
-![Nouvelle entrée – Synchroniseur](https://cdnweb.devolutions.net/docs/RDMW6068_2024_2.png "Nouvelle entrée – Synchroniseur")
+![New Entry – Synchronizer](https://cdnweb.devolutions.net/docs/RDMW6068_2024_2.png "New Entry – Synchronizer")
 
 * ***Nom***: Nom de l'entrée dans {{ fr.RDM }}.
-* ***Dossier***: Dans quel dossier {{ fr.RDM }} l'entrée sera-t-elle.
-* ***Informations d'identification***: En savoir plus sur les options des [***Informations d'identification***](/rdm/windows/commands/edit/entries/entry-credentials-options/).
+* ***Dossier***: Dans quel dossier {{ fr.RDM }} l'entrée sera.
+* ***Informations d'identification***: En savoir plus sur les options des [***informations d'identification***](/rdm/windows/commands/edit/entries/entry-credentials-options/).
 * ***Synchroniser automatiquement***: L'entrée {{ fr.RDM }} se synchronisera automatiquement.
 
 ### Onglet Général
 
-![Onglet Général](https://cdnweb.devolutions.net/docs/RDMW6067_2024_2.png "Onglet Général")
+![General tab](https://cdnweb.devolutions.net/docs/RDMW6067_2024_2.png "General tab")
 
 * ***Hôte:*** L'adresse IP ou le nom d'hôte du serveur VMware.
 * ***Nom d'utilisateur:*** Le nom d'utilisateur requis pour s'authentifier et accéder au serveur VMware.
@@ -36,11 +36,11 @@ L'entrée peut être trouvée sous ***Nouvelle entrée*** – ***Synchroniseur**
 * ***Type de connexion***
   * ***Par défaut:*** Utiliser le type de connexion par défaut.
   * ***VMware Remote Console:*** Se connecter en utilisant ***VMware Remote Console***.
-  * ***RDP:*** Se connecter en utilisant le ***protocole de bureau à distance***.
-* ***Mode de connexion de la console***
-  * ***VMware PowerCLI:*** Utiliser ***VMware PowerCLI*** pour les connexions de console.
-  * ***VMware Player:*** Utiliser ***VMware Player*** pour les connexions de console.
-  * ***VMware VMRC 8.0:*** Utiliser ***VMware VMRC 8.0*** pour les connexions de console.
+  * ***RDP:*** Se connecter en utilisant le ***protocole de Bureau à distance***.
+* ***Mode de connexion à la console***
+  * ***VMware PowerCLI:*** Utiliser ***VMware PowerCLI*** pour les connexions à la console.
+  * ***VMware Player:*** Utiliser ***VMware Player*** pour les connexions à la console.
+  * ***VMware VMRC 8.0:*** Utiliser ***VMware VMRC 8.0*** pour les connexions à la console.
 * ***Mode API***
   * ***Par défaut:*** Utiliser le ***mode API par défaut*** configuré.
   * ***Expérimental:*** Utiliser le ***mode API expérimental.***
@@ -48,7 +48,7 @@ L'entrée peut être trouvée sous ***Nouvelle entrée*** – ***Synchroniseur**
 
 ### Onglet Champs
 
-![Onglet Champs](https://cdnweb.devolutions.net/docs/RDMW6069_2024_2.png)
+![Fields tab](https://cdnweb.devolutions.net/docs/RDMW6069_2024_2.png)
 
 Choisir quels champs seront toujours synchronisés, et lesquels ne le seront pas. Par exemple, vous pourriez choisir de ne pas synchroniser la description, car vous souhaitez la modifier vous-même.
 
@@ -58,22 +58,22 @@ Choisir quels champs seront toujours synchronisés, et lesquels ne le seront pas
 
 ### Paramètres
 
-![Onglet Paramètres](https://cdnweb.devolutions.net/docs/RDMW6073_2024_2.png)
+![Settings tab](https://cdnweb.devolutions.net/docs/RDMW6073_2024_2.png)
 
-* ***Modèle***: Modèles créés dans {% var, "RDM" false %}.
+* ***Modèle***: [Modèles](/rdm/concepts/intermediate-concepts/templates/) créés dans {% var, "RDM" false %}.
 * ***Dossier de destination:*** Cliquer sur le bouton des points de suspension pour définir le chemin du dossier dans l'arborescence {% var, "RDM" false %} (qui ne peut être que dans le même coffre).
-* ***Filtrer par groupe:*** Les VM VMware ont un chemin (hiérarchie de groupe). Par exemple, si la valeur saisie est ***SiteA\\LocationB\\CustomerC***, {% var, "RDM" false %} ne synchronisera que les VM correspondant à ce chemin (et sous-chemins).
+* ***Filtrer par groupe:*** Les VM VMware ont un chemin (hiérarchie de groupe). Par exemple, si la valeur entrée est ***SiteA\\LocationB\\CustomerC***, {% var, "RDM" false %} ne synchronisera que les VM qui correspondent à ce chemin (et sous-chemins).
 
 ### Onglet Avancé
 
-![Onglet Avancé](https://cdnweb.devolutions.net/docs/RDMW6070_2024_2.png "Onglet Avancé")
+![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW6070_2024_2.png "Advanced tab")
 
 * ***Mode silencieux***: Cette option désactive les dialogues d'erreur (utile lorsque le synchroniseur s'exécute automatiquement à des intervalles définis).
 * ***Ignorer le type d'entrée***: Ignorer le type d'entrée lors de l'exécution de certaines actions.
 * ***Vérification des doublons*** n'importera pas les entrées du même type et hôte.
   * ***Racine***: Vérifier les doublons dans toute la source de données.
   * ***Dossier de destination***: Vérifier les doublons uniquement dans le dossier de destination {{ fr.RDM }} ou sous-dossier.
-* ***Action en cas de non-concordance de l'entrée***
+* ***Action en cas de non-concordance d'entrée***
   * ***Aucune***: Ne rien faire.
   * ***Supprimer***: Supprimer cette entrée.
   * ***Déplacer vers***: Déplacer vers le ***dossier de destination*** sélectionné.
@@ -81,7 +81,7 @@ Choisir quels champs seront toujours synchronisés, et lesquels ne le seront pas
 
 ### Onglet Planification
 
-![Onglet Planification](https://cdnweb.devolutions.net/docs/RDMW6072_2024_2.png "Onglet Planification")
+![Schedule tab](https://cdnweb.devolutions.net/docs/RDMW6072_2024_2.png "Schedule tab")
 
 * ***Activé***: Planification activée/désactivée
   * ***Tous les (jours)***: Intervalle entre les exécutions du synchroniseur.
