@@ -35,7 +35,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Datacenter:*** The specific datacenter to synchronize with if ***Specific datacenter*** is selected as the ***Sync Mode***.
 * ***Connection type***
   * ***Default:*** Use the default connection type.
-  * ***VMware Remote Console:*** Connect using ***VMware's Remote Console***.
+  * ***VMware Remote Console:*** Connect using ***VMware Remote Console***.
   * ***RDP:*** Connect using ***Remote Desktop Protocol***.
 * ***Console connection mode***
 * * ***VMware PowerCLI:*** Use ***VMware PowerCLI*** for console connections.
