@@ -8,7 +8,7 @@ eleventyComputed:
 ---
 ## Prerequisites
 
-Although each Devolutions PowerShell script has specific dependencies related to the tasks it is meant to carry out, all must meet a global set of prerequisites in order to be executed. These only need to be configured once per computer.
+Although each Devolutions PowerShell script has specific dependencies related to the tasks it is meant to carry out, all must meet a global set of prerequisites in order to be executed. Luckily, these only need to be configured once per computer.
 
 {% snippet, "badgeInfo" %}These requirements must be met on the computer on which the Devolutions product that you wish to interact with using PowerShell scripts is installed.{% endsnippet %}
 
@@ -22,3 +22,9 @@ Here is a list of the prerequisites:
 6. The Devolutions user that is authenticated to the data source has the necessary permissions.
 
 ### Verifying PowerShell v7+ is installed
+
+There are two types of PowerShell: Windows PowerShell and just plain PowerShell. The former is installed by default on every version of Windows but the latter is not and therefore requires a separate installation. Since Devolutions' products only support PowerShell proper, it will need to be installed manually. Here's how:
+
+&nbsp;
+
+{% snippet, "badgeCaution" %}To verify if PowerShell v7+ is installed, press CTRL+R and enter pwsh in the dialog box that will appear. Pressing Enter should then open PowerShell if it is installed, or bring up an error window if it is not.{% endsnippet %}
