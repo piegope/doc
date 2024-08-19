@@ -25,6 +25,11 @@ Here is a list of the prerequisites:
 
 There are two types of PowerShell: Windows PowerShell and just plain PowerShell. The former is installed by default on every version of Windows but the latter is not and therefore requires a separate installation. Since Devolutions' products only support PowerShell proper, it will need to be installed manually. Here's how:
 
-&nbsp;
+1. Got to [Microsoft's PowerShell GitHub repository releases page](https://github.com/PowerShell/PowerShell/releases).
+2. Scroll down the Assets section until you see the Windows \[...\] .msi package and download it.
+3. Open the installer and go through the wizard.
+4. Press CTRL+R and run `pwsh`. A PowerShell window should open.
 
-{% snippet, "badgeCaution" %}To verify if PowerShell v7+ is installed, press CTRL+R and enter pwsh in the dialog box that will appear. Pressing Enter should then open PowerShell if it is installed, or bring up an error window if it is not.{% endsnippet %}
+   &nbsp;
+
+{% snippet, "badgeCaution" %}To verify if PowerShell v7+ is installed, press CTRL+R and enter `pwsh` in the dialog box that will appear. Pressing Enter should then open PowerShell if it is installed, or bring up an error window if it is not.{% endsnippet %}
