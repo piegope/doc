@@ -14,6 +14,10 @@ Although each Devolutions PowerShell script has specific dependencies related to
 
 ### Verifying PowerShell v7+ is installed
 
+To verify if PowerShell v7+ is installed, press Win+R and enter `pwsh` in the dialog box that will appear. Pressing Enter should open PowerShell if it is installed, or bring up an error window if it is not.
+
+#### Installing PowerShell v7+
+
 There are two types of PowerShell: Windows PowerShell and just plain PowerShell. The former is installed by default on every version of Windows but the latter is not and therefore requires a separate installation. Since Devolutions' products only support PowerShell proper, it will need to be installed manually. Here is how:
 
 1. Got to [Microsoft's PowerShell GitHub repository releases page](https://github.com/PowerShell/PowerShell/releases).
@@ -22,8 +26,6 @@ There are two types of PowerShell: Windows PowerShell and just plain PowerShell.
 4. Press Win+R and run `pwsh`. A PowerShell window should open.
 
    &nbsp;
-
-{% snippet, "badgeCaution" %}To verify if PowerShell v7+ is installed, press Win+R and enter `pwsh` in the dialog box that will appear. Pressing Enter should then open PowerShell if it is installed, or bring up an error window if it is not.{% endsnippet %}
 
 ### PowerShell script execution user permission
 
@@ -42,6 +44,18 @@ Install-Module Devolutions.PowerShell
 ```
 
 A prompt may appear asking to trust a `PSGallery` repository. Press Y to accept.
+
+image
+
+If the installation went smoothly, running the following script should return all the Devolutions.PowerShell commands:
+
+```powershell
+Get-Command -Module Devolutions.PowerShell
+```
+
+image with text indicating successful installation
+
+&nbsp;
 
 &nbsp;
 
