@@ -11,10 +11,10 @@ Windows LAPS est requis et doit être correctement configuré dans votre environ
 
 1. Dans {{ fr.RDM }}, créer une nouvelle entrée dans le ruban sous l'onglet ***Modifier***.
 1. Dans la gestion des identifiants, sélectionner le type d'entrée ***Personnalisé***.
-![Create a Custom credentials entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2334.png)
+![Créer une entrée d'identifiants personnalisée](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2334.png)
 1. Nommer votre entrée et sélectionner son dossier de destination.
 1. Dans l'onglet ***Général***, s'assurer que le menu déroulant est réglé sur ***PowerShell***.
-![Set the drop-down menu to PowerShell](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2335.png)
+![Régler le menu déroulant sur PowerShell](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2335.png)
 1. Ajouter le script PowerShell suivant dans la boîte ***Commande***.
    {% snippet, "badgeInfo" %}
    Veuillez noter que le script utilise la variable $HOST$ pour le commutateur `-ComputerName` de la cmdlet `Get-LapsADPassword` et utilise la variable $PARAMETER1$ pour le nom d'utilisateur (voir l'étape 6 ci-dessous).
@@ -68,15 +68,15 @@ Windows LAPS est requis et doit être correctement configuré dans votre environ
    }
    
 
-   ![Add the PowerShell script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2336.png)
+   ![Ajouter le script PowerShell](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2336.png)
 1. Dans l'onglet ***Paramètres***, ajouter le nom du compte administrateur local dans le champ ***Paramètre #1***.
-![Set the local administrator account name](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2337.png)
+![Définir le nom du compte administrateur local](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2337.png)
 1. Cliquer sur ***Ajouter*** pour enregistrer l'entrée dans le dossier de destination spécifié.
-1. Dans les propriétés de votre entrée RDP, régler la propriété Identifiants pour utiliser la nouvelle entrée d'identifiants ***Personnalisé***.
-![Set the Credentials parameter to use the Custom credentials entry](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2338.png)
+1. Dans les propriétés de votre entrée RDP, définir la propriété Identifiants pour utiliser l'entrée d'identifiants ***Personnalisé*** nouvellement créée.
+![Définir la propriété Identifiants pour utiliser l'entrée d'identifiants Personnalisé](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2338.png)
 1. Toujours dans les propriétés de l'entrée RDP, aller à ***Avancé – Avancé***.
 1. Régler la propriété ***Remplacer le domaine*** sur ***Utiliser le nom d'hôte*** et la propriété ***Format du nom d'utilisateur*** sur ***{Domaine}\\{Utilisateur}***.
-![Set the advanced properties](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2339.png)
+![Définir les propriétés avancées](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2339.png)
 1. Cliquer sur ***Mettre à jour*** pour enregistrer vos modifications.
 
 L'entrée RDP est maintenant prête à être utilisée et à se connecter avec le compte administrateur local géré par Windows LAPS.

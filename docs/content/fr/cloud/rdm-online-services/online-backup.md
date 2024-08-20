@@ -1,13 +1,13 @@
 ---
 eleventyComputed:
   title: "{{ fr.OBACK }}"
-  description: Le {{ fr.OBACK }} permet de sauvegarder vos sources de données {{ fr.DOD }}, SQLite et XML dans un stockage en nuage sécurisé.
+  description: Le {{ fr.OBACK }} vous permet de sauvegarder vos sources de données {{ fr.DOD }}, SQLite et XML dans un stockage en nuage sécurisé.
 ---
 {% snippet, "badgeInfo" %}
 ***{{ fr.OBACK }}*** sera supprimé du {{ fr.DPORTAL }}. Vous pouvez toujours [accéder à l'URL](/rdm/kb/general-knowledge/rdm-online-services-removed-devolutions-portal/) si nécessaire.
 {% endsnippet %}
 
-Le ***{{ fr.OBACK }}*** permet de sauvegarder vos sources de données {{ fr.DOD }}, SQLite et XML dans un stockage en nuage sécurisé. Il sauvegardera automatiquement vos sessions lorsque vous initierez un changement dans {{ fr.RDM }}.
+Le ***{{ fr.OBACK }}*** vous permet de sauvegarder vos sources de données {{ fr.DOD }}, SQLite et XML dans un stockage en nuage sécurisé. Il sauvegardera automatiquement vos sessions lorsque vous initierez un changement dans {{ fr.RDM }}.
 
 Il est disponible gratuitement dans les éditions {{ fr.RDM }} Free et Team.
 
