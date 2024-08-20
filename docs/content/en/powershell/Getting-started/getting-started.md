@@ -24,17 +24,13 @@ There are two types of PowerShell: Windows PowerShell and just plain PowerShell.
 
 3\. Open the installer and go through the wizard.
 
-4\. Press Win+R and run `pwsh`. A PowerShell window should open.
+#### User's execution policy
 
-### PowerShell user execution policy
+The user under which PowerShell executes scripts must have certain permissions. To get them, open PowerShell and run the command `Get-ExecutionPolicy` for the current execution policy. If the policy is set to RemoteSigned, change it to **Unrestricted** using the `Set-ExecutionPolicy` command.
 
-The user under which PowerShell executes scripts must have certain permissions. Here is how to get them:
+![Setting the ExecutionPolicy to Unrestricted](https://cdnweb.devolutions.net/docs/INTERFACE4045.png "Setting the ExecutionPolicy to Unrestricted")
 
-1. Open PowerShell by pressing Win+R and entering `pwsh` in the dialog box.
-2. Run the command `Get-ExecutionPolicy` and confirm the current execution policy.
-3. Change the policy to Unrestricted via the `Set-ExecutionPolicy` command.
-
-### Installing Devolutions' PowerShell module
+#### Installing Devolutions' PowerShell module
 
 To install Devolutions's PowerShell module, run the following script:
 
@@ -42,9 +38,9 @@ To install Devolutions's PowerShell module, run the following script:
 Install-Module Devolutions.PowerShell
 ```
 
-A prompt may appear asking you to trust a `PSGallery` repository. Enter `Yes` to accept.
+A prompt should then appear asking you to trust a `PSGallery` repository. Enter `Yes` to accept.
 
-image
+![Installing Devolutions.PowerShell](https://cdnweb.devolutions.net/docs/INTERFACE4046.png "Installing Devolutions.PowerShell")
 
 If the installation went smoothly, running the following script should return all the Devolutions.PowerShell commands:
 
@@ -52,7 +48,7 @@ If the installation went smoothly, running the following script should return al
 Get-Command -Module Devolutions.PowerShell
 ```
 
-image with text indicating successful installation
+![List of all the Devolutions.PowerShell commands](https://cdnweb.devolutions.net/docs/INTERFACE4048.png "List of all the Devolutions.PowerShell commands")
 
 ### Testing connection to a data source
 
@@ -62,7 +58,7 @@ With the Devolutions.PowerShell module installed, the next step is to verify the
 Get-RDMCurrentDatasource
 ```
 
-image with text indicating connection to a SQLLite data source
+![Successul connection to a SQLite data source](https://cdnweb.devolutions.net/docs/INTERFACE4047.png "Successul connection to a SQLite data source")
 
 If {% var, "RDM" false %} is installed on the machine, running `Get-RDMEntry` should return a list of all the available entries, which means the connection to the data source is properly established, queries can be made, and scripts can from then on be executed seamlessly.
 
