@@ -19,7 +19,7 @@ L'entrée peut être trouvée sous ***Nouvelle entrée*** – ***Synchroniseur.*
 
 * ***Nom***: Nom de l'entrée dans {{ fr.RDM }}.
 * ***Dossier***: Dans quel dossier {{ fr.RDM }} l'entrée sera.
-* ***Informations d'identification***: Lire plus sur les options [***Informations d'identification***](/rdm/windows/commands/edit/entries/entry-credentials-options/).
+* ***Informations d'identification***: En savoir plus sur les options des [***Informations d'identification***](/rdm/windows/commands/edit/entries/entry-credentials-options/).
 * ***Synchroniser automatiquement***: L'entrée {{ fr.RDM }} se synchronisera automatiquement.
 
 ### Onglet Général
@@ -62,7 +62,7 @@ Choisir quels champs seront toujours synchronisés, et lesquels ne le seront pas
 
 * ***Modèle***: [Modèles](/rdm/concepts/intermediate-concepts/templates/) créés dans {% var, "RDM" false %}.
 * ***Dossier de destination:*** Cliquer sur le bouton des points de suspension pour définir le chemin du dossier dans l'arborescence {% var, "RDM" false %} (qui ne peut être que dans le même coffre).
-* ***Filtrer par groupe:*** Les VM VMware ont un chemin (hiérarchie de groupe). Par exemple, si la valeur entrée est ***SiteA\\LocationB\\CustomerC***, {% var, "RDM" false %} ne synchronisera que les VM qui correspondent à ce chemin (et sous-chemins).
+* ***Filtrer par groupe:*** Les VM VMware ont un chemin (hiérarchie de groupe). Par exemple, si la valeur saisie est ***SiteA\\LocationB\\CustomerC***, {% var, "RDM" false %} ne synchronisera que les VM correspondant à ce chemin (et sous-chemins).
 
 ### Onglet Avancé
 
