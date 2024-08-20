@@ -6,7 +6,6 @@ eleventyComputed:
   status:
   keywords:
 ---
-
 Bien que chaque script Devolutions PowerShell ait des dépendances spécifiques liées aux tâches qu'il est censé accomplir, tous doivent répondre à certaines exigences minimales pour pouvoir être exécutés. Heureusement, ces prérequis ne doivent être configurés qu'une seule fois par machine.
 
 {% snippet, "badgeInfo" %}Pour que le module Devolutions.PowerShell fonctionne avec la solution souhaitée, les deux doivent être installés sur la même machine.{% endsnippet %}
@@ -21,7 +20,7 @@ Pour ce faire, se rendre sur la [page des versions du dépôt GitHub de PowerShe
 
 #### Politique d'exécution de l'utilisateur
 
-L'utilisateur sous lequel PowerShell exécute les scripts doit avoir certaines permissions. Pour les obtenir, ouvrir PowerShell et exécuter la commande `Get-ExecutionPolicy` pour la politique d'exécution actuelle. Si la politique est définie sur RemoteSigned, la changer en **Unrestricted** en utilisant la commande `Set-ExecutionPolicy`.
+L'utilisateur sous lequel PowerShell exécute les scripts doit avoir certaines permissions. Pour les obtenir, ouvrir PowerShell et exécuter la commande `Get-ExecutionPolicy` pour connaître la politique d'exécution actuelle. Si la politique est définie sur RemoteSigned, la changer en **Unrestricted** en utilisant la commande `Set-ExecutionPolicy`.
 
 ![Setting the ExecutionPolicy to Unrestricted](https://cdnweb.devolutions.net/docs/INTERFACE4045.png "Setting the ExecutionPolicy to Unrestricted")
 
