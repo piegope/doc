@@ -1,8 +1,8 @@
 ---
 _schema: default
 eleventyComputed:
-  title:
-  description:
+  title: Getting started
+  description: Although each Devolutions PowerShell script has specific dependencies related to the tasks it is meant to carry out, all must meet certain minimum requirements in order to be executed at all. Luckily, these prerequisites only need to be configured once per machine.
   status:
   keywords:
 ---
@@ -43,9 +43,3 @@ With the module installed, the next step is to verify the connection to a Devolu
 ![Successful connection to an SQLite data source](https://cdnweb.devolutions.net/docs/INTERFACE4047.png "Successful connection to an SQLite data source")f
 
 If {% var, "RDM" false %} is installed on the machine, running `Get-RDMEntry` should return a list of all the available entries, which means the connection to the data source is properly established, queries can be made, and scripts can from then on be executed seamlessly.
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
