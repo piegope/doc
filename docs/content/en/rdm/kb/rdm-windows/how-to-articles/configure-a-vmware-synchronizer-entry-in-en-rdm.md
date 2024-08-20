@@ -2,7 +2,8 @@
 _schema: default
 eleventyComputed:
   title: Configure a VMware synchronizer entry  in {{ en.RDM }}
-  description:
+  description: |
+    How to configure a VMware synchronizer entry in {{ en.RDM }}.
   status:
   keywords:
 ---
@@ -12,7 +13,7 @@ Every field from the ***VMware synchronizer entry*** is described below.
 
 ## Synchronizer
 
-The entry can be found under ***New Entry*** – ***Synchronizer***:
+The entry can be found under ***New Entry*** – ***Synchronizer.***
 
 ![New Entry – Synchronizer](https://cdnweb.devolutions.net/docs/RDMW6068_2024_2.png "New Entry – Synchronizer")
 
@@ -34,7 +35,7 @@ The entry can be found under ***New Entry*** – ***Synchronizer***:
 * ***Datacenter:*** The specific datacenter to synchronize with if ***Specific datacenter*** is selected as the ***Sync Mode***.
 * ***Connection type***
   * ***Default:*** Use the default connection type.
-  * ***VMware Remote Console:*** Connect using ***VMware's Remote Console***.
+  * ***VMware Remote Console:*** Connect using ***VMware Remote Console***.
   * ***RDP:*** Connect using ***Remote Desktop Protocol***.
 * ***Console connection mode***
 * * ***VMware PowerCLI:*** Use ***VMware PowerCLI*** for console connections.
@@ -59,11 +60,9 @@ Choose which fields will always be synchronized, and which will not. For example
 
 ![Settings tab](https://cdnweb.devolutions.net/docs/RDMW6073_2024_2.png)
 
-* ***Template***: Templates created within {% var, "RDM" false %}.
-* ***Destination folder:*** Click the ellipsis button to set the folder path in the Remote Desktop Manager tree view (which can only be in the same vault).
-* ***Filter by group:***
-
-&nbsp;
+* ***Template***: [Templates](/rdm/concepts/intermediate-concepts/templates/) created within {% var, "RDM" false %}.
+* ***Destination folder:*** Click the ellipsis button to set the folder path in the {% var, "RDM" false %} tree view (which can only be in the same vault).
+* ***Filter by group:*** VMWare VMs have a path (group hierarchy). For example, if the entered value is ***SiteA\\LocationB\\CustomerC***, {% var, "RDM" false %} will only synchronize the VMs that match that path (and sub-paths).
 
 ### Advanced tab
 

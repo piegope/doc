@@ -29,10 +29,15 @@ It is possible to [request a trial](/rdm/windows/installation/client/registratio
 1. Optional: The ***Auto assign*** option will be displayed when you enter the license. The box is already checked to provide the {{ en.RDM }} serial to all newly created users. A warning window will appear if you uncheck the box and click ***OK***.
 ![Warning window](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin6033.png)
 
-Your license is now saved in the advanced data source. Follow [Assign Licenses](/rdm/windows/commands/administration/management/licenses/assign/) to automatically assign them to selected users, removing the need to interact locally with their {{ en.RDM }}.
+Your license is now saved in the advanced data source. Follow [Assign Licenses](/rdm/windows/commands/administration/management/licenses/assign/) to automatically assign them to selected users, removing the need to interact locally with their {{ en.RDM }}. Licenses have a limited number of users and can be assigned automatically with ***Auto assign*** or to specific users in the ***Assigned to*** tab.
+
+{% snippet, "badgeInfo" %}
+Only the CyberArk license has unlimited users.
+
+A {{ en.DGW }} license is not needed when configuring a gateway, only when opening a connection.
+{% endsnippet %}
 
 ### Offline registration
-
 If you need to register your license while offline (if internet is disabled or if for whatever reason you cannot reach the servers), you can only do it by importing the **.lic** file provided to you, which contains a JSON Web Token (JWT).
 
 * ***Trial license***: The license file must be downloaded from the Devolutions confirmation email and imported as described in the steps above for {{ en.RDM }} 2023.3 and later.

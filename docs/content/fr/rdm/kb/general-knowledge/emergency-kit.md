@@ -1,4 +1,4 @@
-```yaml
+---
 _schema: default
 eleventyComputed:
   title: Utiliser le Kit d'Urgence
