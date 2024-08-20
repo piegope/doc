@@ -6,8 +6,6 @@ eleventyComputed:
   status:
   keywords:
 ---
-## Requirements
-
 Although each Devolutions PowerShell script has specific dependencies related to the tasks it is meant to carry out, all must meet certain minimum requirements in order to be executed at all. Luckily, these prerequisites only need to be configured once per machine.
 
 {% snippet, "badgeInfo" %}In order for Devolutions.PowerShell module to work with the desired solution, both need to be installed on the same machine.{% endsnippet %}
