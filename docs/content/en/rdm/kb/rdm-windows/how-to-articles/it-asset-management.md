@@ -14,6 +14,8 @@ The ***Asset*** section in an entry of {% var, "RDM" false %} is used to manage 
 4. Click ***Update*** to save the changes and close the window.
 5. In the entry ***Dashboard***, select the ***Asset*** tab to view the information.
 
+![Asset tab](https://cdnweb.devolutions.net/docs/RDMW6082_2024_2.png "Asset tab")
+
 ### IT asset management
 
 The ***IT Asset Management*** feature can be used to link an asset manager (e.g., BlueTally, [Lansweeper](/rdm/kb/rdm-windows/how-to-articles/lansweeper/)) through an entry's properties. {% snippet, "badgeInfo" %}Only the ***Session***, ***Remote Management***, ***Miscellaneous***, ***VPN***, ***Synchronizer*** and ***Template*** entry types support this feature for now. The [***IT Asset Management entries***](https://docs.devolutions.net/rdm/kb/rdm-windows/knowledge-base/it-asset-entry/) work differently from the feature.{% endsnippet %}
