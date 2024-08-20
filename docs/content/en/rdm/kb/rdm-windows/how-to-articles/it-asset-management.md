@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 ### Asset
 
-Integrate assets information such as status, ownership, and relevant settings in a {% var, "RDM" false %} entry.
+The ***Asset*** section in an entry of {% var, "RDM" false %} is used to manage and document detailed information about a specific IT asset, such as a computer, server, or other hardware.
 
 1. Right-click on an entry and select ***Properties***.
 2. Go to ***View*** - ***Asset***.
