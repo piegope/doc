@@ -12,7 +12,7 @@ Intégrer les informations des actifs telles que le statut, la propriété et le
 2. Aller à ***Vue*** - ***Actif***.
 3. Remplir les informations.
 4. Cliquer sur ***Mettre à jour*** pour enregistrer les modifications et fermer la fenêtre.
-5. &nbsp;Dans le ***Tableau de bord*** de l'entrée, sélectionner l'onglet Actif.
+5. Dans le ***Tableau de bord*** de l'entrée, sélectionner l'onglet ***Actif*** pour voir les informations.
 
 ### Gestion des actifs informatiques
 
@@ -31,4 +31,4 @@ La fonctionnalité de gestion des actifs informatiques peut être utilisée pour
 
 ![Onglet Gestion des actifs informatiques](https://cdnweb.devolutions.net/docs/RDMW6080_2024_2.png "Onglet Gestion des actifs informatiques")
 
-7\. Se connecter à ce service.
+7. Se connecter à ce service.
