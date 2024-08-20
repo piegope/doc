@@ -6,11 +6,11 @@ eleventyComputed:
 ---
 ### Asset
 
-The ***Asset*** section in an entry of {% var, "RDM" false %} is used to manage and document detailed information about a specific IT asset, such as a computer, server, or other hardware.
+The ***Asset*** section in an entry of {% var, "RDM" false %} is used to manage and document detailed information about IT assets, such as a computer, server, or other hardware.
 
 1. Right-click on an entry and select ***Properties***.
 2. Go to ***View*** - ***Asset***.
-3. Fill the information.
+3. Enter the information.
 4. Click ***Update*** to save the changes and close the window.
 5. In the entry ***Dashboard***, select the ***Asset*** tab to view the information.
 
