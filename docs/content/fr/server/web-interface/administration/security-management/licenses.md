@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Licenses
-  description: Gérer l'enregistrement globalement pour tous vos utilisateurs peut se faire avec une clé de licence stockée dans Administration – Licenses.
+  description: Gérer l'enregistrement globalement pour tous vos utilisateurs peut être fait avec une clé de licence stockée dans Administration – Licenses.
 ---
-Gérer l'enregistrement globalement pour tous vos utilisateurs peut se faire avec une clé de licence stockée dans ***Administration – Licenses***. Les licences ont un nombre limité d'utilisateurs et peuvent être attribuées automatiquement avec ***Auto assign*** ou à des utilisateurs spécifiques dans l'onglet ***Assigned to***.
+Gérer l'enregistrement globalement pour tous vos utilisateurs peut être fait avec une clé de licence stockée dans ***Administration – Licenses***. Les licences ont un nombre limité d'utilisateurs et peuvent être attribuées automatiquement avec ***Auto assign*** ou à des utilisateurs spécifiques dans l'onglet ***Assigned to***.
 ![Adding a license](https://cdnweb.devolutions.net/docs/DVLS0015_2024_2.png)
 
 Voici les différents types de licences qui peuvent être ajoutés dans {{ fr.DVLS }} :
@@ -35,6 +35,6 @@ Une licence {{ fr.DGW }} n'est pas nécessaire lors de la configuration d'une pa
 | Option         | Description                                                          |
 |----------------|----------------------------------------------------------------------|
 | Filter         | Filtrer la liste en fonction de la colonne ***Name*** ou ***Description***. |
-| Assign all     | Attribuer la licence à tous les comptes.                             |
-| Assign missing | Attribuer la licence aux comptes qui ne sont pas déjà sélectionnés.  |
-| Clear all      | Retirer la licence de tous les comptes.                              |
+| Assign all     | Attribuer la licence à tous les comptes.                              |
+| Assign missing | Attribuer la licence aux comptes qui ne sont pas déjà sélectionnés.   |
+| Clear all      | Retirer la licence de tous les comptes.                               |
