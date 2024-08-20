@@ -12,7 +12,7 @@ Integrate assets information such as status, ownership, and relevant settings in
 2. Go to ***View*** - ***Asset***.
 3. Fill the information.
 4. Click ***Update*** to save the changes and close the window.
-5. &nbsp;In the entry ***Dashboard***, select the Asset tab.
+5. In the entry ***Dashboard***, select the ***Asset*** tab to view the information.
 
 ### IT asset management
 
