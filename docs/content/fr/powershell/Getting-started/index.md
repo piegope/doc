@@ -43,4 +43,4 @@ Avec le module installé, l'étape suivante consiste à vérifier la connexion �
 
 ![Successful connection to an SQLite data source](https://cdnweb.devolutions.net/docs/INTERFACE4047.png "Successful connection to an SQLite data source")
 
-Si {% var, "RDM" false %} est installé sur la machine, exécuter `Get-RDMEntry` devrait renvoyer une liste de toutes les entrées disponibles, ce qui signifie que la connexion à la source de données est correctement établie, les requêtes peuvent être effectuées, et les scripts peuvent alors être exécutés sans problème.
+Si {% var, "RDM" false %} est installé sur la machine, exécuter `Get-RDMEntry` devrait renvoyer une liste de toutes les entrées disponibles, ce qui signifie que la connexion à la source de données est correctement établie, les requêtes peuvent être effectuées et les scripts peuvent alors être exécutés sans problème.
