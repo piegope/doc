@@ -4,17 +4,21 @@ eleventyComputed:
   title: IT asset management in {{ en.RDM }}
   description: How to use asset management in {{ en.RDM }}.
 ---
-&nbsp;
+### Asset
 
-&nbsp;
+Integrate assets information such as status, ownership, and relevant settings in a {% var, "RDM" false %} entry.
 
-It asset management in {% var, "RDM" false %}.
+1. Right-click on an entry and select ***Properties***.
+2. Go to ***View*** - ***Asset***.
+3. Fill the information.
+4. Click Update to save.
+5. &nbsp;
 
-Manage your ***IT inventory*** accurately by centralizing technical, software, hardware, and location information.
+### IT asset management
+
+Manage your ***IT inventory***  by centralizing technical, software, hardware, and location information.
 
 The IT Asset Management feature can be used to link an asset manager (e.g., BlueTally, [Lansweeper](/rdm/kb/rdm-windows/how-to-articles/lansweeper/)) through an entry's properties. {% snippet, "badgeInfo" %}Only the ***Session***, ***Remote Management***, ***Miscellaneous***, ***VPN***, ***Synchronizer*** and ***Template*** entry types support this feature for now. The [***IT Asset Management entries***](https://docs.devolutions.net/rdm/kb/rdm-windows/knowledge-base/it-asset-entry/) work differently from the feature.{% endsnippet %}
-
-## Steps
 
 1. Right-click on an entry and select ***Properties***.
 2. Go to ***View*** – ***IT Asset Management***.
