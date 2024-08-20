@@ -40,6 +40,6 @@ If the installation went smoothly, running the `Get-Command -Module Devolutions.
 
 With the module installed, the next step is to verify the connection to a Devolutions data source. To do this, run the `Get-RDMCurrentDatasource` script.
 
-![Successful connection to an SQLite data source](https://cdnweb.devolutions.net/docs/INTERFACE4047.png "Successful connection to an SQLite data source")f
+![Successful connection to an SQLite data source](https://cdnweb.devolutions.net/docs/INTERFACE4047.png "Successful connection to an SQLite data source")
 
 If {% var, "RDM" false %} is installed on the machine, running `Get-RDMEntry` should return a list of all the available entries, which means the connection to the data source is properly established, queries can be made, and scripts can from then on be executed seamlessly.
