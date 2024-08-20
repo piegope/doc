@@ -26,31 +26,19 @@ The user under which PowerShell executes scripts must have certain permissions. 
 
 #### Installing Devolutions' PowerShell module
 
-To install Devolutions's PowerShell module, run the following script:
+To install Devolutions's PowerShell module, run the `Install-Module Devolutions.PowerShell` script.
 
-```powershell
-Install-Module Devolutions.PowerShell
-```
-
-A prompt should then appear asking you to trust a `PSGallery` repository. Enter `Yes` to accept.
+A prompt should then appear asking you to trust a PSGallery repository. Enter `Yes` to accept.
 
 ![Installing Devolutions.PowerShell](https://cdnweb.devolutions.net/docs/INTERFACE4046.png "Installing Devolutions.PowerShell")
 
-If the installation went smoothly, running the following script should return all the Devolutions.PowerShell commands:
-
-```powershell
-Get-Command -Module Devolutions.PowerShell
-```
+If the installation went smoothly, running the `Get-Command -Module Devolutions.PowerShell` script should return all Devolutions.PowerShell commands.
 
 ![List of all the Devolutions.PowerShell commands](https://cdnweb.devolutions.net/docs/INTERFACE4048.png "List of all the Devolutions.PowerShell commands")
 
 ### Testing connection to a data source
 
-With the Devolutions.PowerShell module installed, the next step is to verify the connection to a Devolutions data source. To do this, run:
-
-```powershell
-Get-RDMCurrentDatasource
-```
+With the module installed, the next step is to verify the connection to a Devolutions data source. To do this, run the `Get-RDMCurrentDatasource` script.
 
 ![Successful connection to an SQLite data source](https://cdnweb.devolutions.net/docs/INTERFACE4047.png "Successful connection to an SQLite data source")f
 
