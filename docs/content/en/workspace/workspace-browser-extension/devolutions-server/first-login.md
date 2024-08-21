@@ -6,9 +6,9 @@ eleventyComputed:
 Follow these steps to connect {{ en.DVLS }} to the the {{ en.WBEX }}:
 
 1. Click on the {{ en.WBEX }} at the top right corner of your browser. {% snippet, "badgeNotice" %}
-   A {{ en.DVLS }} access is required to continue.
-   {% endsnippet %}
-2. Choose ***{{ en.DVLS }}*** in the list, then click ***Save***. ![First login](https://cdnweb.devolutions.net/docs/WEBX4047_2024_2.png "First login")
+      A {{ en.DVLS }} access is required to continue.
+      {% endsnippet %}
+2. Choose ***{{ en.DVLS }}*** in the list, then click ***Save***. ![First login](https://cdnweb.devolutions.net/docs/WEBX4082_2024_2.png "First login")
 3. Enter the address of your server. You need to input the same information that you would use to connect to the web interface of your {{ en.DVLS }}. Test the connection to validate it, then click ***Save***. ![Server address](https://cdnweb.devolutions.net/docs/WEBX4048_2024_2.png "Server address")
 4. ***Log in*** to your account. ![Login](https://cdnweb.devolutions.net/docs/WEBX4049_2024_2.png "Login")
 5. Enter your {{ en.DVLS }} credentials and click ***Log in***. ![Login](https://cdnweb.devolutions.net/docs/WEBX4050_2024_2.png "Login")
