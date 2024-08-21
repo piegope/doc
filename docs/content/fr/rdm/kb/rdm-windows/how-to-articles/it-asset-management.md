@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 ### Actif
 
-La section ***Actif*** d'une entrée {% var, "RDM" false %} est utilisée pour gérer et documenter des informations détaillées sur les ***actifs informatiques***, tels qu'un ordinateur, un serveur ou un autre matériel.
+La section ***Actif*** d'une entrée {% var, "RDM" false %} est utilisée pour gérer et documenter des informations détaillées sur les ***actifs informatiques***, tels qu'un ordinateur, un serveur ou d'autres matériels.
 
 1. Faire un clic droit sur une entrée et sélectionner ***Propriétés***.
 2. Aller à ***Vue*** - ***Actif***.
@@ -26,8 +26,8 @@ La fonctionnalité de ***Gestion des actifs informatiques*** peut être utilisé
 4. Entrer l'URL vers un actif spécifique. ![Gestion des actifs informatiques](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0058.png)
 5. Cliquer sur ***OK*** pour enregistrer les modifications et fermer la fenêtre.
 6. Dans le ***Tableau de bord***, sélectionner l'onglet ***Gestion des actifs informatiques***. {% snippet, "badgeInfo" %}
-               L'onglet sera nommé selon ce qui a été écrit dans le champ ***Titre de la gestion des actifs informatiques***. Si le champ est laissé vide, ***BlueTally*** apparaîtra (si ce service a été choisi), ou apparaîtra comme ***Gestion des actifs informatiques***.
-               {% endsnippet %}
+                     L'onglet sera nommé selon ce qui a été écrit dans le ***champ de titre de la gestion des actifs informatiques***. Si le champ est laissé vide, ***BlueTally*** apparaîtra (si ce service a été choisi), ou apparaîtra comme ***Gestion des actifs informatiques***.
+                     {% endsnippet %}
 
 ![Onglet Gestion des actifs informatiques](https://cdnweb.devolutions.net/docs/RDMW6080_2024_2.png "Onglet Gestion des actifs informatiques")
 
