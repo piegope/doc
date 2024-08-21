@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 ### Asset
 
-The ***Asset*** section of a  {% var, "RDM" false %} entry is used to manage and document detailed information about ***IT assets***, such as a computer, server, or other hardware.
+The ***Asset*** section of a {% var, "RDM" false %} entry is used to manage and document detailed information about ***IT assets***, such as a computer, server, or other hardware.
 
 1. Right-click on an entry and select ***Properties***.
 2. Go to ***View*** - ***Asset***.
@@ -26,8 +26,8 @@ The ***IT Asset Management*** feature can be used to link an asset manager (e.g.
 4. Input the URL to a specific asset. ![IT Asset Management](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0058.png)
 5. Click ***OK*** to save the changes and close the window.
 6. In the ***Dashboard***, select the ***IT Asset Management*** tab. {% snippet, "badgeInfo" %}
-               The tab will be named according to what was written in the ***IT asset management title field***. If the field is left empty ***BlueTally*** will show (if this service was chosen), or show as ***IT Asset Management***.
-               {% endsnippet %}
+                     The tab will be named according to what was written in the ***IT asset management title field***. If the field is left empty ***BlueTally*** will show (if this service was chosen), or show as ***IT Asset Management***.
+                     {% endsnippet %}
 
 ![IT Asset Management tab](https://cdnweb.devolutions.net/docs/RDMW6080_2024_2.png "IT Asset Management tab")
 
