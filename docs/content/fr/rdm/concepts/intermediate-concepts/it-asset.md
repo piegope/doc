@@ -1,10 +1,12 @@
 ---
+_schema: default
 eleventyComputed:
-  title: Actif informatique
-  description: Gérez votre inventaire informatique avec précision en centralisant les informations techniques, logicielles, matérielles et de localisation.
+  title: Actif TI
+  description: >-
+    Gérer votre inventaire TI avec précision en centralisant les informations techniques, logicielles, matérielles et de localisation.
 ---
-Gérez votre inventaire informatique avec précision en centralisant les informations techniques, logicielles, matérielles et de localisation.
+Gérer votre inventaire TI avec précision en centralisant les informations techniques, logicielles, matérielles et de localisation. Les actifs TI peuvent être détaillés dans une entrée ou liés à un gestionnaire d'actifs par les propriétés d'une entrée.
 
-### Sujets associés
+### Rubriques connexes
 
-* [Utiliser la fonctionnalité de Gestion des Actifs Informatiques dans {{ fr.RDM }}](/rdm/kb/rdm-windows/how-to-articles/it-asset-management/)
+* [Utiliser la fonctionnalité de gestion des actifs TI dans {{ fr.RDM }}](/rdm/kb/rdm-windows/how-to-articles/it-asset-management/)
