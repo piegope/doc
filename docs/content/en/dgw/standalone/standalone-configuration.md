@@ -6,7 +6,7 @@ eleventyComputed:
 ---
 {{ en.DGW_STANDALONE }} is a free open-source relay server offering RDP, SSH, Telnet, VNC, and ARD access through a self-contained web interface. You can optionally protect it with a simple username/password combination or make the gateway available through an ngrok tunnel integration.
 
-{% youtube, "-0NsNgxPt9qU" %}
+{% youtube '0NsNgxPt9qU' %}
 
 ## Configuration
 
