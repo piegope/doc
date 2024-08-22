@@ -13,6 +13,8 @@ Manage Entra ID users and groups from a single, easy-to-use interface. This inte
 1. Open {% var, "RDM" false %}.
 2. Add a ***new entry - Remote management - Microsoft Entra ID dashboard.***
 
+![Microsoft Entra ID dashboard entry](https://cdnweb.devolutions.net/docs/RDMW6083_2024_2.png)
+
 ### **Microsoft Entra ID dashboard entry settings**
 
 Here is a list of the ***users settings*** available in the ***Microsoft Entra ID Dashboard entry*** interface.
