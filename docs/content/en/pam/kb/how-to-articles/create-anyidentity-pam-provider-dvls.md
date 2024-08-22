@@ -3,7 +3,7 @@ eleventyComputed:
   title: Create an {{ en.ANYID }} PAM provider in {{ en.DVLS }}
   description: To create an {{ en.ANYID }} PAM provider, you first need to create a provider template or import an existing one.
 ---
-To create an {{ en.ANYID }} PAM provider, you first need to create a provider template or import an existing one. There already exists [templates](#import-an-anyidentity-template) for a few providers.
+To create an {{ en.ANYID }} PAM provider, you first need to create a provider template or import an existing one. There already exists [templates](#import-an-anyidentity-template) for a few providers.  
 
 {% snippet, "badgeCaution" %}
 The [WinRM](/server/kb/how-to-articles/winrm-trustedhostslist/) needs to be enabled for this to work.
