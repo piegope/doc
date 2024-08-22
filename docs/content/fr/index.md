@@ -1,5 +1,4 @@
 ---
----
 _schema: homepage
 layout: layouts/home.liquid
 title: Documentation Devolutions
@@ -83,5 +82,4 @@ cards:
         url: /powershell/hub-powershell/
       - name: Devolutions Gateway
         url: /powershell/gateway-powershell/
----
 ---
