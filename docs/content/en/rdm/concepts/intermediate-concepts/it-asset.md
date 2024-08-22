@@ -6,7 +6,7 @@ eleventyComputed:
     Manage your IT inventory accurately by centralizing technical, software,
     hardware, and location information.
 ---
-Manage your IT inventory accurately by centralizing technical, software, hardware, and location information. IT assets can be added to an entry or an asset manager linked through an entry's properties.
+Manage your IT inventory accurately by centralizing technical, software, hardware, and location information. IT assets can be added to an entry or with the help of an asset manager.
 
 ### Related topics
 
