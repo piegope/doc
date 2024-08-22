@@ -3,7 +3,7 @@ eleventyComputed:
   title: Create an {{ en.ANYID }} action script in {{ en.DVLS }}
   description: When a custom {{ en.ANYID }} provider is required, it is necessary to first develop the action scripts that will be executed by the provider actions.
 ---
-When a custom {{ en.ANYID }} provider is required, it is necessary to first develop the action scripts that will be executed by the provider actions. These action scripts will be placed in the ***Script*** section of each action during the template-building process.
+When a custom {{ en.ANYID }} provider is required, it is necessary to first develop the action scripts that will be executed by the provider actions. These action scripts will be placed in the ***Script*** section of each action during the template-building process.  
 
 Action scripts are PowerShell scripts executed by {{ en.DPAM }}, and therefore, the same best practices applicable to any PowerShell script should be adhered to. However, there are specific nuances to consider when crafting these action scripts.
 
@@ -15,7 +15,7 @@ Proficiency in PowerShell scripting is essential for creating {{ en.ANYID }} pro
 
 Each action script must include a set of parameters through which the {{ en.ANYID }} provider will pass values. While the specific parameters for each action script may vary (as shown in the examples below), they will all share a common set of parameters required to connect to the identity provider endpoint. Action scripts connect to an identity provider, and to facilitate this, they must receive the necessary credentials from the {{ en.ANYID }} provider.
 
-Below is an example of how to define these identity provider endpoint parameters.  
+Below is an example of how to define these identity provider endpoint parameters.
 
 ```powershell
 [Parameter(Mandatory)]
