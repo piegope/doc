@@ -13,7 +13,7 @@ Manage Entra ID users and groups from a single, easy-to-use interface. This inte
 1. Open {% var, "RDM" false %}.
 2. Add a ***new entry - Remote management - Microsoft Entra ID dashboard.***
 3. Select a ***Name***, ***Folder***, and ***Display***.
-4. &nbsp;
+4. Choose a  ***Entra ID Tenant*** by clicking on the three dots next to the ***Tenant field***.
 
 ![Microsoft Entra ID dashboard entry](https://cdnweb.devolutions.net/docs/RDMW6083_2024_2.png)
 
