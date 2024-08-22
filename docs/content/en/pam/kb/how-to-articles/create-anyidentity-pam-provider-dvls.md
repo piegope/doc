@@ -21,14 +21,15 @@ Once the [action scripts](/pam/kb/how-to-articles/create-anyidentity-) have been
    {% snippet, "badgeNotice" %}
    While it is not mandatory to enable each action, it is recommended to do so to fully leverage the benefits of an {{ en.ANYID }} provider.
    {% endsnippet %}
+
     * ***Password rotation***, to reset account passwords.
     * ***Heartbeat***, to synchronize accounts.
     * ***Account discovery***, for scanning.
-![General settings](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2175.png)
-1. In ***Provider properties*** and ***Account properties***, set the fields that the providers and accounts will implement.
+   ![General settings](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2175.png)
+6. In ***Provider properties*** and ***Account properties***, set the fields that the providers and accounts will implement.
     * ***Provider properties*** define the attributes {{ en.ANYID }} uses to authenticate and connect to an identity provider. These properties may include username, password, hostname, or any other unique attribute of an identity provider.
     * ***Account properties*** are attributes related to a specific account on an identity provider. Common account properties include ID, username, and secret. Account properties uniquely identify provider accounts and provide a value to store an account's password or other secure credentials.
-    
+
     Add properties by clicking on ***Add property***. For each property, provide a ***Name*** and a ***Type***. Below is a list of the different types:
     * ***Boolean***
     * ***Description*** (string)
@@ -45,9 +46,10 @@ Once the [action scripts](/pam/kb/how-to-articles/create-anyidentity-) have been
     * ***Name***: Name of the variable in the script.
     * ***Source***: If the value is provided by the provider or the account.
     * ***Property***: The source property that will be injected into the script.
+
     All actions have associated action scripts with at least two or three parameters. {{ en.ANYID }} must understand how to map a property to a script parameter to define the relationship between the {{ en.ANYID }} object (provider or account) and each action script. Script parameters allow you to specify to {{ en.ANYID }} which parameters each of your action scripts possesses and which {{ en.ANYID }} property that script parameter should be mapped to. If need be, you can add other script parameters. 
 ![Actions parameters](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2177.png)
-1. Insert the script of the action by either browsing on your computer to find it or manually editing the ***Script*** field. You can also generate a base script to build upon.
+10. Insert the script of the action by either browsing on your computer to find it or manually editing the ***Script*** field. You can also generate a base script to build upon.
 ![Action script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2178.png)
 1. Test your script once it is complete, then ***Save*** your new template.
 Your new {{ en.ANYID }} template has been created and can be found in the templates list. You can skip to [Create an {{ en.ANYID }} Provider](#create-an-anyidentity-pam-provider).
