@@ -1,1 +1,5 @@
-It appears that there are no specific sections titled "Troubleshooting articles" in the uploaded documents. If you need a translation of a specific section or content from the documents, please provide more details or specify the text you want translated.
+---
+eleventyComputed:
+  title: Articles de dépannage
+  order: 30
+---
