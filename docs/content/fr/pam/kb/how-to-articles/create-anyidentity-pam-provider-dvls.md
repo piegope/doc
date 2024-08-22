@@ -10,7 +10,7 @@ Le [WinRM](/server/kb/how-to-articles/winrm-trustedhostslist/) doit être activ�
 {% endsnippet %}
 
 ## Créer un modèle {{ fr.ANYID }}
-Une fois les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-) créés, l'étape suivante consiste à développer le modèle {{ fr.ANYID }} dans {{ fr.DVLS }}. Ce processus intègre le travail effectué dans le modèle {{ fr.ANYID }}.
+Une fois que les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-) ont été créés, l'étape suivante consiste à développer le modèle {{ fr.ANYID }} dans {{ fr.DVLS }}. Ce processus intègre le travail effectué dans le modèle {{ fr.ANYID }}.
 1. Dans {{ fr.DVLS }}, aller à ***Administration – Accès privilégié – Fournisseurs***.
 1. Cliquer sur ***Modèles {{ fr.ANYID }}***.
 ![Administration – Accès privilégié – Fournisseurs – Modèles {{ fr.ANYID }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2173.png)
@@ -24,14 +24,14 @@ Une fois les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-) cr�
 
     * ***Rotation de mot de passe***, pour réinitialiser les mots de passe des comptes.
     * ***Heartbeat***, pour synchroniser les comptes.
-    * ***Détection de compte***, pour le balayage.
+    * ***Détection de compte***, pour la numérisation.
    ![Paramètres généraux](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2175.png)
 6. Dans ***Propriétés du fournisseur*** et ***Propriétés du compte***, définir les champs que les fournisseurs et les comptes implémenteront.
     * ***Propriétés du fournisseur*** définissent les attributs que {{ fr.ANYID }} utilise pour s'authentifier et se connecter à un fournisseur d'identité. Ces propriétés peuvent inclure le nom d'utilisateur, le mot de passe, le nom d'hôte ou tout autre attribut unique d'un fournisseur d'identité.
     * ***Propriétés du compte*** sont des attributs liés à un compte spécifique sur un fournisseur d'identité. Les propriétés de compte courantes incluent l'ID, le nom d'utilisateur et le secret. Les propriétés de compte identifient de manière unique les comptes de fournisseur et fournissent une valeur pour stocker le mot de passe d'un compte ou d'autres informations d'identification sécurisées.
 
     Ajouter des propriétés en cliquant sur ***Ajouter une propriété***. Pour chaque propriété, fournir un ***Nom*** et un ***Type***. Voici une liste des différents types :
-    * ***Booléen***
+    * ***Boolean***
     * ***Description*** (chaîne)
     * ***Int***
     * ***Mot de passe*** (chaîne)
@@ -41,7 +41,7 @@ Une fois les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-) cr�
     * ***Nom d'utilisateur*** (chaîne)
 ![Propriétés du fournisseur et du compte](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2176.png)
 1. Cocher la case ***Obligatoire*** à côté d'une propriété si les champs sont requis pour la création/modification.
-1. Pour chaque action activée dans la section ***Général***, aller à la section correspondante dans le menu de gauche.
+1. Pour chaque action qui a été activée dans la section ***Général***, aller à la section correspondante dans le menu de gauche.
 1. Mapper les propriétés du fournisseur/compte dont le script a besoin pour fonctionner en fournissant les éléments suivants :
     * ***Nom*** : Nom de la variable dans le script.
     * ***Source*** : Si la valeur est fournie par le fournisseur ou le compte.
@@ -51,7 +51,7 @@ Une fois les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-) cr�
 ![Paramètres des actions](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2177.png)
 10. Insérer le script de l'action en le recherchant sur votre ordinateur ou en éditant manuellement le champ ***Script***. Vous pouvez également générer un script de base sur lequel vous appuyer.
 ![Script d'action](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2178.png)
-1. Tester votre script une fois terminé, puis ***Enregistrer*** votre nouveau modèle.
+1. Tester votre script une fois qu'il est complet, puis ***Enregistrer*** votre nouveau modèle.
 Votre nouveau modèle {{ fr.ANYID }} a été créé et peut être trouvé dans la liste des modèles. Vous pouvez passer à [Créer un fournisseur PAM {{ fr.ANYID }}](#create-an-anyidentity-pam-provider).
 
 ### Exemple de modèle
