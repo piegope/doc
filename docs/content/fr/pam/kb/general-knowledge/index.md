@@ -1,0 +1,1 @@
+It appears that the search did not return any results. Please provide more specific details or context about the content you need translated from the uploaded files. This will help me locate the relevant sections for translation.
