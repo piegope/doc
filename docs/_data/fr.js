@@ -23,6 +23,7 @@ module.exports = {
     DLOCALIZER: 'Devolutions Localizer',
     DOD: 'Devolutions Online Drive',
     DODB: 'Devolutions Online Database',
+    DPAM: 'Devolutions PAM',
     DPORTAL: 'Devolutions Portal',
     DPS: 'Devolutions PowerShell',
     DSEND: 'Devolutions Send',

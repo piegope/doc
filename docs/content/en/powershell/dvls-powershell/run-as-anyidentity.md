@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 The ***Run As*** option lets you run {{ en.ANYID }} provider scripts within different contexts and runs the scheduler to do so. This can be done on a local or a remote machine, making it useful to find out what the script is trying to accomplish, whether it is completing certain actions or accessing certain files.
 {% snippet, "badgeHelp" %}
-{{ en.DVLS }} already includes Azure Key Vault and Windows Accounts [custom scripts](/server/kb/how-to-articles/create-anyidentity-pam-provider/#import-an-anyidentity-template) templates.
+{{ en.DVLS }} already includes Azure Key Vault and Windows Accounts [custom scripts](/pam/kb/how-to-articles/create-anyidentity-pam-provider-dvls/#import-an-anyidentity-template) templates.
 {% endsnippet %}
 
 ## Run As PowerShell script in various contexts
