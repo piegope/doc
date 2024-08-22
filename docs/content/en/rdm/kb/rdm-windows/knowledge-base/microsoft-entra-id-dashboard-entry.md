@@ -8,6 +8,10 @@ eleventyComputed:
 ---
 Manage Entra ID users and groups from a single, easy-to-use interface. This interface allows Entra ID resources to be managed directly from {% var, "RDM" false %}, improving administrative workflow and simplifying access sharing and management.
 
+### Configuration
+
+&nbsp;
+
 Add a ***new entry - Remote management - Microsoft Entra ID dashboard.***
 
 ### **Microsoft Entra ID dashboard entry settings**
