@@ -1,1 +1,5 @@
-Merci pour les métadonnées. Je vais maintenant procéder à la recherche des informations pertinentes dans les fichiers que vous avez téléchargés. Si vous avez des questions spécifiques ou des sections que vous souhaitez que je traduise, n'hésitez pas à me le faire savoir.
+---
+eleventyComputed:
+  title: Base de connaissances
+  order: 60
+---

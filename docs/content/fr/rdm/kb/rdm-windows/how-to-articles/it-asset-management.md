@@ -29,4 +29,4 @@ La fonctionnalité de ***Gestion des actifs informatiques*** peut être utilisé
 
 ![Onglet Gestion des actifs informatiques](https://cdnweb.devolutions.net/docs/RDMW6080_2024_2.png "Onglet Gestion des actifs informatiques")
 
-7. Se connecter à ce service.
+7\. Se connecter à ce service.

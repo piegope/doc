@@ -21,15 +21,15 @@ eleventyComputed:
 6. Changer les ***Ports*** à la valeur souhaitée et cliquer sur ***Suivant***.<br> ![Listeners](https://cdnweb.devolutions.net/docs/HUBB0013_2024_1.png) {% snippet, "badgeInfo" %}
                Les ports par défaut HTTP(S) et TCP sont respectivement 7171 et 8181, mais peuvent être modifiés.
                {% endsnippet %}
-7. Saisir l'***URL externe*** et cliquer sur ***Suivant***.<br> ![Access URI](https://cdnweb.devolutions.net/docs/HUBB0014_2024_1.png)
+7. Entrer l'***URL externe*** et cliquer sur ***Suivant***.<br> ![Access URI](https://cdnweb.devolutions.net/docs/HUBB0014_2024_1.png)
 
-* Si un certificat auto-signé ou l'option ngrok n'a **pas** été choisi, l'écran pour importer le certificat SSL sera présenté. La ***Source du certificat*** peut être ***Externe*** (deux fichiers) ou ***Système*** (le [magasin de certificats Windows](/dgw/kb/use-windows-certificate-store/)).
-  * ***Externe*** : Les formats requis sont affichés dans la fenêtre de dialogue.
-  * ***Système*** : L'emplacement et la méthode (c'est-à-dire ***Recherche par empreinte***) doivent être choisis. ![External Certificate](https://cdnweb.devolutions.net/docs/HUBB0015_2024_1.png) ![System Certificate](https://cdnweb.devolutions.net/docs/DGW0010_2024_1.png) {% snippet, "shieldCaution" %}
+* Si un certificat auto-signé ou l'option ngrok n'ont **pas** été choisis, vous serez présenté avec l'écran pour importer le certificat SSL. La ***Source du certificat*** peut être ***Externe*** (deux fichiers) ou ***Système*** (le [magasin de certificats Windows](/dgw/kb/use-windows-certificate-store/)).
+  * ***Externe***: Les formats requis sont affichés dans la fenêtre de dialogue.
+  * ***Système***: L'emplacement et la méthode (c'est-à-dire ***Recherche par empreinte***) doivent être choisis. ![External Certificate](https://cdnweb.devolutions.net/docs/HUBB0015_2024_1.png) ![System Certificate](https://cdnweb.devolutions.net/docs/DGW0010_2024_1.png) {% snippet, "shieldCaution" %}
                    Si un ***Utilisateur par défaut*** n'est pas créé, la page web de {{ fr.DGW_STANDALONE }} sera accessible anonymement.
                    {% endsnippet %}
 
-8. Saisir les identifiants pour l'***Utilisateur par défaut*** et cliquer sur ***Suivant***.<br> ![Default User](https://cdnweb.devolutions.net/docs/DGW0008_2024_1.png)
+8. Entrer les identifiants pour l'***Utilisateur par défaut*** et cliquer sur ***Suivant***.<br> ![Default User](https://cdnweb.devolutions.net/docs/DGW0008_2024_1.png)
 9. Cet écran montre un résumé des chemins/configurations actuels. Il est possible de revenir en arrière et de les modifier. Si les paramètres sont corrects, cliquer sur ***Suivant***.<br> ![Gateway setup summary](https://cdnweb.devolutions.net/docs/HUBB0017_2024_1.png)
 10. Cliquer sur ***Installer***.<br> ![Install button](https://cdnweb.devolutions.net/docs/HUBB0018_2024_1.png)
 11. Cliquer sur ***Terminer*** lorsque l'installation est terminée.<br> ![Finish button](https://cdnweb.devolutions.net/docs/HUBB0019_2024_1.png) {% snippet, "badgeInfo" %}

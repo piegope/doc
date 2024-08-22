@@ -20,7 +20,7 @@ Cette méthode couvre tous les fournisseurs de comptes PAM.
 1. Télécharger notre [fichier modèle](https://github.com/Devolutions/PAM-Providers/tree/master/Propagation-Scripts) depuis GitHub.
 2. Se connecter à {{ fr.DVLS }} avec un compte administrateur.
 3. Aller à ***Administration*** – ***Modules*** – ***Accès Privilégié*** – ***Propagation (Aperçu)***. ![Propagation (Aperçu)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0096.png)
-4. Cliquer sur ***Modèles de Script***. ![Modèles de Script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0097.png)
+4. Cliquer sur ***Modèles de script***. ![Modèles de script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0097.png)
 5. Cliquer sur ***Importer***. ![Importer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0098.png)
 6. Sélectionner le fichier .json du modèle précédemment téléchargé et cliquer sur ***Importer***. ![Bouton Importer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0099.png)
 7. Cliquer sur ***Enregistrer***. ![Bouton Enregistrer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0100.png)
@@ -40,20 +40,20 @@ Cette méthode couvre tous les fournisseurs de comptes PAM.
            Il est possible de sélectionner plusieurs configurations.
            {% endsnippet %}
 21. Cliquer sur ***OK*** pour enregistrer les modifications et fermer la fenêtre. ![Bouton OK](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0107.png) {% snippet, "badgeInfo" %}
-           Pour tester si le lien est réussi, cliquer sur ***Plus*** puis sur ***Réinitialiser le mot de passe***. Si cela fonctionne correctement, le nouveau fichier créé apparaîtra sur la machine distante. Sinon, il est recommandé de vérifier les journaux du compte.
+           Pour tester si le lien est réussi, cliquer sur ***Plus*** puis ***Réinitialiser le mot de passe***. Si cela fonctionne correctement, le nouveau fichier créé apparaîtra sur la machine distante. Sinon, il est recommandé de vérifier les journaux du compte.
            {% endsnippet %}
 
 ### Créer un modèle PowerShell
 
 1. Se connecter à {{ fr.DVLS }} avec un compte administrateur.
 2. Aller à ***Administration*** – ***Modules*** – ***Accès Privilégié*** – ***Propagation (Aperçu)***. ![Propagation (Aperçu)](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0096.png)
-3. Cliquer sur ***Modèles de Script***. ![Modèles de Script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0097.png)
+3. Cliquer sur ***Modèles de script***. ![Modèles de script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0097.png)
 4. Cliquer sur ***Ajouter***. ![Ajouter](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0112.png)
 5. Dans l'onglet Général, ajouter un ***Nom*** pour ce modèle. {% snippet, "badgeInfo" %}
          Il est possible d'ajouter une ***Description***. L'icône peut également être modifiée en cliquant dessus.
          {% endsnippet %}
-6. Dans l'onglet ***Propriétés de Propagation***, ajouter les variables pour le script en cliquant sur ***\+ Ajouter une propriété***. Les variables ajoutées dans cet onglet doivent représenter l'URL vers la machine distante (c'est-à-dire, ComputerIP, Username, Password et RootFolder). ![Propriétés de Propagation](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0113.png)
-7. Dans l'onglet ***Mappage des Propriétés***, ajouter les variables pour le script en cliquant sur ***\+ Ajouter une propriété***. Les variables ajoutées dans cet onglet doivent représenter le ***Mappage des Champs*** de la machine distante (c'est-à-dire, FileName et FilePath). ![Mappage des Propriétés](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0114.png)
+6. Dans l'onglet ***Propriétés de Propagation***, ajouter les variables pour le script en cliquant sur ***\+ Ajouter propriété***. Les variables ajoutées dans cet onglet doivent représenter l'URL de la machine distante (c'est-à-dire, ComputerIP, Username, Password et RootFolder). ![Propriétés de Propagation](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0113.png)
+7. Dans l'onglet ***Mappage des Propriétés***, ajouter les variables pour le script en cliquant sur ***\+ Ajouter propriété***. Les variables ajoutées dans cet onglet doivent représenter le ***Mappage des Champs*** de la machine distante (c'est-à-dire, FileName et FilePath). ![Mappage des Propriétés](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0114.png)
 8. Dans l'onglet ***Script***, les variables précédentes apparaissent ainsi que la variable ***NewPassword***. Cette nouvelle variable contiendra le nouveau mot de passe pour le compte lors de l'exécution du script.
 9. Cliquer sur ***Générer le script de base***. ![Générer le script de base](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0115.png) {% snippet, "badgeInfo" %}
          Cliquer sur ***Modifier*** pour modifier ou ajouter au script.
