@@ -9,7 +9,7 @@ To create an {{ en.ANYID }} PAM provider, you first need to create a provider te
 The [WinRM](/server/kb/how-to-articles/winrm-trustedhostslist/) needs to be enabled for this to work.
 {% endsnippet %}
 
-## Create an {{ en.ANYID }} template  
+## Create an {{ en.ANYID }} template
 Once the [action scripts](/pam/kb/how-to-articles/create-anyidentity-) have been created, the next step is to develop the {{ en.ANYID }} template within {{ en.DVLS }}. This process integrates the work done into the {{ en.ANYID }} template.
 1. In {{ en.DVLS }}, go to ***Administration – Privileged access – Providers***.
 1. Click on ***{{ en.ANYID }} templates***.
