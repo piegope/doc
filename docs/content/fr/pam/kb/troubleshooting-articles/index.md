@@ -1,7 +1,7 @@
 ```
 ---
 eleventyComputed:
-  title: Articles de dépannage
+  title: Articles de résolution de problèmes
   order: 30
 ---
 ```
