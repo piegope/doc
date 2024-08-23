@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
-  title: Comment faire des articles
+  title: Articles pratiques
   order: 20
 ---

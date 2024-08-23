@@ -9,7 +9,7 @@ Pour créer un fournisseur PAM {{ fr.ANYID }}, il faut d'abord créer un modèle
 Le [WinRM](/server/kb/how-to-articles/winrm-trustedhostslist/) doit être activé pour que cela fonctionne.
 {% endsnippet %}
 
-## Créer un modèle {{ fr.ANYID }}  
+## Créer un modèle {{ fr.ANYID }}
 Une fois que les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-) ont été créés, l'étape suivante consiste à développer le modèle {{ fr.ANYID }} dans {{ fr.DVLS }}. Ce processus intègre le travail effectué dans le modèle {{ fr.ANYID }}.
 1. Dans {{ fr.DVLS }}, aller à ***Administration – Accès privilégié – Fournisseurs***.
 1. Cliquer sur ***Modèles {{ fr.ANYID }}***.
@@ -27,18 +27,18 @@ Une fois que les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-)
     * ***Détection de compte***, pour la numérisation.
    ![Paramètres généraux](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2175.png)
 6. Dans ***Propriétés du fournisseur*** et ***Propriétés du compte***, définir les champs que les fournisseurs et les comptes implémenteront.
-    * ***Propriétés du fournisseur*** définissent les attributs que {{ fr.ANYID }} utilise pour s'authentifier et se connecter à un fournisseur d'identité. Ces propriétés peuvent inclure le nom d'utilisateur, le mot de passe, le nom d'hôte ou tout autre attribut unique d'un fournisseur d'identité.
+    * ***Propriétés du fournisseur*** définissent les attributs que {{ fr.ANYID }} utilise pour authentifier et se connecter à un fournisseur d'identité. Ces propriétés peuvent inclure le nom d'utilisateur, le mot de passe, le nom d'hôte ou tout autre attribut unique d'un fournisseur d'identité.
     * ***Propriétés du compte*** sont des attributs liés à un compte spécifique sur un fournisseur d'identité. Les propriétés de compte courantes incluent l'ID, le nom d'utilisateur et le secret. Les propriétés de compte identifient de manière unique les comptes de fournisseur et fournissent une valeur pour stocker le mot de passe d'un compte ou d'autres informations d'identification sécurisées.
 
     Ajouter des propriétés en cliquant sur ***Ajouter une propriété***. Pour chaque propriété, fournir un ***Nom*** et un ***Type***. Voici une liste des différents types :
     * ***Boolean***
-    * ***Description*** (string)
+    * ***Description*** (chaîne)
     * ***Int***
-    * ***Mot de passe*** (string)
+    * ***Mot de passe*** (chaîne)
     * ***Données sensibles*** (SecureString)
-    * ***String***
-    * ***Identifiant unique*** (string)
-    * ***Nom d'utilisateur*** (string)
+    * ***Chaîne***
+    * ***Identifiant unique*** (chaîne)
+    * ***Nom d'utilisateur*** (chaîne)
 ![Propriétés du fournisseur et du compte](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2176.png)
 1. Cocher la case ***Obligatoire*** à côté d'une propriété si les champs sont requis pour la création/modification.
 1. Pour chaque action qui a été activée dans la section ***Général***, aller à la section correspondante dans le menu de gauche.
@@ -47,7 +47,7 @@ Une fois que les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-)
     * ***Source*** : Si la valeur est fournie par le fournisseur ou le compte.
     * ***Propriété*** : La propriété source qui sera injectée dans le script.
 
-    Toutes les actions ont des scripts d'action associés avec au moins deux ou trois paramètres. {{ fr.ANYID }} doit comprendre comment mapper une propriété à un paramètre de script pour définir la relation entre l'objet {{ fr.ANYID }} (fournisseur ou compte) et chaque script d'action. Les paramètres de script vous permettent de spécifier à {{ fr.ANYID }} quels paramètres chacun de vos scripts d'action possède et à quelle propriété {{ fr.ANYID }} ce paramètre de script doit être mappé. Si nécessaire, vous pouvez ajouter d'autres paramètres de script. 
+    Toutes les actions ont des scripts d'action associés avec au moins deux ou trois paramètres. {{ fr.ANYID }} doit comprendre comment mapper une propriété à un paramètre de script pour définir la relation entre l'objet {{ fr.ANYID }} (fournisseur ou compte) et chaque script d'action. Les paramètres de script vous permettent de spécifier à {{ fr.ANYID }} quels paramètres chacun de vos scripts d'action possède et à quelle propriété {{ fr.ANYID }} ce paramètre de script doit être mappé. Si nécessaire, vous pouvez ajouter d'autres paramètres de script.
 ![Paramètres des actions](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2177.png)
 10. Insérer le script de l'action en le recherchant sur votre ordinateur ou en éditant manuellement le champ ***Script***. Vous pouvez également générer un script de base sur lequel vous appuyer.
 ![Script d'action](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2178.png)
@@ -57,7 +57,7 @@ Votre nouveau modèle {{ fr.ANYID }} a été créé et peut être trouvé dans l
 ### Exemple de modèle
 Voici un exemple de valeurs pour un modèle {{ fr.ANYID }} complété basé sur les scripts d'action suivants :
 
----
+```powershell
 [CmdletBinding()]
 param(
     [Parameter(Mandatory)]
@@ -69,7 +69,7 @@ param(
     [Parameter(Mandatory)]
     [securestring]$IdentityProviderEndpointPassword
 )
----
+```
 
 ```powershell
 [CmdletBinding()]
@@ -115,7 +115,7 @@ param(
 
 | Nom de la propriété              | Type de propriété | Obligatoire |
 | -------------------------------- | ----------------- | ----------- |
-| IdentityProviderEndpoint         | String            | Oui         |
+| IdentityProviderEndpoint         | Chaîne            | Oui         |
 | IdentityProviderEndpointUserName | Nom d'utilisateur | Oui         |
 | IdentityProviderEndpointPassword | Mot de passe      | Oui         |
 
@@ -129,13 +129,13 @@ param(
 #### Types de paramètres de script
 
 | Nom du paramètre                 | Action(s)                                       | Propriété                         | Source   | Obligatoire |
-| -------------------------------- | ----------------------------------------------- | --------------------------------- | -------- | ----------- |
+| -------------------------------- | ----------------------------------------------- | -------------------------------- | -------- | ----------- |
 | IdentityProviderEndpoint         | Rotation de mot de passe, Heartbeat, Détection de compte | IdentityProviderEndpoint         | Fournisseur | Oui       |
 | IdentityProviderEndpointUserName | Rotation de mot de passe, Heartbeat, Détection de compte | IdentityProviderEndpointUserName | Fournisseur | Oui       |
 | IdentityProviderEndpointPassword | Rotation de mot de passe, Heartbeat, Détection de compte | IdentityProviderEndpointPassword | Fournisseur | Oui       |
-| NewPassword                      | Rotation de mot de passe                        | N/A                               | Système   | Oui       |
-| AccountUserName                  | Rotation de mot de passe, Heartbeat             | AccountUserName                   | Compte    | Oui       |
-| AccountSecret                    | Heartbeat                                       | AccountSecret                     | Compte    | Oui       |
+| NewPassword                      | Rotation de mot de passe                        | N/A                              | Système   | Oui       |
+| AccountUserName                  | Rotation de mot de passe, Heartbeat             | AccountUserName                  | Compte    | Oui       |
+| AccountSecret                    | Heartbeat                                       | AccountSecret                    | Compte    | Oui       |
 
 ## Importer un modèle {{ fr.ANYID }}
 {% snippet, "badgeHelp" %}
