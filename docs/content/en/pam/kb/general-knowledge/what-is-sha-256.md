@@ -3,7 +3,7 @@ eleventyComputed:
   title: What is SHA-256?
   description: The Secure Hash Algorithm (SHA) family encompasses several cryptographic hash functions, with SHA-256 being a widely-used variant.
 ---
-The Secure Hash Algorithm (SHA) family encompasses several cryptographic hash functions, with SHA-256 being a widely-used variant. Cryptographic hashes act as digital signatures for data, enabling the comparison of large data sets by their hash values rather than their full content. This method is similar to using fingerprints for identification—each data set has a unique hash, and even a minor alteration to the data changes the hash value.  
+The Secure Hash Algorithm (SHA) family encompasses several cryptographic hash functions, with SHA-256 being a widely-used variant. Cryptographic hashes act as digital signatures for data, enabling the comparison of large data sets by their hash values rather than their full content. This method is similar to using fingerprints for identification—each data set has a unique hash, and even a minor alteration to the data changes the hash value.
 
 SHA-256 generates a distinctive, fixed-size 256-bit (32-byte) hash, functioning as a one-way process that makes it excellent for data integrity checks, authentication challenges, anti-tampering measures, digital signatures, and blockchain applications.
 

@@ -39,4 +39,4 @@ Please consult [Mozilla's Knowledge Base article](https://support.mozilla.org/en
 1. sudo cp ca.crt /usr/local/share/ca-certificates/extra/ca.crt
 1. sudo update-ca-certificates
 
-Watch for a 1 added in the output messages.  
+Watch for a 1 added in the output messages.
