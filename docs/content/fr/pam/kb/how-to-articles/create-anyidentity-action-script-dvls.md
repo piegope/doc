@@ -11,7 +11,7 @@ Les scripts d'action sont des scripts PowerShell exécutés par {{ fr.DPAM }}, e
 Maîtriser le scripting PowerShell est essentiel pour créer des fournisseurs {{ fr.ANYID }}. Il est recommandé que les individus possèdent au moins un niveau intermédiaire de compétence en scripting avant de tenter de créer des scripts d'action.
 {% endsnippet %}
 
-## Paramètres de script du point d'accès du fournisseur d'identité
+## Paramètres de script de point d'accès du fournisseur d'identité
 
 Chaque script d'action doit inclure un ensemble de paramètres par lesquels le fournisseur {{ fr.ANYID }} passera des valeurs. Bien que les paramètres spécifiques pour chaque script d'action puissent varier (comme montré dans les exemples ci-dessous), ils partageront tous un ensemble commun de paramètres requis pour se connecter au point d'accès du fournisseur d'identité. Les scripts d'action se connectent à un fournisseur d'identité, et pour faciliter cela, ils doivent recevoir les identifiants nécessaires du fournisseur {{ fr.ANYID }}.
 
@@ -30,7 +30,7 @@ Voici un exemple de comment définir ces paramètres de point d'accès du fourni
 Bien qu'il y ait une flexibilité dans le nommage des paramètres au sein des scripts d'action (à condition qu'ils correspondent à ce qui est spécifié lors du processus de création de modèle dans {{ fr.ANYID }}), il est conseillé d'utiliser un ensemble standard de paramètres pour maintenir la cohérence et la clarté dans les conventions de nommage.
 {% endsnippet %}
 
-Chaque paramètre est marqué comme obligatoire, garantissant que le fournisseur {{ fr.ANYID }} est forcé d'utiliser ces paramètres. Il est également important de noter l'utilisation du type `securestring` pour le paramètre `IdentityEndpointPassword`. {{ fr.ANYID }} impose l'utilisation de `securestring` pour empêcher la transmission et le traitement de mots de passe en clair au sein des scripts d'action.
+Chaque paramètre est marqué comme obligatoire, garantissant que le fournisseur {{ fr.ANYID }} est contraint d'utiliser ces paramètres. Il est également important de noter l'utilisation du type `securestring` pour le paramètre `IdentityEndpointPassword`. {{ fr.ANYID }} impose l'utilisation de `securestring` pour éviter la transmission et le traitement de mots de passe en clair dans les scripts d'action.
 
 Lors de la construction du modèle {{ fr.ANYID }}, ces paramètres de point d'accès du fournisseur d'identité correspondront aux paramètres définis lors du processus de création de modèle.
 
@@ -40,7 +40,7 @@ Lors de la construction du modèle {{ fr.ANYID }}, ces paramètres de point d'ac
 
 Lorsqu'il est nécessaire de fournir la possibilité de passer une valeur à un paramètre de script mais sans l'exiger, ce paramètre est considéré comme optionnel. Il est utilisé uniquement lorsqu'une valeur lui est passée.
 
-Lors de la création d'un modèle {{ fr.ANYID }}, il est possible de définir des propriétés de fournisseur et de compte et de spécifier si elles sont obligatoires ou optionnelles.
+Lors de la création d'un modèle {{ fr.ANYID }}, il est possible de définir les propriétés du fournisseur et du compte et de spécifier si elles sont obligatoires ou optionnelles.
 
 ![Propriétés optionnelles du fournisseur ***Port*** et ***Instance***](https://cdnweb.devolutions.net/docs/ab_how-to-articles-create-anyidentity-action-scripts_2-8.png)
 
@@ -75,7 +75,7 @@ Si ce script PowerShell est exécuté en dehors de {{ fr.ANYID }} sans que les p
 
 ![!!ab_how-to-articles-create-anyidentity-action-scripts_3-8.png](https://cdnweb.devolutions.net/docs/ab_how-to-articles-create-anyidentity-action-scripts_3-8.png)
 
-Cependant, lors de la construction du modèle {{ fr.ANYID }} et en fournissant uniquement les paramètres obligatoires, en s'appuyant sur les valeurs par défaut internes du script, {{ fr.ANYID }} remplacera ces valeurs par défaut.
+Cependant, lors de la construction du modèle {{ fr.ANYID }} et en fournissant uniquement les paramètres obligatoires, en se fiant aux valeurs par défaut internes du script, {{ fr.ANYID }} remplacera ces valeurs par défaut.
 
 ![!!ab_how-to-articles-create-anyidentity-action-scripts_4-8.png](https://cdnweb.devolutions.net/docs/ab_how-to-articles-create-anyidentity-action-scripts_4-8.png)
 
@@ -106,7 +106,7 @@ if (!$Port) { $Port = 1433 }
 Write-Output "Using the instance of [$Instance] and the port of [$Port] here in the code somewhere."
 ```
 
-Bien qu'il ne soit généralement pas recommandé par les meilleures pratiques PowerShell, fournir des valeurs par défaut de paramètres de cette manière est une exigence pour {{ fr.ANYID }}.
+Bien que cela ne soit généralement pas recommandé par les meilleures pratiques PowerShell, fournir des valeurs par défaut de cette manière est une exigence pour {{ fr.ANYID }}.
 
 ![!!ab_how-to-articles-create-anyidentity-action-scripts_5-8.png](https://cdnweb.devolutions.net/docs/ab_how-to-articles-create-anyidentity-action-scripts_5-8.png)
 
@@ -115,7 +115,7 @@ Bien qu'il ne soit généralement pas recommandé par les meilleures pratiques P
 Les scripts d'action sont finalement exécutés dans l'environnement {{ fr.ANYID }}. Toute sortie générée par ces scripts est interprétée, stockée et/ou affichée dans l'interface web de {{ fr.DVLS }}.
 
 Pour garantir que les scripts d'action produisent la sortie attendue, il est recommandé qu'ils retournent la sortie de seulement quatre manières :
-* Utiliser le mot-clé `throw` pour générer une erreur terminante en utilisant le flux d'erreurs.
+* Utiliser le mot-clé `throw` pour générer une erreur de terminaison en utilisant le flux d'erreurs.
 * Utiliser l'applet de commande `Write-Error` pour générer une erreur non terminante en utilisant le flux d'erreurs.
 * Utiliser l'applet de commande `Write-Output` pour retourner des informations au flux de sortie.
 * Sortir des informations directement au flux de sortie.
@@ -148,7 +148,7 @@ Pour garantir qu'un script d'action retourne des informations à {{ fr.ANYID }},
 
 ## Détection de compte
 
-La première action exécutée par un fournisseur {{ fr.ANYID }} est l'action de détection de compte. Cette action énumère les comptes sur un fournisseur d'identité et remplit la base de données {{ fr.DVLS }} pour une gestion ultérieure.
+L'action initiale exécutée par un fournisseur {{ fr.ANYID }} est l'action de détection de compte. Cette action énumère les comptes sur un fournisseur d'identité et remplit la base de données {{ fr.DVLS }} pour une gestion ultérieure.
 
 * **Paramètres d'entrée requis**
 
@@ -184,7 +184,7 @@ La première action exécutée par un fournisseur {{ fr.ANYID }} est l'action de
 
 ## Battement de cœur
 
-Après la récupération de tous les comptes du fournisseur d'identité par l'action de détection de compte, l'action de battement de cœur est initiée. L'action de battement de cœur lit la valeur actuelle du mot de passe d'un compte et la compare à la valeur stockée par PAM. Si les deux valeurs diffèrent, un changement est détecté.
+Après la récupération de tous les comptes du fournisseur d'identité par l'action de détection de compte, l'action de battement de cœur est initiée. L'action de battement de cœur lit la valeur actuelle du mot de passe d'un compte et la compare à la valeur stockée par les modules PAM. Si les deux valeurs diffèrent, un changement est détecté.
 
 * **Paramètres d'entrée requis**
 
@@ -235,7 +235,7 @@ L'action de rotation de mot de passe est responsable de synchroniser les mots de
 
 * **Sortie requise**
 
-    Le script de rotation de mot de passe ne doit retourner qu'une valeur booléenne `$true` si le changement de mot de passe est réussi.
+    Le script de rotation de mot de passe doit uniquement retourner une valeur booléenne `$true` si le changement de mot de passe est réussi.
 
 Voici un exemple basique de script d'action de rotation de mot de passe.
 

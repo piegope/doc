@@ -14,7 +14,7 @@ eleventyComputed:
 La version intégrée de {{ fr.DSEND }} est actuellement en cours de développement et sera progressivement déployée dans {{ fr.RDM }}, {{ fr.DVLS }}, et {{ fr.DHUB }}. Plus d'informations seront disponibles à l'avenir.
 {% endsnippet %}
 
-Bien qu'elles partagent la même architecture sous-jacente, il existe de légères différences entre l'ensemble des fonctionnalités des versions autonome et intégrée de {{ fr.DSEND }}.
+Bien que partageant la même architecture sous-jacente, de légères différences existent entre l'ensemble des fonctionnalités des versions autonome et intégrée de {{ fr.DSEND }}.
 
 * Lien unique de courte durée (24 heures) chiffré côté client.
 * Protection optionnelle via une phrase secrète fournie par le client.
@@ -38,16 +38,16 @@ Bien qu'elles partagent la même architecture sous-jacente, il existe de légèr
    {% endsnippet %}
 1. Entrer la ***Phrase secrète*** fournie par l'expéditeur (si nécessaire) et cliquer sur ***Déchiffrer***.
 ![Bouton Déchiffrer](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0187.png)
-1. Cliquer sur ***Démasquer le texte***.
+1. Cliquer sur ***Dévoiler le texte***.
    {% snippet, "shieldCaution" %}
-   Assurez-vous d'être dans un environnement privé avant de lire ce message s'il contient des informations sensibles.
+   S'assurer d'être dans un environnement privé avant de lire ce message s'il contient des informations sensibles.
    {% endsnippet %}
 
-   ![Démasquer le texte](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0188.png)
+   ![Dévoiler le texte](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0188.png)
 1. Une fois terminé, cliquer sur ***Supprimer maintenant***.
 1. Cliquer sur ***Oui***.
 ![Bouton Oui](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0189.png)
 ![Message sécurisé supprimé](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0190.png)
 
 ## Détails techniques
-Le principe fondamental de {{ fr.DSEND }} est que Devolutions elle-même ne peut pas déchiffrer le secret de l'utilisateur. Cela est réalisé via un chiffrement côté client (navigateur) grâce à un programme Rust compilé en WASM (WebAssembly) dans le navigateur. Par conséquent, Devolutions ne détient pas la clé de chiffrement et ne peut pas déchiffrer les données.
+Le principe fondamental de {{ fr.DSEND }} est que Devolutions elle-même ne peut pas déchiffrer le secret de l'utilisateur. Cela est accompli via un chiffrement côté client (navigateur) grâce à un programme Rust compilé en WASM (WebAssembly) dans le navigateur. Par conséquent, Devolutions ne détient pas la clé de chiffrement et ne peut pas déchiffrer les données.

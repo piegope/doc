@@ -1,12 +1,12 @@
----  
-eleventyComputed:  
-  title: Effacer le stockage local de Safari  
-  description: Suivre les étapes pour effacer votre stockage local dans le navigateur Safari.  
-  keywords:  
-  - Stockage local  
-  - Navigateur  
-  - Safari  
----  
+---
+eleventyComputed:
+  title: Effacer le stockage local de Safari
+  description: Suivre les étapes pour effacer votre stockage local dans le navigateur Safari.
+  keywords:
+  - Stockage local
+  - Navigateur
+  - Safari
+---
 Voici les étapes pour effacer votre stockage local dans le navigateur Safari :
 
 1. Ouvrir une page du navigateur Safari.

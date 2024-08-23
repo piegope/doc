@@ -3,8 +3,8 @@ eleventyComputed:
   title: Effacer le stockage local d'un navigateur
   description: Cliquer sur le type de votre navigateur pour suivre les étapes pour effacer le stockage local de votre navigateur.
   keywords:
-  - Local storage
-  - Browser
+  - Stockage local
+  - Navigateur
 ---
 Cliquer sur le type de votre navigateur pour suivre les étapes pour effacer le stockage local de votre navigateur :  
 

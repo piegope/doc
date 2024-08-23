@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Installer les certificats racine
+  title: Installer des certificats racine
 ---
 Voici diverses procédures pour installer des certificats racine :
 
@@ -16,7 +16,7 @@ Firefox ne fait pas confiance aux mêmes certificats que Windows et un paramètr
 Veuillez consulter [l'article de la base de connaissances de Mozilla](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).
 {% endsnippet %}  
 
-1. Ouvrir la console de gestion Microsoft en recherchant ***MMC*** dans le menu ***Démarrer***. Une autre façon est d'appuyer sur les touches <kbd>Windows</kbd>+<kbd>R</kbd> de votre clavier et, dans la fenêtre ***Exécuter***, rechercher ***MMC***.
+1. Ouvrir la Console de gestion Microsoft en recherchant ***MMC*** dans le menu ***Démarrer***. Une autre façon est d'appuyer sur les touches <kbd>Windows</kbd>+<kbd>R</kbd> de votre clavier et, dans la fenêtre ***Exécuter***, rechercher ***MMC***.
 1. Sélectionner ***Fichier – Ajouter/Supprimer un composant logiciel enfichable***.
 1. Dans la boîte ***Composants logiciels enfichables disponibles***, sélectionner ***Certificats***.
 1. Cliquer sur le bouton ***Ajouter***.

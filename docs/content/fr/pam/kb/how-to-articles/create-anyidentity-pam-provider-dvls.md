@@ -9,11 +9,11 @@ Pour créer un fournisseur PAM {{ fr.ANYID }}, il faut d'abord créer un modèle
 Le [WinRM](/server/kb/how-to-articles/winrm-trustedhostslist/) doit être activé pour que cela fonctionne.
 {% endsnippet %}
 
-## Créer un modèle {{ fr.ANYID }}  
+## Créer un modèle {{ fr.ANYID }}
 Une fois que les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-) ont été créés, l'étape suivante consiste à développer le modèle {{ fr.ANYID }} au sein de {{ fr.DVLS }}. Ce processus intègre le travail effectué dans le modèle {{ fr.ANYID }}.
-1. Dans {{ fr.DVLS }}, aller à ***Administration – Accès privilégié – Fournisseurs***.
+1. Dans {{ fr.DVLS }}, aller à ***Administration – Gestion des accès privilégiés – Fournisseurs***.
 1. Cliquer sur ***Modèles {{ fr.ANYID }}***.
-![Administration – Accès privilégié – Fournisseurs – Modèles {{ fr.ANYID }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2173.png)
+![Administration – Gestion des accès privilégiés – Fournisseurs – Modèles {{ fr.ANYID }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2173.png)
 1. Cliquer sur ***Ajouter*** pour créer un nouveau modèle.
 ![Ajouter un nouveau modèle {{ fr.ANYID }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2174.png)
 1. Dans ***Général***, fournir un ***Nom*** (obligatoire) et une ***Description*** (optionnelle) pour votre nouveau modèle. Il est également possible de changer l'icône affichée.
@@ -26,9 +26,9 @@ Une fois que les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-)
     * ***Heartbeat***, pour synchroniser les comptes.
     * ***Détection de compte***, pour la numérisation.
    ![Paramètres généraux](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2175.png)
-6. Dans ***Propriétés du fournisseur*** et ***Propriétés du compte***, définir les champs que les fournisseurs et les comptes implémenteront.
+6. Dans ***Propriétés du fournisseur*** et ***Propriétés du compte***, définir les champs que les fournisseurs et les comptes mettront en œuvre.
     * ***Propriétés du fournisseur*** définissent les attributs que {{ fr.ANYID }} utilise pour authentifier et se connecter à un fournisseur d'identité. Ces propriétés peuvent inclure le nom d'utilisateur, le mot de passe, le nom d'hôte ou tout autre attribut unique d'un fournisseur d'identité.
-    * ***Propriétés du compte*** sont des attributs liés à un compte spécifique sur un fournisseur d'identité. Les propriétés de compte courantes incluent l'ID, le nom d'utilisateur et le secret. Les propriétés de compte identifient de manière unique les comptes de fournisseur et fournissent une valeur pour stocker le mot de passe d'un compte ou d'autres informations d'identification sécurisées.
+    * ***Propriétés du compte*** sont des attributs liés à un compte spécifique sur un fournisseur d'identité. Les propriétés de compte courantes incluent l'ID, le nom d'utilisateur et le secret. Les propriétés de compte identifient de manière unique les comptes de fournisseur et fournissent une valeur pour stocker le mot de passe d'un compte ou d'autres identifiants sécurisés.
 
     Ajouter des propriétés en cliquant sur ***Ajouter une propriété***. Pour chaque propriété, fournir un ***Nom*** et un ***Type***. Voici une liste des différents types :
     * ***Booléen***
@@ -47,11 +47,11 @@ Une fois que les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-)
     * ***Source*** : Si la valeur est fournie par le fournisseur ou le compte.
     * ***Propriété*** : La propriété source qui sera injectée dans le script.
 
-    Toutes les actions ont des scripts d'action associés avec au moins deux ou trois paramètres. {{ fr.ANYID }} doit comprendre comment mapper une propriété à un paramètre de script pour définir la relation entre l'objet {{ fr.ANYID }} (fournisseur ou compte) et chaque script d'action. Les paramètres de script vous permettent de spécifier à {{ fr.ANYID }} quels paramètres chacun de vos scripts d'action possède et à quelle propriété {{ fr.ANYID }} ce paramètre de script doit être mappé. Si besoin, vous pouvez ajouter d'autres paramètres de script. 
+    Toutes les actions ont des scripts d'action associés avec au moins deux ou trois paramètres. {{ fr.ANYID }} doit comprendre comment mapper une propriété à un paramètre de script pour définir la relation entre l'objet {{ fr.ANYID }} (fournisseur ou compte) et chaque script d'action. Les paramètres de script vous permettent de spécifier à {{ fr.ANYID }} quels paramètres chacun de vos scripts d'action possède et à quelle propriété {{ fr.ANYID }} ce paramètre de script doit être mappé. Si besoin, vous pouvez ajouter d'autres paramètres de script.
 ![Paramètres des actions](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2177.png)
 10. Insérer le script de l'action en le parcourant sur votre ordinateur pour le trouver ou en éditant manuellement le champ ***Script***. Vous pouvez également générer un script de base sur lequel vous appuyer.
 ![Script d'action](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2178.png)
-1. Tester votre script une fois qu'il est complet, puis ***Enregistrer*** votre nouveau modèle.
+1. Tester votre script une fois terminé, puis ***Enregistrer*** votre nouveau modèle.
 Votre nouveau modèle {{ fr.ANYID }} a été créé et peut être trouvé dans la liste des modèles. Vous pouvez passer à [Créer un fournisseur PAM {{ fr.ANYID }}](#create-an-anyidentity-pam-provider).
 
 ### Exemple de modèle
@@ -128,34 +128,34 @@ param(
 
 #### Types de paramètres de script
 
-| Nom du paramètre                | Action(s)                                       | Propriété                         | Source   | Obligatoire |
+| Nom du paramètre                 | Action(s)                                       | Propriété                         | Source   | Obligatoire |
 | -------------------------------- | ----------------------------------------------- | -------------------------------- | -------- | ----------- |
-| IdentityProviderEndpoint         | Rotation de mot de passe, Heartbeat, Détection de compte | IdentityProviderEndpoint         | Fournisseur | Oui       |
-| IdentityProviderEndpointUserName | Rotation de mot de passe, Heartbeat, Détection de compte | IdentityProviderEndpointUserName | Fournisseur | Oui       |
-| IdentityProviderEndpointPassword | Rotation de mot de passe, Heartbeat, Détection de compte | IdentityProviderEndpointPassword | Fournisseur | Oui       |
-| NewPassword                      | Rotation de mot de passe                        | N/A                              | Système   | Oui       |
-| AccountUserName                  | Rotation de mot de passe, Heartbeat             | AccountUserName                  | Compte    | Oui       |
-| AccountSecret                    | Heartbeat                                       | AccountSecret                    | Compte    | Oui       |
+| IdentityProviderEndpoint         | Rotation de mot de passe, Heartbeat, Détection de compte | IdentityProviderEndpoint         | Fournisseur | Oui         |
+| IdentityProviderEndpointUserName | Rotation de mot de passe, Heartbeat, Détection de compte | IdentityProviderEndpointUserName | Fournisseur | Oui         |
+| IdentityProviderEndpointPassword | Rotation de mot de passe, Heartbeat, Détection de compte | IdentityProviderEndpointPassword | Fournisseur | Oui         |
+| NewPassword                      | Rotation de mot de passe                        | N/A                              | Système   | Oui         |
+| AccountUserName                  | Rotation de mot de passe, Heartbeat             | AccountUserName                  | Compte    | Oui         |
+| AccountSecret                    | Heartbeat                                       | AccountSecret                    | Compte    | Oui         |
 
 ## Importer un modèle {{ fr.ANYID }}
 {% snippet, "badgeHelp" %}
-Vous pouvez accéder à notre [répertoire public GitHub](https://github.com/Devolutions/PAM-Providers) pour trouver des fournisseurs PAM {{ fr.ANYID }} réalisés par l'équipe Devolutions et des instructions sur la façon de les utiliser.
+Vous pouvez accéder à notre [répertoire public GitHub](https://github.com/Devolutions/PAM-Providers) pour trouver des fournisseurs PAM {{ fr.ANYID }} créés par l'équipe Devolutions et des instructions sur la façon de les utiliser.
 {% endsnippet %}
 
-1. Dans {{ fr.DVLS }}, aller à ***Administration – Accès privilégié – Fournisseurs***.
+1. Dans {{ fr.DVLS }}, aller à ***Administration – Gestion des accès privilégiés – Fournisseurs***.
 1. Cliquer sur ***Modèles {{ fr.ANYID }}***.
-![Administration – Accès privilégié – Fournisseurs – Modèles {{ fr.ANYID }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2173.png)
+![Administration – Gestion des accès privilégiés – Fournisseurs – Modèles {{ fr.ANYID }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2173.png)
 1. Cliquer sur ***Importer***.
 ![Importer un modèle {{ fr.ANYID }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2179.png)
 1. Télécharger votre fichier .json, puis cliquer sur ***Importer***.
-1. Adapter les paramètres du modèle si besoin, puis cliquer sur ***Enregistrer***.
+1. Adapter les paramètres du modèle si nécessaire, puis cliquer sur ***Enregistrer***.
 
 Votre modèle a maintenant été importé et peut être trouvé dans la liste des ***Modèles {{ fr.ANYID }}***.
 
 ## Créer un fournisseur PAM {{ fr.ANYID }}
 Une fois votre modèle créé ou importé, vous êtes prêt à créer un fournisseur {{ fr.ANYID }}.
-1. Aller à ***Administration – Accès privilégié – Fournisseurs***, puis cliquer sur ***Ajouter***.
-![Administration – Accès privilégié – Fournisseurs – Ajouter](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2180.png)
+1. Aller à ***Administration – Gestion des accès privilégiés – Fournisseurs***, puis cliquer sur ***Ajouter***.
+![Administration – Gestion des accès privilégiés – Fournisseurs – Ajouter](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2180.png)
 1. Aller à ***{{ fr.ANYID }}*** dans le menu de gauche, puis sélectionner votre nouveau modèle dans la liste. Cliquer sur ***Continuer***.
 ![Sélection du modèle {{ fr.ANYID }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2181.png)
 1. Dans la page de configuration du ***Fournisseur***, fournir un ***Nom*** et un ***Nom d'utilisateur***, car ces informations sont obligatoires. Ensuite, si nécessaire, définir les autres options selon vos besoins.

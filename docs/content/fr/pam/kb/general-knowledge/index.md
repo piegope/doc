@@ -1,5 +1,7 @@
----  
-eleventyComputed:  
-  title: Connaissances générales  
-  order: 10  
+```
 ---
+eleventyComputed:
+  title: Connaissances générales
+  order: 10
+---
+```
