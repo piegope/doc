@@ -1,5 +1,5 @@
----
-eleventyComputed:
-  title: Base de connaissances
-  order: 60
+---  
+eleventyComputed:  
+  title: Base de connaissances  
+  order: 60  
 ---

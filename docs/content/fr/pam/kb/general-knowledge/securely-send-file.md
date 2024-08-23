@@ -9,4 +9,4 @@ eleventyComputed:
 ---
 Pour protéger vos informations, nous utilisons un fournisseur tiers de service d'échange de fichiers sécurisé, à savoir Sharefile.
 
-Pour nous envoyer un fichier, visiter [Sharefile](https://devolutions.sharefile.com/filedrop), remplir vos informations de base, et vous pourrez télécharger des fichiers. Ces fichiers ne sont pas accessibles à tous les employés de Devolutions, seulement à notre équipe de support.
+Pour nous envoyer un fichier, visiter [Sharefile](https://devolutions.sharefile.com/filedrop), remplir vos informations de base, et vous pourrez télécharger le(s) fichier(s). Ces fichiers ne sont pas accessibles à tous les employés de Devolutions, seulement à notre équipe de soutien.

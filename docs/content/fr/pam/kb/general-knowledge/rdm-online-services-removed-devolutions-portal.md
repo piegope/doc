@@ -1,7 +1,7 @@
 ---
 eleventyComputed:
-  title: "{{ fr.OBACK }}, Online Drive, et {{ fr.CI }} sections supprimées de {{ fr.DPORTAL }}"
-  description: "{{ fr.OBACK }}, Online Drive, et {{ fr.CI }} sections supprimées de {{ fr.DPORTAL }}. Vous pouvez toujours accéder à l'URL si nécessaire."
+  title: "{{ fr.OBACK }}, Online Drive, et sections {{ fr.CI }} supprimées de {{ fr.DPORTAL }}"
+  description: "{{ fr.OBACK }}, Online Drive, et sections {{ fr.CI }} supprimées de {{ fr.DPORTAL }}. Vous pouvez toujours accéder à l'URL si nécessaire."
 ---
 
 Ces sections seront supprimées de {{ fr.DPORTAL }}. Vous pouvez toujours accéder à l'***URL*** si nécessaire :

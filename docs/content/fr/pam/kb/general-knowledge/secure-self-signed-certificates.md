@@ -30,7 +30,7 @@ Sur Windows, il est recommandé d'utiliser Chocolatey pour installer OpenSSL et 
    ```
 1. [Installer le certificat](/rdm/kb/general-knowledge/install-root-certificates/).
 {% snippet, "badgeInfo" %}
-Notez que le certificat doit être installé sur le serveur et sur tous les clients pour valider la légitimité des certificats émis. Certains navigateurs ont également des particularités qui sont décrites dans le sujet.
+Notez que le certificat doit être installé sur le serveur et sur tous les clients pour valider la légitimité des certificats émis. Certains navigateurs ont également des particularités qui sont décrites dans la rubrique.
 {% endsnippet %}
 
 ### Certificat serveur
@@ -38,7 +38,7 @@ Notez que le certificat doit être installé sur le serveur et sur tous les clie
 Ces étapes sont généralement effectuées sur chaque serveur ou appareil pour lequel vous souhaitez demander un certificat. Installer OpenSSL s'il n'est pas présent. L'alternative est de déployer de manière sécurisée la clé privée sur le serveur de destination en même temps que le certificat. Il est recommandé d'utiliser cette dernière approche uniquement si vous devez adhérer à des déploiements scriptés pour suivre les pratiques CloudOps/DevOps.
 {% endsnippet %}
 
-1. Générer la ***Clé Privée du Certificat Serveur*** en utilisant la ligne de commande suivante : `openssl ecparam -name prime256v1 -genkey -noout -out server.key` (clé privée 256 bits dans le fichier server.key). Chaque certificat doit avoir une clé privée correspondante.
+1. Générer la ***Clé Privée du Certificat Serveur*** en utilisant la ligne de commande suivante : `openssl ecparam -name prime256v1 -genkey -noout -out server.key` (clé privée de 256 bits dans le fichier server.key). Chaque certificat doit avoir une clé privée correspondante.
 1. Générer la ***Demande de Signature de Certificat*** (CSR) du serveur en utilisant la ligne de commande suivante : `openssl req -new -sha256 -key server.key -out server.csr`. Cette demande sera ensuite traitée sur le serveur CA Racine.
 1. Entrer les informations concernant le certificat serveur (le FQDN exact utilisé par le serveur doit être spécifié). Par exemple :
    ```
@@ -56,16 +56,16 @@ Ces étapes sont généralement effectuées sur chaque serveur ou appareil pour 
 1. Déployer le certificat.
 
 ### Certificat client
-Suivre la même procédure que pour le [Certificat serveur](#server-certificate), mais adapter deux attributs des informations que vous entrez à vos besoins, à savoir le ***Common Name*** et l'***Email Address***.
+Suivre la même procédure que pour le [Certificat serveur](#server-certificate), mais adapter deux attributs des informations que vous entrez à vos besoins, à savoir le ***Nom Commun*** et l'***Adresse Email***.
 ```
 Common Name (e.g. server FQDN or your name) []:John Doe
 Email Address []:JohnDoe@acme.com
 ```
 
 ### Traiter une Demande de Signature de Certificat (CSR) sur l'Autorité de Certification Racine (CA)
-Traiter la CSR en générant un certificat.
+Traiter le CSR en générant un certificat.
 
 Le générer en utilisant la ligne de commande suivante, où le server.csr a été généré sur le serveur :
 `openssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server.crt -days 1000 -sha256`
 
-Cela a pour résultat que le certificat est généré dans le fichier server.crt. Vous devez le déployer sur le serveur où vous avez généré la CSR.
+Cela entraîne la génération du certificat dans le fichier server.crt. Vous devez le déployer sur le serveur où vous avez généré le CSR.
