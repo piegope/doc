@@ -9,7 +9,7 @@ eleventyComputed:
   - administrative template
   - policy
 ---
-Administrative templates facilitate the management of registry-based policy settings, which can be applied on the computer and/or user configuration. Group policy (GPO) is a tool that enables your organization to enforce global settings on all computers, and at the same time, harden {{ en.RDM }} security.
+Administrative templates facilitate the management of registry-based policy settings, which can be applied on the computer and/or user configuration. Group policy (GPO) is a tool that enables your organization to enforce global settings on all computers, and at the same time, harden {{ en.RDM }} security. 
 
 {% snippet, "badgeInfo" %}
 Administrative Templates are registry settings that are enforced by domains. They contain registry keys that can also be set on computers that are not joined to domains. In this case, however, proper Access Control Lists (ACLs) must be put in place to prevent users from modifying registry settings. Refer to the tables below to find the registry key for each policy setting.
