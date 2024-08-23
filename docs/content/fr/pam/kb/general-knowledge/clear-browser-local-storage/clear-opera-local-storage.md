@@ -16,5 +16,5 @@ Voici les étapes pour effacer votre stockage local dans le navigateur Opera :
 ![Console – Application](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4874.png)
 1. Développer la liste ***Local Storage*** située dans la section ***Storage*** du menu de gauche de la console.
 ![Console – Application – Local Storage](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4875.png)
-1. Faire un clic droit sur votre/vos site(s) et cliquer sur ***Clear*** pour supprimer le stockage local.
+1. Faire un clic droit sur votre(vos) site(s) et cliquer sur ***Effacer*** pour supprimer le stockage local.
 ![Local Storage – Clear](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4876.png)

@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Générer des certificats serveur et client auto-signés avec OpenSSL
-  description: Guide définitif pour créer des certificats sécurisés, pour les serveurs et les clients, en utilisant OpenSSL.
+  description: Il s'agit du guide définitif pour créer des certificats sécurisés, pour les serveurs et les clients, en utilisant OpenSSL.
 ---
-Ceci est le guide définitif pour créer des certificats sécurisés, pour les serveurs et les clients, en utilisant OpenSSL.
+Il s'agit du guide définitif pour créer des certificats sécurisés, pour les serveurs et les clients, en utilisant OpenSSL.
 
 ## Procédure
 {% snippet, "badgeHelp" %}
@@ -68,4 +68,4 @@ Traiter la CSR en générant un certificat.
 Le générer en utilisant la ligne de commande suivante, où le server.csr a été généré sur le serveur :
 `openssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server.crt -days 1000 -sha256`
 
-Cela a pour résultat que le certificat est généré dans le fichier server.crt. Vous devez le déployer sur le serveur où vous avez généré la CSR.
+Cela entraîne la génération du certificat dans le fichier server.crt. Vous devez le déployer sur le serveur où vous avez généré la CSR.

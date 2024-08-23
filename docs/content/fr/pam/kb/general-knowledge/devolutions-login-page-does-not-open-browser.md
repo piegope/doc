@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Devolutions login page does not open in the browser
+  title: La page de connexion Devolutions ne s'ouvre pas dans le navigateur
   description: Lors de la tentative de connexion à un produit Devolutions, une page de connexion devrait s'ouvrir dans votre navigateur pour vous permettre de saisir vos identifiants.
 ---
 Lors de la tentative de connexion à un produit Devolutions tel que {{ fr.DHUB }} ou {{ fr.DVLS }}, une page de connexion devrait s'ouvrir dans votre navigateur pour vous permettre de saisir vos identifiants. Cette fenêtre peut parfois être bloquée par votre navigateur ou une extension installée dessus. Dans ce cas, aucun message d'erreur n'est affiché dans le produit Devolutions puisque le problème provient du navigateur.

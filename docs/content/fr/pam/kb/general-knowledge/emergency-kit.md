@@ -22,6 +22,6 @@ Note : Le ***Kit d'Urgence*** peut être réinitialisé et téléchargé à nouv
 
 ![Administration – Kit d'Urgence – Réinitialiser le Kit d'Urgence](https://cdnweb.devolutions.net/docs/HUBB6016_2024_1.png)
 
-Voici à quoi ressemble le fichier du Kit d'Urgence {{ variables.DHUBP.fr }} lorsqu'il est ouvert.
+Voici à quoi ressemble le fichier Kit d'Urgence {{ variables.DHUBP.fr }} lorsqu'il est ouvert.
 
-![Fichier du Kit d'Urgence](https://cdnweb.devolutions.net/docs/RDMW6066_2024_2.png)
+![Fichier Kit d'Urgence](https://cdnweb.devolutions.net/docs/RDMW6066_2024_2.png)
