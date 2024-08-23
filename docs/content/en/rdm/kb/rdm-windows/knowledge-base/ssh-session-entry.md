@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: SSH Shell entry options
+  title: SSH terminal entry options
   description: This topic describes all availables options specific to this entry.
 ---
 This topic describes all availables options specific to this entry. Each chapter represents a tab in the options menu.
@@ -17,19 +17,27 @@ The following properties can be configured when creating or editing the entry.
 | ***Host***        | ***Host configured*** lets you select the host. ***Linked (vault)*** indicates that the host for the RDP entry is linked to an external vault. ***Inherited*** is used when the host is inherited from a higher-level or parent entry. |
 | ***Credentials*** | <ul> <li>***Username and password***: You will set the username and password in the ***General*** tab.</li> <li>***Linked (vault)***: Links to credentials available in the current shared vault.</li> <li>***Inherited***: Inheritance means that credentials will automatically be passed down from a higher-level entry to lower-level entries that inherit from it.</li> <li>***My personal credentials***: These credentials are not entry specific but are instead taken from the option under ***File*** – ***My account settings*** – ***Local credentials*** – ***My personal credentials***.</li> <li>***None***: {{ en.RDM }} will not send credentials to the entry.</li> <li>***Find by name (user vault)***: Searches for the name of an entry in a shared vault.</li> <li>***My privileged account***: These credentials are not entry specific but are instead taken from the option under ***File*** – ***My account settings*** – ***Local credentials*** – ***My privileged account***.</li> </ul> |
 
-![SSH Shell entry](https://cdnweb.devolutions.net/docs/RDMW0010_2024_2.png)
+![General tab](https://cdnweb.devolutions.net/docs/RDMW0027_2024_2.png)
 
 ## General tab
-| SETTINGS          | DESCRIPTION            |
-|-------------------|------------------------|
-| ***Host***        | The field contains the host name. Clicking on the ellipsis button opens the ***Computer list*** menu. Clicking on ***Default*** opens the ***Port*** menu. The ***Port generator...*** button  |
+| SETTINGS                     | DESCRIPTION            |
+|------------------------------|------------------------|
+| ***Host***                   | The field contains the host name. Clicking on the ellipsis button opens the ***Computer list*** menu. Clicking on ***Default*** opens the ***Port*** menu. The ***Port generator...*** button can generate ports according to a list of parameters. |
+| ***Username***               | This entry's login credentials. |
+| ***Password***               | This entry's login credentials. |
+| ***Password prompt string*** |                        |
+| ***OTP prompt string***      |                        |
+| ***Use smartcard***          |                        |
+| ***Certificate method***     |                        |
+| ***PIN***                    |                        |
 
-![]()
+![SSH key tab](https://cdnweb.devolutions.net/docs/RDMW0028_2024_2.png)
 
 ## SSH key tab
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
+|                   |                        |
 
 ![]()
 
@@ -37,6 +45,7 @@ The following properties can be configured when creating or editing the entry.
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
+|                   |                        |
 
 ![]()
 
@@ -44,6 +53,7 @@ The following properties can be configured when creating or editing the entry.
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
+|                   |                        |
 
 ![]()
 
@@ -51,6 +61,7 @@ The following properties can be configured when creating or editing the entry.
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
+|                   |                        |
 
 ![]()
 
@@ -58,6 +69,7 @@ The following properties can be configured when creating or editing the entry.
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
+|                   |                        |
 
 ![]()
 
@@ -65,6 +77,7 @@ The following properties can be configured when creating or editing the entry.
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
+|                   |                        |
 
 ![]()
 
@@ -72,6 +85,7 @@ The following properties can be configured when creating or editing the entry.
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
+|                   |                        |
 
 ![]()
 
@@ -79,6 +93,7 @@ The following properties can be configured when creating or editing the entry.
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
+|                   |                        |
 
 ![]()
 
@@ -86,6 +101,7 @@ The following properties can be configured when creating or editing the entry.
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
+|                   |                        |
 
 ![]()
 
@@ -93,6 +109,7 @@ The following properties can be configured when creating or editing the entry.
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
+|                   |                        |
 
 ![]()
 
@@ -100,5 +117,6 @@ The following properties can be configured when creating or editing the entry.
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
+|                   |                        |
 
 ![]()
