@@ -15,10 +15,9 @@ In the ***General*** section of the BeyondTrust entry:
 
    &nbsp;
 
-   ![BeyondTrust key](https://cdnweb.devolutions.net/docs/INTERFACE4052.png "BeyondTrust key"){% snippet, "shieldCaution" %}Devolutions strongly advises activating the***User password required*** option in the API registration for {% var, "RDM" false %}. Failure to do so might allow impersonation of:
+   ![BeyondTrust key](https://cdnweb.devolutions.net/docs/INTERFACE4052.png "BeyondTrust key"){% snippet, "shieldCaution" %}Devolutions strongly advises activating the ***User password required*** option in the API registration for {% var, "RDM" false %}. Failure to do so might allow impersonation of:
 
    * Any users allowed to use that API Key Policy that do not have their second factor configured if ***Enforce multi-factor authentication*** is selected.
-
    * Any user allowed to use that API Key Policy If the ***Enforce multi-factor authentication*** option is NOT selected.{% endsnippet %}
 
 In the ***Advanced*** section of the same BeyondTrust entry:
