@@ -1,18 +1,25 @@
 ---
+_schema: default
 eleventyComputed:
   title: Manage custom variables
-  description: "{{ en.RDM }} has lists of all custom variables which can be managed in two different locations depending on their intended use."
+  description: >-
+    {{ en.RDM }} has lists of all custom variables which can be managed in two
+    different locations depending on their intended use.
 ---
-{{ en.RDM }} has lists of all custom variables, which can be managed in two different locations depending on their intended use.
+{{ en.RDM }} has lists of all custom variables, which can be managed in three different locations depending on their intended use.
 
-To create, modify, or delete custom variables, go to ***File*** – ***Settings*** – ***Applications*** – ***Custom Variables***. Each variable requires at least a ***Name*** and a ***Value***. Note that these [variables](/rdm/concepts/intermediate-concepts/variables/) are user-specific and can be used in all data sources.
+1\. To create, modify, or delete custom variables, go to ***File*** – ***Settings*** – ***Applications*** – ***Custom Variables***. Each variable requires at least a ***Name*** and a ***Value***. Note that these [variables](/rdm/concepts/intermediate-concepts/variables/) are user-specific and can be used in all data sources.
 
 ![User-specific local custom variables](https://cdnweb.devolutions.net/docs/RDMW4008_2024_1.png)
 
-Alternatively, custom variables can be managed in ***Administration*** – ***{{ en.VLT_MAJ }} Settings*** – ***View*** – ***Variables***. Each requires at least a ***Name***, a ***Value***, and a ***Description***. All users that have access to the ***{{ en.VLT_MAJ }} Settings*** may see and use them, but they can only be used in that specific {{ en.VLT }}.
+2\. Custom variables can also be managed in ***Administration*** – ***{{ en.VLT_MAJ }} Settings*** – ***View*** – ***Variables***. Each requires at least a ***Name***, a ***Value***, and a ***Description***. All users that have access to the ***{{ en.VLT_MAJ }} Settings*** may see and use them, but they can only be used in that specific {{ en.VLT }}.
 
-![{{ en.VLT_MAJ }}-specific custom variables](https://cdnweb.devolutions.net/docs/RDMW4009_2024_1.png)
+![-specific custom variables](https://cdnweb.devolutions.net/docs/RDMW4009_2024_1.png)
+
+3\. It is also possible to manage custom variable in ***Administration*** – ***System settings*** – ***Common*** – ***Custom variables***. They work exactly like those located in the ***{{ en.VLT_MAJ }} Settings***, except that they are specific to the entire data source.
+
+![Data source custom variables](https://cdnweb.devolutions.net/docs/DVLS4053_2024_2.png "Data source custom variables")
 
 {% snippet, "badgeHelp" %}
-Custom variables will also appear in the ***Custom Variables*** subsection located under ***General*** in the ***Entry Variables*** window of the entry ***Properties***, as shown in [Access and manage variables](/rdm/kb/rdm-windows/knowledge-base/access-manage-rdm-variables/). 
+Custom variables will also appear in the ***Custom Variables*** subsection located under ***General*** in the ***Entry Variables*** window of the entry ***Properties***, as shown in [Access and manage variables](/rdm/kb/rdm-windows/knowledge-base/access-manage-rdm-variables/).
 {% endsnippet %}
