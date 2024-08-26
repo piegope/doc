@@ -10,7 +10,7 @@ Le [WinRM](/server/kb/how-to-articles/winrm-trustedhostslist/) doit être activ�
 {% endsnippet %}
 
 ## Créer un modèle {{ fr.ANYID }}
-Une fois que les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-) ont été créés, l'étape suivante consiste à développer le modèle {{ fr.ANYID }} au sein de {{ fr.DVLS }}. Ce processus intègre le travail effectué dans le modèle {{ fr.ANYID }}.
+Une fois que les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-action-scripts-dvls) ont été créés, l'étape suivante consiste à développer le modèle {{ fr.ANYID }} au sein de {{ fr.DVLS }}. Ce processus intègre le travail effectué dans le modèle {{ fr.ANYID }}.
 1. Dans {{ fr.DVLS }}, aller à ***Administration – Accès privilégié – Fournisseurs***.
 1. Cliquer sur ***Modèles {{ fr.ANYID }}***.
 ![Administration – Accès privilégié – Fournisseurs – Modèles {{ fr.ANYID }}](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2173.png)
@@ -28,7 +28,7 @@ Une fois que les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-)
    ![Paramètres généraux](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2175.png)
 6. Dans ***Propriétés du fournisseur*** et ***Propriétés du compte***, définir les champs que les fournisseurs et les comptes implémenteront.
     * ***Propriétés du fournisseur*** définissent les attributs que {{ fr.ANYID }} utilise pour authentifier et se connecter à un fournisseur d'identité. Ces propriétés peuvent inclure le nom d'utilisateur, le mot de passe, le nom d'hôte ou tout autre attribut unique d'un fournisseur d'identité.
-    * ***Propriétés du compte*** sont des attributs liés à un compte spécifique sur un fournisseur d'identité. Les propriétés de compte courantes incluent l'ID, le nom d'utilisateur et le secret. Les propriétés de compte identifient de manière unique les comptes de fournisseur et fournissent une valeur pour stocker le mot de passe d'un compte ou d'autres identifiants sécurisés.
+    * ***Propriétés du compte*** sont des attributs liés à un compte spécifique sur un fournisseur d'identité. Les propriétés de compte courantes incluent l'ID, le nom d'utilisateur et le secret. Les propriétés de compte identifient de manière unique les comptes de fournisseur et fournissent une valeur pour stocker le mot de passe d'un compte ou d'autres informations d'identification sécurisées.
 
     Ajouter des propriétés en cliquant sur ***Ajouter une propriété***. Pour chaque propriété, fournir un ***Nom*** et un ***Type***. Voici une liste des différents types :
     * ***Booléen***
@@ -139,7 +139,7 @@ param(
 
 ## Importer un modèle {{ fr.ANYID }}
 {% snippet, "badgeHelp" %}
-Vous pouvez accéder à notre [répertoire public GitHub](https://github.com/Devolutions/PAM-Providers) pour trouver des fournisseurs PAM {{ fr.ANYID }} créés par l'équipe Devolutions et des instructions sur la façon de les utiliser.
+Vous pouvez accéder à notre [répertoire public GitHub](https://github.com/Devolutions/PAM-Providers) pour trouver des fournisseurs PAM {{ fr.ANYID }} réalisés par l'équipe Devolutions et des instructions sur la façon de les utiliser.
 {% endsnippet %}
 
 1. Dans {{ fr.DVLS }}, aller à ***Administration – Accès privilégié – Fournisseurs***.
