@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: Dépannage des scripts d'action dans {{ fr.DVLS }}
+  title: Résolution des problèmes de scripts d'action dans {{ fr.DVLS }}
   description: Lorsque les scripts d'action échouent au sein de {{ fr.ANYID }}, il est essentiel de comprendre comment identifier et résoudre le problème.
 ---
-Lorsque les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-action-script-dvls) échouent au sein de {{ fr.ANYID }}, il est essentiel de comprendre comment identifier et résoudre le problème. Plusieurs problèmes peuvent survenir avec un fournisseur {{ fr.ANYID }} en raison des différentes étapes impliquées. De plus, {{ fr.ANYID }} repose fortement sur les scripts d'action pour sa fonctionnalité, et selon la complexité du fournisseur d'identité, ces scripts d'action peuvent devenir complexes.
+Lorsque les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-action-script-dvls) échouent au sein de {{ fr.ANYID }}, il est essentiel de comprendre comment identifier et résoudre le problème. Plusieurs problèmes peuvent survenir avec un fournisseur {{ fr.ANYID }} en raison des différentes étapes impliquées. De plus, {{ fr.ANYID }} repose fortement sur les scripts d'action pour son fonctionnement, et selon la complexité du fournisseur d'identité, ces scripts d'action peuvent devenir complexes.
 
 Des problèmes peuvent survenir si le fournisseur n'est pas testé de manière approfondie au préalable. Les directives suivantes aideront à identifier les problèmes potentiels et fourniront des étapes pour le dépannage.
 
@@ -13,13 +13,13 @@ Le problème peut ne pas toujours être immédiatement apparent. Bien que les sc
 
 Dans certains cas, le problème peut être plus évident, comme voir un message d'avertissement "Hors synchronisation" pour l'utilisateur dans le {{ fr.DPAM }} {{ fr.VLT }} ou remarquer un problème dans les [journaux PAM](/pam/server/pam-reports).
 
-!["Hors synchronisation" avertissement](https://cdnweb.devolutions.net/docs/ab_providers-troubleshooting-anyidentity-providers_1-1.png)
+!["Avertissement Hors synchronisation"](https://cdnweb.devolutions.net/docs/ab_providers-troubleshooting-anyidentity-providers_1-1.png)
 
 ## 2. Identifier le script d'action impliqué
 
-Puisque {{ fr.ANYID }} fonctionne principalement comme un orchestrateur de scripts, la majorité de sa fonctionnalité dépend des scripts d'action. Si une erreur apparaît dans la console {{ fr.DVLS }}, il est important d'identifier d'abord quel script d'action est impliqué. Cela nécessite une compréhension de la manière dont {{ fr.ANYID }} "mappe" la fonctionnalité aux scripts d'action à travers sa terminologie.
+Puisque {{ fr.ANYID }} fonctionne principalement comme un orchestrateur de scripts, la majorité de son fonctionnement dépend des scripts d'action. Si une erreur apparaît dans la console {{ fr.DVLS }}, il est important d'identifier d'abord quel script d'action est impliqué. Cela nécessite une compréhension de la manière dont {{ fr.ANYID }} "mappe" les fonctionnalités aux scripts d'action à travers sa terminologie.
 
-* Analyser la configuration : Les configurations d'analyse utilisent le script d'action de détection de compte.
+* Configuration de l'analyse : Les configurations d'analyse utilisent le script d'action de détection de compte.
 * Synchronisation : {{ fr.ANYID }} utilise le terme "synchronisation" pour désigner l'exécution du script d'action de battement de cœur.
 * Réinitialisation du mot de passe : Initier une réinitialisation de mot de passe dans {{ fr.ANYID }} implique à la fois les scripts d'action de rotation de mot de passe et de battement de cœur.
 
@@ -28,5 +28,5 @@ Puisque {{ fr.ANYID }} fonctionne principalement comme un orchestrateur de scrip
 Après avoir identifié les scripts d'action impliqués, il est conseillé de les tester en dehors de {{ fr.ANYID }} pour s'assurer que le problème ne provient pas du script d'action lui-même. Les mêmes paramètres définis via les paramètres de script lors de la création du modèle doivent être passés au script. Il est crucial de vérifier que le script PowerShell renvoie les résultats attendus pour {{ fr.ANYID }} :
 
 * Détection de compte : Doit produire au moins un objet `pscustomobject` avec les propriétés `id`, `username`, et `secret`.
-* Battement de cœur : Doit avoir des paramètres `username` et `secret` et renvoyer une seule valeur booléenne, soit `$true` ou `$false`.
-* Rotation de mot de passe : Doit inclure des paramètres pour le point de terminaison du fournisseur d'identité, le nom d'utilisateur du point de terminaison, le mot de passe du point de terminaison, et un paramètre spécifiquement nommé `NewPassword`.
+* Battement de cœur : Doit avoir des paramètres `username` et `secret` et renvoyer une seule valeur booléenne, soit `$true` soit `$false`.
+* Rotation de mot de passe : Doit inclure des paramètres pour le point d'accès du fournisseur d'identité, le nom d'utilisateur du point d'accès, le mot de passe du point d'accès, et un paramètre spécifiquement nommé `NewPassword`.
