@@ -10,7 +10,7 @@ The [WinRM](/server/kb/how-to-articles/winrm-trustedhostslist/) needs to be enab
 {% endsnippet %}
 
 ## Create an {{ en.ANYID }} template
-Once the [action scripts](/pam/kb/how-to-articles/create-anyidentity-) have been created, the next step is to develop the {{ en.ANYID }} template within {{ en.DVLS }}. This process integrates the work done into the {{ en.ANYID }} template.
+Once the [action scripts](/pam/kb/how-to-articles/create-anyidentity-action-scripts-dvls) have been created, the next step is to develop the {{ en.ANYID }} template within {{ en.DVLS }}. This process integrates the work done into the {{ en.ANYID }} template.
 1. In {{ en.DVLS }}, go to ***Administration – Privileged access – Providers***.
 1. Click on ***{{ en.ANYID }} templates***.
 ![Administration – Privileged access – Providers – {{ en.ANYID }} templates](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2173.png)
@@ -52,7 +52,7 @@ Once the [action scripts](/pam/kb/how-to-articles/create-anyidentity-) have been
 10. Insert the script of the action by either browsing on your computer to find it or manually editing the ***Script*** field. You can also generate a base script to build upon.
 ![Action script](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2178.png)
 1. Test your script once it is complete, then ***Save*** your new template.
-Your new {{ en.ANYID }} template has been created and can be found in the templates list. You can skip to [Create an {{ en.ANYID }} Provider](#create-an-anyidentity-pam-provider).  
+Your new {{ en.ANYID }} template has been created and can be found in the templates list. You can skip to [Create an {{ en.ANYID }} provider](#create-an-anyidentity-pam-provider).  
 
 ### Template example
 Below is an example of values for a completed {{ en.ANYID }} template based on the following action scripts:
