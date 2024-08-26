@@ -23,6 +23,8 @@ Here is a list of the ***users settings*** available in the ***Microsoft Entra I
 
 <table><thead><tr><th><p><strong>SETTINGS</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>New user</p></td><td><p>Create a <em><strong>new user</strong></em> or invite an <em><strong>external user</strong></em>. </p></td></tr><tr><td><p>Properties</p></td><td><p>Properties of a user such as <em><strong>Identity, Job information, Contact information, Parental controls</strong></em>, and <em><strong>Settings</strong></em>. </p></td></tr><tr><td><p>Delete</p></td><td><p>Permanently <em><strong>delete</strong></em> an item.</p></td></tr><tr><td><p>Refresh</p></td><td><p><em><strong>Refresh</strong></em> all users.</p></td></tr><tr><td><p>Reset password</p></td><td><p><em><strong>Reset the password</strong></em> by assigning a temporary password that must be changed on the next sign in. </p></td></tr><tr><td><p>Revoke sessions</p></td><td><p><em><strong>Revoke</strong></em> all sessions for the user.</p></td></tr></tbody></table>
 
+&nbsp;
+
 The following is a list of the ***group settings*** available in the ***Microsoft*** ***Entra ID Dashboard entry*** interface.
 
 <table><thead><tr><th><p><strong>SETTINGS</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Members</p></td><td><p><em><strong>Add</strong></em> members to groups. </p></td></tr><tr><td><p>Delete</p></td><td><p><em><strong>Delete</strong></em> groups.</p></td></tr><tr><td><p>Refresh</p></td><td><p><em><strong>Refresh</strong></em> groups.</p></td></tr></tbody></table>
