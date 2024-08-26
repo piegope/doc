@@ -3,7 +3,7 @@ eleventyComputed:
   title: Troubleshooting action scripts in {{ en.DVLS }}
   description: When action scripts fail within {{ en.ANYID }}, it is essential to understand how to identify and troubleshoot the issue.
 ---
-When [action scripts](/pam/kb/how-to-articles/create-anyidentity-action-scripts-dvls) fail within {{ en.ANYID }}, it is essential to understand how to identify and troubleshoot the issue. Multiple issues can arise with an {{ en.ANYID }} provider due to the various steps involved. Additionally, {{ en.ANYID }} heavily relies on action scripts for functionality, and depending on the complexity of the identity provider, these action scripts can become intricate.
+When [action scripts](/pam/kb/how-to-articles/create-anyidentity-action-script-dvls) fail within {{ en.ANYID }}, it is essential to understand how to identify and troubleshoot the issue. Multiple issues can arise with an {{ en.ANYID }} provider due to the various steps involved. Additionally, {{ en.ANYID }} heavily relies on action scripts for functionality, and depending on the complexity of the identity provider, these action scripts can become intricate.
 
 Problems may occur if the provider is not thoroughly tested beforehand. The following guidelines will help identify potential issues and provide steps for troubleshooting.
 
@@ -11,7 +11,9 @@ Problems may occur if the provider is not thoroughly tested beforehand. The foll
 
 The problem may not always be immediately apparent. While the action scripts may function correctly in isolation, {{ en.ANYID }} may not apply password changes as expected. For instance, if the action scripts are incorrectly built and return inaccurate information, {{ en.ANYID }} may use this information to make decisions, assuming everything is functioning properly when it is not.
 
-In some cases, the issue may be more obvious, such as seeing an "Out of sync" message for the user in the {{ en.DPAM }} {{ en.VLT }} or noticing a problem in the [PAM logs](/pam/server/pam-reports).
+In some cases, the issue may be more obvious, such as seeing an "Out of sync" warning message for the user in the {{ en.DPAM }} {{ en.VLT }} or noticing a problem in the [PAM logs](/pam/server/pam-reports).
+
+!["Out of sync" warning](https://cdnweb.devolutions.net/docs/ab_providers-troubleshooting-anyidentity-providers_1-1.png)
 
 ## 2. Identify the action script involved
 
