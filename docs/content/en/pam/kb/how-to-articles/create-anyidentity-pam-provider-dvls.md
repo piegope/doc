@@ -3,14 +3,21 @@ eleventyComputed:
   title: Create an {{ en.ANYID }} PAM provider in {{ en.DVLS }}
   description: To create an {{ en.ANYID }} PAM provider, you first need to create a provider template or import an existing one.
 ---
-To create an {{ en.ANYID }} PAM provider, you first need to create a provider template or import an existing one. There already exists [templates](#import-an-anyidentity-template) for a few providers.
+{{ en.ANYID }} providers are built and managed using templates. Templates leverage the efforts of Devolutions and the community to build providers, reducing the need for users to create them from scratch.
+
+A template is an object within {{ en.DPAM }} that serves as a framework for constructing an {{ en.ANYID }} provider.
+
+Templates guide {{ en.DVLS }} in mapping the action script parameters and outputs to {{ en.DPAM }} internal properties, facilitating the input and exchange of information. Templates enable users to populate the properties of an identity provider to create a provider.
+
+[Create an {{ en.ANYID }} template](#create-an-anyidentity-template) or [import one of the templates](#import-an-anyidentity-template) that already exist. 
 
 {% snippet, "badgeCaution" %}
 The [WinRM](/server/kb/how-to-articles/winrm-trustedhostslist/) needs to be enabled for this to work.
 {% endsnippet %}
 
 ## Create an {{ en.ANYID }} template
-Once the [action scripts](/pam/kb/how-to-articles/create-anyidentity-action-scripts-dvls) have been created, the next step is to develop the {{ en.ANYID }} template within {{ en.DVLS }}. This process integrates the work done into the {{ en.ANYID }} template.
+Once the [action scripts](/pam/kb/how-to-articles/create-anyidentity-action-scripts-dvls) have been created, the next step is to develop the {{ en.ANYID }} template within {{ en.DVLS }}.
+
 1. In {{ en.DVLS }}, go to ***Administration – Privileged access – Providers***.
 1. Click on ***{{ en.ANYID }} templates***.
 ![Administration – Privileged access – Providers – {{ en.ANYID }} templates](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2173.png)
