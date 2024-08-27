@@ -1,7 +1,7 @@
 ---
 _schema: default
 eleventyComputed:
-  title: Access {{ en.RDM }} Entry via Google Chrome without Google Drive integration
+  title: Access {{ en.RDM }} entry via Google Chrome without Google Drive integration
   description: >-
     How to access your {{ en.RDM }} entry in Google Chrome if Google Drive
     Integration does not work.
@@ -12,7 +12,7 @@ Should you encounter difficulties with {% var, "RDM" false %} integration in ***
 
 ## Solution
 
-### Locate the ***XML Data Source File*** in Google Drive.
+### Locate the ***XML Data Source File*** in Google Drive
 
 1. Locate the ***XML Data Source File*** in Google Drive
 2. Open ***{% var, "RDM" false %}***.
@@ -20,7 +20,7 @@ Should you encounter difficulties with {% var, "RDM" false %} integration in ***
 4. Select your ***Google Drive data source***.
 5. Note the ***file name***.
 
-### Export the ***XML Data source file*** from Google Drive.
+### Export the ***XML Data source file*** from Google Drive
 
 1. Connect to your Google Drive and download the ***data source file***.
 2. Rename the downloaded file to ***connection.xml***.
