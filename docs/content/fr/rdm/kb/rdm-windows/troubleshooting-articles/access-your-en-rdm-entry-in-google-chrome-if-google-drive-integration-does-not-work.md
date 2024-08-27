@@ -4,11 +4,11 @@ eleventyComputed:
   title: >-
     Accéder à votre entrée {{ fr.RDM }} dans Google Chrome si l'intégration de Google Drive ne fonctionne pas
   description: >-
-    Comment accéder à votre entrée {{ fr.RDM }} dans Google Chrome si l'intégration de Google Drive ne fonctionne pas
+    Comment accéder à votre entrée {{ fr.RDM }} dans Google Chrome si l'intégration de Google Drive ne fonctionne pas.
   status:
   keywords:
 ---
-Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %} dans Google Chrome via Google Drive, nous recommandons la procédure suivante pour accéder et gérer votre ***fichier source de données XML*** manuellement.
+Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %} dans ***Google Chrome*** via ***Google Drive***, nous recommandons la procédure suivante pour accéder et gérer votre ***fichier source de données XML*** manuellement.
 
 ## Solution
 
