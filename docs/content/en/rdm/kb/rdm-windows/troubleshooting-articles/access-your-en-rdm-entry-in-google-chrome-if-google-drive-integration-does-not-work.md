@@ -33,7 +33,7 @@ Should you encounter difficulties with {% var, "RDM" false %} integration in ***
 
 ### Switch to a reliable data source
 
-Since ***XML*** is limited, consider switching to a more reliable data source. [{% var, "DHUB" false %}](t/hub/getting-started/create-hub/)
+Since ***XML*** is limited, consider switching to a more reliable data source like[{% var, "DHUB" false %}](t/hub/getting-started/create-hub/)
 
 ### Export data from XML to a new data source
 
