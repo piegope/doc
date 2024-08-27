@@ -1,8 +1,8 @@
 ---
-_schema: défaut
+_schema: default
 eleventyComputed:
   title: >-
-    Accéder à votre entrée {{ fr.RDM }} dans Google Chrome si l'intégration Google Drive ne fonctionne pas
+    Accéder à votre entrée {{ fr.RDM }} dans Google Chrome si l'intégration de Google Drive ne fonctionne pas
   description:
   status:
   keywords:
@@ -25,11 +25,20 @@ Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %
 2. Renommer le fichier téléchargé en ***connection.xml***.
 3. Dans {% var, "RDM" false %}, aller à ***Fichier - Source de données***.
 4. Créer une ***nouvelle source de données*** et sélectionner ***XML***.
-5. Cliquer sur les trois points à côté du champ de nom de fichier et sélectionner le **fichier connection.xml** que vous avez téléchargé.
+5. Cliquer sur les trois points à côté du champ du nom de fichier et sélectionner le **fichier connection.xml** que vous avez téléchargé.
 6. Cliquer sur ***Ajouter*** pour terminer.
 
 ### Passer à une source de données fiable
 
-Puisque ***XML*** est limité, envisager de passer à une source de données plus fiable. [{% var, "DHUB" false %}](t/hub/getting-started/create-hub/)
+Étant donné que ***XML*** est limité, envisager de passer à une source de données plus fiable. [{% var, "DHUB" false %}](t/hub/getting-started/create-hub/)
+
+### Exporter les données de XML vers une nouvelle source de données
+
+1. Dans {% var, "RDM" false %}, avec la ***source de données XML*** sélectionnée, cliquer sur ***Fichier - Exporter - {% var, "VLT_MAJ" false %}***.
+2. Dans la fenêtre contextuelle, cliquer sur ***inclure les identifiants*** et enregistrer le ***fichier .rdm*** dans un dossier sécurisé.
+3. Aller à ***Fichier - Sources de données***.
+4. Cliquer sur le ***\+*** pour ajouter une nouvelle source de données, et sélectionner ***SQLite*** ou {% var, "DHUB" false %}.
+5. Dans la nouvelle source de données, aller à ***Fichier - Importer (.rdm)***.
+6. Sélectionner votre ***fichier .rdm*** et cliquer sur ***Suivant*** jusqu'à ce que vos entrées apparaissent.<br><br>Les données devraient être dans la nouvelle source de données.<br>
 
 &nbsp;
