@@ -1,5 +1,4 @@
 ---
-_schema: default
 eleventyComputed:
   title: >-
     Accéder à votre entrée {{ fr.RDM }} dans Google Chrome si l'intégration de Google Drive ne fonctionne pas
@@ -26,12 +25,12 @@ Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %
 2. Renommer le fichier téléchargé en ***connection.xml***.
 3. Dans {% var, "RDM" false %}, aller à ***Fichier - Source de données***.
 4. Créer une ***nouvelle source de données*** et sélectionner ***XML***.
-5. Cliquer sur les trois points à côté du champ de nom de fichier et sélectionner le **fichier connection.xml** que vous avez téléchargé.
+5. Cliquer sur les trois points à côté du champ du nom de fichier et sélectionner le **fichier connection.xml** que vous avez téléchargé.
 6. Cliquer sur ***Ajouter*** pour terminer.
 
 ### Passer à une source de données fiable
 
-Étant donné que ***XML*** est limité, envisager de passer à une source de données plus fiable comme [{% var, "DHUB" false %}](t/hub/getting-started/create-hub/), qui est une solution basée sur le nuage.
+Étant donné que ***XML*** est limité, envisager de passer à une source de données plus fiable comme [{% var, "DHUB" false %}](/hub/getting-started/create-hub/), qui est une solution basée sur le nuage.
 
 ### Exporter les données de XML vers une nouvelle source de données
 
