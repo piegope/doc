@@ -31,7 +31,7 @@ Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %
 
 ### Passer à une source de données fiable
 
-Étant donné que ***XML*** est limité, envisager de passer à une source de données plus fiable. [{% var, "DHUB" false %}](t/hub/getting-started/create-hub/)
+Puisque ***XML*** est limité, envisager de passer à une source de données plus fiable comme [{% var, "DHUB" false %}](t/hub/getting-started/create-hub/)
 
 ### Exporter les données de XML vers une nouvelle source de données
 
