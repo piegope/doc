@@ -1,11 +1,12 @@
 ---
 eleventyComputed:
   title: Windows local accounts
-  description: The Windows Local Accounts provider allows {{ en.DVLS }} to store Windows local accounts credentials to be used for local accounts discovery or to achieve password rotation.
+  description: The Windows local accounts provider enables the management of local Windows accounts across multiple hosts.
 ---
-The Windows Local Accounts provider allows {{ en.DVLS }} to store Windows local accounts credentials to be used for local accounts discovery or to achieve password rotation.
-![Windows Local Accounts provider configuration](https://cdnweb.devolutions.net/docs/DVLS4024_2024_2.png)
+The ***Windows local accounts*** provider enables the management of local Windows accounts across multiple hosts. While the ***Windows account*** provider already exists within {{ en.DVLS }}, it is limited to managing accounts on a single host. This {{ en.ANYID }} provider extends that capability, allowing for the management of accounts on numerous hosts, all managed by the same provider.
+![Windows local accounts provider configuration](https://cdnweb.devolutions.net/docs/DVLS4024_2024_2.png)
 
+The pre-built template for this {{ en.ANYID }} provider can be found [on GitHub](https://github.com/Devolutions/PAM-Providers/tree/master/Providers/Windows%20Accounts).
 
 ## General
 | Option      | Description                  |
@@ -21,7 +22,7 @@ The Windows Local Accounts provider allows {{ en.DVLS }} to store Windows local 
 | ExcludeDisabledAccountsInDiscovery| Exclude disabled accounts when in discovery mode.                                                    |
 | HostsLDAPSearchFilter | Add LDAP search filter(s).                                                                                       | 
 
-### Credentials
+## Credentials
 | Option   | Description                                                        |
 |----------|--------------------------------------------------------------------|
 | Credential type | Custom credentials or Linked credential options.            | 
