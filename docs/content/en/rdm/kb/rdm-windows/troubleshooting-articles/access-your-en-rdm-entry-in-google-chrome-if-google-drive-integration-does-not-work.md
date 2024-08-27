@@ -6,11 +6,11 @@ eleventyComputed:
     does not work
   description: >-
     How to access your {{ en.RDM }} entry in Google Chrome if Google Drive
-    Integration does not work
+    Integration does not work.
   status:
   keywords:
 ---
-Should you encounter difficulties with {% var, "RDM" false %} integration in Google Chrome via Google Drive, we recommend the following procedure for accessing and managing your ***XML data source file*** manually.
+Should you encounter difficulties with {% var, "RDM" false %} integration in ***Google Chrome*** via ***Google Drive***, we recommend the following procedure for accessing and managing your ***XML data source file*** manually.
 
 ## Solution
 
