@@ -1,4 +1,5 @@
 ---
+_schema: défaut
 eleventyComputed:
   title: Accéder à l'entrée {{ fr.RDM }} via Google Chrome sans intégration Google Drive
   description: >-
@@ -11,7 +12,7 @@ Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %
 
 ## Solution
 
-### Localiser le ***fichier source de données XML*** dans Google Drive.
+### Localiser le ***fichier source de données XML*** dans Google Drive
 
 1. Localiser le ***fichier source de données XML*** dans Google Drive
 2. Ouvrir ***{% var, "RDM" false %}***.
@@ -19,13 +20,13 @@ Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %
 4. Sélectionner votre ***source de données Google Drive***.
 5. Noter le ***nom du fichier***.
 
-### Exporter le ***fichier source de données XML*** de Google Drive.
+### Exporter le ***fichier source de données XML*** de Google Drive
 
 1. Se connecter à votre Google Drive et télécharger le ***fichier source de données***.
 2. Renommer le fichier téléchargé en ***connection.xml***.
 3. Dans {% var, "RDM" false %}, aller à ***Fichier - Source de données***.
 4. Créer une ***nouvelle source de données*** et sélectionner ***XML***.
-5. Cliquer sur les trois points à côté du champ du nom de fichier et sélectionner le **fichier connection.xml** que vous avez téléchargé.
+5. Cliquer sur les trois points à côté du champ de nom de fichier et sélectionner le **fichier connection.xml** que vous avez téléchargé.
 6. Cliquer sur ***Ajouter*** pour terminer.
 
 ### Passer à une source de données fiable
