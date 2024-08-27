@@ -1,8 +1,8 @@
 ---
-_schema: default
+_schema: défaut
 eleventyComputed:
   title: >-
-    Accéder à votre entrée {{ fr.RDM }} dans Google Chrome si l'intégration de Google Drive ne fonctionne pas
+    Accéder à votre entrée {{ fr.RDM }} dans Google Chrome si l'intégration Google Drive ne fonctionne pas
   description:
   status:
   keywords:
@@ -19,7 +19,7 @@ Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %
 4. Sélectionner votre ***source de données Google Drive***.
 5. Noter le ***nom du fichier***.
 
-### Exporter le ***fichier source de données XML*** de Google Drive.
+### Exporter le ***fichier source de données XML*** depuis Google Drive.
 
 1. Se connecter à votre Google Drive et télécharger le ***fichier source de données***.
 2. Renommer le fichier téléchargé en ***connection.xml***.
@@ -30,6 +30,6 @@ Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %
 
 ### Passer à une source de données fiable
 
-Puisque ***XML*** est limité, envisager de passer à une source de données plus fiable.
+Puisque ***XML*** est limité, envisager de passer à une source de données plus fiable. [{% var, "DHUB" false %}](t/hub/getting-started/create-hub/)
 
 &nbsp;
