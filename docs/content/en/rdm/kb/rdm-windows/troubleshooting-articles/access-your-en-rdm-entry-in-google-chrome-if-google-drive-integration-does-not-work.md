@@ -8,7 +8,7 @@ eleventyComputed:
   status:
   keywords:
 ---
-Should you encounter difficulties with {% var, "RDM" false %} integration in ***Google Chrome*** via ***Google Drive***, we recommend the following procedure for accessing and managing your ***XML data source file*** manually.
+Should you encounter difficulties with {% var, "RDM" false %} integration in ***Google Chrome*** via ***Google Drive***, we recommend the following procedure for accessing and managing the ***XML data source file*** manually.
 
 ## Solution
 
@@ -31,7 +31,7 @@ Should you encounter difficulties with {% var, "RDM" false %} integration in ***
 
 ### Switch to a reliable data source
 
-Since ***XML*** is limited, consider switching to a more reliable data source like                         [{% var, "DHUB" false %}](/hub/getting-started/create-hub/) , which is cloud-based solution.
+Since ***XML*** is limited, consider switching to a more reliable data source like  [{% var, "DHUB" false %}](/hub/getting-started/create-hub/), which is cloud-based solution.
 
 ### Export data from XML to a new data source
 
