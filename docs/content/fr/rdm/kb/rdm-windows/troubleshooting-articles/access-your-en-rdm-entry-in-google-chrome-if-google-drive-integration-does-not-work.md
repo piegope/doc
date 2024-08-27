@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
-  title: >-
-    Accéder à votre entrée {{ fr.RDM }} dans Google Chrome si l'intégration de Google Drive ne fonctionne pas
+  title: Accéder à l'entrée {{ fr.RDM }} via Google Chrome sans intégration Google Drive
   description: >-
-    Comment accéder à votre entrée {{ fr.RDM }} dans Google Chrome si l'intégration de Google Drive ne fonctionne pas.
+    Comment accéder à votre entrée {{ fr.RDM }} dans Google Chrome si
+    l'intégration Google Drive ne fonctionne pas.
   status:
   keywords:
 ---
@@ -19,7 +19,7 @@ Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %
 4. Sélectionner votre ***source de données Google Drive***.
 5. Noter le ***nom du fichier***.
 
-### Exporter le ***fichier source de données XML*** depuis Google Drive.
+### Exporter le ***fichier source de données XML*** de Google Drive.
 
 1. Se connecter à votre Google Drive et télécharger le ***fichier source de données***.
 2. Renommer le fichier téléchargé en ***connection.xml***.
@@ -41,6 +41,6 @@ Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %
 5. Dans la nouvelle source de données, aller à ***Fichier - Importer (.rdm)***.
 6. Sélectionner votre ***fichier .rdm*** et cliquer sur ***Suivant*** jusqu'à ce que vos entrées apparaissent.
 
-Les données devraient être dans la nouvelle source de données.<br>
+Les données devraient être dans la ***nouvelle source de données***.<br>
 
 &nbsp;
