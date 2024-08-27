@@ -1,9 +1,7 @@
 ---
 _schema: default
 eleventyComputed:
-  title: >-
-    Access your {{ en.RDM }} entry in Google Chrome if Google Drive Integration
-    does not work
+  title: Access {{ en.RDM }} Entry via Google Chrome without Google Drive integration
   description: >-
     How to access your {{ en.RDM }} entry in Google Chrome if Google Drive
     Integration does not work.
