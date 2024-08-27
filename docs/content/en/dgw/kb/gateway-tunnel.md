@@ -1,51 +1,49 @@
 ---
+_schema: default
 eleventyComputed:
-  title: "{{ en.DGW }} Tunnel connection type"
-  description: The {{ en.DGW }} Tunnel can fulfill similar needs to SSH port forwarding/SSH tunneling, but it requires nothing other than {{ en.DGW }} itself.
+  title: '{{ en.DGW }} Tunnel connection type'
+  description: >-
+    The {{ en.DGW }} Tunnel can fulfill similar needs to SSH port forwarding/SSH
+    tunneling, but it requires nothing other than {{ en.DGW }} itself.
   keywords:
-  - SSH Tunnel
+    - SSH Tunnel
 ---
-The ***{{ en.DGW }} Tunnel*** can fulfill similar needs to SSH port forwarding/SSH tunneling, but it requires nothing other than {{ en.DGW }} itself. It is useful when using connections that do not have built-in support in {{ en.RDM }} through the {{ en.DGW }}. The entry can be found under ***New Entry*** – ***Session*** – ***Remote Connections***.
-{% snippet, "badgeInfo" %}
+The ***{{ en.DGW }} Tunnel*** can fulfill similar needs to SSH port forwarding/SSH tunneling, but it requires nothing other than {{ en.DGW }} itself. It is useful when using connections that do not have built-in support in {{ en.RDM }} through the {{ en.DGW }}. The entry can be found under ***New Entry*** – ***Session*** – ***Remote Connections***. {% snippet, "badgeInfo" %}
 {{ en.DGW }} needs to be set up in the {{ en.RDM }} data source and then configured through [inheritance](/rdm/kb/rdm-windows/knowledge-base/inheritance/) or on the connection itself. The option is under ***Properties*** – ***Connection*** – ***VPN/SSH/Gateway*** – ***VPN/SSH/Gateway*** – ***General***.
 {% endsnippet %}
 
-![{{ en.DGW }} Tunnel](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0116.png)
+![Tunnel](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0116.png)
 
 ## Listeners
+
 {% snippet, "badgeWarning" %}
 If the ***Listener*** is set to 0.0.0.0, it will accept connections from any source within the network. Due to the difficulty in tracking accountability, it is recommended ***NOT*** to do this for multiple security reasons.
 {% endsnippet %}
 
 * In almost every scenario, the listener (bind address) should be set to the loopback address (127.0.0.1) from the local machine.
-
 * ***TCP Forward***: It is the equivalent to port forwarding.
-
-* ***HTTP*** and ***SOCKS5*** proxies: These listeners are set up as proxies which makes it possible to use a browser other than Google Chrome. This also means they use a dynamic destination.
-{% snippet, "badgeInfo" %}
-Dynamic ports can be used with all three listener types. If the value is 0, it will automatically find an available port.
-{% endsnippet %}
+* ***HTTP*** and ***SOCKS5*** proxies: These listeners are set up as proxies which makes it possible to use a browser other than Google Chrome. This also means they use a dynamic destination. {% snippet, "badgeInfo" %}
+          Dynamic ports can be used with all three listener types. If the value is 0, it will automatically find an available port.
+          {% endsnippet %}
 
 ### Allow Rules
+
 The ***HTTP*** and ***SOCKS5*** listeners will also make use of the ***Allow Rules*** to specify authorized destinations, anything not on the allow list will be denied.
 
-***Target filters*** can be specified using IP addresses or hostnames. Both can contain wildcards. Each ***Target filter*** must explicitly specify a destination port. Leaving the default port as '0' will result in an error when attempting to save the filter.
-![Default](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0163.png)
+***Target filters*** can be specified using IP addresses or hostnames. Both can contain wildcards. Each ***Target filter*** must explicitly specify a destination port. Leaving the default port as '0' will result in an error when attempting to save the filter. ![Default](https://cdnweb.devolutions.net/docs/docs_en_kb_KB0163.png)
 
 #### Examples of valid target filters
-| Target filter          | Description                                                                                 |
-|------------------------|---------------------------------------------------------------------------------------------|
-| `windjammer.net:80`    | Allows HTTP traffic to the hostname windjammer.net.                                         |
-| `*.windjammer.net:443` | Allows HTTPS traffic to any subdomain of windjammer.net but not to windjammer.net directly. |
-| `192.168.0.*:22`       | Allows SSH traffic to any IP address between 192.168.0.0 to 192.168.0.255.                  |
-| `*:3389`               | Allows RDP traffic to any endpoint reachable by the {{ en.DGW }}.                           |
+
+<table><thead><tr><th><p>Target filter</p></th><th><p>Description</p></th></tr></thead><tbody><tr><td><p><code>windjammer.net:80</code></p></td><td><p>Allows HTTP traffic to the hostname windjammer.net.</p></td></tr><tr><td><p><code>*.windjammer.net:443</code></p></td><td><p>Allows HTTPS traffic to any subdomain of windjammer.net but not to windjammer.net directly.</p></td></tr><tr><td><p><code>192.168.0.*:22</code></p></td><td><p>Allows SSH traffic to any IP address between 192.168.0.0 to 192.168.0.255.</p></td></tr><tr><td><p><code>*:3389</code></p></td><td><p>Allows RDP traffic to any endpoint reachable by the {{ en.DGW }}.</p></td></tr></tbody></table>
 
 You can add multiple ***Target filters*** to your entry tailored to your intended use of the tunnel. For example, you might add the same hostname several times but with different ports, like 80 and 443, to permit both HTTP and HTTPS traffic.
 
 ### Using the {{ en.DGW }} Tunnel oustide of {{ en.RDM }}
+
 Once opened, it is possible to use a ***{{ en.DGW }} Tunnel*** from an applicaton that is external to {{ en.RDM }}. You could, for instance, use it with a web browser or any other application that supports the type of proxying (TCP, HTTP, or SOCKS5) that you specified in the connection.
 
 #### Example: Using the tunnel with the cURL command-line tool
+
 You can add your proxy endpoint along with the port specified or the one that was generated by the ***{{ en.DGW }} Tunnel*** entry with the -x argument.
 
 ```bash
