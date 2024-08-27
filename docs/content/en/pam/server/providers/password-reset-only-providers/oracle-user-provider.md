@@ -1,22 +1,23 @@
 ---
 eleventyComputed:
   title: Oracle user provider
+  description: The Oracle user provider allows {{ en.DVLS }} to store the Oracle account credentials to be used to achieve password rotation.
 ---
-The Oracle Provider allows {{ en.DVLS }} to store the Oracle account credentials to be used to achieve password rotation.
-![Oracle User Provider](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8094.png)
+The ***Oracle user*** provider allows {{ en.DVLS }} to store the Oracle account credentials to be used to achieve password rotation.
+![Oracle user provider](https://cdnweb.devolutions.net/docs/docs_en_server_ServerOp8094.png)
 
-### General
+## General
 | Option        | Description                   |
 |---------------|-------------------------------|
-| Name          | Display name of the Provider. |
-| Template name | Description of the Provider.  |
+| Name          | Display name of the provider. |
+| Template name | Description of the provider.  |
 
-### Password settings
+## Password settings
 | Option                              | Description                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Password template used on generation| Password template that will be used to generate the password during the reset password operation.  |
 
-### Properties
+## Properties
 | Option      | Description                                                                                 |
 |-------------|---------------------------------------------------------------------------------------------|
 | Host name   | FQDN of the Oracle server against where the scan or the password rotation will be executed. |
@@ -25,7 +26,7 @@ The Oracle Provider allows {{ en.DVLS }} to store the Oracle account credentials
 | Username    | Username of the Oracle account with rights to reset passwords.                              |
 | Password    | Password of the Oracle account.                                                             |
 
-### Actions
+## Actions
 | Option             | Description                                                           |
 |--------------------|-----------------------------------------------------------------------|
 | Add PAM {{ en.VLT }} | Will create a PAM {{ en.VLT }} with the provider's name if enabled. |
