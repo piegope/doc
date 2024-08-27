@@ -8,7 +8,7 @@ eleventyComputed:
   status:
   keywords:
 ---
-Should you encounter difficulties with {% var, "RDM" false %} integration in ***Google Chrome*** via ***Google Drive***, we recommend the following procedure for accessing and managing your ***XML data source file*** manually.
+Should you encounter difficulties with {% var, "RDM" false %} integration in ***Google Chrome*** via ***Google Drive***, we recommend the following procedure for accessing and managing the ***XML data source file*** manually.
 
 ## Solution
 
