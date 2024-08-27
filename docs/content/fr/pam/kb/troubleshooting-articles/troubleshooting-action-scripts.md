@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Résolution des problèmes de scripts d'action dans {{ fr.DVLS }}
+  title: Dépannage des scripts d'action dans {{ fr.DVLS }}
   description: Lorsque les scripts d'action échouent au sein de {{ fr.ANYID }}, il est essentiel de comprendre comment identifier et résoudre le problème.
 ---
 Lorsque les [scripts d'action](/pam/kb/how-to-articles/create-anyidentity-action-script-dvls) échouent au sein de {{ fr.ANYID }}, il est essentiel de comprendre comment identifier et résoudre le problème. Plusieurs problèmes peuvent survenir avec un fournisseur {{ fr.ANYID }} en raison des différentes étapes impliquées. De plus, {{ fr.ANYID }} repose fortement sur les scripts d'action pour son fonctionnement, et selon la complexité du fournisseur d'identité, ces scripts d'action peuvent devenir complexes.
@@ -13,7 +13,7 @@ Le problème peut ne pas toujours être immédiatement apparent. Bien que les sc
 
 Dans certains cas, le problème peut être plus évident, comme voir un message d'avertissement "Hors synchronisation" pour l'utilisateur dans le {{ fr.DPAM }} {{ fr.VLT }} ou remarquer un problème dans les [journaux PAM](/pam/server/pam-reports).
 
-!["Avertissement Hors synchronisation"](https://cdnweb.devolutions.net/docs/ab_providers-troubleshooting-anyidentity-providers_1-1.png)
+!["Hors synchronisation" avertissement](https://cdnweb.devolutions.net/docs/ab_providers-troubleshooting-anyidentity-providers_1-1.png)
 
 ## 2. Identifier le script d'action impliqué
 
