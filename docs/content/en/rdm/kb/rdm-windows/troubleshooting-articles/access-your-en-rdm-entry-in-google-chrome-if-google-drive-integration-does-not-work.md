@@ -44,6 +44,6 @@ Since ***XML*** is limited, consider switching to a more reliable data source li
 5. In the new data source, go to ***File - Import (.rdm)***.
 6. Select your ***.rdm file*** and click ***Next*** until your entries appear.
 
-The data should be in the new data source.<br>
+The data should be in the ***new data source***.<br>
 
 &nbsp;
