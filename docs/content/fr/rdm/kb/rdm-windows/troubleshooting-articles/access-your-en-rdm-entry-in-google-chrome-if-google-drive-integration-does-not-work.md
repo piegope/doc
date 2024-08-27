@@ -39,6 +39,8 @@ Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %
 3. Aller à ***Fichier - Sources de données***.
 4. Cliquer sur le ***\+*** pour ajouter une nouvelle source de données, et sélectionner ***SQLite*** ou {% var, "DHUB" false %}.
 5. Dans la nouvelle source de données, aller à ***Fichier - Importer (.rdm)***.
-6. Sélectionner votre ***fichier .rdm*** et cliquer sur ***Suivant*** jusqu'à ce que vos entrées apparaissent.<br><br>Les données devraient être dans la nouvelle source de données.<br>
+6. Sélectionner votre ***fichier .rdm*** et cliquer sur ***Suivant*** jusqu'à ce que vos entrées apparaissent.
+
+Les données devraient être dans la nouvelle source de données.<br>
 
 &nbsp;
