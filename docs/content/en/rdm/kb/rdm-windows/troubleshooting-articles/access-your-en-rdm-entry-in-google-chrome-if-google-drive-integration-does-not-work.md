@@ -31,6 +31,6 @@ Should you encounter difficulties with {% var, "RDM" false %} integration in Goo
 
 ### Switch to a reliable data source
 
-Since ***XML*** is limited, consider switching to a more reliable data source.
+Since ***XML*** is limited, consider switching to a more reliable data source. [{% var, "DHUB" false %}](t/hub/getting-started/create-hub/)
 
 &nbsp;
