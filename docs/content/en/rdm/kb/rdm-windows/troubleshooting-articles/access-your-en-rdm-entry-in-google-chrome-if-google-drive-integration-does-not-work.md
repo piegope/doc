@@ -14,7 +14,7 @@ Should you encounter difficulties with {% var, "RDM" false %} integration in ***
 
 ### Locate the ***XML Data Source File*** in Google Drive
 
-1. Locate the ***XML Data Source File*** in Google Drive
+1. Locate the ***XML Data Source File*** in Google Drive.
 2. Open ***{% var, "RDM" false %}***.
 3. Click ***File - Data sources***.
 4. Select your ***Google Drive data source***.
