@@ -25,7 +25,7 @@ Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %
 2. Renommer le fichier téléchargé en ***connection.xml***.
 3. Dans {% var, "RDM" false %}, aller à ***Fichier - Source de données***.
 4. Créer une ***nouvelle source de données*** et sélectionner ***XML***.
-5. Cliquer sur les trois points à côté du champ de nom de fichier et sélectionner le **fichier connection.xml** que vous avez téléchargé.
+5. Cliquer sur les trois points à côté du champ du nom de fichier et sélectionner le **fichier connection.xml** que vous avez téléchargé.
 6. Cliquer sur ***Ajouter*** pour terminer.
 
 ### Passer à une source de données fiable
