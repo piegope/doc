@@ -9,7 +9,7 @@ Register a new {{ en.DHUBB }} license by following the steps that best represent
 * [Current license is expired](#my-current-license-is-expired)
 
 {% snippet, "badgeCaution" %}
-Only ***Administrators*** and users with permissions in the ***System Permissions*** section have access to register a license in {{ en.DHUBB }}.
+Only ***Administrators*** and users with permissions in the ***System Permissions*** section can register a license in {{ en.DHUBB }}.
 {% endsnippet %}
 
 ### Current license is still active

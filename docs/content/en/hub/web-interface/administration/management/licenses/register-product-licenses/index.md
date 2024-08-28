@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Register product licenses
 ---
-Here are the steps to register Devolutions ***Product Licenses*** in {{ en.DHUBB }}:
+Here are the steps to register Devolutions product licenses in {{ en.DHUBB }}:
 
 1. Go to ***Administration*** – ***Licenses***.
 1. Click the ***Add*** button.

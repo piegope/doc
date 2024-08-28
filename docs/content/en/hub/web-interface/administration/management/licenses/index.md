@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: Licenses
-  description: The Licenses section, located in Administration – Licenses, contains all information pertaining to the Devolutions product licenses linked to the application, as well as a button to add new ones in a few clicks. Licenses have a limited number of users and can be assigned automatically with Auto assign or to specific users in the Assigned to tab.
+  description: The Licenses section, located in Administration – Licenses, contains all information pertaining to the Devolutions product licenses linked to the application as well as a button to add new licenses..
 ---
-The Licenses section, located in ***Administration*** – ***Licenses***, contains all information pertaining to the Devolutions product licenses linked to the application, as well as a button to add new ones in a few clicks. Licenses have a limited number of users and can be assigned automatically with ***Auto assign*** or to specific users in the ***Assigned to*** tab.
+The ***Licenses*** section, located in ***Administration*** – ***Licenses***, contains all information pertaining to the Devolutions product licenses linked to the application as well as a button to add new licenses. Licenses have a limited number of users and can be assigned automatically with ***Auto assign*** or to specific users in the ***Assigned to*** tab.
 
 {% snippet, "badgeInfo" %}
 {% snippet, "badgeCaution" %}
