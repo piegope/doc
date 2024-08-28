@@ -2,11 +2,11 @@
 eleventyComputed:
   title: Assign product licenses
 ---
-Assign Devolutions ***Product Licenses*** in {{ en.DHUBB }} to users.
+Here are the steps to assign Devolutions product licenses to users in {{ en.DHUBB }}:
+1. Go to ***Administration*** – ***Licenses***, and click on the ***Edit*** button next to the desired license.
 
-1. Go to ***Administration – Licenses***.
-1. Click the ***Edit*** button next to the product license.
-![!!Hub4114](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4114.png)
-1. Click ***Assigned To*** and manage your users license access.
-![!!Hub4115](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4115.png)
-1. Click ***Update*** to save.
+![Edit button](https://cdnweb.devolutions.net/docs/HUBB4014_2024_2.png)
+
+2. Head over to the ***Assigned to*** tab, select the user(s) to assign, and click on ***Update***.
+
+![Assign users](https://cdnweb.devolutions.net/docs/HUBB4013_2024_2.png)
