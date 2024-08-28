@@ -3,7 +3,7 @@ eleventyComputed:
   title: Attribuer des licences de produit
 ---
 Voici les étapes pour attribuer des licences de produit Devolutions aux utilisateurs dans {{ fr.DHUBB }} :
-1. Aller à ***Administration*** – ***Licences***, et cliquer sur le bouton ***Modifier*** à côté de la licence souhaitée.
+1. Aller à ***Administration*** – ***Licenses***, et cliquer sur le bouton ***Modifier*** à côté de la licence à attribuer.
 
 ![Edit button](https://cdnweb.devolutions.net/docs/HUBB4014_2024_2.png)
 

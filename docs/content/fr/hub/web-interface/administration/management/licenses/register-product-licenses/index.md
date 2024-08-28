@@ -2,7 +2,7 @@
 eleventyComputed:
   title: Enregistrer les licences de produit
 ---
-Voici les étapes pour enregistrer les ***Licences de Produit*** Devolutions dans {{ fr.DHUBB }} :
+Voici les étapes pour enregistrer les licences de produit Devolutions dans {{ fr.DHUBB }} :
 
 1. Aller à ***Administration*** – ***Licences***.
 1. Cliquer sur le bouton ***Ajouter***.

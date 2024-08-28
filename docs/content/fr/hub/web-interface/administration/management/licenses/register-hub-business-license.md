@@ -9,7 +9,7 @@ Enregistrer une nouvelle licence {{ fr.DHUBB }} en suivant les étapes qui repr�
 * [La licence actuelle est expirée](#my-current-license-is-expired)
 
 {% snippet, "badgeCaution" %}
-Seuls les ***Administrateurs*** et les utilisateurs avec des permissions dans la section ***Permissions du système*** ont accès pour enregistrer une licence dans {{ fr.DHUBB }}.
+Seuls les ***Administrateurs*** et les utilisateurs avec des permissions dans la section ***Permissions du système*** peuvent enregistrer une licence dans {{ fr.DHUBB }}.
 {% endsnippet %}
 
 ### La licence actuelle est toujours active
