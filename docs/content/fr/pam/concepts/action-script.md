@@ -1,5 +1,5 @@
 ---
-_schema: défaut
+_schema: default
 eleventyComputed:
   title: Script d'action
   description: >-
@@ -12,5 +12,5 @@ Un ***script d'action*** est la manière dont un fournisseur {{ fr.ANYID }} impl
 Pour les fournisseurs {{ fr.ANYID }}, {{ fr.DPAM }} fonctionne comme le coordinateur d'action, déléguant des tâches aux scripts d'action pour découvrir, comparer et changer les mots de passe lors de la réception de demandes de rotation de mot de passe.
 
 {% snippet, "badgeInfo" %}
-Les scripts d'action sont uniquement accessibles lors de la création de modèles {{ fr.ANYID }}. Une fois créés, les scripts d'action ne sont pas visibles lors de la gestion des fournisseurs {{ fr.ANYID }}.
-{% ENDSNIPPET %}
+Les scripts d'action ne sont accessibles que lors de la création de modèles {{ fr.ANYID }}. Une fois créés, les scripts d'action ne sont pas visibles lors de la gestion des fournisseurs {{ fr.ANYID }}.
+{% endsnippet %}

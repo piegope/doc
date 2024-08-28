@@ -1,5 +1,5 @@
 ---
-_schema: default
+_schema: défaut
 eleventyComputed:
   title: Comptes
   description: >-
