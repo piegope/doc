@@ -1,13 +1,11 @@
 ---
 eleventyComputed:
   title: Identity providers
-  description: Identity providers in Devolutions PAM refer to any source of accounts.
+  description: An identity provider is an external service that a {{ en.DPAM }} provider manages.
 ---
-***Identity providers (IdP)*** in Devolutions PAM refer to any source of accounts. In the context of PAM, these are usually:
-* **Directories**: Such as Microsoft Active Directory or OpenLDAP.
-* **SaaS identity services**: Such as Microsoft Entra ID (formerly Azure AD), Okta, Ping, and other cloud-hosted identity providers.
-* **Individual servers or appliances**: Various operating systems and hardware, including network equipment, IoT, and OT (industrial devices).
-* **Databases**: A database server or even a single database.
+An ***identity provider*** is an external service that a {{ en.DPAM }} provider manages.
+
+Identity providers are always external to {{ en.DPAM }} and store the accounts that {{ en.DPAM }} manages through actions. Examples of identity providers include [Microsoft Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-default-user-accounts), [MySQL databases](https://dev.mysql.com/doc/refman/8.4/en/user-names.html), [Windows operating systems](https://support.microsoft.com/en-us/windows/manage-user-accounts-in-windows-104dc19f-6430-4b49-6a2b-e4dbd1dcdf32), and [Linux operating systems](https://www.redhat.com/sysadmin/linux-user-group-management). An identity provider is the identity management service that facilitates [authentication, authorization, and accounting (AAA)](https://en.wikipedia.org/wiki/Authentication,_authorization,_and_accounting) of identities.
 
 ### Related topics
 * [Providers ({{ en.DVLS }})](/pam/server/providers/)
