@@ -1,7 +1,7 @@
 ---
 _schema: défaut
 eleventyComputed:
-  title: '{{ fr.RDMMAC }} Activer l'authentification intégrée avec Kerberos'
+  title: "{{ fr.RDMMAC }} Activer l'authentification intégrée avec Kerberos"
   description: >-
     {{ fr.RDMMAC }} dispose d'une validation intégrée pour la source de données SQL Server qui
     nécessite que les champs Nom d'utilisateur/Mot de passe contiennent des informations.
