@@ -17,9 +17,9 @@ Seuls les ***Administrateurs*** et les utilisateurs avec des permissions dans la
 1. Se connecter au {{ fr.DHUBB }} en question.
 1. Aller à ***Administration*** – ***Licences***.
 1. Cliquer sur le bouton ***Modifier***.
-![Edit license button](https://cdnweb.devolutions.net/docs/HUBB4015_2024_2.png)
+![Bouton Modifier la licence](https://cdnweb.devolutions.net/docs/HUBB4015_2024_2.png)
 1. Coller la nouvelle licence {{ fr.DHUBB }}, et cliquer sur ***Enregistrer***.
-![New license Save button](https://cdnweb.devolutions.net/docs/HUBB4016_2024_2.png)
+![Bouton Enregistrer la nouvelle licence](https://cdnweb.devolutions.net/docs/HUBB4016_2024_2.png)
 
 ### La licence actuelle est expirée
 

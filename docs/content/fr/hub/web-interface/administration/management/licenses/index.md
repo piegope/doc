@@ -1,11 +1,11 @@
 ---
 eleventyComputed:
   title: Licences
-  description: La section Licences, située dans Administration – Licences, contient toutes les informations relatives aux licences des produits Devolutions liées à l'application, ainsi qu'un bouton pour en ajouter de nouvelles en quelques clics. Les licences ont un nombre limité d'utilisateurs et peuvent être attribuées automatiquement avec Auto assign ou à des utilisateurs spécifiques dans l'onglet Assigné à.
+  description: La section Licences, située dans Administration – Licences, contient toutes les informations relatives aux licences des produits Devolutions liées à l'application, ainsi qu'un bouton pour en ajouter de nouvelles en quelques clics. Les licences ont un nombre limité d'utilisateurs et peuvent être attribuées automatiquement avec Auto assign ou à des utilisateurs spécifiques dans l'onglet Assigned to.
 ---
+La section Licences, située dans ***Administration*** – ***Licences***, contient toutes les informations relatives aux licences des produits Devolutions liées à l'application, ainsi qu'un bouton pour en ajouter de nouvelles en quelques clics. Les licences ont un nombre limité d'utilisateurs et peuvent être attribuées automatiquement avec ***Auto assign*** ou à des utilisateurs spécifiques dans l'onglet ***Assigned to***.
 
-La section Licences, située dans ***Administration*** – ***Licences***, contient toutes les informations relatives aux licences des produits Devolutions liées à l'application, ainsi qu'un bouton pour en ajouter de nouvelles en quelques clics. Les licences ont un nombre limité d'utilisateurs et peuvent être attribuées automatiquement avec ***Auto assign*** ou à des utilisateurs spécifiques dans l'onglet ***Assigné à***.
-
+{% snippet, "badgeInfo" %}
 {% snippet, "badgeCaution" %}
 Seuls les ***Administrateurs*** et les utilisateurs avec des permissions dans la section ***System Permissions*** – ***System*** – ***Manage {{ fr.DHUBB }} license*** auront accès pour enregistrer une licence dans {{ fr.DHUBB }}.
 {% endsnippet %}
