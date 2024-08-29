@@ -48,7 +48,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 2. Next to the {{ en.WBEX }}, click ***Inspect***. This will open the browser ***DevTools*** window. ![Inspect](https://cdnweb.devolutions.net/docs/WBEX6003_2024_2.png)
 3. In the ***DevTools*** window click on ***Network***. ![Network](https://cdnweb.devolutions.net/docs/WBEX6005_2024_2.png)
 4. In the ***Network*** tab, one of the items in the list should be in red, this is the event where {{ en.RDM }} failed to retrieve the credentials. Click on it.
-5. Take a screenshot of the full message displayed and send it to [service@devolutions.net](mailto:service@devolutions.net). ![Network](https://cdnweb.devolutions.net/docs/WBEX6005_2024_2.png)
+5. Take a screenshot of the full message displayed and send it to [service@devolutions.net](mailto:service@devolutions.net).
 
 ## Opera
 
