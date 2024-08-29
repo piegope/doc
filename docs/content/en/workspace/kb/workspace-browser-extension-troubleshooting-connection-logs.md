@@ -2,7 +2,8 @@
 _schema: default
 eleventyComputed:
   title: '{{ en.WBEX }} troubleshooting connection logs'
-  description: When an issue occurs with the {{ en.WBEX }}, the support personnel may ask
+  description: >-
+    When an issue occurs with the {{ en.WBEX }}, the support personnel may ask
     you to provide them logs to provide more information to our engineering
     department, please follow these steps according to your browser.
 ---
@@ -21,7 +22,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 
 ## Chrome
 
-1. In your browser, r***ight-click on the {{ en.WBEX }} icon.***
+1. In your browser, ***right-click on the {{ en.WBEX }} icon.***
 2. Click on ***Manage Extension***.
 3. Toggle on the ***Developer mode***. ![Developer mode](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4786.png)
 4. In the same window, under ***Inspect views***, click on the ***service worker*** link. This will open the browser ***DevTools*** window.
