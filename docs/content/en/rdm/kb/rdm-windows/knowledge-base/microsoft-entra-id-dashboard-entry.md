@@ -27,6 +27,8 @@ Here is a list of the ***users settings*** available in the ***Microsoft Entra I
 
 The following is a list of the ***group settings*** available in the ***Microsoft*** ***Entra ID Dashboard entry*** interface.
 
+&nbsp;
+
 <table><thead><tr><th><p><strong>SETTINGS</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Members</p></td><td><p><em><strong>Add</strong></em> members to groups. </p></td></tr><tr><td><p>Delete</p></td><td><p><em><strong>Delete</strong></em> groups.</p></td></tr><tr><td><p>Refresh</p></td><td><p><em><strong>Refresh</strong></em> groups.</p></td></tr></tbody></table>
 
 &nbsp;
