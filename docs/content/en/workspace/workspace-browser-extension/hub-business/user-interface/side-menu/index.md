@@ -23,11 +23,17 @@ For methods of retrieving your credentials, visit [Retrieve credentials from {{ 
 
 At the top, you can use the ***Search*** bar to filter through all your credentials, not just those applicable to the website. You can also use the ***Refresh*** button next to it to update the search results.
 
-At the bottom, the ***Add Website*** button opens a new browser tab that allows you to manually add a website entry in {{ en.DHUBB }} through the {{ en.WBEX }}.
+The ***Add Website*** button (+) opens a new browser tab that allows you to manually add a website entry in {{ en.DHUBB }} through the {{ en.WBEX }}.
 
 {% snippet, "badgeInfo" %}
 For a complete list of the available fields in the ***Add Website*** window, visit [Add Website](/workspace/workspace-browser-extension/hub-business/user-interface/side-menu/add-website/). You can also consult our step-by-step guide on [how to add a website entry](/workspace/workspace-browser-extension/hub-business/using-workspace-browser-extension/add-entry-hub-business-workspace-browser-extension/).
 {% endsnippet %}
+
+### Favorites tab
+
+The Favorites tab allows oyu to brwse through all your favorited entries.
+
+![Favorites tab](https://cdnweb.devolutions.net/docs/WEBX4098_2024_2.png "Favorites tab")
 
 ### {{ en.VLT_MAJ }}s tab
 
@@ -35,13 +41,13 @@ For a complete list of the available fields in the ***Add Website*** window, vis
 When accessing the ***{{ en.VLT_MAJ }}s*** tab for the first time, you need to select the {{ en.DHUBB }} {{ en.VLT }}s you want to synchronize with the {{ en.WBEX }}. Learn more about it in [First login with the {{ en.WBEX }}](/workspace/workspace-browser-extension/hub-business/first-login/).
 {% endsnippet %}
 
-The ***{{ en.VLT_MAJ }}s*** tab allows you to browse through all your synchronized {{ en.VLT }}s for your entries. ![s tab](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2119.png)
+The ***{{ en.VLT_MAJ }}s*** tab allows you to browse through all your synchronized {{ en.VLT }}s for your entries. ![Vaults tab](https://cdnweb.devolutions.net/docs/WEBX4099_2024_2.png "Vaults tab")
 
 At the top, you can use the ***Filter*** bar to search through all your {{ en.VLT }}s for entries.
 
 To access a {{ en.VLT }} in the {{ en.WBEX }}, click on it and navigate through the folders to manually find the entry you are looking for. The folder structure is identical to that of your {{ en.DHUBB }}.
 
-When navigating in the folders, the [***Add Website***](/workspace/workspace-browser-extension/hub-business/user-interface/side-menu/add-website/)button will appear at the bottom of the ***Content Area***.
+When navigating in the folders, the [***Add website***](/workspace/workspace-browser-extension/hub-business/user-interface/side-menu/add-website/) *** *** button will appear at the bottom of the ***Content area***.
 
 ### {{ en.UVLT_MAJ }} tab
 
