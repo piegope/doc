@@ -1,5 +1,5 @@
 ---
-_schema: défaut
+_schema: default
 eleventyComputed:
   title: '{{ fr.DHUBB }}'
   description: >-
@@ -22,6 +22,8 @@ Commencez votre [essai gratuit de {{ fr.DHUBB }}](https://devolutions.net/passwo
 ![Onglet Général](https://cdnweb.devolutions.net/docs/HUBB6004_2024_2.png)
 
 \| OPTION   \| DESCRIPTION                                                        \| \|----------\|--------------------------------------------------------------------\| \| Nom      \| Nom de la source de données.                                        \| \| Nom d'utilisateur \| Votre adresse courriel [{{ fr.DA }}](https://portal.devolutions.com/). \| \| Hôte     \| Copier dans l'***Hôte*** votre URL {{ fr.DHUBB }} (ex : https://windjammer.devolutions.app/) ou cliquer sur les 3 points pour obtenir une liste déroulante à sélectionner. \|
+
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Nom</p></td><td><p>Nom de la source de données.</p></td></tr><tr><td><p>Courriel</p></td><td><p>Votre adresse courriel <a href="https://portal.devolutions.com/">Devolutions account</a>.</p></td></tr><tr><td><p>Hôte</p></td><td><p>Copier dans l'<em><strong>Hôte</strong></em> votre URL Devolutions Hub Business (ex : https://windjammer.devolutions.app/) ou cliquer sur les 3 points pour obtenir une liste déroulante à sélectionner.</p></td></tr></tbody></table>
 
 ### VPN
 
