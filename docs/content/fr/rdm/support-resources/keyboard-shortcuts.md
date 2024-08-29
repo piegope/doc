@@ -1,152 +1,24 @@
 ---
-_schema: default
 eleventyComputed:
   title: Raccourcis clavier
   description: Voici les raccourcis clavier par défaut pour diverses commandes.
+_schema: default
 ---
-Voici les raccourcis clavier par défaut pour diverses commandes. Modifier ces raccourcis dans ***Fichier – Paramètres – Interface utilisateur – Clavier***.
+{% gTab, "Windows" %}Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Paramètres – Interface utilisateur – Clavier***.
 
-Le bouton ***Désactiver tout*** permet de désactiver tous les raccourcis. Le bouton ***Réinitialiser par défaut*** rétablit les raccourcis à leurs valeurs par défaut.
+Le bouton ***Désactiver tout*** vous permet de désactiver tous les raccourcis. Le bouton ***Réinitialiser par défaut*** rétablit les raccourcis à leurs valeurs par défaut.
 
-{% snippet, "badgeCaution" %}
-Les boutons ***Désactiver tout*** et ***Réinitialiser par défaut*** effaceront vos raccourcis personnalisés. Utiliser ces options avec précaution pour ne pas risquer de perdre vos raccourcis personnalisés.
-{% endsnippet %}
+{% snippet, "badgeCaution" %}Les boutons ***Désactiver tout*** et ***Réinitialiser par défaut*** effaceront vos raccourcis personnalisés. Utilisez ces options avec précaution pour ne pas risquer de perdre vos raccourcis personnalisés.{% endsnippet %}
 
-{% snippet, "badgeInfo" %}
-Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/rdm-windows/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).
-{% endsnippet %}
+{% snippet, "badgeInfo" %}Visitez [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/rdm-windows/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).{% endsnippet %}
 
-![Raccourcis clavier](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2101.png)
+![Raccourcis clavier](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2101.png){% endgTab %}
 
-## Raccourcis par défaut
+## Raccourcis par défaut{#default-shortcuts}
 
-### Actions
+{% gTab, "Windows" %}### Actions{#actions}
 
-\| NOM                               \| RACCOURCI                                      \| \|------------------------------------\|-----------------------------------------------\| \| Presse-papiers - Copier la chaîne de connexion \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Alt</kbd>
-
-\+
-
-<kbd>H</kbd>
-
-   \| \| Presse-papiers - Copier le domaine            \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Alt</kbd>
-
-\+
-
-<kbd>B</kbd>
-
-   \| \| Presse-papiers - Copier l'hôte              \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>H</kbd>
-
-                  \| \| Presse-papiers - Copier le mot de passe          \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Shift</kbd>
-
-\+
-
-<kbd>B</kbd>
-
- \| \| Presse-papiers - Copier l'URL               \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Shift</kbd>
-
-\+
-
-<kbd>H</kbd>
-
- \| \| Presse-papiers - Copier le nom d'utilisateur          \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>B</kbd>
-
-                  \| \| Exécuter la commande depuis la palette       \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Shift</kbd>
-
-\+
-
-<kbd>P</kbd>
-
- \| \| Exécuter la macro de frappe               \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Shift</kbd>
-
-\+
-
-<kbd>A</kbd>
-
- \| \| Naviguer vers l'URL                       \|
-
-<kbd>Enter</kbd>
-
-                              \| \| Ouvrir (Intégré/En onglet)             \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Enter</kbd>
-
-              \| \| Ouvrir (Externe)                    \|
-
-<kbd>Shift</kbd>
-
-\+
-
-<kbd>Enter</kbd>
-
-             \| \| Ouvrir en plein écran                   \|
-
-<kbd>Alt</kbd>
-
-\+
-
-<kbd>Enter</kbd>
-
-               \| \| Voir le mot de passe                      \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>P</kbd>
-
-                  \|
+<table><thead><tr><th><p>Nom</p></th><th><p>Raccourci</p></th></tr></thead><tbody><tr><td><p>Presse-papiers - Copier la chaîne de connexion</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>H</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier le domaine</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier l'hôte</p></td><td><p><kbd>Ctrl</kbd> + <kbd>H</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier le mot de passe</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier l'URL</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier le nom d'utilisateur</p></td><td><p><kbd>Ctrl</kbd> + <kbd>B</kbd></p></td></tr><tr><td><p>Exécuter la commande depuis la palette</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd></p></td></tr><tr><td><p>Exécuter la macro de frappe</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd></p></td></tr><tr><td><p>Accéder à l'URL</p></td><td><p><kbd>Entrée</kbd></p></td></tr><tr><td><p>Ouvrir (Intégré/En onglet)</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Entrée</kbd></p></td></tr><tr><td><p>Ouvrir (Externe)</p></td><td><p><kbd>Shift</kbd> + <kbd>Entrée</kbd></p></td></tr><tr><td><p>Ouvrir en plein écran</p></td><td><p><kbd>Alt</kbd> + <kbd>Entrée</kbd></p></td></tr><tr><td><p>Voir le mot de passe</p></td><td><p><kbd>Ctrl</kbd> + <kbd>P</kbd></p></td></tr></tbody></table>{% endgTab %}
 
 ### Édition
 
@@ -162,7 +34,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>N</kbd>
 
-  \| \| Ajouter un dossier              \|
+\| \| Ajouter un dossier              \|
 
 <kbd>Ctrl</kbd>
 
@@ -174,7 +46,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>N</kbd>
 
- \| \| Ajouter une information         \|
+\| \| Ajouter une information         \|
 
 <kbd>Ctrl</kbd>
 
@@ -186,7 +58,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>N</kbd>
 
-   \| \| Ajouter une session             \|
+\| \| Ajouter une session             \|
 
 <kbd>Ctrl</kbd>
 
@@ -194,15 +66,15 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>N</kbd>
 
-                  \| \| Supprimer                  \|
+\| \| Supprimer                  \|
 
 <kbd>Ctrl</kbd>
 
 \+
 
-<kbd>Del</kbd>
+<kbd>Suppr</kbd>
 
-                \| \| Dupliquer               \|
+\| \| Dupliquer               \|
 
 <kbd>Ctrl</kbd>
 
@@ -210,7 +82,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>D</kbd>
 
-                  \| \| Modifier l'entrée              \|
+\| \| Modifier l'entrée              \|
 
 <kbd>Ctrl</kbd>
 
@@ -218,7 +90,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>E</kbd>
 
-                  \| \| Paramètres spécifiques locaux \|
+\| \| Paramètres spécifiques locaux \|
 
 <kbd>Ctrl</kbd>
 
@@ -230,15 +102,15 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>E</kbd>
 
-   \| \| Nouvelle entrée               \|
+\| \| Nouvelle entrée               \|
 
 <kbd>Ins</kbd>
 
-                                \| \| Renommer                  \|
+\| \| Renommer                  \|
 
 <kbd>F2</kbd>
 
-                                 \| \| Paramètres spécifiques à l'utilisateur  \|
+\| \| Paramètres spécifiques utilisateur  \|
 
 <kbd>Ctrl</kbd>
 
@@ -250,7 +122,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>E</kbd>
 
- \|
+\|
 
 ### Général
 
@@ -262,7 +134,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F</kbd>
 
-                \| \| Forcer l'actualisation \|
+\| \| Forcer l'actualisation \|
 
 <kbd>Ctrl</kbd>
 
@@ -270,11 +142,11 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F5</kbd>
 
-               \| \| Aide en ligne   \|
+\| \| Aide en ligne   \|
 
 <kbd>F1</kbd>
 
-                               \| \| Profileur      \|
+\| \| Profileur      \|
 
 <kbd>Ctrl</kbd>
 
@@ -282,7 +154,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F12</kbd>
 
-              \| \| Connexion rapide \|
+\| \| Connexion rapide \|
 
 <kbd>Ctrl</kbd>
 
@@ -294,19 +166,19 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>Q</kbd>
 
- \| \| Recherche rapide  \|
+\| \| Recherche rapide  \|
 
 <kbd>Ctrl</kbd>
 
 \+
 
-<kbd>Space</kbd>
+<kbd>Espace</kbd>
 
-            \| \| Actualiser       \|
+\| \| Actualiser       \|
 
 <kbd>F5</kbd>
 
-                               \|
+\|
 
 ### Import/Export
 
@@ -322,7 +194,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>I</kbd>
 
- \|
+\|
 
 ### Navigation
 
@@ -338,7 +210,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F</kbd>
 
-     \| \| Focaliser sur le tableau de bord     \|
+\| \| Focus sur le tableau de bord     \|
 
 <kbd>Ctrl</kbd>
 
@@ -350,7 +222,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>L</kbd>
 
-     \| \| Focaliser sur l'onglet           \|
+\| \| Focus sur l'onglet           \|
 
 <kbd>Ctrl</kbd>
 
@@ -360,9 +232,9 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 \+
 
-<kbd>Up</kbd>
+<kbd>Haut</kbd>
 
-    \| \| Focaliser sur l'arborescence/liste     \|
+\| \| Focus sur l'arborescence/liste     \|
 
 <kbd>Ctrl</kbd>
 
@@ -370,7 +242,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>L</kbd>
 
-                      \| \| Aller au signet 1     \|
+\| \| Aller au signet 1     \|
 
 <kbd>Ctrl</kbd>
 
@@ -378,7 +250,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>1</kbd>
 
-                      \| \| Aller au signet 2     \|
+\| \| Aller au signet 2     \|
 
 <kbd>Ctrl</kbd>
 
@@ -386,7 +258,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>2</kbd>
 
-                      \| \| Aller au signet 3     \|
+\| \| Aller au signet 3     \|
 
 <kbd>Ctrl</kbd>
 
@@ -394,7 +266,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>3</kbd>
 
-                      \| \| Aller au signet 4     \|
+\| \| Aller au signet 4     \|
 
 <kbd>Ctrl</kbd>
 
@@ -402,7 +274,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>4</kbd>
 
-                      \| \| Aller au signet 5     \|
+\| \| Aller au signet 5     \|
 
 <kbd>Ctrl</kbd>
 
@@ -410,7 +282,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>5</kbd>
 
-                      \| \| Aller au signet 6     \|
+\| \| Aller au signet 6     \|
 
 <kbd>Ctrl</kbd>
 
@@ -418,7 +290,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>6</kbd>
 
-                      \| \| Aller au signet 7     \|
+\| \| Aller au signet 7     \|
 
 <kbd>Ctrl</kbd>
 
@@ -426,7 +298,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>7</kbd>
 
-                      \| \| Aller au signet 8     \|
+\| \| Aller au signet 8     \|
 
 <kbd>Ctrl</kbd>
 
@@ -434,7 +306,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>8</kbd>
 
-                      \| \| Aller au signet 9     \|
+\| \| Aller au signet 9     \|
 
 <kbd>Ctrl</kbd>
 
@@ -442,7 +314,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>9</kbd>
 
-                      \| \| Rechercher dans le ruban       \|
+\| \| Rechercher dans le ruban       \|
 
 <kbd>Alt</kbd>
 
@@ -450,7 +322,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>Q</kbd>
 
-                       \| \| Sélectionner l'onglet suivant     \|
+\| \| Sélectionner l'onglet suivant     \|
 
 <kbd>Ctrl</kbd>
 
@@ -460,9 +332,9 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 \+
 
-<kbd>Right</kbd>
+<kbd>Droite</kbd>
 
- \| \| Sélectionner l'onglet précédent \|
+\| \| Sélectionner l'onglet précédent \|
 
 <kbd>Ctrl</kbd>
 
@@ -472,9 +344,9 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 \+
 
-<kbd>Left</kbd>
+<kbd>Gauche</kbd>
 
-  \| \| Définir le signet 1      \|
+\| \| Définir le signet 1      \|
 
 <kbd>Ctrl</kbd>
 
@@ -486,7 +358,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>1</kbd>
 
-     \| \| Définir le signet 2      \|
+\| \| Définir le signet 2      \|
 
 <kbd>Ctrl</kbd>
 
@@ -498,7 +370,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>2</kbd>
 
-     \| \| Définir le signet 3      \|
+\| \| Définir le signet 3      \|
 
 <kbd>Ctrl</kbd>
 
@@ -510,7 +382,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>3</kbd>
 
-     \| \| Définir le signet 4      \|
+\| \| Définir le signet 4      \|
 
 <kbd>Ctrl</kbd>
 
@@ -522,7 +394,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>4</kbd>
 
-     \| \| Définir le signet 5      \|
+\| \| Définir le signet 5      \|
 
 <kbd>Ctrl</kbd>
 
@@ -534,7 +406,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>5</kbd>
 
-     \| \| Définir le signet 6      \|
+\| \| Définir le signet 6      \|
 
 <kbd>Ctrl</kbd>
 
@@ -546,7 +418,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>6</kbd>
 
-     \| \| Définir le signet 7      \|
+\| \| Définir le signet 7      \|
 
 <kbd>Ctrl</kbd>
 
@@ -558,7 +430,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>7</kbd>
 
-     \| \| Définir le signet 8      \|
+\| \| Définir le signet 8      \|
 
 <kbd>Ctrl</kbd>
 
@@ -570,7 +442,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>8</kbd>
 
-     \| \| Définir le signet 9      \|
+\| \| Définir le signet 9      \|
 
 <kbd>Ctrl</kbd>
 
@@ -582,7 +454,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>9</kbd>
 
-     \| \| Changer de source de données  \|
+\| \| Changer de source de données  \|
 
 <kbd>Ctrl</kbd>
 
@@ -594,7 +466,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>D</kbd>
 
-     \| \| Changer {{ fr.VLT }} \|
+\| \| Changer {{ fr.VLT }} \|
 
 <kbd>Ctrl</kbd>
 
@@ -606,7 +478,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>R</kbd>
 
-     \|
+\|
 
 ### Affichage
 
@@ -614,7 +486,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F11</kbd>
 
-                                \| \| Tableau de bord                 \|
+\| \| Tableau de bord                 \|
 
 <kbd>Alt</kbd>
 
@@ -622,15 +494,15 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F6</kbd>
 
-                  \| \| Favoris                 \|
+\| \| Favoris                 \|
 
 <kbd>F9</kbd>
 
-                                 \| \| Recherche multi {{ fr.VLT }} \|
+\| \| Recherche multi {{ fr.VLT }} \|
 
 <kbd>F12</kbd>
 
-                                \| \| {{ fr.NPANE }}            \|
+\| \| {{ fr.NPANE }}            \|
 
 <kbd>Alt</kbd>
 
@@ -638,11 +510,11 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F8</kbd>
 
-                  \| \| Sessions ouvertes           \|
+\| \| Sessions ouvertes           \|
 
 <kbd>F8</kbd>
 
-                                 \| \| Gestion de la liste de lecture      \|
+\| \| Gestion de la liste de lecture      \|
 
 <kbd>Ctrl</kbd>
 
@@ -650,7 +522,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>G</kbd>
 
-                  \| \| Basculer en mode vue uniquement RDP      \|
+\| \| Basculer RDP en vue uniquement      \|
 
 <kbd>Shift</kbd>
 
@@ -658,11 +530,11 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F3</kbd>
 
-                \| \| Récent                    \|
+\| \| Récent                    \|
 
 <kbd>F10</kbd>
 
-                                \| \| Barre d'état                \|
+\| \| Barre d'état                \|
 
 <kbd>Alt</kbd>
 
@@ -670,7 +542,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F7</kbd>
 
-                  \| \| Barre d'onglets                   \|
+\| \| Barre d'onglets                   \|
 
 <kbd>Alt</kbd>
 
@@ -682,7 +554,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F6</kbd>
 
- \| \| Volet du groupe d'onglets            \|
+\| \| Volet du groupe d'onglets            \|
 
 <kbd>Ctrl</kbd>
 
@@ -694,7 +566,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F9</kbd>
 
-  \| \| Liste des onglets                  \|
+\| \| Liste des onglets                  \|
 
 <kbd>Ctrl</kbd>
 
@@ -702,7 +574,7 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F9</kbd>
 
-                 \| \| Volet supérieur (Ruban/Barre de menus) \|
+\| \| Volet supérieur (Ruban/Barre de menus) \|
 
 <kbd>Alt</kbd>
 
@@ -710,12 +582,12 @@ Visiter [Personnalisation des raccourcis clavier dans {{ fr.RDMWIN }}](/rdm/kb/r
 
 <kbd>F11</kbd>
 
-                 \| \| {{ fr.UVLT_MAJ }}         \|
+\| \| {{ fr.UVLT_MAJ }}         \|
 
 <kbd>F7</kbd>
 
-                                 \| \| {{ fr.VLT_MAJ }}          \|
+\| \| {{ fr.VLT_MAJ }}          \|
 
 <kbd>F6</kbd>
 
-                                 \|
+\|
