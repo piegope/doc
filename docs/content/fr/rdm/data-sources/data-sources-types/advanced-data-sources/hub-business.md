@@ -1,5 +1,5 @@
 ---
-_schema: défaut
+_schema: default
 eleventyComputed:
   title: '{{ fr.DHUBB }}'
   description: >-
@@ -33,7 +33,7 @@ Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ 
 
 ![Onglet PowerShell](https://cdnweb.devolutions.net/docs/HUBB6005_2024_2.png)
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>ID de locataire</p></td><td><p></p></td></tr><tr><td><p>Mot de passe</p></td><td><p></p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>ID de locataire</p></td><td><p>Entrer l'<em><strong>ID de locataire</strong></em>.</p></td></tr><tr><td><p>Mot de passe</p></td><td><p>Entrer le <em><strong>Mot de passe</strong></em>.</p></td></tr></tbody></table>
 
 ### Avancé
 
