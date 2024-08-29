@@ -14,6 +14,16 @@ Le bouton ***Désactiver tout*** vous permet de désactiver tous les raccourcis.
 
 ![Raccourcis clavier](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2101.png){% endgTab %}
 
+{% gTab, "macOS" %}Voici les raccourcis clavier par défaut pour diverses commandes. Ceux-ci peuvent être modifiés dans ***Fichier – Préférences – Interface utilisateur – Raccourcis***.
+
+Le bouton ***Réinitialiser*** annule toute modification de raccourci qui n'a pas encore été enregistrée. Le bouton ***Restaurer les valeurs par défaut*** rétablit tous les raccourcis à leurs valeurs par défaut.
+
+{% snippet, %}Les boutons ***Réinitialiser*** et ***Restaurer les valeurs par défaut*** effacent vos raccourcis personnalisés, bien que ***Réinitialiser*** n'efface que les modifications non enregistrées. Utilisez ces options avec précaution pour ne pas risquer de perdre vos raccourcis personnalisés.{% endsnippet %}
+
+{% snippet, "badgeInfo" %}Visitez [Personnalisation des raccourcis clavier dans Remote Desktop Manager macOS](/rdm/kb/rdm-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/).{% endsnippet %}
+
+![Raccourcis clavier](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2025.png "Raccourcis clavier"){% endgTab %}
+
 ## Raccourcis par défaut{#default-shortcuts}
 
 {% gTab, "Windows" %}### Actions{#actions}
@@ -466,7 +476,7 @@ Le bouton ***Désactiver tout*** vous permet de désactiver tous les raccourcis.
 
 <kbd>D</kbd>
 
-\| \| Changer {{ fr.VLT }} \|
+\| \| Changer de {{ fr.VLT }} \|
 
 <kbd>Ctrl</kbd>
 
@@ -522,7 +532,7 @@ Le bouton ***Désactiver tout*** vous permet de désactiver tous les raccourcis.
 
 <kbd>G</kbd>
 
-\| \| Basculer RDP en vue uniquement      \|
+\| \| Basculer la vue RDP uniquement      \|
 
 <kbd>Shift</kbd>
 
