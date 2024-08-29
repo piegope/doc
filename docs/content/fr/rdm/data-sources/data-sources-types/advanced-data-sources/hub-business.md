@@ -1,5 +1,5 @@
 ---
-_schema: default
+_schema: défaut
 eleventyComputed:
   title: '{{ fr.DHUBB }}'
   description: >-
@@ -27,7 +27,7 @@ Commencez votre [essai gratuit de {{ fr.DHUBB }}](https://devolutions.net/passwo
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DHUB }}. ![Onglet VPN](https://cdnweb.devolutions.net/docs/HUBB6001_2024_2.png)
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p></p></td></tr><tr><td><p>Fichier RDM</p></td><td><p></p></td></tr><tr><td><p>Nom d'utilisateur</p></td><td><p></p></td></tr><tr><td><p>Domaine</p></td><td><p></p></td></tr><tr><td><p>Mot de passe</p></td><td><p></p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Sélectionner entre <em><strong>Aucun</strong></em> ou <em><strong>À la première connexion</strong></em>.</p></td></tr><tr><td><p>Fichier RDM</p></td><td><p></p></td></tr><tr><td><p>Remplacer les identifiants</p></td><td><p>Remplacer les identifiants tels que <em><strong>Nom d'utilisateur, Domaine</strong></em>, et <em><strong>Mot de passe</strong></em>. </p></td></tr></tbody></table>
 
 ### PowerShell
 
@@ -39,4 +39,4 @@ Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ 
 
 Définir l'intervalle pour l'actualisation automatique. ![Onglet Avancé](https://cdnweb.devolutions.net/docs/HUBB6006_2024_2.png)
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Actualisation automatique</p></td><td><p></p></td></tr><tr><td><p>Inviter à actualiser tous les coffres au démarrage</p></td><td><p></p></td></tr><tr><td><p>Taille maximale du fichier (Mo)</p></td><td><p></p></td></tr><tr><td><p>Délai d'attente de la requête Http</p></td><td><p></p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Actualisation automatique</p></td><td><p></p></td></tr><tr><td><p>Inviter à actualiser tous les coffres au démarrage</p></td><td><p></p></td></tr><tr><td><p>Taille maximale du fichier (Mo)</p></td><td><p></p></td></tr><tr><td><p>Délai d'attente de la requête Http </p></td><td><p></p></td></tr></tbody></table>
