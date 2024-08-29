@@ -34,7 +34,7 @@ Open a VPN to access your data prior to connecting to your {{ en.DHUB }}. ![VPN 
 
 ![PowerShell tab](https://cdnweb.devolutions.net/docs/HUBB6005_2024_2.png)
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Tenant ID</p></td><td><p></p></td></tr><tr><td><p>Password</p></td><td><p></p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Tenant ID</p></td><td><p>Enter the <em><strong>Tenant ID</strong></em>.</p></td></tr><tr><td><p>Password</p></td><td><p>Enter the <em><strong>Password</strong></em>.</p></td></tr></tbody></table>
 
 ### Advanced
 
