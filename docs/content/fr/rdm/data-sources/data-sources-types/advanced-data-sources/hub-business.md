@@ -21,15 +21,13 @@ Commencez votre [essai gratuit de {{ fr.DHUBB }}](https://devolutions.net/passwo
 
 ![Onglet Général](https://cdnweb.devolutions.net/docs/HUBB6004_2024_2.png)
 
-\| OPTION   \| DESCRIPTION                                                        \| \|----------\|--------------------------------------------------------------------\| \| Nom      \| Nom de la source de données.                                        \| \| Nom d'utilisateur \| Votre adresse courriel [{{ fr.DA }}](https://portal.devolutions.com/). \| \| Hôte     \| Copier dans l'***Hôte*** votre URL {{ fr.DHUBB }} (ex : https://windjammer.devolutions.app/) ou cliquer sur les 3 points pour obtenir une liste déroulante à sélectionner. \|
-
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Nom</p></td><td><p>Nom de la source de données.</p></td></tr><tr><td><p>Courriel</p></td><td><p>Votre adresse courriel <a href="https://portal.devolutions.com/">Devolutions account</a>.</p></td></tr><tr><td><p>Hôte</p></td><td><p>Copier dans l'<em><strong>Hôte</strong></em> votre URL Devolutions Hub Business (ex : https://windjammer.devolutions.app/) ou cliquer sur les 3 points pour obtenir une liste déroulante à sélectionner.</p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Nom</p></td><td><p>Nom de la source de données.</p></td></tr><tr><td><p>Courriel</p></td><td><p>L'adresse courriel de votre <a href="https://portal.devolutions.com/">compte Devolutions</a>.</p></td></tr><tr><td><p>Hôte</p></td><td><p>Copier dans l'<em><strong>Hôte</strong></em> votre URL Devolutions Hub Business (ex : https://windjammer.devolutions.app/) ou cliquer sur les 3 points pour obtenir une liste déroulante à sélectionner.</p></td></tr></tbody></table>
 
 ### VPN
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DHUB }}. ![Onglet VPN](https://cdnweb.devolutions.net/docs/HUBB6001_2024_2.png)
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Sélectionner entre <em><strong>Aucun</strong></em> ou <em><strong>À la première connexion</strong></em>.</p></td></tr><tr><td><p>Fichier RDM</p></td><td><p></p></td></tr><tr><td><p>Remplacer les identifiants</p></td><td><p>Remplacer les identifiants tels que <em><strong>Nom d'utilisateur, Domaine</strong></em>, et <em><strong>Mot de passe</strong></em>. </p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Sélectionner entre <em><strong>Aucun</strong></em> ou <em><strong>À la première connexion</strong></em>.</p></td></tr><tr><td><p>Fichier RDM</p></td><td><p></p></td></tr><tr><td><p>Remplacer les identifiants</p></td><td><p>Remplacer les identifiants tels que <em><strong>Nom d'utilisateur, Domaine</strong></em>, et <em><strong>Mot de passe</strong></em>.</p></td></tr></tbody></table>
 
 ### PowerShell
 
@@ -39,6 +37,6 @@ Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ 
 
 ### Avancé
 
-Définir l'intervalle pour l'actualisation automatique. ![Onglet Avancé](https://cdnweb.devolutions.net/docs/HUBB6006_2024_2.png)
+Définir l'intervalle pour le rafraîchissement automatique. ![Onglet Avancé](https://cdnweb.devolutions.net/docs/HUBB6006_2024_2.png)
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Actualisation automatique</p></td><td><p>Sélectionner l'intervalle de temps pour actualiser automatiquement la source de données.</p></td></tr><tr><td><p>Inviter à actualiser tous les coffres au démarrage</p></td><td><p></p></td></tr><tr><td><p>Taille maximale du fichier (Mo)</p></td><td><p>Choisir la <em><strong>taille maximale du fichier (Mo)</strong></em> à appliquer aux <em><strong>documents</strong></em> et <em><strong>pièces jointes</strong></em>.</p></td></tr><tr><td><p>Délai d'attente de la requête Http </p></td><td><p>Sélectionner l'intervalle de temps pour le <em><strong>délai d'attente de la requête Http</strong></em>.</p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Rafraîchissement automatique</p></td><td><p>Sélectionner l'intervalle de temps pour rafraîchir automatiquement la source de données.</p></td></tr><tr><td><p>Inviter à rafraîchir tous les coffres au démarrage</p></td><td><p>Inviter à rafraîchir tous les coffres au démarrage.</p></td></tr><tr><td><p>Taille maximale du fichier (Mo)</p></td><td><p>Choisir la <em><strong>taille maximale du fichier (Mo)</strong></em> à appliquer aux <em><strong>documents</strong></em> et <em><strong>pièces jointes</strong></em>.</p></td></tr><tr><td><p>Délai d'attente de la requête Http</p></td><td><p>Sélectionner l'intervalle de temps pour le <em><strong>délai d'attente de la requête Http</strong></em>.</p></td></tr></tbody></table>
