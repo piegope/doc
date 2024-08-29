@@ -7,9 +7,9 @@ eleventyComputed:
     you to provide them logs to provide more information to our engineering
     department, please follow these steps according to your browser.
 ---
-When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you to provide them logs to provide more information to our engineering department, please follow these steps according to your browser.
+When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you to provide them logs to provide more information to our engineering department. Please follow these steps according to your browser.
 
-### Brave
+## Brave
 
 1. In your browser, right-click on the {{ en.WBEX }} icon.
 2. Click on ***Manage Extension***.
@@ -20,7 +20,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 7. In the ***Network*** tab, one of the items in the list should be in red, this is the event where {{ en.RDM }} failed to retrieve the credentials. Click on it.
 8. Take a screenshot of the full message displayed and send it to [service@devolutions.net](mailto:service@devolutions.net).
 
-### Chrome
+## Chrome
 
 1. In your browser, right-click on the {{ en.WBEX }} icon.
 2. Click on ***Manage Extension***.
@@ -31,7 +31,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 7. In the ***Network*** tab, one of the items in the list should be in red, this is the event where {{ en.RDM }} failed to retrieve the credentials. Click on it.
 8. Take a screenshot of the full message displayed and send it to [service@devolutions.net](mailto:service@devolutions.net).
 
-### Edge
+## Edge
 
 1. In your browser, right-click on the {{ en.WBEX }} icon.
 2. Click on ***Manage Extension***.
@@ -42,7 +42,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 7. In the ***Network*** tab, one of the items in the list should be in red, this is the event where {{ en.RDM }} failed to retrieve the credentials. Click on it.
 8. Take a screenshot of the full message displayed and send it to [service@devolutions.net](mailto:service@devolutions.net).
 
-### Firefox
+## Firefox
 
 1. Enter ***about:debugging#/runtime/this-firefox*** in the URL bar.
 2. Next to the {{ en.WBEX }}, click ***Inspect***. ![Inspect](https://cdnweb.devolutions.net/docs/WBEX6003_2024_2.png)
@@ -52,7 +52,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 6. In the ***Network*** tab, one of the items in the list should be in red, this is the event where {{ en.RDM }} failed to retrieve the credentials. Click on it.
 7. Take a screenshot of the full message displayed and send it to [service@devolutions.net](mailto:service@devolutions.net).
 
-### Opera
+## Opera
 
 1. In your browser, right-click on the {{ en.WBEX }} icon.
 2. Click on ***Manage Extension***.
