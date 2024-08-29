@@ -11,7 +11,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 
 ## Brave
 
-1. In your browser, right-click on the {{ en.WBEX }} icon.
+1. In your browser, ***right-click on the {{ en.WBEX }} icon.***
 2. Click on ***Manage Extension***.
 3. Toggle on the ***Developer mode***.
 4. In the same window, under ***Inspect views***, click on the ***service worker*** link. This will open the browser ***DevTools*** window.
@@ -22,7 +22,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 
 ## Chrome
 
-1. In your browser, right-click on the {{ en.WBEX }} icon.
+1. In your browser, r***ight-click on the {{ en.WBEX }} icon.***
 2. Click on ***Manage Extension***.
 3. Toggle on the ***Developer mode***. ![Developer mode](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4786.png)
 4. In the same window, under ***Inspect views***, click on the ***service worker*** link. This will open the browser ***DevTools*** window.
@@ -33,7 +33,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 
 ## Edge
 
-1. In your browser, right-click on the {{ en.WBEX }} icon.
+1. In your browser, ***right-click on the {{ en.WBEX }} icon.***
 2. Click on ***Manage Extension***.
 3. Toggle on the ***Developer mode***. ![Developer mode](https://cdnweb.devolutions.net/docs/WBEX6010_2024_2.png)
 4. In the same window, under ***Inspect views***, click on the ***service worker*** link. This will open the browser ***DevTools*** window.
@@ -54,7 +54,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 
 ## Opera
 
-1. In your browser, right-click on the {{ en.WBEX }} icon.
+1. In your browser, ***right-click on the {{ en.WBEX }} icon.***
 2. Click on ***Manage Extension***.
 3. Toggle on the ***Developer mode***. ![Developer mode](https://cdnweb.devolutions.net/docs/WBEX6009_2024_2.png)
 4. In the same window, under ***Inspect views***, click on the ***service worker*** link. This will open the browser ***DevTools*** window. ![service worker](https://cdnweb.devolutions.net/docs/WBEX6007_2024_2.png)
