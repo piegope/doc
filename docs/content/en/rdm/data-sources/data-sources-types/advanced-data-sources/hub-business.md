@@ -24,6 +24,8 @@ Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/busi
 
 \| OPTION   \| DESCRIPTION                                                        \| \|----------\|--------------------------------------------------------------------\| \| Name     \| Name of the data source.                                           \| \| Username \| Your [{{ en.DA }}](https://portal.devolutions.com/) email address. \| \| Host     \| Copy in the ***Host*** your {{ en.DHUBB }} URL (ex: https://windjammer.devolutions.app/) or click on the 3 dots to get a drop-down list to select from. \|
 
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Name</p></td><td><p>Name of the data source.</p></td></tr><tr><td><p>Email</p></td><td><p>Your <a href="https://portal.devolutions.com/">Devolutions account</a> email address.</p></td></tr><tr><td><p>Host</p></td><td><p>Copy in the <em><strong>Host</strong></em> your Devolutions Hub Business URL (ex: https://windjammer.devolutions.app/) or click on the 3 dots to get a drop-down list to select from.</p></td></tr></tbody></table>
+
 ### VPN
 
 Open a VPN to access your data prior to connecting to your {{ en.DHUB }}. ![VPN tab](https://cdnweb.devolutions.net/docs/HUBB6001_2024_2.png)
