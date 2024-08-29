@@ -4,149 +4,21 @@ eleventyComputed:
   title: Keyboard shortcuts
   description: Here are the default keyboard shortcuts for various commands.
 ---
-Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Settings – User Interface – Keyboard***.
+{% gTab, "Windows" %}Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Settings – User Interface – Keyboard***.
 
 The ***Disable All*** button allows you to disable all shortcuts. The ***Reset Default*** button returns shortcuts to their default values.
 
-{% snippet, "badgeCaution" %}
-Both the ***Disable All*** and ***Reset Default*** buttons will erase your custom shortcuts. Use these options with care so as not to risk losing your custom shortcuts.
-{% endsnippet %}
+{% snippet, "badgeCaution" %}Both the ***Disable All*** and ***Reset Default*** buttons will erase your custom shortcuts. Use these options with care so as not to risk losing your custom shortcuts.{% endsnippet %}
 
-{% snippet, "badgeInfo" %}
-Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).
-{% endsnippet %}
+{% snippet, "badgeInfo" %}Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/how-to-articles/keyboard-shortcuts-customization-rdm-windows/).{% endsnippet %}
 
-![Keyboard shortcuts](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2101.png)
+![Keyboard shortcuts](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2101.png){% endgTab %}
 
-## Default shortcuts
+## Default shortcuts{#default-shortcuts}
 
-### Actions
+{% gTab, "Windows" %}### Actions{#actions}
 
-\| NAME                               \| SHORTCUT                                      \| \|------------------------------------\|-----------------------------------------------\| \| Clipboard - Copy Connection String \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Alt</kbd>
-
-\+
-
-<kbd>H</kbd>
-
-   \| \| Clipboard - Copy Domain            \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Alt</kbd>
-
-\+
-
-<kbd>B</kbd>
-
-   \| \| Clipboard - Copy Host              \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>H</kbd>
-
-                  \| \| Clipboard - Copy Password          \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Shift</kbd>
-
-\+
-
-<kbd>B</kbd>
-
- \| \| Clipboard - Copy Url               \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Shift</kbd>
-
-\+
-
-<kbd>H</kbd>
-
- \| \| Clipboard - Copy Username          \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>B</kbd>
-
-                  \| \| Execute command from palette       \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Shift</kbd>
-
-\+
-
-<kbd>P</kbd>
-
- \| \| Execute Typing Macro               \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Shift</kbd>
-
-\+
-
-<kbd>A</kbd>
-
- \| \| Navigate URL                       \|
-
-<kbd>Enter</kbd>
-
-                              \| \| Open (Embedded/Tabbed)             \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>Enter</kbd>
-
-              \| \| Open (External)                    \|
-
-<kbd>Shift</kbd>
-
-\+
-
-<kbd>Enter</kbd>
-
-             \| \| Open Full screen                   \|
-
-<kbd>Alt</kbd>
-
-\+
-
-<kbd>Enter</kbd>
-
-               \| \| View Password                      \|
-
-<kbd>Ctrl</kbd>
-
-\+
-
-<kbd>P</kbd>
-
-                  \|
+<table><thead><tr><th><p>Name</p></th><th><p>Shortcut</p></th></tr></thead><tbody><tr><td><p>Clipboard - Copy Connection String</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>H</kbd></p></td></tr><tr><td><p>Clipboard - Copy Domain</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd></p></td></tr><tr><td><p>Clipboard - Copy Host</p></td><td><p><kbd>Ctrl</kbd> + <kbd>H</kbd></p></td></tr><tr><td><p>Clipboard - Copy Password</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd></p></td></tr><tr><td><p>Clipboard - Copy Url</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd></p></td></tr><tr><td><p>Clipboard - Copy Username</p></td><td><p><kbd>Ctrl</kbd> + <kbd>B</kbd></p></td></tr><tr><td><p>Execute command from palette</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd></p></td></tr><tr><td><p>Execute Typing Macro</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd></p></td></tr><tr><td><p>Navigate URL</p></td><td><p><kbd>Enter</kbd></p></td></tr><tr><td><p>Open (Embedded/Tabbed)</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Enter</kbd></p></td></tr><tr><td><p>Open (External)</p></td><td><p><kbd>Shift</kbd> + <kbd>Enter</kbd></p></td></tr><tr><td><p>Open Full screen</p></td><td><p><kbd>Alt</kbd> + <kbd>Enter</kbd></p></td></tr><tr><td><p>View Password</p></td><td><p><kbd>Ctrl</kbd> + <kbd>P</kbd></p></td></tr></tbody></table>{% endgTab %}
 
 ### Edit
 
@@ -162,7 +34,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>N</kbd>
 
-  \| \| Add Folder              \|
+\| \| Add Folder              \|
 
 <kbd>Ctrl</kbd>
 
@@ -174,7 +46,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>N</kbd>
 
- \| \| Add Information         \|
+\| \| Add Information         \|
 
 <kbd>Ctrl</kbd>
 
@@ -186,7 +58,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>N</kbd>
 
-   \| \| Add Session             \|
+\| \| Add Session             \|
 
 <kbd>Ctrl</kbd>
 
@@ -194,7 +66,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>N</kbd>
 
-                  \| \| Delete                  \|
+\| \| Delete                  \|
 
 <kbd>Ctrl</kbd>
 
@@ -202,7 +74,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>Del</kbd>
 
-                \| \| Duplicate               \|
+\| \| Duplicate               \|
 
 <kbd>Ctrl</kbd>
 
@@ -210,7 +82,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>D</kbd>
 
-                  \| \| Edit Entry              \|
+\| \| Edit Entry              \|
 
 <kbd>Ctrl</kbd>
 
@@ -218,7 +90,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>E</kbd>
 
-                  \| \| Local Specific Settings \|
+\| \| Local Specific Settings \|
 
 <kbd>Ctrl</kbd>
 
@@ -230,15 +102,15 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>E</kbd>
 
-   \| \| New Entry               \|
+\| \| New Entry               \|
 
 <kbd>Ins</kbd>
 
-                                \| \| Rename                  \|
+\| \| Rename                  \|
 
 <kbd>F2</kbd>
 
-                                 \| \| User Specific Settings  \|
+\| \| User Specific Settings  \|
 
 <kbd>Ctrl</kbd>
 
@@ -250,7 +122,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>E</kbd>
 
- \|
+\|
 
 ### General
 
@@ -262,7 +134,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F</kbd>
 
-                \| \| Force Refresh \|
+\| \| Force Refresh \|
 
 <kbd>Ctrl</kbd>
 
@@ -270,11 +142,11 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F5</kbd>
 
-               \| \| Online Help   \|
+\| \| Online Help   \|
 
 <kbd>F1</kbd>
 
-                               \| \| Profiler      \|
+\| \| Profiler      \|
 
 <kbd>Ctrl</kbd>
 
@@ -282,7 +154,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F12</kbd>
 
-              \| \| Quick Connect \|
+\| \| Quick Connect \|
 
 <kbd>Ctrl</kbd>
 
@@ -294,7 +166,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>Q</kbd>
 
- \| \| Quick Search  \|
+\| \| Quick Search  \|
 
 <kbd>Ctrl</kbd>
 
@@ -302,11 +174,11 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>Space</kbd>
 
-            \| \| Refresh       \|
+\| \| Refresh       \|
 
 <kbd>F5</kbd>
 
-                               \|
+\|
 
 ### Import/Export
 
@@ -322,7 +194,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>I</kbd>
 
- \|
+\|
 
 ### Navigation
 
@@ -338,7 +210,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F</kbd>
 
-     \| \| Focus Dashboard     \|
+\| \| Focus Dashboard     \|
 
 <kbd>Ctrl</kbd>
 
@@ -350,7 +222,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>L</kbd>
 
-     \| \| Focus Tab           \|
+\| \| Focus Tab           \|
 
 <kbd>Ctrl</kbd>
 
@@ -362,7 +234,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>Up</kbd>
 
-    \| \| Focus Tree/List     \|
+\| \| Focus Tree/List     \|
 
 <kbd>Ctrl</kbd>
 
@@ -370,7 +242,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>L</kbd>
 
-                      \| \| Goto Bookmark 1     \|
+\| \| Goto Bookmark 1     \|
 
 <kbd>Ctrl</kbd>
 
@@ -378,7 +250,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>1</kbd>
 
-                      \| \| Goto Bookmark 2     \|
+\| \| Goto Bookmark 2     \|
 
 <kbd>Ctrl</kbd>
 
@@ -386,7 +258,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>2</kbd>
 
-                      \| \| Goto Bookmark 3     \|
+\| \| Goto Bookmark 3     \|
 
 <kbd>Ctrl</kbd>
 
@@ -394,7 +266,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>3</kbd>
 
-                      \| \| Goto Bookmark 4     \|
+\| \| Goto Bookmark 4     \|
 
 <kbd>Ctrl</kbd>
 
@@ -402,7 +274,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>4</kbd>
 
-                      \| \| Goto Bookmark 5     \|
+\| \| Goto Bookmark 5     \|
 
 <kbd>Ctrl</kbd>
 
@@ -410,7 +282,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>5</kbd>
 
-                      \| \| Goto Bookmark 6     \|
+\| \| Goto Bookmark 6     \|
 
 <kbd>Ctrl</kbd>
 
@@ -418,7 +290,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>6</kbd>
 
-                      \| \| Goto Bookmark 7     \|
+\| \| Goto Bookmark 7     \|
 
 <kbd>Ctrl</kbd>
 
@@ -426,7 +298,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>7</kbd>
 
-                      \| \| Goto Bookmark 8     \|
+\| \| Goto Bookmark 8     \|
 
 <kbd>Ctrl</kbd>
 
@@ -434,7 +306,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>8</kbd>
 
-                      \| \| Goto Bookmark 9     \|
+\| \| Goto Bookmark 9     \|
 
 <kbd>Ctrl</kbd>
 
@@ -442,7 +314,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>9</kbd>
 
-                      \| \| Search Ribbon       \|
+\| \| Search Ribbon       \|
 
 <kbd>Alt</kbd>
 
@@ -450,7 +322,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>Q</kbd>
 
-                       \| \| Select Next Tab     \|
+\| \| Select Next Tab     \|
 
 <kbd>Ctrl</kbd>
 
@@ -462,7 +334,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>Right</kbd>
 
- \| \| Select Previous Tab \|
+\| \| Select Previous Tab \|
 
 <kbd>Ctrl</kbd>
 
@@ -474,7 +346,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>Left</kbd>
 
-  \| \| Set Bookmark 1      \|
+\| \| Set Bookmark 1      \|
 
 <kbd>Ctrl</kbd>
 
@@ -486,7 +358,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>1</kbd>
 
-     \| \| Set Bookmark 2      \|
+\| \| Set Bookmark 2      \|
 
 <kbd>Ctrl</kbd>
 
@@ -498,7 +370,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>2</kbd>
 
-     \| \| Set Bookmark 3      \|
+\| \| Set Bookmark 3      \|
 
 <kbd>Ctrl</kbd>
 
@@ -510,7 +382,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>3</kbd>
 
-     \| \| Set Bookmark 4      \|
+\| \| Set Bookmark 4      \|
 
 <kbd>Ctrl</kbd>
 
@@ -522,7 +394,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>4</kbd>
 
-     \| \| Set Bookmark 5      \|
+\| \| Set Bookmark 5      \|
 
 <kbd>Ctrl</kbd>
 
@@ -534,7 +406,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>5</kbd>
 
-     \| \| Set Bookmark 6      \|
+\| \| Set Bookmark 6      \|
 
 <kbd>Ctrl</kbd>
 
@@ -546,7 +418,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>6</kbd>
 
-     \| \| Set Bookmark 7      \|
+\| \| Set Bookmark 7      \|
 
 <kbd>Ctrl</kbd>
 
@@ -558,7 +430,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>7</kbd>
 
-     \| \| Set Bookmark 8      \|
+\| \| Set Bookmark 8      \|
 
 <kbd>Ctrl</kbd>
 
@@ -570,7 +442,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>8</kbd>
 
-     \| \| Set Bookmark 9      \|
+\| \| Set Bookmark 9      \|
 
 <kbd>Ctrl</kbd>
 
@@ -582,7 +454,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>9</kbd>
 
-     \| \| Switch Data Source  \|
+\| \| Switch Data Source  \|
 
 <kbd>Ctrl</kbd>
 
@@ -594,7 +466,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>D</kbd>
 
-     \| \| Switch {{ en.VLT }} \|
+\| \| Switch {{ en.VLT }} \|
 
 <kbd>Ctrl</kbd>
 
@@ -606,7 +478,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>R</kbd>
 
-     \|
+\|
 
 ### View
 
@@ -614,7 +486,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F11</kbd>
 
-                                \| \| Dashboard                 \|
+\| \| Dashboard                 \|
 
 <kbd>Alt</kbd>
 
@@ -622,15 +494,15 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F6</kbd>
 
-                  \| \| Favorites                 \|
+\| \| Favorites                 \|
 
 <kbd>F9</kbd>
 
-                                 \| \| Multi {{ en.VLT }} Search \|
+\| \| Multi {{ en.VLT }} Search \|
 
 <kbd>F12</kbd>
 
-                                \| \| {{ en.NPANE }}            \|
+\| \| {{ en.NPANE }}            \|
 
 <kbd>Alt</kbd>
 
@@ -638,11 +510,11 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F8</kbd>
 
-                  \| \| Opened Sessions           \|
+\| \| Opened Sessions           \|
 
 <kbd>F8</kbd>
 
-                                 \| \| Play List Management      \|
+\| \| Play List Management      \|
 
 <kbd>Ctrl</kbd>
 
@@ -650,7 +522,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>G</kbd>
 
-                  \| \| RDP Toggle View Only      \|
+\| \| RDP Toggle View Only      \|
 
 <kbd>Shift</kbd>
 
@@ -658,11 +530,11 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F3</kbd>
 
-                \| \| Recent                    \|
+\| \| Recent                    \|
 
 <kbd>F10</kbd>
 
-                                \| \| Status Bar                \|
+\| \| Status Bar                \|
 
 <kbd>Alt</kbd>
 
@@ -670,7 +542,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F7</kbd>
 
-                  \| \| Tab Bar                   \|
+\| \| Tab Bar                   \|
 
 <kbd>Alt</kbd>
 
@@ -682,7 +554,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F6</kbd>
 
- \| \| Tab Group Pane            \|
+\| \| Tab Group Pane            \|
 
 <kbd>Ctrl</kbd>
 
@@ -694,7 +566,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F9</kbd>
 
-  \| \| Tab List                  \|
+\| \| Tab List                  \|
 
 <kbd>Ctrl</kbd>
 
@@ -702,7 +574,7 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F9</kbd>
 
-                 \| \| Top Pane (Ribbon/Menubar) \|
+\| \| Top Pane (Ribbon/Menubar) \|
 
 <kbd>Alt</kbd>
 
@@ -710,12 +582,12 @@ Visit [Keyboard shortcuts customization in {{ en.RDMWIN }}](/rdm/kb/rdm-windows/
 
 <kbd>F11</kbd>
 
-                 \| \| {{ en.UVLT_MAJ }}         \|
+\| \| {{ en.UVLT_MAJ }}         \|
 
 <kbd>F7</kbd>
 
-                                 \| \| {{ en.VLT_MAJ }}          \|
+\| \| {{ en.VLT_MAJ }}          \|
 
 <kbd>F6</kbd>
 
-                                 \|
+\|
