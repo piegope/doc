@@ -31,15 +31,24 @@ The following properties can be configured when creating or editing the entry.
 | ***Certificate method***     |                        |
 | ***PIN***                    |                        |
 
-![SSH key tab](https://cdnweb.devolutions.net/docs/RDMW0028_2024_2.png)
+![General sub-tab](https://cdnweb.devolutions.net/docs/RDMW0028_2024_2.png)
 
 ## SSH key tab
+### General
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
 |                   |                        |
 
-![]()
+![General sub-tab](https://cdnweb.devolutions.net/docs/RDMW0028_2024_2.png)
+
+### Certificate
+| SETTINGS          | DESCRIPTION            |
+|-------------------|------------------------|
+| ***Name***        | The name of the entry. |
+|                   |                        |
+
+![Proxy tab](https://cdnweb.devolutions.net/docs/RDMW0030_2024_2.png)
 
 ## Proxy tab
 | SETTINGS          | DESCRIPTION            |
@@ -47,7 +56,7 @@ The following properties can be configured when creating or editing the entry.
 | ***Name***        | The name of the entry. |
 |                   |                        |
 
-![]()
+![SSH gateway tab](https://cdnweb.devolutions.net/docs/RDMW0031_2024_2.png)
 
 ## SSH gateway tab
 | SETTINGS          | DESCRIPTION            |
@@ -55,7 +64,7 @@ The following properties can be configured when creating or editing the entry.
 | ***Name***        | The name of the entry. |
 |                   |                        |
 
-![]()
+![Post login tab](https://cdnweb.devolutions.net/docs/RDMW0032_2024_2.png)
 
 ## Post login tab
 | SETTINGS          | DESCRIPTION            |
@@ -63,7 +72,7 @@ The following properties can be configured when creating or editing the entry.
 | ***Name***        | The name of the entry. |
 |                   |                        |
 
-![]()
+![Before close tab](https://cdnweb.devolutions.net/docs/RDMW0033_2024_2.png)
 
 ## Before close tab
 | SETTINGS          | DESCRIPTION            |
@@ -71,23 +80,49 @@ The following properties can be configured when creating or editing the entry.
 | ***Name***        | The name of the entry. |
 |                   |                        |
 
-![]()
+![Configuration](https://cdnweb.devolutions.net/docs/RDMW0034_2024_2.png)
 
 ## Terminal tab
+### Configuration
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
 |                   |                        |
 
-![]()
+![Display](https://cdnweb.devolutions.net/docs/RDMW0035_2024_2.png)
+
+### Display
+| SETTINGS          | DESCRIPTION            |
+|-------------------|------------------------|
+| ***Name***        | The name of the entry. |
+|                   |                        |
+
+![Advanced](https://cdnweb.devolutions.net/docs/RDMW0036_2024_2.png)
+
+### Advanced
+| SETTINGS          | DESCRIPTION            |
+|-------------------|------------------------|
+| ***Name***        | The name of the entry. |
+|                   |                        |
+
+![General](https://cdnweb.devolutions.net/docs/RDMW00_2024_2.png)
 
 ## Keyboard tab
+### General
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
 |                   |                        |
 
-![]()
+![Key mapping](https://cdnweb.devolutions.net/docs/RDMW00_2024_2.png)
+
+### Key mapping
+| SETTINGS          | DESCRIPTION            |
+|-------------------|------------------------|
+| ***Name***        | The name of the entry. |
+|                   |                        |
+
+![X11 forwarding tab](https://cdnweb.devolutions.net/docs/RDMW00_2024_2.png)
 
 ## X11 forwarding tab
 | SETTINGS          | DESCRIPTION            |
@@ -95,7 +130,7 @@ The following properties can be configured when creating or editing the entry.
 | ***Name***        | The name of the entry. |
 |                   |                        |
 
-![]()
+![Logs tab](https://cdnweb.devolutions.net/docs/RDMW00_2024_2.png)
 
 ## Logs tab
 | SETTINGS          | DESCRIPTION            |
@@ -103,7 +138,7 @@ The following properties can be configured when creating or editing the entry.
 | ***Name***        | The name of the entry. |
 |                   |                        |
 
-![]()
+![Macro tab](https://cdnweb.devolutions.net/docs/RDMW00_2024_2.png)
 
 ## Macro tab
 | SETTINGS          | DESCRIPTION            |
@@ -111,12 +146,10 @@ The following properties can be configured when creating or editing the entry.
 | ***Name***        | The name of the entry. |
 |                   |                        |
 
-![]()
+![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW00_2024_2.png)
 
 ## Advanced tab
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
 |                   |                        |
-
-![]()
