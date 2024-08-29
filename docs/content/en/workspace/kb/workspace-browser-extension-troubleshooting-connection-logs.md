@@ -2,7 +2,8 @@
 _schema: default
 eleventyComputed:
   title: '{{ en.WBEX }} troubleshooting connection logs'
-  description: When an issue occurs with the {{ en.WBEX }}, the support personnel may ask
+  description: >-
+    When an issue occurs with the {{ en.WBEX }}, the support personnel may ask
     you to provide them logs to provide more information to our engineering
     department, please follow these steps according to your browser.
 ---
@@ -21,7 +22,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 
 ## Chrome
 
-1. In your browser, r***ight-click on the {{ en.WBEX }} icon.***
+1. In your browser, ***right-click on the {{ en.WBEX }} icon.***
 2. Click on ***Manage Extension***.
 3. Toggle on the ***Developer mode***. ![Developer mode](https://cdnweb.devolutions.net/docs/docs_en_kb_KB4786.png)
 4. In the same window, under ***Inspect views***, click on the ***service worker*** link. This will open the browser ***DevTools*** window.
@@ -45,7 +46,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 
 1. Enter ***about:debugging#/runtime/this-firefox*** in the URL bar.
 2. Next to the {{ en.WBEX }}, click ***Inspect***. This will open the browser ***DevTools*** window. ![Inspect](https://cdnweb.devolutions.net/docs/WBEX6003_2024_2.png)
-3. In the ***DevTools*** window click on ***Network***.
+3. In the ***DevTools*** window click on ***Network***. ![Network](https://cdnweb.devolutions.net/docs/WBEX6005_2024_2.png)
 4. In the ***Network*** tab, one of the items in the list should be in red, this is the event where {{ en.RDM }} failed to retrieve the credentials. Click on it.
 5. Take a screenshot of the full message displayed and send it to [service@devolutions.net](mailto:service@devolutions.net). ![Network](https://cdnweb.devolutions.net/docs/WBEX6005_2024_2.png)
 
