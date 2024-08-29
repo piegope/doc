@@ -14,6 +14,16 @@ The ***Disable All*** button allows you to disable all shortcuts. The ***Reset D
 
 ![Keyboard shortcuts](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2101.png){% endgTab %}
 
+{% gTab, "macOS" %}Here are the default keyboard shortcuts for various commands. These can be modified in ***File – Preferences – User Interface – Shortcuts***.
+
+The ***Reset*** button undoes any shortcut custom changes that have not yet been saved. The ***Restore Defaults*** button returns all shortcuts to their default values.
+
+{% snippet, %}The ***Reset*** and ***Restore Defaults*** buttons erase your custom shortcuts, although ***Reset*** only erases unsaved changes. Use these options with care so as not to risk losing your custom shortcuts.{% endsnippet %}
+
+{% snippet, "badgeInfo" %}Visit [Keyboard shortcut customization in Remote Desktop Manager macOS](/rdm/kb/rdm-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/).{% endsnippet %}
+
+![Keyboard shortcuts](https://cdnweb.devolutions.net/docs/docs_en_rdm_mac_RDMMac2025.png "Keyboard shortcuts"){% endgTab %}
+
 ## Default shortcuts{#default-shortcuts}
 
 {% gTab, "Windows" %}### Actions{#actions}
