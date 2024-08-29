@@ -1,18 +1,17 @@
 ---
 _schema: default
 eleventyComputed:
-  title: Approbations de réservation
+  title: Demandes de réservation
   description: >-
-    Les approbations de réservation dans Devolutions PAM nécessitent qu'une autre personne approuve
-    la réservation d'un compte privilégié.
+    Les demandes de réservation dans Devolutions PAM nécessitent qu'une autre personne approuve la réservation d'un compte privilégié.
 ---
-***Approbations de réservation*** dans Devolutions PAM nécessitent qu'une autre personne approuve la réservation d'un compte privilégié. Souvent, cela peut être un gestionnaire, un chef d'équipe ou une équipe de sécurité dédiée qui effectue ces approbations.
+***Demandes de réservation*** dans Devolutions PAM nécessitent qu'une autre personne approuve la réservation d'un compte privilégié. Souvent, cela peut être un gestionnaire, un chef d'équipe ou une équipe de sécurité dédiée qui effectue ces approbations.
 
 ### Alias
 
-* CyberArk : Contrôle dual
+* CyberArk : Double contrôle
 
-### Sujets associés
+### Sujets connexes
 
 * [Processus de réservation dans {{ fr.DVLS }}](/pam/server/checkout-process/)
 * [Approuver l'accès à un compte privilégié dans {{ fr.DHUBB }}](/pam/hub/privileged-accounts/approve-access-privileged-account/)
@@ -24,4 +23,4 @@ eleventyComputed:
 * [Comptes privilégiés ({{ fr.DVLS }})](/pam/server/accounts/)
 * [Comptes privilégiés ({{ fr.DHUBB }})](/pam/hub/privileged-accounts/)
 * [Glossaire des termes courants de la gestion des accès privilégiés (PAM)](https://blog.devolutions.net/2021/01/glossary-of-common-privileged-access-management-pam-terms/)
-* [Besoin d'une assurance cybersécurité ? Alors vous avez probablement aussi besoin de PAM](https://blog.devolutions.net/2023/10/need-cybersecurity-insurance-then-you-probably-need-pam-too/)
+* [Besoin d'une cyberassurance ? Alors vous avez probablement besoin de PAM aussi](https://blog.devolutions.net/2023/10/need-cybersecurity-insurance-then-you-probably-need-pam-too/)

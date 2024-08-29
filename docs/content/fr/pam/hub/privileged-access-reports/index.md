@@ -1,9 +1,12 @@
 ---
+_schema: défaut
 eleventyComputed:
-  title: Rapports d'accès privilégiés
-  order: 50
-  description: La section Accès Privilégiés des Rapports fournit aux administrateurs des outils de journalisation relatifs aux tâches et aux demandes de réservation.
+  title: Rapports d'accès privilégié
+  description: >-
+    La section Accès Privilégié des Rapports fournit aux administrateurs des
+    outils de journalisation concernant les tâches et les demandes de
+    réservation.
 ---
-La section ***Accès Privilégiés*** des ***Rapports*** fournit aux administrateurs des outils de journalisation relatifs aux [***Tâches***](/pam/hub/privileged-access-reports/tasks/) et aux [***Demandes de réservation***](/pam/hub/privileged-access-reports/check-out-requests/).
+La section ***Accès Privilégié*** des ***Rapports*** fournit aux administrateurs des outils de journalisation concernant les [***Tâches***](/pam/hub/privileged-access-reports/tasks/) et les [***Demandes de réservation***](/pam/hub/privileged-access-reports/check-out-requests/).
 
-![Rapports – Accès Privilégiés](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2297.png)
+![Reports – Privileged Access](https://cdnweb.devolutions.net/docs/HUBB6003_2024_2.png)

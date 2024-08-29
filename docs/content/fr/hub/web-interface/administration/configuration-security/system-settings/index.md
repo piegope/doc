@@ -1,49 +1,56 @@
 ---
 eleventyComputed:
-  title: Paramètres du système
+  title: Paramètres système
+  description: La section Paramètres système du panneau d'administration est utilisée pour gérer les paramètres globaux de tous les utilisateurs et groupes d'utilisateurs dans {{ fr.DHUBB }}.  
 ---
-La section ***Paramètres du système*** du panneau ***Administration*** est utilisée pour gérer les paramètres globaux de tous les utilisateurs et groupes d'utilisateurs de {{ fr.DHUBB }}.
-
-Vous pouvez imposer une vérification en deux étapes aux utilisateurs lors de la connexion, envoyer des mots de passe temporaires par courriel, activer l'authentification unique, et bien plus encore.
-
-{% snippet, "badgeHelp" %}
-Pour en savoir plus sur l'authentification unique, veuillez vous référer à [Commencer avec l'authentification unique dans {{ fr.DHUBB }}](/hub/getting-started/get-started-sso-hub-business/).
-{% endsnippet %}
+La section ***Paramètres système*** du panneau ***Administration*** est utilisée pour gérer les paramètres globaux de tous les utilisateurs et groupes d'utilisateurs dans {{ fr.DHUBB }}.  
 
 ## Général
 
-Dans la section ***Général*** des ***Paramètres du système***, gérer les paramètres liés aux mots de passe temporaires, au réseau, aux tickets de support, aux sessions ouvertes et aux profils d'interface utilisateur.
-![Administration – Paramètres du système – Général](https://cdnweb.devolutions.net/docs/HUBB6009_2024_1.png)
+Dans la section ***Général*** des ***Paramètres système***, gérer les paramètres liés aux mots de passe temporaires, au réseau, aux billets de support, aux sessions ouvertes et aux profils d'interface utilisateur.
+![Administration – Paramètres système – Général](https://cdnweb.devolutions.net/docs/HUBB4018_2024_2.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
-| Envoyer le mot de passe temporaire par courriel  | Sélectionner comment le mot de passe temporaire est envoyé à vos utilisateurs lors de la création de leur {{ fr.DA }} à partir d'une invitation dans {{ fr.DHUBB }}:<ul><li>***Demander***: Lors de la création d'un nouveau {{ fr.DA }}, une invite apparaîtra pour envoyer ou non le mot de passe temporaire de l'utilisateur par courriel.</li><li>***Envoyer***: Lors de la création d'un nouveau {{ fr.DA }}, les utilisateurs recevront leur mot de passe temporaire par courriel.</li><li>***Ne pas envoyer***: Lors de la création d'un nouveau {{ fr.DA }}, les utilisateurs ne recevront pas leur mot de passe temporaire par courriel. À ce moment-là, une invite apparaîtra avec leur mot de passe temporaire. Vous pouvez alors décider comment fournir cette information cruciale à vos utilisateurs.</li></ul> |
+| Envoyer le mot de passe temporaire par courriel  | Sélectionner comment le mot de passe temporaire est envoyé à vos utilisateurs lors de la création de leur {{ fr.DA }} à partir d'une invitation dans {{ fr.DHUBB }} :<ul><li>***Demander*** : Lors de la création d'un nouveau {{ fr.DA }}, une invite apparaîtra pour envoyer ou non le mot de passe temporaire de l'utilisateur par courriel.</li><li>***Envoyer*** : Lors de la création d'un nouveau {{ fr.DA }}, les utilisateurs recevront leur mot de passe temporaire par courriel.</li><li>***Ne pas envoyer*** : Lors de la création d'un nouveau {{ fr.DA }}, les utilisateurs ne recevront pas leur mot de passe temporaire par courriel. À ce moment-là, une invite apparaîtra avec leur mot de passe temporaire. Vous pouvez alors décider comment fournir cette information critique à vos utilisateurs.</li></ul> |
 | Bloquer le trafic Tor | Bloque le trafic Internet provenant du réseau Tor. |
-| Permettre aux utilisateurs de soumettre un ticket de support | Active l'option pour les utilisateurs de soumettre un ticket à l'équipe de support. |
-| Marquage automatique comme "Fermé" après X jours | Marque les sessions ouvertes comme fermées après un nombre défini de jours. |
-| Profils d'interface utilisateur | Sélectionner le profil d'interface utilisateur par défaut que les utilisateurs seront assignés entre ***Professionnel de l'IT***, ***Utilisateur d'affaires***, ou le ***Défaut***. |
+| Permettre aux utilisateurs de soumettre un billet de support | Active l'option pour les utilisateurs de soumettre un billet à l'équipe de support. |
+| Marquer automatiquement comme "Fermé" après X jours | Marque les sessions ouvertes comme fermées après un certain nombre de jours. |
+| Profils d'interface utilisateur | Sélectionner le profil d'interface utilisateur par défaut qui sera attribué aux utilisateurs entre ***Professionnel de l'informatique***, ***Utilisateur d'affaires***, ou le ***Défaut***. |
 
 ## {{ fr.VLT_MAJ  }}
 
-Dans la section {{ fr.VLT  }} des ***Paramètres du système***, gérer les paramètres liés au {{ fr.VTL }} des utilisateurs et à la visibilité.
+Dans la section {{ fr.VLT  }} des ***Paramètres système***, gérer les paramètres liés à l'utilisateur {{ fr.VTL }} et à la visibilité. 
 
-![Administration – Paramètres du système – {{ fr.VLT_MAJ  }}](https://cdnweb.devolutions.net/docs/HUBB6011_2024_1.png)
+![Administration – Paramètres système – {{ fr.VLT_MAJ  }}](https://cdnweb.devolutions.net/docs/HUBB4019_2024_2.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
 | Permettre {{ fr.UVLT_MAJ   }}         | Permettre {{ fr.UVLT_MAJ }} pour les utilisateurs.                           |
-| Public -  Permettre la demande d'accès    | Permettre aux utilisateurs de demander l'accès à un {{ fr.VLT  }}.     
-| Public -  Invitation seulement         | Le {{ fr.VLT  }} est sur invitation seulement.
+| Public -  Permettre la demande d'accès    | Définir la visibilité {{ fr.VLT   }} sur public. Chaque utilisateur peut voir les {{ fr.VLT   }} publics, mais seuls ceux qui ont demandé l'accès peuvent les utiliser.  |
+| Privé -  Sur invitation uniquement        | Définir la visibilité {{ fr.VLT  }} sur privé. Seuls les utilisateurs avec une invitation peuvent les voir et les utiliser. |
 
-## Avancé
+{% snippet, "badgeHelp" %}
+Notez que la visibilité {{ fr.VLT   }} peut également être modifiée pour chaque {{ fr.VLT   }} individuellement. Voir [accès {{ fr.VLT_MAJ   }} dans {{ fr.DHUBB }}](https://docs.devolutions.net/hub/web-interface/vault-access/#individual-vault-visibility) pour plus d'informations.
+{% endsnippet %}
 
-Dans la section ***Avancé*** des ***Paramètres du système***, gérer les paramètres liés au Cache, au mode hors ligne, à l'auto-remplissage de {{ fr.WBEX }}, et au partage externe.
+## RDM et outils connexes
 
-![Administration – Paramètres du système – Avancé](https://cdnweb.devolutions.net/docs/HUBB6010_2024_1.png)
+![Administration – Paramètres système – RMD et outils connexes](https://cdnweb.devolutions.net/docs/HUBB4020_2024_2.png)
 
 | OPTION | DESCRIPTION |
 |--------|-------------|
-| Cache/Hors ligne                     | Définir la durée de stockage des données hors ligne avant leur expiration.                            |
-| Forcer le mot de passe d'application sur RDM            |  Exiger un mot de passe pour accéder à {{ fr.RDM }}.                                                        |
-| Permettre l'auto-remplissage de {{ fr.WBEX }}                 | Permettre à {{ fr.WBEX }} de remplir automatiquement les identifiants.                                                        |
-| Permettre à l'utilisateur d'envoyer des messages et mots de passe de manière sécurisée via Devolutions Send   | Les utilisateurs peuvent envoyer des messages et mots de passe chiffrés en utilisant [Devolutions Send](/hub/send/).
+| Cache/Hors ligne                     | Définir la durée pendant laquelle les données hors ligne sont stockées avant d'expirer.                            |
+| Imposer un mot de passe d'application sur RDM            |  Exiger un mot de passe pour accéder à {{ fr.RDM }}.                                                        |
+| Imposer le verrouillage biométrique                       | Exiger l'utilisation de la biométrie lors de la connexion à la source de données. |
+
+## Avancé
+
+Dans la section ***Avancé*** des ***Paramètres système***, gérer les paramètres liés au Cache, au mode hors ligne, à l'autocomplétion {{ fr.WBEX }} et au partage externe. 
+
+![Administration – Paramètres système – Avancé](https://cdnweb.devolutions.net/docs/HUBB4021_2024_2.png)
+
+| OPTION | DESCRIPTION |
+|--------|-------------|
+| Permettre l'autocomplétion {{ fr.WBEX }}                 | Permettre à {{ fr.WBEX }} de remplir automatiquement les identifiants.                                                        |
+| Permettre à l'utilisateur d'envoyer des messages et des mots de passe de manière sécurisée via Devolutions Send   | Les utilisateurs peuvent envoyer des messages et des mots de passe chiffrés en utilisant [Devolutions Send](/hub/send/).

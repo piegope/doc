@@ -1,37 +1,37 @@
 ---
 eleventyComputed:
-  title: Register your {{ en.DHUBB }} license
+  title: Register a {{ en.DHUBB }} license
+  description: Register a new {{ en.DHUBB }} license by following the steps that best represent the current situation.
 ---
-Register your new license in {{ en.DHUBB }} by following the steps that best represent your current situation:
+Register a new {{ en.DHUBB }} license by following the steps that best represent the current situation:
 
-* [My current license is still active](#my-current-license-is-still-active)
-* [My current license is expired](#my-current-license-is-expired)
+* [Current license is still active](#my-current-license-is-still-active)
+* [Current license is expired](#my-current-license-is-expired)
 
 {% snippet, "badgeCaution" %}
-Only ***Administrators*** and users with permissions in the ***System Permissions*** section will have access to register a license in {{ en.DHUBB }}.
+Only ***Administrators*** and users with permissions in the ***System Permissions*** section can register a license in {{ en.DHUBB }}.
 {% endsnippet %}
 
-### My current license is still active
+### Current license is still active
 
-1. Connect to your {{ en.DHUBB }}.
-1. Go to ***Administration – Licenses***.
-1. Click the edit button.
-![!!Hub4094](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4094.png)
-1. Paste your new {{ en.DHUBB }} license.
-1. Click ***Save***.
-![!!Hub4096](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4096.png)
+1. Connect to the {{ en.DHUBB }} in question.
+1. Go to ***Administration*** – ***Licenses***.
+1. Click the ***Edit*** button.
+![Edit license button](https://cdnweb.devolutions.net/docs/HUBB4015_2024_2.png)
+1. Paste the new {{ en.DHUBB }} license, and click ***Save***.
+![New license Save button](https://cdnweb.devolutions.net/docs/HUBB4016_2024_2.png)
 
-### My current license is expired
+### Current license is expired
 
-1. Connect to your {{ en.DHUBB }}.
-1. An access denied message will show.
+1. Connect to {{ en.DHUBB }}.
+1. An ***Access denied*** message should appear.
 {% snippet, "badgeCaution" %}
-Only ***Administrators*** and users with the ***System Permissions*** to ***Manage product licenses*** will get this message.
+Only ***Administrators*** and users with the ***System Permissions*** to ***Manage product licenses*** should see this message.
 {% endsnippet %}
 
 ![!!Hub4095](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub4095.png)
 
-3. Paste your new {{ en.DHUBB }} license.
+3. Paste the new {{ en.DHUBB }} license.
 1. Click the padlock to save.
 
-You will automatically be connected to your hub.
+The new hub should then connect automatically.

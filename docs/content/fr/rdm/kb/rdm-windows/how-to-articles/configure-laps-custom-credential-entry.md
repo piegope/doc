@@ -17,7 +17,13 @@ Windows LAPS est requis et doit être correctement configuré dans votre environ
 ![Régler le menu déroulant sur PowerShell](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2335.png)
 1. Ajouter le script PowerShell suivant dans la boîte ***Commande***.
    {% snippet, "badgeInfo" %}
-   Veuillez noter que le script utilise la variable $HOST$ pour l'interrupteur `-ComputerName` de l'applet de commande `Get-LapsADPassword` et utilise la variable $PARAMETER1$ pour le nom d'utilisateur (voir étape 6 ci-dessous).
+   Veuillez noter que le script utilise la variable $HOST$ pour le commutateur `-ComputerName` de la cmdlet `Get-LapsADPassword` et utilise la variable $PARAMETER1$ pour le nom d'utilisateur (voir l'étape 6 ci-dessous).
+
+   Notez également que selon votre environnement, le $PARAMETER$ pourrait être lié à l'`-Identity`.
+
+   Vous pouvez également configurer le ***paramètre 2*** pour définir le nom d'utilisateur dont vous avez besoin et changer la valeur du script de %USERNAME% à $PARAMETER2$.
+
+   Nous recommandons de lancer {{ fr.RDM }} en tant qu'administrateur pour obtenir des permissions élevées.
    {% endsnippet %}
 
    ```powershell
@@ -46,31 +52,31 @@ Windows LAPS est requis et doit être correctement configuré dans votre environ
            else
               {
                $Result.Cancel=$True
-               $Result.ErrorMessage="LAPS n'a retourné aucune valeur !"
+               $Result.ErrorMessage="LAPS did not return any value!"
               }
        }
        else
        {
            $Result.Cancel=$True
-           $Result.ErrorMessage="Votre ordinateur doit être connecté à un domaine pour utiliser les fonctionnalités de LAPS !"
+           $Result.ErrorMessage="Your computer must be connected to a domain to use LAPS features!"
        }
    }
    else
    {
            $Result.Cancel=$True
-           $Result.ErrorMessage="Le module LAPS doit être installé dans cette architecture !"
+           $Result.ErrorMessage="The LAPS module must be installed in this architecture!"
    }
-   ```
+   
 
    ![Ajouter le script PowerShell](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2336.png)
 1. Dans l'onglet ***Paramètres***, ajouter le nom du compte administrateur local dans le champ ***Paramètre #1***.
 ![Définir le nom du compte administrateur local](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2337.png)
-1. Cliquer sur ***Ajouter*** pour sauvegarder l'entrée dans le dossier de destination spécifié.
-1. Dans les propriétés de votre entrée RDP, régler la propriété des identifiants pour utiliser l'entrée d'identifiants ***Personnalisée*** nouvellement créée.
-![Régler le paramètre des identifiants pour utiliser l'entrée d'identifiants personnalisée](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2338.png)
+1. Cliquer sur ***Ajouter*** pour enregistrer l'entrée dans le dossier de destination spécifié.
+1. Dans les propriétés de votre entrée RDP, définir la propriété Identifiants pour utiliser l'entrée d'identifiants ***Personnalisé*** nouvellement créée.
+![Définir la propriété Identifiants pour utiliser l'entrée d'identifiants Personnalisé](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2338.png)
 1. Toujours dans les propriétés de l'entrée RDP, aller à ***Avancé – Avancé***.
-1. Régler la propriété ***Remplacer le domaine*** sur ***Utiliser le nom d'hôte*** et la ***propriété Format du nom d'utilisateur*** sur ***{Domaine}\\{Utilisateur}***.
-![Régler les propriétés avancées](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2339.png)
-1. Cliquer sur ***Mettre à jour*** pour sauvegarder vos modifications.
+1. Régler la propriété ***Remplacer le domaine*** sur ***Utiliser le nom d'hôte*** et la propriété ***Format du nom d'utilisateur*** sur ***{Domaine}\\{Utilisateur}***.
+![Définir les propriétés avancées](https://cdnweb.devolutions.net/docs/docs_en_kb_KB2339.png)
+1. Cliquer sur ***Mettre à jour*** pour enregistrer vos modifications.
 
-L'entrée RDP est maintenant prête à être utilisée et se connecter avec le compte administrateur local géré par Windows LAPS.
+L'entrée RDP est maintenant prête à être utilisée et à se connecter avec le compte administrateur local géré par Windows LAPS.

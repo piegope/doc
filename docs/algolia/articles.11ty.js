@@ -54,61 +54,61 @@ module.exports = {
     }
   },
   async render(data) {
-    for (l in locales) {
-      let articles = []
+    for (const l of locales) {
+      let articles = [];
 
-      data.collections.all
-        .filter(f =>
-          f.data.lang === locales[l] &&
-          f.inputPath.endsWith('.md') &&
-          (!!f.template.frontMatter.content && f.template.frontMatter.content.replace(/(?:\\[rn]|[\r\n]+)+/g, '') !== '') &&
-          f.url
-        )
-        .forEach(article => {
-          const doc = article.url.split('/')[article.data.lang === 'en' ? 1 : 2];
-          const os = article.url.split('/')[article.data.lang === 'en' ? 2 : 3];
+      const filteredData = data.collections.all.filter(f =>
+        f.data.lang === locales[l] &&
+        f.inputPath.endsWith('.md') &&
+        (!!f.template.frontMatter.content && f.template.frontMatter.content.replace(/(?:\\[rn]|[\r\n]+)+/g, '') !== '') &&
+        f.url
+      );
 
-          let title = article.data.title;
-          let url = `https://docs.devolutions.net${article.url}`;
-          let docLabel = iconMap[doc]?.label || doc;
+      for (const article of filteredData) {
+        const doc = article.url.split('/')[article.data.lang === 'en' ? 1 : 2];
+        const os = article.url.split('/')[article.data.lang === 'en' ? 2 : 3];
 
-          if (os === 'mac') {
-            docLabel = `${docLabel} (macOS)`;
+        let title = article.data.title;
+        let url = `https://docs.devolutions.net${article.url}`;
+        let docLabel = iconMap[doc]?.label || doc;
+
+        if (os === 'mac') {
+          docLabel = `${docLabel} (macOS)`;
+        }
+
+        const $ = cheerio.load(article.content);
+        const tags = ['h2', 'h3', 'h4', 'h5', 'h6', 'p', 'li'];
+
+        $(tags.join(',')).each(function() {
+          $(this).find('table, figure, p, ul, ol, pre').remove();
+
+          if (this.name.startsWith('h')) {
+            title = $(this).text().trim();
+
+            if ($(this).attr('id')) {
+              url = `https://docs.devolutions.net${article.url}#${$(this).attr('id')}`;
+            }
+
+            return;
           }
 
-          const $ = cheerio.load(article.content);
-          const tags = ['h2', 'h3', 'h4', 'h5', 'h6', 'p', 'li'];
+          let content = $(this).text().trim();
 
-          $(tags.join(',')).each(function() {
-            $(this).find('table, figure, p, ul, ol, pre').remove();
+          if (content === '') {
+            return;
+          }
 
-            if (this.name.startsWith('h')) {
-              title = $(this).text().trim();
-
-              if ($(this).attr('id')) {
-                url = `https://docs.devolutions.net${article.url}#${$(this).attr('id')}`;
-              }
-
-              return;
-            }
-
-            let content = $(this).text().trim();
-
-            if (content === '') {
-              return;
-            }
-
-            articles.push({
-              tag: this.name,
-              doc: docLabel,
-              icon: iconMap[doc]?.icon || "https://cdnweb.devolutions.net/images/projects/devolutions/logos/devolutions-icon-shadow.svg",
-              title,
-              url,
-              content: content,
-              path: article.url
-            });
+          articles.push({
+            tag: this.name,
+            doc: docLabel,
+            icon: iconMap[doc]?.icon || "https://cdnweb.devolutions.net/images/projects/devolutions/logos/devolutions-icon-shadow.svg",
+            title,
+            url,
+            content: content,
+            path: article.url
           });
         });
+      }
 
       await this.algoliaInitIndex(`docs-${locales[l]}`, articles, algoliaSettings);
     }

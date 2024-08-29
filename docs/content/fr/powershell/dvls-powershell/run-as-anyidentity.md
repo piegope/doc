@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 L'option ***Exécuter en tant que*** vous permet d'exécuter des scripts de fournisseur {{ fr.ANYID }} dans différents contextes et lance le planificateur pour ce faire. Cela peut être fait sur une machine locale ou à distance, ce qui est utile pour découvrir ce que le script essaie d'accomplir, qu'il s'agisse de réaliser certaines actions ou d'accéder à certains fichiers.
 {% snippet, "badgeHelp" %}
-{{ fr.DVLS }} inclut déjà des modèles de scripts personnalisés pour Azure Key Vault et les comptes Windows [scripts personnalisés](/server/kb/how-to-articles/create-anyidentity-pam-provider/#import-an-anyidentity-template).
+{{ fr.DVLS }} inclut déjà des modèles de scripts personnalisés pour Azure Key Vault et les comptes Windows [scripts personnalisés](/pam/kb/how-to-articles/create-anyidentity-pam-provider-dvls/#import-an-anyidentity-template).
 {% endsnippet %}
 
 ## Exécuter en tant que script PowerShell dans divers contextes

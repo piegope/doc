@@ -8,7 +8,7 @@ eleventyComputed:
   - SSO
   - Azure
 ---
-Here are the steps to configure Azure with {{ en.DHUBB }} for Single Sign-on (SSO) authentication and user provisioning.
+Here are the steps to configure Azure with {{ en.DHUBB }} for Single Sign-on (SSO) authentication and user provisioning.  
 
 {% snippet, "badgeCaution" %}
 An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights is required.
@@ -128,7 +128,7 @@ An [Azure AD account](https://azure.microsoft.com/) with the appropriate rights 
 1. Copy the ***Value*** of this new client secret by clicking on the ***Copy to clipboard*** icon next to it.
 ![Copy the client secret value](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2153.png)
 
-**In {{ en.DHUBB }}**
+**In {{ en.DHUBB }}** 
 
 25. Back on the ***Configure Single Sign-On (SSO)*** page, paste the client secret ***Value*** from the last step in the ***Client secret Key*** field.
 ![Client secret Key](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2222.png)
