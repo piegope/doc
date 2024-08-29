@@ -23,7 +23,7 @@ Your password settings are now configured.
 5. If desired, to change the current password, click on the ***Generate password*** button until you are satisfied with the result. ![Generate password](https://cdnweb.devolutions.net/docs/WEBX4112_2024_2.png "Generate password")
 6. Click on the ***Copy to clipboard*** button to copy the password. ![Copy to clipboard](https://cdnweb.devolutions.net/docs/WEBX4113_2024_2.png "Copy to clipboard")
 7. Paste your password in the website’s corresponding field. ![Paste password](https://cdnweb.devolutions.net/docs/WEBX4039_2024_2.png "Paste password")
-8. Follow the rest of the website’s registration steps until the {{ en.WBEX }} ***Add Website*** window pops up in the corner of your web browser. ![Add website](https://cdnweb.devolutions.net/docs/WEBX4106_2024_2.png "Add website")
+8. Follow the rest of the website’s registration steps until the {{ en.WBEX }} ***Add Website*** window pops up in the corner of the web browser. ![Add website](https://cdnweb.devolutions.net/docs/WEBX4106_2024_2.png "Add website")
 9. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed.
 10. Select the ***{{ en.VLT }}*** and ***folder*** in which to save your website entry.
 11. Click ***Save***.
