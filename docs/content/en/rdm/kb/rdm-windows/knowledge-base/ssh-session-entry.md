@@ -31,125 +31,180 @@ The following properties can be configured when creating or editing the entry.
 | ***Certificate method***     |                        |
 | ***PIN***                    |                        |
 
-![General sub-tab](https://cdnweb.devolutions.net/docs/RDMW0028_2024_2.png)
+![SSH key – General sub-tab](https://cdnweb.devolutions.net/docs/RDMW0028_2024_2.png)
 
 ## SSH key tab
 ### General
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Entry type***        |  |
+| ***Vault*** |  |
+| ***Passphrase*** |  |
+| ***File*** |  |
+| ***Private key*** |  |
 
-![General sub-tab](https://cdnweb.devolutions.net/docs/RDMW0028_2024_2.png)
+![SSH key – Certificate sub-tab](https://cdnweb.devolutions.net/docs/RDMW0029_2024_2.png)
 
 ### Certificate
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Certificate file*** |  |
+| ***File*** |  |
+| ***Certificate*** |  |
 
 ![Proxy tab](https://cdnweb.devolutions.net/docs/RDMW0030_2024_2.png)
 
 ## Proxy tab
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Proxy mode***        |  |
 
 ![SSH gateway tab](https://cdnweb.devolutions.net/docs/RDMW0031_2024_2.png)
 
 ## SSH gateway tab
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Gateway mode***        |  |
 
 ![Post login tab](https://cdnweb.devolutions.net/docs/RDMW0032_2024_2.png)
 
 ## Post login tab
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Delay***        |  |
+| ***Commands*** |  |
 
 ![Before close tab](https://cdnweb.devolutions.net/docs/RDMW0033_2024_2.png)
 
 ## Before close tab
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Delay***        |  |
+| ***Commands*** |  |
 
-![Configuration](https://cdnweb.devolutions.net/docs/RDMW0034_2024_2.png)
+![Terminal – Configuration sub-tab](https://cdnweb.devolutions.net/docs/RDMW0034_2024_2.png)
 
 ## Terminal tab
 ### Configuration
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Override terminal type*** |  |
+| ***Encoding*** |  |
+| ***Auto wrap*** |  |
+| ***Local echo*** |  |
+| ***Initial keypad mode*** |  |
+| ***Disable application keypad mode*** |  |
+| ***Cursor type*** |  |
+| ***Cursor blink*** |  |
+| ***Cursor blink rate*** |  |
+| ***Reset scroll on display*** |  |
+| ***Force Non-destructive backspace*** |  |
+| ***Implicit Carriage return in Linefeed*** |  |
+| ***Implicit linefeed in carriage return*** |  |
+| ***Max scrollback lines*** |  |
+| ***Double-click delimiters*** |  |
 
-![Display](https://cdnweb.devolutions.net/docs/RDMW0035_2024_2.png)
+![Terminal – Display sub-tab](https://cdnweb.devolutions.net/docs/RDMW0035_2024_2.png)
 
 ### Display
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Allow remote-controlled window title changing***        |  |
+| ***Colors*** |  |
+| ***Font*** |  |
+| ***Terminal size*** |  |
+| ***Bold Mode*** |  |
+| ***Syntax highlighting mode*** |  |
 
-![Advanced](https://cdnweb.devolutions.net/docs/RDMW0036_2024_2.png)
+![Terminal – Advanced sub-tab](https://cdnweb.devolutions.net/docs/RDMW0036_2024_2.png)
 
 ### Advanced
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Answerback***        |  |
+| ***Enable remote monitoring*** |  |
+| ***Interval*** |  |
+| ***Remote command*** |  |
+| ***Bell behavior*** |  |
+| ***Enable compression*** |  |
+| ***Automatically open file transfer tab*** |  |
+| ***Start minized*** |  |
+| ***Show files in tree view*** |  |
+| ***Show hidden files*** |  |
+| ***Log to file*** |  |
+| ***Verbose*** |  |
+| ***Home directory*** |  |
+| ***Starting location*** |  |
+| ***Zmodem download directory*** |  |
 
-![General](https://cdnweb.devolutions.net/docs/RDMW00_2024_2.png)
+![Keyboard – General sub-tab](https://cdnweb.devolutions.net/docs/RDMW0037_2024_2.png)
 
 ## Keyboard tab
 ### General
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Cursor key mode***        |  |
+| ***Backspace key mode*** |  |
+| ***Home / End key mode*** |  |
+| ***Function keys mode*** |  |
 
-![Key mapping](https://cdnweb.devolutions.net/docs/RDMW00_2024_2.png)
+![Keyboard – Key mapping sub-tab](https://cdnweb.devolutions.net/docs/RDMW0038_2024_2.png)
 
 ### Key mapping
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Key***        |  |
 
-![X11 forwarding tab](https://cdnweb.devolutions.net/docs/RDMW00_2024_2.png)
+![X11 forwarding tab](https://cdnweb.devolutions.net/docs/RDMW0039_2024_2.png)
 
 ## X11 forwarding tab
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Enable X11 forwarding***        |  |
 
-![Logs tab](https://cdnweb.devolutions.net/docs/RDMW00_2024_2.png)
+![Logs tab](https://cdnweb.devolutions.net/docs/RDMW0040_2024_2.png)
 
 ## Logs tab
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Enable logging***        |  |
+| ***Log path*** |  |
+| ***Log mode*** |  |
+| ***Log overwrite mode*** |  |
+| ***Verbose*** |  |
+| ***Log to terminal*** |  |
 
-![Macro tab](https://cdnweb.devolutions.net/docs/RDMW00_2024_2.png)
+![Macro tab](https://cdnweb.devolutions.net/docs/RDMW0041_2024_2.png)
 
 ## Macro tab
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Enable macro***        |  |
+| ***Hide premade macros*** |  |
+| ***Macro list source*** |  |
 
-![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW00_2024_2.png)
+![Advanced tab](https://cdnweb.devolutions.net/docs/RDMW0042_2024_2.png)
 
 ## Advanced tab
 | SETTINGS          | DESCRIPTION            |
 |-------------------|------------------------|
-| ***Name***        | The name of the entry. |
-|                   |                        |
+| ***Internet protocol***        |  |
+| ***Interactive authentication in terminal*** |  |
+| ***Disconnect action*** |  |
+| ***Display error messages*** |  |
+| ***Always accept fingerprint*** |  |
+| ***Mouse click mode*** |  |
+| ***Algorithm support*** |  |
+| ***Minimum Diffie-Hellman key size*** |  |
+| ***Ignore Substitute character*** |  |
+| ***Enable TCP keepalives*** |  |
+| ***Enable GSS API authentication*** |  |
+| ***Skip environment variable setup*** |  |
+| ***Enable GSS API credential delegation*** |  |
+| ***Allow SSH authentication agent forwarding*** |  |
+| ***Disable Nagle's algorithm*** |  |
+| ***Use SSH authentication agent*** |  |
+| ***Ping interval*** |  |
+| ***Ping string*** |  |
+| ***Paste delay*** |  |
+| ***Environment variables*** |  |
