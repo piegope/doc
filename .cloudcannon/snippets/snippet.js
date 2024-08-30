@@ -16,7 +16,7 @@ module.exports = {
       ],
       image: [
         {
-          template: "/../.cloudcannon/previews/snippet/{snippet_type|slugify}.svg"
+          template: "https://cdnweb.devolutions.net/images/cloudcannon/snippet/{snippet_type|slugify}.svg"
         }
       ]
     },
