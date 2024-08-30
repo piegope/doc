@@ -1,7 +1,8 @@
 const slugify = require('slugify');
-const MarkdownIt = require("markdown-it");
+const md = require('./../../../utils/markdown');
+// const MarkdownIt = require("markdown-it");
 
-const md = new MarkdownIt({ html: true });
+// const md = new MarkdownIt({ html: true });
 
 module.exports = (content, label) => {
   const labelSlugify = slugify(label, { lower: true });

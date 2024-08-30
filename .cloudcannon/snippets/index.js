@@ -1,4 +1,5 @@
 module.exports = {
+  ...require("./kbd"),
   ...require("./snippet"),
   ...require("./tab"),
   ...require("./youtube"),
