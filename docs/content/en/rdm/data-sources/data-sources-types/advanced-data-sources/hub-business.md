@@ -34,7 +34,7 @@ Open a VPN to access your data prior to connecting to your {{ en.DHUB }}. ![VPN 
 
 ### PowerShell
 
-Enter the application information. [Devolutions.PowerShell module](/powershell/overview/what-is-powershell/)([RDM cmdlets](/rdm/commands/tools/tools/powershell/)) leverages the application information for authentication, enabling seamless login without user intervention (i.e. web page opening).
+Enter the application information. [Devolutions.PowerShell module](/powershell/overview/what-is-powershell/) ([RDM cmdlets](/rdm/commands/tools/tools/powershell/)) leverages the application information for authentication, enabling seamless login without user intervention (i.e. web page opening).
 
 ![PowerShell tab](https://cdnweb.devolutions.net/docs/HUBB6005_2024_2.png)
 
