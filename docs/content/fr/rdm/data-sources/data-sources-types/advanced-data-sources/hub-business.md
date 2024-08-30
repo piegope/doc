@@ -1,5 +1,4 @@
 ---
-_schema: défaut
 eleventyComputed:
   title: '{{ fr.DHUBB }}'
   description: >-
@@ -32,6 +31,8 @@ Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ 
 ### PowerShell
 
 ![Onglet PowerShell](https://cdnweb.devolutions.net/docs/HUBB6005_2024_2.png)
+
+Entrer les informations de l'application. Le [module Devolutions.PowerShell](/powershell/overview/what-is-powershell/)([cmdlets RDM](/rdm/commands/tools/tools/powershell/)) utilise les informations de l'application pour l'authentification, permettant une connexion transparente sans intervention de l'utilisateur (c'est-à-dire l'ouverture de page Web).
 
 <table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>ID de locataire</p></td><td><p>Entrer l'<em><strong>ID de locataire</strong></em>.</p></td></tr><tr><td><p>Mot de passe</p></td><td><p>Entrer le <em><strong>Mot de passe</strong></em>.</p></td></tr></tbody></table>
 
