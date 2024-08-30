@@ -1,5 +1,5 @@
 module.exports = {
-  anchor_id: {
+  kbd: {
     snippet: "<kbd>[[kbd]]</kbd>",
     inline: true,
     preview: {
