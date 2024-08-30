@@ -18,7 +18,7 @@ Le bouton ***Désactiver tout*** vous permet de désactiver tous les raccourcis.
 
 Le bouton ***Réinitialiser*** annule toute modification de raccourci qui n'a pas encore été enregistrée. Le bouton ***Restaurer les valeurs par défaut*** rétablit tous les raccourcis à leurs valeurs par défaut.
 
-{% snippet, %}Les boutons ***Réinitialiser*** et ***Restaurer les valeurs par défaut*** effacent vos raccourcis personnalisés, bien que ***Réinitialiser*** n'efface que les modifications non enregistrées. Utilisez ces options avec précaution pour ne pas risquer de perdre vos raccourcis personnalisés.{% endsnippet %}
+{% snippet "badgeCaution" %}Les boutons ***Réinitialiser*** et ***Restaurer les valeurs par défaut*** effacent vos raccourcis personnalisés, bien que ***Réinitialiser*** n'efface que les modifications non enregistrées. Utilisez ces options avec précaution pour ne pas risquer de perdre vos raccourcis personnalisés.{% endsnippet %}
 
 {% snippet, "badgeInfo" %}Visitez [Personnalisation des raccourcis clavier dans Remote Desktop Manager macOS](/rdm/kb/rdm-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/).{% endsnippet %}
 
@@ -28,7 +28,7 @@ Le bouton ***Réinitialiser*** annule toute modification de raccourci qui n'a pa
 
 {% gTab, "Windows" %}### Actions{#actions}
 
-<table><thead><tr><th><p>Nom</p></th><th><p>Raccourci</p></th></tr></thead><tbody><tr><td><p>Presse-papiers - Copier la chaîne de connexion</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>H</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier le domaine</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier l'hôte</p></td><td><p><kbd>Ctrl</kbd> + <kbd>H</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier le mot de passe</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier l'URL</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier le nom d'utilisateur</p></td><td><p><kbd>Ctrl</kbd> + <kbd>B</kbd></p></td></tr><tr><td><p>Exécuter la commande depuis la palette</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd></p></td></tr><tr><td><p>Exécuter la macro de frappe</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd></p></td></tr><tr><td><p>Accéder à l'URL</p></td><td><p><kbd>Entrée</kbd></p></td></tr><tr><td><p>Ouvrir (Intégré/En onglet)</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Entrée</kbd></p></td></tr><tr><td><p>Ouvrir (Externe)</p></td><td><p><kbd>Shift</kbd> + <kbd>Entrée</kbd></p></td></tr><tr><td><p>Ouvrir en plein écran</p></td><td><p><kbd>Alt</kbd> + <kbd>Entrée</kbd></p></td></tr><tr><td><p>Voir le mot de passe</p></td><td><p><kbd>Ctrl</kbd> + <kbd>P</kbd></p></td></tr></tbody></table>{% endgTab %}
+<table><thead><tr><th><p>Nom</p></th><th><p>Raccourci</p></th></tr></thead><tbody><tr><td><p>Presse-papiers - Copier la chaîne de connexion</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>H</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier le domaine</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier l'hôte</p></td><td><p><kbd>Ctrl</kbd> + <kbd>H</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier le mot de passe</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier l'URL</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd></p></td></tr><tr><td><p>Presse-papiers - Copier le nom d'utilisateur</p></td><td><p><kbd>Ctrl</kbd> + <kbd>B</kbd></p></td></tr><tr><td><p>Exécuter la commande depuis la palette</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd></p></td></tr><tr><td><p>Exécuter la macro de frappe</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd></p></td></tr><tr><td><p>Accéder à l'URL</p></td><td><p><kbd>Entrée</kbd></p></td></tr><tr><td><p>Ouvrir (Intégré/En onglet)</p></td><td><p><kbd>Ctrl</kbd> + <kbd>Entrée</kbd></p></td></tr><tr><td><p>Ouvrir (Externe)</p></td><td><p><kbd>Shift</kbd> + <kbd>Entrée</kbd></p></td></tr><tr><td><p>Ouvrir en plein écran</p></td><td><p><kbd>Alt</kbd> + <kbd>Entrée</kbd></p></td></tr><tr><td><p>Afficher le mot de passe</p></td><td><p><kbd>Ctrl</kbd> + <kbd>P</kbd></p></td></tr></tbody></table>{% endgTab %}
 
 ### Édition
 
@@ -532,7 +532,7 @@ Le bouton ***Réinitialiser*** annule toute modification de raccourci qui n'a pa
 
 <kbd>G</kbd>
 
-\| \| Basculer la vue RDP uniquement      \|
+\| \| Basculer en mode vue uniquement RDP      \|
 
 <kbd>Shift</kbd>
 
