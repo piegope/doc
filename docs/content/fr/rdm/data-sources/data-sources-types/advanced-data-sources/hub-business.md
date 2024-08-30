@@ -1,4 +1,5 @@
 ---
+_schema: default
 eleventyComputed:
   title: '{{ fr.DHUBB }}'
   description: >-
@@ -38,6 +39,6 @@ Entrer les informations de l'application. Le [module Devolutions.PowerShell](/po
 
 ### Avancé
 
-Définir l'intervalle pour le rafraîchissement automatique. ![Onglet Avancé](https://cdnweb.devolutions.net/docs/HUBB6006_2024_2.png)
+Définir l'intervalle pour l'actualisation automatique. ![Onglet Avancé](https://cdnweb.devolutions.net/docs/HUBB6006_2024_2.png)
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Rafraîchissement automatique</p></td><td><p>Sélectionner l'intervalle de temps pour rafraîchir automatiquement la source de données.</p></td></tr><tr><td><p>Demander le rafraîchissement de tous les coffres au démarrage</p></td><td><p>Demander le rafraîchissement de tous les coffres au démarrage.</p></td></tr><tr><td><p>Taille maximale du fichier (Mo)</p></td><td><p>Choisir la <em><strong>taille maximale du fichier (Mo)</strong></em> à appliquer aux <em><strong>documents</strong></em> et <em><strong>pièces jointes</strong></em>.</p></td></tr><tr><td><p>Délai d'attente de la requête Http </p></td><td><p>Sélectionner l'intervalle de temps pour le <em><strong>délai d'attente de la requête Http</strong></em>.</p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Actualisation automatique</p></td><td><p>Sélectionner l'intervalle de temps pour actualiser automatiquement la source de données.</p></td></tr><tr><td><p>Demander l'actualisation de tous les coffres au démarrage</p></td><td><p>Demander l'actualisation de tous les coffres au démarrage.</p></td></tr><tr><td><p>Taille maximale du fichier (Mo)</p></td><td><p>Choisir la <em><strong>taille maximale du fichier (Mo)</strong></em> à appliquer aux <em><strong>documents</strong></em> et <em><strong>pièces jointes</strong></em>.</p></td></tr><tr><td><p>Délai d'attente de la requête Http </p></td><td><p>Sélectionner l'intervalle de temps pour le <em><strong>délai d'attente de la requête Http</strong></em>.</p></td></tr></tbody></table>
