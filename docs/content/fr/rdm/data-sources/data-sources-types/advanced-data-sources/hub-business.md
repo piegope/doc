@@ -1,11 +1,10 @@
 ---
+_schema: default
 eleventyComputed:
   title: '{{ fr.DHUBB }}'
   description: >-
     {{ fr.DHUBB }} est destiné aux entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation.
-_schema: default
 ---
-
 {% youtube 'wI4Jn3zLC8U' %}
 
 {{ fr.DHUBB }} est destiné aux entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation.
@@ -28,7 +27,7 @@ Commencez votre [essai gratuit de {{ fr.DHUBB }}](https://devolutions.net/passwo
 
 Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre {{ fr.DHUB }}. ![Onglet VPN](https://cdnweb.devolutions.net/docs/HUBB6001_2024_2.png)
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Sélectionner entre <em><strong>Aucun</strong></em> ou <em><strong>À la première connexion</strong></em>.</p></td></tr><tr><td><p>Fichier RDM</p></td><td><p>Ouvrir un <em><strong>type d'entrée VPN</strong></em> à partir d'un <em><strong>fichier RDM</strong></em> avant de se connecter à la source de données.</p></td></tr><tr><td><p>Remplacer les identifiants</p></td><td><p>Remplacer les identifiants tels que <em><strong>Nom d'utilisateur, Domaine</strong></em>, et <em><strong>Mot de passe</strong></em>.</p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Sélectionner entre <em><strong>Aucun</strong></em> ou <em><strong>À la première connexion</strong></em>.</p></td></tr><tr><td><p>Fichier RDM</p></td><td><p>Ouvrir un <em><strong>type d'entrée VPN</strong></em> à partir d'un <em><strong>fichier RDM</strong></em> avant de se connecter à la source de données.</p></td></tr><tr><td><p>Remplacer les identifiants</p></td><td><p>Remplacer les identifiants tels que <em><strong>Nom d'utilisateur, Domaine</strong></em>, et <em><strong>Mot de passe</strong></em>. </p></td></tr></tbody></table>
 
 ### PowerShell
 
@@ -40,6 +39,6 @@ Entrer les informations de l'application. Le [module Devolutions.PowerShell](/po
 
 ### Avancé
 
-Définir l'intervalle pour le rafraîchissement automatique. ![Onglet Avancé](https://cdnweb.devolutions.net/docs/HUBB6006_2024_2.png)
+Ces paramètres avancés permettent de configurer les intervalles de rafraîchissement automatique pour les sources de données, de définir une invite pour rafraîchir tous les coffres au démarrage, de définir une limite de taille de fichier maximale pour les documents et les pièces jointes, et de spécifier la durée du délai d'attente pour les requêtes HTTP.<br>![Onglet Avancé](https://cdnweb.devolutions.net/docs/HUBB6006_2024_2.png)
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Rafraîchissement automatique</p></td><td><p>Sélectionner l'intervalle de temps pour rafraîchir automatiquement la source de données.</p></td></tr><tr><td><p>Inviter à rafraîchir tous les coffres au démarrage</p></td><td><p>Inviter à rafraîchir tous les <a href="/rdm/concepts/basic-concepts/vaults/">{% var, "VLT" false %}</a> au démarrage.</p></td></tr><tr><td><p>Taille maximale du fichier (Mo)</p></td><td><p>Choisir la <em><strong>taille maximale du fichier (Mo)</strong></em> à appliquer aux <em><strong>documents</strong></em> et <em><strong>pièces jointes</strong></em>.</p></td></tr><tr><td><p>Délai d'attente de la requête Http</p></td><td><p>Sélectionner l'intervalle de temps pour le <em><strong>délai d'attente de la requête Http</strong></em>.</p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Rafraîchissement automatique</p></td><td><p>Sélectionner l'intervalle de temps pour rafraîchir automatiquement la source de données.</p></td></tr><tr><td><p>Invite de rafraîchissement de tous les coffres au démarrage</p></td><td><p>Inviter à rafraîchir tous les <a href="/rdm/concepts/basic-concepts/vaults/">{% var, "VLT" false %}</a> au démarrage.</p></td></tr><tr><td><p>Taille maximale du fichier (Mo)</p></td><td><p>Choisir la <em><strong>taille maximale du fichier (Mo)</strong></em> à appliquer aux <em><strong>documents</strong></em> et aux <em><strong>pièces jointes</strong></em>.</p></td></tr><tr><td><p>Délai d'attente de la requête Http </p></td><td><p>Sélectionner l'intervalle de temps pour le <em><strong>délai d'attente de la requête Http</strong></em>.</p></td></tr></tbody></table>
