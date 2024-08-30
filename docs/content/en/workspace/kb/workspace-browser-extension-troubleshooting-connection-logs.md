@@ -36,7 +36,7 @@ When an issue occurs with the {{ en.WBEX }}, the support personnel may ask you t
 1. In your browser, ***right-click on the {{ en.WBEX }} icon.***
 2. Click on ***Manage Extension***.
 3. Toggle on the ***Developer mode***. ![Developer mode](https://cdnweb.devolutions.net/docs/WBEX6016_2024_2.png)
-4. In the same window, under ***Inspect views***, click on the ***service worker*** link. This will open the browser ***DevTools*** window.![service worker](https://cdnweb.devolutions.net/docs/WBEX6011_2024_2.png)
+4. In the same window, under ***Inspect views***, click on the ***background/background.html*** link. This will open the browser ***DevTools*** window.![service worker](https://cdnweb.devolutions.net/docs/WBEX6011_2024_2.png)
 5. Open the {{ en.WBEX }} pop-up menu, click on the ***Refresh*** button. ![Refresh](https://cdnweb.devolutions.net/docs/WBEX6001_2024_2.png)
 6. Go back to the ***DevTools*** window, and click on ***Network***. ![Network](https://cdnweb.devolutions.net/docs/WBEX6002_2024_2.png)
 7. In the ***Network*** tab, one of the items in the list should be in red, this is the event where {{ en.RDM }} failed to retrieve the credentials. Click on it.
