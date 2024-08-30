@@ -22,7 +22,7 @@ Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/busi
 
 ![General tab](https://cdnweb.devolutions.net/docs/HUBB6004_2024_2.png)
 
-\| OPTION   \| DESCRIPTION                                                        \| \|----------\|--------------------------------------------------------------------\| \| Name     \| Name of the data source.                                           \| \| Username \| Your [{{ en.DA }}](https://portal.devolutions.com/) email address. \| \| Host     \| Copy in the ***Host*** your {{ en.DHUBB }} URL (ex: https://windjammer.devolutions.app/) or click on the 3 dots to get a drop-down list to select from. \|
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Name</p></td><td><p>Name of the data source.</p></td></tr><tr><td><p>Email</p></td><td><p>Your <a href="https://portal.devolutions.com/">Devolutions account</a> email address.</p></td></tr><tr><td><p>Host</p></td><td><p>Copy in the <em><strong>Host</strong></em> your Devolutions Hub Business URL (ex: https://windjammer.devolutions.app/) or click on the 3 dots to get a drop-down list to select from.</p></td></tr></tbody></table>
 
 ### VPN
 
@@ -40,4 +40,4 @@ Open a VPN to access your data prior to connecting to your {{ en.DHUB }}. ![VPN 
 
 Set the interval for the automatic refresh. ![Advanced tab](https://cdnweb.devolutions.net/docs/HUBB6006_2024_2.png)
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Auto refresh</p></td><td><p>Select the time interval to automatically refresh the date source.</p></td></tr><tr><td><p>Prompt refresh all vault on startup</p></td><td><p></p></td></tr><tr><td><p>Maximum file size (MB)</p></td><td><p>Choose the <em><strong>maximum file size (MB)</strong></em> to apply to <em><strong>documents</strong></em> and <em><strong>attachments</strong></em>.</p></td></tr><tr><td><p>Http request timeout </p></td><td><p>Select the time interval to the <em><strong>Http request timeout</strong></em>.</p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Auto refresh</p></td><td><p>Select the time interval to automatically refresh the date source.</p></td></tr><tr><td><p>Prompt refresh all vault on startup</p></td><td><p>Prompt refresh all vault on startup.</p></td></tr><tr><td><p>Maximum file size (MB)</p></td><td><p>Choose the <em><strong>maximum file size (MB)</strong></em> to apply to <em><strong>documents</strong></em> and <em><strong>attachments</strong></em>.</p></td></tr><tr><td><p>Http request timeout </p></td><td><p>Select the time interval to the <em><strong>Http request timeout</strong></em>.</p></td></tr></tbody></table>
