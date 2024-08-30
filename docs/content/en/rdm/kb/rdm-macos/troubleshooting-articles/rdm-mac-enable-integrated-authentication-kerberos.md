@@ -1,7 +1,9 @@
 ---
 _schema: default
 eleventyComputed:
-  title: '{{ en.RDMMAC }} Enable integrated authentication with Kerberos'
+  title: >-
+    {{ en.RDMMAC }} cannot configure integrated security with Kerberos
+    authentication
   description: >-
     {{ en.RDMMAC }} has built-in validation for SQL Server data source that
     requires the Username/Password fields to contain information.
