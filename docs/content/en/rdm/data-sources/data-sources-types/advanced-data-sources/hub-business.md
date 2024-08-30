@@ -28,7 +28,7 @@ Start your [free {{ en.DHUBB }} trial](https://devolutions.net/password-hub/busi
 
 Open a VPN to access your data prior to connecting to your {{ en.DHUB }}. ![VPN tab](https://cdnweb.devolutions.net/docs/HUBB6001_2024_2.png)
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Select between <em><strong>None</strong></em> or <em><strong>On first connect</strong></em>.</p></td></tr><tr><td><p>RDM File</p></td><td><p></p></td></tr><tr><td><p>Override credentials</p></td><td><p>Ovverride credentials such as <em><strong>Username, Domain</strong></em>, and <em><strong>Password</strong></em>. </p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Select between <em><strong>None</strong></em> or <em><strong>On first connect</strong></em>.</p></td></tr><tr><td><p>RDM File</p></td><td><p>Select a VPN entry type from a RDM file. </p></td></tr><tr><td><p>Override credentials</p></td><td><p>Ovverride credentials such as <em><strong>Username, Domain</strong></em>, and <em><strong>Password</strong></em>. </p></td></tr></tbody></table>
 
 ### PowerShell
 
