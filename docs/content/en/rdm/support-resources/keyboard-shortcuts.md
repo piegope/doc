@@ -18,7 +18,7 @@ The ***Disable All*** button allows you to disable all shortcuts. The ***Reset D
 
 The ***Reset*** button undoes any shortcut custom changes that have not yet been saved. The ***Restore Defaults*** button returns all shortcuts to their default values.
 
-{% snippet, %}The ***Reset*** and ***Restore Defaults*** buttons erase your custom shortcuts, although ***Reset*** only erases unsaved changes. Use these options with care so as not to risk losing your custom shortcuts.{% endsnippet %}
+{% snippet "badgeCaution" %}The ***Reset*** and ***Restore Defaults*** buttons erase your custom shortcuts, although ***Reset*** only erases unsaved changes. Use these options with care so as not to risk losing your custom shortcuts.{% endsnippet %}
 
 {% snippet, "badgeInfo" %}Visit [Keyboard shortcut customization in Remote Desktop Manager macOS](/rdm/kb/rdm-macos/how-to-articles/keyboard-shortcuts-customization-rdm-mac/).{% endsnippet %}
 
