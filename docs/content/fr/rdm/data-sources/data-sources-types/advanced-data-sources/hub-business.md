@@ -1,10 +1,10 @@
 ---
-_schema: default
 eleventyComputed:
   title: '{{ fr.DHUBB }}'
   description: >-
     {{ fr.DHUBB }} est destiné aux entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation.
 ---
+
 {% youtube 'wI4Jn3zLC8U' %}
 
 {{ fr.DHUBB }} est destiné aux entreprises qui ont besoin de partager des mots de passe et des identifiants au sein de leur organisation.
@@ -41,6 +41,6 @@ Entrer les informations de l'application. Le [module Devolutions.PowerShell](/po
 
 ### Avancé
 
-Ces paramètres avancés permettent de configurer les intervalles de rafraîchissement automatique, de définir une invite pour rafraîchir tous les {% var, "VLT" false %} au démarrage, de définir une limite de taille de fichier maximale pour les documents et pièces jointes, et de spécifier la durée du délai d'attente pour les requêtes HTTP.<br>![Onglet Avancé](https://cdnweb.devolutions.net/docs/HUBB6006_2024_2.png)
+Ces paramètres avancés permettent de configurer les intervalles de rafraîchissement automatique, de définir une invite pour rafraîchir tous les {% var, "VLT" false %} au démarrage, de définir une limite de taille de fichier maximale pour les documents et les pièces jointes, et de spécifier la durée du délai d'attente pour les requêtes HTTP.<br>![Onglet Avancé](https://cdnweb.devolutions.net/docs/HUBB6006_2024_2.png)
 
-<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Rafraîchissement automatique</p></td><td><p>Sélectionner l'intervalle de temps pour rafraîchir automatiquement la source de données.</p></td></tr><tr><td><p>Invite de rafraîchissement de tous les coffres au démarrage</p></td><td><p>Invite de rafraîchissement de tous les <a href="/rdm/concepts/basic-concepts/vaults/">{% var, "VLT" false %}</a>s au démarrage.</p></td></tr><tr><td><p>Taille maximale du fichier (Mo)</p></td><td><p>Choisir la <em><strong>taille maximale du fichier (Mo)</strong></em> à appliquer aux <em><strong>documents</strong></em> et <em><strong>pièces jointes</strong></em>.</p></td></tr><tr><td><p>Délai d'attente de la requête Http </p></td><td><p>Sélectionner l'intervalle de temps pour le <em><strong>délai d'attente de la requête Http</strong></em>.</p></td></tr></tbody></table>
+<table><thead><tr><th><p>OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p>Rafraîchissement automatique</p></td><td><p>Sélectionner l'intervalle de temps pour rafraîchir automatiquement la source de données.</p></td></tr><tr><td><p>Invite de rafraîchissement de tous les coffres au démarrage</p></td><td><p>Invite de rafraîchissement de tous les <a href="/rdm/concepts/basic-concepts/vaults/">{% var, "VLT" false %}</a>s au démarrage.</p></td></tr><tr><td><p>Taille maximale du fichier (Mo)</p></td><td><p>Choisir la <em><strong>taille maximale du fichier (Mo)</strong></em> à appliquer aux <em><strong>documents</strong></em> et aux <em><strong>pièces jointes</strong></em>.</p></td></tr><tr><td><p>Délai d'attente de la requête Http </p></td><td><p>Sélectionner l'intervalle de temps pour le <em><strong>délai d'attente de la requête Http</strong></em>.</p></td></tr></tbody></table>
