@@ -73,7 +73,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ### VPN
 
-Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database. ![Microsoft Azure SQL - VPN](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2253.png)
+Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database. ![Microsoft Azure SQL - VPN](https://cdnweb.devolutions.net/docs/RDMW6090_2024_2.png)
 
 <table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Select between <em><strong>None</strong></em> or <em><strong>On first connect</strong></em>.</p></td></tr><tr><td><p>RDM File</p></td><td><p>Open a <em><strong>VPN entry type</strong></em> from a <em><strong>RDM file</strong></em> before connecting to the datasource.</p></td></tr><tr><td><p>Override credentials</p></td><td><p>Ovverride credentials such as <em><strong>Username, Domain</strong></em>, and <em><strong>Password</strong></em>.</p></td></tr></tbody></table>
 
