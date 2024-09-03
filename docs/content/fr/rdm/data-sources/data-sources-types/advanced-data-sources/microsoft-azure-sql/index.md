@@ -1,5 +1,4 @@
 ---
-_schema: default
 eleventyComputed:
   title: Microsoft Azure SQL
   description: >-
@@ -12,7 +11,7 @@ Les fonctionnalités suivantes sont également prises en charge :
 
 * Groupe de disponibilité Always On
 * Clustering
-* Expédition des journaux
+* Expédition de journaux
 * Miroir de base de données
 
 ## Exigence minimale pour la base de données Azure SQL pour {{ fr.RDM }}
@@ -22,7 +21,7 @@ Microsoft Azure SQL offre différents niveaux de service dans son modèle d'acha
 ## Points forts
 
 * Prend en charge la [Gestion des utilisateurs](/rdm/windows/commands/administration/management/user-management/) avec un modèle de sécurité supérieur.
-* Prend en charge le [Mode hors ligne](/rdm/windows/data-sources/offline-mode/) lorsque le serveur ou le réseau est indisponible.
+* Prend en charge le [mode hors ligne](/rdm/windows/data-sources/offline-mode/) lorsque le serveur ou le réseau est indisponible.
 * Prend en charge les journaux d'entrée et les pièces jointes.
 
 {% snippet, "badgeHelp" %}
@@ -73,7 +72,7 @@ Consultez [Configurer Azure SQL](/rdm/windows/data-sources/data-sources-types/ad
 
 ### VPN
 
-Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre base de données Microsoft Azure SQL. ![Microsoft Azure SQL - VPN](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2253.png)
+Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre base de données Microsoft Azure SQL. ![Microsoft Azure SQL - VPN](https://cdnweb.devolutions.net/docs/RDMW6090_2024_2.png)
 
 <table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Sélectionner entre <em><strong>Aucun</strong></em> ou <em><strong>À la première connexion</strong></em>.</p></td></tr><tr><td><p>Fichier RDM</p></td><td><p>Ouvrir un <em><strong>type d'entrée VPN</strong></em> à partir d'un <em><strong>fichier RDM</strong></em> avant de se connecter à la source de données.</p></td></tr><tr><td><p>Remplacer les identifiants</p></td><td><p>Remplacer les identifiants tels que <em><strong>Nom d'utilisateur, Domaine</strong></em>, et <em><strong>Mot de passe</strong></em>.</p></td></tr></tbody></table>
 
@@ -81,4 +80,4 @@ Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre bas
 
 ![Microsoft Azure SQL - Onglet Avancé](https://cdnweb.devolutions.net/docs/RDMW6093_2024_2.png)
 
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Mode de mise en cache</p></td><td><p>Détermine comment les entrées seront rechargées dans la source de données. Pour plus d'informations, veuillez consulter <a href="https://docs.devolutions.net/rdm/windows/data-sources/caching/">Mise en cache</a>.</p></td></tr><tr><td><p>Certificat de confiance</p></td><td><p>Définir comment la source de données gère les certificats.</p></td></tr><tr><td><p>Délai d'expiration de la connexion</p></td><td><p>Définir le délai d'expiration de la connexion.</p></td></tr><tr><td><p>Délai d'expiration de la commande</p></td><td><p>Définir le délai d'expiration de la commande.</p></td></tr><tr><td><p>Actualisation automatique</p></td><td><p>Définir l'intervalle pour l'actualisation automatique.</p></td></tr><tr><td><p>Demander le mode hors ligne au démarrage</p></td><td><p>Demander à utiliser la source de données en mode hors ligne lorsqu'un utilisateur se connecte à la source de données.</p></td></tr><tr><td><p>Autoriser la mise à niveau de la base de données bêta</p></td><td><p>Autoriser la mise à niveau bêta de la base de données (lors de l'utilisation d'une version bêta de Remote Desktop Manager).</p></td></tr><tr><td><p>Gérer le cache</p></td><td><p>Gérer le cache de la source de données. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances. Pour plus d'informations, veuillez consulter <a href="https://docs.devolutions.net/rdm/windows/data-sources/manage-cache/">Gérer le cache</a>.</p></td></tr><tr><td><p>Plus de paramètres</p></td><td><p>Modifier directement les valeurs de la chaîne de connexion.</p></td></tr></tbody></table>
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Mode de mise en cache</p></td><td><p>Déterminer comment les entrées seront rechargées dans la source de données. Pour plus d'informations, veuillez consulter <a href="https://docs.devolutions.net/rdm/windows/data-sources/caching/">Mise en cache</a>.</p></td></tr><tr><td><p>Certificat de confiance</p></td><td><p>Définir comment la source de données gère les certificats.</p></td></tr><tr><td><p>Délai d'expiration de la connexion</p></td><td><p>Définir le délai d'expiration de la connexion.</p></td></tr><tr><td><p>Délai d'expiration de la commande</p></td><td><p>Définir le délai d'expiration de la commande.</p></td></tr><tr><td><p>Actualisation automatique</p></td><td><p>Définir l'intervalle pour l'actualisation automatique.</p></td></tr><tr><td><p>Demander le mode hors ligne au démarrage</p></td><td><p>Demander à utiliser la source de données en mode hors ligne lorsqu'un utilisateur se connecte à la source de données.</p></td></tr><tr><td><p>Autoriser la mise à niveau de la base de données bêta</p></td><td><p>Autoriser la mise à niveau bêta de la base de données (lors de l'utilisation d'une version bêta de Remote Desktop Manager).</p></td></tr><tr><td><p>Gérer le cache</p></td><td><p>Gérer le cache de la source de données. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances. Pour plus d'informations, veuillez consulter <a href="https://docs.devolutions.net/rdm/windows/data-sources/manage-cache/">Gérer le cache</a>.</p></td></tr><tr><td><p>Plus de paramètres</p></td><td><p>Modifier directement les valeurs de la chaîne de connexion.</p></td></tr></tbody></table>
