@@ -37,9 +37,7 @@ Show-Command <CommandName>
 {% endsnippet %}
 
 ## Connection
-
 ### Connect-HubAccount
-
 #### Arguments
 * PSHubContext  
 
@@ -58,10 +56,11 @@ If PSHubContext is **not** provided, creates a PSHubContext with information rec
 
 #### Code example
 ```powershell
-$PSHubContext = [Devolutions.Hub.PowerShell.Entities.PowerShell.PSHubContext]@{ApplicationKey=“24526a88-7f18-4356-95bd-11690f7bc59b;468ce2d5-ea4b-42ff-bc02-d93c71b4e554“; ApplicationSecret=“U4nmdOjqPAcL0GfbvNC2u8e0FCZjhEJFTnn6YHpIZDY=“; Url=“https<area>://<YourPasswordHubUrl>.devolutions.app“}
+$PSHubContext = [Devolutions.Hub.PowerShell.Entities.PowerShell.PSHubContext]@{ApplicationKey="24526a88-7f18-4356-95bd-11690f7bc59b;468ce2d5-ea4b-42ff-bc02-d93c71b4e554"; ApplicationSecret="U4nmdOjqPAcL0GfbvNC2u8e0FCZjhEJFTnn6YHpIZDY="; Url="https://windjammer.devolutions.xyz"}
+Connect-HubAccount -PSHubContext $PSHubContext
 ```
 ```powershell
-Connect-HubAccount -PSHubContext $PSHubContext
+Connect-HubAccount -Url https://windjammer.devolutions.xyz -ApplicationKey "24526a88-7f18-4356-95bd-11690f7bc59b;468ce2d5-ea4b-42ff-bc02-d93c71b4e554" -ApplicationSecret U4nmdOjqPAcL0GfbvNC2u8e0FCZjhEJFTnn6YHpIZDY=
 ```
 or  
 ```powershell
@@ -69,7 +68,6 @@ Connect-HubAccount -Url https<area>://<YourPasswordHubUrl>.devolutions.app -Appl
 ```
 
 ### Disconnect-HubAccount
-
 #### Arguments
 * ApplicationKey  
 
@@ -84,10 +82,8 @@ or
 
 If All is provided, disconnects and removes all PSHubContext from the PowerShell session.  
 
-## Context 
-
+## Context
 ### Get-HubContext
-
 #### Arguments
 * ListAvailable
 
@@ -99,7 +95,6 @@ or
 If ListAvailable is **not** provided, retrieves the current PSHubContext which will be used for all other {{ en.DHUB }} commands.
 
 ### Set-HubContext
-
 #### Arguments
 * PSHubContext
 
@@ -107,7 +102,6 @@ If ListAvailable is **not** provided, retrieves the current PSHubContext which w
 Sets the current PSHubContext to the one provided.
 
 ### Select-HubContext
-
 #### Arguments
 * ApplicationKey
 
@@ -115,7 +109,6 @@ Sets the current PSHubContext to the one provided.
 Selects another PSHubContext to change the current PSHubContext which will be used for all {{ en.DHUB }} commands.
 
 ### Save-HubContext
-
 #### Arguments
 * PSHubContext
 * Path
@@ -163,7 +156,6 @@ Password: [INSERT YOUR PASSWORD]
 ```
 
 ### Import-HubContext
-
 #### Arguments
 * Path
 * SecurePassword
@@ -201,12 +193,10 @@ Password: [INSERT YOUR PASSWORD]
 This section is about commands used to handle system settings. 
 
 ### Get-HubSystemSettings
-
 #### Description
 Gets the PSSystemSettings object.
 
 ### Set-HubSystemSettings
-
 #### Arguments
 * PSSystemSettings
 
@@ -236,7 +226,6 @@ Set-HubSystemSettings -$psSystemSettings $psSystemSettings
 ```
 
 ### New-HubSystemVaultPermission
-
 #### Arguments
 * UserId
 * PSVaultRole | SystemVaultPermission  
@@ -257,7 +246,7 @@ If GroupId is provided, sets a predefined role or a custom system {{ en.VLT }} p
 
 #### Code example
 ```powershell
-$newSystemVaultPermission = [Devolutions.Hub.Clients.VaultPermission]@{ AddEntries = $true }
+$newSystemVaultPermission = [Devolutions.Hub.Clients.VaultPermissionRole]@{ AddEntries = $true }
 ```
 
 ```powershell
@@ -265,7 +254,6 @@ New-HubSystemVaultPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -Syste
 ```
 
 ### Remove-HubSystemVaultPermission
-
 #### Arguments
 * UserId  
 
@@ -281,7 +269,6 @@ or
 If GroupId is provided, removes this group's system {{ en.VLT }} permission from system settings.
 
 ### Get-HubSystemVaultPermission
-
 #### Arguments
 * UserId  
 
@@ -306,7 +293,6 @@ New-HubSystemVaultPermission -UserId 152c06cf-cce6-4116-97e1-34aadeab9984 -Syste
 ```
 
 ### Set-HubSystemVaultPermission
-
 #### Arguments
 * UserId
 * PSVaultRole | SystemVaultPermissions  
@@ -337,7 +323,6 @@ Set-HubSystemVaultPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -Syste
 ```
 
 ### New-HubSystemPermission
-
 #### Arguments
 * SystemPermission
    * UserId  
@@ -362,7 +347,6 @@ New-HubSystemPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -SystemPerm
 ```  
 
 ### Remove-HubSystemPermission
-
 #### Arguments
 * UserId
 
@@ -378,7 +362,6 @@ or
 If GroupId is provided, removes this group's system permission from system settings.
 
 ### Get-HubSystemPermission
-
 #### Arguments
 * UserId
 
@@ -403,7 +386,6 @@ New-HubSystemPermission -UserId 152c06cf-cce6-4116-97e1-34aadeab9984 -SystemPerm
 ```
 
 ### Set-HubSystemPermission
-
 #### Arguments
 * UserId
 * SystemPermission
@@ -437,7 +419,6 @@ Set-HubSystemPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -SystemPerm
 This section is about commands to handle {{ en.DGW }}.
 
 ### New-HubGateway
-
 #### Arguments
 * PsDecryptedGateway
 
@@ -453,7 +434,6 @@ New-HubGateway -PSDecryptedGateway $newDevolutionsGateway
 ```
 
 #### Remove-HubGateway
-
 #### Arguments
 * GatewayId
 
@@ -461,7 +441,6 @@ New-HubGateway -PSDecryptedGateway $newDevolutionsGateway
 Removes the {{ en.DGW }} with the provided ID.
 
 ### Set-HubGateway
-
 #### Arguments
 * PsDecryptedGateway
 
@@ -480,7 +459,6 @@ Set-HubGateway -PSDecryptedGateway $psDecrpytedGateway
 ```
 
 ### Get-HubGateway
-
 #### Arguments
 * GatewayId
 
@@ -488,17 +466,14 @@ Set-HubGateway -PSDecryptedGateway $psDecrpytedGateway
 Retrieves the {{ en.DGW }} with the provided ID.
 
 ### New-HubGatewaySettings
-
 #### Description
 Creates new {{ en.DGW }} settings. If settings **already exist**, they will be **overwritten**.
 
 ### Set-HubGatewaySettings
-
 #### Description
 Sets the provided {{ en.DGW }} settings.
 
 ### Get-HubGatewaySettings
-
 #### Description
 Retrieves the {{ en.DGW }} settings.
 
@@ -506,7 +481,6 @@ Retrieves the {{ en.DGW }} settings.
 This section is about commands to handle {{ en.VLT }}s.
 
 ### New-HubVault
-
 #### Arguments
 * VaultName
 * VaultDescription
@@ -518,7 +492,6 @@ Adds a new {{ en.VLT }}.
 Have the permission to create {{ en.VLT }}s and put a name.
 
 ### Remove-HubVault
-
 #### Arguments
 * VaultId
 
@@ -526,7 +499,6 @@ Have the permission to create {{ en.VLT }}s and put a name.
 Removes this {{ en.VLT }} from {{ en.DHUB }}.
 
 ### Get-HubVault
-
 #### Arguments
 * VaultId
 
@@ -536,7 +508,6 @@ If VaultId is provided, retrieves the {{ en.VLT }} by ID.
 If VaultId is **not** provided, retrieves all {{ en.VLT }}s you have access to.
 
 ### Set-HubVault
-
 #### Arguments
 * VaultId
 * PSVault
@@ -561,7 +532,6 @@ Set-HubVault -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -PSVault $psVault
 ```
 
 ### New-HubVaultPermission
-
 #### Arguments
 * VaultID
     * UserId
@@ -580,7 +550,7 @@ If GroupId is provided, sets a predefined PSVaultRole or a custom {{ en.VLT }} p
 #### Code example
 With a custom vaultPermission:
 ```powershell
-$newVaultPermission = [Devolutions.Hub.Clients.VaultPermission]@{ AddEntries = $true }
+$newVaultPermission = [Devolutions.Hub.Clients.VaultPermissionRole]@{ AddEntries = $true }
 ```
 ```powershell
 New-HubVaultPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -VaultPermission $newVaultPermission
@@ -594,7 +564,6 @@ New-HubVaultPermission -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -VaultRoleId
 ```
 
 ### Remove-HubVaultPermission
-
 #### Arguments
 * VaultID
     * UserId
@@ -609,7 +578,6 @@ If UserId is provided, removes this user's {{ en.VLT }} permission from the spec
 If GroupId is provided, removes this group's {{ en.VLT }} permission from the specific {{ en.VLT }}.
 
 ### Get-HubVaultPermission
-
 #### Arguments
 * VaultID
     * UserId
@@ -633,7 +601,6 @@ New-HubVaultPermission -UserId 152c06cf-cce6-4116-97e1-34aadeab9984 -VaultPermis
 ```
 
 ### Set-HubVaultPermission
-
 #### Arguments
 * VaultID
     * UserId
@@ -672,7 +639,6 @@ Set-HubVaultPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -GroupId 33
 ```
 
 ### Get-HubVaultRole
-
 #### Arguments
 * RoleId
 
@@ -685,7 +651,6 @@ If RoleId is **not** provided, retrieves all {{ en.VLT }} roles.
 This section is about commands to handle users.
 
 ### New-HubUser
-
 #### Arguments
 * UserEmail
 * UserLocale
@@ -697,7 +662,6 @@ Adds a new Devolutions user or invites an existing Devolutions user.
 If IsTemporaryPasswordSendByEmail is provided, the temporary password for the new Devolutions user will be sent by email. Otherwise, the temporary password is returned.
 
 ### New-HubOrganizationUser
-
 #### Arguments
 * Email
 * AllowOfflineInRDM
@@ -722,7 +686,6 @@ New-HubOrganizationUser -PSInvitation $psInvitation
 ```
 
 ### Remove-HubUser
-
 #### Arguments
 * UserId
 
@@ -730,7 +693,6 @@ New-HubOrganizationUser -PSInvitation $psInvitation
 Removes this user from {{ en.DHUB }}.
 
 ### Get-HubUser
-
 #### Arguments
 * UserId
 
@@ -740,7 +702,6 @@ If UserId is provided, retrieves the user by ID.
 If UserId is **not** provided, retrieves all users.
 
 ### Set-HubUser
-
 #### Arguments
 * UserId
 * PSUser
@@ -764,7 +725,6 @@ Set-HubVault -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -PSVault $psUser
 This section is about commands to handle groups.
 
 ### New-HubGroup
-
 #### Arguments
 * GroupName
 * GroupUserIds
@@ -773,7 +733,6 @@ This section is about commands to handle groups.
 Adds a new group to the hub with users, if provided.
 
 ### Remove-HubGroup
-
 #### Arguments
 * GroupId
 
@@ -781,7 +740,6 @@ Adds a new group to the hub with users, if provided.
 Removes this group from the hub.
 
 ### Get-HubGroup
-
 #### Arguments
 * GroupId
 
@@ -791,7 +749,6 @@ If GroupId is provided, retrieves the group by ID.
 If GroupId is **not** provided, retrieves all groups.
 
 ### Set-HubGroup
-
 #### Arguments
 * GroupId
 * PSGroup
@@ -815,7 +772,6 @@ Set-HubGroup -GroupId d41b9475-e00a-4f5b-8f25-4d539639dedd -$psGroup $psGroup
 ```
 
 ### Add-HubGroupUser
-
 #### Arguments
 * GroupId
 * UserIds
@@ -824,7 +780,6 @@ Set-HubGroup -GroupId d41b9475-e00a-4f5b-8f25-4d539639dedd -$psGroup $psGroup
 Adds one or more users to a specific group.
 
 ### Remove-HubGroupUser
-
 #### Arguments
 * GroupId
 * UserIds
@@ -836,7 +791,6 @@ Removes one or more users from a specific group.
 This section is about commands to handle entries. 
 
 ### New-HubEntry
-
 #### Arguments
 * VaultId
 * PSDecryptedEntry
@@ -854,7 +808,6 @@ New-HubEntry -VaultId d334f44c-fb84-4559-b576-e1e8b68baf65 -Connection $ff
 ```
 
 ### Remove-HubEntry
-
 #### Arguments
 * VaultId
 * EntryId
@@ -863,7 +816,6 @@ New-HubEntry -VaultId d334f44c-fb84-4559-b576-e1e8b68baf65 -Connection $ff
 Removes this entry from a specific {{ en.VLT }}.
 
 ### Get-HubEntry
-
 #### Arguments
 * VaultId
 * EntryId
@@ -874,7 +826,6 @@ If EntryId is **not** provided, retrieves all entries from a specific {{ en.VLT 
 Entry(ies) will have sensitive passwords if you have the permission.
 
 ### Set-HubEntry
-
 #### Arguments
 * VaultId
 * EntryId
@@ -897,9 +848,37 @@ $decryptedEntry.Connection.RDP.Password = “new_password“;
 ```powershell
 Set-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1 -PSDecryptedEntry $decryptedEntry
 ```
+### Get-HubEntryResolved
+#### Arguments
+* VaultId
+* EntryId
+* ResolveSensitives
+* ResolvePasswords
+
+#### Description
+Gets the entry and resolves the sensitives or passwords depending on the switches.
+
+#### Code example
+```powershell
+$entry = Get-HubEntryResolved -VaultID "98b693f6-c77b-434e-a02b-8beed4b7b343" -EntryID "7b4eeb29-e885-4461-aff7-15d2b45b89fb" -ResolveSensitives -ResolvePasswords
+```
+
+### Format-HubEntryResolved
+#### Arguments
+* Entry
+* ResolveSensitives
+* ResolvePasswords
+
+#### Description
+Resolves the sensitives or passwords from an already decrypted entry.
+
+#### Code example
+```powershell
+$entry = Get-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1
+Format-HubEntryResolved -Entry $entry -ResolvePasswords
+```
 
 ### New-HubEntryPermission
-
 #### Arguments
 * VaultId
 * EntryId
@@ -924,7 +903,7 @@ If GroupId is provided, sets a predefined role or a custom entry permission to t
 With a custom entryPermission:  
 
 ```powershell
-$newEntryPermission = [Devolutions.Hub.Clients.EntryPermission]@{ EditEntries = $true }
+$newEntryPermission = [Devolutions.Hub.Clients.EntryPermissionRole]@{ EditEntries = $true }
 ```
 ```powershell
 New-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf73b4ea-c1cd-4f53-9b53-f9277a108c56 -UserId 2d9221d6-3cbe-4161-b3aa-387f18a7f8c4 -EntryPermission $newEntryPermission
@@ -940,7 +919,6 @@ New-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf
 ```
 
 ### Remove-HubEntryPermission
-
 #### Arguments
 * VaultId
 * EntryId
@@ -958,7 +936,6 @@ or
 If GroupId is provided, removes this group's entry permission from a specific entry.
 
 ### Get-HubEntryPermission
-
 #### Arguments
 * VaultId
 * EntryId
@@ -986,7 +963,6 @@ New-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf
 ```
 
 ### Set-HubEntryPermission
-
 #### Arguments
 * VaultId
 * EntryId
@@ -1028,7 +1004,6 @@ Set-HubEntryPermission -VaultId 12ac66eb-7caa-4866-b5fd-5bd59c7f657e -EntryId cf
 ```
 
 ### Get-HubEntryRole
-
 #### Arguments
 * RoleId
 
