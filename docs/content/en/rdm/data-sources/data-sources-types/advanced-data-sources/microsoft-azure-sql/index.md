@@ -41,7 +41,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ### General
 
-![Microsoft Azure SQL - General](https://cdnweb.devolutions.net/docs/RDMW6087_2024_2.png)
+![Microsoft Azure SQL - General tab](https://cdnweb.devolutions.net/docs/RDMW6087_2024_2.png)
 
 <table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Name</p></td><td><p>Enter a name for the data source.</p></td></tr><tr><td><p>Host</p></td><td><p>Enter the server hostname or IP address.</p></td></tr><tr><td><p>Login mode</p></td><td><p>Specify the authentication mode to use. Select between:</p><ul><li><p><em><strong>Database login</strong></em></p></li><li><p><em><strong>Custom login</strong></em></p></li><li><p><em><strong>Active Directory Password</strong></em></p></li><li><p><em><strong>Active Directory Integrated</strong></em></p></li><li><p><em><strong>Active Directory Interactive (with MFA support)</strong></em></p></li></ul></td></tr><tr><td><p>Username</p></td><td><p>Enter the username to access the Azure SQL database.</p></td></tr><tr><td><p>Password</p></td><td><p>Enter the password to access the Azure SQL database.</p></td></tr><tr><td><p>Always ask password</p></td><td><p>Prompt for the password when a user connects to the data source.</p></td></tr><tr><td><p>Allow change username</p></td><td><p>Allow the username to be edited when connecting to the data source (only with <em><strong>Always ask password</strong></em> enabled).</p></td></tr><tr><td><p>Database</p></td><td><p>Enter the name of the Azure SQL database.</p></td></tr><tr><td><p>Test Database</p></td><td><p>Test the connection with the database to validate if the proper information has been provided.</p></td></tr></tbody></table>
 
@@ -57,7 +57,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ### {{ en.UVLT_MAJ }}
 
-![Microsoft Azure SQL –  tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3416.png)
+![Microsoft Azure SQL – User vault tab](https://cdnweb.devolutions.net/docs/RDMW6089_2024_2.png)
 
 <table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Select the type of <a href="https://docs.devolutions.net/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/">{% var, "UVLT" false %}</a> to use. Select between:</p><ul><li><p><em><strong>Default</strong></em>: use the default {% var, "UVLT" false %}, which is stored in the database.</p></li><li><p><em><strong>None</strong></em>: disable the {% var, "UVLT" false %} for all users.</p></li><li><p><em><strong>{% var, "DOD" false %}</strong></em>: use a <em><strong>{% var, "DOD" false %}</strong></em> (*.dod) as a {% var, "UVLT" false %}.</p></li></ul></td></tr></tbody></table>
 
