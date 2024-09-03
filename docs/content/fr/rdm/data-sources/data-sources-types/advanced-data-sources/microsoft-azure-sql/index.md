@@ -1,5 +1,4 @@
 ---
-_schema: default
 eleventyComputed:
   title: Microsoft Azure SQL
   description: >-
@@ -22,7 +21,7 @@ Microsoft Azure SQL offre différents niveaux de service dans son modèle d'acha
 ## Points forts
 
 * Prend en charge la [Gestion des utilisateurs](/rdm/windows/commands/administration/management/user-management/) avec un modèle de sécurité supérieur.
-* Prend en charge le [Mode hors ligne](/rdm/windows/data-sources/offline-mode/) lorsque le serveur ou le réseau est indisponible.
+* Prend en charge le [mode hors ligne](/rdm/windows/data-sources/offline-mode/) lorsque le serveur ou le réseau est indisponible.
 * Prend en charge les journaux d'entrée et les pièces jointes.
 
 {% snippet, "badgeHelp" %}
@@ -41,7 +40,7 @@ Consultez [Configurer Azure SQL](/rdm/windows/data-sources/data-sources-types/ad
 
 ### Général
 
-![Microsoft Azure SQL - Général](https://cdnweb.devolutions.net/docs/RDMW6087_2024_2.png)
+![Microsoft Azure SQL - Onglet Général](https://cdnweb.devolutions.net/docs/RDMW6087_2024_2.png)
 
 <table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Nom</p></td><td><p>Entrer un nom pour la source de données.</p></td></tr><tr><td><p>Hôte</p></td><td><p>Entrer le nom d'hôte du serveur ou l'adresse IP.</p></td></tr><tr><td><p>Mode de connexion</p></td><td><p>Spécifier le mode d'authentification à utiliser. Sélectionner entre :</p><ul><li><p><em><strong>Connexion à la base de données</strong></em></p></li><li><p><em><strong>Connexion personnalisée</strong></em></p></li><li><p><em><strong>Mot de passe Active Directory</strong></em></p></li><li><p><em><strong>Intégré Active Directory</strong></em></p></li><li><p><em><strong>Interactif Active Directory (avec support AMF)</strong></em></p></li></ul></td></tr><tr><td><p>Nom d'utilisateur</p></td><td><p>Entrer le nom d'utilisateur pour accéder à la base de données Azure SQL.</p></td></tr><tr><td><p>Mot de passe</p></td><td><p>Entrer le mot de passe pour accéder à la base de données Azure SQL.</p></td></tr><tr><td><p>Toujours demander le mot de passe</p></td><td><p>Demander le mot de passe lorsqu'un utilisateur se connecte à la source de données.</p></td></tr><tr><td><p>Autoriser le changement de nom d'utilisateur</p></td><td><p>Permettre l'édition du nom d'utilisateur lors de la connexion à la source de données (uniquement avec <em><strong>Toujours demander le mot de passe</strong></em> activé).</p></td></tr><tr><td><p>Base de données</p></td><td><p>Entrer le nom de la base de données Azure SQL.</p></td></tr><tr><td><p>Tester la base de données</p></td><td><p>Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies.</p></td></tr></tbody></table>
 
@@ -57,7 +56,7 @@ Consultez [Configurer Azure SQL](/rdm/windows/data-sources/data-sources-types/ad
 
 ### {{ fr.UVLT_MAJ }}
 
-![Microsoft Azure SQL – onglet](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3416.png)
+![Microsoft Azure SQL – Onglet coffre de l'utilisateur](https://cdnweb.devolutions.net/docs/RDMW6089_2024_2.png)
 
 <table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Sélectionner le type de <a href="https://docs.devolutions.net/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/">{% var, "UVLT" false %}</a> à utiliser. Sélectionner entre :</p><ul><li><p><em><strong>Par défaut</strong></em> : utiliser le {% var, "UVLT" false %} par défaut, qui est stocké dans la base de données.</p></li><li><p><em><strong>Aucun</strong></em> : désactiver le {% var, "UVLT" false %} pour tous les utilisateurs.</p></li><li><p><em><strong>{% var, "DOD" false %}</strong></em> : utiliser un <em><strong>{% var, "DOD" false %}</strong></em> (*.dod) comme {% var, "UVLT" false %}.</p></li></ul></td></tr></tbody></table>
 
@@ -81,4 +80,4 @@ Ouvrir un VPN pour accéder à vos données avant de vous connecter à votre bas
 
 ![Microsoft Azure SQL - Onglet Avancé](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10370.png)
 
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Mode de mise en cache</p></td><td><p>Détermine comment les entrées seront rechargées dans la source de données. Pour plus d'informations, veuillez consulter <a href="https://docs.devolutions.net/rdm/windows/data-sources/caching/">Mise en cache</a>.</p></td></tr><tr><td><p>Certificat de confiance</p></td><td><p>Définir comment la source de données gère les certificats.</p></td></tr><tr><td><p>Délai d'expiration de la connexion</p></td><td><p>Définir le délai d'expiration de la connexion.</p></td></tr><tr><td><p>Délai d'expiration de la commande</p></td><td><p>Définir le délai d'expiration de la commande.</p></td></tr><tr><td><p>Actualisation automatique</p></td><td><p>Définir l'intervalle pour l'actualisation automatique.</p></td></tr><tr><td><p>Demander le mode hors ligne au démarrage</p></td><td><p>Demander à utiliser la source de données en mode hors ligne lorsqu'un utilisateur se connecte à la source de données.</p></td></tr><tr><td><p>Autoriser la mise à niveau de la base de données bêta</p></td><td><p>Autoriser la mise à niveau bêta de la base de données (lors de l'utilisation d'une version bêta de Remote Desktop Manager).</p></td></tr><tr><td><p>Gérer le cache</p></td><td><p>Gérer le cache de la source de données. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances. Pour plus d'informations, veuillez consulter <a href="https://docs.devolutions.net/rdm/windows/data-sources/manage-cache/">Gérer le cache</a>.</p></td></tr><tr><td><p>Plus de paramètres</p></td><td><p>Modifier directement les valeurs de la chaîne de connexion.</p></td></tr></tbody></table>
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Mode de mise en cache</p></td><td><p>Déterminer comment les entrées seront rechargées dans la source de données. Pour plus d'informations, veuillez consulter <a href="https://docs.devolutions.net/rdm/windows/data-sources/caching/">Mise en cache</a>.</p></td></tr><tr><td><p>Certificat de confiance</p></td><td><p>Définir comment la source de données gère les certificats.</p></td></tr><tr><td><p>Délai d'expiration de la connexion</p></td><td><p>Définir le délai d'expiration de la connexion.</p></td></tr><tr><td><p>Délai d'expiration de la commande</p></td><td><p>Définir le délai d'expiration de la commande.</p></td></tr><tr><td><p>Actualisation automatique</p></td><td><p>Définir l'intervalle pour l'actualisation automatique.</p></td></tr><tr><td><p>Demander le mode hors ligne au démarrage</p></td><td><p>Demander à utiliser la source de données en mode hors ligne lorsqu'un utilisateur se connecte à la source de données.</p></td></tr><tr><td><p>Autoriser la mise à niveau de la base de données bêta</p></td><td><p>Autoriser la mise à niveau bêta de la base de données (lors de l'utilisation d'une version bêta de Remote Desktop Manager).</p></td></tr><tr><td><p>Gérer le cache</p></td><td><p>Gérer le cache de la source de données. Sur les grandes sources de données, la mise en cache est indispensable et augmentera considérablement les performances. Pour plus d'informations, veuillez consulter <a href="https://docs.devolutions.net/rdm/windows/data-sources/manage-cache/">Gérer le cache</a>.</p></td></tr><tr><td><p>Plus de paramètres</p></td><td><p>Modifier directement les valeurs de la chaîne de connexion.</p></td></tr></tbody></table>
