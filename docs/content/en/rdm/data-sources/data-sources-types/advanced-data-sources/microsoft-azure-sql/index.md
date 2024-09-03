@@ -73,12 +73,12 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ### VPN
 
-Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database. ![Microsoft Azure SQL - VPN](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2253.png)
+Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database. ![Microsoft Azure SQL - VPN](https://cdnweb.devolutions.net/docs/RDMW6090_2024_2.png)
 
 <table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Select between <em><strong>None</strong></em> or <em><strong>On first connect</strong></em>.</p></td></tr><tr><td><p>RDM File</p></td><td><p>Open a <em><strong>VPN entry type</strong></em> from a <em><strong>RDM file</strong></em> before connecting to the datasource.</p></td></tr><tr><td><p>Override credentials</p></td><td><p>Ovverride credentials such as <em><strong>Username, Domain</strong></em>, and <em><strong>Password</strong></em>.</p></td></tr></tbody></table>
 
 ### Advanced
 
-![Microsoft Azure SQL - Advanced Tab](https://cdnweb.devolutions.net/docs/RDMW6091_2024_2.png)
+![Microsoft Azure SQL - Advanced Tab](https://cdnweb.devolutions.net/docs/RDMW6093_2024_2.png)
 
 <table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Caching mode</p></td><td><p>Determines how the entries will be reloaded in the data source. For more information, please consult <a href="https://docs.devolutions.net/rdm/windows/data-sources/caching/">Caching</a>.</p></td></tr><tr><td><p>Trust certificate </p></td><td><p>Set how the data source handles certificates.</p></td></tr><tr><td><p>Connection timeout</p></td><td><p>Set the delay of the connection timeout.</p></td></tr><tr><td><p>Command timeout</p></td><td><p>Set the delay of the command timeout.</p></td></tr><tr><td><p>Auto refresh</p></td><td><p>Set the interval for the automatic refresh.</p></td></tr><tr><td><p>Prompt for offline mode on startup</p></td><td><p>Ask to use the data source in offline mode when a user connects to the data source.</p></td></tr><tr><td><p>Allow beta database upgrade</p></td><td><p>Allow beta upgrade of the database (when using a beta version of Remote Desktop Manager).</p></td></tr><tr><td><p>Manage Cache</p></td><td><p>Manage the data source cache. On large data sources, caching is a must and will increase performance significantly. For more information, please consult <a href="https://docs.devolutions.net/rdm/windows/data-sources/manage-cache/">Manage Cache</a>.</p></td></tr><tr><td><p>More Settings</p></td><td><p>Edit the connection string values directly.</p></td></tr></tbody></table>
