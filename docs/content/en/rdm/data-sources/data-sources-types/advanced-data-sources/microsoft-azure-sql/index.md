@@ -51,7 +51,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ![Microsoft Azure SQL - Settings Tab](https://cdnweb.devolutions.net/docs/RDMW6088_2024_2.png)
 
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Root filter</p></td><td><p>Enter the name of a root level folder to display only the entries contained in that folder.</p></td></tr><tr><td><p>Ping online method</p></td><td><p>Indicate the preferred ping online method. Select between:</p><ul><li><p>None</p></li><li><p>Ping</p></li><li><p>Port Scan</p></li></ul></td></tr><tr><td><p>Auto go offline</p></td><td><p>Use the data source in offline mode when the ping method does not respond.</p></td></tr></tbody></table>
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Root filter</p></td><td><p>Enter the name of a root level folder to display only the entries contained in that folder.</p></td></tr><tr><td><p>Ping online method</p></td><td><p>Indicate the preferred ping online method. Select between:</p><ul><li><p>None</p></li><li><p>Ping</p></li><li><p>Port Scan</p></li></ul></td></tr><tr><td><p>Automatically go offline on offline prompt </p></td><td><p>Use the data source in offline mode when the ping method does not respond.</p></td></tr></tbody></table>
 
 &nbsp;
 
