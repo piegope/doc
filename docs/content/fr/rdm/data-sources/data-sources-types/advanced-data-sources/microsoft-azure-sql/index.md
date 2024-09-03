@@ -3,7 +3,8 @@ _schema: default
 eleventyComputed:
   title: Microsoft Azure SQL
   description: >-
-    Avec une source de données Microsoft Azure SQL, {{ fr.RDM }} utilise la plateforme cloud de Microsoft pour sauvegarder et gérer les entrées.
+    Avec une source de données Microsoft Azure SQL, {{ fr.RDM }} utilise la
+    plateforme cloud de Microsoft pour sauvegarder et gérer les entrées.
 ---
 Avec une source de données Microsoft Azure SQL, {{ fr.RDM }} utilise la plateforme cloud de Microsoft pour sauvegarder et gérer les entrées.
 
@@ -11,17 +12,17 @@ Les fonctionnalités suivantes sont également prises en charge :
 
 * Groupe de disponibilité Always On
 * Clustering
-* Expédition des journaux
+* Expédition de journaux
 * Miroir de base de données
 
-## Exigence minimale pour Azure SQL Database pour {{ fr.RDM }}
+## Exigence minimale pour la base de données Azure SQL pour {{ fr.RDM }}
 
 Microsoft Azure SQL offre différents niveaux de service dans son modèle d'achat pour les DTUS. Nous recommandons au minimum un forfait de niveau Standard S0 pour 5 utilisateurs et plus. Visitez leur site Web pour plus d'informations.
 
 ## Points forts
 
 * Prend en charge la [Gestion des utilisateurs](/rdm/windows/commands/administration/management/user-management/) avec un modèle de sécurité supérieur.
-* Prend en charge le [mode hors ligne](/rdm/windows/data-sources/offline-mode/) lorsque le serveur ou le réseau est indisponible.
+* Prend en charge le [Mode hors ligne](/rdm/windows/data-sources/offline-mode/) lorsque le serveur ou le réseau est indisponible.
 * Prend en charge les journaux d'entrée et les pièces jointes.
 
 {% snippet, "badgeHelp" %}
@@ -50,23 +51,13 @@ Consultez [Configurer Azure SQL](/rdm/windows/data-sources/data-sources-types/ad
 
 ![Microsoft Azure SQL - Onglet Paramètres](https://cdnweb.devolutions.net/docs/RDMW6088_2024_2.png)
 
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Filtre racine</p></td><td><p>Entrer le nom d'un dossier de niveau racine pour afficher uniquement les entrées contenues dans ce dossier.</p></td></tr><tr><td><p>Méthode de ping en ligne</p></td><td><p>Indiquer la méthode de ping en ligne préférée. Sélectionner entre :</p><ul><li><p>Aucun</p></li><li><p>Ping</p></li><li><p>Scan de port</p></li></ul></td></tr><tr><td><p>Passer automatiquement en mode hors ligne à l'invite hors ligne </p></td><td><p>Utiliser la source de données en mode hors ligne lorsque la méthode de ping ne répond pas.</p></td></tr></tbody></table>
-
-&nbsp;
-
-### {{ fr.UVLT_MAJ }}
-
-![Microsoft Azure SQL – Onglet coffre de l'utilisateur](https://cdnweb.devolutions.net/docs/RDMW6089_2024_2.png)
-
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Sélectionner le type de <a href="https://docs.devolutions.net/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/">{% var, "UVLT" false %}</a> à utiliser. Sélectionner entre :</p><ul><li><p><em><strong>Par défaut</strong></em> : utiliser le {% var, "UVLT" false %} par défaut, qui est stocké dans la base de données.</p></li><li><p><em><strong>Aucun</strong></em> : désactiver le {% var, "UVLT" false %} pour tous les utilisateurs.</p></li><li><p><em><strong>{% var, "DOD" false %}</strong></em> : utiliser un <em><strong>{% var, "DOD" false %}</strong></em> (*.dod) comme {% var, "UVLT" false %}.</p></li></ul></td></tr><tr><td><p>Clé maîtresse</p></td><td><p>Entrer la <a href="/rdm/commands/file/change-master-key/">clé maîtresse</a>.</p></td></tr><tr><td><p>Toujours demander la clé maîtresse </p></td><td><p>Toujours demander la <a href="/rdm/commands/file/change-master-key/">clé maîtresse</a> lors de l'ouverture de la source de données. </p></td></tr></tbody></table>
-
-&nbsp;
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Filtre racine</p></td><td><p>Entrer le nom d'un dossier de niveau racine pour afficher uniquement les entrées contenues dans ce dossier.</p></td></tr><tr><td><p>Méthode de ping en ligne</p></td><td><p>Indiquer la méthode de ping en ligne préférée. Sélectionner entre :</p><ul><li><p>Aucune</p></li><li><p>Ping</p></li><li><p>Scan de port</p></li></ul></td></tr><tr><td><p>Passer automatiquement en mode hors ligne lors de l'invite hors ligne </p></td><td><p>Utiliser la source de données en mode hors ligne lorsque la méthode de ping ne répond pas.</p></td></tr></tbody></table>
 
 ### Mise à niveau
 
 ![Microsoft Azure SQL - Onglet Mise à niveau](https://cdnweb.devolutions.net/docs/RDMW6092_2024_2.png)
 
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Créer la base de données</p></td><td><p>Créer la base de données sur le serveur SQL pour utiliser Remote Desktop Manager.</p></td></tr><tr><td><p>Mettre à jour la base de données</p></td><td><p>Mettre à jour la base de données sur le serveur SQL, si nécessaire pour utiliser Remote Desktop Manager.</p></td></tr><tr><td><p>Tester la base de données</p></td><td><p>Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies.</p></td></tr><tr><td><p>Envoyer le schéma par courriel au support</p></td><td><p>Envoyer votre schéma à notre équipe de support.</p></td></tr></tbody></table>
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Tester l'hôte </p></td><td><p>Vérifier la connexion à la base de données.</p></td></tr><tr><td><p>Créer la base de données</p></td><td><p>Créer la base de données sur le serveur SQL pour utiliser Remote Desktop Manager.</p></td></tr><tr><td><p>Mettre à jour la base de données</p></td><td><p>Mettre à jour la base de données sur le serveur SQL, si nécessaire pour utiliser Remote Desktop Manager.</p></td></tr><tr><td><p>Tester la base de données</p></td><td><p>Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies.</p></td></tr><tr><td><p>Envoyer le schéma par courriel au support</p></td><td><p>Envoyer votre schéma à notre équipe de support.</p></td></tr></tbody></table>
 
 ###
 
