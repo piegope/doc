@@ -67,11 +67,15 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ![Microsoft Azure SQL - Upgrade Tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip10377.png)
 
-\| OPTION                \| DESCRIPTION \| \|-----------------------\|-------------\| \| Create Database       \| Create the database on the SQL server to use {{ en.RDM }}.                                     \| \| Update Database       \| Update the database on the SQL server, if required to use {{ en.RDM }}.                        \| \| Test Database         \| Test the connection with the database to validate if the proper information has been provided. \| \| Email Schema to Support \| Send your schema to our support team.                                                        \|
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Create Database</p></td><td><p>Create the database on the SQL server to use Remote Desktop Manager.</p></td></tr><tr><td><p>Update Database</p></td><td><p>Update the database on the SQL server, if required to use Remote Desktop Manager.</p></td></tr><tr><td><p>Test Database</p></td><td><p>Test the connection with the database to validate if the proper information has been provided.</p></td></tr><tr><td><p>Email Schema to Support</p></td><td><p>Send your schema to our support team.</p></td></tr></tbody></table>
+
+###
 
 ### VPN
 
 Open a VPN to access your data prior to connecting to your Microsoft Azure SQL database. ![Microsoft Azure SQL - VPN](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_RDMWin2253.png)
+
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Select between <em><strong>None</strong></em> or <em><strong>On first connect</strong></em>.</p></td></tr><tr><td><p>RDM File</p></td><td><p>Open a <em><strong>VPN entry type</strong></em> from a <em><strong>RDM file</strong></em> before connecting to the datasource.</p></td></tr><tr><td><p>Override credentials</p></td><td><p>Ovverride credentials such as <em><strong>Username, Domain</strong></em>, and <em><strong>Password</strong></em>.</p></td></tr></tbody></table>
 
 ### Advanced
 
