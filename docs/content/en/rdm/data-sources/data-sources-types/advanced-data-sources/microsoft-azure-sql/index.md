@@ -59,13 +59,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ![Microsoft Azure SQL –  tab](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3416.png)
 
-\| OPTION \| DESCRIPTION \| \|--------\|-------------\| \| Type   \| Select the type of [{{ en.UVLT }}](/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/) to use. Select between:
-
-* ***Default***: use the default {{ en.UVLT }}, which is stored in the database.
-* ***None***: disable the {{ en.UVLT }} for all users.
-* ***{{ en.DOD }}***: use a {{ en.DOD }} file (\*.dod) as a {{ en.UVLT }}.
-
-\|
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Select the type of <a href="https://docs.devolutions.net/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/">{% var, "UVLT" false %}</a> to use. Select between:</p><ul><li><p><em><strong>Default</strong></em>: use the default {% var, "UVLT" false %}, which is stored in the database.</p></li><li><p><em><strong>None</strong></em>: disable the {% var, "UVLT" false %} for all users.</p></li><li><p><em><strong>{% var, "DOD" false %}</strong></em>: use a <em><strong>{% var, "DOD" false %}</strong></em> (*.dod) as a {% var, "UVLT" false %}.</p></li></ul></td></tr></tbody></table>
 
 &nbsp;
 
