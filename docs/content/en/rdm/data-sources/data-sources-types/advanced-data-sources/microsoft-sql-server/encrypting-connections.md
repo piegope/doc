@@ -12,4 +12,4 @@ After it has been properly configured, the only modification to perform in {{ en
 ## Procedure
 
 1. Create or edit an Microsoft SQL Server data source, access the ***Advanced*** tab and click the ***More Settings*** button. ![More settings button](https://cdnweb.devolutions.net/docs/RDMW6085_2024_2.png)
-2. Set the ***Encrypt*** property value to ***true***. Click ***OK*** to validate. ![!!clip7001](https://cdnweb.devolutions.net/docs/RDMW6086_2024_2.png)
+2. Set the ***Encrypt*** property value to ***true***. Click ***OK*** to validate. ![Set the Encrypt property value to true](https://cdnweb.devolutions.net/docs/RDMW6086_2024_2.png)
