@@ -51,7 +51,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ![Microsoft Azure SQL - Settings Tab](https://cdnweb.devolutions.net/docs/RDMW6088_2024_2.png)
 
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Root filter</p></td><td><p>Enter the name of a root level folder to display only the entries contained in that folder.</p></td></tr><tr><td><p>Ping online method</p></td><td><p>Indicate the preferred ping online method. Select between:</p><ul><li><p>None</p></li><li><p>Ping</p></li><li><p>Port Scan</p></li></ul></td></tr><tr><td><p>Auto go offline</p></td><td><p>Use the data source in offline mode when the ping method does not respond.</p></td></tr></tbody></table>
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Root filter</p></td><td><p>Enter the name of a root level folder to display only the entries contained in that folder.</p></td></tr><tr><td><p>Ping online method</p></td><td><p>Indicate the preferred ping online method. Select between:</p><ul><li><p>None</p></li><li><p>Ping</p></li><li><p>Port Scan</p></li></ul></td></tr><tr><td><p>Automatically go offline on offline prompt </p></td><td><p>Use the data source in offline mode when the ping method does not respond.</p></td></tr></tbody></table>
 
 &nbsp;
 
@@ -59,7 +59,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ![Microsoft Azure SQL – User vault tab](https://cdnweb.devolutions.net/docs/RDMW6089_2024_2.png)
 
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Select the type of <a href="https://docs.devolutions.net/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/">{% var, "UVLT" false %}</a> to use. Select between:</p><ul><li><p><em><strong>Default</strong></em>: use the default {% var, "UVLT" false %}, which is stored in the database.</p></li><li><p><em><strong>None</strong></em>: disable the {% var, "UVLT" false %} for all users.</p></li><li><p><em><strong>{% var, "DOD" false %}</strong></em>: use a <em><strong>{% var, "DOD" false %}</strong></em> (*.dod) as a {% var, "UVLT" false %}.</p></li></ul></td></tr></tbody></table>
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Select the type of <a href="https://docs.devolutions.net/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/">{% var, "UVLT" false %}</a> to use. Select between:</p><ul><li><p><em><strong>Default</strong></em>: use the default {% var, "UVLT" false %}, which is stored in the database.</p></li><li><p><em><strong>None</strong></em>: disable the {% var, "UVLT" false %} for all users.</p></li><li><p><em><strong>{% var, "DOD" false %}</strong></em>: use a <em><strong>{% var, "DOD" false %}</strong></em> (*.dod) as a {% var, "UVLT" false %}.</p></li></ul></td></tr><tr><td><p>Master key</p></td><td><p>Enter the <a href="/rdm/commands/file/change-master-key/">master key</a>.</p></td></tr><tr><td><p>Always ask master key </p></td><td><p>Always ask for the <a href="/rdm/commands/file/change-master-key/">master key</a> when opening the data source. </p></td></tr></tbody></table>
 
 &nbsp;
 
