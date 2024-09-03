@@ -14,14 +14,14 @@ Les fonctionnalités suivantes sont également prises en charge :
 * Expédition des journaux
 * Miroir de base de données
 
-## Exigence minimale pour Azure SQL Database pour {{ fr.RDM }}
+## Exigence minimale pour la base de données Azure SQL pour {{ fr.RDM }}
 
 Microsoft Azure SQL offre différents niveaux de service dans son modèle d'achat pour les DTUS. Nous recommandons au minimum un forfait de niveau Standard S0 pour 5 utilisateurs et plus. Visitez leur site Web pour plus d'informations.
 
 ## Points forts
 
 * Prend en charge la [Gestion des utilisateurs](/rdm/windows/commands/administration/management/user-management/) avec un modèle de sécurité supérieur.
-* Prend en charge le [mode hors ligne](/rdm/windows/data-sources/offline-mode/) lorsque le serveur ou le réseau est indisponible.
+* Prend en charge le [Mode hors ligne](/rdm/windows/data-sources/offline-mode/) lorsque le serveur ou le réseau est indisponible.
 * Prend en charge les journaux d'entrée et les pièces jointes.
 
 {% snippet, "badgeHelp" %}
@@ -42,7 +42,7 @@ Consultez [Configurer Azure SQL](/rdm/windows/data-sources/data-sources-types/ad
 
 ![Microsoft Azure SQL - Onglet Général](https://cdnweb.devolutions.net/docs/RDMW6087_2024_2.png)
 
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Nom</p></td><td><p>Entrer un nom pour la source de données.</p></td></tr><tr><td><p>Hôte</p></td><td><p>Entrer le nom d'hôte du serveur ou l'adresse IP.</p></td></tr><tr><td><p>Mode de connexion</p></td><td><p>Spécifier le mode d'authentification à utiliser. Sélectionner entre :</p><ul><li><p><em><strong>Connexion à la base de données</strong></em></p></li><li><p><em><strong>Connexion personnalisée</strong></em></p></li><li><p><em><strong>Mot de passe Active Directory</strong></em></p></li><li><p><em><strong>Intégré Active Directory</strong></em></p></li><li><p><em><strong>Interactif Active Directory (avec support A2F)</strong></em></p></li></ul></td></tr><tr><td><p>Nom d'utilisateur</p></td><td><p>Entrer le nom d'utilisateur pour accéder à la base de données Azure SQL.</p></td></tr><tr><td><p>Mot de passe</p></td><td><p>Entrer le mot de passe pour accéder à la base de données Azure SQL.</p></td></tr><tr><td><p>Toujours demander le mot de passe</p></td><td><p>Demander le mot de passe lorsqu'un utilisateur se connecte à la source de données.</p></td></tr><tr><td><p>Autoriser le changement de nom d'utilisateur</p></td><td><p>Permettre l'édition du nom d'utilisateur lors de la connexion à la source de données (uniquement avec <em><strong>Toujours demander le mot de passe</strong></em> activé).</p></td></tr><tr><td><p>Base de données</p></td><td><p>Entrer le nom de la base de données Azure SQL.</p></td></tr><tr><td><p>Tester la base de données</p></td><td><p>Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies.</p></td></tr></tbody></table>
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Nom</p></td><td><p>Entrer un nom pour la source de données.</p></td></tr><tr><td><p>Hôte</p></td><td><p>Entrer le nom d'hôte du serveur ou l'adresse IP.</p></td></tr><tr><td><p>Mode de connexion</p></td><td><p>Spécifier le mode d'authentification à utiliser. Sélectionner entre :</p><ul><li><p><em><strong>Connexion à la base de données</strong></em></p></li><li><p><em><strong>Connexion personnalisée</strong></em></p></li><li><p><em><strong>Mot de passe Active Directory</strong></em></p></li><li><p><em><strong>Intégré Active Directory</strong></em></p></li><li><p><em><strong>Interactif Active Directory (avec support AMF)</strong></em></p></li></ul></td></tr><tr><td><p>Nom d'utilisateur</p></td><td><p>Entrer le nom d'utilisateur pour accéder à la base de données Azure SQL.</p></td></tr><tr><td><p>Mot de passe</p></td><td><p>Entrer le mot de passe pour accéder à la base de données Azure SQL.</p></td></tr><tr><td><p>Toujours demander le mot de passe</p></td><td><p>Demander le mot de passe lorsqu'un utilisateur se connecte à la source de données.</p></td></tr><tr><td><p>Autoriser le changement de nom d'utilisateur</p></td><td><p>Permettre l'édition du nom d'utilisateur lors de la connexion à la source de données (uniquement avec <em><strong>Toujours demander le mot de passe</strong></em> activé).</p></td></tr><tr><td><p>Base de données</p></td><td><p>Entrer le nom de la base de données Azure SQL.</p></td></tr><tr><td><p>Tester la base de données</p></td><td><p>Tester la connexion avec la base de données pour valider si les informations appropriées ont été fournies.</p></td></tr></tbody></table>
 
 &nbsp;
 
