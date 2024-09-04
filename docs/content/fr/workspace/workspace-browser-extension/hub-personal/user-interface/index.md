@@ -15,18 +15,18 @@ La vue principale, qui est celle affichée lors de la première ouverture de {% 
 
 ### Menu Supérieur
 
-Le ***Menu supérieur*** de {% var, "WBEX" false %} contient (de gauche à droite) une ***Barre de recherche*** – accompagnée d'un bouton de recherche avancée –, un bouton ***Actualiser***, un bouton ***Ajouter un site web*** et le bouton ***Compte*** de l'extension. Ceux-ci peuvent être utilisés respectivement pour filtrer les identifiants et les {% var, "VLT" false %}, actualiser l'affichage de l'extension, ajouter manuellement une entrée à {% var, "DHUBP" false %}, et accéder aux paramètres actuels de {% var, "DA" false %}.
+Le ***Menu supérieur*** de {% var, "WBEX" false %} contient (de gauche à droite) une ***Barre de recherche*** –avec un bouton de recherche avancée–, un bouton ***Actualiser***, un bouton ***Ajouter un site web*** et le bouton ***Compte*** de l'extension. Ceux-ci peuvent être utilisés respectivement pour filtrer les identifiants et les {% var, "VLT" false %}, actualiser l'affichage de l'extension, ajouter manuellement une entrée à {% var, "DHUBP" false %}, et accéder aux paramètres actuels de {% var, "DA" false %}.
 
 ![Workspace browser extension – Top menu](https://cdnweb.devolutions.net/docs/WEBX4120_2024_2.png "Workspace browser extension – Top menu")
 
 La section du bouton ***Compte*** offre quelques liens et informations intéressants, à savoir :
 
-* un bouton ***Gérer le compte*** pour voir/modifier votre {{ fr.DA }} via le {{ fr.DPORTAL }}.
+* un bouton ***Gérer le compte*** pour voir/modifier le {{ fr.DA }} via le {{ fr.DPORTAL }}.
 * une liste des autres comptes qui ont été utilisés pour se connecter à {{ fr.DHUBP }} sur l'ordinateur.
 * un bouton ***Ajouter un autre compte*** pour se connecter à {{ fr.DHUBP }} avec un compte qui n'est pas listé ci-dessus.
-* un bouton ***Déconnexion*** pour se déconnecter de votre {{ fr.DA }}.
-* un lien vers votre {{ fr.DHUBB }}.
-* un lien vers notre [{{ fr.DHUB }} Forum](https://forum.devolutions.net/product/password-hub).
+* un bouton ***Déconnexion*** pour se déconnecter du {{ fr.DA }}.
+* un lien vers {{ fr.DHUBB }}.
+* un lien vers notre [Forum {{ fr.DHUB }}](https://forum.devolutions.net/product/password-hub).
 * un lien vers notre [documentation {{ fr.DHUB }} (Aide en ligne)](/hub/overview/what-is-hub/).
 * la version actuelle de {{ fr.WBEX }}.
 
