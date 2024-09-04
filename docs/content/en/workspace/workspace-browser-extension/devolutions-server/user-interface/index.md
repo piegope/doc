@@ -3,9 +3,9 @@ _schema: default
 eleventyComputed:
   title: '{{ en.WBEX }} user interface with {{ en.DVLS }}'
 ---
-The {{ en.WBEX }} user interface is slightly different in your browser depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.WBEX }} user interface when used with {{ en.DVLS }}.
+The {{ en.WBEX }} user interface is slightly different depending on the Devolutions product used in conjunction with the extension. This topic will present the {{ en.WBEX }} user interface when used with {{ en.DVLS }}.
 
-The main view, which is the one displayed when first opening the {{ en.WBEX }} in your browser, can be divided into three main sections:
+The main view, which is the one displayed when first opening the {{ en.WBEX }} in a browser, can be divided into three main sections:
 
 1. 1. The ***Top menu***, which contains a few useful {% var, "WBEX" false %} functionalities and settings.
    2. The ***Side menu***, which changes what the ***Content area*** displays.
@@ -24,11 +24,11 @@ The main view, which is the one displayed when first opening the {{ en.WBEX }} i
 
 The ***Account*** button section offers some interesting links and informations, namely:
 
-* a ***Manage account*** button to view/edit your {{ en.DA }} through the {{ en.DPORTAL }}.
+* a ***Manage account*** button to view/edit the {{ en.DA }} through the {{ en.DPORTAL }}.
 * a list of the other accounts that were used to log in to {% var, "DVLS" false %} on the computer.
 * an ***Add another account*** button to log in to {% var, "DVLS" false %} with an account that is not listed above.
-* a ***Log off*** button to sign out of your {{ en.DA }}.
-* a link to your {% var, "DVLS" false %}.
+* a ***Log off*** button to sign out of the {{ en.DA }}.
+* a link to {% var, "DVLS" false %}.
 * a link to our [{% var, "DVLS" false %} Forum](https://forum.devolutions.net/product/server).
 * a link to our [{% var, "DVLS" false %} documentation (Online Help)](https://docs.devolutions.net/server/overview/what-is-server/).
 * the current version of the {{ en.WBEX }}.
