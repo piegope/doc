@@ -10,8 +10,8 @@ eleventyComputed:
       If the database is created using a system administrator (example: SA), we recommend to keep this user only for the database creation and the [database upgrade](/rdm/windows/installation/database-upgrade/). A {{ en.RDM }} administrator account must be created first. Then, regular users are created with this administrator account.
       {% endsnippet %}
 
-![Create a  Administrator Account](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip3415.png)
+![Create a  Administrator Account](https://cdnweb.devolutions.net/docs/RDMW6094_2024_2.png)
 
-5. Connect on the Microsoft Azure SQL database with the {{ en.RDM }} administrator account. To do so, edit the data source used to create the database and change the login information for the administrator account that you have created. ![Connection to the Database with the  Administrator Account](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_clip11501.png)
+5. Connect on the Microsoft Azure SQL database with the {{ en.RDM }} administrator account. To do so, edit the data source used to create the database and change the login information for the administrator account that you have created. ![Connection to the Database with the  Administrator Account](https://cdnweb.devolutions.net/docs/RDMW6095_2024_2.png)
 
 The Microsoft Azure SQL data source is now correctly configured.
