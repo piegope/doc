@@ -1,14 +1,13 @@
----
-_schema: défaut
-eleventyComputed:
-  title: Accéder à l'entrée {{ fr.RDM }} via Google Chrome sans intégration Google Drive
-  description: >-
-    Comment accéder à votre entrée {{ fr.RDM }} dans Google Chrome si
-    l'intégration Google Drive ne fonctionne pas.
-  status:
-  keywords:
----
-Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %} dans ***Google Chrome*** via ***Google Drive***, les instructions suivantes vous guideront à travers le processus d'***exportation de l'entrée*** depuis celui-ci.
+---  
+_schema: default  
+eleventyComputed:  
+  title: Accéder à l'entrée {{ fr.RDM }} via n'importe quel navigateur sans intégration Google Drive  
+  description: >-  
+    Comment accéder à votre entrée {{ fr.RDM }} dans Google Chrome si l'intégration Google Drive ne fonctionne pas.  
+  status:  
+  keywords:  
+---  
+Si vous rencontrez des difficultés avec l'intégration de {% var, "RDM" false %} dans votre navigateur via ***Google Drive***, les instructions suivantes vous guideront à travers le processus d'***exportation de l'entrée*** depuis celui-ci.
 
 ## Solution
 
