@@ -1,14 +1,14 @@
 ---
 _schema: default
 eleventyComputed:
-  title: Access {{ en.RDM }} entry via Google Chrome without Google Drive integration
+  title: Access {{ en.RDM }} entry via any browser without Google Drive integration
   description: >-
     How to access your {{ en.RDM }} entry in Google Chrome if Google Drive
     Integration does not work.
   status:
   keywords:
 ---
-Should you encounter difficulties with {% var, "RDM" false %} integration in ***Google Chrome*** via ***Google Drive***, the following instructions will guide you through the process of ***exporting the*** ***entry*** from it.
+Should you encounter difficulties with {% var, "RDM" false %} integration in your browser via ***Google Drive***, the following instructions will guide you through the process of ***exporting the*** ***entry*** from it.
 
 ## Solution
 

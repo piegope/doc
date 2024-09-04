@@ -1,12 +1,15 @@
 ---
-_schema: défaut
+_schema: default
 eleventyComputed:
-  title: "{{ fr.RDMMAC }} Activer l'authentification intégrée avec Kerberos"
+  title: >-
+    {{ fr.RDMMAC }} ne peut pas configurer la sécurité intégrée avec
+    l'authentification Kerberos
   description: >-
-    {{ fr.RDMMAC }} dispose d'une validation intégrée pour la source de données SQL Server qui
-    nécessite que les champs Nom d'utilisateur/Mot de passe contiennent des informations.
+    {{ fr.RDMMAC }} a une validation intégrée pour la source de données SQL
+    Server qui nécessite que les champs Nom d'utilisateur/Mot de passe
+    contiennent des informations.
 ---
-{{ fr.RDMMAC }} dispose d'une validation intégrée pour la source de données SQL Server qui nécessite que les ***champs Nom d'utilisateur/Mot de passe*** soient remplis avant de pouvoir configurer le paramètre ***Sécurité intégrée (Active Directory) - Expérimental***.
+{{ fr.RDMMAC }} a une validation intégrée pour la source de données SQL Server qui nécessite que les ***champs Nom d'utilisateur/Mot de passe*** soient remplis avant de pouvoir configurer le paramètre ***Sécurité intégrée (Active Directory) - Expérimental***.
 
 ### Étapes
 
