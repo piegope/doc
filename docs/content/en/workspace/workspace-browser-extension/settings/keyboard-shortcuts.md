@@ -1,4 +1,5 @@
 ---
+_schema: default
 eleventyComputed:
   title: Keyboard shortcuts
 ---
@@ -8,10 +9,10 @@ Here is the list of keyboard shortcuts available for the {{ en.WBEX }}:
 
 Use this shortcut to open the {{ en.WBEX }} window in your active browser.
 
-![{{ en.WBEX }} in Chrome](https://cdnweb.devolutions.net/docs/docs_en_dwl_Dwl4029.png)
+![Workspace browser extension in Chrome](https://cdnweb.devolutions.net/docs/WEBX4002_2024_2.png "Workspace browser extension in Chrome")
 
 ### Ctrl+Shift+Y
 
 Use this shortcut to autofill your credentials when only one is available for the entry.
 
-![One credential login with the {{ en.WBEX }}](https://cdnweb.devolutions.net/docs/docs_en_dwl_Dwl4030.png)
+![Credential autofill](https://cdnweb.devolutions.net/docs/WEBX4003_2024_2.png "Credential autofill")
