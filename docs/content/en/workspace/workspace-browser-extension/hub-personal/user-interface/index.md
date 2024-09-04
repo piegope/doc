@@ -21,11 +21,11 @@ The main view, which is the one displayed when first opening the {% var, "WBEX" 
 
 The ***Account*** button section offers some interesting links and informations, namely:
 
-* a ***Manage account*** button to view/edit your {{ en.DA }} through the {{ en.DPORTAL }}.
+* a ***Manage account*** button to view/edit the {{ en.DA }} through the {{ en.DPORTAL }}.
 * a list of the other accounts that were used to log in to {{ en.DHUBP }} on the computer.
 * an ***Add another account*** button to log in to {{ en.DHUBP }} with an account that is not listed above.
-* a ***Log off*** button to sign out of your {{ en.DA }}.
-* a link to your {{ en.DHUBB }}.
+* a ***Log off*** button to sign out of the {{ en.DA }}.
+* a link to {{ en.DHUBB }}.
 * a link to our [{{ en.DHUB }} Forum](https://forum.devolutions.net/product/password-hub).
 * a link to our [{{ en.DHUB }} documentation (Online Help)](/hub/overview/what-is-hub/).
 * the current version of the {{ en.WBEX }}.
