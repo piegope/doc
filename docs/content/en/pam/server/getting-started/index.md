@@ -2,6 +2,7 @@
 eleventyComputed:
   title: Getting started
   description: To get started with the Privileged Access Management (PAM) features of {{en.DVLS }}, first log in as an administrator in your {{ en.DVLS }}.
+  order: 10
 ---
 To get started with the ***Privileged Access Management*** (PAM) features in {{ en.DVLS }}, first log in as an administrator in your {{ en.DVLS }}. Then, follow the configuration steps below.
 
