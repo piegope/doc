@@ -1,11 +1,11 @@
 ---
-_schema: default
 eleventyComputed:
   title: '{{ fr.WBEX }} interface utilisateur avec {{ fr.DVLS }}'
+_schema: default
 ---
-L'interface utilisateur de {{ fr.WBEX }} est légèrement différente dans votre navigateur selon le produit Devolutions utilisé en conjonction avec l'extension. Ce sujet présentera l'interface utilisateur de {{ fr.WBEX }} lorsqu'elle est utilisée avec {{ fr.DVLS }}.
+L'interface utilisateur de {{ fr.WBEX }} est légèrement différente selon le produit Devolutions utilisé en conjonction avec l'extension. Ce sujet présentera l'interface utilisateur de {{ fr.WBEX }} lorsqu'elle est utilisée avec {{ fr.DVLS }}.
 
-La vue principale, qui est celle affichée lors de la première ouverture de {{ fr.WBEX }} dans votre navigateur, peut être divisée en trois sections principales :
+La vue principale, qui est celle affichée lors de la première ouverture de {{ fr.WBEX }} dans un navigateur, peut être divisée en trois sections principales :
 
 1. 1. Le ***Menu supérieur***, qui contient quelques fonctionnalités et paramètres utiles de {% var, "WBEX" false %}.
    2. Le ***Menu latéral***, qui modifie ce que la ***Zone de contenu*** affiche.
@@ -22,20 +22,20 @@ Le ***Menu supérieur*** de {% var, "WBEX" false %} contient (de gauche à droit
 
 ![Sections de l'interface utilisateur](https://cdnweb.devolutions.net/docs/WEBX4126_2024_2.png "Sections de l'interface utilisateur")
 
-La section du bouton ***Compte*** offre des liens et informations intéressants, à savoir :
+La section du bouton ***Compte*** offre quelques liens et informations intéressants, à savoir :
 
-* un bouton ***Gérer le compte*** pour voir/modifier votre {{ fr.DA }} via le {{ fr.DPORTAL }}.
+* un bouton ***Gérer le compte*** pour voir/modifier le {{ fr.DA }} via le {{ fr.DPORTAL }}.
 * une liste des autres comptes qui ont été utilisés pour se connecter à {% var, "DVLS" false %} sur l'ordinateur.
 * un bouton ***Ajouter un autre compte*** pour se connecter à {% var, "DVLS" false %} avec un compte qui n'est pas listé ci-dessus.
-* un bouton ***Déconnexion*** pour se déconnecter de votre {{ fr.DA }}.
-* un lien vers votre {% var, "DVLS" false %}.
+* un bouton ***Déconnexion*** pour se déconnecter du {{ fr.DA }}.
+* un lien vers {% var, "DVLS" false %}.
 * un lien vers notre [Forum {{ fr.DVLS }}](https://forum.devolutions.net/product/server).
 * un lien vers notre [documentation {{ fr.DVLS }} (Aide en ligne)](https://docs.devolutions.net/server/overview/what-is-server/).
 * la version actuelle de {{ fr.WBEX }}.
 
 ### Menu latéral et Zone de contenu
 
-Le ***Menu latéral*** de {% var, "WBEX" false %} contient de nombreuses fonctionnalités, dont la principale : la possibilité de changer la vue affichée dans la ***Zone de contenu*** en cliquant sur différents onglets.
+Le ***Menu latéral*** de {% var, "WBEX" false %} contient de nombreuses fonctionnalités, parmi lesquelles : la possibilité de changer la vue affichée dans la ***Zone de contenu*** en cliquant sur différents onglets.
 
 ![Onglets du menu latéral](https://cdnweb.devolutions.net/docs/WEBX4127_2024_2.png "Onglets du menu latéral")
 
