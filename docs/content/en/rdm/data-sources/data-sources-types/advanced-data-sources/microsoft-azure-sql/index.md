@@ -57,7 +57,7 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 ![Microsoft Azure SQL - Upgrade Tab](https://cdnweb.devolutions.net/docs/RDMW6092_2024_2.png)
 
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Test host </p></td><td><p>Check the connection to the database.</p></td></tr><tr><td><p>Create Database</p></td><td><p>Create the database on the SQL server to use Remote Desktop Manager.</p></td></tr><tr><td><p>Update Database</p></td><td><p>Update the database on the SQL server, if required to use Remote Desktop Manager.</p></td></tr><tr><td><p>Test Database</p></td><td><p>Test the connection with the database to validate if the proper information has been provided.</p></td></tr><tr><td><p>Email Schema to Support</p></td><td><p>Send your schema to our support team.</p></td></tr></tbody></table>
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Test host </p></td><td><p>Check the connection to the database.</p></td></tr><tr><td><p>Create Database</p></td><td><p>Create the database on the SQL server to use Remote Desktop Manager.</p></td></tr><tr><td><p>Update Database</p></td><td><p>Update the database on the SQL server, if required to use Remote Desktop Manager.</p></td></tr><tr><td><p>Validate database</p></td><td><p>Validate the content of the database.</p></td></tr><tr><td><p>Test Database</p></td><td><p>Test the connection with the database to validate if the proper information has been provided.</p></td></tr><tr><td><p>Email Schema to Support</p></td><td><p>Send your schema to our support team.</p></td></tr></tbody></table>
 
 ###
 
