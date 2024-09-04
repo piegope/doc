@@ -40,7 +40,7 @@ The ***Account*** button section offers some interesting links and informations,
 
 ![Side menu tabs](https://cdnweb.devolutions.net/docs/WEBX4124_2024_2.png "Side menu tabs")
 
-Here's a list of the all the tabs and options available in the ***Side menu***:
+Here are all the tabs and options available in the ***Side menu***:
 
 <table><thead><tr><th><p>TAB/OPTION</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Space selector</strong></p></td><td><p>Dropdown menu allowing to switch between Devolutions products.</p></td></tr><tr><td><p><strong>Matching</strong></p></td><td><p>Content area display that contains the current website's credentials (if available).</p></td></tr><tr><td><p><strong>Favorite</strong></p></td><td><p>Content area display that contains all favorited entries.</p></td></tr><tr><td><p><strong>All entries</strong></p></td><td><p>Content area display that contains all the entries previously stored in{% var, "DHUBP" false %}.</p></td></tr><tr><td><p><strong>Password generator</strong></p></td><td><p>Content area display that contains a customizable password generator for new accounts.</p></td></tr><tr><td><p><strong>Settings</strong></p></td><td><p>Contains {% var, "WBEX" false %} settings and configurations. See the <a href="/workspace/workspace-browser-extension/settings/">full settings list</a> for more details.</p></td></tr></tbody></table>
 
