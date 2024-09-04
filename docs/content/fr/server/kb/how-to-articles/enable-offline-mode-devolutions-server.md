@@ -1,11 +1,11 @@
 ---
-_schema: défaut
+_schema: default
 eleventyComputed:
   title: Activer le mode hors connexion
   description: >-
     Configurer le mode hors connexion dans {{ fr.DVLS }} permet aux utilisateurs ou groupes d'accéder aux ressources sans nécessiter une connexion Internet continue.
 ---
-Configurer le ***mode hors connexion*** permet aux utilisateurs ou groupes d'accéder aux ressources sans nécessiter une connexion Internet continue lors de l'utilisation d'une source de données {{ fr.DVLS }} dans {% var, "RDM" false %}.
+Configurer le ***mode hors connexion*** permet aux utilisateurs ou groupes d'accéder aux ressources sans nécessiter une connexion Internet continue lors de l'utilisation d'une [source de données](/rdm/concepts/basic-concepts/data-sources/) dans {% var, "RDM" false %}.
 
 ## Activer le mode hors connexion
 
