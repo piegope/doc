@@ -53,21 +53,11 @@ Consult [Configure Azure SQL](/rdm/windows/data-sources/data-sources-types/advan
 
 <table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Root filter</p></td><td><p>Enter the name of a root level folder to display only the entries contained in that folder.</p></td></tr><tr><td><p>Ping online method</p></td><td><p>Indicate the preferred ping online method. Select between:</p><ul><li><p>None</p></li><li><p>Ping</p></li><li><p>Port Scan</p></li></ul></td></tr><tr><td><p>Automatically go offline on offline prompt </p></td><td><p>Use the data source in offline mode when the ping method does not respond.</p></td></tr></tbody></table>
 
-&nbsp;
-
-### {{ en.UVLT_MAJ }}
-
-![Microsoft Azure SQL – User vault tab](https://cdnweb.devolutions.net/docs/RDMW6089_2024_2.png)
-
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Type</p></td><td><p>Select the type of <a href="https://docs.devolutions.net/rdm/windows/data-sources/data-sources-types/advanced-data-sources/user-vault/">{% var, "UVLT" false %}</a> to use. Select between:</p><ul><li><p><em><strong>Default</strong></em>: use the default {% var, "UVLT" false %}, which is stored in the database.</p></li><li><p><em><strong>None</strong></em>: disable the {% var, "UVLT" false %} for all users.</p></li><li><p><em><strong>{% var, "DOD" false %}</strong></em>: use a <em><strong>{% var, "DOD" false %}</strong></em> (*.dod) as a {% var, "UVLT" false %}.</p></li></ul></td></tr><tr><td><p>Master key</p></td><td><p>Enter the <a href="/rdm/commands/file/change-master-key/">master key</a>.</p></td></tr><tr><td><p>Always ask master key </p></td><td><p>Always ask for the <a href="/rdm/commands/file/change-master-key/">master key</a> when opening the data source. </p></td></tr></tbody></table>
-
-&nbsp;
-
 ### Upgrade
 
 ![Microsoft Azure SQL - Upgrade Tab](https://cdnweb.devolutions.net/docs/RDMW6092_2024_2.png)
 
-<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Create Database</p></td><td><p>Create the database on the SQL server to use Remote Desktop Manager.</p></td></tr><tr><td><p>Update Database</p></td><td><p>Update the database on the SQL server, if required to use Remote Desktop Manager.</p></td></tr><tr><td><p>Test Database</p></td><td><p>Test the connection with the database to validate if the proper information has been provided.</p></td></tr><tr><td><p>Email Schema to Support</p></td><td><p>Send your schema to our support team.</p></td></tr></tbody></table>
+<table><thead><tr><th><p><strong>OPTION</strong></p></th><th><p><strong>DESCRIPTION</strong></p></th></tr></thead><tbody><tr><td><p>Test host </p></td><td><p>Check the connection to the database.</p></td></tr><tr><td><p>Create Database</p></td><td><p>Create the database on the SQL server to use Remote Desktop Manager.</p></td></tr><tr><td><p>Update Database</p></td><td><p>Update the database on the SQL server, if required to use Remote Desktop Manager.</p></td></tr><tr><td><p>Test Database</p></td><td><p>Test the connection with the database to validate if the proper information has been provided.</p></td></tr><tr><td><p>Email Schema to Support</p></td><td><p>Send your schema to our support team.</p></td></tr></tbody></table>
 
 ###
 
