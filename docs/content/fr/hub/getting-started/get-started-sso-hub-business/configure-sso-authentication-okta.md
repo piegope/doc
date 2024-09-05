@@ -1,169 +1,201 @@
 ---
 eleventyComputed:
   title: Configurer l'authentification SSO avec Okta
-  description: Voici les étapes pour configurer Okta avec {{ fr.DHUBB }} pour l'authentification SSO.
+  description: Utiliser Okta avec {{ fr.DHUBB }} pour l'authentification à authentification unique (SSO) en suivant les étapes de cette page.
   keywords:
   - SSO
   - Okta
 ---
-Voici les étapes pour configurer Okta avec {{ fr.DHUBB }} pour l'authentification SSO.
+Utiliser Okta avec {{ fr.DHUBB }} pour l'authentification à authentification unique (SSO) en suivant les étapes de cette page. Voir d'abord les exigences et les fonctionnalités prises en charge ci-dessous.
+
+## Exigences
+
+Pour utiliser SSO ou le provisionnement automatique (SCIM) avec Okta, un [compte Okta](https://www.okta.com/) avec les droits appropriés est requis. La [procédure de validation de domaine](#domain-verification) doit également être complétée pour vérifier la propriété des domaines configurés. Seuls les utilisateurs avec des courriels dont les domaines ont été vérifiés sont autorisés à se connecter via SSO ou à être provisionnés via SCIM.
+
+## Fonctionnalités prises en charge
+
+* Se connecter au Hub via Okta SSO
+* Provisionnement juste-à-temps (JAT) des utilisateurs connectés via Okta SSO
+* Synchroniser votre Okta avec {{ fr.DHUB }}
+   * Créer/mettre à jour des utilisateurs d'Okta vers {{ fr.DHUB }} (créer des utilisateurs, mettre à jour les attributs des utilisateurs et désactiver des utilisateurs)
+   * Créer/mettre à jour des groupes d'Okta vers {{ fr.DHUB }} (push de groupe)
 
 {% snippet, "badgeCaution" %}
-Un [compte Okta](https://www.okta.com/) avec les droits appropriés est requis.
+Les utilisateurs provisionnés JAT par SSO ou créés par synchronisation SCIM doivent être invités au Hub dans ***Administration – Utilisateurs***, comme décrit dans les étapes ci-dessous.
 {% endsnippet %}
 
-## Vérification de domaine
+## Étapes de configuration
 
-**Dans {{ fr.DHUBB }}**
+Voici les étapes pour [valider le domaine](#domain-verification), [configurer l'authentification unique](#single-sign-on-sso-configuration), et [effectuer le provisionnement des utilisateurs](#provisioning-configuration).
+
+### Vérification de domaine
+
+**Dans {{ fr.DHUBB }}**  
 
 1. Aller à ***Administration – Authentification – Domaine***, puis cliquer sur ***Ajouter un domaine***.
 ![Administration – Authentification – Domaine – Ajouter un domaine](https://cdnweb.devolutions.net/docs/HUBB2000_2024_1.png)
-1. Remplir votre domaine, puis cliquer sur la coche pour démarrer le processus de vérification.
-![Domaine](https://cdnweb.devolutions.net/docs/HUBB2001_2024_1.png)
-   {% snippet, "shieldInfo" %} 
-   Pour des raisons de sécurité, seuls les courriels se terminant par le nom de votre domaine seront autorisés à se connecter à {{ fr.DHUB }} en utilisant l'authentification Okta. Par exemple, si les courriels de vos employés sont au format "bob@windjammer.co", votre domaine est "windjammer.co".
-   {% endsnippet %}
-1. Pour avoir plusieurs domaines, cliquer à nouveau sur ***Ajouter un domaine***, remplir votre autre domaine, puis cliquer sur la coche. Répéter ce processus pour chaque domaine que vous souhaitez ajouter.
-![Plusieurs domaines](https://cdnweb.devolutions.net/docs/HUBB2002_2024_1.png)
-1. Créer un [enregistrement DNS TXT](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) en utilisant le ***Nom d'hôte*** et la ***Valeur TXT*** fournis. Cela nous permet de vérifier la propriété des domaines fournis.
-![Nom d'hôte et valeur TXT](https://cdnweb.devolutions.net/docs/HUBB2003_2024_1.png)
 
-   Nous recommandons de vérifier que votre configuration est adéquate à travers des outils de requête DNS tels que [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) ou [whatsmydns.net](https://www.whatsmydns.net/). L'exemple ci-dessous utilise l'outil de recherche TXT de MXToolBox. La première partie du nom de domaine doit correspondre au ***Nom d'hôte*** dans {{ fr.DHUB }} et l'enregistrement doit correspondre à la ***Valeur TXT*** dans {{ fr.DHUB }} également.
-   {% snippet, "badgeCaution" %}
+1. Remplir le domaine, puis cliquer sur la coche pour démarrer le processus de vérification.
+![Domaine](https://cdnweb.devolutions.net/docs/HUBB2001_2024_1.png) 
+
+   {% snippet, "badgeInfo" %} 
+   Pour des raisons de sécurité, seuls les courriels se terminant par votre nom de domaine sont autorisés à se connecter à {{ fr.DHUB }} en utilisant l'authentification Okta. Par exemple, si les courriels des employés sont au format "bob@windjammer.co", le domaine est "windjammer.co".
+   {% endsnippet %}
+
+1. Pour avoir plusieurs domaines, cliquer sur ***Ajouter un domaine*** à nouveau, remplir votre autre domaine, puis cliquer sur la coche. Répéter ce processus pour chaque domaine que vous souhaitez ajouter.
+![Plusieurs domaines](https://cdnweb.devolutions.net/docs/HUBB2002_2024_1.png)
+1. Créer un [enregistrement DNS TXT](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) en utilisant le ***Nom d'hôte*** et la ***Valeur TXT*** fournis. Cela nous permet de vérifier la propriété du ou des domaines fournis.  
+![Nom d'hôte et Valeur TXT](https://cdnweb.devolutions.net/docs/HUBB2003_2024_1.png)  
+
+   Il est recommandé de vérifier que la configuration est adéquate en utilisant des outils de requête DNS tels que [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) ou [whatsmydns.net](https://www.whatsmydns.net/). L'exemple ci-dessous utilise l'outil de recherche TXT de MXToolBox. La première partie du nom de domaine doit correspondre au ***Nom d'hôte*** dans {{ fr.DHUB }} et l'enregistrement doit correspondre à la ***Valeur TXT*** dans {{ fr.DHUB }} également.  
+   {% snippet, "badgeCaution" %} 
    Les enregistrements DNS TXT peuvent prendre du temps à se propager.
    {% endsnippet %}
 
-   ![Enregistrement DNS TXT dans MXToolBox](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2236.png)
-1. Attendre la vérification du domaine. Une fois la vérification réussie, une coche dans un cercle vert s'affichera à côté du domaine. Vous pouvez procéder à la configuration de l'authentification unique (SSO) pendant le processus de vérification ; cependant, le provisionnement des utilisateurs ne sera accessible qu'après la vérification du domaine.
+   ![Enregistrement DNS TXT dans MXToolBox](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2236.png)  
+
+1. Attendre la vérification du domaine. Après une vérification réussie, une coche dans un cercle vert s'affichera à côté du domaine. Procéder à la configuration de l'authentification unique (SSO) pendant le processus de vérification ; cependant, le provisionnement des utilisateurs devient accessible uniquement après que le domaine a été vérifié.
 ![Domaine vérifié](https://cdnweb.devolutions.net/docs/HUBB2004_2024_1.png)
 
-   {% snippet, "badgeCaution" %}
-   Cette validation dure 48 heures et ne redémarre pas automatiquement après cette période. Si vous ne configurez pas votre enregistrement TXT dans ces 48 heures, votre statut de validation sera ***Expiré***. Si cela se produit, vous pouvez cliquer sur ***Réessayer***.
+   {% snippet, "badgeCaution" %} 
+   Cette validation dure 48 heures et ne redémarre pas automatiquement après cette période. Si l'enregistrement TXT n'est pas configuré dans ces 48 heures, le statut de validation sera ***Expiré***. Si cela se produit, cliquer sur ***Réessayer***.  
 
-   Si vous rencontrez des problèmes lors de la tentative de vérification de votre domaine, consultez notre guide de dépannage de la validation de domaine [Domain validation troubleshooting](/hub/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/).
-   {% endsnippet %}
+   Si des problèmes surviennent lors de la tentative de vérification du domaine, consulter notre guide de [dépannage de la validation de domaine](/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/).
+   {% endsnippet %}  
 
+### Configuration de l'authentification unique (SSO)
 
-## Configuration de l'authentification unique (SSO)
+1. Aller à ***Administration – Authentification – Authentification unique (SSO)***, puis cliquer sur ***Okta authentification unique (SSO)*** pour être redirigé vers la page de configuration.  
+![Administration – Authentification – Authentification unique (SSO) – Okta authentification unique (SSO)](https://cdnweb.devolutions.net/docs/HUBB2007_2024_1.png)  
 
-1. Aller à ***Administration – Authentification – Authentification unique (SSO)***, puis cliquer sur ***Okta Authentification unique (SSO)***. Vous serez dirigé vers la page de configuration.
-![Administration – Authentification – Authentification unique (SSO) – Okta Authentification unique (SSO)](https://cdnweb.devolutions.net/docs/HUBB2007_2024_1.png)
-
-1. ***Nommer*** votre configuration SSO. Ce nom n'apparaîtra que dans votre menu de paramètres SSO {{ fr.DHUB }}. Le nom par défaut est "Okta".
+1. ***Nommer*** la configuration SSO. Ce nom n'apparaîtra que dans le menu des paramètres SSO de {{ fr.DHUB }}. Le nom par défaut est "Okta".  
 ![Nom de la configuration](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2334.png)
 
-   {% snippet, "badgeCaution" %}
-   Ne fermez pas cette page de configuration, car les étapes suivantes vous montreront où trouver les informations à entrer dans ses champs.
+   {% snippet, "badgeCaution" %} 
+   Ne pas fermer cette page de configuration, car les étapes suivantes montrent où trouver les informations à entrer dans ses champs. 
    {% endsnippet %}
 
-**Dans Okta**
+**Dans Okta**  
 
-3. Se connecter à votre compte Okta.
-1. Dans ***Applications***, cliquer sur ***Créer une intégration d'application***.
-![Applications – Créer une intégration d'application](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2238.png)
-1. Pour la ***Méthode de connexion***, sélectionner ***OIDC - OpenID Connect***.
-![Méthode de connexion – OIDC - OpenID Connect](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2239.png)
-1. Pour le ***Type d'application***, sélectionner ***Application Web***.
-![Type d'application – Application Web](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2240.png)
-1. Cliquer sur ***Suivant***. La page de paramètres ***Nouvelle intégration d'application Web*** apparaîtra.
-1. Sous ***Paramètres généraux***, entrer un ***Nom d'intégration d'application***.
-   ![Nom d'intégration d'application](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2249.png)
+3. Se connecter au compte Okta.
+1. Dans ***Applications***, cliquer sur ***Parcourir le catalogue d'applications***.  
+![Applications – Parcourir le catalogue d'applications](https://cdnweb.devolutions.net/docs/INTERFACE2055.png)
 
-   {% snippet, "badgeNotice" %}
-   Le nom de l'application n'a pas besoin de correspondre à celui dans {{ fr.DHUB }}. Nous recommandons d'inclure soit "Devolutions" soit "Hub" dans le nom.
-   {% endsnippet %}
+1. Rechercher ***{{ fr.DHUB }}***, puis cliquer sur l'application dans les résultats de recherche.  
+![Rechercher {{ fr.DHUB }}](https://cdnweb.devolutions.net/docs/INTERFACE2056.png)  
+1. Cliquer sur ***Ajouter une intégration*** en haut.  
+1. Dans l'onglet ***Connexion***, copier l'***ID client***.  
+![Copier l'ID client](https://cdnweb.devolutions.net/docs/INTERFACE2057.png)  
 
-1. Dans ***Type de subvention***, cocher ***Jeton d'actualisation*** et ***Implicite (hybride)***.
-![Type de subvention](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2250.png)
+**Dans {{ fr.DHUBB }}**  
 
-**Dans {{ fr.DHUBB }}**
+8. Retourner à la page ***Configurer l'authentification unique (SSO)***, coller l'***ID client*** de l'étape précédente dans le champ du même nom.  
+![Coller l'ID client](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2337.png)  
 
-10. De retour sur la page ***Configurer l'authentification unique (SSO)***, copier l'***URL de rappel*** en cliquant sur l'icône ***Copier dans le presse-papiers*** à côté.
-![Copier l'URL de rappel](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2336.png)
+**Dans Okta**  
 
-**Dans Okta**
+9. Retourner à l'onglet ***Connexion***, copier le ***secret client***.  
+![Copier le secret client](https://cdnweb.devolutions.net/docs/INTERFACE2058.png)  
 
-11. De retour dans Okta, coller l'***URL de rappel*** dans le champ ***URI de redirection de connexion***.
-![URI de redirection de connexion](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2251.png)
+**Dans {{ fr.DHUBB }}**  
 
-**Dans {{ fr.DHUBB }}**
+10. Retourner à la page ***Configurer l'authentification unique (SSO)***, coller le ***secret client*** de l'étape précédente dans le champ ***Clé secrète client***.  
+![Coller le secret client](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2338.png)  
+1. Dans ***URL de découverte***, entrer l'URL utilisée pour accéder à Okta, sans la partie "-admin".  
 
-12. De retour sur la page ***Configurer l'authentification unique (SSO)***, copier l'***URL de redirection de déconnexion*** en cliquant sur l'icône ***Copier dans le presse-papiers*** à côté.
-![Copier l'URL de redirection de déconnexion](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2335.png)
+   {% snippet, "badgeCaution" %} 
+   Ne pas tester la connexion pour l'instant, car les utilisateurs doivent être assignés à l'application d'abord.
+   {% endsnippet %}  
 
-**Dans Okta**
+   ![URL de découverte](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2339.png)  
 
-13. De retour dans Okta, coller l'***URL de redirection de déconnexion*** dans le champ ***URI de redirection de déconnexion***.
-![URI de redirection de déconnexion](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2252.png)
+**Dans Okta**  
 
-1. Sous ***Attributions***, sélectionner l'option ***Accès contrôlé*** qui convient le mieux à vos besoins. Ce choix est laissé à votre discrétion.
+12. Dans l'onglet ***Affectations***, s'assurer que chaque utilisateur utilisé pour tester la configuration est assigné à l'application. Pour plus de détails, voir la documentation propre à Okta sur la gestion des utilisateurs et l'affectation des applications.
+![Affectations](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2262.png)  
 
-   {% snippet, "badgeCaution" %}
-   Si vous choisissez de ***Permettre à tout le monde dans votre organisation d'accéder***, ne cochez **pas** l'option ***Activer l'accès immédiat avec le mode de courtage fédéré***, car cela vous empêcherait d'activer le provisionnement SCIM à l'avenir. Si vous choisissez de ***Limiter l'accès à certains groupes sélectionnés*** ou de ***Sauter l'attribution de groupe pour l'instant***, vous devez attribuer manuellement à cette application les utilisateurs que vous souhaitez autoriser à se connecter à votre {{ fr.DHUBB }} via Okta.
-   {% endsnippet %}
+**Dans {{ fr.DHUBB }}**  
 
-   ![Attributions](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2253.png)
-
-1. Cliquer sur ***Enregistrer***. Vous serez redirigé vers votre nouvelle application SSO.
-1. Copier l'***ID client*** en cliquant sur l'icône ***Copier dans le presse-papiers*** à côté.
-![Copier l'ID client](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2254.png)
-
-**Dans {{ fr.DHUBB }}**
-
-17. De retour sur la page ***Configurer l'authentification unique (SSO)***, coller l'***ID client*** de l'étape précédente dans le champ du même nom.
-![ID client](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2337.png)
-
-**Dans Okta**
-
-18. De retour dans Okta, copier le ***Secret client*** en cliquant sur l'icône ***Copier dans le presse-papiers*** à côté.
-![Copier le Secret client](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2256.png)
+13. Tester la configuration dans {{ fr.DHUB }}. Une nouvelle fenêtre s'ouvre pour vous connecter à {{ fr.DHUB }} via Okta. Une fois connecté, un message de succès apparaît.  
 
    {% snippet, "badgeCaution" %}
-   Ne fermez pas cette page de configuration, car les étapes suivantes nécessiteront de faire d'autres modifications.
+   Si la fenêtre contextuelle n'apparaît pas, le navigateur ou une extension de navigateur peut la bloquer. Modifier les paramètres du navigateur et/ou de l'extension. Si cela ne fonctionne toujours pas, désactiver/retirer l'extension ou changer de navigateur peut également résoudre le problème.
    {% endsnippet %}
 
-**Dans {{ fr.DHUBB }}**
+14. Cliquer sur ***Enregistrer*** dans le ***Résumé*** de la configuration Okta SSO.
+![Enregistrer la configuration](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2340.png)  
 
-19. De retour sur la page ***Configurer l'authentification unique (SSO)***, coller le ***Secret client*** de l'étape précédente dans le champ ***Clé secrète client***.
-![Clé secrète client](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2338.png)
-1. Dans ***URL de découverte***, entrer l'URL que vous utilisez pour accéder à Okta, sans la partie "-admin".
-
-   {% snippet, "badgeCaution" %}
-   Ne testez pas encore la connexion, car quelques étapes supplémentaires sont nécessaires dans Okta.
-   {% endsnippet %}
-
-   ![URL de découverte](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2339.png)
-
-**Dans Okta**
-
-21. Cliquer sur ***Modifier*** dans la section ***Paramètres généraux***.
-![Modifier les Paramètres généraux](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2260.png)
-1. Définir le ***Comportement du jeton d'actualisation*** sur ***Faire tourner le jeton après chaque utilisation***.
-![Faire tourner le jeton après chaque utilisation](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2261.png)
-1. Cliquer sur ***Enregistrer***.
-1. Dans l'onglet ***Attribution*** en haut, s'assurer que chaque utilisateur que vous souhaitez utiliser pour tester la configuration est attribué à l'application. Pour plus de détails, voir la documentation d'Okta sur la gestion des utilisateurs et l'attribution d'applications.
-![Attribution](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2262.png)
-
-**Dans {{ fr.DHUBB }}**
-
-25. Tester la configuration dans {{ fr.DHUB }}. Une nouvelle fenêtre devrait s'ouvrir pour vous connecter à {{ fr.DHUB }} via Okta. Vous recevrez un message de succès lors de la connexion.
-
-   {% snippet, "badgeCaution" %}
-   Si la page popup n'apparaît pas, voir [La page de connexion Devolutions ne s'ouvre pas dans le navigateur](/hub/kb/general-knowledge/devolutions-login-page-does-not-open-browser/).
-   {% endsnippet %}
-
-26. Cliquer sur ***Enregistrer*** dans le ***Résumé*** de votre configuration Okta SSO.
-![Enregistrer la configuration](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2340.png)
-
-Vous devriez maintenant voir que la configuration SSO a une icône de coche verte à côté. Cela signifie que votre configuration SSO via Okta est maintenant activée sur votre hub.
+La configuration SSO est maintenant complète. Une icône de coche verte devrait maintenant être visible à côté de la configuration, signifiant que la configuration SSO via Okta est maintenant activée sur le Hub.  
 ![Configuration SSO active](https://cdnweb.devolutions.net/docs/HUBB2008_2024_1.png)
 
-## Configuration du provisionnement
+#### Connexion SSO Okta
+Lors de la connexion au Hub, cliquer sur ***Se connecter avec Okta***.
+![Se connecter avec Okta](https://cdnweb.devolutions.net/docs/CLOUD2006_2024_3.png)
 
-Synchroniser vos utilisateurs et groupes d'utilisateurs de vos fournisseurs vers le hub.
+Une page de connexion Okta s'ouvrira. Entrer les identifiants Okta et cliquer sur ***Se connecter***. Le Hub sera alors accessible.
+![Connexion Okta](https://cdnweb.devolutions.net/docs/INTERFACE2059.png)
 
-### Paramètres
+### Configuration du provisionnement SCIM
 
-{% snippet, "badgeInfo" %}
-Cette fonctionnalité sera disponible prochainement !
+Synchroniser les utilisateurs et les groupes d'utilisateurs des fournisseurs vers le Hub en suivant les étapes de cette section. Voir d'abord la liste des fonctionnalités prises en charge ci-dessous.
+
+{% snippet, "badgeCaution" %}
+Notez que nous ne prenons en charge la synchronisation que dans une seule direction, d'Okta vers {{ fr.DHUB }}, spécifiquement pour les utilisateurs et les groupes. La synchronisation de {{ fr.DHUB }} vers Okta n'est **pas** prise en charge.
+{% endsnippet %}
+
+#### Fonctionnalités prises en charge
+* Créer des utilisateurs
+* Mettre à jour les attributs des utilisateurs
+* Désactiver des utilisateurs
+* Push de groupe
+
+#### Étapes de configuration du provisionnement
+
+**Dans Okta**
+
+1. Aller à l'application {{ fr.DHUBB }}.
+1. Dans l'onglet ***Provisionnement***, cliquer sur ***Configurer l'intégration API***.
+![Provisionnement – Configurer l'intégration API](https://cdnweb.devolutions.net/docs/INTERFACE2060.png)
+1. Cocher la case ***Activer l'intégration API***.
+![Activer l'intégration API](https://cdnweb.devolutions.net/docs/INTERFACE2061.png)
+
+**Dans {{ fr.DHUBB }}**
+
+4. Aller à ***Administration – Authentification – Provisionnement*** et activer le provisionnement SCIM.
+![Activer le provisionnement SCIM](https://cdnweb.devolutions.net/docs/HUBB2379_2024_2.png)
+1. Copier le ***jeton secret*** en cliquant sur l'icône ***Copier dans le presse-papiers*** à côté.
+![Copier le jeton secret](https://cdnweb.devolutions.net/docs/HUBB2380_2024_2.png)
+
+**Dans Okta**
+
+6. Retourner à l'onglet ***Provisionnement*** dans Okta, coller le ***jeton secret*** de l'étape précédente dans le champ ***Jeton API***.
+![Coller le jeton secret](https://cdnweb.devolutions.net/docs/INTERFACE2062.png)
+1. Cliquer sur ***Tester les identifiants API***. Un message de succès devrait apparaître.
+![Tester les identifiants API](https://cdnweb.devolutions.net/docs/INTERFACE2063.png)
+
+**Dans {{ fr.DHUBB }}**
+
+8. Retourner à la configuration du ***Provisionnement*** dans {{ fr.DHUB }}, cliquer sur ***Activer la synchronisation***.
+![Activer la synchronisation](https://cdnweb.devolutions.net/docs/HUBB2381_2024_2.png)
+
+**Dans Okta**
+
+9. ***Enregistrer*** la configuration de provisionnement Okta.
+1. Toujours dans l'onglet ***Provisionnement***, aller aux paramètres ***Vers l'application***, puis cliquer sur ***Modifier***.
+![Modifier les paramètres "Vers l'application"](https://cdnweb.devolutions.net/docs/INTERFACE2064.png)
+1. Activer/désactiver les paramètres suivants :
+    * Activer :
+        * ***Créer des utilisateurs***
+        * ***Mettre à jour les attributs***
+        * ***Désactiver des utilisateurs***
+    * Désactiver :
+        * ***Définir le mot de passe lors de la création de nouveaux utilisateurs*** (sous le paramètre ***Créer des utilisateurs***)
+
+   ![Activer/désactiver les paramètres](https://cdnweb.devolutions.net/docs/INTERFACE2065.png)
+1. ***Enregistrer*** les modifications.
+
+La synchronisation d'Okta vers {{ fr.DHUBB }} est maintenant configurée.
+
+{% snippet, "badgeHelp" %}
+Il est possible d'assigner des utilisateurs et des groupes à synchroniser. Pour plus de détails, voir la documentation propre à Okta sur [l'affectation d'applications aux utilisateurs](https://help.okta.com/en-us/content/topics/users-groups-profiles/usgp-assign-apps.htm) et [l'affectation d'une intégration d'application à un groupe](https://help.okta.com/en-us/content/topics/provisioning/lcm/lcm-assign-app-groups.htm).
 {% endsnippet %}

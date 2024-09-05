@@ -169,10 +169,10 @@ Les propriétés suivantes peuvent être configurées lors de la création ou de
 ## Onglet Journaux
 | PARAMÈTRES                 | DESCRIPTION                                                                    |
 |--------------------------|--------------------------------------------------------------------------------|
-| ***Activer la journalisation***     | Le mode ***Personnalisé*** nécessite le chemin et le nom de fichier. Le mode ***Global*** nécessite le nom de fichier puis de configurer le chemin global dans ***Fichier*** – ***Paramètres***. |
+| ***Activer la journalisation***     | Le mode ***Personnalisé*** nécessite le chemin et le nom du fichier. Le mode ***Global*** nécessite le nom du fichier puis de configurer le chemin global dans ***Fichier*** – ***Paramètres***. |
 | ***Chemin du journal***           | Inclut le chemin et le fichier pour le journal.                                    |
 | ***Mode de journalisation***           | Le mode ***Événement*** ne journalise que les événements principaux. Le mode ***Sortie imprimable*** journalise tout ce qui se passe visiblement dans le terminal. |
-| ***Mode de remplacement du journal*** | Cette option n'est disponible qu'avec le ***Mode de journalisation Sortie imprimable*** : <ul><li> ***Invite*** : demande ***Ajouter*** ou ***Remplacer***.</li> <li>***Ajouter*** : Écrit à la fin du fichier.</li> <li>***Remplacer*** : Remplace le fichier par des journaux spécifiques à la session en cours.</li></ul> |
+| ***Mode de remplacement du journal*** | Cette option n'est disponible qu'avec le ***Mode de journalisation Sortie imprimable*** : <ul><li> ***Invite*** : demande ***Ajouter*** ou ***Remplacer***.</li> <li>***Ajouter*** : Écrit à la fin du fichier.</li> <li>***Remplacer*** : Remplace le fichier par des journaux spécifiques à la session actuelle.</li></ul> |
 | ***Verbeux***            | Cela définira la profondeur des journaux (disponible uniquement pour le mode ***Événement***). |
 | ***Journaliser dans le terminal***    | Basculer pour afficher les journaux dans le terminal.                                    |
 
@@ -193,7 +193,7 @@ Les propriétés suivantes peuvent être configurées lors de la création ou de
 | ***Protocole Internet***                         | Choisir entre IPv4 ou IPv6.                                     |
 | ***Authentification interactive dans le terminal***    | Cette option gère le comportement lorsque le terminal vous demande une authentification interactive. L'option ***Non*** fait que {{ fr.RDM }} la gère, tandis que ***Oui*** fait que le terminal la gère. |
 | ***Action de déconnexion***                         | Ce qui se passe lorsque le terminal SSH se déconnecte.                  |
-| ***Afficher les messages d'erreur***                    | Choisir d'afficher les messages d'erreur ou non.                            |
+| ***Afficher les messages d'erreur***                    | Choisir d'afficher ou non les messages d'erreur.                            |
 | ***Toujours accepter l'empreinte digitale***                 | Toujours accepter les empreintes digitales ou non.                               |
 | ***Mode de clic de souris***                          | Change le comportement du clic droit : <ul><li>***Windows*** : affiche un menu contextuel.</li> <li>***Compromis*** : colle.</li> <li>***XTerm*** : Sélectionne le texte.</li></ul> |
 | ***Prise en charge des algorithmes***                         | En mode ***Personnalisé***, cliquer sur le bouton à points de suspension pour sélectionner un ou plusieurs algorithmes ***Chiffre***, ***Clé d'hôte***, ***Kex*** et/ou ***MAC***. |

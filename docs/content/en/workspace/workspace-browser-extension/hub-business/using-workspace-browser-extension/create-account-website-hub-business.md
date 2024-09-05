@@ -9,7 +9,7 @@ The {{ en.WBEX }} assists you in creating a new account when you register on a w
 
 Follow the steps below to learn how to create a website account with the {{ en.WBEX }} and save your credentials in {{ en.DHUBB }}.
 
-1. On the website for which you want to create your account, go to the registration/account creation page. This page will be different for each website; this topic will use the Atlassian website as an example. ![Registration page](https://cdnweb.devolutions.net/docs/WEBX4020_2024_2.png "Registration page")
+1. On the website for which you want to create an account, go to the registration/account creation page. This page is different for each website; this topic will use the Atlassian website as an example. ![Registration page](https://cdnweb.devolutions.net/docs/WEBX4020_2024_2.png "Registration page")
 2. Follow the website’s registration process until you get to the password field.
 3. Click on the {{ en.WBEX }} icon in your browser toolbar, then select the ***Password generator*** in the ***Side menu*** of the extension. ![Password generator tab](https://cdnweb.devolutions.net/docs/WEBX4108_2024_2.png "Password generator tab")
 4. You can now customize the password generation settings, but this is optional since the default settings already generate very strong passwords. That being said, it may be necessary to adjust the settings to meet the specific requirements of some websites. If you do not wish to customize the generation settings, you can skip to step 5.

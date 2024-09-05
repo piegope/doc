@@ -1,14 +1,11 @@
 ---
-
 eleventyComputed:
   title: Commandes PowerShell
   description: Ce sujet concerne toutes les commandes d'authentification et les gestionnaires pour PSHubContext.
   keywords:
   - PowerShell
   - Authentification
-
 ---
-
 Ce sujet concerne toutes les commandes d'authentification et les gestionnaires pour PSHubContext.
 
 {% snippet, "badgeInfo" %}
@@ -16,7 +13,7 @@ Le [module {{ fr.PS }}](/powershell/hub-powershell/powershell-module) doit être
 {% endsnippet %}
 
 {% snippet, "shieldCaution" %}
-Les permissions appropriées sont également requises pour exécuter certaines de ces commandes. Veuillez vous référer à [Utilisateurs de l'application](/hub/web-interface/administration/management/application-users/).
+Des permissions appropriées sont également requises pour exécuter certaines de ces commandes. Veuillez vous référer à [Utilisateurs de l'application](/hub/web-interface/administration/management/application-users/).
 {% endsnippet %}
 
 PSHubContext est un objet qui spécifie vos informations d'authentification. Vous aurez besoin d'un PSHubContext valide pour vous connecter à votre {{ fr.DHUBB }}. Vous pouvez avoir plusieurs PSHubContext connectés dans votre session PowerShell, mais un seul est utilisé lorsque vous utilisez les applets de commande {{ fr.DHUB }}.
@@ -192,8 +189,8 @@ Import-HubContext -Path “C:\PATH\TO\YOUR\FILE\file.json“ -SecurePassword
 Password: [INSERT YOUR PASSWORD]
 ```
 
-## Paramètres du système
-Cette section concerne les commandes utilisées pour gérer les paramètres du système.
+## Paramètres système
+Cette section concerne les commandes utilisées pour gérer les paramètres système.
 
 ### Get-HubSystemSettings
 #### Description
@@ -308,11 +305,11 @@ ou
 #### Description
 Définit une permission système {{ fr.VLT }} fournie.
 
-Si UserId est fourni, définit un PSVaultRole prédéfini ou une permission système {{ fr.VLT }} personnalisée pour cet utilisateur.
+Si UserId est fourni, définit un rôle PSVaultRole prédéfini ou une permission système {{ fr.VLT }} personnalisée pour cet utilisateur.
 
 ou
 
-Si GroupId est fourni, définit un PSVaultRole prédéfini ou une permission système {{ fr.VLT }} personnalisée pour ce groupe.
+Si GroupId est fourni, définit un rôle PSVaultRole prédéfini ou une permission système {{ fr.VLT }} personnalisée pour ce groupe.
 
 #### Exemple de code
 ```powershell
@@ -430,7 +427,7 @@ Ajoute un nouveau {{ fr.DGW }} à {{ fr.DHUB }}.
 
 #### Exemple de code
 ```powershell
-$newDevolutionsGateway = [Devolutions.Hub.CryptoUtils.Models.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.CryptoUtils.Models.PSGatewayMetadata]@{ Name =  'Test Gateway From PS ' }}
+$newDevolutionsGateway = [Devolutions.Hub.CryptoUtilsPowerShell.Entities.ModelsHub.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.PowerShell.CryptoUtilsEntities.ModelsHub.PSGatewayMetadata]@{ Name = 'Test Gateway From PS' }}
 ```
 ```powershell
 New-HubGateway -PSDecryptedGateway $newDevolutionsGateway
@@ -455,7 +452,7 @@ Définit le {{ fr.DGW }} fourni.
 $psDecrpytedGateway = Get-HubGateway -GatewayId 4c6fb2dc-f7ba-4089-8bc2-b46b3bdcd1d0
 ```
 ```powershell
-$psDecrpytedGateway.PSMetadata.Name = “New Name From PS“
+$psDecrpytedGateway.PSMetadata.Name = "New Name From PS"
 ```
 ```powershell
 Set-HubGateway -PSDecryptedGateway $psDecrpytedGateway
@@ -547,8 +544,8 @@ Set-HubVault -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -PSVault $psVault
 
 #### Description
 Ajoute la permission {{ fr.VLT }} fournie à un {{ fr.VLT }} spécifique. Si un utilisateur ou un groupe **existe déjà**, la permission sera **écrasée**.
-Si UserId est fourni, définit un PSVaultRole prédéfini ou une permission {{ fr.VLT }} personnalisée pour cet utilisateur.
-Si GroupId est fourni, définit un PSVaultRole prédéfini ou une permission {{ fr.VLT }} personnalisée pour ce groupe.
+Si UserId est fourni, définit un rôle PSVaultRole prédéfini ou une permission {{ fr.VLT }} personnalisée pour cet utilisateur.
+Si GroupId est fourni, définit un rôle PSVaultRole prédéfini ou une permission {{ fr.VLT }} personnalisée pour ce groupe.
 
 #### Exemple de code
 Avec une permission de coffre personnalisée :
@@ -683,7 +680,8 @@ Cette commande ne fonctionnera que si ***Activer SSO avec l'organisation {{ fr.D
 #### Exemple de code
 Ajouter avec une PSInvitation.  
 ```powershell
-$psInvitation = [Devolutions.Hub.CryptoUtils.Models.PSInvitation]@{AllowOfflineInRDM = $true; UserSendMessageConfiguration = [Devolutions.Hub.Clients.UserSendMessagePermission]::MessagesWithEntries; Groups = @(“1f017956-1d36-4787-acaa-22b16c73cce5“); Emails = @(“bob@windjammer.co“);}```
+$psInvitation = [Devolutions.Hub.PowerShell.CryptoUtilsEntities.ModelsHub.PSInvitation]@{AllowOfflineInRDM = $true; UserSendMessageConfiguration = [Devolutions.Hub.Clients.UserSendMessagePermission]::MessagesWithEntries; Groups = @("1f017956-1d36-4787-acaa-22b16c73cce5"); Emails = @("nathan.lachance@devolutions.net");}
+```
 ```powershell
 New-HubOrganizationUser -PSInvitation $psInvitation
 ```
@@ -804,10 +802,10 @@ Ajoute une nouvelle entrée à un {{ fr.VLT }} spécifique du hub avec l'entrée
 
 #### Exemple de code
 ```powershell
-$t = [Devolutions.Hub.CryptoUtils.Models.PSDecryptedEntry]@{ PsMetadata = [Devolutions.Hub.CryptoUtils.Models.PSEntryMetadata]@{ Name = “Test Cred“; ParentId = “9df41856-125a-490a-8589-93afc3059924“; ConnectionType = [Devolutions.Generated.Enums.ConnectionType]::Credential }; Connection = [Devolutions.Generated.Models.Connection]@{ Credentials = [Devolutions.Generated.Models.CredentialsConnection]@{ CredentialType = [Devolutions.Generated.Enums.CredentialResolverConnectionType]::Default; Password = “passworddepowershell“ } } }
+$t = [Devolutions.Hub.PowerShell.CryptoUtilsEntities.ModelsHub.PSDecryptedEntry]@{ PsMetadata = [Devolutions.Hub.CryptoUtilsPowerShell.Entities.ModelsHub.PSEntryMetadata]@{ Name = "Test Cred"; ParentId = "9df41856-125a-490a-8589-93afc3059924"; ConnectionType = [Devolutions.GeneratedRemoteDesktopManager.Enums.ConnectionType]::Credential }; Connection = [Devolutions.GeneratedRemoteDesktopManager.ModelsBusiness.Connection]@{ Credentials = [Devolutions.GeneratedRemoteDesktopManager.ModelsBusiness.CredentialsConnection]@{ CredentialType = [Devolutions.Generated.EnumsRemoteDesktopManager.CredentialResolverConnectionType]::Default; Password = "passworddepowershell" } } }
 ```
 ```powershell
-New-HubEntry -VaultId d334f44c-fb84-4559-b576-e1e8b68baf65 -Connection $ff
+New-HubEntry -VaultId d334f44c-fb84-4559-b576-e1e8b68baf65 -PSDecryptedEntry $t
 ```
 
 ### Remove-HubEntry
@@ -843,10 +841,10 @@ Modifier les informations sur une entrée et enregistrer ces modifications.
 $decryptedEntry = Get-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1
 ```
 ```powershell
-$decryptedEntry.PsMetadata.Name = “New RDP Name“;
+$decryptedEntry.PsMetadata.Name = "New RDP Name";
 ```
 ```powershell
-$decryptedEntry.Connection.RDP.Password = “new_password“;
+$decryptedEntry.Connection.RDP.Password = "new_password";
 ```
 ```powershell
 Set-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1 -PSDecryptedEntry $decryptedEntry
@@ -878,6 +876,8 @@ Résout les éléments sensibles ou les mots de passe d'une entrée déjà déch
 #### Exemple de code
 ```powershell
 $entry = Get-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1
+```
+```powershell
 Format-HubEntryResolved -Entry $entry -ResolvePasswords
 ```
 

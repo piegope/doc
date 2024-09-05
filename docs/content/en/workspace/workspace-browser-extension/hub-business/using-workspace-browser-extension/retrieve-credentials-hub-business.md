@@ -15,21 +15,21 @@ After the [installation](/workspace/workspace-browser-extension/installation/) o
 
 1. Click on the {{ en.WBEX }} button in your browser, then click on the ***Settings*** icon. ![Settings icon](https://cdnweb.devolutions.net/docs/WEBX4114_2024_2.png "Settings icon")
 2. In the ***General*** tab, the ***Show icon in fields*** setting should be enabled by default. If not, check the box next to the option to enable it. {% snippet, "badgeNotice" %}
-                  With this option enabled, a {{ en.WBEX }} icon is displayed in every credential fields on the websites you visit. This makes it easier to select the correct entry from which to retrieve your credentials, especially when more than one is available.
-                  {% endsnippet %}
+                     With this option enabled, a {{ en.WBEX }} icon is displayed in every credential fields on the websites you visit. This makes it easier to select the correct entry from which to retrieve your credentials, especially when more than one is available.
+                     {% endsnippet %}
 
    ![General – Show icon in fields](https://cdnweb.devolutions.net/docs/WEBX4035_2024_2.png "General – Show icon in fields")
 
 3. Click ***Save***.
 4. Click on ***{{ en.DHUBB }}*** in the ***Spaces*** section.
 5. In the ***Actions*** tab, enable the ***Automatically fill in credentials on load*** option by checking the box next to it. With this setting enabled, credentials will be automatically filled in when loading a web page. This only works if you only have one set of credentials for a given website. ![Actions – Automatically retrieve and fill in credentials on load](https://cdnweb.devolutions.net/docs/WEBX4038_2024_2.png "Actions – Automatically retrieve and fill in credentials on load") {% snippet, "badgeInfo" %}
-                  If the ***Automatically submit the form after filling*** setting is enabled, the credentials are automatically submitted when the fields are filled. Enabling it is optional as it is not a best practice.
-                  {% endsnippet %}
+                     If the ***Automatically submit the form after filling*** setting is enabled, the credentials are automatically submitted when the fields are filled. Enabling it is optional as it is not a best practice.
+                     {% endsnippet %}
 6. Click ***Save***.
 
 You can now continue to the next section to learn how to retrieve your website entry credentials.
 
-## Retrieving Credentials
+## Retrieving credentials
 
 {% snippet, "badgeInfo" %}
 This section is based on the {{ en.WBEX }} configuration steps from the [previous section](#settings). We highly recommend that you follow them before going forward, as some features may differ between your experience and what is shown below.
@@ -40,13 +40,13 @@ Credentials can be retrieved from {{ en.DHUBB }} automatically or manually via t
 * [Automatically retrieving credentials](#automatically-retrieving-credentials)
 * [Manually retrieving credentials](#manually-retrieving-credentials)
 
-### Automatically Retrieving Credentials
+### Automatically retrieving credentials
 
 1. Go to the login page of the website you want to access. This page will be different for each website; this section will use the Atlassian website as an example. One of two scenarios can happen:
    1. If you only have one set of credentials for this website, the login fields should already be filled in with your credentials. If that is the case, follow the login process of the website until you successfully log in to your account. You do not have to follow the next step. ![Automatically filled credentials fields](https://cdnweb.devolutions.net/docs/WEBX4039_2024_2.png "Automatically filled credentials fields").
    2. If you have more than one set of credentials or if your credentials are not filled in, click on the {{ en.WBEX }} icon in the credential field and select the entry that contains your credentials for that website. If multiple entries are available, you can search for the one you want using the ***Filter*** bar. Follow the rest of the website's login process until you successfully log in to your account. ![Entry filter and selection](https://cdnweb.devolutions.net/docs/WEBX4115_2024_2.png "Entry filter and selection")
 
-### Manually Retrieving Credentials
+### Manually retrieving credentials
 
 Depending on the options you have enabled/disabled, you may need to retrieve your credentials manually:
 
@@ -55,7 +55,7 @@ Depending on the options you have enabled/disabled, you may need to retrieve you
 3. Click on the website entry that contains the credentials for this website. If multiple entries are available, you can use the ***Filter*** bar to find the one you need. ![Entry selection](https://cdnweb.devolutions.net/docs/WEBX4116_2024_2.png "Entry selection")
 
    {% snippet, "badgeInfo" %}
-                  If needed, you can also use the icons that appear when hovering over the entry to copy your username, copy your password, or get an overview of the entry.
-                  {% endsnippet %}
+                     If needed, you can also use the icons that appear when hovering over the entry to copy your username, copy your password, or get an overview of the entry.
+                     {% endsnippet %}
 
 4. Your credentials will be transferred to the credentials fields of the website. Follow the rest of the website's login process until you successfully log in to your account. ![Credentials transfer in corresponding fields](https://cdnweb.devolutions.net/docs/WEBX4043_2024_2.png "Credentials transfer in corresponding fields")
