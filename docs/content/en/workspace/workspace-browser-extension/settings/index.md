@@ -4,7 +4,7 @@ eleventyComputed:
   title: Settings
   status: Topic available in German language
 ---
-The {{ en.WBEX }} settings can be accessed via the ***Settings*** button in the browser extension window regardless of which Devolutions application you are using with the {{ en.WBEX }}.
+The {{ en.WBEX }} settings can be accessed via the ***Settings*** button in the browser extension window regardless of the Devolutions application being used with the {{ en.WBEX }}.
 
 ![Settings Button](https://cdnweb.devolutions.net/docs/WEBX4000_2024_2.png "Settings Button")
 
@@ -29,7 +29,7 @@ The ***Never list*** displays the list of locally added websites to which the us
 
 #### Import/Export settings
 
-The ***Import/Export Settings*** allow to save and transfer your currently set preferred settings.
+The ***Import/Export Settings*** allow to save and transfer the currently set preferred settings.
 
 * Import settings from other browsers or users.
 * Choose to export the {{ en.WBEX }} ***Settings, Password Generator*** templates, and the ***Never List***.
@@ -60,4 +60,4 @@ The ***Spaces*** settings are used to customize the {{ en.WBEX }} interactions w
 
 <table><thead><tr><th><p>ACTIONS TAB</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>Automatically fill in credentials on load</strong></p></td><td><p>Automatically fill the credentials when loading a web page.</p></td></tr><tr><td><p><strong>Automatically submit the form after filling</strong></p></td><td><p>Automatically submit the credentials when the fields are filled.</p></td></tr></tbody></table>
 
-<table><thead><tr><th><p>ADVANCED TAB</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>{{ en.DA }} login</strong></p></td><td><p>Set your {{ en.DA }} login URL.</p></td></tr><tr><td><p><strong>Show Favicon</strong></p></td><td><p>Display the {{ en.WBEX }} favicon.</p></td></tr><tr><td><p><strong>{{ en.WBEX }}</strong></p></td><td><p>Enable or disable the {{ en.WBEX }} with {{ en.DHUB }}.</p></td></tr><tr><td><p><strong>Default compare type</strong></p></td><td><p>Set a default comparing option type between <em><strong>Base domain</strong></em>, <em><strong>Host</strong></em>, <em><strong>Starts with</strong></em>, <em><strong>RegEx</strong></em>, <em><strong>Exact</strong></em>, and <em><strong>Never</strong></em>.</p></td></tr><tr><td><p><strong>Sync all available {{ en.VLT }}s (available with {{ en.DHUBB }} only)</strong></p></td><td><p>Enable to synchronize all the available {{ en.VLT }}s from {{ en.DHUBB }}.</p></td></tr></tbody></table>
+<table><thead><tr><th><p>ADVANCED TAB</p></th><th><p>DESCRIPTION</p></th></tr></thead><tbody><tr><td><p><strong>{{ en.DA }} login</strong></p></td><td><p>Set the {{ en.DA }}'s login URL.</p></td></tr><tr><td><p><strong>Show Favicon</strong></p></td><td><p>Display the {{ en.WBEX }} favicon.</p></td></tr><tr><td><p><strong>{{ en.WBEX }}</strong></p></td><td><p>Enable or disable the {{ en.WBEX }} with {{ en.DHUB }}.</p></td></tr><tr><td><p><strong>Default compare type</strong></p></td><td><p>Set a default comparing option type between <em><strong>Base domain</strong></em>, <em><strong>Host</strong></em>, <em><strong>Starts with</strong></em>, <em><strong>RegEx</strong></em>, <em><strong>Exact</strong></em>, and <em><strong>Never</strong></em>.</p></td></tr><tr><td><p><strong>Sync all available {{ en.VLT }}s (available with {{ en.DHUBB }} only)</strong></p></td><td><p>Enable to synchronize all the available {{ en.VLT }}s from {{ en.DHUBB }}.</p></td></tr></tbody></table>

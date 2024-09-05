@@ -1,16 +1,16 @@
 ---
 eleventyComputed:
   title: Configurer l'authentification SSO avec Okta
-  description: Utiliser Okta avec {{ fr.DHUBB }} pour l'authentification unique (SSO) en suivant les étapes de cette page.
+  description: Utiliser Okta avec {{ fr.DHUBB }} pour l'authentification à authentification unique (SSO) en suivant les étapes de cette page.
   keywords:
   - SSO
   - Okta
 ---
-Utiliser Okta avec {{ fr.DHUBB }} pour l'authentification unique (SSO) en suivant les étapes de cette page. Voir d'abord les exigences et les fonctionnalités prises en charge ci-dessous.
+Utiliser Okta avec {{ fr.DHUBB }} pour l'authentification à authentification unique (SSO) en suivant les étapes de cette page. Voir d'abord les exigences et les fonctionnalités prises en charge ci-dessous.
 
 ## Exigences
 
-Pour utiliser le SSO ou le provisionnement automatique (SCIM) avec Okta, un [compte Okta](https://www.okta.com/) avec les droits appropriés est requis. La [procédure de validation de domaine](#domain-verification) doit également être complétée pour vérifier la propriété du ou des domaines configurés. Seuls les utilisateurs avec des courriels dont les domaines ont été vérifiés sont autorisés à se connecter via SSO ou à être provisionnés via SCIM.
+Pour utiliser SSO ou le provisionnement automatique (SCIM) avec Okta, un [compte Okta](https://www.okta.com/) avec les droits appropriés est requis. La [procédure de validation de domaine](#domain-verification) doit également être complétée pour vérifier la propriété des domaines configurés. Seuls les utilisateurs avec des courriels dont les domaines ont été vérifiés sont autorisés à se connecter via SSO ou à être provisionnés via SCIM.
 
 ## Fonctionnalités prises en charge
 
@@ -43,7 +43,7 @@ Voici les étapes pour [valider le domaine](#domain-verification), [configurer l
    {% endsnippet %}
 
 1. Pour avoir plusieurs domaines, cliquer sur ***Ajouter un domaine*** à nouveau, remplir votre autre domaine, puis cliquer sur la coche. Répéter ce processus pour chaque domaine que vous souhaitez ajouter.
-![Domaines multiples](https://cdnweb.devolutions.net/docs/HUBB2002_2024_1.png)
+![Plusieurs domaines](https://cdnweb.devolutions.net/docs/HUBB2002_2024_1.png)
 1. Créer un [enregistrement DNS TXT](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) en utilisant le ***Nom d'hôte*** et la ***Valeur TXT*** fournis. Cela nous permet de vérifier la propriété du ou des domaines fournis.  
 ![Nom d'hôte et Valeur TXT](https://cdnweb.devolutions.net/docs/HUBB2003_2024_1.png)  
 
@@ -54,7 +54,7 @@ Voici les étapes pour [valider le domaine](#domain-verification), [configurer l
 
    ![Enregistrement DNS TXT dans MXToolBox](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2236.png)  
 
-1. Attendre la vérification du domaine. Une fois la vérification réussie, une coche dans un cercle vert s'affichera à côté du domaine. Procéder à la configuration de l'authentification unique (SSO) pendant le processus de vérification ; cependant, le provisionnement des utilisateurs devient accessible uniquement après que le domaine a été vérifié.
+1. Attendre la vérification du domaine. Après une vérification réussie, une coche dans un cercle vert s'affichera à côté du domaine. Procéder à la configuration de l'authentification unique (SSO) pendant le processus de vérification ; cependant, le provisionnement des utilisateurs devient accessible uniquement après que le domaine a été vérifié.
 ![Domaine vérifié](https://cdnweb.devolutions.net/docs/HUBB2004_2024_1.png)
 
    {% snippet, "badgeCaution" %} 
@@ -104,7 +104,7 @@ Voici les étapes pour [valider le domaine](#domain-verification), [configurer l
 1. Dans ***URL de découverte***, entrer l'URL utilisée pour accéder à Okta, sans la partie "-admin".  
 
    {% snippet, "badgeCaution" %} 
-   Ne pas tester la connexion pour l'instant, car les utilisateurs doivent d'abord être assignés à l'application.
+   Ne pas tester la connexion pour l'instant, car les utilisateurs doivent être assignés à l'application d'abord.
    {% endsnippet %}  
 
    ![URL de découverte](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2339.png)  

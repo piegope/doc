@@ -25,7 +25,7 @@ En haut, utiliser la barre de ***Recherche*** pour filtrer tous vos identifiants
 
 Le bouton ***Ajouter un site web*** (+) ouvre un nouvel onglet de navigateur qui vous permet d'ajouter manuellement une entrée de site web dans {% var, "DHUBP" false %} via le {{ fr.WBEX }}.
 
-{% snippet, "badgeInfo" %}Pour une liste complète des entrées et champs disponibles dans la fenêtre ***Ajouter un site web***, visiter [Nouvelle entrée](/workspace/workspace-browser-extension/hub-personal/user-interface/side-menu/new-entry/). Vous pouvez également consulter notre guide étape par étape sur [comment ajouter une entrée](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/add-entry-hub-personal-workspace-browser-extension/).{% endsnippet %}
+{% snippet, "badgeInfo" %}Pour une liste complète des entrées et champs disponibles dans la fenêtre ***Ajouter un site web***, visiter [Ajouter un site web](/workspace/workspace-browser-extension/hub-personal/user-interface/side-menu/add-website/). Vous pouvez également consulter notre guide étape par étape sur [comment ajouter une entrée](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/add-entry-hub-personal-workspace-browser-extension/).{% endsnippet %}
 
 ### Onglet Favoris
 
