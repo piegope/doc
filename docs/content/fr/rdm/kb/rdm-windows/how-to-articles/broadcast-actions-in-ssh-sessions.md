@@ -3,7 +3,6 @@ eleventyComputed:
   title: Actions de diffusion dans les sessions SSH
   description: Dans {{ fr.RDM }}, gérer deux ou plusieurs sessions SSH actives avec des actions de diffusion pour envoyer des commandes sur toutes les sessions en même temps.
 ---
-
 {% youtube '9FrSyzRvw30' %}
 
 Dans {{ fr.RDM }}, gérer deux ou plusieurs sessions SSH actives avec ***actions de diffusion*** pour envoyer des commandes sur toutes les sessions en même temps.
