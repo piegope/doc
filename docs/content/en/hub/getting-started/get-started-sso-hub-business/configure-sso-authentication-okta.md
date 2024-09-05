@@ -1,169 +1,182 @@
 ---
 eleventyComputed:
   title: Configure SSO authentication with Okta
-  description: Here are the steps to configure Okta with {{ en.DHUBB }} for SSO authentication.
+  description: Use Okta with {{ en.DHUBB }} for single sign-on (SSO) authentication by following the steps in this page.
   keywords:
   - SSO
   - Okta
 ---
-Here are the steps to configure Okta with {{ en.DHUBB }} for SSO authentication.
+Use Okta with {{ en.DHUBB }} for single sign-on (SSO) authentication by following the steps in this page. First see the requirements and supported features below.
+
+## Requirements
+
+To use SSO or automatic provisioning (SCIM) with Okta, an [Okta account](https://www.okta.com/) with the appropriate rights is required. The [Domain validation procedure](#domain-verification) must also be completed to verify ownership of the configured domain(s). Only users with emails whose domains have been verified are allowed to log in via SSO or be provisioned via SCIM.
+
+## Supported features
+
+* Connect to the Hub via Okta SSO
+* Just-in-time (JIT) provisioning of connected users via Okta SSO
+* Synchronize your Okta to {{ en.DHUB }}
+   * Create/update users from Okta to {{ en.DHUB }} (create users, update user attributes, and deactivate users)
+   * Create/update groups from Okta to {{ en.DHUB }} (group push)
 
 {% snippet, "badgeCaution" %}
-An [Okta account](https://www.okta.com/) with the appropriate rights is required.
+Users provisioned JIT by SSO or created by SCIM synchronization must be invited to the Hub in ***Administration – Users***, as described in the steps below.
 {% endsnippet %}
 
-## Domain verification
+## Configuration steps
 
-**In {{ en.DHUBB }}**
+Here are the steps to [validate the domain](#domain-verification), [configure single sign-on](#single-sign-on-sso-configuration), and [perform user provisioning](#provisioning-configuration).
+
+### Domain verification
+
+**In {{ en.DHUBB }}**  
 
 1. Go to ***Administration – Authentication – Domain***, then click on ***Add Domain***.
 ![Administration – Authentication – Domain – Add domain](https://cdnweb.devolutions.net/docs/HUBB2000_2024_1.png)
-1. Fill in your domain, then click on the checkmark to start the verification process.
-![Domain](https://cdnweb.devolutions.net/docs/HUBB2001_2024_1.png)
-   {% snippet, "shieldInfo" %} 
-   For security purposes, only emails that end with your domain name will be allowed to log in to {{ en.DHUB }} using Okta authentication. For example, if your employees' emails are in the format "bob@windjammer.co", your domain is "windjammer.co".
-   {% endsnippet %}
-1. To have multiple domains, click ***Add Domain*** once again, fill in your other domain, then click on the checkmark. Repeat this process for every domain you wish to add.
-![Multiple domains](https://cdnweb.devolutions.net/docs/HUBB2002_2024_1.png)
-1. Create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) using the provided ***Host name*** and ***TXT value***. This allows us to verify the ownership of the domain(s) supplied.
-![Host name and TXT value](https://cdnweb.devolutions.net/docs/HUBB2003_2024_1.png)
 
-   We recommend that you verify that your configuration is adequate through DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's TXT Lookup tool. The first part of the Domain Name must match the ***Host name*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.
-   {% snippet, "badgeCaution" %}
+1. Fill in the domain, then click on the checkmark to start the verification process.
+![Domain](https://cdnweb.devolutions.net/docs/HUBB2001_2024_1.png) 
+
+   {% snippet, "badgeInfo" %} 
+   For security purposes, only emails that end with your domain name are allowed to log in to {{ en.DHUB }} using Okta authentication. For example, if employees' emails are in the format "bob@windjammer.co", the domain is "windjammer.co".
+   {% endsnippet %}
+
+1. To have multiple domains, click ***Add domain*** once again, fill in your other domain, then click on the checkmark. Repeat this process for every domain you wish to add.
+![Multiple domains](https://cdnweb.devolutions.net/docs/HUBB2002_2024_1.png)
+1. Create a [DNS TXT Record](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) using the provided ***Host name*** and ***TXT value***. This allows us to verify the ownership of the domain(s) supplied.  
+![Host name and TXT value](https://cdnweb.devolutions.net/docs/HUBB2003_2024_1.png)  
+
+   It is recommended to verify that the configuration is adequate using DNS querying tools such as [MXToolBox](https://mxtoolbox.com/SuperTool.aspx) or [whatsmydns.net](https://www.whatsmydns.net/). The example below uses MXToolBox's TXT Lookup tool. The first part of the Domain Name must match the ***Host name*** in {{ en.DHUB }} and the Record must match the ***TXT value*** in {{ en.DHUB }} as well.  
+   {% snippet, "badgeCaution" %} 
    DNS TXT Records can take a while to propagate.
    {% endsnippet %}
 
-   ![DNS TXT Record in MXToolBox](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2236.png)
-1. Await domain verification. Upon successful verification, a checkmark within a green circle will display next to the domain. You may proceed to configure Single Sign-On (SSO) during the verification process; however, user provisioning will become accessible only after the domain has been verified.
+   ![DNS TXT Record in MXToolBox](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2236.png)  
+
+1. Await domain verification. Upon successful verification, a checkmark within a green circle will display next to the domain. Proceed to configure single sign-on (SSO) during the verification process; however, user provisioning becomes accessible only after the domain has been verified.
 ![Verified domain](https://cdnweb.devolutions.net/docs/HUBB2004_2024_1.png)
 
-   {% snippet, "badgeCaution" %}
-   This validation lasts for 48 hours and does not restart automatically after that period. If you do not configure your TXT record within those 48 hours, your validation status will be ***Expired***. If that happens, you can click on ***Retry***.
+   {% snippet, "badgeCaution" %} 
+   This validation lasts for 48 hours and does not restart automatically after that period. If the TXT record is not configured within those 48 hours, the validation status will be ***Expired***. If that happens, click on ***Retry***.  
 
-   If you experience any issues while trying to verify your domain, visit our [Domain validation troubleshooting](/hub/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/) guide.
-   {% endsnippet %}
+   If issues occur while trying to verify the domain, visit our [Domain validation troubleshooting](/kb/hub-business/troubleshooting-articles/domain-validation-troubleshooting/) guide.
+   {% endsnippet %}  
 
+### Single sign-on (SSO) configuration
 
-## Single Sign-On (SSO) configuration
+1. Go to ***Administration – Authentication – Single sign-on (SSO)***, then click on ***Okta single sign-on (SSO)*** to be redirected to the configuration page.  
+![Administration – Authentication – Single sign-on (SSO) – Okta single sign-on (SSO)](https://cdnweb.devolutions.net/docs/HUBB2007_2024_1.png)  
 
-1. Go to ***Administration – Authentication – Single Sign-On (SSO)***, then click on ***Okta Single Sign-On (SSO)***. You will be directed to the configuration page.
-![Administration – Authentication – Single Sign-On (SSO) – Okta Single Sign-On (SSO)](https://cdnweb.devolutions.net/docs/HUBB2007_2024_1.png)
-
-1. ***Name*** your SSO configuration. This name will only appear in your {{ en.DHUB }} SSO settings menu. The default name is "Okta".
+1. ***Name*** the SSO configuration. This name will only appear in the {{ en.DHUB }} SSO settings menu. The default name is "Okta".  
 ![Configuration name](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2334.png)
 
-   {% snippet, "badgeCaution" %}
-   Do not close this setup page, as the following steps will show you where to find the information to enter in its fields.
+   {% snippet, "badgeCaution" %} 
+   Do not close this setup page, as the following steps show where to find the information to enter in its fields. 
    {% endsnippet %}
 
-**In Okta**
+**In Okta**  
 
-3. Log in to your Okta account.
-1. In ***Applications***, click ***Create App Integration***.
-![Applications – Create App Integration](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2238.png)
-1. For the ***Sign-in method***, select ***OIDC - OpenID Connect***.
-![Sign-in method – OIDC - OpenID Connect](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2239.png)
-1. For the ***Application type***, select ***Web Application***.
-![Application type – Web Application](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2240.png)
-1. Click ***Next***. The ***New Web App Integration*** settings page will appear.
-1. Under ***General Settings***, enter an ***App integration name***.
-   ![App integration name](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2249.png)
+3. Log in to the Okta account.
+1. In ***Applications***, click ***Browse App Catalog***.  
+![Applications – Browse App Catalog](https://cdnweb.devolutions.net/docs/INTERFACE2055.png)
 
-   {% snippet, "badgeNotice" %}
-   The app name does not need to match the one in {{ en.DHUB }}. We recommend including either "Devolutions" or "Hub" in the name.
-   {% endsnippet %}
+1. Search for ***{{ en.DHUB }}***, then click on the application in the search results.  
+![Search for {{ en.DHUB }}](https://cdnweb.devolutions.net/docs/INTERFACE2056.png)  
+1. Click on ***Add Integration*** at the top.  
+1. In the ***Sign On*** tab, copy the ***Client ID***.  
+![Copy the client ID](https://cdnweb.devolutions.net/docs/INTERFACE2057.png)  
 
-1. In ***Grant type***, check ***Refresh Token*** and ***Implicit (hybrid)***.
-![Grant type](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2250.png)
+**In {{ en.DHUBB }}**  
 
-**In {{ en.DHUBB }}**
+8. Back to the ***Configure Single Sign-On (SSO)*** page, paste the ***Client ID*** from the last step in the field of the same name.  
+![Paste the client ID](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2337.png)  
 
-10. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Callback URL*** by clicking on the ***Copy to Clipboard*** icon next to it.
-![Copy the Callback URL](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2336.png)
+**In Okta**  
 
-**In Okta**
+9. Back to the ***Sign On*** tab, copy the ***Client secret***.  
+![Copy the client secret](https://cdnweb.devolutions.net/docs/INTERFACE2058.png)  
 
-11. Back in Okta, paste the ***Callback URL*** in the ***Sign-in redirect URIs*** field.
-![Sign-in redirect URIs](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2251.png)
+**In {{ en.DHUBB }}**  
 
-**In {{ en.DHUBB }}**
+10. Back to the ***Configure Single Sign-On (SSO)*** page, paste the ***Client secret*** from the last step in the ***Client secret Key*** field.  
+![Paste the client secret](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2338.png)  
+1. In ***Discovery URL***, enter the URL used to access Okta, without the "-admin" part.  
 
-12. Back on the ***Configure Single Sign-On (SSO)*** page, copy the ***Logout redirect URL*** by clicking on the ***Copy to Clipboard*** icon next to it.
-![Copy the Logout redirect URL](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2335.png)
+   {% snippet, "badgeCaution" %} 
+   Do not test the connection just yet, as users need to be assigned to the application first.
+   {% endsnippet %}  
 
-**In Okta**
+   ![Discovery URL](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2339.png)  
 
-13. Back in Okta, paste the ***Logout redirect URL*** in the ***Sign-out redirect URIs*** field.
-![Sign-out redirect URIs](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2252.png)
+**In Okta**  
 
-1. Under ***Assignments***, select the ***Controlled access*** option that best suits your needs. This choice is left to your discretion.
+12. In the ***Assignments*** tab, ensure each user you want to use to test the configuration is assigned to the application. For more details, see Okta's own documentation on user management and application assignment.
+![Assignments](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2262.png)  
 
-   {% snippet, "badgeCaution" %}
-   If you choose to ***Allow everyone in your organization to access***, do **not** check the ***Enable immediate access with Federation Broker Mode*** option, as doing so would prevent you from enabling SCIM provisioning in the future. If you choose to ***Limit access to selected groups*** or ***Skip group assignment for now***, you must manually assign to this app the users you wish to authorize to connect to your {{ en.DHUBB }} via Okta.
-   {% endsnippet %}
+**In {{ en.DHUBB }}**  
 
-   ![Assignments](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2253.png)
-
-1. Click ***Save***. You will be redirected to your new SSO application.
-1. Copy the ***Client ID*** by clicking on the ***Copy to clipboard*** icon next to it.
-![Copy the Client ID](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2254.png)
-
-**In {{ en.DHUBB }}**
-
-17. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client ID*** from the last step in the field of the same name.
-![Client ID](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2337.png)
-
-**In Okta**
-
-18. Back in Okta, copy the ***Client secret*** by clicking on the ***Copy to clipboard*** icon next to it.
-![Copy the Client secret](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2256.png)
+13. Test the configuration in {{ en.DHUB }}. A new window opens to connect you to {{ en.DHUB }} through Okta. When connected, a success message appears.  
 
    {% snippet, "badgeCaution" %}
-   Do not close this setup page, as the following steps will require you to make further changes in it.
+   If the popup does not appear, the browser or a browser extension may be blocking it. Change the browser and/or extension settings. If it still does not work, deactivating/removing the extension or changing browser may also solve the problem.
    {% endsnippet %}
 
-**In {{ en.DHUBB }}**
+14. Click ***Save*** in the ***Summary*** of the Okta SSO configuration.
+![Save the configuration](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2340.png)  
 
-19. Back on the ***Configure Single Sign-On (SSO)*** page, paste the ***Client secret*** from the last step in the ***Client secret Key*** field.
-![Client secret Key](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2338.png)
-1. In ***Discovery URL***, enter the URL you use to access Okta, without the "-admin" part.
-
-   {% snippet, "badgeCaution" %}
-   Do not test the connection just yet, as a few additional steps are required in Okta.
-   {% endsnippet %}
-
-   ![Discovery URL](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2339.png)
-
-**In Okta**
-
-21. Click ***Edit*** in the ***General Settings*** section.
-![Edit the General Settings](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2260.png)
-1. Set the ***Refresh token behavior*** to ***Rotate token after every use***.
-![Rotate token after every use](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2261.png)
-1. Click ***Save***.
-1. In the ***Assignment*** tab at the top, make sure each user you want to use to test the configuration is assigned to the application. For more details, see Okta's own documentation on user management and application assignment.
-![Assignment](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2262.png)
-
-**In {{ en.DHUBB }}**
-
-25. Test the configuration in {{ en.DHUB }}. A new window should open to connect you to {{ en.DHUB }} through Okta. You will get a success message when connected.
-
-   {% snippet, "badgeCaution" %}
-   If the popup page does not appear, see [Devolutions login page does not open in the browser](/hub/kb/general-knowledge/devolutions-login-page-does-not-open-browser/).
-   {% endsnippet %}
-
-26. Click ***Save*** in the ***Summary*** of your Okta SSO configuration.
-![Save the configuration](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2340.png)
-
-You should now see that the SSO configuration has a green checkmark icon next to it. This means that your SSO configuration through Okta is now enabled on your hub.
+The SSO configuration is now complete. A green checkmark icon should now be visible next to the configuration, meaning that the SSO configuration through Okta is now enabled on the Hub.  
 ![Active SSO configuration](https://cdnweb.devolutions.net/docs/HUBB2008_2024_1.png)
 
-## Provisioning configuration
+#### Okta SSO login
+When logging in to the Hub, click on ***Sign in with Okta***.
+![Sign in with Okta](https://cdnweb.devolutions.net/docs/CLOUD2006_2024_3.png)
 
-Synchronize your users and user groups from your providers to the hub.
+An Okta login page will open. Enter the Okta credentials and click ***Sign in***. The Hub will then be accessible.
+![Okta login](https://cdnweb.devolutions.net/docs/INTERFACE2059.png)
 
-### Settings
+### SCIM provisioning configuration
 
-{% snippet, "badgeInfo" %}
-This feature will be available soon!
+Synchronize users and user groups from providers to the Hub by following the steps in this section. First see the list of supported features below.
+
+{% snippet, "badgeCaution" %}
+Note that we only support synchronization in one direction, from Okta to {{ en.DHUB }}, specifically for users and groups. Synchronization from {{ en.DHUB }} to Okta is **not** supported.
 {% endsnippet %}
+
+#### Supported features
+* Create users
+* Update user attributes
+* Deactivate users
+* Group push
+
+#### Provisioning configuration steps
+
+**In Okta**
+
+1. Go to the {{ en.DHUBB }} application.
+1. In the ***Provisioning*** tab, click ***Configure API Integration***.
+1. Tick the ***Enable API Integration*** checkbox.
+
+**In {{ en.DHUBB }}**
+
+4. Go to ***Administration – Authentication – Provisioning*** and enable SCIM provisioning.
+1. Copy the ***Secret token*** by clicking on the ***Copy to clipboard*** icon next to it.
+
+**In Okta**
+
+6. Back to the ***Provisioning*** tab in Okta, paste the ***Secret token*** from the last step in the ***API token*** field.
+1. Click on ***Test API Credentials***. A success message should appear.
+
+**In {{ en.DHUBB }}**
+
+8. Back to the ***Provisioning*** configuration in {{ en.DHUB }}, click on ***Activate synchronization***.
+
+**In Okta**
+
+9. ***Save*** the Okta provisioning configuration.
+1. Still in the ***Provisioning*** tab, go to the ***To App*** settings, then click on ***Edit***.
+1. Enable ***Create Users***, ***Update Attributes***, and ***Deactivate Users***. Under the ***Create Users*** setting, disable ***Set password when creating new users***.
+1. ***Save*** your changes.
+
+Synchronization from Okta to {{ en.DHUBB }} is now configured. It is now possible to assign users and groups to be synchronized. Refer to Okta's own documentation for more information:
+* 
