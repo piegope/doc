@@ -1,10 +1,12 @@
 ---
+_schema: default
 eleventyComputed:
   title: Add an entry in {{ en.DHUBP }} with the {{ en.WBEX }}
 ---
 Website, credit card, contact, and secure note entries can be created with the {{ en.WBEX }} in {{ en.DHUBP }}. To add a website entry, continue to the next section. For all other types of entries, go to [Add another type of entry](#add-another-type-of-entry) instead.
 
-## Add a Website entry
+## Add a website entry
+
 {% snippet, "badgeInfo" %}
 This section explains how to create an entry with your existing website credentials. If you have not yet created an account for the website, follow the instructions in [Create an account for a website in {{ en.DHUBP }} with the {{ en.WBEX }}](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/create-account-website-hub-personal/) instead.
 {% endsnippet %}
@@ -18,53 +20,29 @@ Learn how to add a website entry by following the instructions from these sectio
 * [Automatically Add a Website Entry](#automatically-add-a-website-entry)
 * [Manually Add a Website Entry](#manually-add-a-website-entry)
 
-### Automatically Add a Website Entry
-1. Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example.
-![!!Hub2055](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2055.png)
-1. Websites usually ask for information such as an email address/username and a password. Follow the website’s login process until you log in to your account.
-1. A {{ en.WBEX }} ***Add Website*** window will pop up in the corner of your web browser.
-![!!Hub2069](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2069.png)
-1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed.
-1. The ***Username*** and the ***Password*** are automatically filled in with the information you previously entered. Verify that they are correct.
-1. Select a ***Folder*** in which to save your website entry.
-1. Click ***Save***.
+### Automatically add a website entry
+
+1. Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example. ![Login page](https://cdnweb.devolutions.net/docs/WEBX4031_2024_2.png "Login page")
+2. Websites usually ask for information such as an email address/username and a password. Follow the website’s login process until you log in to your account.
+3. A {{ en.WBEX }} ***Add website*** window will pop up in the corner of your web browser. ![Add website](https://cdnweb.devolutions.net/docs/WEBX4134_2024_2.png "Add website")
+4. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed.
+5. The ***Username*** and the ***Password*** are automatically filled in with the information you previously entered. Verify that they are correct.
+6. Select a ***Folder*** in which to save your website entry.
+7. Click ***Save***.
 
 Your credentials are now securely stored in a new website entry in {{ en.DHUBP }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/retrieve-credentials-hub-personal/).
 
-### Manually Add a Website Entry
-1. Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example.
-![!!Hub2055](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2055.png)
-1. Click on the {{ en.WBEX }} icon in your browser toolbar and, in the ***Matching*** tab, click on the ***New Entry*** button.
-![New Entry Button](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2070.png)
-1. Click on ***Website***.
-![New Website Entry](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2071.png)
-1. The {{ en.WBEX }} ***New Entry – Add Website*** tab will open in your browser.
-![New Entry – Website (General Tab)](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2135.png)
-1. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed.
-1. Select a ***Folder*** in which to save your credentials.
-1. The ***Host*** drop-down list is set to ***Custom*** by default. This allows the {{ en.WBEX }} to automatically specify the ***URL*** in the next field with the login page URL from step 1.
-1. The ***Credentials*** drop-down list is set to ***Custom*** by default. This allows you to manually enter your ***Username***, ***Domain***, and ***Password*** in the next step.
-1. Provide the ***Username***, ***Domain***, and ***Password*** you use to log in to the website. You may not have a domain name to specify; in that case, leave the field blank. Also, depending on the website, your username may be your email address.
-1. The ***Compare type*** should be at ***Default*** and the ***{{ en.WBEX }}*** should be ***Enabled***.
-1. Click ***Add***.
+### Manually add a website entry
+
+1. Go to the login page of the website. This page will be different for each website; this topic will use the Atlassian website as an example. ![Login page](https://cdnweb.devolutions.net/docs/WEBX4031_2024_2.png "Login page")
+2. Click on the {{ en.WBEX }} icon in your browser toolbar and, in the ***Matching*** tab, click on the ***Add website*** button. ![Add website button](https://cdnweb.devolutions.net/docs/WEBX4135_2024_2.png "Add website button")
+3. The {{ en.WBEX }} ***New Entry – Add Website*** tab will open in your browser. ![New entry - Website (General tab)](https://cdnweb.devolutions.net/docs/WEBX4106_2024_2.png "New entry - Website &#40;General tab&#41;")
+4. Provide a ***Name*** for the entry. You can keep the default name or change it, but we recommend that it reflects the content of the entry so that it is easier to find when needed.
+5. Select a ***Folder*** in which to save your credentials.
+6. The ***Host*** drop-down list is set to ***Custom*** by default. This allows the {{ en.WBEX }} to automatically specify the ***URL*** in the next field with the login page URL from step 1.
+7. The ***Credentials*** drop-down list is set to ***Custom*** by default. This allows you to manually enter your ***Username***, ***Domain***, and ***Password*** in the next step.
+8. Provide the ***Username***, ***Domain***, and ***Password*** you use to log in to the website. You may not have a domain name to specify; in that case, leave the field blank. Also, depending on the website, your username may be your email address.
+9. The ***Compare type*** should be at ***Default*** and the ***{{ en.WBEX }}*** should be ***Enabled***.
+10. Click ***Add***.
 
 Your credentials are now securely stored in a new website entry in {{ en.DHUBP }}. The next time you log in to the same account, the {{ en.WBEX }} will detect it and you will be able to retrieve your credentials. Follow our step-by-step instructions for [retrieving your credentials](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/retrieve-credentials-hub-personal/).
-
-## Add another type of entry
-You can manually add ***Credit Card***, ***Contact***, and ***Secure Note*** entries in {{ en.DHUBP }} for easy access via the {{ en.WBEX }}.
-
-The process is the same for all entry types, but the information to be filled in will be different due to the nature of each entry type. Follow the steps below:
-
-1. Click on the {{ en.WBEX }} icon in your browser toolbar and, in the ***Matching*** tab, click on the ***New Entry*** button.
-![New Entry Button](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2070.png)
-1. Click on the entry type you want to create between ***Credit Card***, ***Contact***, and ***Secure Note***. For a ***Website*** entry, follow the steps in the [previous section](#add-a-website-entry).
-![New Credit Card, Contact, or Secure Note Entry](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2074.png)
-1. The {{ en.WBEX }} ***New Entry*** tab will open in your browser. As an example, the image below represents the tab for a credit card entry which differs slightly from the tabs for other types of entries.
-![New Entry – Credit Card (General Tab)](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2075.png)
-1. Fill in your entry information. The only mandatory information is the ***Name***; all other information is optional, so you can enter only the information that is useful to you. We recommend that you also specify the ***Folder*** in which your entry will be saved for easy access.
-   {% snippet, "badgeInfo" %}
-   For a ***Secure Note*** entry, you can specify a ***Type*** of text for your note. Unless you know how to use ***Markdown*** (a markup language for formatting text), select ***Plain text***.
-   {% endsnippet %}
-1. Click ***Add***.
-
-Your information is now securely stored in a new entry in {{ en.DHUBP }}.
