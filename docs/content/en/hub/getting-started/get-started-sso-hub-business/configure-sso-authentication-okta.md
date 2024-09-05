@@ -155,28 +155,44 @@ Note that we only support synchronization in one direction, from Okta to {{ en.D
 
 1. Go to the {{ en.DHUBB }} application.
 1. In the ***Provisioning*** tab, click ***Configure API Integration***.
-1. Tick the ***Enable API Integration*** checkbox.
+![Provisioning – Configure API Integration](https://cdnweb.devolutions.net/docs/INTERFACE2060.png)
+1. Check the ***Enable API Integration*** box.
+![Enable API Integration](https://cdnweb.devolutions.net/docs/INTERFACE2061.png)
 
 **In {{ en.DHUBB }}**
 
 4. Go to ***Administration – Authentication – Provisioning*** and enable SCIM provisioning.
+![Enable SCIM provisioning](https://cdnweb.devolutions.net/docs/HUBB2379_2024_2.png)
 1. Copy the ***Secret token*** by clicking on the ***Copy to clipboard*** icon next to it.
+![Copy the secret token](https://cdnweb.devolutions.net/docs/HUBB2380_2024_2.png)
 
 **In Okta**
 
-6. Back to the ***Provisioning*** tab in Okta, paste the ***Secret token*** from the last step in the ***API token*** field.
+6. Back to the ***Provisioning*** tab in Okta, paste the ***Secret token*** from the last step in the ***API Token*** field.
+![Paste the secret token](https://cdnweb.devolutions.net/docs/INTERFACE2062.png)
 1. Click on ***Test API Credentials***. A success message should appear.
+![Test API Credentials](https://cdnweb.devolutions.net/docs/INTERFACE2063.png)
 
 **In {{ en.DHUBB }}**
 
 8. Back to the ***Provisioning*** configuration in {{ en.DHUB }}, click on ***Activate synchronization***.
+![Activate synchronization](https://cdnweb.devolutions.net/docs/HUBB2381_2024_2.png)
 
 **In Okta**
 
 9. ***Save*** the Okta provisioning configuration.
 1. Still in the ***Provisioning*** tab, go to the ***To App*** settings, then click on ***Edit***.
-1. Enable ***Create Users***, ***Update Attributes***, and ***Deactivate Users***. Under the ***Create Users*** setting, disable ***Set password when creating new users***.
-1. ***Save*** your changes.
+![Edit "To App" settings](https://cdnweb.devolutions.net/docs/INTERFACE2064.png)
+1. Enable/disable the following settings:
+    * Enable:
+        * ***Create Users***
+        * ***Update Attributes***
+        * ***Deactivate Users***
+    * Disable:
+        * ***Set password when creating new users*** (under the ***Create Users*** setting)
+
+   ![Enable/disable settings](https://cdnweb.devolutions.net/docs/INTERFACE2065.png)
+1. ***Save*** the changes.
 
 Synchronization from Okta to {{ en.DHUBB }} is now configured.
 
