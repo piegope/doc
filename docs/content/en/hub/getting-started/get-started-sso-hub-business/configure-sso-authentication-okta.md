@@ -111,7 +111,7 @@ Here are the steps to [validate the domain](#domain-verification), [configure si
 
 **In Okta**  
 
-12. In the ***Assignments*** tab, ensure each user you want to use to test the configuration is assigned to the application. For more details, see Okta's own documentation on user management and application assignment.
+12. In the ***Assignments*** tab, ensure each user used to test the configuration is assigned to the application. For more details, see Okta's own documentation on user management and application assignment.
 ![Assignments](https://cdnweb.devolutions.net/docs/docs_en_hub_Hub2262.png)  
 
 **In {{ en.DHUBB }}**  
@@ -178,5 +178,8 @@ Note that we only support synchronization in one direction, from Okta to {{ en.D
 1. Enable ***Create Users***, ***Update Attributes***, and ***Deactivate Users***. Under the ***Create Users*** setting, disable ***Set password when creating new users***.
 1. ***Save*** your changes.
 
-Synchronization from Okta to {{ en.DHUBB }} is now configured. It is now possible to assign users and groups to be synchronized. Refer to Okta's own documentation for more information:
-* 
+Synchronization from Okta to {{ en.DHUBB }} is now configured.
+
+{% snippet, "badgeHelp" %}
+It is possible to assign users and groups to be synchronized. For more details, see Okta's own documentation on [assigning applications to users](https://help.okta.com/en-us/content/topics/users-groups-profiles/usgp-assign-apps.htm) and [assigning an app integration to a group](https://help.okta.com/en-us/content/topics/provisioning/lcm/lcm-assign-app-groups.htm).
+{% endsnippet %}
