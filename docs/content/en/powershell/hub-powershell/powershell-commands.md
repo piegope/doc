@@ -427,7 +427,7 @@ Adds a new {{ en.DGW }} to {{ en.DHUB }}.
 
 #### Code example
 ```powershell
-$newDevolutionsGateway = [Devolutions.Hub.CryptoUtils.Models.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.CryptoUtils.Models.PSGatewayMetadata]@{ Name =  'Test Gateway From PS ' }}
+$newDevolutionsGateway = [Devolutions.Hub.CryptoUtilsPowerShell.Entities.ModelsHub.PSDecryptedGateway]@{ PsMetadata = [Devolutions.Hub.PowerShell.CryptoUtilsEntities.ModelsHub.PSGatewayMetadata]@{ Name = 'Test Gateway From PS' }}
 ```
 ```powershell
 New-HubGateway -PSDecryptedGateway $newDevolutionsGateway
@@ -452,7 +452,7 @@ Sets the provided {{ en.DGW }}.
 $psDecrpytedGateway = Get-HubGateway -GatewayId 4c6fb2dc-f7ba-4089-8bc2-b46b3bdcd1d0
 ```
 ```powershell
-$psDecrpytedGateway.PSMetadata.Name = “New Name From PS“
+$psDecrpytedGateway.PSMetadata.Name = "New Name From PS"
 ```
 ```powershell
 Set-HubGateway -PSDecryptedGateway $psDecrpytedGateway
@@ -680,7 +680,8 @@ This command will only work if ***Enable SSO with {{ en.DA }} Organization*** ha
 #### Code example
 Add with a PSInvitation.  
 ```powershell
-$psInvitation = [Devolutions.Hub.CryptoUtils.Models.PSInvitation]@{AllowOfflineInRDM = $true; UserSendMessageConfiguration = [Devolutions.Hub.Clients.UserSendMessagePermission]::MessagesWithEntries; Groups = @(“1f017956-1d36-4787-acaa-22b16c73cce5“); Emails = @(“bob@windjammer.co“);}```
+$psInvitation = [Devolutions.Hub.PowerShell.CryptoUtilsEntities.ModelsHub.PSInvitation]@{AllowOfflineInRDM = $true; UserSendMessageConfiguration = [Devolutions.Hub.Clients.UserSendMessagePermission]::MessagesWithEntries; Groups = @("1f017956-1d36-4787-acaa-22b16c73cce5"); Emails = @("nathan.lachance@devolutions.net");}
+```
 ```powershell
 New-HubOrganizationUser -PSInvitation $psInvitation
 ```
@@ -801,10 +802,10 @@ Adds a new entry to a specific hub {{ en.VLT }} with the provided PSDecryptedEnt
 
 #### Code example
 ```powershell
-$t = [Devolutions.Hub.CryptoUtils.Models.PSDecryptedEntry]@{ PsMetadata = [Devolutions.Hub.CryptoUtils.Models.PSEntryMetadata]@{ Name = “Test Cred“; ParentId = “9df41856-125a-490a-8589-93afc3059924“; ConnectionType = [Devolutions.Generated.Enums.ConnectionType]::Credential }; Connection = [Devolutions.Generated.Models.Connection]@{ Credentials = [Devolutions.Generated.Models.CredentialsConnection]@{ CredentialType = [Devolutions.Generated.Enums.CredentialResolverConnectionType]::Default; Password = “passworddepowershell“ } } }
+$t = [Devolutions.Hub.PowerShell.CryptoUtilsEntities.ModelsHub.PSDecryptedEntry]@{ PsMetadata = [Devolutions.Hub.CryptoUtilsPowerShell.Entities.ModelsHub.PSEntryMetadata]@{ Name = "Test Cred"; ParentId = "9df41856-125a-490a-8589-93afc3059924"; ConnectionType = [Devolutions.GeneratedRemoteDesktopManager.Enums.ConnectionType]::Credential }; Connection = [Devolutions.GeneratedRemoteDesktopManager.ModelsBusiness.Connection]@{ Credentials = [Devolutions.GeneratedRemoteDesktopManager.ModelsBusiness.CredentialsConnection]@{ CredentialType = [Devolutions.Generated.EnumsRemoteDesktopManager.CredentialResolverConnectionType]::Default; Password = "passworddepowershell" } } }
 ```
 ```powershell
-New-HubEntry -VaultId d334f44c-fb84-4559-b576-e1e8b68baf65 -Connection $ff
+New-HubEntry -VaultId d334f44c-fb84-4559-b576-e1e8b68baf65 -PSDecryptedEntry $t
 ```
 
 ### Remove-HubEntry
@@ -840,10 +841,10 @@ Change information about an entry and save these modifications.
 $decryptedEntry = Get-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1
 ```
 ```powershell
-$decryptedEntry.PsMetadata.Name = “New RDP Name“;
+$decryptedEntry.PsMetadata.Name = "New RDP Name";
 ```
 ```powershell
-$decryptedEntry.Connection.RDP.Password = “new_password“;
+$decryptedEntry.Connection.RDP.Password = "new_password";
 ```
 ```powershell
 Set-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1 -PSDecryptedEntry $decryptedEntry
@@ -875,6 +876,8 @@ Resolves the sensitives or passwords from an already decrypted entry.
 #### Code example
 ```powershell
 $entry = Get-HubEntry -VaultId 3beb6536-95d2-405b-bc69-70751cc55ca1 -EntryId eb3b079e-b763-4657-bfac-ec83998015c1
+```
+```powershell
 Format-HubEntryResolved -Entry $entry -ResolvePasswords
 ```
 
