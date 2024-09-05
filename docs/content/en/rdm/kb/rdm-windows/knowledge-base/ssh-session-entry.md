@@ -1,9 +1,9 @@
 ---
 eleventyComputed:
   title: SSH terminal entry options
-  description: This topic describes all availables options specific to this entry.
+  description: This topic describes all available options specific to this entry.
 ---
-This topic describes all availables options specific to this entry. Each chapter represents a tab in the options menu.
+This topic describes all available options specific to this entry. Each chapter represents a tab in the options menu.
 
 {% snippet, "badgeInfo" %}
 The following properties can be configured when creating or editing the entry.
@@ -13,7 +13,7 @@ The following properties can be configured when creating or editing the entry.
 |-------------------|------------------------|
 | ***Name***        | The name of the entry. |
 | ***Folder***      | The folder where the entry is located. A folder can be selected by clicking the arrow or the three dots to open the ***Folder*** window. To create a new folder, click on the plus (***+***) icon.|
-| ***Display***     | How the session is displayed. ***Embedded (tabbed)*** means that the remote connection is opened within the same window as the other tabs or entries. Each connection has its own tab, making it easy to switch between them. An ***undocked*** display refers to the session window being detached from the main application. It allows you to move and resize the remote session window freely on your desktop. |
+| ***Display***     | How the session is displayed. ***Embedded (tabbed)*** means that the remote connection is open within the same window as the other tabs or entries. Each connection has its own tab, making it easy to switch between them. An ***undocked*** display refers to the session window being detached from the main application. It allows you to move and resize the remote session window freely on your desktop. |
 | ***Host***        | ***Host configured*** lets you select the host. ***Linked (vault)*** indicates that the host for the entry is linked to a host entry. ***Inherited*** is used when the host is inherited from a higher-level or parent entry. |
 | ***Credentials*** | <ul> <li>***Username and password***: You will set the username and password in the ***General*** tab.</li> <li>***Linked (vault)***: Links to credentials available in the current shared vault.</li> <li>***Inherited***: Inheritance means that credentials will automatically be passed down from a higher-level entry to lower-level entries that inherit from it.</li> <li>***My personal credentials***: These credentials are not entry specific but are instead taken from the option under ***File*** – ***My account settings*** – ***Local credentials*** – ***My personal credentials***.</li> <li>***None***: {{ en.RDM }} will not send credentials to the entry.</li> <li>***Find by name (user vault)***: Searches for the name of an entry in the user vault.</li> <li>***My privileged account***: These credentials are not entry specific but are instead taken from the option under ***File*** – ***My account settings*** – ***Local credentials*** – ***My privileged account***.</li> </ul> |
 
@@ -72,7 +72,7 @@ The following properties can be configured when creating or editing the entry.
 | SETTINGS                              | DESCRIPTION                                                    |
 |---------------------------------------|----------------------------------------------------------------|
 | ***Delay***                           | A set delay between every executed command.                    |
-| ***Automatic {ENTER} after command*** | An automatic line feed will be added in between every command. |
+| ***Automatic {ENTER} after command*** | An automatic linefeed will be added in between every command. |
 | ***Commands***                        | Contains a list of command configurations. Clicking the ***New*** or ***Edit*** button will bring up the ***Macro edit*** window with: <ul><li>The ***Command*** field (supports variables)</li> <li>The ***Expected prompt*** (when RDM sees this value it will send this command)</li> <li>The ***Timeout*** for the ***Expected prompt*** option</li></ul> |
 
 ![Before close tab](https://cdnweb.devolutions.net/docs/RDMW0033_2024_2.png)
@@ -81,7 +81,7 @@ The following properties can be configured when creating or editing the entry.
 | SETTINGS                              | DESCRIPTION                                                                            |
 |---------------------------------------|----------------------------------------------------------------------------------------|
 | ***Delay***                           | A set delay between every executed command.                                            |
-| ***Automatic {ENTER} after command*** | An automatic line feed will be added in between every command.                         |
+| ***Automatic {ENTER} after command*** | An automatic linefeed will be added in between every command.                         |
 | ***Commands***                        | 5 command lines, followed by the ***More commands*** field to add additional commands. |
 
 ![Terminal – Configuration sub-tab](https://cdnweb.devolutions.net/docs/RDMW0034_2024_2.png)
@@ -129,8 +129,8 @@ The following properties can be configured when creating or editing the entry.
 | ***Remote command***                       |  |
 | ***Bell behavior***                        | How {{ en.RDM }} will react to the SSH terminal sending the bell character.    |
 | ***Enable compression***                   | Allows sending compressed data or not.                                         |
-| ***Automatically open file transfer tab*** | Automatically opens the file transfer tab when the terminal is opened.         |
-| ***Start minimized***                      | Minimizes the file transfer tab when the terminal session is opened.           |
+| ***Automatically open file transfer tab*** | Automatically opens the file transfer tab when the terminal is open.           |
+| ***Start minimized***                      | Minimizes the file transfer tab when the terminal session is open.             |
 | ***Show files in tree view***              | Shows files in the file transfer tab.                                          |
 | ***Show hidden files***                    | Shows hidden files in the file transfer tab.                                   |
 | ***Log to file***                          | Set a path and file to keep logs.                                              |
@@ -205,7 +205,7 @@ The following properties can be configured when creating or editing the entry.
 | ***Enable GSS API credential delegation***      | Enable GSS API credential delegation.                            |
 | ***Allow SSH authentication agent forwarding*** | Allow SSH authentication agent forwarding.                       |
 | ***Disable Nagle's algorithm***                 | Disable Nagle's algorithm.                                       |
-| ***Use SSH authentication agent***              | Uses SSH authentication agent which is currently opened on your machine (including the {{ en.RDM }} SSH key agent). |
+| ***Use SSH authentication agent***              | Uses SSH authentication agent which is currently open on your machine (including the {{ en.RDM }} SSH key agent). |
 | ***Ping interval***                             | A command is sent every X second to keep the connection alive.   |
 | ***Ping string***                               | The string which is sent with the ***Ping interval*** option.    |
 | ***Paste delay***                               | Added delay for pasting text.                                    |
