@@ -13,9 +13,9 @@ Les propriétés suivantes peuvent être configurées lors de la création ou de
 |-------------------|------------------------|
 | ***Nom***         | Le nom de l'entrée. |
 | ***Dossier***     | Le dossier où l'entrée est située. Un dossier peut être sélectionné en cliquant sur la flèche ou les trois points pour ouvrir la fenêtre ***Dossier***. Pour créer un nouveau dossier, cliquer sur l'icône plus (***+***).|
-| ***Affichage***   | Comment la session est affichée. ***Intégré (à onglets)*** signifie que la connexion à distance est ouverte dans la même fenêtre que les autres onglets ou entrées. Chaque connexion a son propre onglet, ce qui facilite le passage de l'une à l'autre. Un affichage ***détaché*** fait référence à la fenêtre de session étant séparée de l'application principale. Cela vous permet de déplacer et redimensionner librement la fenêtre de session à distance sur votre bureau. |
+| ***Affichage***   | Comment la session est affichée. ***Intégré (avec onglets)*** signifie que la connexion à distance est ouverte dans la même fenêtre que les autres onglets ou entrées. Chaque connexion a son propre onglet, ce qui facilite le passage de l'une à l'autre. Un affichage ***détaché*** fait référence à la fenêtre de session étant séparée de l'application principale. Cela vous permet de déplacer et redimensionner librement la fenêtre de session à distance sur votre bureau. |
 | ***Hôte***        | ***Hôte configuré*** vous permet de sélectionner l'hôte. ***Lié (coffre)*** indique que l'hôte pour l'entrée est lié à une entrée d'hôte. ***Hérité*** est utilisé lorsque l'hôte est hérité d'une entrée de niveau supérieur ou parent. |
-| ***Identifiants*** | <ul> <li>***Nom d'utilisateur et mot de passe*** : Vous définirez le nom d'utilisateur et le mot de passe dans l'onglet ***Général***.</li> <li>***Lié (coffre)*** : Lien vers des identifiants disponibles dans le coffre partagé actuel.</li> <li>***Hérité*** : L'héritage signifie que les identifiants seront automatiquement transmis d'une entrée de niveau supérieur aux entrées de niveau inférieur qui en héritent.</li> <li>***Mes identifiants personnels*** : Ces identifiants ne sont pas spécifiques à l'entrée mais sont plutôt pris dans l'option sous ***Fichier*** – ***Paramètres de mon compte*** – ***Identifiants locaux*** – ***Mes identifiants personnels***.</li> <li>***Aucun*** : {{ fr.RDM }} n'enverra pas d'identifiants à l'entrée.</li> <li>***Trouver par nom (coffre utilisateur)*** : Recherche le nom d'une entrée dans le coffre utilisateur.</li> <li>***Mon compte privilégié*** : Ces identifiants ne sont pas spécifiques à l'entrée mais sont plutôt pris dans l'option sous ***Fichier*** – ***Paramètres de mon compte*** – ***Identifiants locaux*** – ***Mon compte privilégié***.</li> </ul> |
+| ***Identifiants*** | <ul> <li>***Nom d'utilisateur et mot de passe*** : Vous définirez le nom d'utilisateur et le mot de passe dans l'onglet ***Général***.</li> <li>***Lié (coffre)*** : Liens vers des identifiants disponibles dans le coffre partagé actuel.</li> <li>***Hérité*** : L'héritage signifie que les identifiants seront automatiquement transmis d'une entrée de niveau supérieur aux entrées de niveau inférieur qui en héritent.</li> <li>***Mes identifiants personnels*** : Ces identifiants ne sont pas spécifiques à l'entrée mais sont plutôt pris dans l'option sous ***Fichier*** – ***Paramètres de mon compte*** – ***Identifiants locaux*** – ***Mes identifiants personnels***.</li> <li>***Aucun*** : {{ fr.RDM }} n'enverra pas d'identifiants à l'entrée.</li> <li>***Trouver par nom (coffre utilisateur)*** : Recherche le nom d'une entrée dans le coffre utilisateur.</li> <li>***Mon compte privilégié*** : Ces identifiants ne sont pas spécifiques à l'entrée mais sont plutôt pris dans l'option sous ***Fichier*** – ***Paramètres de mon compte*** – ***Identifiants locaux*** – ***Mon compte privilégié***.</li> </ul> |
 
 ![Onglet Général](https://cdnweb.devolutions.net/docs/RDMW0027_2024_2.png)
 
@@ -35,7 +35,7 @@ Les propriétés suivantes peuvent être configurées lors de la création ou de
 
 ## Onglet Clé SSH
 ### Général
-| PARAMÈTRES          | DESCRIPTION                                                                                                         |
+| PARAMÈTRES        | DESCRIPTION                                                                                                         |
 |-------------------|---------------------------------------------------------------------------------------------------------------------|
 | ***Type d'entrée***  | La source de la clé SSH.                                                                                          |
 | ***Coffre***       | La liste déroulante peut être utilisée pour sélectionner une clé SSH. Le bouton à points de suspension ouvre une fenêtre pour parcourir le coffre actuel à la recherche de clés SSH (ce champ n'est disponible que si le ***Type d'entrée*** est ***Lié (coffre)***). |
@@ -72,7 +72,7 @@ Les propriétés suivantes peuvent être configurées lors de la création ou de
 | PARAMÈTRES                              | DESCRIPTION                                                    |
 |---------------------------------------|----------------------------------------------------------------|
 | ***Délai***                           | Un délai défini entre chaque commande exécutée.                    |
-| ***{ENTER} automatique après commande*** | Un saut de ligne automatique sera ajouté entre chaque commande. |
+| ***Automatique {ENTER} après commande*** | Un saut de ligne automatique sera ajouté entre chaque commande. |
 | ***Commandes***                        | Contient une liste de configurations de commande. Cliquer sur le bouton ***Nouveau*** ou ***Modifier*** ouvrira la fenêtre ***Édition de macro*** avec : <ul><li>Le champ ***Commande*** (prend en charge les variables)</li> <li>L'***Invite attendue*** (lorsque RDM voit cette valeur, il enverra cette commande)</li> <li>Le ***Délai d'attente*** pour l'option ***Invite attendue***</li></ul> |
 
 ![Onglet Avant fermeture](https://cdnweb.devolutions.net/docs/RDMW0033_2024_2.png)
@@ -81,7 +81,7 @@ Les propriétés suivantes peuvent être configurées lors de la création ou de
 | PARAMÈTRES                              | DESCRIPTION                                                                            |
 |---------------------------------------|----------------------------------------------------------------------------------------|
 | ***Délai***                           | Un délai défini entre chaque commande exécutée.                                            |
-| ***{ENTER} automatique après commande*** | Un saut de ligne automatique sera ajouté entre chaque commande.                         |
+| ***Automatique {ENTER} après commande*** | Un saut de ligne automatique sera ajouté entre chaque commande.                         |
 | ***Commandes***                        | 5 lignes de commande, suivies du champ ***Plus de commandes*** pour ajouter des commandes supplémentaires. |
 
 ![Terminal – Sous-onglet Configuration](https://cdnweb.devolutions.net/docs/RDMW0034_2024_2.png)
@@ -100,9 +100,9 @@ Les propriétés suivantes peuvent être configurées lors de la création ou de
 | ***Clignotement du curseur***              | Active ou désactive le clignotement du curseur.                                                            |
 | ***Taux de clignotement du curseur***      | Délai entre chaque clignotement du curseur.                                                            |
 | ***Réinitialiser le défilement à l'affichage*** | Activer ou désactiver la réinitialisation du défilement.                                                              |
-| ***Forcer le retour arrière non destructif***      | Activer ou désactiver le retour arrière non destructif.                                                 |
-| ***Retour chariot implicite dans le saut de ligne*** | Ajoute un retour chariot à chaque saut de ligne.                                                  |
-| ***Saut de ligne implicite dans le retour chariot*** | Ajoute un saut de ligne à chaque retour chariot.                                                  |
+| ***Activer le retour arrière non destructif*** | Activer ou désactiver le retour arrière non destructif.                                                 |
+| ***Retour chariot implicite dans le saut de ligne*** | Ajoute un retour chariot avec chaque saut de ligne.                                                  |
+| ***Saut de ligne implicite dans le retour chariot*** | Ajoute un saut de ligne avec chaque retour chariot.                                                  |
 | ***Lignes de défilement maximum***         | Le nombre maximum de lignes affichées.                                                       |
 | ***Délimiteurs de double-clic***           | Délimite ce qui est sélectionné dans le terminal avec un caractère ou une chaîne lors d'un double-clic. |
 
@@ -128,9 +128,9 @@ Les propriétés suivantes peuvent être configurées lors de la création ou de
 | ***Intervalle***                             | L'intervalle auquel un ping sera envoyé pour mettre à jour les informations sur la surveillance à distance. |
 | ***Commande à distance***                       |  |
 | ***Comportement de la cloche***                        | Comment {{ fr.RDM }} réagira à l'envoi du caractère de cloche par le terminal SSH.    |
-| ***Activer la compression***                   | Permet d'envoyer ou non des données compressées.                                         |
-| ***Ouvrir automatiquement l'onglet de transfert de fichiers*** | Ouvre automatiquement l'onglet de transfert de fichiers lorsque le terminal est ouvert.         |
-| ***Démarrer minimisé***                      | Minimise l'onglet de transfert de fichiers lorsque la session terminal est ouverte.           |
+| ***Activer la compression***                   | Permet d'envoyer des données compressées ou non.                                         |
+| ***Ouvrir automatiquement l'onglet de transfert de fichiers*** | Ouvre automatiquement l'onglet de transfert de fichiers lorsque le terminal est ouvert.           |
+| ***Démarrer minimisé***                      | Minimise l'onglet de transfert de fichiers lorsque la session terminal est ouverte.             |
 | ***Afficher les fichiers en arborescence***              | Affiche les fichiers dans l'onglet de transfert de fichiers.                                          |
 | ***Afficher les fichiers cachés***                    | Affiche les fichiers cachés dans l'onglet de transfert de fichiers.                                   |
 | ***Journaliser dans un fichier***                          | Définir un chemin et un fichier pour conserver les journaux.                                              |
@@ -196,16 +196,16 @@ Les propriétés suivantes peuvent être configurées lors de la création ou de
 | ***Afficher les messages d'erreur***                    | Choisir d'afficher ou non les messages d'erreur.                            |
 | ***Toujours accepter l'empreinte digitale***                 | Toujours accepter les empreintes digitales ou non.                               |
 | ***Mode de clic de souris***                          | Change le comportement du clic droit : <ul><li>***Windows*** : affiche un menu contextuel.</li> <li>***Compromis*** : colle.</li> <li>***XTerm*** : Sélectionne le texte.</li></ul> |
-| ***Support de l'algorithme***                         | En mode ***Personnalisé***, cliquer sur le bouton à points de suspension pour sélectionner un ou plusieurs algorithmes ***Chiffrement***, ***Clé d'hôte***, ***Kex*** et/ou ***MAC***. |
+| ***Prise en charge des algorithmes***                         | En mode ***Personnalisé***, cliquer sur le bouton à points de suspension pour sélectionner un ou plusieurs algorithmes ***Chiffre***, ***Clé d'hôte***, ***Kex*** et/ou ***MAC***. |
 | ***Taille minimale de la clé Diffie-Hellman***           | Taille minimale de la clé en bits.                                        |
-| ***Ignorer le caractère de substitution***               | Ignorer ou non les caractères de substitution.                            |
+| ***Ignorer le caractère de substitution***               | Ignorer les caractères de substitution ou non.                            |
 | ***Activer les keepalives TCP***                     | Activer les keepalives TCP.                                          |
 | ***Activer l'authentification API GSS***             | Activer l'authentification API GSS.                                  |
 | ***Ignorer la configuration des variables d'environnement***           | Ignorer la configuration des variables d'environnement.                                |
 | ***Activer la délégation des identifiants API GSS***      | Activer la délégation des identifiants API GSS.                            |
 | ***Autoriser le transfert de l'agent d'authentification SSH*** | Autoriser le transfert de l'agent d'authentification SSH.                       |
 | ***Désactiver l'algorithme de Nagle***                 | Désactiver l'algorithme de Nagle.                                       |
-| ***Utiliser l'agent d'authentification SSH***              | Utiliser l'agent d'authentification SSH actuellement ouvert sur votre machine (y compris l'agent de clé SSH {{ fr.RDM }}). |
+| ***Utiliser l'agent d'authentification SSH***              | Utiliser l'agent d'authentification SSH actuellement ouvert sur votre machine (y compris l'agent de clé SSH de {{ fr.RDM }}). |
 | ***Intervalle de ping***                             | Une commande est envoyée toutes les X secondes pour maintenir la connexion active.   |
 | ***Chaîne de ping***                               | La chaîne qui est envoyée avec l'option ***Intervalle de ping***.    |
 | ***Délai de collage***                               | Délai ajouté pour coller du texte.                                    |
