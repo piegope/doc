@@ -1,6 +1,8 @@
 ---
+_schema: default
 eleventyComputed:
   title: Activer le {{ fr.WBEX }} avec {{ fr.RDMWIN }}
+  description: >-
+    Le {{ fr.WBEX }} est activé par défaut dans les propriétés d'entrée de {{ fr.RDMWIN }}.
 ---
-Le {{ fr.WBEX }} est activé par défaut dans les propriétés d'entrée du {{ fr.RDMWIN }}. S'il est désactivé, vous pouvez le réactiver en sélectionnant ***Par défaut (Activé)*** ou ***Activé*** dans la liste déroulante du {{ fr.WBEX }}.
-![Activer le {{ fr.WBEX }}](https://cdnweb.devolutions.net/docs/docs_en_rdm_windows_Dwl4031.png)
+Le {{ fr.WBEX }} est activé par défaut dans les propriétés d'entrée de {{ fr.RDMWIN }}. S'il est désactivé, il peut être réactivé en sélectionnant ***Par défaut (Activé)*** ou ***Activé*** dans la liste déroulante {{ fr.WBEX }}. ![Enable the](https://cdnweb.devolutions.net/docs/RDMW6010.png)
