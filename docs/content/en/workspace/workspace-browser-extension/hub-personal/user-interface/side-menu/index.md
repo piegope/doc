@@ -25,7 +25,7 @@ At the top, you can use the ***Search*** bar to filter through all your credenti
 
 The ***Add Website*** button (+) opens a new browser tab that allows you to manually add a website entry in {% var, "DHUBP" false %} through the {{ en.WBEX }}.
 
-{% snippet, "badgeInfo" %}For a complete list of the available entries and fields in the ***Add website*** window, visit [New Entry](/workspace/workspace-browser-extension/hub-personal/user-interface/side-menu/new-entry/). You can also consult our step-by-step guide on [how to add an entry](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/add-entry-hub-personal-workspace-browser-extension/).{% endsnippet %}
+{% snippet, "badgeInfo" %}For a complete list of the available entries and fields in the ***Add website*** window, visit [Add website](/workspace/workspace-browser-extension/hub-personal/user-interface/side-menu/add-website/). You can also consult our step-by-step guide on [how to add an entry](/workspace/workspace-browser-extension/hub-personal/using-workspace-browser-extension/add-entry-hub-personal-workspace-browser-extension/).{% endsnippet %}
 
 ### Favorites tab
 
