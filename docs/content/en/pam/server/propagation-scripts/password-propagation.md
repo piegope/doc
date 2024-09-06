@@ -2,9 +2,9 @@
 _schema: default
 eleventyComputed:
   title: Password propagation
-  description: Password Propagation allows privileged accounts passwords reset to be propagated to remote servers services.
+  description: Password propagation allows privileged accounts passwords reset to be propagated to remote servers services.
 ---
-***Password Propagation*** allows privileged accounts passwords reset to be propagated to remote servers services. This topic covers [Propagation by script](#propagation-by-script) and [Active Directory specific propagation](#active-directory-specific-propagation).
+***Password propagation*** allows privileged accounts passwords reset to be propagated to remote servers services. This topic covers [Propagation by script](#propagation-by-script) and [Active Directory specific propagation](#active-directory-specific-propagation).
 
 {% youtube 'drRLA7U8YsQ?si=ihVhTcJOKxAh5kKS&amp;start=225' %}
 
