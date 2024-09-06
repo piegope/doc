@@ -22,5 +22,7 @@ S'assurer que les utilisateurs ou groupes ont les permissions nécessaires pour 
 
 1. Ouvrir {% var, "RDM" false %}.
 2. Sélectionner la [source de données](/concepts/basic-concepts/data-sources/) {% var, "DVLS" false %}.
-3. Activer le [mode hors ligne](/rdm/concepts/intermediate-concepts/offline/) en cliquant sur ***Fichier - Passer hors ligne***. ![Fichier - Passer hors ligne](https://cdnweb.devolutions.net/docs/RDMW6096_2024_2.png)
+3. Activer le [mode hors ligne](/rdm/concepts/intermediate-concepts/offline/) en cliquant sur ***Fichier - Passer hors ligne***.![Fichier - Passer hors ligne](https://cdnweb.devolutions.net/docs/RDMW6096_2024_2.png)
 4. La [source de données](/concepts/basic-concepts/data-sources/) {% var, "DVLS" false %} est maintenant disponible en mode hors ligne.
+
+![Mode hors ligne](https://cdnweb.devolutions.net/docs/RDMW6097_2024_2.png)
