@@ -1,10 +1,17 @@
 ---
 _schema: default
 eleventyComputed:
-  title: Enable offline mode
+  title: >-
+    Configure Devolutions Server data source for offline mode in Remote Desktop
+    Manager
   description: >-
     Configuring offline mode in {{ en.DVLS }} allows users or groups to access
     resources without needing continuous internet connection.
+
+
+    Configuring offline mode in {{ en.DVLS }} allows users or groups to access
+    resources without needing continuous internet connection when using a {{
+    en.DVLS }} data source in {{ en.RDM}}.
 ---
 Configuring ***offline mode*** allows users or groups to access resources without needing continuous internet connection when using a {{ en.DVLS }} [data source](/rdm/concepts/basic-concepts/data-sources/) in {% var, "RDM" false %}.
 
@@ -22,7 +29,7 @@ Ensure that the users or groups have the necessary permissions to operate with r
 
 1. Open {% var, "RDM" false %}.
 2. Select the {% var, "DVLS" false %} [data source](/concepts/basic-concepts/data-sources/).
-3. Enable the [offline mode](/rdm/concepts/intermediate-concepts/offline/) by clicking ***File - Go offline***.![File - Go offline](https://cdnweb.devolutions.net/docs/RDMW6096_2024_2.png)
+3. Enable the [offline mode](/rdm/concepts/intermediate-concepts/offline/) by clicking ***File - Go offline***.
 4. The {% var, "DVLS" false %} [data source](/concepts/basic-concepts/data-sources/) is now available in offline mode.
 
 ![Offline mode](https://cdnweb.devolutions.net/docs/RDMW6097_2024_2.png)
