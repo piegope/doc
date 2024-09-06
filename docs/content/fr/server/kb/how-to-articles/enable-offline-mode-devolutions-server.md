@@ -1,9 +1,10 @@
 ---
-_schema: défaut
+_schema: default
 eleventyComputed:
   title: Activer le mode hors ligne
   description: >-
-    Configurer le mode hors ligne dans {{ fr.DVLS }} permet aux utilisateurs ou groupes d'accéder aux ressources sans nécessiter une connexion Internet continue.
+    Configurer le mode hors ligne dans {{ fr.DVLS }} permet aux utilisateurs ou
+    groupes d'accéder aux ressources sans nécessiter une connexion Internet continue.
 ---
 Configurer le ***mode hors ligne*** permet aux utilisateurs ou groupes d'accéder aux ressources sans nécessiter une connexion Internet continue lors de l'utilisation d'une [source de données](/rdm/concepts/basic-concepts/data-sources/) {{ fr.DVLS }} dans {% var, "RDM" false %}.
 
@@ -21,5 +22,5 @@ S'assurer que les utilisateurs ou groupes ont les permissions nécessaires pour 
 
 1. Ouvrir {% var, "RDM" false %}.
 2. Sélectionner la [source de données](/concepts/basic-concepts/data-sources/) {% var, "DVLS" false %}.
-3. Activer le [mode hors ligne](/rdm/concepts/intermediate-concepts/offline/).
-4. &nbsp;
+3. Activer le [mode hors ligne](/rdm/concepts/intermediate-concepts/offline/) en cliquant sur ***Fichier - Passer hors ligne***. ![Fichier - Passer hors ligne](https://cdnweb.devolutions.net/docs/RDMW6096_2024_2.png)
+4. La [source de données](/concepts/basic-concepts/data-sources/) {% var, "DVLS" false %} est maintenant disponible en mode hors ligne.
