@@ -1,5 +1,5 @@
 ---
 eleventyComputed:
   title: Propagation scripts
-  order: 10
+  order: 20
 ---
