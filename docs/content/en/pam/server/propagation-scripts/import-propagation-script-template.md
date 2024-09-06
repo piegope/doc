@@ -5,7 +5,7 @@ eleventyComputed:
 ---
 Devolutions offers pre-configured propagation script templates on its [GitHub repository](https://github.com/Devolutions/PAM-Providers/tree/master/Propagation-Scripts). These are free to download and modify, and can help administrators propagate scripts without having to create complex custom scripts and templates.
 
-![Devolutions' pre-configured script templates](https://cdnweb.devolutions.net/docs/INTERFACE4051_2024_2.png)
+![Devolutions' pre-configured script templates](https://cdnweb.devolutions.net/docs/INTERFACE4051.png)
 
 ## Importing a template into {{ en.DVLS }}
 Once the desired template is downloaded from Devolutions GitHub propagation script repository, open {{ en.DVLS }}, head over to ***Administration*** – ***Privileged access*** – ***Propagation (preview)***, and click on the ***Script templates*** icon.
