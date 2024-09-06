@@ -17,3 +17,10 @@ Configuring ***offline mode*** allows users or groups to access resources withou
 {% snippet, "badgeNotice" %}
 Ensure that the users or groups have the necessary permissions to operate with reduced connectivity, and regularly update and synchronize settings when connectivity is available to maintain security and functionality.
 {% endsnippet %}
+
+&nbsp;
+
+1. Open {% var, "RDM" false %} .
+2. Select the {% var, "DVLS" false %} [data source](/concepts/basic-concepts/data-sources/).
+3. Enable the [offline mode](/rdm/concepts/intermediate-concepts/offline/).
+4. &nbsp;
